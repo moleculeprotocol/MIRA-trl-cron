@@ -1,0 +1,42 @@
+{
+  "file_path": "/artan-bio-partners-with-syenex-pr-mjt.pdf",
+  "document_type": "regulatory",
+  "relevance": "medium",
+  "summary": "Press release announcing a strategic collaboration between ARTAN Bio and Syenex dated June 6, 2025. ARTAN Bio is developing ARTAN-102, a codon suppressor therapeutic for aging and age-related disease. The partnership provides ARTAN access to Syenex's VivoCell Platform for precision in vivo delivery vehicle development to accelerate progression from in vitro proof-of-concept to IND-enabling studies.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Partnership Announcement and Development Stage",
+      "content": "ARTAN Bio partners with Syenex to access the VivoCell Platform for precision in vivo delivery of ARTAN-102, their lead drug candidate. Goal is to accelerate timeline from in vitro proof-of-concept to IND-enabling studies. Dr. Michael Torres (CSO, ARTAN) states they are progressing toward IND-enabling studies. Jay Rosanelli (CEO, Syenex) confirms ARTAN has generated strong preclinical data on ARTAN-102's therapeutic potential. This indicates the project is currently in preclinical development, having established in vitro proof-of-concept and now advancing toward regulatory-enabling studies."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Collaboration Scope and Technical Details",
+      "content": "Partnership includes: (1) Rapid Prototyping - Platform access to complete VivoCell Platform with libraries of precision delivery components, Syenex pre-clinical scale prototyping and production support; (2) Manufacturing Scale-Up - Prototypes to be transferred to Syenex CDMO partner for GMP scale-up; (3) Option Rights - Non-exclusive Program License option for clinical delivery vehicle composition. This demonstrates movement toward manufacturing capability and regulatory readiness (GMP production), key indicators of advancing TRL."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "ARTAN Bio Company Description and Therapeutic Approach",
+      "content": "ARTAN Bio is developing first-in-class therapeutics to restore full-length, functional proteins involved in aging and age-related disease using a codon suppressor platform. The company is community-backed with a decentralized scientific community of stakeholders. Lead candidate is ARTAN-102. The therapeutic mechanism involves codon suppression technology to restore protein function, representing a novel modality for aging and age-related diseases."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Syenex Company Background and Capabilities",
+      "content": "Syenex is an open-science biotechnology platform company founded in 2022 providing cell programming capabilities with precision and scale. Leverages synthetic biology and global CDMO network. Provides plug-and-play delivery platforms from discovery through GMP manufacturing. Has assembled portfolio of cell-specific ex vivo and in vivo delivery platforms with over 50 partnerships across biopharma and academia. Relevant for assessing partner capabilities and manufacturing pathway viability."
+    }
+  ],
+  "key_findings": [
+    "ARTAN-102 is the lead drug candidate, a codon suppressor therapeutic for aging and age-related disease",
+    "Project has achieved in vitro proof-of-concept and is progressing toward IND-enabling studies, indicating late preclinical stage (TRL 2-3 transition)",
+    "Strong preclinical data reported for ARTAN-102's therapeutic potential",
+    "Partnership aims to develop precision in vivo delivery vehicles, addressing a critical CMC/delivery challenge",
+    "GMP manufacturing scale-up pathway established through Syenex CDMO partnership",
+    "Non-exclusive program license option secured for clinical delivery vehicle, relevant for IP strategy",
+    "ARTAN Bio is community-backed with decentralized research model",
+    "First-in-class therapeutic mechanism using codon suppression to restore full-length functional proteins"
+  ]
+}

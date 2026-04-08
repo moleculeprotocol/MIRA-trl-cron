@@ -1,0 +1,17 @@
+{
+  "file_path": "/molecule.ultra001/jq2.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a stylized graphic illustration of a party hat with stars on a gradient background. It appears to be a decorative image or logo with no scientific, technical, or business content.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "Stylized illustration showing a party hat or wizard hat in blue and orange colors with a curved brim, set against a purple-to-blue gradient background with decorative stars. The image is purely graphical with no text, data, diagrams, or scientific content."
+    }
+  ],
+  "key_findings": [
+    "No TRL-relevant information present - document contains only decorative artwork",
+    "No experimental data, technical content, company information, or research findings",
+    "Image appears to be branding/design artwork rather than biotech project documentation"
+  ]
+}

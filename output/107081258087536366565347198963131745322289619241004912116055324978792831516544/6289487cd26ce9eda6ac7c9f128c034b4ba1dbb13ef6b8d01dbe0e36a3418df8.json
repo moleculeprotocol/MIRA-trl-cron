@@ -1,0 +1,50 @@
+{
+  "file_path": "/24-jun-2025-contrato-de-licensia-de-propiedad-intelectual-kene-psydao-novacio-n-docx.pdf",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is an intellectual property licensing agreement (in Spanish) between Fundación Kene Rao and PsyDAO Association regarding ancestral Kené designs from the Shipibo Konibo indigenous people. The document is a legal contract establishing royalty payments, exclusivity terms, and dispute resolution mechanisms. It contains no scientific, experimental, or technical development information relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Intellectual Property License Agreement Header and Parties",
+      "content": "Contract for transfer of author rights for Kené designs between Fundación Kene Rao (Licensor, Peru) and PsyDAO Association (Licensee, Switzerland). Effective date June 24, 2025. The designs are ancestral patterns of the Shipibo Konibo indigenous people."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Article 1 - Rights Transfer",
+      "content": "Licensor temporarily and exclusively transfers patrimonial rights including: digital reproduction, worldwide communication and distribution, translation/adaptation/transformation, and other legal uses of the Work."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Article 2 - Payment Terms",
+      "content": "Licensee will pay 20% royalties on retail price of products made with the Work. Payment upon each sale or monthly lump sum. Late payments incur 10% monthly interest (or maximum legal rate)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Article 3 - Contract Duration",
+      "content": "Indefinite duration starting from the Effective Date."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Articles 4-8 - Contract Terms",
+      "content": "Article 4: Exclusive rights granted to Licensee. Article 5: Licensee may sublicense with written consent. Article 6: Non-payment triggers contract termination and damages equal to half of profits from products. Article 7: Notice addresses provided. Article 8: Governed by Peruvian law, disputes in Pucallpa courts."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Signatures",
+      "content": "Contract signed by both parties. Licensee signature by Jesse Hudson. Licensor signature includes official stamp of Fundación Kene Rao with president signature."
+    }
+  ],
+  "key_findings": [
+    "This is purely a legal/commercial licensing agreement with no scientific or technical content",
+    "No experimental data, research findings, or development progress reported",
+    "No information about therapeutic targets, drug development, or technology readiness",
+    "Document is completely irrelevant to TRL assessment of biotech/science projects"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "file_path": "/fission-bio-fixing-broken-mitochondria-to-stop-brain-disease",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "Fission Bio is developing small molecule inhibitors targeting mitochondrial dysfunction in neurodegenerative diseases. The company has raised $400,000 through Cerebrum DAO to advance SC9, a drug candidate derived from Stanford's P110 peptide that blocks pathological Drp1-Fis1 interaction. The document describes 13 years of validation across 11 disease models and the transition from peptide to small molecule development.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Company Overview and Problem Statement",
+      "content": "Fission Bio addresses mitochondrial dysfunction in brain disease. Neurons have high energy demands requiring hundreds of mitochondria per cell. Mitochondrial fragmentation and failure actively drives diseases like Alzheimer's, ALS, and Huntington's (citations: Qi et al., 2013; Guo et al., 2013). The company raised $400,000 through Cerebrum DAO's IP-Token model to develop drugs targeting the fundamental mechanism of cellular energy breakdown rather than downstream symptoms."
+    },
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Hero Image",
+      "content": "Microscopy image of mitochondrial network with overlay text 'Fixing Broken Mitochondria to Stop Brain Disease'"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Biological Mechanism of Mitochondrial Dysfunction",
+      "content": "Healthy mitochondria balance fusion (merging into networks) and fission (dividing for energy demands and damage removal). Neurodegenerative diseases disrupt this balance. During inflammatory stress, protein Drp1 interacts with Fis1 receptor triggering excessive mitochondrial fragmentation while fusion decreases (Guo et al., 2013; Joshi et al., 2018). Result is fragmented, dysfunctional energy producers unable to meet metabolic demands. Mitochondrial dysfunction directly linked to progression of Alzheimer's (cognitive decline, neuronal death), ALS, Huntington's, and Parkinson's disease."
+    },
+    {
+      "page": 2,
+      "type": "figure",
+      "title": "Electron Microscopy of Mitochondria in Alzheimer's Model",
+      "content": "Series of electron microscopy images from Zhang et al., 2016 showing mitochondria in brain tissue from Alzheimer's disease model mice. Images labeled d1, d2, d3 show mitochondria undergoing splitting. Image e shows abnormal mitochondrial shapes and disrupted internal structures. Scale bars: 2 μm and 0.5 μm. Demonstrates pathological mitochondrial morphology in disease models."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "DRP1-Dependent Disease Map",
+      "content": "Body diagram showing diseases driven by DRP1-dependent mitochondrial fission across multiple organ systems: BRAIN (Alzheimer's, Parkinson's, Huntington's, Multiple Sclerosis, AMD, ALS), STROKE, HEART & LUNGS (congestive heart failure, COPD, idiopathic pulmonary fibrosis), GASTROINTESTINAL TRACT (IBD), SEPSIS. Indicates broad therapeutic potential of mechanism."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "P110 Discovery and Validation",
+      "content": "Stanford researchers developed P110 peptide to block pathological Drp1-Fis1 interaction while preserving normal mitochondrial dynamics (Qi et al., 2013). 13 years of research across 11 disease models demonstrated therapeutic potential: reduced neurodegeneration in Huntington's disease models (Guo et al., 2013), restored mitochondrial function in ALS patient cells (Joshi et al., 2018), improved cognitive performance in Alzheimer's models (Joshi et al., 2018), enhanced cardiac function in ischemic disease (Tian et al., 2017). P110 achieved benefits without causing immunosuppression - major limitation of anti-inflammatory treatments. However, peptides face therapeutic obstacles: complex manufacturing, poor brain penetration, rapid degradation."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "SC9 Small Molecule Development",
+      "content": "Dr. Luis Rios (Co-Founder and Principal Investigator) identified specific binding site termed SWAG (switch I-adjacent groove) where P110 interferes with Fis1 interaction. Team developed SC9, a small molecule mimicking P110's protective effects while overcoming peptide limitations (Rios et al., 2023). Represents transition from peptide to druggable small molecule."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Funding Model and Progress",
+      "content": "Cerebrum DAO funded initial $200,000 development phase. IP tokenized through MITY tokens on Molecule platform, raising additional $188,000 for lead identification and in-vivo testing. Total raised: $388,000 (note: intro states $400,000). IP-Token model advantages: direct community investment, transparent development with regular updates, shared IP ownership through tokens, faster decision-making without institutional bureaucracy. MITY token holders fund, govern, and guide progress while owning fractional stakes in patents. Model addresses 'valley of death' between laboratory discoveries and viable treatments."
+    },
+    {
+      "page": 4,
+      "type": "mixed",
+      "title": "Social Media Engagement",
+      "content": "Screenshot of FissionBio Twitter post from Aug 27, 2025 promoting podcast with Dr. Luis Rios on Cerebrum DAO's Meet The Scientists discussing mitochondria, fission, and DeSci funding advantages. Shows active community engagement and scientific communication."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Current Stage and Next Steps",
+      "content": "Fission Bio has proven concept works in laboratory models. Current stage: systematic process of turning promising compounds into medicines. Community participates in development process through Cerebrum DAO tokenization model. Links provided for MITY tokens, project details, and DAO participation."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Key References Part 1",
+      "content": "Guo et al. JCI 2013 - P110 inhibition diminishes Huntington's neurodegeneration. Joshi et al. EMBO Mol Med 2018 - Drp1/Fis1 inhibition slows ALS progression. Joshi et al. Oncotarget 2018 - Drp1/Fis1 mediates mitochondrial dysfunction and cognitive decline in Alzheimer's."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Key References Part 2",
+      "content": "Qi et al. J Cell Sci 2013 - Novel Drp1 inhibitor (P110) diminishes aberrant mitochondrial fission and neurotoxicity. Rios et al. Nat Commun 2023 - Targeting allosteric site in Drp1 to inhibit Fis1-mediated mitochondrial dysfunction (SC9 development). Tian et al. J Mol Med 2017 - Ischemia-induced Drp1/Fis1-mediated mitochondrial fission in pulmonary hypertension."
+    }
+  ],
+  "key_findings": [
+    "13 years of validation across 11 disease models for P110 peptide including Huntington's, ALS, Alzheimer's, and cardiac ischemia",
+    "SC9 small molecule developed to overcome peptide limitations (poor brain penetration, rapid degradation, complex manufacturing)",
+    "SWAG binding site identified as specific target for Drp1-Fis1 interaction inhibition",
+    "Published proof-of-concept in Nature Communications 2023 (Rios et al.) for SC9 mechanism",
+    "$388,000 raised through decentralized IP-Token model (Cerebrum DAO + MITY tokens)",
+    "Current stage: lead identification and in-vivo testing phase",
+    "Team includes Dr. Luis Rios as Co-Founder and Principal Investigator with Stanford research heritage",
+    "Mechanism targets fundamental mitochondrial dysfunction rather than downstream symptoms",
+    "P110 demonstrated no immunosuppression unlike anti-inflammatory approaches",
+    "IP being tokenized and developed with fractional community ownership"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "file_path": "/surfing-the-scientific-ocean-introducing-graphsurfer.pdf",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a product announcement blog post for GraphSurfer, a web-based platform for visualizing scientific knowledge graphs. It describes a software tool for exploring research literature, not a biotech project developing a therapeutic or diagnostic product. The document contains no experimental data, clinical development information, or TRL-assessable content.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Introduction to GraphSurfer",
+      "content": "GraphSurfer is described as a web-based, interactive platform for exploring scientific knowledge graphs. It allows users to navigate networks of scientific concepts, papers, and entities through a visual interface. The platform includes an AI assistant called Kai that guides users through research spaces."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Platform Purpose and Architecture",
+      "content": "BeeARD developed GraphSurfer to provide human-accessible interfaces to their ARD (Autonomous Research Discovery) framework and HypGen AI-driven hypothesis generation platform. The initial implementation focuses on psychedelic science as a knowledge domain. The system uses multi-agent AI systems and dynamic knowledge graphs."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Core Components and Feedback Loop",
+      "content": "Three core components: (1) Knowledge Graph Interface for visual navigation, (2) Kai AI assistant for natural language guidance, (3) User-Driven Discovery Loops that log navigation patterns. User exploration data feeds into HypGen to generate testable hypotheses based on curiosity-driven subgraphs. Hypotheses are published to hypgen.ai for community validation."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Open Source Model and Future Development",
+      "content": "GraphSurfer and HypGen are fully open-source. Labs can request custom knowledge graphs for their research domains. Planned features include multiple knowledge domains, token-based incentives, leaderboards, and enhanced Kai integrations. PsyDAO awarded a 5 ETH grant to support development focused on psychedelic science."
+    },
+    {
+      "page": 5,
+      "type": "mixed",
+      "title": "Product Screenshot and Call to Action",
+      "content": "Screenshot shows the GraphSurfer v1 interface with nodes representing concepts like 'Serotonin Receptors', 'Neuroplasticity', 'Depression', etc. in a visual graph layout with purple/pink color scheme. The interface includes a chat box for Kai interactions and a history sidebar."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Links and Contact Information",
+      "content": "Links provided: graphsurfer.xyz (platform), hypgen.ai (hypothesis generator), info@beeard.ai (contact). Blog post originally published on Mirror blockchain publishing platform."
+    }
+  ],
+  "key_findings": [
+    "This is a software/platform product announcement, not a therapeutic development project",
+    "No experimental data, clinical information, or drug/device development content present",
+    "Not applicable for TRL assessment in the biotech/pharma context",
+    "The platform is a research tool rather than a research output with therapeutic applications"
+  ]
+}

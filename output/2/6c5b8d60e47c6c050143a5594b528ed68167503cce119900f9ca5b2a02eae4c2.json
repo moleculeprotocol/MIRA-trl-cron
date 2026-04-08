@@ -1,0 +1,152 @@
+{
+  "file_path": "/vitafast-202512updates.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "VitaFAST project document detailing development of small-molecule autophagy activators for lysosomal storage disorders (NPC) and longevity. The document outlines completed high-throughput screening identifying novel autophagy inducers, three rounds of NCE synthesis showing 10-100x potency improvements, identification of two novel molecular targets, and planning for both novel compound development and drug repurposing clinical trials. The project is at TRL 2-3, with in vitro validation in disease-relevant cell models and planning for IND-enabling studies.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview & Scientific Foundation",
+      "content": "Project: VitaFAST - Discovery and development of small-molecule activators of autophagy that rescue lysosomal dysfunction. Therapeutic concept: Compounds identified via high-throughput phenotypic screening in autophagy-deficient cell models, optimized as first-in-class autophagy activators. Target indications: Longevity, Niemann-Pick type C (NPC), and other lysosomal storage disorders. Patient populations: NPC (~787 patients in 7 major markets, ~335 in US; market $110-140M in 2024, projected $210-260M by 2032), broader LSDs (~1 in 5,000 births; market $9-11B in 2025, growing to $13-20B by 2032-2034), longevity/aging (universal population; market $8.9B in 2023, projected $24.5B by 2032), broader neurodegeneration (50M+ Alzheimer's, 10M+ Parkinson's patients globally)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Mechanism and Development Stage",
+      "content": "Mechanism of action: Small molecules activate autophagy and restore lysosomal function, rescuing cell survival in lysosomal dysfunction models (Npc1-/-) but not in cells lacking autophagy initiation (Atg5-/-). Biological target: Autophagy-lysosome pathway. Current development stage: Testing new chemical entities (NCEs) in vitro, exploring feasibility of drug repurposing clinical trial. Completed milestones: Pilot screening of FDA-approved drug library identified 12 previously unknown autophagy inducers; thousands of compounds from natural and commercial libraries screened; multiple hit series with autophagy-activating signatures identified; three NCE rounds ordered and tested (Q4 2024-H2 2025); three lead compounds identified with 10-100x higher potency than previous series; two novel targets identified (H1 2025) - previously proposed longevity targets; commercially available compounds binding these targets validated as potent autophagy inducers."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Upcoming Milestones",
+      "content": "Q4 2025: Complete computational optimization with known targets, IP filing for lead molecules. Q4 2025-Q1 2026: Drug repurposing trial scoping (UAE pathway) - regulatory pre-submission, CMC planning, clinical protocol draft. 2026: IND-enabling studies (murine safety experiments) for novel lead compounds. 2026-2027: Potential Phase 2 clinical trial initiation (repurposed compound pathway)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Team Information",
+      "content": "Key personnel: Dr. Viktor Korolchuk (Principal Investigator, Cell Biology/Autophagy), Dr. Peter Banks (High-throughput Screening & Robotics), Dr. Jóhannes Reynisson (Drug Discovery & Medicinal Chemistry/SAR), Prof. Konstantin Volcho (Organic & Medicinal Chemistry, Natural-product Library), VitaDAO dealflow and community contributors. Affiliations: Korolchuk Lab, Newcastle University, Newcastle upon Tyne, UK; High Throughput Screening Facility, Faculty of Medical Sciences, Newcastle University, UK; Keele University, UK (drug discovery collaboration); Novosibirsk Institute of Organic Chemistry, Russian Academy of Sciences, Russia (natural-product library and synthesis); VitaDAO (decentralized longevity research collective). Team expertise: Autophagy and lysosomal biology, cellular homeostasis and neurodegeneration, high-throughput screening and assay development, organic and medicinal chemistry, SAR and drug discovery, computational chemistry, and translational longevity therapeutics."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Intellectual Property Status",
+      "content": "IP strategy under development with fresh patent filings planned. IP-NFT registered on Molecule protocol, tokenized as VITA-FAST IP Tokens (first DeSci fractionalized IPT). Newcastle University collaboration IP subject to university IP framework. Patent application filed December 2, 2025 for repurposed compounds for autophagy induction and longevity use - Title: METHODS FOR ENHANCING AUTOPHAGY USING REPURPOSED PHARMACEUTICAL COMPOUNDS. IP structure: VitaFast LLC (Delaware) formed to hold and manage project IP. New patent applications planned for novel compounds developed through SAR optimization (targeting H2 2025)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Scope of IP Protection",
+      "content": "Filed IP: Repurposing claims for commercially available compounds as autophagy activators; methods of use for treating lysosomal storage disorders via autophagy activation; methods of use for longevity and age-related disease treatment. Planned claims to cover: Composition of matter for novel autophagy-activating small molecules; methods of use for treating lysosomal storage disorders via autophagy activation; methods of use for longevity and age-related disease treatment; novel target applications for autophagy induction; screening assays and methods for identifying autophagy modulators."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Freedom-to-Operate Assessment",
+      "content": "Favorable FTO position with key considerations: VitaFAST's approach targets downstream autophagy activation and lysosomal function rescue, distinct from mTOR inhibitors (rapamycin and rapalogs); novel compound structures are proprietary and distinct from existing autophagy modulators; phenotypic screening approach generates novel chemical matter; key competitors (rapamycin, everolimus) work via mTOR inhibition - VitaFAST compounds work via distinct, newly identified targets; two newly identified targets represent novel mechanism of action for autophagy activation; strong differentiation from existing therapeutic approaches for NPC (miglustat, cyclodextrins)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Proof-of-Concept Data",
+      "content": "Experimental results supporting mechanism with appropriate controls: Autophagy-deficient cells (Npc1-/-, Atg5-/-, Atg7-/-, FIP200/Rb1cc1-/-) show conserved cell-death phenotype under galactose stress; rescue is achievable by autophagy induction or downstream interventions (e.g., NAD+ modulation), establishing the assay biology. Pilot screen of FDA-approved drugs identified 12 previously unknown autophagy inducers that activate autophagy flux in luciferase-p62 and LC3 'traffic-light' assays, validating the screening platform. Thousands of compounds from natural and commercial libraries have been screened; multiple hit series with autophagy-activating signatures have been identified and advanced to derivative synthesis."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Disease Model Information",
+      "content": "Specific models used and validation status: Mouse embryonic fibroblasts (MEFs) with Npc1 knockout (Npc1-/-) modelling lysosomal dysfunction associated with NPC and Parkinson's disease. Autophagy-initiation knockouts (Atg5-/-, Atg7-/-, FIP200/Rb1cc1-/-) as negative controls to distinguish true autophagy-dependent rescue from non-specific survival effects."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Dose-Response Relationships",
+      "content": "Quantitative dose-response characterization ongoing. Key findings to date: Third-round NCEs show 10-100x higher potency than earlier lead series; commercially available compounds binding newly identified targets show highest potency in autophagy assays; formal EC50/IC50 determination planned as part of lead optimization; potency benchmarking against rapamycin and other commercial autophagy inducers completed."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Candidate Status",
+      "content": "Three lead structures from which variations on each are producing favorable New Chemical Entities. Two lead repurposing molecules that have been through Phase 1 trials and are highly potent in lab assays of autophagy."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Safety Data",
+      "content": "Preclinical safety (non-GLP): Lead compounds tested in cellular autophagy assays with no acute cytotoxicity signals at therapeutic concentrations; rescue is specific to autophagy-competent cells (Npc1-/-) and not observed in autophagy-deficient cells (Atg5-/-), demonstrating mechanism specificity; worm healthspan and longevity studies ongoing to assess systemic effects. Planned safety studies: Murine safety experiments as IND-enabling activities; standard ADMET profiling for lead candidates; GLP toxicology package for clinical development."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Manufacturing Route",
+      "content": "For novel NCEs: Synthesis performed by contracted chemistry suppliers; SAR-driven optimization yielding drug-like molecules; scale-up synthesis planned following lead selection; Keele University (Dr. Jóhannes Reynisson) providing medicinal chemistry and SAR guidance; Novosibirsk Institute of Organic Chemistry (Prof. Konstantin Volcho) contributing natural product library synthesis. For repurposed compounds: GMP manufacturing scoping initiated (VFDP-14); manufacturing timeline and cost identified as key risk factors; existing GMP process for the repurposed compound will be utilized."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Regulatory Pathway",
+      "content": "Clinical trial pathway in UAE. Blood autophagy/mitophagy biomarkers testing."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Market Size",
+      "content": "Primary indication - Lysosomal storage disorders: Global LSD therapeutics market ~$9-11 billion (2025), projected to reach ~$13-20 billion by 2032-2034; enzyme replacement therapy (ERT) dominates market (~84% share in 2024); Niemann-Pick type C market: ~$110-140 million (2024), projected to reach ~$210-260 million by 2032; strong unmet need for therapies that restore lysosomal function at the cellular level. Secondary indications - Longevity/aging: Global longevity and anti-aging drugs market: $8.9 billion (2023) → $24.5 billion by 2032 (11.8% CAGR); mTOR inhibitors represent key segment within longevity market; autophagy inducers represent emerging subsegment with significant growth potential. Broader indications - Neurodegeneration: Alzheimer's disease therapeutics: ~$10 billion (2024), projected to grow significantly with disease-modifying therapies; Parkinson's disease therapeutics: ~$5 billion market; autophagy dysfunction implicated in both conditions."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Competitive Position",
+      "content": "Key competitors in autophagy modulation: Rapamycin/Rapalogs (sirolimus, everolimus, temsirolimus): FDA-approved mTOR inhibitors, well-established mechanism but significant side effects (immunosuppression), work by inhibiting mTOR upstream of autophagy; Miglustat (Zavesca/Brazaves): Approved for NPC in EU/Japan (not US), substrate reduction therapy, limited efficacy in clinical use; Cyclodextrins (Trappsol Cyclo, Kleptose HPB): Compassionate use for NPC, target cholesterol clearance rather than autophagy directly; Metformin: AMPK activator, autophagy-inducing effects secondary to metabolic mechanism. VitaFAST differentiation: Novel mechanism (direct autophagy activation via newly identified targets, distinct from mTOR inhibition); lysosomal-specific rescue (compounds rescue lysosomal dysfunction specifically, not just autophagy initiation); high potency (lead compounds show 10-100x higher potency than earlier series); NAD preservation (mechanism directly addresses autophagy-NAD axis identified by Korolchuk lab); dual development paths (novel NCEs and drug repurposing opportunities); first-in-class potential (no approved drugs specifically targeting autophagy activation for longevity)."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Computational Validation",
+      "content": "Computational and structural approaches supporting VitaFAST: SAR-driven medicinal chemistry optimization across three rounds of NCE synthesis; computational target analysis following identification of two novel targets (H1 2025); VFDP-15 approved modified plan focusing on computational optimization with known targets; Dr. Jóhannes Reynisson (Keele University) providing drug discovery and SAR analysis."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Literature Support",
+      "content": "Key foundational publications from Korolchuk Lab: Kataura T et al. (2024) 'Targeting the autophagy-NAD axis protects against cell death in Niemann-Pick type C1 disease models' - Cell Death & Disease (demonstrates NAD preservation via autophagy in NPC disease models); Kataura T et al. (2022) 'Autophagy promotes cell survival by maintaining NAD levels' - Developmental Cell (establishes evolutionarily conserved role of autophagy in NAD preservation); Wilson N et al. (2023) 'The autophagy-NAD axis in longevity and disease' - Trends in Cell Biology (review of autophagy-NAD crosstalk and therapeutic implications); Sedlackova L et al. (2023) 'Metabolic function of autophagy is essential for cell survival' - Autophagy (commentary on autophagy-NAD connection and therapeutic targets); Sedlackova L & Korolchuk VI (2020) 'The crosstalk of NAD, ROS and autophagy in cellular health and ageing' - Biogerontology (review of NAD-ROS-autophagy interplay in aging); Sun C et al. (2023) 'NAD depletion mediates cytotoxicity in human neurons with autophagy deficiency' - Cell Reports (human neuronal validation of autophagy-NAD axis). Target validation: Autophagy dysfunction is well-established in NPC, neurodegeneration, and aging; NAD depletion in autophagy deficiency validated across yeast, mouse, and human models; pharmacological and genetic interventions targeting this cascade improve survival in autophagy-deficient cells."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Biomarker Strategy",
+      "content": "Pharmacodynamic biomarkers: P62 clearance assays (primary autophagy flux measurement); LC3 'traffic-light' assays (autophagy activation confirmation); lysosomal function markers (lysosomal fusion assessment); blood autophagy/mitophagy biomarkers (planned for clinical pathway in UAE); NAD levels (metabolic rescue confirmation). Patient stratification (for NPC indication): Genetic testing to confirm NPC1/NPC2 mutations; baseline lysosomal function assessment; disease severity staging. Longevity/aging biomarkers (for clinical trial): Autophagy markers in peripheral blood cells; NAD+ levels in blood; mitochondrial function markers; inflammatory markers (as autophagy restores homeostasis)."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Platform Potential",
+      "content": "The VitaFAST autophagy activation platform has broad applicability: Neurodegeneration (Alzheimer's disease - protein aggregate clearance, Parkinson's disease - mitochondrial quality control, Huntington's disease); other lysosomal storage disorders beyond NPC (Gaucher disease, Fabry disease, mucopolysaccharidoses); metabolic diseases (conditions where autophagy decline contributes to pathology); aging/longevity (systemic cellular health maintenance); cancer (context-dependent application - autophagy-dependent cell death in some cancers); combination approaches (potential synergy with NAD+ precursors (NMN, NR), sirtuin activators, or other geroprotectors)."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Funding Status",
+      "content": "Funding history: VitaDAO initial grant (VDP-16): ~$285,000 (project valuation); VITA-FAST Token crowdsale: 1700%+ oversubscribed, ~$620K in bids, ~$32K target sale (1,000,000 tokens minted, 10% sold to community); ongoing governance-approved budgets: VFDP-11 (Q4 2024), VFDP-12, VFDP-13 ($135K H1 2025), VFDP-14 ($30K repurposing scoping), VFDP-15 (modified H2 2025 plan)."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Publications",
+      "content": "Team publications: Viktor Korolchuk: 160+ peer-reviewed publications, H-index 56, 20,000+ citations; Nature Cell Death & Disease (2024): 'Targeting the autophagy-NAD axis protects against cell death in Niemann-Pick type C1 disease models'; Developmental Cell (2022): 'Autophagy promotes cell survival by maintaining NAD levels'; Trends in Cell Biology (2023): 'The autophagy-NAD axis in longevity and disease'; VitaDAO blog posts documenting project progress and milestones; community update calls (November 2024, ongoing). Conference presentations: VitaDAO community calls and scientific presentations; Newcastle University research seminars. Planned publications: Peer-reviewed manuscript on novel autophagy-activating compounds and target identification; conference presentations at aging and lysosomal disease meetings."
+    }
+  ],
+  "key_findings": [
+    "High-throughput phenotypic screening platform validated: Pilot screen of FDA-approved drugs identified 12 previously unknown autophagy inducers confirmed in luciferase-p62 and LC3 traffic-light assays",
+    "Disease model validation: Npc1-/- MEFs (lysosomal dysfunction model) show conserved cell-death phenotype under galactose stress; rescue achievable by autophagy induction but not in autophagy-deficient cells (Atg5-/-, Atg7-/-, FIP200-/-), demonstrating mechanism specificity",
+    "Lead optimization progress: Three rounds of NCE synthesis completed (Q4 2024-H2 2025), yielding three lead compounds with 10-100x higher potency than earlier series",
+    "Novel target identification: Two novel molecular targets identified (H1 2025), previously proposed longevity targets; commercially available compounds binding these targets validated as potent autophagy inducers",
+    "Dual development pathway: Novel NCEs advancing toward IND-enabling studies (2026) AND drug repurposing pathway with two Phase 1-tested molecules showing high potency in autophagy assays, with UAE clinical trial scoping underway (Q4 2025-Q1 2026)",
+    "Strong scientific foundation: Multiple peer-reviewed publications from Korolchuk lab establishing autophagy-NAD axis in cell survival, validated across yeast, mouse, and human models",
+    "IP strategy: Patent filed December 2, 2025 for repurposed compounds; additional patent applications planned for novel compounds (H2 2025); VitaFast LLC formed to manage IP",
+    "Favorable FTO position: Novel mechanism distinct from mTOR inhibitors (rapamycin/rapalogs), targeting downstream autophagy activation and lysosomal function rescue via newly identified targets",
+    "Safety data: Lead compounds show no acute cytotoxicity at therapeutic concentrations in cellular assays; mechanism-specific rescue (works in Npc1-/- but not Atg5-/- cells); worm healthspan/longevity studies ongoing",
+    "Substantial market opportunity: LSD therapeutics market ($9-11B in 2025, growing to $13-20B by 2032-2034), longevity market ($8.9B in 2023, $24.5B by 2032), with strong unmet need for cellular-level lysosomal function restoration"
+  ]
+}

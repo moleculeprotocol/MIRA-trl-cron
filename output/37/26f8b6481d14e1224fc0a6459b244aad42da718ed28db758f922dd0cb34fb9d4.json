@@ -1,0 +1,18 @@
+{
+  "file_path": "/molecule.ultra001/data-processors-diagram-2.png",
+  "document_type": "diagram",
+  "relevance": "none",
+  "summary": "This is a technical architecture diagram showing a data processing pipeline with various AWS Lambda processors (IPNFTs, IPTs, Markets, Holders, SPLs) that fetch and write data to external services (Azure, Moralis, Amazon Aurora). The diagram illustrates a software infrastructure system with pull and push mechanisms for data synchronization.",
+  "content_blocks": [
+    {
+      "type": "diagram",
+      "title": "Data Processing Architecture",
+      "content": "System architecture showing two processing mechanisms: 1) Pull mechanism with four processors (IPNFTs Processor, IPTs Processor, Markets Processor, Holders Processor) triggered at intervals of 10, 10, 5, and 5 minutes respectively, fetching data from an initial source and sending to Azure, Moralis, and Amazon Aurora database. 2) Push mechanism with SPLs Processor that writes data to Amazon Aurora. Icons represent various cloud services including AWS Lambda functions, Azure, Moralis, and Amazon Aurora database. A separate service consumes data from Aurora."
+    }
+  ],
+  "key_findings": [
+    "This document contains no biotech, scientific, or TRL-relevant content - it is purely a software/IT infrastructure diagram",
+    "No experimental data, therapeutic targets, biological mechanisms, or research findings present",
+    "No information about technology readiness, development stage, IP, team, or regulatory status related to biotech/pharma"
+  ]
+}

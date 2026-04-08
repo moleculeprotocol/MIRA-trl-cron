@@ -1,0 +1,104 @@
+{
+  "file_path": "/molecule.vitacar/vdp38-apoptosens-proposal.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "VitaDAO funding proposal for SENS Research Foundation's ApoptoSENS project requesting $253,000 to develop CAR-NK cells targeting senescent cells. The project aims to validate novel surface markers on senescent cells (SENS-1, -2, -3) and generate monoclonal antibodies and CAR-NK cells for selective senescent cell elimination. Preliminary in vitro data shows 40-50% senescent cell killing with 10-25% off-target effects.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview",
+      "content": "Funding request: $253,000 USD for 2-year project to develop CAR-NK cells targeting senescent cells. PI: Dr. Amit Sharma at SENS Research Foundation. Scientific evaluation by multiple reviewers achieved average score of 4.04/5. Project status: Passed funding approval."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Problem Statement",
+      "content": "Senescent cells accumulate with age, secrete proinflammatory factors (SASP), and lead to tissue dysfunction. Current senolytics are non-specific with unknown mechanisms. Major challenge: lack of cell surface markers to identify harmful senescent cells due to heterogeneous nature of senescence."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Prior Art and Validation",
+      "content": "Prior study (doi: 10.1038/s41586-020-2403-9) demonstrated CAR T cells targeting uPAR successfully cleared senescent cells in vitro and in vivo. Showed benefit in murine models of carbon tetrachloride-induced and diet-induced liver fibrosis. However, CAR T cell approach has limitations: proinflammatory cytokine profile, weight loss, hypothermia at supratherapeutic doses; requires immune suppression; expensive; expansion/contraction occurs over days presenting adverse reaction risk."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Preliminary Experimental Data",
+      "content": "Team identified novel surface markers on senescent IMR-90 cells using commercially available protocol. Senescence induced by ionizing radiation or doxorubicin treatments. Focused on 5 top candidate markers, with SENS-1, -2, and -3 further vetted. SENS-3 appears most promising based on Figure 3 data (not shown in document). These markers not present on healthy cells."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Proposed Work Scope",
+      "content": "Validate priority senescent cell surface markers using: (1) Additional cell model paradigms with different stressors, (2) Mouse models for cross-species validation. Generate monoclonal antibodies against validated surface markers. Confirm antibody specificity against target antigens. Create CAR NK cells and establish proof of concept for selective senescent cell removal in model systems."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Intellectual Property",
+      "content": "Patent intended to be filed for CAR-NK cell development methods. Patents already filed for specific surface-marker antibodies and reagents enabling selective targeting of senescent cells."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Team",
+      "content": "Dr. Amit Sharma: Project Lead at SENS Research Foundation. PhD in Biotechnology (University of Pune, 2009). Postdoc at Buck Institute studying genotoxic stress and cellular senescence in invertebrate and mammalian models. Group Lead of Senescence Immunology Research Group (ImmunoSENS) at SENS. Focus on aging effects on immune system and harnessing immunity to mitigate senescent cell effects."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Budget Breakdown",
+      "content": "2-year budget: Total project cost $430,000. SRF contribution: $200,000. VitaDAO contribution: $230,000 plus $23,000 overhead (10%). Annual breakdown per year: Lab equipment/reagents $40,000; Tech services $60,000 (monoclonal antibody generation, lentiviral vector cloning/expression, CAR-NK cell generation); Postdoc salary $90,000; 10% PI salary $25,000. Total per year: $215,000."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Highlights - Strengths",
+      "content": "PI has strong scientific background in senescence. SENS Research Foundation provides strong support with track record of successful spinouts (e.g., Underdog Pharma). Used multiple senescence-inducing methods in experiments. Senescent cell removal is attractive therapeutic approach for aging/longevity. Targeting surface markers with CAR NK cells is logical strategy given CAR T cell success. In vitro data provides proof of concept consistent with prior CAR T cell work."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Risks - Technical Concerns",
+      "content": "Preliminary in vitro data shows off-target effects: kills 40-50% senescent cells but also 10-25% healthy cells. p16 appears to be only senescence tracking marker used; heterogeneity of senescence requires additional markers for confirmation. No formal plan to validate markers using human biospecimens - critical missing element for potential value."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Scientific Review Summary",
+      "content": "4 senior reviewers unanimously voted to fund. Average conviction score: 4.04/5 (scale 1-5). Reviewer consensus: Translationally relevant project with pharma interest potential (NK cell therapies + senolytics). Strong mission alignment with VitaDAO. Well-qualified team. Likely to generate Composition of Matter IP around CAR-NK sequence."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Reviewer 2 Assessment",
+      "content": "Strengths: Novel target molecules with sound preliminary data. Senescent cell targeting attractive for age-related diseases, aligned with DAO mission. CAR NK cells present growing therapeutic opportunity. Strong team in supporting environment. Weaknesses: Main risk is whether new targets provide increased specificity for bad vs. good senescent cells. Limited plan for human biospecimen validation."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Reviewer 3 Concerns",
+      "content": "Project in preliminary stage with many unknowns. Cons: Unclear if in vitro senescence markers have same importance in vivo. Unclear if team has generated CAR-NK before - feasibility of making patentable material unknown. Unclear prioritization criteria for CAR-NK cells vs. antibodies. In vivo disease model not yet identified - could require substantial work."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Reviewer 4 Recommendation",
+      "content": "Should fund. Experienced PI, well-suited team. Negotiations refocused on IP generation with likely VC/Pharma commercialization interest if successful. Aligned with VitaDAO mission. Risks acknowledged: early development stage, some risk no valuable IP generated even in 2-year timeframe. Described PI and work as impressive."
+    }
+  ],
+  "key_findings": [
+    "Current TRL estimate: TRL 2 - Preliminary in vitro validation with 40-50% senescent cell killing (10-25% off-target effects)",
+    "Three lead surface marker candidates identified (SENS-1, -2, -3) using radiation and doxorubicin-induced senescence in IMR-90 cells",
+    "Patents already filed for surface-marker antibodies; CAR-NK patent intended",
+    "Proposed work: cross-species validation in mice, monoclonal antibody generation, CAR-NK cell creation",
+    "Major technical risks: specificity concerns, p16 as sole senescence marker, no human biospecimen validation plan, unclear in vivo relevance",
+    "Prior art validation: CAR-T approach (uPAR targeting) showed efficacy in murine liver fibrosis models but has safety/cost concerns",
+    "Team: Dr. Amit Sharma (SENS Research Foundation) with senescence immunology expertise",
+    "2-year budget: $253,000 from VitaDAO covering postdoc, reagents, tech services for antibody/CAR-NK generation",
+    "Institutional support: SENS Research Foundation with spinout track record (Underdog Pharma)",
+    "Development gaps: CAR-NK generation feasibility uncertain, in vivo disease model not identified, human translation unclear"
+  ]
+}

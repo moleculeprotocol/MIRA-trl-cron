@@ -1,0 +1,17 @@
+{
+  "file_path": "/molecule.ultra001/gecko.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a cartoon illustration of a zombie or monster character with green skin, mismatched eyes (one bloodshot, one with a flame), exposed brain, and tongue sticking out. It appears to be decorative artwork with no scientific, technical, or biotech-related content.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "Cartoon illustration of a green zombie/monster face with stylized features including a bloodshot eye, flame eye, exposed pink brain, yellow teeth, and protruding pink tongue on an orange background. This is purely decorative artwork with no scientific content."
+    }
+  ],
+  "key_findings": [
+    "No scientific, technical, or biotech content present",
+    "Document contains only decorative cartoon artwork",
+    "Not relevant to TRL assessment"
+  ]
+}

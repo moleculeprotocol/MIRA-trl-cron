@@ -1,0 +1,15 @@
+{
+  "file_path": "/360bd5cd-028c-402e-ae1d-52660a965e6e.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a 404 error page with no scientific or technical content. It contains only error messaging stating 'Page not found' with a humorous reference to IP (intellectual property) not getting lost. This appears to be a website error page, not a biotech or science project document.",
+  "content_blocks": [
+    {
+      "type": "text",
+      "content": "404 error page displaying 'Page not found' message with decorative cube graphics and text stating 'But IP never gets lost. Maybe just check the map.'"
+    }
+  ],
+  "key_findings": [
+    "No TRL-relevant content - this is a website error page with no scientific, technical, or project information"
+  ]
+}

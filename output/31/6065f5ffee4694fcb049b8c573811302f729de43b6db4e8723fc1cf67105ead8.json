@@ -1,0 +1,54 @@
+{
+  "file_path": "/periodontal-updates202512.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "medium",
+  "summary": "This document describes a preclinical project applying geroscience principles to treat age-related periodontal disease by targeting PI3K/NFκB/mTOR inflammatory pathways. The project builds on prior published work (eLife) showing rapamycin reverses periodontal bone loss in aged mice. The team plans to test five candidate compounds in aged mouse models with both systemic and local delivery approaches.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview & Scientific Foundation",
+      "content": "Project Title: Geroscience-Based Reversal of Periodontal Disease (finished, seminar to be organized). Therapeutic Concept: Applies geroscience approach to treat age-related periodontal disease by targeting underlying biological aging rather than symptoms. Uses small-molecule inhibitors of PI3K/NFκB/mTOR inflammatory pathway to reverse periodontal tissue and bone loss in aged mouse models. Aims to establish first non-surgical, medical therapy for age-related oral disease. Target Indication: Primary - Age-related periodontal disease (periodontitis). Secondary - Peri-implantitis, cognitive decline, and healthspan. Patient Population: Very large; >70% of older adults affected by periodontal disease, major global unmet medical need."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism of Action and Biological Target",
+      "content": "Mechanism: Systemic or local administration of small-molecule inhibitors targeting inflammaging pathways (PI3K/NFκB/mTOR) to reduce chronic inflammation, restore periodontal tissue homeostasis, reverse bone loss, and potentially improve systemic aging phenotypes. Rapamycin used as positive control. Biological Target: Inflammatory signaling pathways associated with aging, specifically PI3K/NFκB/mTOR (pathway-level modulation)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Current Development Stage",
+      "content": "Status: Finished, seminar to be organized. Preclinical stage. Project builds on prior in vivo evidence from eLife publication showing reversal of age-related periodontal bone loss in mice following 8-week oral rapamycin treatment. Current study proposes testing five candidate compounds in aged mouse models."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Development Timeline & Milestones",
+      "content": "Next 3 major milestones: (1) 8-week systemic administration study of five candidate compounds in aged mice with periodontal disease. (2) Local delivery sub-study (gum-line application) comparing effective compounds to locally delivered rapamycin. (3) Evaluation of periodontal outcomes, cognitive function, and lifespan, generating preclinical IP for future spin-out."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Team Information",
+      "content": "Key Personnel: Jonathan An, PhD (Project Lead/PI), Matt Kaeberlein, PhD (Collaborator - healthspan and lifespan analysis), Simon Johnson, PhD (Collaborator - neurodegeneration and cognition assessment). Affiliation: University of Washington, Seattle, USA. Team Expertise: Geroscience, periodontal biology, aging-related inflammation, animal models of aging, lifespan and healthspan analysis, neurodegeneration, translational aging research. PI has direct access to dental clinic to accelerate future human studies."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Intellectual Property Status",
+      "content": "Patent Application Status: No patents filed yet; IP to be generated contingent on successful outcomes. Scope of IP Protection: Primarily methods of use, formulation, and delivery (e.g., toothpaste, trays, local pocket delivery) for existing small molecules targeting age-related periodontal disease and peri-implantitis. Freedom-to-Operate: Composition-of-matter IP not expected (repurposing strategy). IP strength relies on delivery and formulation claims. Product development will likely require partnerships; no specific blocking patents identified."
+    }
+  ],
+  "key_findings": [
+    "Project is at preclinical stage, described as 'finished' with seminar to be organized, but no experimental data from the proposed studies is presented in this document",
+    "Builds on prior in vivo evidence published in eLife showing 8-week oral rapamycin treatment reversed age-related periodontal bone loss in mice (proof-of-concept established)",
+    "Plans to test 5 candidate compounds in aged mouse models: (1) 8-week systemic administration study, (2) local delivery comparison to rapamycin",
+    "Target mechanism: PI3K/NFκB/mTOR inflammatory pathways (inflammaging)",
+    "No patents filed yet; IP strategy focused on methods of use, formulation, and delivery for repurposed compounds",
+    "Strong academic team from University of Washington with expertise in geroscience, aging, and translational research",
+    "Large patient population (>70% of older adults have periodontal disease)",
+    "PI has access to dental clinic for future human studies"
+  ]
+}

@@ -1,0 +1,75 @@
+name: TRL Assessment
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      use_all_projects:
+        description: 'Fetch all projects from GraphQL (false = use test project)'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+      environment:
+        description: 'Sanity environment (production = real datarooms)'
+        required: false
+        default: 'production'
+        type: choice
+        options:
+          - 'staging'
+          - 'production'
+      force_process:
+        description: 'Force process even when dataroom hash unchanged'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+jobs:
+  process-projects:
+    name: Process Projects
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run TRL assessment
+        run: pnpm tsx src/index.ts
+        env:
+          ENVIRONMENT: ${{ github.event_name == 'schedule' && 'production' || github.event.inputs.environment || 'staging' }}
+          USE_ALL_PROJECTS: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.use_all_projects || 'true' }}
+          FORCE_PROCESS: ${{ github.event_name == 'schedule' && 'false' || github.event.inputs.force_process || 'false' }}
+          SANITY_API_TOKEN: ${{ secrets.SANITY_API_TOKEN }}
+          MOLECULE_API_KEY: ${{ secrets.MOLECULE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SANITY_STUDIO_URL: ${{ secrets.SANITY_STUDIO_URL }}
+
+
+      - name: Commit extraction cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          # Only commit if there are changes
+          git diff --staged --quiet || git commit -m "chore: update extraction cache"
+          git push

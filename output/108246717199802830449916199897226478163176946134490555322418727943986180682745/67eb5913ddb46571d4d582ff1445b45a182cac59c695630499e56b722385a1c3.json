@@ -1,0 +1,60 @@
+{
+  "file_path": "/mity-fission-bio-labs-report",
+  "document_type": "pitch_deck",
+  "relevance": "medium",
+  "summary": "Fission Bio is developing small molecule inhibitors targeting pathological mitochondrial fission by blocking the DRP1-FIS1 protein interaction to treat neurodegenerative diseases and chronic inflammation. The program has completed virtual screening of 48 billion compounds, confirmed 15 active hits in cellular assays, and is entering hit-to-lead optimization with planned in vivo validation in disease models by mid-2026.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Concept and Mechanism of Action",
+      "content": "Fission Bio develops small molecule inhibitors that selectively block pathological mitochondrial fission by targeting the DRP1-FIS1 protein-protein interaction at the SWAG (switch I-adjacent groove) binding site on DRP1. The compounds aim to preserve mitochondrial function without inhibiting normal immune responses, addressing neurodegeneration and chronic inflammation. Platform includes brain-penetrant, peripheral, and tissue-specific compounds."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Validation - P110 Peptide Platform",
+      "content": "Program originated from P110 peptide platform developed at Stanford University. Over 20 peer-reviewed publications establish DRP1-FIS1 as therapeutic target. P110 demonstrated efficacy in 11 validated mouse models including ALS, Huntington's disease, Alzheimer's disease, Parkinson's disease, stroke, and cardiac ischemia. Patient-derived iPSCs from neurodegenerative conditions showed mitochondrial dysfunction reversed by P110 treatment. Published studies show P110 reduces neurodegeneration, slows ALS progression, reverses bioenergetic failure and cognitive decline. Early small molecule mimetic SC9 shows comparable efficacy to P110 in vitro and in vivo."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Screening Progress and Results",
+      "content": "Virtual screening completed on 48 billion compounds from Enamine REAL library, prioritizing blood-brain barrier permeability and drug-like properties. 90 hits analyzed with 15 compounds confirmed active in primary mitoROS assays. Cellular assays demonstrate IC50 values in target range with ongoing optimization toward sub-10 µM potency. Functional readouts include ROS production, DRP1 translocation, and mitochondrial membrane potential as validation tools."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Team and Current Status",
+      "content": "Team led by PI Dr. Luis Rios with translational neuroscience advisor Dr. Peter Groenen and project manager Dr. Maryna Polyakova. Hit confirmation completed, entered early optimization. CRO partner: Pharmaron. Sponsor: Cerebrum DAO (IP custodian). IP-NFT minted. Composition of matter patents planned for novel DRP1-FIS1 inhibitor scaffolds post hit-to-lead optimization. IP strategy covers three classes: brain-penetrant (CNS), peripheral (systemic), tissue-restricted (eye, gut). Clean freedom-to-operate with de novo chemical scaffolds, no background IP restrictions."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Funding and Development Milestones",
+      "content": "Initial funding: $200,000 allocated by Cerebrum DAO ($84,508 disbursed to date). Additional community funding anticipated through IPT round targeting ~$500,000. Milestones: (1) New compound synthesis and secondary screening by November 2025 (300 additional compounds); (2) Hit-to-lead optimization and IP filings Q1 2026 (select 3 lead scaffolds); (3) In vivo validation in ALS, Huntington's, Alzheimer's iPSC-derived models by mid-2026. Regulatory strategy: ALS as lead indication for orphan drug designation, standard FDA IND pathway after lead optimization, in vivo efficacy, and safety profiling."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Market Opportunity and Competitive Positioning",
+      "content": "ALS: >200,000 patients worldwide. Broader neurodegenerative disease market: >$200 billion globally. Additional markets: Alzheimer's, Huntington's, Parkinson's, ischemic heart disease, age-related inflammatory conditions (hundreds of millions of patients). Competitive positioning: differentiated from NLRP3 inflammasome inhibitors and other anti-inflammatory approaches. Targets mitochondrial dysfunction without long-term immunosuppression risks. Brain-penetrant pharmacology for CNS applications. Recent comparable transactions: IFM Therapeutics acquisition ($2.8B by BMS), Ventyx Biosciences IPO ($2.1B)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Platform Strategy and Ownership Structure",
+      "content": "'Pipeline-in-a-pill' strategy with multiple pharmacokinetic profiles tailored for different indications and tissue targets. Modular approach enables diverse partnering and commercialization pathways. Positioning as strategic partner or acquisition target for rare and broad CNS indications. Ownership: Cerebrum DAO holds 85% preferred stock in operating company. Seed round planned contingent on hit-to-lead success."
+    }
+  ],
+  "key_findings": [
+    "TRL 2-3 stage: Completed virtual screening of 48 billion compounds, confirmed 15 active hits in cellular assays with IC50 values in target range, optimizing toward sub-10 µM potency",
+    "Validated biology: P110 peptide demonstrated efficacy in 11 mouse disease models (ALS, Huntington's, Alzheimer's, Parkinson's, stroke, cardiac ischemia) with published peer-reviewed data",
+    "Small molecule transition: SC9 mimetic shows comparable efficacy to P110 in vitro and in vivo, confirming druggability of target",
+    "Cellular validation: Patient-derived iPSCs show mitochondrial dysfunction reversed by treatment, multiple functional readouts (ROS production, DRP1 translocation, mitochondrial membrane potential)",
+    "Near-term milestones: 300 additional compounds in synthesis/screening by Nov 2025, hit-to-lead optimization and IP filing Q1 2026, in vivo validation in disease models mid-2026",
+    "IP strategy: Composition of matter patents planned for novel scaffolds, three distinct classes (brain-penetrant, peripheral, tissue-restricted), clean FTO with de novo scaffolds",
+    "Funding: $84,508 disbursed of $200K initial allocation, targeting ~$500K additional through IPT round",
+    "Regulatory pathway: ALS lead indication for orphan drug designation, standard FDA IND pathway planned post lead optimization and safety profiling"
+  ]
+}

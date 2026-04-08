@@ -1,0 +1,74 @@
+{
+  "file_path": "/Neuron-Percepta-Brand-Guidelines-2-2.pdf",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a brand guidelines manual for Neuron Percepta, dated 2025. It contains only visual identity specifications including logo usage, spacing, color palette, typography, and brand applications. It contains no scientific, technical, or experimental information relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page",
+      "content": "Brand Guidelines document for Neuron Percepta, 2025"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Logo - Single-line Lockup",
+      "content": "Logo specifications emphasizing simplicity, consistent experience, black/white usage, and white space. Shows the Neuron Percepta logo with circular gradient icon (purple to orange) and company name."
+    },
+    {
+      "page": 3,
+      "type": "diagram",
+      "title": "Logo Spacing",
+      "content": "Technical specifications showing 40px spacing requirement on all sides (top, bottom, left, right) of the logo."
+    },
+    {
+      "page": 4,
+      "type": "diagram",
+      "title": "Logomark Standalone",
+      "content": "Specifications for using the circular logo icon alone, maintaining same 40px spacing on all sides."
+    },
+    {
+      "page": 5,
+      "type": "diagram",
+      "title": "Logo Lockup Variations",
+      "content": "Shows horizontal and vertical logo arrangements as acceptable variations."
+    },
+    {
+      "page": 6,
+      "type": "diagram",
+      "title": "Logo Color Variations",
+      "content": "Displays three approved logo color treatments: Brand (full color with gradient), White (for dark backgrounds), Black (for light backgrounds)."
+    },
+    {
+      "page": 7,
+      "type": "diagram",
+      "title": "Logo Usage Don'ts",
+      "content": "Examples of incorrect logo usage: do not stretch/manipulate, do not use colors outside palette, do not use different fonts."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Color Palette",
+      "content": "Brand color specifications combining colors from Cerebrum Dao and Percepta Brain: Dark Purple #2C255F (RGB 44,37,95), Light Purple #9786FE (RGB 151,134,254), Red #F24F01 (RGB 242,79,1), Lime #D7FC85 (RGB 215,252,133). All CMYK values listed as 54,61,0,63."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Typography",
+      "content": "Brand font is Fellix (Sans Serif). Shows Fellix Bold and Fellix Medium with full alphabet and numbers displayed."
+    },
+    {
+      "page": 10,
+      "type": "mixed",
+      "title": "Brand Applications",
+      "content": "Sample brand application showing product mockup (purple pump bottle) and marketing message 'Power Up Your Mind - Boost memory, sharpen focus, and fuel your brain with Neuron Percepta.' This is marketing/branding only, not scientific evidence."
+    }
+  ],
+  "key_findings": [
+    "This is a visual brand identity document only, containing no scientific or technical information",
+    "The company name 'Neuron Percepta' suggests a neuroscience/brain health focus based on marketing tagline, but no actual product, mechanism, or research data is provided",
+    "Document mentions combination of two brands: Cerebrum Dao and Percepta Brain",
+    "Marketing positioning is around memory, focus, and brain health, but this is purely promotional language without supporting data"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "file_path": "/molecule.vitarna/47decd38-2f6d-4ffd-a5e7-dda2a8b3d725-1-105-c.jpeg",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a photograph of a modern commercial/office building exterior with purple and gray paneling. The image shows building number 905, architectural features, and landscaping with flower beds. There is no scientific, technical, or biotech-related content visible.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "Exterior photograph of a modern two-story commercial building with contemporary architecture. Features gray and purple facade panels, horizontal louvers, glass windows, double-door entrance, concrete walkway with decorative paving patterns, and landscaped areas with flowering plants. Building number 905 is visible. Red painted curb in foreground. Blue sky with clouds visible. No scientific equipment, experimental data, or technical information visible in the image."
+    }
+  ],
+  "key_findings": [
+    "No scientific or technical content present - image shows only building exterior",
+    "No experimental data, research findings, or biotech-related information",
+    "No information relevant to TRL assessment"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "file_path": "/dr-jonothan-an-supporting-paper",
+  "document_type": "publication",
+  "relevance": "high",
+  "summary": "This is a research publication from eLife (2020) demonstrating that rapamycin (FDA-approved mTOR inhibitor) rejuvenates oral health in aged mice. The study shows regeneration of periodontal bone, reduction of inflammation, and restoration of youthful oral microbiome composition after 8 weeks of treatment in elderly mice. This represents TRL 3-4 evidence: validated in animal disease models with quantitative efficacy data across multiple endpoints.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract and Introduction",
+      "content": "Periodontal disease is an age-associated disorder characterized by periodontal bone loss, inflammation, and microbiome dysbiosis. Over 60% of adults aged 65+ have periodontitis in the US. The study demonstrates that 8-week rapamycin treatment in aged mice (20 months old) rejuvenates the oral cavity including: (1) regeneration of periodontal bone, (2) attenuation of gingival and periodontal bone inflammation, and (3) reversion of oral microbiome toward youthful composition. Rapamycin is FDA-approved, extends lifespan in mice when administered at 9 or 20 months of age, and short-term treatments (6-12 weeks) have shown benefits in cardiac function and immune function."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Study Background",
+      "content": "Rapamycin directly inhibits mechanistic target of rapamycin complex I (mTORC1). Previous work showed aged mice treated with rapamycin have greater periodontal bone levels than controls (An et al., 2017). Current study is longitudinal across two sites (University of Washington and Jackson Laboratory) testing whether transient rapamycin treatment during middle age impacts three defining features of periodontal disease: bone loss, inflammation, and microbiome dysbiosis."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Results Overview - Experimental Design",
+      "content": "Two parallel longitudinal studies at two sites: NIA-UW mice (University of Washington) and JAX mice (Jackson Laboratory). Used microCT imaging to measure periodontal bone in young (6 month), adult (13 month), and old (20 month) mice. Periodontal bone measured as distance from cementoenamel junction (CEJ) to alveolar bone crest (ABC) at 16 landmarked sites on buccal aspect of maxillary and mandibular periodontium. Larger CEJ-ABC values represent greater bone loss."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Figure 1: Experimental Design and Measurement Method",
+      "content": "(A) NIA-UW cohort: mice received from NIA at 4, 11, 18 months, acclimated 2 months to reach 6 (Young), 13 (Adult), 20 months (Old). Old cohorts randomized to Eudragit control or 42ppm eRAPA for 8 weeks. JAX cohort: initial microCT at 20 months before 8-week treatment, final microCT after treatment (~22 months old). (B) Representative mandible image showing CEJ (white arrows) and ABC (orange arrows) landmarks. 16 predetermined landmarks on buccal aspect of maxillary and mandibular periodontium measured."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "Figure 2: Rapamycin Reverses Age-Associated Periodontal Bone Loss",
+      "content": "NIA-UW cohort: (A-B) Representative microCT images of maxillary and mandibular teeth showing age-associated bone loss. Young mice have less bone loss than Old mice. Old mice treated with 42ppm eRAPA show attenuation of bone loss. (C) Quantification shows significant bone loss with age (p<0.01 maxilla, p<0.05 mandible comparing Young vs Old). 8 weeks rapamycin significantly increased bone compared to eudragit controls (p<0.05 maxilla, p<0.01 mandible). JAX cohort longitudinal analysis: (D-E) Representative images of maxillary and mandibular teeth from same animal before and after treatment. White arrowheads indicate areas of bone loss and bone regrowth. (F) Old mice had significantly less bone than young at baseline (p<0.01). After 8 weeks, rapamycin-treated mice had significantly MORE bone than eudragit controls AND significantly more than their own pre-treatment levels (p<0.01), demonstrating actual bone regeneration, not just prevention of further loss."
+    },
+    {
+      "page": 5,
+      "type": "figure",
+      "title": "Figure 3: Rapamycin Attenuates RANKL Expression and Osteoclast Activity",
+      "content": "Bone homeostasis balance assessed via RANKL:OPG ratio. (A-B) Western blot analysis from periodontal bone showed increased RANKL expression in old animals in both NIA-UW and JAX cohorts. OPG levels remained stable. (C) RANKL/OPG ratio quantification showed significant increase with age (p<0.05), reversed by rapamycin treatment. (D-E) TRAP staining (tartrate-resistant acid phosphatase, marker of bone-resorbing osteoclasts) showed significant increase in TRAP+ cells with age (p<0.001) from ~2 cells in young to ~7 cells in old mice. Rapamycin treatment for 8 weeks decreased TRAP+ cells to ~3 cells (p<0.05). Results indicate rapamycin reverses periodontal bone loss at least in part through inhibition of bone resorption."
+    },
+    {
+      "page": 6,
+      "type": "figure",
+      "title": "Figure 4: Rapamycin Reverses NF-κB Signaling and Inflammatory Cytokines",
+      "content": "NF-κB is hub of immune/inflammatory response activated in aging and periodontal disease. (A-D) Western blot analysis of gingiva and periodontal bone showed age-associated increase in NF-κB p65 expression with corresponding decrease in IκBα levels (negative regulator). 8 weeks rapamycin reversed these changes. (E-F) Proteome profiler cytokine array of pooled samples from gingiva and periodontal bone. Multiple cytokines elevated in old vs young mice including: Tn-α, IL-1β, LIX (CXCL5), MCP3, MMPs, VEGF, Eotaxin, CXCL1, M-CSF. 8 weeks rapamycin treatment reversed most age-associated cytokine changes in both gingiva and periodontal bone. Data shown as fold-change relative to Young (set to 1), all changes shown are statistically significant (p<0.05)."
+    },
+    {
+      "page": 7,
+      "type": "figure",
+      "title": "Figure 5: Rapamycin Shifts Aged Oral Microbiome Toward Youthful State",
+      "content": "16S rRNA gene sequencing and Amplicon Sequence Variant (ASV) analysis of oral microbiome. (A) Alpha diversity (species richness) showed significant increase during aging (p<0.05) that rapamycin attenuated. (B) Phylum-level abundance analysis: Most notable change was reduction of Bacteroidetes phylum in rapamycin-treated old animals (p<0.001). Bacteroidetes includes bacteria associated with human periodontal disease (Porphyromonas gingivalis, Treponema denticola, Bacteroides forsythus). When pooled across sites, no significant difference in Bacteroidetes levels between young untreated and old rapamycin-treated mice. Firmicutes and Proteobacteria also showed age-dependent differences (p<0.05) not significantly altered by rapamycin. (C) Beta diversity using weighted UniFrac distances: Principal coordinate analysis showed significant separation between old control and old rapamycin-treated groups (p<0.01, Axis 1 70.3%), but NO significant difference between young and old rapamycin-treated groups. Overall: no significant differences in alpha diversity, beta diversity, or taxonomic abundance between young untreated mice and old rapamycin-treated mice, suggesting 8-week rapamycin reverted oral microbiome to youthful state. No batch effect detected between JAX and NIA-UW cohorts (PERMANOVA p=0.34)."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Materials and Methods - Animal Studies",
+      "content": "Cross-institutional study to enhance rigor and reproducibility. NIA-UW cohort: C57BL/6Nia mice from NIA Aged Rodent Colony, acclimated at UW. JAX cohort: C57BL/6J mice born and raised at Jackson Laboratory. Treatment: encapsulated rapamycin (eRAPA) at 42ppm in diet, shown to significantly increase lifespan of UMHET3 and C57BL6/J mice. Control: eudragit (encapsulation material without rapamycin) at 42ppm. All data from female mice (females show greater lifespan increases at this dose). NIA-UW: 5 young, 5 adult, 20 old (10 eudragit, 10 rapamycin). JAX: 13 young, 26 old (13 eudragit, 13 rapamycin). Young=6 months, adult=13 months, old=20 months at treatment start. IACUC protocols: UW #4359-01, JAX #06005-A24."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Materials and Methods - MicroCT Analysis",
+      "content": "NIA-UW samples scanned in Skyscan 1076 and 1173 microCT at Seattle Children's Research Institute and Friday Harbor Labs. Resolution 8-18 μm, settings: 5 kV, 179mA, 360 ms exposure, 0.5 AI filter, 0.7° rotation step, 3-frame averaging. Raw data reconstructed with NRecon 1.6.9, 3D renderings with Drishti 2.7. Periodontal bone loss measured as CEJ-ABC distance at 16 predetermined landmarks on buccal aspect of maxillary and mandibular periodontium, totaled per mouse, means calculated. Analysis by 3-4 independent observers. JAX samples scanned in Perkin-Elmer Quantum GX in vivo Micro-CT. Resolution 17-50 microns, settings: 55 kV, 145 mA, 4 min exposure over 360° rotation. Files converted to Drishti format for analysis."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Materials and Methods - Western Blot, Proteome Profile, Histology",
+      "content": "Western blot: Gingival tissue and alveolar bone dissected. Proteins extracted in RIPA buffer with HALT protease/phosphatase inhibitors. Gingival tissue pooled from co-housed animals, bone samples from single specimens. 10-20 μg total protein separated by SDS-PAGE, transferred to PVDF. Antibodies: NF-κB p65 (Cell Signaling 8242, 1:1000), phospho-IκBα (Santa Cruz sc8404, 1:1000), IκBα (Abcam 32518, 1:1000), GAPDH (Cell Signaling 5174, 1:1000), RANKL (Santa Cruz sc377079, 1:1000), OPG (R&D AF459, 1:1000). Cytokine proteome: Mouse XL Cytokine Array Kit (R&D ARY028), 200 μg pooled protein lysate loaded per manufacture protocol. Histology: Tissues fixed in Bouin's solution, demineralized in AFS, paraffin embedded. 5 μm serial sections in coronal plane. TRAP staining (Sigma-Aldrich 387A-1KT) for osteoclast activity, Fast Green counterstain. Representative images at 40x of alveolar bone furcation."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Materials and Methods - Microbiome Analysis",
+      "content": "DNA extraction: Mandible samples cryogrinded, homogenized with bead-beating and ceramic beads. Bacterial genomic DNA extracted using QIAamp DNA Microbiome Kit (Qiagen 51704), purified/concentrated with DNA Clean and Concentrator Kit (Zymo D4014), stored at -80°C. Sequencing: V3-V4 region of 16S rRNA gene amplified with Illumina adapter overhang primers. Each reaction: 2.5 μl genomic DNA, 5 μl each 1 μM primer, 12.5 μl KAPA HiFi HotStart ReadyMix. PCR: 95°C 3 min, 35-40 cycles (95°C 30s, 55°C 30s, 72°C 30s), 72°C 5 min. Products verified by gel electrophoresis, cleaned with AMPure XP beads. Indexed with Nextera XT Index Kit V2 (Illumina sets A and D), purified again with AMPure XP. Normalized to 1-2 nM with SequalPrep Kit (Invitrogen). Pooled library analyzed with TapeStation 4200 High Sensitivity D1000 assay (Agilent) and Qubit High Sensitivity dsDNA assay (Thermo Fisher). Loaded on Illumina MiSeq with 10% PhiX spike, 478 cycles, generated 5.68 million paired-end reads (2×239 bp)."
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "Materials and Methods - Bioinformatics and Statistical Analysis",
+      "content": "Bioinformatics: Raw paired-end sequences imported to Qiime2 (v.2019.1), trimmed 15 nt from 5' end and truncated to 239 nt at 3' end for both forward and reverse reads. Demultiplexed and denoised using DADA2 package. Forward reads only used. Taxonomy assigned using feature-classifier trained on Human Oral Microbiome Database (HOMD v.15.1). Samples filtered for contaminants, excluded samples with <10,000 reads. Alpha and beta diversity analysis in R-Studio using Phyloseq, Clustvis, ggplot2, ampvis2, vegan, ade4 packages. Statistical analysis: mCT, histology, proteome data expressed as mean±SEM. Student's t-test or paired t-test for two groups, one-way ANOVA with post-hoc Tukey test for multiple comparisons. P-values<0.05 considered statistically significant. Analysis in GraphPad Prism 8.00. For 16S sequencing: unpaired Wilcoxon rank-sum test and two-tailed paired t-test with 95% confidence interval (α=0.05). Alpha diversity: Shannon, Chao1, Observed (ASV), Fisher measures. Beta diversity: weighted Unifrac distances. Analysis in R v.3.5.3. Data availability: Bioinformatic scripts and microbiome data on GitHub (kkerns85/Rapamycin_rejuvenates_oral_health_in_aging_mice). R Markdown on Rpubs. V4-16S rDNA sequences deposited at European Nucleotide Archive (ENA) under accession PRJEB35672."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "Funding",
+      "content": "Funded by: National Institute of Dental and Craniofacial Research (NIDCR) DE027254, DE023810, DE020102 (Jonathan An, Jeffrey McLean). National Institute on Aging (NIA) AG054180, AG038070 (Catherine Kaczorowski), AG013280 (Matt Kaeberlein). National Institutes of Health TR002318 (Kristopher Kerns). Funders had no role in study design, data collection, interpretation, or decision to submit."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Discussion",
+      "content": "This is the first report of rejuvenation in the aged oral cavity. Short-term rapamycin treatment in aged mice reversed three clinically defining features of periodontal disease: periodontal bone loss, periodontal inflammation, and pathogenic oral microbiome changes. Supports Geroscience Hypothesis: interventions targeting biological aging will simultaneously delay multiple age-related diseases. Open questions: (1) Will effects persist after treatment cessation? Previous cardiac work showed effects persist at least 8 weeks after stopping (Quarles et al., 2020). (2) Are effects mediated through local mTORC1 inhibition in gingiva/periodontal bone or systemic effects on immune function? (3) Do other geroscience interventions (senescent cell clearance) phenocopy rapamycin effects? Such interventions could lead to first effective treatments to reverse periodontal disease in elderly."
+    }
+  ],
+  "key_findings": [
+    "8 weeks of rapamycin treatment (42ppm eRAPA) in 20-month-old mice resulted in actual regeneration of periodontal bone, not just prevention of further loss - demonstrated by longitudinal microCT showing increased bone vs baseline in same animals (p<0.01)",
+    "Rapamycin reversed age-associated increases in RANKL:OPG ratio and reduced TRAP+ osteoclast cells from ~7 in aged to ~3 in treated mice (p<0.05), indicating mechanism involves inhibition of bone resorption",
+    "Treatment reversed age-associated increases in NF-κB p65 expression and multiple inflammatory cytokines (TNF-α, IL-1β, MMPs, VEGF) in both gingival tissue and periodontal bone (p<0.05)",
+    "Rapamycin shifted aged oral microbiome toward youthful state: reduced Bacteroidetes phylum (which includes periodontal pathogens) (p<0.001), no significant difference in beta diversity between young untreated and old rapamycin-treated mice",
+    "Effects replicated across two independent sites (University of Washington and Jackson Laboratory) with different mouse substrains (C57BL/6Nia vs C57BL/6J) and housing conditions, demonstrating robustness",
+    "Rapamycin is already FDA-approved drug, enabling potential rapid translation to human clinical trials for periodontal disease",
+    "Female C57BL/6 mice used; previous work shows this dose (42ppm) significantly extends lifespan in multiple mouse strains"
+  ]
+}

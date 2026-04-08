@@ -1,0 +1,72 @@
+{
+  "file_path": "/primadonna-science-update.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "medium",
+  "summary": "PrimaDonna is an enamel regeneration project by Molecule Labs (Sept 2025) using stem-cell-derived oral epithelial organoids that produce enamel proteins (amelogenin, enamelin, ameloblastin). The project has demonstrated in vitro protein production, mineralization in lab experiments, and animal model validation showing enamel-like mineral deposition. Next steps focus on scaling production and benchmarking against natural enamel.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title Slide",
+      "content": "PrimaDonna: Enamel Regeneration Project - Molecule Labs Data Room Update - September 2025"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Background & Breakthrough",
+      "content": "Problem: Tooth enamel does not naturally regenerate; current treatments rely on coatings or replacements. Breakthrough: Developed stem-cell derived oral epithelial organoids that reproduce key steps of ameloblast (enamel-forming cell) differentiation. Achieved in vitro production of three critical enamel proteins: Amelogenin, Enamelin, and Ameloblastin."
+    },
+    {
+      "page": 2,
+      "type": "figure",
+      "title": "Figure 1: Ameloblast 3D structure",
+      "content": "Immunofluorescence microscopy image showing 3D organoid structure with blue nuclear staining and colored protein expression patterns (yellow/orange/pink) indicating ameloblast cellular organization."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Achievements So Far - Experimental Validation",
+      "content": "Key achievements include: (1) Mineralization demonstrated in laboratory experiments, (2) Animal model validation confirming enamel-like mineral deposition, (3) Organoids successfully mimic natural enamel development pathways with both transcriptional fidelity (correct gene expression patterns) and structural resemblance to native tissue."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Figure 2: Lateral incisor structure",
+      "content": "Fluorescence microscopy image showing tooth structure cross-section with multiple colored layers (blue, green, magenta, yellow) demonstrating organized tissue architecture characteristic of developing enamel. Scale bar: 50 μm."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Milestones & Checkpoints - Scaling Up",
+      "content": "Current focus on scaling from small-scale proof-of-concept to reproducible, high-yield organoid cultures. Working to optimize culture stability and consistency for manufacturing."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Milestones & Checkpoints - Quality Metrics",
+      "content": "Established quality control assays including: (1) Organoid morphology and size distribution analysis, (2) Gene expression signatures for ameloblast markers, (3) Protein secretion level quantification (amelogenin, enamelin, ameloblastin), (4) Mineralization assays measuring calcium/phosphate (Ca/P) deposition and crystal orientation, (5) Mechanical hardness testing of enamel-like tissue."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Next Steps",
+      "content": "Three key development priorities: (1) Refine large-batch production protocols for scalable manufacturing, (2) Benchmark organoid-derived enamel properties against natural human enamel, (3) Establish preclinical data on durability and integration of regenerated enamel into existing dental tissue."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Vision",
+      "content": "PrimaDonna aims to progress from discovery to translation, developing enamel regeneration therapies that restore tooth strength, function, and quality of life for patients."
+    }
+  ],
+  "key_findings": [
+    "Stem-cell-derived oral epithelial organoids successfully produce three key enamel proteins: amelogenin, enamelin, and ameloblastin (in vitro proof-of-concept achieved)",
+    "Organoids demonstrate ameloblast differentiation with transcriptional fidelity and structural resemblance to natural enamel development",
+    "In vitro mineralization demonstrated in laboratory experiments",
+    "Animal model validation completed, confirming enamel-like mineral deposition in vivo",
+    "Quality metrics established: gene expression, protein secretion levels, Ca/P mineralization, crystal orientation, and mechanical hardness testing",
+    "Current stage: Transitioning from proof-of-concept to reproducible high-yield culture production (scaling phase)",
+    "Next critical milestones: large-batch production protocols, benchmarking against natural enamel, preclinical durability and tissue integration studies",
+    "No regulatory pathway, clinical data, IP status, team information, or quantitative experimental results provided"
+  ]
+}

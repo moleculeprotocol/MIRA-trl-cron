@@ -1,0 +1,13 @@
+{
+  "file_path": "/POI-1.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a logo image showing 'POI' text with a stylized abstract icon on a dark background. There is no scientific content, experimental data, or information relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "A logo displaying the text 'POI' in cyan/turquoise color below an abstract icon consisting of a rounded square outline with a small purple dot in the upper right corner, set against a dark navy/black background"
+    }
+  ],
+  "key_findings": []
+}

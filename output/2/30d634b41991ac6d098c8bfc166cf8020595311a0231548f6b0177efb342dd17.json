@@ -1,0 +1,74 @@
+{
+  "file_path": "/revised-experimental-plan-2025",
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is an experiment plan modification proposal for the VITA-FAST project, which is developing autophagy-inducing compounds for therapeutic applications. The document outlines a pivot in experimental strategy based on computational optimization results that identified two promising molecular targets, and proposes confirmatory experiments, computational compound generation, and lead candidate development with specific budget allocations.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "VFDP-15 Overview and Background",
+      "content": "VITA-FAST is developing new autophagy-inducing compounds for potential therapeutic applications and systemic cellular longevity. In March 2025 in VFDP-13, experiments and budget totaling $135k were scoped for development of two chemical entities (NCE's). This plan scopes out the ordering and testing of two rounds of NCE's (round 2 and round 3) as well as ancillary and confirmatory experiments in worms and human aging cell lines."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Discovery Update and Hypothesis Refinement",
+      "content": "Following the 2nd round of NCE testing and target discovery experiments at Newcastle, two targets were identified that are causing increased autophagy. Additionally, computational modeling found that the structural modifications tested in the 2 round of NCE's were not binding these targets as strongly as predicted. Two important pieces of information: (1) strong hypothesis about which targets molecules should bind to, and (2) current round 2 compounds have strong hypothesis but don't contribute to target binding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Objective and Milestones",
+      "content": "Objective: Use target information to develop the VITA-FAST compounds to a lead candidate, with a target identified and understanding of mechanistic basis of the compounds healthspan and longevity effects on human cells. These experiments should allow definition of lead molecule(s) for subsequent IND enabling activities such as murine safety experiments. Project milestones: (1) Lead compound, (2) Target ID, (3) Intellectual property and accordingly raise further financing and move compounds into mammals and towards humans."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Plan - Cancellation of Previously Planned Experiments",
+      "content": "Proposal to cancel other experiments that were approved in VFDP-14 that were not yet been conducted: (1) Worm longevity at Ora Biomedical, (2) Aging cell lines at Newcastle, (3) Worm healthspan at Magnitude Biosciences, (4) 3rd round SAR NCE Synthesis. These experiments are not appropriate given current information and may be revisited in future. To date $56,620 of the $135k budgeted in VFDP-13 has been spent, and these experiments are being replanned."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "New Experiments Plan",
+      "content": "New proposed experiments: (1) Conduct confirmatory experiments to confirm which of two Autophagy2 protein family members is most important, using siRNA knockouts and computational modeling at Newcastle University; (2) Computationally design compounds against the Autophagy1 and Autophagy2 targets to generate highly potent compounds for target binding. Plan: After these complete, will most likely order the computationally optimized compound as an NCE for lab testing, with update at that time."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Cost Implications Table",
+      "content": "Budget items: (1) Additional siRNA reagents ordered at Newcastle: $3K, timing Aug-Dec; (2) Extension of MedChem subcontract: $8K, timing Jul-Dec. Total cost of VFDP-13 was $135K, of which $56,620 spent in line with budget. New experimental plan can be conducted within existing resources at University of Newcastle and with medicinal chemist subcontractor Dr Johannes Reynisson, Lecturer in Drug Discovery at University of Keele (originally added in VFDP-1)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Recommendations and Project Value",
+      "content": "VITA-FAST project wallet currently has value of $147,500k as of 2nd Sep 2025, with funding allocated to this plan and follow-on experiments. VITA-FAST has developed potent and novel compounds - this proposal seeks to leverage computational development of molecules at highly efficient price point utilizing the suppliers already in place with quoted resources. Recommended as highly efficient way of improving VF series compounds to generate value in VITA-FAST project and raise further funding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Reporting",
+      "content": "A project data update to describe the results that led to this conclusion will be given in September. A project update on the progress will follow."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Footnotes - Target Information",
+      "content": "It is clear that the molecules act through at least one target that can induce Autophagy1. There is also a 2nd family of proteins whose binding activates autophagy, Autophagy2, however it is not yet known which specific member of that protein family is most relevant."
+    }
+  ],
+  "key_findings": [
+    "Project is at early lead optimization stage - has completed 2 rounds of NCE synthesis and testing, now pivoting based on computational modeling and target discovery results",
+    "Two autophagy-related protein targets (Autophagy1 and Autophagy2 families) have been identified through experiments at Newcastle University as causing increased autophagy",
+    "Current round 2 NCE compounds show autophagy-inducing activity but computational modeling reveals they are not binding the identified targets as strongly as predicted",
+    "Confirmatory experiments planned using siRNA knockouts and computational modeling to identify which Autophagy2 family member is most important",
+    "Computational compound design against identified targets will be used to generate highly potent next-generation compounds before NCE synthesis",
+    "Budget of $135K allocated in VFDP-13, with $56,620 spent to date; additional $11K budgeted for siRNA reagents ($3K) and MedChem extension ($8K)",
+    "Project milestones defined: (1) Lead compound, (2) Target ID, (3) IP development, with goal to move compounds into mammalian studies and towards humans",
+    "Previous experiments in worm longevity, aging cell lines, and round 3 SAR synthesis being cancelled/postponed based on current target information",
+    "Work being conducted at University of Newcastle with medicinal chemistry subcontractor Dr Johannes Reynisson at University of Keele",
+    "Project has $147,500k in wallet as of September 2025 with funding allocated for this plan and follow-on experiments"
+  ]
+}

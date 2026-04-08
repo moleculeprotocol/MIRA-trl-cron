@@ -1,0 +1,17 @@
+{
+  "file_path": "/dummy-2.pdf",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a placeholder label 'DUMMY_2' with no substantive content. The page is otherwise blank with no scientific information, experimental data, figures, tables, or text that could support TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Placeholder Page",
+      "content": "Page contains only the text 'DUMMY_2' with no additional content"
+    }
+  ],
+  "key_findings": [
+    "No scientifically relevant content present - this appears to be a placeholder or dummy document with no information for TRL assessment"
+  ]
+}

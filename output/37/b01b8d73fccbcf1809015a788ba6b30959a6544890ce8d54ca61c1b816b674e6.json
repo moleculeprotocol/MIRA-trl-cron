@@ -1,0 +1,16 @@
+{
+  "file_path": "/molecule.ultra001/dummy-2.pdf",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a placeholder text 'DUMMY_2' on an otherwise blank page. There is no scientific content, experimental data, project information, or any material relevant to Technology Readiness Level assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "content": "DUMMY_2 - placeholder text only, no substantive content"
+    }
+  ],
+  "key_findings": [
+    "Document contains no relevant information for TRL assessment - appears to be a placeholder or test file"
+  ]
+}

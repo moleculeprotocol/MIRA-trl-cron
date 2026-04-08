@@ -1,0 +1,74 @@
+{
+  "file_path": "/molecule.donna/primadonna-science-update.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "PrimaDonna project pitch deck from Molecule Labs presenting an enamel regeneration technology using stem-cell derived oral epithelial organoids. The deck describes in vitro production of enamel proteins, animal model validation showing enamel-like mineral deposition, and plans for scaling and preclinical testing.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Slide",
+      "content": "PrimaDonna: Enamel Regeneration Project by Molecule Labs, Data Room Update dated September 2025"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Background & Breakthrough",
+      "content": "Problem: Enamel doesn't regenerate naturally; current solutions are coatings or replacements. Breakthrough: Developed stem-cell derived oral epithelial organoids that reproduce key steps of ameloblast differentiation. Achieved in vitro production of three critical enamel proteins: Amelogenin, Enamelin, and Ameloblastin."
+    },
+    {
+      "page": 2,
+      "type": "figure",
+      "title": "Figure 1: Ameloblast 3D structure",
+      "content": "Fluorescence microscopy image showing 3D structure of ameloblast organoid with blue (nuclei), yellow/orange, and red staining patterns indicating cellular organization."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Achievements So Far",
+      "content": "Key experimental achievements: (1) Mineralization demonstrated in lab experiments, (2) Animal model validation completed showing enamel-like mineral deposition confirmed, (3) Organoids mimic natural enamel development pathways with both transcriptional fidelity and structural resemblance to native tissue."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Figure 2: Lateral incisor structure",
+      "content": "Fluorescence microscopy image showing lateral incisor tissue structure with multiple colored layers (blue, purple, green, yellow/magenta) demonstrating organized tissue architecture at approximately 50 μm scale."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Milestones & Checkpoints - Scaling",
+      "content": "Scaling strategy: Moving from small-scale proof-of-concept to reproducible, high-yield cultures. Focus on optimizing culture stability and consistency for large-batch production."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Quality Metrics",
+      "content": "Established quality control metrics include: (1) Organoid morphology & size distribution, (2) Gene expression signatures for ameloblast markers, (3) Protein secretion levels for amelogenin, enamelin, and ameloblastin, (4) Mineralization assays measuring Ca/P deposition and crystal orientation, (5) Mechanical hardness testing of enamel-like tissue."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Next Steps",
+      "content": "Three planned next steps: (1) Refine large-batch production protocols, (2) Benchmark organoid-derived enamel versus natural enamel properties, (3) Establish preclinical durability and integration into dental tissue."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Vision",
+      "content": "Overall goal is progression from discovery to translation. PrimaDonna aims to develop enamel regeneration therapies that restore strength, function, and quality of life for patients."
+    }
+  ],
+  "key_findings": [
+    "Technology uses stem-cell derived oral epithelial organoids to produce enamel proteins (amelogenin, enamelin, ameloblastin)",
+    "In vitro protein production and mineralization demonstrated in laboratory experiments",
+    "Animal model validation completed showing enamel-like mineral deposition",
+    "Organoids demonstrate transcriptional fidelity and structural resemblance to natural enamel development pathways",
+    "Quality metrics established including gene expression, protein secretion, Ca/P deposition, crystal orientation, and mechanical hardness testing",
+    "Currently at scaling phase: transitioning from proof-of-concept to reproducible high-yield cultures",
+    "Next phase includes benchmarking against natural enamel and preclinical durability/integration testing",
+    "No specific quantitative data, IC50 values, efficacy percentages, or statistical significance provided",
+    "No regulatory pathway, IP status, team details, or funding information disclosed",
+    "Technology appears to be at early preclinical stage (TRL 2-3): animal model validation completed but comprehensive preclinical studies pending"
+  ]
+}

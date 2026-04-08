@@ -1,0 +1,73 @@
+{
+  "file_path": "/molecule.vitacar/apoptosens-202512updates.pdf",
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "ApoptoSENS project summary describing a CAR-NK cell therapy engineered to target senescent cells using novel senescence-specific surface markers (SENS-1, SENS-2, SENS-3). The study has been completed with a published paper. The project identifies novel markers in IMR-90 cells, develops monoclonal antibodies, and constructs CAR-NK cells for selective senolytic therapy.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview & Scientific Foundation",
+      "content": "Project Title: ApoptoSENS (study finished, paper published). Therapeutic Concept: Develops CAR-NK cells engineered to selectively recognize and eliminate senescent cells that accumulate with age and drive chronic inflammation, tissue dysfunction, and aging-related disease. The team identifies novel senescence-specific surface markers, validates them across models, generates monoclonal antibodies, and uses them to build CAR-NK constructs with improved precision and safety over existing senolytics."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Indication and Patient Population",
+      "content": "Target Indication: The therapy targets the accumulation of senescent cells. Patient Population Size: Not specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism of Action",
+      "content": "CAR-NK cells are engineered to recognize senescence-specific surface antigens (SENS-1, SENS-2, SENS-3) that are absent on healthy cells. Upon binding the target, NK cells induce apoptosis in senescent cells, reducing SASP-driven inflammation and tissue dysfunction."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biological Target",
+      "content": "Novel senescence-associated surface markers discovered in IMR-90 cells rendered senescent by ionizing radiation or doxorubicin. Top candidates include SENS-1, SENS-2, SENS-3, with SENS-3 showing the strongest early promise. These markers are identified as senescence-specific surface antigens absent on healthy cells."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Development Stage",
+      "content": "Study finished, paper published. This indicates completion of initial research phase with peer-reviewed publication of results."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Development Timeline & Milestones",
+      "content": "Next 3 major milestones: Not specified. Current status noted as 'study finished, paper published'."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Team Information",
+      "content": "Key Personnel: Dr. Amit Sharma, Project Lead, SENS Research Foundation. Affiliations: SENS Research Foundation, Senescence Immunology Research Group. Dr. Sharma holds PhD from University of Pune with prior postdoctoral research at Buck Institute. Team Expertise Areas: Cellular senescence biology, Immunology and immune aging, NK-cell and CAR-cell engineering, Target discovery and antibody generation, Translational aging-related therapeutics."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Intellectual Property Status",
+      "content": "Patent Application Status: Not specified. Scope of IP Protection: Not specified (fields for composition of matter, method of use, target claims are present but unfilled). Freedom-to-Operate Assessment: Not specified (no known blocking patents or FTO concerns mentioned)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Model System and Experimental Approach",
+      "content": "Experimental model: IMR-90 cells (human fibroblast cell line) rendered senescent by two methods: ionizing radiation or doxorubicin treatment. This represents an in vitro cell-based model system for identifying senescence-specific markers. The approach involves marker identification, validation across models, monoclonal antibody generation, and CAR-NK construct development."
+    }
+  ],
+  "key_findings": [
+    "Study completed with published paper - represents completion of initial research phase",
+    "Three novel senescence-specific surface markers identified: SENS-1, SENS-2, SENS-3, with SENS-3 showing strongest early promise",
+    "Markers discovered using IMR-90 cells rendered senescent by ionizing radiation or doxorubicin - in vitro model system",
+    "CAR-NK cell constructs developed using monoclonal antibodies against senescence markers",
+    "Team based at SENS Research Foundation with expertise in senescence biology, NK-cell engineering, and antibody generation",
+    "Mechanism: CAR-NK cells recognize senescence-specific antigens absent on healthy cells and induce apoptosis",
+    "IP status not specified - no information on patent filings or freedom-to-operate",
+    "No quantitative efficacy data, animal model validation, or clinical data provided in this summary document",
+    "Development milestones beyond publication not specified"
+  ]
+}

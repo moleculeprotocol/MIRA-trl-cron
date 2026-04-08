@@ -1,0 +1,17 @@
+{
+  "file_path": "/jq2.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a stylized graphic illustration showing an abstract party hat or wizard hat design with stars and geometric shapes against a gradient purple background. It appears to be decorative artwork or branding material with no scientific, technical, or business content.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "A decorative illustration featuring a blue gradient party/wizard hat with an orange band and flame-like top, surrounded by orange triangular star shapes, set against a circular purple background with decorative stars and dots in various colors (pink, blue, yellow). The image uses a vibrant gradient color scheme transitioning from blue to purple to pink."
+    }
+  ],
+  "key_findings": [
+    "No scientific, technical, or TRL-relevant content present in this image",
+    "Document appears to be purely decorative or branding artwork",
+    "No experimental data, research findings, team information, IP status, regulatory information, or business metrics available for TRL assessment"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "file_path": "/molecule.vita-fast/vdp-16-fundingproposal.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "VitaDAO funding proposal for Korolchuk Lab's autophagy activators program. The project aims to identify novel bioactive autophagy inducers through a unique cell-based screening platform targeting lysosomal dysfunction. Budget requested: £80,000 for lead compound identification with contingency for up to $250,000 including TTO overhead.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Summary and Problem Statement",
+      "content": "Autophagy decline during aging is linked to accumulation of dysfunctional cellular components. Lysosomal dysfunction is a key contributor to reduced autophagy during aging. Current autophagy screening methods are unreliable, slow, and have complicated readouts, limiting efficiency of compound screening. Most existing screens identify compounds that stimulate autophagy initiation, but these may be ineffective when lysosomes are dysfunctional."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Opportunity and Approach",
+      "content": "Korolchuk lab uses Npc1 mutant cells (lysosomal protein associated with neurodegenerative diseases) to model lysosomal dysfunction. Under metabolic stress, these cells undergo cell death due to dysfunctional autophagy, providing simple readout (cells dead/cells alive). Control system: Atg5 KO cells that lack autophagy initiation and are not rescuable by autophagy inducers. This dual-cell system distinguishes true autophagy activators from non-specific survival factors. Plan to screen unique library of natural compounds, synthesize derivatives based on hits, and identify biological targets."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Highlights",
+      "content": "Key strengths: (1) Assay with easy readout, decent throughput, good controls targeting autophagy; (2) Solid evidence supporting approach; (3) Small ticket size ($150,000-$250,000); (4) Platform enables collaboration with other autophagy/mitophagy projects; (5) Potential for IP/NFT generation for compounds from screening platform; (6) Strong productive scientific team interested in IP/NFT model and company formation."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Risks and Evaluation Results",
+      "content": "Main risk: Screening relies on rescuing autophagy in single Npc1 knockout model. Risk that compounds may solve problem specific to this knockout rather than general aging relevance. However, team working to address this with promising data. Evaluation scores from 4 independent evaluators: Novelty/Impact: Strong (4/4); Feasibility/Data: Outstanding (3/4), Satisfactory (1/4); Longevity Relevance: Outstanding (1/4), Strong (2/4), Satisfactory (1/4); Science Team: Strong (3/4), Satisfactory (1/4); Market Advantage: Strong (1/4), Satisfactory (2/4), Weak (1/4); IP-NFT Potential: Strong (1/4), Satisfactory (2/4), N/A (1/4). All evaluators recommend funding."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Mechanism of Funding",
+      "content": "VitaDAO commits funding via IP-NFT mechanism."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Background on Autophagy and Lysosomal Dysfunction",
+      "content": "Aging causes decline in autophagy capacity to degrade protein aggregates and mitochondria, undermining DNA repair, metabolism, and survival. Many screens published identifying small molecules stimulating autophagy initiation. Lysosomal dysfunction contributes to aging and drives age-related pathologies. With dysfunctional lysosomes, autophagy pathway becomes blocked at terminal stage, making initiation stimulation ineffective. Npc1 mutations associated with Niemann-Pick type C1 Disease and Parkinson's Disease, causing block in autophagosome degradation (reference: PMC3957429)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Project Summary - Cell Death Phenotype",
+      "content": "Extensive prior work identified unique phenotype: cells with dysfunctional autophagy in tissue culture (references: researchsquare.com/article/rs-659023/v1, biorxiv.org/content/10.1101/2020.01.31.928424v1, under revision for Nature Cell Biology). In normal glucose medium, autophagy KOs upregulate glycolysis at expense of mitochondrial respiration. When glucose replaced with galactose (forcing cells to respire), autophagy-deficient cells become apoptotic. Phenotype common to both Npc1 KO MEFs (impaired autophagosome maturation) and cells lacking core autophagy genes (Atg5, Atg7, FIP200/Rb1cc1)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Cell Death Mechanism and Model Conservation",
+      "content": "Sequence of events leading to cell death in autophagy-deficient cells: (1) accumulation of dysfunctional mitochondria; (2) stress from increased ROS and DNA damage; (3) activation of stress response pathways (NADases of Sirtuin and PARP family); (4) depletion of cellular NAD+ and NADH pools; (5) mitochondrial depolarization; (6) apoptotic cascade. Data from yeast, fly, and human stem cell-derived neuronal models indicate mechanisms evolutionarily conserved from yeast to humans (references: researchsquare.com/article/rs-659023/v1, biorxiv.org/content/10.1101/2020.01.31.928424v1)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Rescue Experiments and Screening Strategy",
+      "content": "Targeting processes downstream of autophagy dysfunction (mitochondrial dysfunction, NADase hyperactivity, NAD boosting, mitochondrial re-polarization) rescues cell death in cells/organisms with genetic loss of Atg genes and Npc1. Autophagy inducers rescue autophagy block and cell survival in Npc1 cells, but NOT in Atg5 KO cells. This provides unique rapid high-throughput cell death-based screening system. Compounds activating autophagy and overriding block in Npc1 KO cells rescue death; dependence on functional autophagy indicated by lack of effect in Atg5 KO cells."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Screening Platform Development",
+      "content": "Generated and optimized for HTS: (1) Wild-type or Npc1 KO MEFs with inducible tet-on-tet-off expression of luciferase-tagged autophagy flux reporter p62. Proof-of-principle screen using FDA-approved drug library from Newcastle High Throughput Facility produced 12 small molecules previously unknown as autophagy inducers that effectively activated autophagy flux. (2) Wild-type or Npc1 KO cells stably expressing 'traffic-light' EGFP-RFP-LC3 for high-throughput high-content screening. Both platforms for secondary/tertiary screening purposes."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Team Composition",
+      "content": "Viktor Korolchuk (VK): cell biology, Newcastle University, UK. Jóhannes Reynisson (JR): drug discovery, Keele University, UK. Konstantin Volcho (KPV): organic and medicinal chemistry, Novosibirsk Institute of Organic Chemistry, Russian Academy of Sciences."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Compound Library and Next Steps",
+      "content": "KVP lab collected 1000+ compounds initially isolated from rare plant and animal species from northern Russia with unique synthesis expertise. Virgin collection never tested for autophagy effects; natural occurrence increases bioavailability and success chances. Initial test: ~200 compounds representing diverse chemical variety. Hits processed through secondary/tertiary readouts. Lead molecules identified by testing structurally similar derivatives from KVP collection by collaborator JR, synthesized by KVP for structural verification, validated in standard autophagy assays to build preliminary structure-activity relationship (SAR)."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Follow-Up Aims",
+      "content": "Establish specificity of small molecules from screens, identify cellular targets (through Samsara platform), characterize mechanism of action in autophagy. Investigate potential to alleviate cellular defects from lysosomal dysfunction (mitochondrial deficit, DNA damage, stress sensitivity, cell death) using human fibroblasts and neurons. Test focused collections of small molecules based on lead compound structures to establish robust SAR for preclinical translation."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Budget - Lead Compound Identification (12 months, £80,000)",
+      "content": "1. Screen ~200 diverse naturally occurring bioactive compounds in cell survival assays (Atg5 vs Npc1 KO) dose-response (VK): £5,000, 2 months including optimization. 2. Hit selection based on chemical diversity, tractability, physicochemical parameters (JR): £2,000, 1 month. 3. Hit verification screening with orthogonal assays (Luc-p62 clearance, traffic light LC3) (VK): £3,000, 2 months. 4. Parallel work (2 months): Synthesis of derivatives for 3-5 hit series, ~12 each (JR, KPV): £10,000; Additional autophagy assays (cargo degradation, flux assays, imaging-based autophagy induction, signaling pathway involvement) (VK): £5,000. 5. Lead series determination (VK): £2,000, 2 months. 6. Parallel work (2 months): Second synthesis round based on lead series ~12 derivatives (KPV, JR): £3,000; Testing lead compounds to alleviate lysosomal dysfunction cellular defects (mitochondrial deficit, DNA damage, stress sensitivity, cell death) (VK): £5,000; Biological target determination (Samsara). 7. Derivative screening, SAR determination, drug lead identification (KPV, JR, VK): £3,000, 1 month. Total: 12-month postdoc + running costs = £80,000."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Future Work Budget (Subject to Successful Screening)",
+      "content": "8. ADMET, DMPK profile in mouse models (KPV): Total £16,600, 4 months. Components: Pharmacokinetics, tissue distribution, excretion (£3,300); Routes of administration: PO, IV (£3,300); Preliminary tox studies (dose-range finding, MTD) (£10,000). 9. IP sought for drug candidate(s) patent. TTO overhead (20-60%) not included in current budget, may increase ticket size up to $250,000."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Contingency Plan",
+      "content": "Backup screen available if needed: 1000+ natural bioactive compounds can be synthesized and screened (KPV and VK)."
+    }
+  ],
+  "key_findings": [
+    "Cell-based autophagy screening platform developed with two cell lines (Npc1 KO and Atg5 KO) providing robust controls to distinguish true autophagy activators",
+    "Proof-of-concept screen of FDA-approved drugs identified 12 previously unknown autophagy inducers",
+    "Multiple orthogonal assay platforms established: cell survival readout, Luc-p62 flux reporter, traffic-light EGFP-RFP-LC3 for high-throughput screening",
+    "Unique compound library: 1000+ natural compounds from rare Russian plant/animal species, never tested for autophagy effects",
+    "Mechanistic understanding: cell death pathway characterized through mitochondrial dysfunction, NAD+ depletion, and apoptosis",
+    "Publications in progress: manuscripts under revision for Nature Cell Biology, preprints available",
+    "Team expertise spans cell biology (Newcastle), drug discovery (Keele), medicinal chemistry (Russian Academy of Sciences)",
+    "Budget: £80,000 for 12-month lead identification phase; up to $250,000 total including future DMPK studies and TTO overhead",
+    "Strong evaluation scores: 4/4 evaluators recommend funding; novelty rated 'Strong' by all; feasibility rated 'Outstanding' by 3/4",
+    "IP-NFT funding mechanism proposed; potential for IP generation from screening hits",
+    "Current stage: Early drug discovery (TRL 2) - validated screening platform with proof-of-concept data, ready for compound library screening"
+  ]
+}

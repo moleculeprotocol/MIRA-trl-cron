@@ -1,0 +1,13 @@
+{
+  "file_path": "/Screenshot-2025-06-09-at-22-24-14.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a technical error message indicating that a bot integration was not detected and requires admin permissions. It appears to be a screenshot of a system notification or error dialog box from a software application, not a scientific or biotech project document.",
+  "content_blocks": [
+    {
+      "type": "text",
+      "content": "Integration not detected. Make sure the bot has admin permissions."
+    }
+  ],
+  "key_findings": []
+}

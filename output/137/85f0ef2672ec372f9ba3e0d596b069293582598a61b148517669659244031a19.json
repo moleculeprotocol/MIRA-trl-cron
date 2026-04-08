@@ -1,0 +1,41 @@
+{
+  "file_path": "/athenadao-ovaria-ipt-update-docx.pdf",
+  "document_type": "presentation",
+  "relevance": "medium",
+  "summary": "This is an update slide about Ovaria IPT, a project from AthenaDAO focused on menopause prediction modeling. Gero AI developed machine learning models to predict age at natural menopause (ANM) using UK Biobank data, correcting for self-reporting biases. The work includes GWAS and Mendelian Randomization analysis linking menopause timing to disease risk.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Menopause Risk Model (MRM) - Model Development",
+      "content": "Gero AI developed models to predict age at natural menopause (ANM) in UK Biobank women. The models correct for self-reporting biases and recall distortion ('telescoping') in ANM data. Covariates included in modeling: BMI, smoking, and deprivation index. Two ML approaches tested: (1) Gradient-boosted trees - achieved highest accuracy, (2) Accelerated failure Weibull model - similar performance but far more interpretable."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "GWAS and Mendelian Randomization Analysis",
+      "content": "Using the developed models, Gero performed Genome-Wide Association Studies (GWAS) and Mendelian Randomization to establish links between menopause timing, genetics, and disease risk. This represents a computational/bioinformatics approach rather than wet-lab experimentation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Findings - Disease Correlations",
+      "content": "Earlier menopause shows observational correlation with >100 diseases. Potential true causal effects identified with osteoporosis and endometriosis specifically. Target validation: findings replicated across various datasets, suggesting robustness of the associations."
+    },
+    {
+      "page": 1,
+      "type": "mixed",
+      "title": "Document Metadata",
+      "content": "Project: Ovaria IPT from AthenaDAO. Partner/Collaborator: Gero AI (appears to be the modeling/analysis team). Social media call-to-action suggests this is a community update or early-stage project announcement. Contact: athenadao.co, community@athenadao.co, @athena_dao_"
+    }
+  ],
+  "key_findings": [
+    "Machine learning model developed for menopause age prediction using UK Biobank data - computational approach with gradient-boosted trees and Weibull models",
+    "GWAS and Mendelian Randomization analysis completed linking menopause timing to disease risk - suggests TRL 1-2 (computational target identification)",
+    "No wet-lab experimental validation shown - purely computational/bioinformatics analysis",
+    "Disease associations identified: >100 observational correlations, potential causal links to osteoporosis and endometriosis",
+    "Target replication across multiple datasets provides some validation of computational findings",
+    "No information on: therapeutic modality, drug candidates, cell/animal models, efficacy data, IP status, regulatory strategy, or development timeline",
+    "Appears to be early discovery stage - computational target identification without experimental validation"
+  ]
+}

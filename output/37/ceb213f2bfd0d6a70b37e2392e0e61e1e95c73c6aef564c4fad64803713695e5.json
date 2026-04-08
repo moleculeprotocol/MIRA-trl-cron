@@ -1,0 +1,16 @@
+{
+  "file_path": "/molecule.ultra001/360bd5cd-028c-402e-ae1d-52660a965e6e.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a 404 error page displaying 'Page not found' with decorative cube graphics and text stating 'But IP never gets lost. Maybe just check the map.' This is a website error page with no scientific, technical, or business content related to biotechnology or technology development.",
+  "content_blocks": [
+    {
+      "type": "text",
+      "content": "404 error page with message 'Page not found' and tagline 'But IP never gets lost. Maybe just check the map.' This appears to be a custom error page with a playful reference to intellectual property, but contains no actual IP information or biotech/science content."
+    }
+  ],
+  "key_findings": [
+    "This is a website error page with no TRL-relevant content",
+    "No scientific data, experimental results, IP details, or development information present"
+  ]
+}

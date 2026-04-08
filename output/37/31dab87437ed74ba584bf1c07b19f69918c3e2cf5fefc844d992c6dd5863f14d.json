@@ -1,0 +1,19 @@
+{
+  "file_path": "/data-processors-diagram-2.png",
+  "document_type": "figure",
+  "relevance": "low",
+  "summary": "This is a technical architecture diagram showing a data processing pipeline with multiple AWS Lambda processors triggered on different schedules. The diagram illustrates data flow from various sources through processors to storage and analytics platforms including Azure, Moralis, and Amazon Aurora. This appears to be infrastructure/technical documentation rather than biotech research.",
+  "content_blocks": [
+    {
+      "type": "diagram",
+      "title": "Data Processing Architecture Diagram",
+      "content": "System architecture showing pull and push mechanisms for data processing. Pull mechanism includes four AWS Lambda processors: IPNFTs Processor (triggered every 10 mins), IPTs Processor (triggered every 10 mins), Markets Processor (triggered every 5 mins), and Holders Processor (triggered every 5 mins). All processors fetch data and route to multiple destinations including Azure (blue logo), Moralis platform, and Amazon Aurora database. A separate push mechanism shows an SPLs Processor that writes data directly to Amazon Aurora. The Aurora database has bidirectional data flow with what appears to be a user/consumer interface (pink icon). Orange icons appear to represent AWS Lambda functions, and there's a queue or messaging service icon on the left side of the pull mechanism."
+    }
+  ],
+  "key_findings": [
+    "This is a technical infrastructure diagram for a data processing system, not a biotech/science research document",
+    "Shows automated data pipeline architecture with scheduled processors",
+    "No experimental data, biological findings, or TRL-relevant scientific content present",
+    "Document appears to be from a software/blockchain technology context rather than life sciences"
+  ]
+}

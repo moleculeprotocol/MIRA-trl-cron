@@ -1,0 +1,17 @@
+{
+  "file_path": "/a-few-wise-men",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is an artistic illustration depicting three classical philosophers in ancient robes, surrounded by symbolic elements representing insight, knowledge, and creative thought. The image contains mechanical and scientific instruments as symbolic elements but no actual scientific data, experimental results, or biotech project information relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "Classical-style painting showing three bearded figures in togas representing different aspects of knowledge: one holding a glowing orb labeled 'INSIGHT', one in the center holding an open book labeled 'WAPIENITA', and one in a thinking pose labeled 'COGITATIO CREATRIX' (creative thought). The scene includes decorative elements like gears, mechanical instruments, scrolls, and architectural ruins in the background. This appears to be conceptual or allegorical artwork rather than a scientific document."
+    }
+  ],
+  "key_findings": [
+    "This document contains no scientific data, experimental results, or biotech project information",
+    "The image is purely artistic/allegorical in nature with no relevance to technology readiness level assessment",
+    "No information about therapeutic targets, experiments, team, IP, regulatory status, or development progress"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "file_path": "/2025-06-13-CLAW-update-IRB-protocol-executive-summary-1.pdf",
+  "document_type": "regulatory",
+  "relevance": "high",
+  "summary": "IRB protocol submission for Percepta, a plant-based dietary supplement (cat's claw and oolong tea extract) for Mild Cognitive Impairment. This is a 6-month randomized, double-blind, placebo-controlled trial (n=154) conducted by Cerebrum DAO and Reputable Health, measuring cognitive performance via digital MoCA, wearable biomarkers, and participant-reported outcomes.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Executive Summary and Project Overview",
+      "content": "Study: Percepta for Cognitive Optimization in adults with self-reported MCI. 6-month randomized, double-blind, placebo-controlled trial. Technology: Percepta - plant-based dietary supplement containing cat's claw and oolong tea extract. Sponsor: Cerebrum DAO. Conductor: Reputable Health. Lead Investigator: Dr. Mark Melnykowycz. Team: Maryna Polyakova, Brian Magierski, Peter Groenen. Current Status: IRB Protocol submitted (June 2025). Study aims to determine if Percepta can improve cognitive performance, wearable biomarker metrics, and participant-reported brain health."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Background and Scientific Rationale",
+      "content": "MCI is a critical stage between normal aging and dementia with limited effective interventions. Percepta offers multi-faceted approach leveraging neuroprotective properties of ingredients. Preclinical studies show promise for reducing neuroinflammation, oxidative stress, and amyloid-beta plaque aggregation. Existing MCI treatments (lecanemab, donanemab) have limitations in accessibility, cost, and safety. Percepta ingredients (cat's claw and oolong tea extract) have shown potential in preclinical studies to mitigate neuroinflammation, oxidative stress, and protein aggregation."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Study Design",
+      "content": "N=154 participants aged 40-85 with self-reported MCI. 1:1 randomization to Percepta vs placebo. Fully remote/decentralized trial: participants receive supplements at home, complete assessments via mobile app and wearable devices (Oura Ring). Primary outcome: cognitive performance measured by digital Montreal Cognitive Assessment (MoCA). Secondary outcomes: wearable biomarker metrics (sleep quality, heart rate variability) and Brain Health Index (BHI). Optional sub-study: blood biomarkers (tau protein and amyloid beta ratios). Interim analyses at 3 months. Potential extensions to 9 and 12 months based on initial findings."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Intervention Protocol",
+      "content": "Active intervention: 750mg (2 capsules) Percepta, taken orally once daily. Placebo: identical-looking capsules without active ingredients. Adherence tracking: mobile application and wearable device data. Adherence requirements: ≥80% for per-protocol analysis, ≥95% for intention-to-treat analysis."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Objectives and Endpoints",
+      "content": "Primary objective: determine if Percepta supplementation leads to significant improvements in cognitive performance (digital MoCA). Secondary objectives: improvements in wearable device biomarker metrics and BHI scores. Exploratory objectives: blood biomarkers assessment. Assessment timepoints: baseline, 3 months, 6 months, with potential extensions to 9 and 12 months."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Study Population - Inclusion Criteria",
+      "content": "Adults aged 40-85 years. Self-reported MCI (MoCA score <25). Ownership of Oura Ring. Commitment to study procedures. Must maintain stable lifestyles during study (diet, alcohol, substance use, physical activity, sleep)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Study Population - Exclusion Criteria",
+      "content": "Use of cognitive-affecting medications. Neurological or psychiatric disorders. Allergies to study ingredients. Pregnancy. APOE-4 allele carrier status. Unstable lifestyle factors."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Safety and Monitoring",
+      "content": "Continuous wearable device data monitoring. Eligibility screening. Adverse event (AE) reporting via mobile application or email. All AEs assessed for severity and relationship to intervention. Serious adverse events (SAEs) reported to IRB and sponsor within 48 hours. Participant compensation provided for study completion."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Expected Outcomes",
+      "content": "Study aims to provide foundational data on Percepta's safety, tolerability, and potential cognitive benefits. If successful, findings could inform future research and contribute to development of accessible, natural interventions for cognitive decline."
+    }
+  ],
+  "key_findings": [
+    "IRB protocol submitted June 2025 for Phase 2-like clinical trial - indicates regulatory progress toward TRL 5-6",
+    "Randomized, double-blind, placebo-controlled design with n=154 participants - appropriate clinical trial methodology",
+    "Intervention: Percepta 750mg daily (cat's claw and oolong tea extract) for 6 months in MCI patients",
+    "Primary endpoint: digital MoCA cognitive assessment; Secondary: wearable biomarkers (sleep, HRV) and Brain Health Index",
+    "Decentralized trial design using mobile app and Oura Ring for remote data collection",
+    "Preclinical evidence exists showing reduction of neuroinflammation, oxidative stress, and amyloid-beta plaque aggregation",
+    "Optional sub-study measuring blood biomarkers (tau protein and amyloid beta ratios)",
+    "Study conducted by Cerebrum DAO (Switzerland) with Lead Investigator Dr. Mark Melnykowycz",
+    "Trial partner: Reputable Health",
+    "Interim analysis planned at 3 months with potential extensions to 9 and 12 months"
+  ]
+}

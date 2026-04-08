@@ -1,0 +1,21 @@
+{
+  "file_path": "/screenshot-2025-08-21-at-13-13-21.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a GraphQL IDE interface screenshot showing code syntax and an error message. It contains no scientific, technical, or business information relevant to biotech TRL assessment. The visible content includes GraphQL query syntax examples, code completion shortcuts, and a JSON syntax error message.",
+  "content_blocks": [
+    {
+      "type": "text",
+      "content": "GraphQL IDE interface showing query syntax with comments about merge fragments (Shift-Ctrl-M), run query (Ctrl-Enter), and auto complete (Ctrl-Space) functionality. The code shows a GraphQL schema structure with fields like molecule, projects, nodes, ipnftUid, ipnftSymbol, ipnftAddress, ipnftTokenId, account (displayName), and dataRoom (id, name, alias)."
+    },
+    {
+      "type": "text",
+      "content": "Error panel displaying: 'Unexpected token 'A', \"Anonymous \"... is not valid JSON' with associated SyntaxError stack trace. This indicates a JSON parsing error in the GraphQL interface."
+    }
+  ],
+  "key_findings": [
+    "This is not a biotech/science document - it is a software development interface screenshot",
+    "No experimental data, scientific findings, or TRL-relevant information present",
+    "Document shows GraphQL query syntax and a JSON parsing error only"
+  ]
+}

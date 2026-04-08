@@ -1,0 +1,20 @@
+{
+  "file_path": "/molecule.fidel/g1rxrv6aaaertvd.png",
+  "document_type": "figure",
+  "relevance": "medium",
+  "summary": "This is a single laboratory photograph showing a researcher in a white lab coat performing cell culture or liquid handling work in a biosafety cabinet. The image shows active wet lab work with cell culture plates, pipettes, and media bottles, indicating hands-on experimental work is being conducted.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Laboratory researcher performing cell culture work",
+      "content": "Photograph of a researcher in a white lab coat and blue gloves working in a biosafety cabinet (biological safety cabinet with blue frame visible at top). The researcher is using a multi-channel pipette to handle samples. Visible equipment and materials include: multiple cell culture plates (yellow tube rack with samples, multi-well plates), red culture media in flasks/bottles, petri dishes, a white container labeled '1.5mL', and standard tissue culture supplies. The laboratory setting shows a professional research environment with proper sterile technique being employed. The setup suggests active cell-based experimental work, potentially cell culture maintenance, compound screening, or assay development."
+    }
+  ],
+  "key_findings": [
+    "Active wet lab operations demonstrated with proper biosafety cabinet use and sterile technique",
+    "Cell culture work being performed, suggesting cell-based assays or model systems are in use",
+    "Laboratory infrastructure and trained personnel present to conduct experimental work",
+    "Image alone provides limited TRL information without accompanying data on what experiments are being performed, what cell lines/models are used, or what results have been obtained"
+  ]
+}

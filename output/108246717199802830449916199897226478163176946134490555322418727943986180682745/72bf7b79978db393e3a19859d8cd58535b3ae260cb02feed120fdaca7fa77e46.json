@@ -1,0 +1,140 @@
+{
+  "file_path": "/fixing-broken-mitochondria-fissionbio.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "FissionBio is developing small molecule drugs targeting the Drp1-Fis1 protein interaction to prevent excessive mitochondrial fission in neurodegenerative diseases (Alzheimer's, ALS, Huntington's) and other inflammatory conditions. The company is advancing from second-generation peptide mimetics (SC9) to third-generation brain-penetrant small molecules, funded by Cerebrum DAO through community-driven biotech investing.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Introduction and Scientific Rationale",
+      "content": "FissionBio targets mitochondrial dysfunction as a common mechanism across neurodegenerative diseases. Neurons require constant ATP supply and contain hundreds of mitochondria. When damaged, mitochondria fragment excessively, contributing to Alzheimer's, ALS, and Huntington's disease. The company targets the Drp1-Fis1 protein interaction that causes pathological mitochondrial fragmentation. FissionBio is backed by Cerebrum DAO with community funding and is developing small molecule drugs to stop neurodegeneration at its source."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mitochondrial Dynamics - Fusion and Fission Balance",
+      "content": "In healthy cells, mitochondria maintain balance between fusion (merging into networks to share resources and repair damage) and fission (division into smaller units for quality control and distribution). Neurons are particularly energy-hungry and require this dynamic balance. The document establishes the biological rationale for targeting mitochondrial dynamics as a therapeutic approach."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Mitochondrial Fusion vs Fission Processes",
+      "content": "Fusion: Mitochondria merge into interconnected networks, enabling resource sharing (proteins, DNA) to repair damaged mitochondria and improve energy production through efficient networks. Fission: Division into smaller units, increases mitochondrial number when energy demand rises, supports quality control by isolating damaged parts, ensures both daughter cells receive mitochondria during cell division."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Disease Mechanism - Drp1-Fis1 Interaction",
+      "content": "Normal fission: Drp1 acts as 'molecular scissors' and binds to Mff, MiD49, MiD51 receptors for healthy processes (mitophagy, biogenesis, energy regulation). Pathological fission: During inflammatory stress, Drp1 interacts with Fis1 receptor instead, triggering excessive damaging mitochondrial splitting while fusion decreases. This creates fragmented, dysfunctional mitochondria. This Drp1-Fis1 interaction is NOT involved in healthy cellular processes, making it a selective therapeutic target."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Electron Microscopy of Alzheimer's Disease Model Mitochondria",
+      "content": "Images (d,e) show mitochondria in brain tissue from Alzheimer's disease model mice. Panel d shows mitochondria undergoing splitting. Panel e shows abnormal shapes and disrupted internal structures. Scale bars: 2 μm and 0.5 μm. Source: Zhang et al., 2016. This provides direct visual evidence of mitochondrial pathology in disease models."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Literature Evidence for Drp1-Fis1 as Therapeutic Target",
+      "content": "Multiple published studies demonstrate that inhibition of Drp1/Fis1 interaction slows disease progression across: Alzheimer's disease, ALS, Huntington's disease, Parkinson's disease, and cardiovascular disease. Key citations: Guo et al. 2013, Joshi et al. 2018 (two papers), Qi et al. 2013, Tian et al. 2017. This provides direct evidence that targeting this protein interaction has therapeutic benefits."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "DRP1-Dependent Mitochondrial Fission Disease Spectrum",
+      "content": "Diagram showing human body with disease indications across multiple organ systems: BRAIN (Alzheimer's, Parkinson's, Huntington's, Multiple sclerosis, AMD, ALS), STROKE, HEART & LUNGS (congestive heart failure, COPD, idiopathic pulmonary fibrosis), GASTROINTESTINAL (IBD), SEPSIS. Demonstrates broad therapeutic potential beyond neurodegeneration."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "P110 Peptide Mechanism of Action",
+      "content": "P110 is a peptide designed to disrupt Drp1-Fis1 binding while preserving normal mitochondrial function. Therapeutic strategy: prevents initial mitochondrial damage rather than boosting energy or removing toxic proteins. Mechanism: P110 binds to the same site on Drp1 that pathologically interacts with Fis1, occupying this binding site to prevent inflammatory stress-induced fission while allowing normal mitochondrial dynamics through other Drp1 receptors (Mff, MiD49, MiD51). This selectivity preserves normal fission processes required for quality control, mitophagy, biogenesis, and energy regulation."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "P110 Preclinical Efficacy Data Summary",
+      "content": "13 years of research across 11 different disease models. Key results: (1) Huntington's disease models: Reduced brain cell death, improved motor function (Qi et al., 2012 - 'novel Drp1 inhibitor diminishes aberrant mitochondrial fission and neurotoxicity'). (2) ALS patient cells: Restored mitochondrial function and cellular viability in human neurons derived from patient models (Joshi et al., 2018). (3) Alzheimer's disease models: Enhanced cognitive performance, reduced neurodegeneration - 'Drp1/Fis1 interaction mediates mitochondrial dysfunction, bioenergetic failure and cognitive decline' (Joshi et al., 2018). (4) Cardiac conditions: Improved function in ischemic heart disease and pulmonary hypertension, showing mitochondrial protection extends beyond brain (Tian et al., 2017)."
+    },
+    {
+      "page": 5,
+      "type": "figure",
+      "title": "P110 Mechanism in ALS Models",
+      "content": "Mechanistic diagram showing: Protein aggregation (SOD1, TDP43, FUS1) causes ER stress leading to impaired protein quality control and excessive mitochondrial fission. This results in reduced ATP, increased ROS (reactive oxygen species), apoptosis, and mitochondrial dysfunction with autophagy impairment. P110 blocks the vicious cycle by preventing excessive mitochondrial fission. Demonstrates multi-level protection: prevents ROS generation, maintains ATP production, blocks apoptosis pathway. Source: Joshi et al., 2018."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "P110 Expanded Therapeutic Applications",
+      "content": "Recent research (Rios et al., 2023) demonstrates P110 benefits extend beyond ALS to: Parkinson's disease, stroke, inflammatory bowel disease, sepsis. Lead investigator Dr. Luis Rios (Co-Founder and Principal Investigator of FissionBio) suggests targeting pathological Drp1-Fis1 interaction is fundamental for treating inflammatory conditions throughout the body. Critical advantage: P110 achieves benefits WITHOUT causing immunosuppression - a major limitation of many anti-inflammatory treatments."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Small Molecule Development Strategy",
+      "content": "Peptide limitations: Difficult to manufacture at scale, expensive to produce, poor blood-brain barrier penetration, rapid breakdown requiring frequent dosing or complex delivery. FissionBio solution: Developing small molecule drugs that mimic P110 effects while overcoming peptide limitations. Key discovery by Dr. Luis Rios: Identified the SWAG (switch I-adjacent groove) binding site on Drp1 protein where P110 and small molecules interfere with Fis1 interaction. SC9: Second-generation P110 mimetic small molecule that binds to SWAG site and mimics P110 protective effects in laboratory and animal studies."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Small Molecule Advantages and Development Status",
+      "content": "SC9 advantages over peptides: (1) Manufacturing: Chemical synthesis more scalable and cost-effective than biological production. (2) Stability: Resist degradation, maintain activity longer. (3) Brain penetration: Can cross blood-brain barrier more effectively. (4) Oral delivery: Pills more convenient than injections, improve patient compliance. Critical property maintained: Prevent pathological Drp1-Fis1 interaction without suppressing normal immune function or interfering with healthy mitochondrial dynamics. Current limitation: SC9 lacks sufficient brain penetration for neurological applications. Current stage: Developing third-generation compounds with improved drug properties, particularly brain penetration."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Pipeline Strategy - Pipeline in a Pill",
+      "content": "FissionBio strategy: 'Pipeline in a pill' - same mechanism can potentially treat multiple neurodegenerative conditions rather than developing separate drugs for each disease. Rationale: Targeting common mitochondrial dysfunction underlying multiple diseases."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Cerebrum DAO Funding Model",
+      "content": "Problem: Valley of Death/translation gap - promising research dies in early stages due to funding gap. Traditional investors wait for later-stage data. Cerebrum DAO solution: Community-driven Decentralized Autonomous Organization (BioDAO) focused on ending brain diseases enables direct funding of promising research. FissionBio funding: $200,000 initial commitment from Cerebrum DAO, plus $200,000 raised from community through MITY IP-NFT crowdsale, total $400,000."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "BioDAO Advantages",
+      "content": "Advantages over traditional funding: (1) Community expertise: Members bring diverse backgrounds (scientists, clinicians, patients, industry professionals). (2) Faster decision-making: No bureaucratic delays or lengthy committee approvals. (3) Risk control: Willingness to fund innovative but unproven concepts too early for traditional investors. (4) Transparent funding: Open processes communities can track and evaluate. (5) Patient engagement: Direct involvement of affected people in funding decisions. Model bridges gap between academic research and commercial development, funding based on potential to help people rather than profit-focused appeal."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Drug Discovery Development Stages",
+      "content": "Current status: SC9 demonstrated small molecules can target SWAG site and mimic P110 effects, but lacks brain penetration for neurological applications. Third-generation compound development stages: (1) Hit identification: Screening for new compounds binding SWAG site with activity. (2) Lead optimization: Refining molecular structures for better drug properties, especially brain penetration. (3) Safety testing: Confirming non-toxic at therapeutic doses. (4) Pharmacokinetics: Ensuring drugs reach targets and clear safely. (5) Disease model validation: Demonstrating efficacy in relevant animal models. IND-enabling studies: Comprehensive safety testing required before human clinical trials, generates preclinical data for FDA approval of first-in-human testing."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "IP Token Model and Community Ownership",
+      "content": "Cerebrum DAO uses IP Tokens (IPTs) granting fractional ownership of intellectual property being developed. NEURON token holders can fund projects, vote on research priorities, share in value of future patents and licensing deals. FissionBio MITY IPT holders fund, govern, and guide development directly. Cerebrum is material holder of FissionBio MITY IPT. Model transforms funding: patients, researchers, supporters can directly back science while sharing rewards of success."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "References - Key Publications",
+      "content": "Eight peer-reviewed publications supporting scientific rationale: (1) Guo et al. 2013 - JCI - Huntington's fragmentation inhibition. (2-3) Joshi et al. 2018 - EMBO Mol Med and Oncotarget - ALS and Alzheimer's Drp1/Fis1 studies. (4) Qi et al. 2012 - J Cell Science - Novel Drp1 inhibitor diminishes fission and neurotoxicity. (5) Rios et al. 2023 - Nature Communications - Targeting allosteric site in Drp1 to inhibit Fis1-mediated dysfunction. (6) Tian et al. 2017 - J Mol Med - Ischemia-induced mitochondrial fission in pulmonary hypertension. (7) Zhang et al. 2016 - Scientific Reports - Altered brain energetics induce mitochondrial fission arrest in Alzheimer's."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Team - Principal Investigator",
+      "content": "Dr. Luis Rios identified as Co-Founder and Principal Investigator of FissionBio. Made crucial discovery of SWAG binding site on Drp1 protein. Led development of SC9 second-generation molecule. Recent first-author publication in Nature Communications 2023 on targeting allosteric site in Drp1."
+    }
+  ],
+  "key_findings": [
+    "FissionBio targets Drp1-Fis1 protein interaction causing pathological mitochondrial fission in neurodegenerative diseases",
+    "P110 peptide demonstrated efficacy across 11 disease models over 13 years: Huntington's (reduced cell death, improved motor function), ALS (restored mitochondrial function in patient-derived neurons), Alzheimer's (enhanced cognition, reduced neurodegeneration), cardiac conditions (improved function)",
+    "Mechanism is selective: blocks pathological Drp1-Fis1 interaction during inflammatory stress while preserving normal mitochondrial dynamics through Mff/MiD49/MiD51 receptors",
+    "SC9 is second-generation small molecule P110 mimetic that binds SWAG (switch I-adjacent groove) site discovered by Dr. Luis Rios, demonstrates activity in lab and animal studies",
+    "Current stage: Developing third-generation small molecules with improved brain penetration for neurological applications, working toward IND-enabling studies",
+    "Technology platform has broad applicability beyond brain: demonstrated benefits in stroke, IBD, sepsis, cardiac diseases per recent 2023 Nature Communications publication",
+    "Funding: $400,000 raised through Cerebrum DAO community funding model using IP tokens (MITY IPT)",
+    "Key advantage: achieves anti-inflammatory benefits without immunosuppression",
+    "Eight peer-reviewed publications in high-impact journals (JCI, EMBO Molecular Medicine, Nature Communications, Scientific Reports) support mechanism and efficacy",
+    "No specific quantitative efficacy data (IC50, EC50, dose-response curves) provided in this document"
+  ]
+}

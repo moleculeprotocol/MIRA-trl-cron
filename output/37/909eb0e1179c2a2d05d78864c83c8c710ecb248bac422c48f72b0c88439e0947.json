@@ -1,0 +1,32 @@
+{
+  "file_path": "/jwt-test-file-20250731-123658.pdf",
+  "document_type": "publication",
+  "relevance": "none",
+  "summary": "This is an academic whitepaper describing Unichain, a blockchain technology optimized for DeFi (decentralized finance) trading. It presents a technical architecture for an optimistic rollup with innovations in block building and validation. This document is entirely focused on blockchain/cryptocurrency infrastructure and contains no biotech, pharmaceutical, or life sciences content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract and Introduction",
+      "content": "Unichain is described as an optimistic rollup blockchain optimized for efficient financial markets through fast state updates (200-250ms block times via 'Flashblocks'), MEV (maximal extractable value) internalization framework, and economic finality system. Built on Ethereum's OP Stack and Superchain network. Authors include representatives from Uniswap, Flashbots, OP Labs, and Paradigm."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Technical Architecture",
+      "content": "Describes Verifiable Block Building using trusted execution environments (TEEs) with Intel TDX hardware, sequencer-builder separation, Flashblocks for sub-second transaction confirmation, and trustless revert protection. Mentions collaboration with Flashbots on Rollup-Boost technology."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Validation Network and Future Work",
+      "content": "Details Unichain Validation Network (UVN) with staked validators using UNI tokens to attest to block validity. Discusses potential extensions for credible neutrality monitoring and limiting sequencer posting abilities. Contains 22 references to blockchain/DeFi literature including Uniswap versions, MEV research, and Ethereum scaling solutions."
+    }
+  ],
+  "key_findings": [
+    "This is a blockchain technology whitepaper for cryptocurrency/DeFi infrastructure",
+    "No biological, pharmaceutical, medical device, or life sciences content present",
+    "Document describes financial technology architecture, not biotech R&D",
+    "Contains no experimental data, therapeutic targets, disease models, or clinical development information relevant to biotech TRL assessment"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "file_path": "/primadonna-lab-report",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "Prima Donna project developing iPSC-derived ameloblast organoids for enamel regeneration. Uses AI-designed Notch ligand to mature organoids that express enamel matrix proteins (AMELX, AMBN, ENAM). Initial in vivo proof-of-concept achieved with enamel-like calcified material formation in NOD-SCID mice. Currently at TRL 2-3 transition with in vitro validation complete and initial animal studies underway.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Therapeutic Concept and Target Indication",
+      "content": "iPSC-derived enamel-producing cells and organoids for biological enamel regeneration. Platform positioned as drug discovery engine with long-term potential for topical/dentist-administered regenerative products. Target indication: tooth enamel loss (erosion, age-related wear, caries-associated damage) and genetic disorders (amelogenesis imperfecta). Patient population: >90% individuals worldwide experience enamel loss; 2.4 billion people affected by dental caries globally (WHO 2022); US dental care expenditures exceed $120B annually."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism of Action and Biological Target",
+      "content": "iPSC-derived ameloblast-lineage cells organized into 3D organoids that recapitulate enamel formation. Cells synthesize and secrete enamel matrix proteins including Amelogenin (AMELX), Ameloblastin (AMBN), and Enamelin (ENAM). Organoids demonstrate ability to deposit enamel-associated ECM and initiate mineralization processes. Platform functions as discovery/validation system to identify pathways, factors, and compounds that promote enamel regeneration for formulation into scalable dental products."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Current Development Stage",
+      "content": "Advanced in vitro validation with initial in vivo proof-of-concept. Reproducible differentiation of human iPSCs into induced-stage mature ameloblast (ismAM) organoids using AI-designed Notch ligand. Organoids show improved cellular identity, viability, and functional markers vs earlier stages. In vivo validation: ismAM organoids transplanted under kidney capsule of NOD-SCID mice generated enamel-like calcified material confirmed by microCT. First demonstration that Notch-activated iPSC-derived ameloblast organoids can form enamel-like calcified tissue in vivo (Patni et al. IJOS, in press)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Manufacturing and Translational Readiness",
+      "content": "Personnel successfully trained; protocols refined for reproducibility, consistency, and organoid quality across production runs. Full scale-up not yet achieved but strong foundation established. Quality control framework implemented with quantitative metrics for: cell viability, lineage identity, functional performance (matrix production and mineralization potential). QC benchmarks now routinely met. Active milestone: determining minimum effective cell number and organoid dose for in vivo studies."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Milestones Achieved",
+      "content": "1) iPSC differentiation into ameloblast-lineage organoids with enhanced maturation using AI-designed Notch ligand; 2) In vitro functional validation including enamel matrix protein expression and improved organoid quality; 3) Initial in vivo proof-of-concept demonstrating enamel-like calcified tissue formation in NOD-SCID mouse kidney capsule model; 4) Organoid production reproducibility established with trained personnel and standardized protocols; 5) Quality control framework implemented with metrics for viability, lineage identity, and functional performance."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Milestones In Progress",
+      "content": "1) Continue organoid production scale-up, focusing on increasing yield while maintaining quality and reproducibility; 2) Cryopreservation and freeze-thaw validation, assessing post-thaw viability and functional integrity; 3) Dose-finding and cell number determination to define minimum effective organoid/cell input for in vivo studies."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Patent Application Status",
+      "content": "UW Patent Application PCT/US2022/053517 filed Dec 20, 2022 (Priority Date Dec 28, 2021). Title: HUMAN IPSC DERIVED AMELOBLASTS AND USES THEREOF. Inventors: David Baker, Hannele Ruohola-Baker, Ammar Alghadeer, Hal Zhang, Julie Mathieu, Sesha Hanson-Drury. Scope of IP Protection: Not specified. Freedom-to-Operate Assessment: Not specified."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Proof-of-Concept Data",
+      "content": "iPSC-derived ameloblast organoids driven to functional enamel-forming states using AI-designed Notch ligand. Organoids express key enamel matrix proteins (AMELX, AMBN, ENAM) with enhanced matrix deposition vs non-activated controls. When transplanted under kidney capsule of NOD-SCID mice, Notch-activated organoids generated enamel-like calcified material detectable by microCT, whereas control organoids did not. Demonstrates initial in vivo functionality."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Disease Model Information",
+      "content": "Human disease-relevant in vitro model of amelogenesis imperfecta using DLX3 knockout (KO) iPSCs. DLX3 KO iPSCs differentiated into ameloblast-lineage cells using novel maturation protocol. System demonstrates that DLX3 is required in cell-autonomous manner for expression of mature ameloblast markers and proper enamel-associated differentiation. Critical role for DLX3 in human ameloblast maturation not previously demonstrated in mouse models, highlighting unique translational relevance of human iPSC-based disease model. Model fully validated at molecular and functional level in vitro; provides robust platform for mechanistic studies and therapeutic discovery in genetic enamel disorders."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Information Gaps",
+      "content": "Multiple fields left blank or marked with underscores: Candidate Status (number of candidates and optimization progress), Safety Data (in vitro safety screening or GLP toxicology status), Manufacturing Route (synthesis approach and scale-up demonstration), Regulatory Pathway (FDA pathway and clinical endpoint strategy), Computational Validation (molecular docking, dynamics simulations, or SAR analysis)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Milestone 1: Organoid Production Scaling",
+      "content": "Focus on improving robustness and reproducibility of in vitro organoid production. Personnel trained on standardized culture and handling procedures, resulting in increased consistency across production runs. Full-scale production targets not yet achieved, but protocol refinements enabled reliable and repeatable organoid generation with reduced batch-to-batch variability. Process optimization prioritized culture conditions supporting organoid health and developmental progression. Updated protocol documents current production workflow."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Milestone 1: Optimization and Quality Control",
+      "content": "QC metrics established to assess: cell viability, cell identity, organoid maturation, and functional characteristics. Organoids produced under optimized conditions exhibit improved viability and increased maturation vs earlier production methods. Incorporation of AI-designed protein into culture system resulted in measurable enhancements in organoid maturation, assessed by functional and molecular markers. Optimized culture environment promotes more physiologically relevant organoid development. Total number of cells required for in vivo studies (Milestone 2) not yet fully achieved at scale, but organoids of sufficient quality and maturity can be generated reliably. Ongoing efforts focus on increasing yield while preserving quality attributes."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Milestone 1: Go/No-Go Decision Point",
+      "content": "Go/No-Go assessment conducted based on QC outcomes and production performance. Further optimization required to reach target production scale and cell numbers for in vivo studies. However, demonstrated improvements in organoid quality, reproducibility, and maturation represent substantial reduction in technical risk. Project positioned to continue optimization efforts toward scale-up, with strong biological foundation established for eventual transition to in vivo studies once production targets are met."
+    }
+  ],
+  "key_findings": [
+    "Initial in vivo proof-of-concept achieved: iPSC-derived ameloblast organoids generated enamel-like calcified material in NOD-SCID mouse kidney capsule model, confirmed by microCT (Patni et al. IJOS, in press)",
+    "AI-designed Notch ligand enables reproducible differentiation of human iPSCs into mature ameloblast organoids (ismAM) with enhanced cellular identity, viability, and functional markers",
+    "Organoids express key enamel matrix proteins (AMELX, AMBN, ENAM) and demonstrate enhanced matrix deposition compared to non-activated controls",
+    "Human disease model established: DLX3 knockout iPSCs demonstrate cell-autonomous requirement for DLX3 in ameloblast maturation, validated in vitro at molecular and functional levels",
+    "Quality control framework implemented with standardized protocols and metrics for viability, lineage identity, and functional performance; QC benchmarks routinely met",
+    "Patent filed: PCT/US2022/053517 covering human iPSC-derived ameloblasts and uses, priority date Dec 28, 2021",
+    "Scale-up challenges remain: target cell numbers for in vivo studies not yet achieved; cryopreservation validation and dose-finding studies ongoing",
+    "Team includes Profs. Hannele Ruohola-Baker, Julie Mathieu, Jonathan An; patent inventors include David Baker (AI protein design)",
+    "Target indication addresses massive unmet need: >90% individuals experience enamel loss; 2.4B people affected by dental caries; $120B US market",
+    "Current stage: TRL 2-3 transition with robust in vitro validation and initial in vivo proof-of-concept, but manufacturing scale-up and full preclinical studies pending"
+  ]
+}

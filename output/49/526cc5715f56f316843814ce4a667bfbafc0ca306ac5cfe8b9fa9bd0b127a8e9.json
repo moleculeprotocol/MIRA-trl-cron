@@ -1,0 +1,124 @@
+{
+  "file_path": "/molecule.vitarat/vdp63-matrix-proposal.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "VitaDAO funding proposal for Matrix Bio, a research venture with the Gorbunova Lab developing small molecule hyaluronidase inhibitors to increase high molecular weight hyaluronic acid (HMW-HA) levels in humans. The approach is based on naked mole rat cancer resistance mechanisms and aims to develop novel therapeutics for cancer prevention/treatment and longevity.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview and Team",
+      "content": "VitaDAO proposal VDP-63 for Matrix Bio venture with Vera Gorbunova Lab. One liner: Leveraging anti-cancer and pro-longevity effects of high molecular weight hyaluronic acid from naked mole rat to human. Scientific evaluation by Sebastian Brunemeier, Tim Peterson, Rhys Anderson, Koen De Lombaert. Business evaluation by Sebastian Brunemeier, Tim Peterson. PI: Vera Gorbunova. Decentralised Tech Transfer (DTT) funding model for conducting experiments at CRO or fee-for-service academic facilities."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Simple Summary - Scientific Rationale",
+      "content": "Naked mole rats (NMR) live up to 40 years vs 3 years for normal rats and are cancer resistant. Previous Gorbunova lab research demonstrated NMR cancer resistance is modulated by abundance of high molecular weight hyaluronic acid (HMW-HA) in tissues (Reference 1). Transgenic mice expressing naked mole rat hyaluronan synthase gene (NHAS2) have less tumours, improved health, and live 10% longer than mice without transgene (Reference 2). Project will screen and develop small molecule inhibitors of hyaluronidases (enzymes that break down hyaluronic acid) to increase HA in human patients. Compounds expected to be used for cancer treatment and increase human healthspan/lifespan."
+    },
+    {
+      "page": 2,
+      "type": "image",
+      "title": "MatrixBio Logo",
+      "content": "MatrixBio company branding logo - teal and purple design"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Problem Statement",
+      "content": "Aging is major risk factor for human diseases including cardiovascular disease, cancer, arthritis, cataracts, osteoporosis, type 2 diabetes, Alzheimer's. Cancer accounted for ~10 million deaths worldwide and 19.3 million new cases in 2020 (Reference 3). Tumor microenvironment is critical component consisting of tumor cells, stromal cells, endothelial cells, immune cells, and non-cellular extracellular matrix (ECM) components. Through complex signaling networks, tumor cells use non-malignant cells to their advantage for tumor formation and maintenance (Reference 4)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Hyaluronic Acid Biology",
+      "content": "HA is a long polysaccharide in the ECM playing multifactorial role in tumor suppression and progression depending on polymer size, through interactions with HA receptors like CD44. Cancer initiation results in changes in HA organization including increased HA synthesis and hyaluronidase expression, causing HA fragmentation. LMW-HA (low molecular weight) promotes neo-angiogenesis, tumor cell migration, invasion, and proliferation."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "HMW-HA Protective Effects",
+      "content": "Contrary to LMW-HA, HMW-HA promotes tissue homeostasis and prevents tissue metastasis through CD44 interactions and signaling (References 5,6)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Opportunity - NMR Biology",
+      "content": "Using exceptionally long-lived and cancer-resistant animals provides strategy to identify molecular mechanisms supporting longevity and healthspan. NMR would not be expected to live past 6 years based on size, yet some live beyond 30 years. NMR rarely get cancer, are resistant to some types of pain, and can survive up to 18 minutes without oxygen. At advanced ages, their mortality rate remains lower than any other documented mammal."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Research Foundation and Approach",
+      "content": "Based on published work by Gorbunova lab where NMR cancer resistance was found to be conferred by abundant HMW-HA in tissue (Reference 1). Very-high-molecular-weight HA (vHMW-HA) has superior cytoprotective properties compared to shorter HMW-HA, protecting both human and mouse cells from stress-induced cell-cycle arrest and cell death (Reference 7). Team has already identified two targets worth pursuing and prioritized one (not disclosed for IP protection). Most recent findings: transgenic mice expressing NMR hyaluronan synthase gene have less cancer, improved health, and live 10% longer than mice without transgene (Reference 2), supporting that higher levels of HA promote healthy living and longevity. While humans cannot produce vHMW-HA, it is possible to increase HMW-HA and decrease LMW-HA by inhibiting enzymes that break down hyaluronans."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "IP Roadmap",
+      "content": "Gorbunova lab has designed complex and validating functional screening assay to find inhibitors of hyaluronidases. Previous ~3k compound screen led to discovery of one natural product that increases levels of HA in mouse and human tissues. IP will include formulations and/or modifications of this natural product. Within present proposal, team plans to perform larger compound high throughput screen (HTS) with proprietary hyaluronidase inhibition assay and medicinal chemistry optimization of hits to produce patentable new chemical entities."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Budget - $300k Total",
+      "content": "Financing of up to USD $300k provided by VitaDAO: Up to $200k allocated to HTS and exploratory medicinal chemistry with 3rd party CRO or academic fee-for-service facility; Up to $100k allocated to Gorbunova lab for hit compound experiments. $5k/month for consulting agreement. Program 1: HTS and med chem for new inhibitors - Phase 1: High Throughput Screening up to $100k, Phase 2: Medicinal Chemistry on hits up to $100k. Program 2: Validation of existing in vivo active inhibitor (EC50 ~ 20 µM) - Administration of hit compound to mouse models of cancer to test curative and preventative effects up to $100k. Funds cover: technician effort, mouse cost, chemical cost, culturing human cancer cell lines for xenografts, mouse evaluation for tumor burden."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Milestones",
+      "content": "Milestones to be agreed in separate full length R&D plan."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Team - Vera Gorbunova PhD",
+      "content": "Vera Gorbunova is endowed Professor of Biology and Medicine at University of Rochester and co-director of Rochester Aging Research Center. Research focused on understanding mechanisms of longevity and studies of exceptionally long-lived mammals. Pioneered comparative biology approach to study aging. Elucidated mechanisms controlling evolution of tumor suppressor mechanisms. Uncovered function of longevity gene Sirtuin 6 in regulating genome stability across species. Demonstrated role of transposable elements in driving age-related inflammation. Work received awards from Ellison Medical Foundation, Glenn Foundation, AFAR, and NIH. Recognized by Cozzarelli Prize from PNAS, prize for research on aging from ADPS/Allianz France, Prince Hitachi Prize in Comparative Oncology Japan, and Davey Prize from Wilmot Cancer Center."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Highlights",
+      "content": "Novel idea from world-leader in field with extensive experience in longevity and healthspan mechanisms. Strong published and supporting evidence for target. May work against many types of cancer - high impact potential. May address other Extracellular Matrix (ECM) and skin-related conditions including wound healing, arthritis and joint conditions. Validated tool compound identified showing target is druggable. Strong IP potential with possible novel chemical matter to be identified."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Risks",
+      "content": "Hyaluronidase inhibition may not be effective to improve health - most clinical hyaluronic acid data is limited to dermatology (skin aging), unclear if it would work systemically to increase life/health span and reduce cancer in humans. Very novel and therefore still high-risk. Mixed literature evidence on role of hyaluronan in metastasis. Authors previously published (Takasugi et al., 2020) that several cytoprotective effects of hyaluronic acid are driven specifically by vHMM-HA (>6MDa), which may be dependent on two naked mole rat-unique amino acid variations in active site of hyaluronan synthase 2 (HAS2) and thus may not be able to be produced in human cells even with hyaluronidase inhibition. Potential impact on efficacy of chemotherapy and immunotherapy if taken in combination."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Senior Reviews - Qualitative Evaluation",
+      "content": "Proposal reviewed by 8 senior reviewers including scientists, biotech business experts, venture capitalist, and MD. PI is world leader in comparative biology with focus on longevity and healthspan mechanisms. Propose unique approach with relatively little competition on MoA and straightforward road to NCE IP. Strong published and supporting evidence for target in mice. Mechanism for cancer prevention seems well established via CD44. Already a screen hit with potential asset in hand. Could be first DeSci project where DAO spins out company - step forward for community. However, hyaluronan role in cancer is somewhat controversial: HMW-HA production linked to cancer resistance but also involved in driving and maintaining malignant progression. Underlying hypothesis needs more PoC data to be further substantiated. Unclear if proposed intervention would work systemically to increase life/health span and reduce cancer in humans. No detailed plans presented. Project is early and very high risk, but no insurmountable weaknesses."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Quantitative Evaluation Scores",
+      "content": "Reviewers scored proposal on scale of 1-5 (5 being highest). Average scores: Novelty 4.3, Feasibility & Data 3.5, Relevance 4.6, Science Team 4.6, Market Advantage 3.5, IP Potential 3.7, Conviction score 4.3"
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "References",
+      "content": "Reference 1: Tian X et al. Nature 2013;499(7458):346-349 - High-molecular-mass hyaluronan mediates cancer resistance of naked mole rat. Reference 2: Zhang Z et al. Preprint August 8, 2022 - Naked Mole-Rat Hyaluronan Synthase 2 Promotes Longevity and Enhances Healthspan in Mice. Reference 3: Sung H et al. CA Cancer J Clin 2021;71(3):209-249 - Global Cancer Statistics 2020. Reference 4: Baghban R et al. Cell Commun Signal 2020;18(1):59 - Tumor microenvironment complexity and therapeutic implications. Reference 5: Gorbunova V et al. Cell Stress 2020;4(9):227-229 - Hyaluronan goes to great lengths. Reference 6: Liu M et al. Front Immunol 2019;10:947 - Dissecting Dual Nature of Hyaluronan in Tumor Microenvironment. Reference 7: Takasugi M et al. Nat Commun 2020;11(1):2376 - Naked mole-rat very-high-molecular-mass hyaluronan exhibits superior cytoprotective properties."
+    }
+  ],
+  "key_findings": [
+    "Transgenic mice expressing NMR hyaluronan synthase 2 (NHAS2) show 10% lifespan extension, less tumors, and improved health (Reference 2 - preprint 2022)",
+    "Previous ~3k compound screen identified one natural product that increases HA levels in mouse and human tissues",
+    "One validated tool compound in hand with EC50 ~20 µM in vivo active",
+    "NMR cancer resistance mediated by HMW-HA abundance in tissues (Reference 1, Nature 2013)",
+    "vHMW-HA (>6MDa) has superior cytoprotective properties protecting human and mouse cells from stress-induced cell cycle arrest and death (Reference 7, Nat Commun 2020)",
+    "Two hyaluronidase targets identified with one prioritized (undisclosed for IP protection)",
+    "Proprietary functional screening assay for hyaluronidase inhibitors developed",
+    "Project stage: Early discovery - planning HTS and medicinal chemistry",
+    "Budget: $300k for HTS ($100k), medicinal chemistry ($100k), and mouse cancer model validation ($100k)",
+    "Team: PI Vera Gorbunova - world leader in comparative biology and longevity mechanisms",
+    "Major risk: vHMW-HA effects may depend on NMR-specific HAS2 amino acid variations, may not be achievable in humans with hyaluronidase inhibition alone",
+    "IP strategy: Novel chemical entities from HTS and formulations/modifications of existing natural product hit"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "file_path": "/molecule.ultra001/jamiroquia.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a logo/branding image for 'SPACEHAT' showing a stylized illustration of a wizard or party hat with a star design on a colorful cosmic background. It contains no scientific, technical, or biotech-related content.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "title": "SPACEHAT Logo",
+      "content": "A decorative logo featuring a blue wizard/party hat with an orange band sitting atop a multicolored star, set against a purple and blue cosmic background with scattered colorful dots representing stars. The text 'SPACEHAT' appears in bold yellow letters at the bottom. This is purely a branding/identity graphic with no scientific or technical information."
+    }
+  ],
+  "key_findings": [
+    "No scientific, technical, or biotech content present",
+    "Document appears to be a logo or branding material only",
+    "Contains no information relevant to TRL assessment",
+    "No experimental data, project details, or development evidence"
+  ]
+}

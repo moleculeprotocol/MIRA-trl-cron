@@ -1,0 +1,71 @@
+{
+  "file_path": "/Cocoa-Zero-A-Step-Towards-DeSci-Enabled-Chocolate.pdf",
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "ValleyDAO blog post about Cocoa Zero project at Imperial College London, developing microbial production of cocoa fats. Led by Dr. Oliver Konzock and Dr. Rodrigo Ledesma-Amaro. Engineered yeast strains achieved fatty acid profile matching cocoa butter. Project funded February 2024, now moving to chocolate manufacturer testing and commercialization.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview",
+      "content": "In February 2024, ValleyDAO funded research initiative at Imperial College London led by Dr. Oliver Konzock under supervision of Dr. Rodrigo Ledesma-Amaro to develop method for producing cocoa fats using microbes similar to beer brewing yeast. Goal: create sustainable, ethical, reliable alternative to traditional cocoa facing climate challenges and rising prices."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Climate and Market Context",
+      "content": "Cocoa farming heavily impacted by climate change with fluctuating weather patterns disrupting supply chains. Cocoa prices surged nearly 300% since 2023. Microbial production offers more stable, reliable, sustainable source while reducing environmental impact."
+    },
+    {
+      "page": 2,
+      "type": "figure",
+      "title": "Cocoa Price Chart",
+      "content": "Graph showing cocoa price ($/MTon) from approximately 1998-2025. Price remained relatively stable around $2,500-3,000 from 1998-2022, then spiked dramatically starting 2023 to peak over $12,000/MTon by 2025."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Technical Milestone Achievement",
+      "content": "Team at Imperial achieved significant milestone: engineered yeast strains produce fats with fatty acid profile closely resembling real cocoa butter. Critical achievement enables mimicking melting point, mouthfeel, and texture of real chocolate essential for consumer acceptance."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Fatty Acid Profile Comparison",
+      "content": "Radar chart comparing fatty acid profiles across five components: C16.0 (palmitic), C16.1, C18.0 (stearic), C18.1 (oleic), C18.2 (linoleic). Three profiles shown: Cocoa Butter (dark green/black), ValleyDAO Engineered Strain (light green), Non-Engineered Strain (orange/tan). ValleyDAO strain closely matches cocoa butter profile across all five fatty acids, while non-engineered strain shows significant deviations."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Fatty Acid Functions",
+      "content": "Precise tuning of yeast metabolism produces key fatty acids: palmitic (C16:0), stearic (C18:0), oleic (C18:1), linoleic (C18:2). Functions: palmitic and stearic acids provide firmness and texture; oleic acid adds smoothness and pleasant melting sensation; linoleic acid influences softness and flexibility."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Team Background",
+      "content": "Dr. Oliver Konzock: expertise in cocoa fat bioproduction from Chalmers University and UC Berkeley research position, developed innovative microbial methods for cocoa butter alternatives. Dr. Rodrigo Ledesma-Amaro: expert in metabolic engineering and synthetic biology, recently appointed Director of Imperial's Bezos Centre for Sustainable Protein, reflects leadership in novel foods innovation."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Next Steps and Commercialization",
+      "content": "ValleyDAO partnering with chocolate manufacturers to test bioproduced fats in real chocolate formulations. Next step: scaling process and moving toward commercialization. If successful, could lead to first DeSci-enabled chocolate bar, marking major step bringing DeSci innovations into consumer products."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "ValleyDAO Funding Model",
+      "content": "DeSci collective funding climate-focused biotech research. $GROW token holders participate in research crowdfunding, governance decisions, and share in impact. Community stake in scientific impact through tokenization."
+    }
+  ],
+  "key_findings": [
+    "February 2024: ValleyDAO funded Imperial College London project for microbial cocoa fat production",
+    "Engineered yeast strains achieved fatty acid profile closely matching real cocoa butter across C16:0, C16:1, C18:0, C18:1, C18:2",
+    "Technology mimics melting point, mouthfeel, texture of real chocolate",
+    "Led by Dr. Oliver Konzock (cocoa fat bioproduction expertise from Chalmers/UC Berkeley) and Dr. Rodrigo Ledesma-Amaro (metabolic engineering, Director of Imperial's Bezos Centre for Sustainable Protein)",
+    "Currently partnering with chocolate manufacturers for testing in real formulations",
+    "Next phase: scaling process toward commercialization of first DeSci-enabled chocolate bar",
+    "Market driver: cocoa prices increased 300% since 2023 due to climate impacts on farming"
+  ]
+}

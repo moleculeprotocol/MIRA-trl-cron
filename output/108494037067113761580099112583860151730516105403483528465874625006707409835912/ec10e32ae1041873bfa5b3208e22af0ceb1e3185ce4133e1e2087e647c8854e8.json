@@ -1,0 +1,64 @@
+{
+  "file_path": "/transfidelity-labs-report",
+  "document_type": "project_announcement",
+  "relevance": "high",
+  "summary": "Transfidelity is a research program targeting neurodegenerative diseases by enhancing ribosomal translation fidelity to prevent protein misfolding upstream rather than addressing downstream aggregation. The University of Zurich team has completed early-stage preclinical discovery with two hit compounds demonstrating reduced translational errors in HEK293 cells. The program has secured $254,000 in funding since August 2024 and is advancing toward validation in neuronal models.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Concept and Scientific Approach",
+      "content": "Transfidelity targets Alzheimer's, Parkinson's, and related neurodegenerative diseases by enhancing ribosomal translation fidelity. The approach prevents misfolded proteins from being made incorrectly rather than cleaning up damage after protein misfolding. During protein synthesis, ribosomes make errors including wrong amino acid incorporation and stop-codon readthrough. These errors accumulate with age and contribute to aggregation-prone proteins driving neurodegeneration. The team has developed proprietary dual-reporter assays measuring stop-codon readthrough and amino acid misincorporation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Experimental Results in HEK293 Cells",
+      "content": "Two hit compounds identified through screening demonstrate: (1) Statistically significant reductions in translational errors, (2) Maintained protein synthesis rates confirmed via polysome profiling, (3) Reduced aggregation of aggregation-prone reporter proteins including GFP and luciferase constructs, (4) Improved proteostasis without cellular toxicity. Model system: Human HEK293 cells. Evidence type: Dual-reporter assays, polysome profiling, aggregation assays with reporter proteins."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Supporting Scientific Literature",
+      "content": "The approach builds on published evidence linking enhanced translational fidelity to lifespan extension and reduced protein aggregation. Specifically mentions studies on RPS23 K60R fidelity mutants and age-associated readthrough errors in mammalian tissues."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Team Composition and Current Development Stage",
+      "content": "University of Zurich team led by Dr. Dimitri Scherbakov with expertise in molecular biology, translation control, proteostasis, neurodegeneration models, and medicinal chemistry from University of Basel. Current status: Early-stage preclinical discovery completed. Both hit compounds have undergone chemical evaluation and red-flag analysis. Currently conducting pathway profiling and proteostasis assessment to elucidate mechanism of action."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Funding and Planned Milestones",
+      "content": "Secured $254,000 in funding since August 2024. Three critical milestones planned: (1) Demonstrate reduced protein aggregation in human iPSC-derived neuronal models to validate in disease-relevant cell types, (2) Elucidate mechanism of action through proteomic and transcriptomic profiling to identify exact molecular targets and pathways, (3) Define target product profile and advance to hit-to-lead optimization in preparation for medicinal chemistry campaigns and eventual animal studies."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Market Positioning and Broader Applications",
+      "content": "No translational fidelity modulators currently in clinical development, positioning Transfidelity as potential first-in-class therapy. Target market: Alzheimer's disease affects 55 million people globally, broader neurodegeneration market exceeds $200 billion. The proprietary assay platform may extend to other proteostasis disorders and drug discovery applications."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Therapeutic Approach and Novel Mechanism",
+      "content": "Preventive approach addressing root causes (translation errors) rather than downstream symptoms (protein aggregates). Represents paradigm shift from current treatments that attempt to clean up misfolded proteins after formation. Critical innovation: compounds reduce translational errors without compromising overall protein synthesis rates, a balance previous approaches failed to achieve."
+    }
+  ],
+  "key_findings": [
+    "Two hit compounds identified that reduce translational errors in HEK293 cells with statistical significance",
+    "Dual-reporter assays developed as proprietary tools measuring stop-codon readthrough and amino acid misincorporation",
+    "Compounds maintain protein synthesis rates (polysome profiling) while reducing errors - critical balance not achieved previously",
+    "Demonstrated reduced aggregation of GFP and luciferase reporter constructs in cell culture",
+    "Improved proteostasis without cellular toxicity in HEK293 cells",
+    "Compounds have undergone chemical evaluation and red-flag analysis",
+    "Current stage: Early preclinical discovery, planning iPSC-derived neuronal validation",
+    "$254,000 funding secured since August 2024",
+    "Next milestones: iPSC neuronal models, mechanism elucidation via proteomics/transcriptomics, hit-to-lead optimization",
+    "No competing translational fidelity modulators in clinical development - potential first-in-class",
+    "Team at University of Zurich/Basel with multidisciplinary expertise",
+    "Primary experiments in cell culture (HEK293), disease-relevant models (iPSC neurons) planned but not yet executed"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "file_path": "/Transfidelity-Brand-Guidelines-1.pdf",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a brand guidelines document for Transfidelity dated 2025. It contains only visual identity specifications including logo usage rules, spacing requirements, color palette, and typography. No scientific, technical, or experimental content is present.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page",
+      "content": "Transfidelity Brand Guidelines 2025 - cover page with gradient background"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Logo - Single-line Lockup",
+      "content": "Logo design principles: Simplicity rules, Consistent experience, Embrace the power of B/W, White space as the continent. Shows horizontal logo lockup with circular gradient icon and 'Transfidelity' wordmark."
+    },
+    {
+      "page": 3,
+      "type": "diagram",
+      "title": "Logo Spacing",
+      "content": "Spacing guidelines showing 40px clearance required on all sides (top, bottom, left, right) of the logo."
+    },
+    {
+      "page": 4,
+      "type": "diagram",
+      "title": "Logomark Spacing",
+      "content": "Guidelines for using the circular T logomark independently with same 40px spacing requirements on all sides."
+    },
+    {
+      "page": 5,
+      "type": "diagram",
+      "title": "Logo Lockups",
+      "content": "Shows two acceptable logo orientations: horizontal (icon left of text) and vertical (icon above text)."
+    },
+    {
+      "page": 6,
+      "type": "mixed",
+      "title": "Logo Colours",
+      "content": "Three approved logo color schemes: Brand (gradient icon with dark text on white), Bright (gradient icon with white text on dark purple #2C255F), Dark (gradient icon with dark text on light gray)."
+    },
+    {
+      "page": 7,
+      "type": "mixed",
+      "title": "Logo Usage - Don'ts",
+      "content": "Three prohibited logo manipulations: Do not stretch or manipulate logo, Do not use colours outside of colour palette, Do not use different fonts. Shows incorrect examples with X marks."
+    },
+    {
+      "page": 8,
+      "type": "mixed",
+      "title": "Colour Palette",
+      "content": "Four brand colors combining colors from three brands (Cerebrum Dao, Percepta Brain, Neuron Percepta): Dark Purple #2C255F (CMYK 54 61 0 63, RGB 44 37 95), Light Purple #9786FE (CMYK 54 61 0 63, RGB 151 134 254), Turquoise #02C7B9 (CMYK 99 0 2 22, RGB 2 199 195), Lime #D7FC85 (CMYK 54 61 0 63, RGB 215 252 133)."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Typography",
+      "content": "Brand font is Fellix (Sans Serif) in two weights: Fellix Bold and Fellix Medium. Shows full alphabet and numbers for both weights."
+    }
+  ],
+  "key_findings": [
+    "This is a corporate brand identity document with no scientific or technical content",
+    "Document specifies visual design standards for Transfidelity brand including logo, colors, and typography",
+    "Mentions relationship to three other brands: Cerebrum Dao, Percepta Brain, and Neuron Percepta",
+    "No experimental data, research findings, product development information, or TRL-relevant content present"
+  ]
+}

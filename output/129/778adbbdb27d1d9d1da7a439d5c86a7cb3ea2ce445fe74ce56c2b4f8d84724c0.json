@@ -1,0 +1,58 @@
+{
+  "file_path": "/percepta-human-trial-approved-by-the-irb",
+  "document_type": "regulatory",
+  "relevance": "high",
+  "summary": "IRB approval announcement for Percepta, a brain health supplement containing PTI-00703 Cat's Claw and MemorTea oolong tea extract. The document describes a 6-month randomized controlled trial in adults with mild cognitive impairment, tracking neurocognitive outcomes, wearable data, and P-tau 217 biomarkers. This represents progression to human clinical trials (TRL 5-6 transition) following in-vitro validation and comparative studies.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IRB Approval and Trial Design",
+      "content": "IRB approval secured for 6-month, double-blinded, decentralized, randomized placebo-controlled trial. Trial design includes: (1) Neurocognitive assessments tracking memory, processing speed, and cognitive function; (2) Wearable data integration for continuous health monitoring; (3) P-tau 217 biomarker tracking - the leading blood-based biomarker for cognitive decline. Target population: Adults with Mild Cognitive Impairment. Described as world's first tokenized brain health supplement to enter human trials."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Funding and IP Structure",
+      "content": "Tokenized as Neuron_Percepta IP-NFT in October 2024. Crowd-funded over $500,000 (127.7 ETH) through CLAW Intellectual Property Token (IPT) from brain health enthusiasts. Community-funded clinical trial model for brain health supplement."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Preclinical Development History - 2010s-2019",
+      "content": "2010s: Dr. Alan Snow developed Percepta with PTI-00703 Cat's Claw and MemorTea oolong extract. In-vitro studies demonstrated strong plaque- and tangle-reducing activity. 2019: Dr. Alan Snow's research into plaque and tangle-reducing potential of cat's claw compounds published in Nature Scientific Reports - became one of top 100 most downloaded papers for Nature journal that year."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "IP Portfolio and Comparative Studies",
+      "content": "2017-present: 12+ core patents secured for Percepta's unique formulation, creating robust, defensible IP portfolio. 2021: Comparison study tested Percepta directly against 20+ major brain supplements using identical laboratory conditions - Percepta outperformed all competitors by substantial margins."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Recent Milestones and Trial Timeline",
+      "content": "2024: NEURON-CLAW tokenized, raising $500K+ (127.7 ETH from 115 contributors). Community voted to approve clinical trial funding. 2025: Bio Protocol contributed additional $80K. CLAW listed on CoinGecko as first tokenized supplement patent portfolio on major crypto platform. 2026: IRB approval secured. Human trial begins. Recruitment beginning soon, first results expected later this year (2026)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Development Goals",
+      "content": "Aiming to provide scientific evidence that safe, natural-product interventions can provide durable support for brain health throughout lives and extend brain health span. Committed to following science wherever it leads and sharing results openly."
+    }
+  ],
+  "key_findings": [
+    "IRB-approved 6-month randomized placebo-controlled trial in adults with mild cognitive impairment - indicates progression to TRL 5-6 (human clinical testing)",
+    "Product contains PTI-00703 Cat's Claw and MemorTea oolong tea extract as active ingredients",
+    "In-vitro studies demonstrated strong plaque- and tangle-reducing activity (TRL 2-3 evidence)",
+    "2019 publication in Nature Scientific Reports on plaque/tangle-reducing potential (peer-reviewed validation)",
+    "2021 comparative study: outperformed 20+ major brain supplements in identical laboratory conditions (TRL 3 evidence)",
+    "12+ core patents secured (2017-present) creating defensible IP portfolio",
+    "Primary endpoints: neurocognitive assessments (memory, processing speed, cognitive function), P-tau 217 biomarkers, wearable health data",
+    "Target indication: Mild Cognitive Impairment",
+    "Funding: $580K total ($500K crowdfunded + $80K from Bio Protocol)",
+    "First results expected in 2026",
+    "Key inventor: Dr. Alan Snow",
+    "Trial design: double-blinded, decentralized, placebo-controlled"
+  ]
+}

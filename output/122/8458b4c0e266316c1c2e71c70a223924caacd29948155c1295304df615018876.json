@@ -1,0 +1,155 @@
+{
+  "file_path": "/ab4ad-daniel-bar-2024-fundraising-deck",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "Ab4AD is a Catalyst-funded research project from Tel Aviv University investigating whether protective antibodies against Alzheimer's disease-associated pathogens (HSV-1, P. gingivalis) can be identified in elderly non-demented individuals. The project aims to develop both a diagnostic tool and ultimately a vaccine, with preliminary data showing differential antibody responses in AD vs. non-AD populations.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview",
+      "content": "Ab4AD (Antibodies for Alzheimer's Disease) project from Dr. Daniel Z. Bar at Faculty of Medicine, Tel-Aviv University. Focus areas listed: Early Detection, Cognitive Decline, Predictive Models, Vaccine Development, Neuroscience. Project subtitle: 'Screening for antibodies that modulate the risk for Alzheimer's disease'"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Scientific Premise",
+      "content": "Research shows that immune responses to viruses can influence risk of developing Alzheimer's Disease (AD). The hypothesis is that where there is an immune response, there is potential to develop a vaccine."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Disease Context",
+      "content": "AD global burden: 55 million patients globally, projected to triple by 2050, costs exceed $1 trillion annually. Despite billions spent on AD research over 20 years, available treatments have barely impacted disease progression. References WHO and alz.org statistics."
+    },
+    {
+      "page": 6,
+      "type": "diagram",
+      "title": "Immune Response Mechanism",
+      "content": "Educational diagram showing: 1) Virus invades body, 2) Body detects antigens (markers on virus surface), 3) Body produces antibodies to defend, 4) Cells develop long-term memory, 5) Swift neutralization upon re-encounter. Key point: Vaccines work by stimulating long-term memory without requiring infection. Original figure showing antibody-antigen binding."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "The Pathogen Hypothesis",
+      "content": "AD has been associated with infections from several pathogens. Top candidates: (1) HSV-1 which causes cold sores [ref 3], (2) Porphyromonas gingivalis which causes gum disease [ref 4]. Supporting evidence: Population studies in Taiwan found HSV-1 infections increased dementia risk 2.56-fold [refs 5,6]. Human in vivo evidence of associations between HSV-1 and amyloid-beta load in normal aging [ref 8]. Pathogens found in AD brain samples, specifically in protein aggregates [ref 7]. In mouse and cell models, pathogens causally linked to amyloid protein aggregates [ref 7]. Blocking P. gingivalis reduces neuroinflammation in mice [ref 9]. Infection with P. gingivalis in mice results in AD-like symptoms [refs 9,10]. Chlamydia pneumoniae involved in AD pathogenesis [refs 11,12]."
+    },
+    {
+      "page": 8,
+      "type": "diagram",
+      "title": "Research Question",
+      "content": "Visual comparison: Strong immune response after exposure to AD-associated viruses/bacteria blocks pathogens from entering brain (healthy brain shown) VS Weak immune response allows pathogens to escape into brain (diseased brain shown). Core question: 'We would like to understand how specific individuals remain dementia-free well into their 90s and 100s, despite being exposed to the same pathogens.'"
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Proposed Solution",
+      "content": "Test saliva and blood samples from elderly individuals without dementia for antibodies against AD-associated pathogens. Compare results with samples from AD patients and younger people to discover protective antibodies and develop a predictive model. Short-term goal: Early diagnostic tool using antibody model. Pathway: Diagnostic tool collects widespread data on AD immunity. Long-term goal: Development of a vaccine."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Team Composition",
+      "content": "Dr. Daniel Z. Bar (Lead Researcher): Principal Investigator in Molecular Biology of Aging at School of Dental Medicine, Tel Aviv University. Previously Special Volunteer and Visiting Fellow at NIH/NHGRI in Bethesda, Maryland. PhD in Genetics from Hebrew University of Jerusalem. Dr. Omer Bender (PhD Student): Medical dentist at School of Dental Medicine, Tel Aviv University. Published work on immune recognition and mass spectrometry analysis of dental proteins. Dr. Naor Sagy (Postdoctoral Researcher): PhD in biochemistry. Founded company developing hardware/firmware for biotech industry. Returned to academia for Molecular Aging work."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "Research Paths",
+      "content": "Bar Lab focuses on two main investigation paths: Path 1 - Significant presence of AD-associated pathogens in blood and saliva samples from AD patients. Path 2 - Discovery of AD-protective antibodies in elderly (+90) non-demented individuals."
+    },
+    {
+      "page": 14,
+      "type": "figure",
+      "title": "Preliminary Data Path 1",
+      "content": "Bar graph showing 'Amount of antibody binding to specific P. gingivalis (DPP7) detected' across four groups: AD (~1750 units), Non-AD (~500 units, statistically significant difference marked with asterisk), NC (near zero), PC (~1900 units). NC represents AD age-matched non-demented control group. Results show clear abundance of antibodies for P. gingivalis in AD saliva samples compared to non-AD. Age-matched control included to remove age bias. Limitations noted: Need to (a) further define antibody response to understand how it leads to AD, (b) increase sample size for statistical relevance."
+    },
+    {
+      "page": 15,
+      "type": "figure",
+      "title": "Preliminary Unpublished Data Path 2",
+      "content": "Bar graph showing 'Antibody Binding (arbitrary units)' for Peptide 1007 in two groups: Elderly Non-Demented (~13,500 units) vs AD (near zero), with asterisk indicating statistical significance. Data shows AD-protective antibodies present in elderly non-demented individuals. Limitations: (a) Need to increase sample size for statistical relevance, (b) Need to test protective potential of candidate peptides in AD mouse models (in-vivo studies). Conclusion: Suggests vaccination against AD could be possible. Note: 'With support from the DeSci community we intend to further this research.'"
+    },
+    {
+      "page": 16,
+      "type": "text",
+      "title": "Experimental Plan",
+      "content": "Sample Collection: More saliva and blood samples from elderly individuals (with and without AD) for comprehensive immune response analysis. Validation using Mass Spectrometry: Blood/saliva analyzed to identify differences in pathogenic proteins or AD-protective proteins (protective antibodies) between AD and non-AD participants. Validation with VirScan: Advanced test identifying which viruses exposed to by detecting specific viral parts targeted by immune system. VirScan described as 'most crucial data unlock provided by this funding.' Further Validation with Peptide Microarrays and ELISA: Specialized devices to analyze protein interactions and identify antibody targets, combined with ELISA (standard assay to identify/quantify proteins) to identify specific pathogenic proteins in AD vs non-AD samples. Rationale: Multiple validations necessary to strengthen scientific argument that pathogens (HSV-1, P. gingivalis) are associated with and contribute to AD development."
+    },
+    {
+      "page": 17,
+      "type": "table",
+      "title": "Timeline and Budget",
+      "content": "Total project: 12 months, $192,570. Milestone M1: Mass spectrometry to identify AD-associated antigens - 4 months, $20,000. Milestone M2: VirScan to identify specific antibodies - 5 months, $70,000. Milestone M3: Validation with Peptide Microarrays and ELISA - 3 months, $14,000. Salaries & university overheads: $79,400. 5% for liquidity pool: $9,170. Note: Funds not released until preceding milestone met."
+    },
+    {
+      "page": 18,
+      "type": "table",
+      "title": "Competitive Landscape",
+      "content": "Comparison table of competitors: (1) University of Cambridge/Oxford: READ-OUT study blood tests for multiple dementia types, Medium market, limitation is long development timelines. (2) UCL: ADAPT Phase 3 clinical trial on p-tau 217 blood test, Medium market, misses early interventions and lacks therapeutic pathways. (3) Biogen: Lecanemab humanized IgG1 monoclonal antibody against aggregated amyloid beta, Medium market, high cost and potential off-target/immune response. (4) Alchemab Therapeutics: ATLX-1088 antibody targeting CD33, Medium market, narrow focus with risk of unintended effects. (5) Araclon Biotech: ABvac40 active vaccine, Medium market, terminated at Phase II due to safety concerns."
+    },
+    {
+      "page": 19,
+      "type": "text",
+      "title": "Competitive Advantages",
+      "content": "Ab4AD advantages: (1) Detects multiple dementia types at various stages - broader than READ-OUT singular focus. (2) Prioritizes early detection - fills gap from p-tau 217 missed early interventions. (3) Integrates therapeutic development pathways - vs Lecanemab singular approach. (4) Aims to be more affordable - addresses high cost of monoclonal antibodies. (5) Addresses AD with wide lens - counteracts ATLX-1088 narrow focus."
+    },
+    {
+      "page": 21,
+      "type": "text",
+      "title": "Intellectual Property Strategy",
+      "content": "Three IP areas: (1) Diagnostic tool: Patenting wetware, hardware, and software components for AD detection kits. (2) Antibody design: Patents for new antibodies and their application methods for treating AD. (3) Vaccine: Patenting specific ingredients and processes for AD prevention vaccines."
+    },
+    {
+      "page": 22,
+      "type": "text",
+      "title": "Future Opportunity",
+      "content": "Further Experimentation: (1) Strong preliminary data will enable access to nationwide sample sets - analysis of larger datasets expected to be greatest value-unlock. (2) Effect of antiviral drugs in reducing AD risk could be investigated in AD mouse models. (3) Further validations in AD mouse models to identify protective antibodies. Additional Positives: (1) Saliva tests less invasive and expensive than current AD diagnostic tools (PET scan). (2) Diagnostic tool allows asymptomatic people infected with AD-associated pathogens to intervene at early AD development stages."
+    },
+    {
+      "page": 24,
+      "type": "text",
+      "title": "IP Tokenomics",
+      "content": "95% of IP tokens to project funders on Catalyst, 5% to seed liquidity pool. IP Token utilities: governance power over IP, access to IP-NFT community, approve minting/allocation of new IPTs, control use of funds generated from IP (with IP-NFT owner consent)."
+    },
+    {
+      "page": 29,
+      "type": "text",
+      "title": "Previous Publications",
+      "content": "Four publications from Bar Lab: (1) Naor Sagy et al. 2024: Kidney-specific methylation patterns correlate with kidney function, published in Clin Epigenetics. (2) Naor Sagy, Chieh Chang, Daniel Z Bar: Epigenetic information loss common feature of diseases and aging (BioRxiv preprint). (3) Omer Bender et al.: Immunorecognition of Streptococcus mutans secreted proteins protects against caries by limiting tooth adhesion (BioRxiv preprint). (4) Apoorva Thatavarty et al.: Detecting Protein-DNA Binding using Antibody Guided Methylation (BioRxiv preprint)."
+    },
+    {
+      "page": 32,
+      "type": "text",
+      "title": "Preliminary Data Methods",
+      "content": "Protocol Development: Designed antibody detection assays to meaningfully detect relevant antibodies for P. gingivalis. Access to university dental clinic provides simple pathway to verify hypothesis. Sample Collection: Saliva samples from consenting patients undergoing routine dental treatments. Blood samples from consenting patients at Fliman Geriatric Hospital. Proof of Principle: Assessed level of antigens (attached to antibodies) in AD vs non-AD samples."
+    },
+    {
+      "page": 33,
+      "type": "text",
+      "title": "Pathogen Hypothesis Analysis",
+      "content": "AD 'pathogen/infection hypothesis' suggests chronic viral/bacterial infection triggers sporadic AD during aging (Fulop 2018; Seaks & Wilcock 2020). Taiwan NHIRD population study: new HSV infection increases dementia risk 2.56-fold over 11 years; anti-herpetic medications reduced hazard ratio to 0.092 (Tzeng 2018). HSV and other pathogens found in AD patient brains, specifically in Aβ plaques (Wozniak 2009; Vigasova 2021; Wainberg 2021). Immune response to pathogens differs between AD patients and controls (Dominy 2019b; Letenneur 2008). Pathogens may invade CNS directly across blood-brain-barrier or secrete circulating toxins. Pathogens may promote Aβ and NFT accumulation directly/indirectly (Bulgart 2020; Sheng 2003; Kumar 2016; Soscia 2010). Pathogens plus accumulated Aβ/NFT cause sustained inflammation and hypersensitive glial cells (Kinney 2018) leading to neurotoxicity. Persistent infection not required - initial infection can trigger chronic inflammation cascade (Sochocka 2017)."
+    },
+    {
+      "page": 34,
+      "type": "text",
+      "title": "Pathogen-Specific Evidence",
+      "content": "I. Porphyromonas gingivalis: High titer antibodies against peripathogenic bacteria in serum of elderly progressing to AD (Sparks Stein 2012). Periodontal inflammation from P. gingivalis associated with Aβ plaque accumulation (Kamer 2015). Aβ functions as antimicrobial peptide - secretion is defense mechanism (Kumar 2016; Spitzer 2016; Soscia 2010). Orally administered P. gingivalis infiltrates mouse brain, causes neural injury (Poole 2015). Oral P. gingivalis infection in hAPP-J20 mice causes cognitive impairment (Ishida 2017). P. gingivalis infiltrates mature neurons in culture, causes AD-like neuropathology (tau hyperphosphorylation, cytoskeletal disruption) (Haditsch 2020). P. gingivalis and gingipains identified in AD patient brains (Dominy 2019b). II. Herpes-Simplex-1: Senile dementia far more common in HSV-seropositive vs seronegative subjects; antiviral treatment decreases SD odds (Itzhaki 2018). 3D brain model infected with HSV-1 mimics AD: multicellular amyloid plaque-like formations, neuroinflammation, decreased functionality without exogenous AD mediators (Cairns 2020)."
+    }
+  ],
+  "key_findings": [
+    "Project is at TRL 2 - early experimental validation with preliminary data from two research paths",
+    "Path 1 preliminary data: Statistically significant higher P. gingivalis DPP7 antibody levels in AD saliva vs non-AD (p<0.05), using age-matched controls",
+    "Path 2 preliminary data: Statistically significant higher binding to protective peptide 1007 in elderly non-demented vs AD patients (p<0.05) - unpublished",
+    "Proposed experiments include VirScan (described as 'most crucial data unlock'), mass spectrometry, peptide microarrays, and ELISA validation",
+    "Sample sources established: Tel Aviv University dental clinic for saliva, Fliman Geriatric Hospital for blood samples",
+    "Team has relevant expertise: Bar (molecular biology of aging, NIH fellow), Bender (dental immunology, mass spec), Sagy (biochemistry, biotech hardware/software)",
+    "Strong scientific rationale based on pathogen hypothesis: HSV-1 infection increases dementia risk 2.56-fold; anti-herpetic treatment reduces hazard ratio to 0.092 (Taiwan NHIRD study)",
+    "Multiple published preclinical studies support pathogen hypothesis: P. gingivalis and HSV-1 found in AD brains, cause AD-like pathology in mouse models",
+    "12-month timeline, $192,570 budget with milestone-gated funding",
+    "IP strategy covers three areas: diagnostic tool, antibody therapeutics, vaccine - but no patents filed yet",
+    "Project goal is dual: short-term saliva-based diagnostic, long-term preventive vaccine",
+    "No in vivo validation studies planned in current funding phase - acknowledged limitation",
+    "Small sample sizes in preliminary data - statistical validation needed with larger cohorts"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "file_path": "/vitastem-hematopoietic-stem-cell-rejuvenation-1pager-ar.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "low",
+  "summary": "This is a research proposal for hematopoietic stem cell (HSC) rejuvenation therapy targeting aging-related dysfunction. The document describes completed computational analysis of single-cell RNA-seq data to identify candidate gene targets, and proposes future in vitro and in vivo validation experiments. No experimental results or efficacy data are presented yet.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview and Background",
+      "content": "Project focused on rejuvenating hematopoietic stem cells (HSCs) to address age-related decline in blood cell production, immune function, and increased susceptibility to hematologic malignancies. HSC aging driven by intrinsic mechanisms (DNA damage, telomere shortening, mitochondrial dysfunction, epigenetic drift) and extrinsic factors (inflammatory cytokines, altered bone marrow niche signaling via Wnt, Notch, TGF-β, mTOR pathways). Aged HSCs show myeloid-biased differentiation contributing to chronic inflammation and impaired adaptive immunity."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Therapeutic Landscape",
+      "content": "Existing approaches have limitations: bone marrow transplantation carries graft-versus-host disease risk and donor compatibility issues; pharmacological interventions (rapamycin, NAD+ boosters) lack HSC specificity; senolytics and anti-inflammatory agents don't directly address molecular dysfunction within HSCs. Gap identified for precise stem-cell-focused rejuvenation strategies."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Computational Analysis Completed (VitaLabs-funded)",
+      "content": "Systematic analysis of publicly available and proprietary human single-cell RNA-seq (scRNA-seq) datasets spanning different ages and genders was completed. Used enhanced computational pipelines, multi-omics integration, and gene regulatory network (GRN) analysis including AubrAI terminal for AI/ML-assisted modeling. Outcome: identified and prioritized several lead candidate genes whose dysregulation drives HSC decline. These represent potential intervention points for rejuvenation therapy."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Future Validation Work",
+      "content": "Candidate targets from computational analysis will be validated through: (1) In vitro experiments using young and aged human primary HSCs; (2) Organoid models; (3) In vivo models via CRO or academic partnerships. Proposed intervention strategies based on age-related gene expression changes: mRNA overexpression via electroporation, siRNA knockdown, or CRISPR-based activation/inhibition. Additional drug discovery approaches: computational chemistry, QSAR-based docking, and potential gene therapy approaches to restore youthful HSC function."
+    }
+  ],
+  "key_findings": [
+    "Computational/bioinformatics stage only - no experimental validation completed yet",
+    "Lead candidate genes identified from scRNA-seq analysis of human HSCs across ages, but specific targets not disclosed",
+    "Proposed therapeutic modalities: mRNA, siRNA, CRISPR gene editing, small molecules, gene therapy",
+    "Target indication: aging-related HSC dysfunction, with applications to infections, anemia, myelodysplastic syndromes, leukemia",
+    "All validation work (in vitro primary HSCs, organoids, in vivo) is proposed future work, not completed",
+    "No efficacy data, no proof-of-concept experiments, no model systems tested yet",
+    "PI: Dr. Ashish Rajput, PhD; VitaLabs provided funding for computational analysis phase",
+    "Technology platform: single-cell RNA-seq analysis with AI/ML-assisted gene regulatory network modeling"
+  ]
+}

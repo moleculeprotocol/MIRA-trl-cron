@@ -1,0 +1,15 @@
+{
+  "file_path": "/floki.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document contains only a holiday-themed photograph of a Shiba Inu dog dressed in a Santa Claus costume in front of a Christmas tree. There is no scientific, technical, or biotech-related content present.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "content": "Circular photograph showing a Shiba Inu dog wearing a red and white Santa Claus costume with a black belt and gold buckle. The dog is positioned in front of a Christmas tree with lights and a red poinsettia flower is visible in the foreground. This is purely decorative holiday imagery with no scientific or technical content."
+    }
+  ],
+  "key_findings": [
+    "No TRL-relevant content present - document contains only a holiday photograph with no connection to biotech, research, experiments, IP, regulatory information, or technology development"
+  ]
+}

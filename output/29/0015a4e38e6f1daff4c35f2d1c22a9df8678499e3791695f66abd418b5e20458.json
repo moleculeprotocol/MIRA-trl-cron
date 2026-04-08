@@ -1,0 +1,79 @@
+{
+  "file_path": "/apoptosens-202512updates.pdf",
+  "document_type": "project_overview",
+  "relevance": "high",
+  "summary": "ApoptoSENS is a CAR-NK cell therapy targeting senescent cells via novel surface markers (SENS-1, SENS-2, SENS-3). The project has completed a study and published results, representing a discovery-stage therapeutic program from SENS Research Foundation focused on eliminating senescent cells to reduce age-related inflammation and tissue dysfunction.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Title and Status",
+      "content": "ApoptoSENS - Study finished, paper published. This status indicates completion of initial research phase with peer-reviewed publication."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Therapeutic Concept",
+      "content": "Development of Chimeric Antigen Receptor Natural Killer (CAR-NK) cells engineered to selectively recognize and eliminate senescent cells. Approach involves: (1) identification of novel senescence-specific surface markers, (2) validation across models, (3) generation of monoclonal antibodies, (4) construction of CAR-NK cells with improved precision and safety over existing senolytics. Targets accumulation of senescent cells that drive chronic inflammation, tissue dysfunction, and aging-related disease."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Indication",
+      "content": "Accumulation of senescent cells - broad aging-related indication rather than specific disease."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Patient Population",
+      "content": "Not specified in document."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism of Action",
+      "content": "CAR-NK cells engineered to recognize senescence-specific surface antigens (SENS-1, SENS-2, SENS-3) that are absent on healthy cells. Upon target binding, NK cells induce apoptosis in senescent cells, reducing SASP (senescence-associated secretory phenotype)-driven inflammation and tissue dysfunction."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biological Target",
+      "content": "Novel senescence-associated surface markers discovered in IMR-90 cells (human fibroblasts) rendered senescent by two methods: ionizing radiation or doxorubicin treatment. Three top candidates identified: SENS-1, SENS-2, SENS-3. SENS-3 shows strongest early promise. Cell model: IMR-90 fibroblasts. Senescence induction methods: ionizing radiation, doxorubicin (chemotherapy agent)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Development Stage",
+      "content": "Study finished, paper published. This indicates completion of discovery/validation phase with peer-reviewed results, but specific experimental details (computational modeling, in vitro validation, in vivo studies, candidate selection stage) are not detailed in this document."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Development Timeline and Milestones",
+      "content": "Study finished, paper published. No future milestones specified, suggesting project at transition point post-publication."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Team Information",
+      "content": "Key Personnel: Dr. Amit Sharma (Project Lead, SENS Research Foundation). Affiliations: SENS Research Foundation, Senescence Immunology Research Group. Dr. Sharma background: PhD from University of Pune, prior postdoctoral research at Buck Institute. Team Expertise: (1) Cellular senescence biology, (2) Immunology and immune aging, (3) NK-cell and CAR-cell engineering, (4) Target discovery and antibody generation, (5) Translational aging-related therapeutics."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Intellectual Property Status",
+      "content": "Patent Application Status: Not specified. Scope of IP Protection: Not specified (no information on composition of matter, method of use, or target claims). Freedom-to-Operate Assessment: Not specified (no information on blocking patents or FTO concerns provided)."
+    }
+  ],
+  "key_findings": [
+    "Project status: Study completed with paper published, indicating completion of discovery phase research",
+    "Therapeutic modality: CAR-NK cells targeting senescent cells - novel approach compared to small molecule senolytics",
+    "Target discovery: Three novel senescence-specific surface markers identified (SENS-1, SENS-2, SENS-3) with SENS-3 showing strongest promise",
+    "Model system: IMR-90 human fibroblasts with senescence induced by ionizing radiation or doxorubicin",
+    "Team has relevant expertise in senescence biology, immunology, CAR-cell engineering, and antibody generation",
+    "IP status unclear - no information provided on patents, claims scope, or freedom-to-operate",
+    "No quantitative experimental data provided in this overview document (efficacy, selectivity, potency data)",
+    "Development stage appears to be TRL 2-3: target discovery completed, validation in cell models done (publication), but no information on disease-relevant models or in vivo studies",
+    "No future milestones or regulatory pathway specified, suggesting early/discovery stage program"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "file_path": "/molecule.fidel/fidel-updates-sep-2025.pdf",
+  "document_type": "presentation",
+  "relevance": "high",
+  "summary": "Progress update from Transfidelity on drug development for neurodegenerative diseases, specifically targeting protein misfolding in Parkinson's disease. The document outlines current experimental work with compound optimization and disease model development, with planned efficacy testing in disease-relevant neurons by early 2026.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Research Activities",
+      "content": "Transfidelity team is developing compounds to prevent protein misfolding in neurodegenerative diseases. Current activities: (1) Testing improved versions of original compounds while validating findings across different cell types, and (2) Developing a disease cell model using stem cells that overproduce alpha-synuclein, the protein that clumps together in Parkinson's disease."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Near-term Milestones (by December)",
+      "content": "Expected to complete testing of optimized compounds and finish developing the Parkinson's disease cell model by December. Also working on pathway analysis to better understand mechanism of action of the compounds."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "2026 Plans - Disease Model Validation",
+      "content": "Early 2026 milestone: Testing whether compounds can prevent toxic protein clumps (alpha-synuclein aggregates) from forming in Parkinson's neurons. Plans include deeper molecular analysis through transcriptomics and proteomics to understand compound effects at molecular level."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Status",
+      "content": "Team is moving faster than expected on several fronts. Project described as early-stage research. $FIDEL token has been launched as part of project funding/DAO structure."
+    }
+  ],
+  "key_findings": [
+    "Compound optimization ongoing: testing improved versions of original compounds across different cell types (TRL 2 evidence)",
+    "Disease model development in progress: stem cell-based Parkinson's model overexpressing alpha-synuclein target protein (advancing toward TRL 3)",
+    "Planned efficacy study in Q1 2026: will test whether compounds prevent toxic protein aggregation in disease-relevant Parkinson's neurons (key TRL 3 milestone)",
+    "Mechanism of action studies planned: pathway analysis, transcriptomics, and proteomics to understand how compounds work",
+    "Project status: explicitly described as 'early-stage research' suggesting TRL 2-3 range",
+    "Timeline: compound optimization completing December 2025, disease model validation testing in early 2026",
+    "No manufacturing, regulatory, IP, or clinical data mentioned - consistent with early preclinical stage"
+  ]
+}

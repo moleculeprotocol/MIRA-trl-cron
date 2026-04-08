@@ -1,0 +1,74 @@
+{
+  "file_path": "/claw-percepta-labs-report",
+  "document_type": "pitch_deck",
+  "relevance": "medium",
+  "summary": "Percepta is developing an at-home cognitive monitoring platform combining digital biomarkers with blood-based pTau-217 testing for early brain health detection. The project has completed preclinical validation showing significant reductions in amyloid and tau aggregation in vitro and positive rodent model results. An IRB-approved human clinical study is planned to begin recruitment in September 2025, funded through a tokenized IP-NFT DeSci model.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Idea and Platform Description",
+      "content": "Percepta develops non-invasive, at-home cognitive monitoring combining digital biomarkers with blood-based assays to detect early brain health changes before clinical symptoms. Platform integrates remote blood collection with validated neurodegenerative biomarkers (pTau-217) for longitudinal cognitive health tracking. Creates scalable pathway for decentralized clinical assessments outside traditional settings."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Approach and IP",
+      "content": "Platform centers on phosphorylated tau protein (pTau-217), validated Alzheimer's biomarker. Uses remote blood collection paired with digital cognitive assessments to identify early neurodegenerative signatures as proxies for tau pathology and structural brain changes. Proprietary formulation combines PTI-00703 Cat's claw extract and MemorTea oolong tea extract, protected under Cognitive Clarity patent portfolio. First crowdsale-backed tokenization of brain health patent portfolio through IP-NFT structure for DeSci funding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Preclinical Validation - In Vitro Results",
+      "content": "In vitro assays demonstrate approximately 69.6% reduction in amyloid-beta fibril formation and 85.7% reduction in tau PHF/SF aggregation, outperforming commercial supplement comparators. Quantitative data shows strong target engagement for both amyloid and tau pathology."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Preclinical Validation - Rodent Studies",
+      "content": "Rodent studies using Uncaria tomentosa-derived active ingredient show: reduced amyloid plaque load, decreased neuroinflammation, improved memory performance in validated animal models. Findings establish target engagement and provide mechanistic support for clinical hypothesis. Scientific foundation draws on published literature demonstrating polyphenols and proanthocyanidins from Uncaria tomentosa and oolong tea can reduce amyloid burden, modulate neuroinflammation, and support memory function."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Development Status",
+      "content": "Team led by PI Dr. Mark Melnykowycz, operating through Reputable Health (CRO) and BIO.xyz. Completed: study protocol finalization and IRB submission. Biomarker panel expanded to include pTau-217 quantification using Simoa ALZpath assay. Device validation for home-use blood collection underway."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Safety and Manufacturing Status",
+      "content": "Active ingredients derived from botanical sources with established dietary use. No safety concerns in preclinical models. Small-scale commercial production already operational for supplement market, demonstrating manufacturing feasibility."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Next Steps and Timeline",
+      "content": "Over $418,000 committed funding across multiple initiatives. Timeline: (1) IRB final approval expected September 15, 2025, (2) Subject recruitment beginning September 16, 2025, (3) First data collection scheduled November 1, 2025. Clinical study designed as non-therapeutic, structure-function trial evaluating biomarker and cognitive function changes. IRB flagged potential IND requirements; team submitted rebuttal emphasizing non-drug classification. Future plans may explore FDA botanical drug pathway contingent on clinical efficacy data."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Market Opportunity",
+      "content": "Target population: 10+ million individuals in US with early cognitive decline or subjective cognitive concerns; 50+ million globally. Global brain health supplements market valued at $8.6 billion in 2022, projected 13.3% annual growth through 2030. Targets market gap of human-evidence-backed memory supplements. Competitor Prevagen reports $200+ million annual sales but lacks robust scientific validation. Aims for category leadership through peer-reviewed preclinical data and decentralized human study."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Business Model and Innovation",
+      "content": "Integrates proprietary IP, decentralized clinical research, and digital biomarker endpoints. Creates replicable blueprint for future DeSci-enabled studies across wellness and neurodegeneration. Tokenized IP-NFT and community-backed funding mechanisms represent innovative approach to brain health research funding."
+    }
+  ],
+  "key_findings": [
+    "Preclinical validation complete: 69.6% reduction in amyloid-beta fibril formation and 85.7% reduction in tau PHF/SF aggregation in vitro, outperforming commercial comparators",
+    "Rodent studies show reduced amyloid plaque load, decreased neuroinflammation, and improved memory performance using Uncaria tomentosa-derived active ingredient",
+    "IRB submission completed, final approval expected September 2025 with recruitment starting shortly after",
+    "Human clinical study designed as non-therapeutic structure-function trial evaluating pTau-217 biomarkers and cognitive function using Simoa ALZpath assay",
+    "$418,000+ in committed funding through tokenized IP-NFT DeSci model",
+    "Small-scale commercial manufacturing already operational",
+    "Proprietary formulation (PTI-00703 Cat's claw + MemorTea oolong tea) protected under Cognitive Clarity patent portfolio",
+    "No safety concerns identified in preclinical models; botanical ingredients have established dietary use",
+    "Potential regulatory pathway through FDA botanical drug approach pending clinical efficacy data",
+    "Team includes PI Dr. Mark Melnykowycz, operating through Reputable Health CRO and BIO.xyz"
+  ]
+}

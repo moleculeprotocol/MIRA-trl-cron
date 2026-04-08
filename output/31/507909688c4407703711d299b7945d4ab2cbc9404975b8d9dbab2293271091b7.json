@@ -1,0 +1,82 @@
+{
+  "file_path": "/vdp18-periodontal.pdf",
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "VitaDAO funding proposal for Dr. Jonathan An's research on using geroscience-based treatments (PI3K/NFkB/mTOR pathway inhibitors) to reverse age-related periodontal disease. The proposal requests $250k-$300k for preclinical mouse studies testing 5 small molecule candidates, building on prior rapamycin efficacy data. This is an early-stage preclinical project with established animal models.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview and Problem Statement",
+      "content": "Funding request: up to $300,000 USD for Jonathan An's research on geroscience-based treatments for periodontitis. Disease background: Periodontal disease affects >70% of older adults, involves inflammation leading to loss of connective tissue, bone, and teeth. Age is the greatest risk factor. Associated with heart disease, diabetes, and Alzheimer's disease. Current problem: Existing therapies (scaling, root planing, antibacterial adjuncts) are invasive, require frequent repetition, limited access for older adults, and only treat symptoms without addressing underlying cellular/molecular causes linked to biological aging."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Opportunity and Proposed Approach",
+      "content": "Scientific rationale: Periodontal disease involves 'inflammaging' (low-grade chronic inflammation without overt infection). Hypothesis: Targeting inflammaging pathways could provide first medical, non-surgical treatment for age-related oral disease. Proposed intervention: Small molecule inhibitors of PI3K/NFkB/mTOR pathway administered orally in chow for 8-week study. Testing 5 candidate compounds with rapamycin as positive control. Two-stage study design: (1) Systemic administration to test improvement of systemic inflammaging, (2) If effective systemically, test local delivery by brushing across gum line. Key supporting data: Recent eLife paper (doi.org/10.7554/eLife.54318.sa2) showed positive effects of 8-week oral rapamycin treatment on age-related periodontal bone loss in mice. Additional endpoints: Effects on cognitive function, neurodegeneration, and lifespan. Collaborators have preliminary data showing some interventions have beneficial effects on neurodegeneration and cognitive decline."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Prior Published Work",
+      "content": "Foundation study: eLife publication showing efficacy of 8-week oral rapamycin treatment in age-related periodontal bone loss in mice model. This establishes proof-of-concept for mTOR pathway targeting in periodontal disease."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "IP Roadmap and Commercialization Strategy",
+      "content": "IP strategy for successful local delivery: Localized Delivery of Compound X to Oral Cavity targeting: (1) Age-related periodontal disease in older adults, (2) Peri-implantitis in older adults. Delivery Method 1: Compound X Toothpaste (prescription from dental/medical office, or OTC in low doses). Method 2: Direct delivery to periodontal pockets (IP surrounding formulation and delivery mode, completed in dental offices, example: Arestin local antimicrobial delivery). Method 3: Compound X trays (example: whitening trays). Future pathway: If lifespan/healthspan effects observed, additional feasibility and safety testing in non-human primates planned for clinical application targeting aging. Commercialization: Intention to spin out company targeting periodontal disease through geroscience with VitaDAO support."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Team Composition",
+      "content": "Project Lead: Jonathan An, Assistant Professor at University of Washington. Collaborator: Matt Kaeberlein, Professor at University of Washington, will assess long-term healthspan and lifespan of mice after drug interventions. Collaborator: Simon Johnson, Assistant Professor at University of Washington, experienced in Neurology, will evaluate brain aging biology and assess improvements in neurodegeneration and cognition due to treated periodontal disease."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Budget Breakdown",
+      "content": "Animal Ordering and Facility Cost: $120,443.80. Research Staff: $68,230.00. Inflammatory Panels and Antibodies: $25,392.00. General Laboratory Consumables and Drug Costs: $15,000.00. microCT usage: $10,150.00. FTE for all personnel combined: $10,784.20. TOTAL: $250,000.00-$300,000.00 (including TTO overhead)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Highlights",
+      "content": "Unmet need: Periodontitis has great healthspan impact. Broad potential: Geroscience approach on inflammaging might impact other age-related diseases and cognitive decline. Scientific potential: Potential discovery of other PI3K/NFkB/mTOR pathway targets besides mTOR to increase lifespan. High feasibility: Good experimental model established, straightforward research plan. Repurposing advantage: Easier transition to clinical trials. Clinical access: Project lead has access to dental clinic to accelerate future human studies. Team strength: Young investigator with spin-out interest, backed by strong team."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Risks",
+      "content": "Team lead lacks previous entrepreneurial experience. Patents would not be novel composition of matter (strongest IP type). Product development pathway requires partnerships. Periodontal outcomes may not broadly extrapolate to ageing in general."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Evaluation Results and Scores",
+      "content": "4 independent evaluators scored on 5-point scale: (1) Outstanding, (2) Strong, (3) Satisfactory, (4) Weak, (5) Unacceptable. Results: Novelty and Impact: Strong (4/4 evaluators). Feasibility and Data: Strong (3/4), Satisfactory (1/4). Relevance to longevity: Outstanding (1/4), Strong (3/4). Science Team: Outstanding (1/4), Strong (3/4). Market Advantage: Strong (2/4), Satisfactory (2/4). IP-NFT Potential: Outstanding (2/4), Strong (2/4). Unanimous recommendation: All evaluators consider project worth funding by VitaDAO community."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Funding Mechanism",
+      "content": "Proposal recommends VitaDAO commits funding via an IP-NFT mechanism."
+    }
+  ],
+  "key_findings": [
+    "TRL 2-3: Project builds on published eLife paper demonstrating rapamycin efficacy in mouse model of age-related periodontal bone loss (8-week study)",
+    "Preclinical animal study planned: 8-week mouse study testing 5 small molecule inhibitors of PI3K/NFkB/mTOR pathway, with rapamycin as positive control",
+    "Two-stage design: (1) systemic oral administration in chow, (2) if effective, local delivery by brushing across gum line",
+    "Model system: Established mouse model of age-related periodontitis; microCT imaging for bone loss assessment",
+    "Additional endpoints: Cognitive function, neurodegeneration, lifespan - with preliminary data from collaborators showing benefits",
+    "Compounds: Well-characterized pharmacokinetics/pharmacology (investigated for other indications) - repurposing approach",
+    "Budget $250k-$300k: Primarily animal costs ($120k), research staff ($68k), inflammatory panels/antibodies ($25k)",
+    "IP strategy: Novel formulation and delivery methods (toothpaste, direct pocket delivery, trays) for local oral cavity treatment, not composition of matter",
+    "Team: Jonathan An (Assistant Professor, UW), Matt Kaeberlein (healthspan/lifespan), Simon Johnson (neurodegeneration)",
+    "Commercialization intent: Spin-out company with VitaDAO support",
+    "Independent evaluation: Strong scores on novelty/impact, feasibility, longevity relevance; unanimous funding recommendation",
+    "Risk: No prior entrepreneurial experience, weaker IP type, extrapolation to general aging uncertain"
+  ]
+}

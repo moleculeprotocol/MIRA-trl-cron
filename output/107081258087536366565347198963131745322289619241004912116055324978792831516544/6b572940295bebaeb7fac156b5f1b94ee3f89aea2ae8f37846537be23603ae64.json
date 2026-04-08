@@ -1,0 +1,25 @@
+{
+  "file_path": "/psyc-kene-dataset.png",
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is an access-restricted notice for files stored in a Google Drive folder. It contains no scientific content, experimental data, or project information. The document only displays a heading 'PSYC KENÉ', text indicating 'LARGE FILES ACCESS RESTRICTED REQUEST PERMISSION', a Google Drive link, and a decorative textile pattern image.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Access Notice",
+      "content": "Document header reads 'PSYC KENÉ' followed by 'LARGE FILES ACCESS RESTRICTED REQUEST PERMISSION'. A Google Drive folder link is provided: https://drive.google.com/drive/folders/1sd03qszJZ-v6xi7JyMZgqqFRxmojA69l-?usp=drive_link. The remainder of the page shows a decorative textile or fabric pattern with geometric designs in pink, purple, and white colors."
+    },
+    {
+      "page": 1,
+      "type": "image",
+      "content": "Decorative textile pattern with repeating geometric motifs in horizontal bands. No scientific or technical content."
+    }
+  ],
+  "key_findings": [
+    "This is an access restriction notice, not a scientific document",
+    "No experimental data, results, or project information is present",
+    "The document provides only a link to request access to actual files",
+    "Cannot assess TRL without access to the underlying restricted content"
+  ]
+}

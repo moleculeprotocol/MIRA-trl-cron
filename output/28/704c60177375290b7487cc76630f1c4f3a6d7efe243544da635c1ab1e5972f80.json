@@ -1,0 +1,53 @@
+{
+  "file_path": "/molecule.vitarna/customized-transfection-test-with-3-vectors-in-calu-6-cell-line-p250903-1038mva.pdf",
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is an experiment report from VectorBuilder documenting a transfection test in Calu-6 lung cancer cells using three experimental vectors. The report includes Western blot analysis detecting p53 protein expression and fluorescence microscopy imaging to confirm successful transfection. The experiment demonstrates basic functional validation of clinical-compatible vectors in a disease-relevant cell line.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title and Project Identifiers",
+      "content": "Customized transfection test with 3 vectors in Calu-6 cell line. Project IDs: S250924-1038amb/P250903-1038mva. Date: 2025/10/28. Vendor: VectorBuilder."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Materials and Methods - Cell Line and Vectors",
+      "content": "Cell line: Calu-6 from ATCC (passage 4). Calu-6 is a human lung adenocarcinoma cell line. Cell transduction setup: 6-well plates, 6.5E+5 cells total (plated 4E+5 cells/well one day in advance). Vectors tested: Control Vector VB181204-1110ybw (pRP[Exp]-mCherry-EF1A>EGFP), Clinical compatible vector 1 (VB250610-1157tpv), Clinical compatible vector 2 (VB250610-1162rmu), Control vector (VB240514-1548ggn). Primary antibody: p53(DO-1): sc-126 (1:1000 dilution). Secondary antibody: HRP-labeled Goat Anti-Mouse IgG(H+L), Beyotime A0216 (1:5000 dilution)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Western Blot Protocol",
+      "content": "Harvest time: 72 hours post-transduction. Cell lysis: 100ul RIPA lysis buffer per 24-well plate. Sample treatment: Ultrasonic disruption and 95°C for 10 min. Protein amount loaded: 30µg. SDS-PAGE: 80V 30min then 125V 1 hour. Transmembrane transfer: 250mA 60min. Primary antibody incubation: Overnight at 4°C. Secondary antibody incubation: 1 hour at room temperature. Experimental groups: M (marker), 1 (Calu6 WT), 2 (VB240514-1548ggn), 3 (VB250610-1157tpv), 4 (VB250610-1162rmu), 5 (VB181204-1110ybw), 6 (G418 5000µg/mL treatment)."
+    },
+    {
+      "page": 5,
+      "type": "image",
+      "title": "Fluorescence Microscopy Images at 72 hours",
+      "content": "Fluorescence microscopy of transfected Calu-6 cells at 72h post-transfection. Imaging parameters: Bright field 10ms, Green fluorescence 100ms, Red fluorescence 100ms. Results: Calu6 WT (no fluorescence), VB240514-1548ggn (no visible fluorescence), VB250610-1157tpv (no visible fluorescence), VB250610-1162rmu (no visible fluorescence), VB181204-1110ybw control vector (strong green EGFP and red mCherry fluorescence signals confirming successful transfection), G418 5000µg/mL (no fluorescence). Only the control vector VB181204-1110ybw with fluorescent reporters showed visible expression."
+    },
+    {
+      "page": 6,
+      "type": "figure",
+      "title": "Western Blot Results - p53 Expression",
+      "content": "Western blot detecting p53 protein expression across all experimental groups. Three exposure times shown: 0.5s (GAPDH loading control), 7s (p53 detection), and 10s (p53 detection). Samples: Lane 1 (Calu6 WT - minimal p53), Lane 2 (VB240514-1548ggn - strong p53 band ~53kDa), Lane 3 (VB250610-1157tpv - strong p53 band), Lane 4 (VB250610-1162rmu - strong p53 band), Lane 5 (VB181204-1110ybw control - weak/minimal p53), Lane 6 (G418 5000µg/mL - strong p53 band). GAPDH loading control (~40kDa) shows consistent loading across all lanes. Results indicate successful p53 expression from all three experimental vectors (lanes 2, 3, 4) and G418 treatment group (lane 6), while wild-type and fluorescent control show minimal baseline p53."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Conclusions",
+      "content": "1. Fluorescence imaging confirms successful plasmid transfection: VB181204-1110ybw control vector expressed clear fluorescence signals (EGFP and mCherry). 2. Western blot results confirm p53 expression was successfully detected in all three experimental vector transfection groups (VB240514-1548ggn, VB250610-1157tpv, VB250610-1162rmu), and p53 expression was also detected in the G418 induction group, indicating successful experiments. The experimental vectors appear to drive p53 expression in Calu-6 lung cancer cells."
+    }
+  ],
+  "key_findings": [
+    "Successful transfection and expression validation of three clinical-compatible vectors in Calu-6 human lung adenocarcinoma cells",
+    "All three experimental vectors (VB240514-1548ggn, VB250610-1157tpv, VB250610-1162rmu) successfully expressed p53 protein as detected by Western blot at 72 hours post-transfection",
+    "Control vector with fluorescent markers (EGFP/mCherry) confirmed transfection efficiency with strong fluorescence signals",
+    "p53 protein expression detected at approximately 53kDa molecular weight in experimental groups compared to minimal baseline in wild-type Calu-6 cells",
+    "G418 antibiotic treatment also induced p53 expression, providing positive control",
+    "Disease-relevant cell line model: Calu-6 is an established human lung adenocarcinoma cell line from ATCC",
+    "Study demonstrates proof-of-concept for vector functionality in cancer cell line, suggesting TRL 2-3 level work (in vitro validation in disease-relevant model)"
+  ]
+}

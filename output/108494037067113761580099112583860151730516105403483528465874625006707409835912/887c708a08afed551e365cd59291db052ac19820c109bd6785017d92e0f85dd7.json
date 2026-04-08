@@ -1,0 +1,20 @@
+{
+  "file_path": "/g1rxrv6aaaertvd.png",
+  "document_type": "figure",
+  "relevance": "medium",
+  "summary": "This is a laboratory photograph showing a researcher in a white lab coat and blue gloves performing cell culture or sample processing work in a biosafety cabinet. The image shows various laboratory equipment including cell culture plates, pipettes, media bottles, and sample containers, indicating active wet-lab research activities.",
+  "content_blocks": [
+    {
+      "type": "image",
+      "title": "Laboratory Research Activity - Biosafety Cabinet Work",
+      "content": "Photograph depicts a scientist working in a biosafety cabinet (laminar flow hood) performing what appears to be cell culture or biological sample handling. Visible equipment includes: multi-well cell culture plates (appears to be 96-well format in yellow rack), cell culture flasks, red-colored media (likely phenol red-containing cell culture medium), pipettes/pipettors, a container labeled '1.5mL' (likely microcentrifuge tubes), and various other standard tissue culture supplies. The researcher is wearing appropriate PPE (lab coat, gloves) and working in a controlled sterile environment. The laboratory setting includes additional equipment visible in the background including what appears to be a cell culture incubator and other lab instrumentation. This image demonstrates active laboratory research capabilities and appropriate biosafety practices for cell-based experimentation."
+    }
+  ],
+  "key_findings": [
+    "Demonstrates active wet-lab research capacity with proper biosafety infrastructure (BSC/laminar flow hood)",
+    "Shows cell culture capabilities with appropriate equipment (96-well plates, culture flasks, sterile technique)",
+    "Indicates ongoing experimental work with biological samples, consistent with TRL 2-3 activities (early in vitro experimentation)",
+    "Laboratory setup suggests capacity for cell-based assays, screening, or sample processing relevant to biotech development",
+    "Proper PPE and sterile technique indicate established laboratory protocols and GLP awareness"
+  ]
+}

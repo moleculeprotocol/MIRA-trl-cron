@@ -1,0 +1,36 @@
+{
+  "file_path": "/molecule.ovaria/athenadao-ovaria-ipt-update-docx.pdf",
+  "document_type": "presentation",
+  "relevance": "medium",
+  "summary": "This is an OVARIA IPT (Intellectual Property Team) update from AthenaDAO describing a Menopause Risk Model (MRM) project. Gero AI developed machine learning models to predict age at natural menopause using UK Biobank data, correcting for self-reporting biases. The team conducted GWAS and Mendelian Randomization analysis identifying genetic links between menopause timing and disease risk, finding potential causal relationships with osteoporosis and endometriosis.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Menopause Risk Model (MRM) - Problem Statement",
+      "content": "Age at natural menopause (ANM) data are self-reported and prone to recall distortion or 'telescoping' bias. Gero AI modeled ANM in UK Biobank women to correct for these biases and covariates including BMI, smoking, and deprivation index."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Machine Learning Model Development",
+      "content": "Gero tested multiple ML approaches: (1) Gradient-boosted trees achieved the highest accuracy, (2) The accelerated failure Weibull model reached similar performance but was far more interpretable. These models were then used to run GWAS (Genome-Wide Association Studies) and Mendelian Randomization to link menopause timing with genetics and disease risk."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Findings",
+      "content": "Three major findings from the analysis: (1) Earlier menopause correlates with >100 diseases observationally, (2) True causal effects may exist with osteoporosis and endometriosis specifically, (3) Targets replicated across various datasets, suggesting robustness of findings."
+    }
+  ],
+  "key_findings": [
+    "Computational modeling project using UK Biobank data - large-scale population genomics dataset",
+    "Machine learning models developed: gradient-boosted trees (highest accuracy) and accelerated failure Weibull model (interpretable)",
+    "GWAS and Mendelian Randomization analysis completed - genetic validation approach",
+    "Observational correlations identified with >100 diseases linked to earlier menopause",
+    "Potential causal relationships identified with osteoporosis and endometriosis through Mendelian Randomization",
+    "Target validation across multiple datasets demonstrating replication",
+    "Project appears to be at discovery/target identification stage (TRL 1-2) - computational analysis identifying disease associations but no therapeutic intervention described",
+    "UK Biobank provides large sample size for statistical power but no experimental validation in disease models mentioned"
+  ]
+}
