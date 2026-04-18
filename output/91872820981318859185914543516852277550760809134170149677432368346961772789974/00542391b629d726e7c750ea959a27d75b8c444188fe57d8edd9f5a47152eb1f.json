@@ -1,0 +1,66 @@
+{
+  "file_path": "/KP10_Hypothesis_Report.pdf",
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "Hypothesis report outlining a rational drug design strategy to develop stabilized analogs of kisspeptin-10 (KP-10) peptide with improved metabolic stability and pharmacokinetics while maintaining KISS1R receptor agonism. The document describes known liabilities of native KP-10, proposes three analog classes with specific modification strategies, and outlines an experimental plan for validation. This is a pre-experimental planning document establishing scientific rationale for TRL 1-2 work.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Hypothesis",
+      "content": "Rationally modified derivatives of kisspeptin-10 (KP-10), based on native sequence YNWSFGLRF-NH2, may retain KISS1R receptor agonism while demonstrating improved metabolic stability and longer systemic exposure. Native KP-10 validates receptor compatibility, with optimization shifting toward protease resistance and pharmacokinetics."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Known Liabilities of Native KP-10",
+      "content": "Identified vulnerabilities: aminopeptidase attack at Y1 position, cleavage near F6/G7, trypsin sensitivity near R9/F10, and rapid clearance. These are the specific degradation mechanisms to be addressed through analog design."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Analog Class A: N-terminal Protection",
+      "content": "Strategy for N-terminal protection via three approaches: acetylation, D-Tyr1 substitution, or pyroglutamic acid (pyroGlu) capping. Targets aminopeptidase attack at Y1."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Analog Class B: Cleavage-Site Hardening",
+      "content": "Strategy to prevent internal cleavage via N-methyl substitutions, D-amino acid swaps, or beta-amino acid insertion. Targets protease sites at F6/G7 and R9/F10."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Analog Class C: Conformational Locking",
+      "content": "Strategy for structural stabilization via cyclization, stapling, or lactam bridges to lock peptide conformation and potentially improve stability."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Experimental Plan",
+      "content": "Proposed workflow: design analogs, pipeline screen, molecular docking studies, serum stability assays, and signaling assays. T1-01 calibration mentioned as enabling direct benchmarking of future candidates."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Commercial Applications",
+      "content": "Target indications identified: fertility, endocrinology, oncology signaling, and metabolic regulation. Positioning: Native KP-10 as proof-of-biology, engineered analogs as potential proof-of-therapy."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Comparative Metrics: Native KP-10 vs Hypothesis Analog",
+      "content": "Plasma half-life: Native KP-10 = Low, Hypothesis Analog = Higher. Protease resistance: Native = Low, Analog = Moderate/High. KISS1R potency: Native = High, Analog = Maintained/Slightly reduced. Dosing frequency: Native = High, Analog = Lower. Manufacturing complexity: Native = Low, Analog = Higher. This table establishes target product profile showing trade-offs between improved stability/PK versus increased manufacturing complexity, with acceptable potency maintenance."
+    }
+  ],
+  "key_findings": [
+    "This is a hypothesis/planning document with no experimental data yet generated - establishes scientific rationale for TRL 1",
+    "Native KP-10 sequence (YNWSFGLRF-NH2) serves as starting point with validated KISS1R agonism",
+    "Three distinct analog modification strategies proposed: N-terminal protection (Class A), cleavage-site hardening (Class B), and conformational locking (Class C)",
+    "Specific degradation mechanisms identified: aminopeptidase at Y1, cleavage at F6/G7, trypsin sensitivity at R9/F10",
+    "Experimental validation plan outlined: docking, serum stability assays, signaling assays with T1-01 as benchmark",
+    "Target product profile prioritizes improved plasma half-life and protease resistance while maintaining KISS1R potency",
+    "Commercial applications span fertility, endocrinology, oncology, and metabolic regulation",
+    "No actual experimental results, efficacy data, or manufactured compounds reported - purely conceptual stage"
+  ]
+}
