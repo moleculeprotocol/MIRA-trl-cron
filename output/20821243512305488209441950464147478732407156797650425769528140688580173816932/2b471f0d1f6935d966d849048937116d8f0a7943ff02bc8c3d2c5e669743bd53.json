@@ -1,0 +1,47 @@
+{
+  "file_path": "/KP13_FULL_Hypothesis.pdf",
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a hypothesis document proposing that engineered analogs of kisspeptin-13 (KP-13) peptide could retain KISS1R receptor agonist activity while improving metabolic stability. The document outlines a theoretical framework and experimental plan but contains no actual experimental data, results, or evidence of completed work.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract and Core Hypothesis",
+      "content": "Hypothesis proposes that rationally engineered analogs of kisspeptin-13 (KP-13) can retain KISS1R agonist activity while demonstrating improved metabolic stability and prolonged signaling duration compared to native peptide. Core hypothesis: Selective structural modifications to KP-13 that preserve receptor-binding motif while reducing proteolytic liability will result in analogs with improved pharmacokinetic profiles and sustained biological activity."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Background and Context",
+      "content": "Kisspeptins are endogenous ligands of KISS1 receptor (KISS1R), playing critical role in reproductive hormone regulation. KP-13 is naturally occurring fragment with strong receptor activity but suffers from rapid proteolytic degradation. Known limitations: rapid degradation by proteases, short plasma half-life, limited therapeutic exposure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Engineering Strategies",
+      "content": "Three proposed modification approaches: 1) N-terminal protection via acetylation or pyroglutamate formation, 2) Cleavage-site stabilization using D-amino acids or N-methylation, 3) Conformational constraints through cyclization or backbone stabilization. Predicted outcomes: increased serum stability, reduced enzymatic degradation, maintained or slightly reduced receptor potency, improved duration of signaling."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Experimental Plan",
+      "content": "Proposed 5-step plan: 1) Use native KP-13 as calibration reference, 2) Design 10-20 modified analogs, 3) Run sequence and conformational validation, 4) Perform receptor activation assays, 5) Measure serum stability. Plan is prospective only - no indication that experiments have been conducted or data generated."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Conclusion",
+      "content": "KP-13 provides promising scaffold for engineering long-acting KISS1R agonists. Successful validation of hypothesis could enable development of therapeutically viable peptide analogs. Conclusion is entirely prospective and theoretical."
+    }
+  ],
+  "key_findings": [
+    "Document is purely hypothetical with no experimental data or results reported",
+    "Target: KISS1R receptor agonists for reproductive hormone regulation using KP-13 peptide scaffold",
+    "Proposed approach: structural modifications to improve peptide stability (N-terminal protection, D-amino acids, cyclization)",
+    "Development stage: TRL 1 or pre-TRL - only hypothesis formulation, no experiments conducted",
+    "Experimental plan outlined but no evidence of execution: receptor assays and serum stability testing proposed for 10-20 analogs",
+    "No information on: team, funding, IP status, regulatory pathway, manufacturing, or timelines",
+    "No quantitative data, control experiments, model systems, or validation results present"
+  ]
+}

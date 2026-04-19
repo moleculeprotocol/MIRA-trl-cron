@@ -1,0 +1,205 @@
+{
+  "file_path": "/KISS1R-report-v1.2.pdf",
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a computational lead identification report for KISS1R agonist peptide candidates C1-01 and C1-02, developed by PeptAI and BIO Protocol. The report documents a nine-gate computational pipeline evaluating two modified kisspeptin decapeptide analogues targeting KISS1R (GPR54) for idiopathic hypogonadotropic hypogonadism treatment. Both candidates passed computational structure-based validation (docking, molecular dynamics, binding affinity prediction) and are staged for experimental validation (Gate 9) including biolayer interferometry, functional assays, and plasma stability testing.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title and Authors",
+      "content": "KISS1R Agonist Peptide Programme: Computational Lead Identification Report. Developed by PeptAI and BIO Protocol (Zug, Switzerland). Report dated April 2026."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Abstract",
+      "content": "Computational lead identification campaign targeting KISS1R (GPR54, UniProt Q9HBX9), a class A GPCR receptor for kisspeptin peptides. Two lead candidates evaluated: C1-01 (D-Tyr1/Arg(Me)9-modified decapeptide) and C1-02 (Ac-[D-Tyr1, Thr5, azaGly7, Arg(Me)9]KP-10). Both evaluated against cryo-EM structure PDB 8XGO (2.68 Å resolution). C1-01 metrics: Boltz2 iPTM 0.969, BSA 2363 Å², 283 interface contacts, PRODIGY binding free energy -12.5 kcal/mol (Kd ~0.64 nM). C1-02 metrics: highest predicted binding affinity ΔG = -13.40 kcal/mol (Kd ~140 pM). Both advanced to Gate 9 experimental validation. Selectivity flags identified: NPFFR2 for C1-01, NPFFR1 for C1-02, attributed to shared C-terminal RF-amide pharmacophore."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Introduction - The Kisspeptin/KISS1R System",
+      "content": "KISS1R (GPR54) is a class A GPCR and obligate receptor for kisspeptin peptide ligands. Kisspeptins are generated from post-translational processing of a 145-amino acid KISS1 gene precursor. Endogenous ligands include kisspeptin-54, -13, and -10 (KP-10: Tyr-Asn-Trp-Asn-Ser-Phe-Gly-Leu-Arg-Phe-NH2). KP-10 retains full receptor activation capacity as minimal pharmacophoric unit. KISS1R couples primarily through Gαq/11 to activate phospholipase C, generating IP3 and DAG, leading to calcium mobilization and ERK1/2 phosphorylation. Expressed in hypothalamus, pituitary, and gonadal tissues."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Introduction - Hypothalamic-Pituitary-Gonadal Axis",
+      "content": "KISS1R signaling is the primary molecular driver of the hypothalamic-pituitary-gonadal (HPG) axis. Kisspeptin neurons (KNDy neurons) in the arcuate nucleus function as GnRH pulse generators. Kisspeptin released from KNDy neurons acts on KISS1R on GnRH neurons to drive pulsatile GnRH secretion. GnRH pulses drive LH and FSH synthesis/release from pituitary, which act on gonads to stimulate steroidogenesis and gametogenesis. GnRH pulse frequency is critical regulatory variable."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Introduction - Therapeutic Rationale and Clinical Precedents",
+      "content": "Loss-of-function mutations in KISS1 or KISS1R cause idiopathic hypogonadotropic hypogonadism (IHH), affecting 1 in 4,000-10,000 individuals. Current treatment is pulsatile GnRH replacement via subcutaneous pump. Two clinical-stage kisspeptin analogues validate therapeutic concept: MVT-602 (Myovant Sciences, now Sumitovant) advanced through Phase I/II, demonstrating LH pulsatility and follicular development support. TAK-683 (Takeda) represents independent clinical validation of KISS1R as druggable target in fertility space."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Introduction - Scaffold Design Strategy",
+      "content": "KP-10 minimal pharmacophoric unit has pharmacokinetic liabilities: rapid N-terminal degradation by aminopeptidase N, endopeptidase cleavage at Gly7 (chymotrypsin, cathepsin G) and Arg9 (trypsin, kallikrein), C-terminal degradation by carboxypeptidases. Plasma half-life of unmodified KP-10 is minutes. Design strategy: D-Tyr1 for aminopeptidase resistance; Arg(Me)9 for trypsin/kallikrein resistance (also provides 3-fold potency enhancement per Nishizawa et al. 2012); azaGly7 in C1-02 ablates chymotrypsin site; C-terminal amidation blocks carboxypeptidases A and B. C1-01 retains Ser5 and Gly7, relies on D-Tyr1 for N-terminal protection. C1-02 incorporates Thr5, azaGly7, and N-acetyl cap."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Table 1: Nine-gate computational pipeline",
+      "content": "Pipeline overview with 9 gates (G0-G9). G0: Calibration panel establishment using Class A reference compounds (Boltz2, PRODIGY). G1: Reference structure acquisition (PDB query, resolution <3.5 Å). G2: Docking convergence (≥2 clusters, primary >50%, RMSD plateau; Vina/LiteFold). G3: Complex quality assessment (iPTM >0.7, BSA >800 Å², ≥100 contacts; Boltz2). G4: Binding affinity (ΔG <-10 kcal/mol; PRODIGY). G5: MD stability (whole-complex RMSD <3.0 Å in final 40%, no dissociation; OpenMM). G6: Proteolytic stability (≤2 core cleavage sites, no Arg/Lys trypsin sites; PROSPERousPlus, PlifePred). G7: Physicochemical/immunogenicity (CamSol >0, MHC-I IC50 >500 nM all alleles; CamSol, MHCflurry). G8: Off-target selectivity (ΔΔG >+1.4 kcal/mol all off-targets; PRODIGY ΔΔG panel). G9: Experimental validation (BLI Kd <100 nM, EC50 confirmed, selectivity window established; Adaptyv BLI, Ginkgo HTRF)."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Table 2: Gate 0 calibration panel",
+      "content": "Reference compounds: KP-10 (Class A, iPTM 0.942, ΔG -13.0 kcal/mol), KP-13 (Class A, iPTM 0.952, ΔG -14.1 kcal/mol), MVT-602 (Class A, iPTM 0.938, ΔG excluded as outlier -63.1 kcal/mol due to lipidation), KP-54 proxy (Class A, iPTM 0.970, ΔG pending), CHEMBL374295 (Class C partial binder, iPTM 0.950), ScrambledKP10 (Class B negative control, iPTM 0.055). Class A calibration statistics (KP-10 and KP-13 only): iPTM mean 0.9505 ± 0.014; ΔG mean -13.2 ± 0.85 kcal/mol. MVT-602 ΔG excluded because lipidated compound falls outside PRODIGY parameterization space."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Gate 1 - Reference Structure Acquisition",
+      "content": "Cryo-EM structure PDB 8XGO (2.68 Å resolution) selected as binding site template. As of April 2026, 8XGO is highest-resolution experimental KISS1R structure available. Resolution satisfies <3.5 Å gate criterion. Binding site encompasses residues: ECL2 (Glu193), TM3 (Tyr103), TM6 (His309), TM7 (Tyr302, Thr306, Lys305). Glu193 is primary electrostatic anchor for basic C-terminal residues (Arg9, C-terminal amide). TM7 cluster provides hydrogen-bonding network for peptide backbone/side chains. Gate 1 verdict: PASS for both C1-01 and C1-02."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Gate 2 - Docking Convergence",
+      "content": "C1-01: Minimum 2 distinct binding pose clusters identified, primary cluster >50% of sampled poses. RMSD trajectory shows plateau over final 40% of docking run. Dominant pose positions C-terminal Phe-NH2 in orthosteric pocket with Glu193 engagement, consistent with KP-10 reference. Verdict: PASS. C1-02: ≥2 distinct clusters, primary cluster >50%, RMSD plateau confirmed over final 40%. N-Ac capped N-terminus oriented toward extracellular vestibule, C-terminal RF-amide in orthosteric pocket. Verdict: PASS."
+    },
+    {
+      "page": 11,
+      "type": "table",
+      "title": "Table 3: Gate 3 complex quality metrics",
+      "content": "C1-01: iPTM 0.969, BSA 2363 Å², interface contacts 283, vs. calibration above mean. C1-02: iPTM 0.922, BSA 1129.9 Å², interface contacts 119, within range. Threshold: iPTM >0.7, BSA >800 Å², contacts ≥100. Both exceed all thresholds (PASS). C1-01 BSA 2.09-fold larger than C1-02, substantially above Class A calibration mean. C1-01 iPTM above Class A calibration mean (0.9505), indicating exceptionally well-packed interface. Elevated BSA/contact count for C1-01 attributed to D-Tyr1 residue forming additional interface contacts in extracellular vestibule sub-pocket."
+    },
+    {
+      "page": 12,
+      "type": "table",
+      "title": "Table 4: Gate 4 binding free energy metrics",
+      "content": "C1-01: ΔG -12.5 kcal/mol, Kd 0.64 nM, PRODIGY contacts 113, above calibration mean. C1-02: ΔG -13.40 kcal/mol, Kd ~140 pM, PRODIGY contacts 119, above calibration mean. Threshold: ΔG <-10 kcal/mol. Both PASS. C1-02 ranks 1st in binding affinity in current panel. Class A calibration mean -13.2 ± 0.85 kcal/mol (computed on KP-10 and KP-13 only). C1-02 elevated affinity may reflect favorable enthalpic contributions from Thr5 methyl group and azaGly7 backbone geometry effects."
+    },
+    {
+      "page": 13,
+      "type": "table",
+      "title": "Table 5: Gate 5 molecular dynamics stability metrics",
+      "content": "C1-01: 1 replica analyzed (run 563), RMSD mean final 40% 2.72 ± 0.14 Å, 0 dissociation events, key persistent contact ARG9···GLU193 (100% occupancy). Verdict: COND. PASS (trajectory re-analysis with corrected .xtc file required for peptide-specific RMSD and H-bond profiling). C1-02: 5 replicas analyzed (runs 564-568), RMSD mean full sim 2.65 ± 0.33 Å, RMSD mean final 40% 2.83 ± 0.13 Å, RMSD maximum 3.22 Å (transient excursion), 0 dissociation events, key persistent contact TYR1···ASP41 (100% occupancy). Verdict: PASS. Threshold: whole-complex RMSD <3.0 Å (final 40%), no dissociation."
+    },
+    {
+      "page": 15,
+      "type": "text",
+      "title": "Gate 6 - Proteolytic Stability - C1-01",
+      "content": "One core cleavage site identified: Phe6|Gly7 junction (chymotrypsin score 0.780, cathepsin G score 0.850). Residual liability inherent to aromatic-Gly junction in native KP-10. Trypsin, kallikrein, plasmin, thrombin, serum protease scores all <0.5 threshold. No Arg/Lys trypsin sites predicted. Arg(Me)9 modification effectively blocks trypsin/kallikrein endopeptidase recognition at position 9. Total core cleavage site count: 1 (satisfies ≤2 criterion)."
+    },
+    {
+      "page": 15,
+      "type": "text",
+      "title": "Gate 6 - Proteolytic Stability - C1-02",
+      "content": "azaGly7 substitution provides mechanistic protection against chymotrypsin and cathepsin G at Phe6|azaGly7 by eliminating hydrolysable amide bond (aza-substitution of α-carbon). Neprilysin score 0.8824 at Thr5|Phe6 junction represents residual tissue protease liability. Neprilysin (CD10, neutral endopeptidase) expressed in kidney proximal tubule, lung, intestinal epithelium. Adjusted core cleavage site count: 2 (Phe6|azaGly7 partially mitigated; Thr5|Phe6 neprilysin-mediated), placing C1-02 at gate threshold for ≤2 core sites criterion."
+    },
+    {
+      "page": 15,
+      "type": "text",
+      "title": "Gate 6 - PlifePred Half-Life Assessment",
+      "content": "PlifePred2 blood half-life prediction blocked for both candidates due to 10-residue sequence length falling below validated 12-residue minimum. First-principles empirical estimate provided: modifications (D-Tyr1, Arg(Me)9, C-terminal amide) collectively address major plasma degradation pathways. Analogous structurally-modified kisspeptin decapeptides in literature (MVT-602-related, senktide-class scaffolds) demonstrate plasma half-lives 30-120 minutes in rodent plasma (Nishizawa et al. 2012; Thompson et al. 2009). Experimental plasma stability LC-MS assay required for confirmation (mandatory Gate 9 deliverable). Gate 6 verdict: COND. PASS for both (experimental serum stability LC-MS required)."
+    },
+    {
+      "page": 16,
+      "type": "table",
+      "title": "Table 6: Gate 6 protease panel comparison",
+      "content": "Protease panel for C1-01 and C1-02. Trypsin: both <0.50 (none), Arg(Me)9 blocks recognition. Chymotrypsin: C1-01 0.780 at F6|G7; C1-02 mitigated at F6|azaGly7 (azaGly7 provides structural credit). Cathepsin G: C1-01 0.850 at F6|G7; C1-02 mitigated at F6|azaGly7. Plasmin, Thrombin, Kallikrein: both <0.50 (clean). Neprilysin: C1-01 <0.50 (none); C1-02 0.8824 at T5|F6 (tissue liability for C1-02). Core sites total: C1-01 = 1 (F6|G7); C1-02 = 2 (T5|F6 + F6|azaGly7 partially mitigated)."
+    },
+    {
+      "page": 17,
+      "type": "table",
+      "title": "Table 7: Gate 7 physicochemical and immunogenicity properties",
+      "content": "C1-01: MW 1315.65 Da, cLogP -3.654, charge +1 at pH 7.4, CamSol score +0.102, solubility est. ~126 mg/mL, Na4vSS +0.0681, MHC-I HLA-A*02:01 IC50 23,659 nM, HLA-A*01:01 20,212 nM, HLA-B*07:02 30,634 nM, bRo5 5/6 fail. C1-02: MW 1373.54 Da, cLogP -3.072, charge +1, CamSol +0.008, solubility ~59 mg/mL, Na4vSS +0.4379, MHC-I HLA-A*01:01 22,160 nM, bRo5 5/6 fail. Thresholds: CamSol >0, MHC-I IC50 >500 nM. Both positive CamSol (C1-01 markedly better), all MHC-I IC50 values well above 500 nM threshold. Na4vSS L-amino acid proxy sequences (YNWNSFGLRF for C1-01; YNWNTFGLRF for C1-02) represent conservative upper bounds; non-natural residues expected to reduce aggregation propensity. bRo5 non-compliance non-disqualifying for injectable peptide class. Gate 7 verdict: COND. PASS (structure-based AGGRESCAN3D confirmation required)."
+    },
+    {
+      "page": 19,
+      "type": "table",
+      "title": "Table 8: Gate 8 off-target selectivity panel C1-01",
+      "content": "C1-01 off-target ΔΔG values: GLP-1R +3.27 (PASS), NPFFR1 +1.77 (PASS), OXTR +2.49 (PASS), NPFFR2 +0.86 (FLAG - below +1.4 threshold). Threshold: ΔΔG >+1.4 kcal/mol all off-targets. Three of four off-targets show ΔΔG well above threshold. NPFFR2 ΔΔG +0.86 below threshold constitutes selectivity flag due to shared C-terminal RF-amide motif (−Arg−Phe−NH2) with endogenous NPFFR2 ligands. ΔΔG +0.86 not predictive of functional agonism (requires experimental assay). Dedicated NPFFR2 functional assay (IP1 or cAMP) included in Gate 9 panel. Gate 8 verdict: COND. PASS."
+    },
+    {
+      "page": 20,
+      "type": "table",
+      "title": "Table 9: Gate 8 off-target selectivity panel C1-02",
+      "content": "C1-02 off-target ΔΔG values: GLP-1R PASS, NPFFR2 PASS, OXTR PASS, NPFFR1 -0.70 (FAIL - below zero, predicted stabilization/increased affinity at NPFFR1 relative to KISS1R baseline). Threshold: ΔΔG >+1.4 kcal/mol. NPFFR1 ΔΔG -0.70 represents selectivity failure. Pharmacological mechanistic plausibility: C-terminal −Arg(Me)9−Phe−NH2 closely resembles canonical RF-amide pharmacophore of NPFFR1 endogenous ligand NPFF (−Arg−Phe−NH2 C-terminus). Nω-methyl modification on Arg9 does not substantially disrupt RF-amide recognition by NPFFR1. Finding confirmed by independent PRODIGY calculation re-run. ΔΔG value is binding affinity prediction, not functional agonism measure; dissociation of binding from functional activity at NPFFR1 possible. NPFFR1 cross-reactivity resolution through head-to-head selectivity assays is primary objective of C1-02 Gate 9 experimental panel. Gate 8 verdict: FAIL (NPFFR1 selectivity question requires experimental resolution)."
+    },
+    {
+      "page": 21,
+      "type": "text",
+      "title": "ADMET/PK Assessment - Half-Life",
+      "content": "PlifePred2 blocked for both candidates (10 residues <12 residue minimum). Empirical first-principles estimate: D-Tyr1 blocks aminopeptidase N; Arg(Me)9 blocks trypsin/kallikrein; C-terminal amide blocks carboxypeptidases A and B; N-Ac cap in C1-02 provides alternative aminopeptidase barrier. Comparable structurally-modified kisspeptin decapeptides in literature demonstrate plasma half-lives 30-120 minutes in rodent plasma (Nishizawa et al. 2012; Thompson et al. 2009). Experimental plasma stability LC-MS assay required (mandatory Gate 9 deliverable)."
+    },
+    {
+      "page": 21,
+      "type": "text",
+      "title": "ADMET/PK Assessment - Renal Clearance",
+      "content": "Both candidates MW >1000 Da (C1-01: 1315.65 Da; C1-02: 1373.54 Da). Glomerular filtration threshold ~30-50 kDa for proteins; peptides <~5 kDa undergo glomerular filtration freely. Both candidates will undergo glomerular filtration. Net charge +1 at pH 7.4 does not strongly favor tubular reabsorption through cationic transport. Renal clearance expected to contribute significantly to overall elimination, consistent with native KP-10 pharmacokinetics. Both require subcutaneous or intravenous administration; hepatic first-pass metabolism not relevant for injectable peptides of this MW."
+    },
+    {
+      "page": 22,
+      "type": "text",
+      "title": "ADMET/PK Assessment - Solubility and Aggregation",
+      "content": "CamSol intrinsic solubility: C1-01 +0.102 (~126 mg/mL), C1-02 +0.008 (~59 mg/mL). Both positive, exceed ~1 mg/mL practical minimum for injectable formulations. C1-01 markedly higher predicted solubility (likely Ser5 greater aqueous interaction vs Thr5 methyl group). Both compatible with standard injectable formulation strategies (aqueous vehicle at physiological pH). Na4vSS sequence-based aggregation: C1-01 +0.0681, C1-02 +0.4379 (both positive, satisfy >0 criterion). Scores computed on L-amino acid proxies; expected to overestimate aggregation risk for non-natural peptides (D-Tyr1, Arg(Me)9, azaGly7 expected to disrupt regular backbone geometry and beta-sheet formation). Structure-based AGGRESCAN3D analysis required for definitive assessment (planned Gate 9)."
+    },
+    {
+      "page": 22,
+      "type": "text",
+      "title": "ADMET/PK Assessment - Immunogenicity",
+      "content": "MHC class I binding predictions (MHCflurry v2.0): C1-01 HLA-A*02:01 23,659 nM, HLA-A*01:01 20,212 nM, HLA-B*07:02 30,634 nM. C1-02 HLA-A*01:01 22,160 nM. All IC50 values substantially exceed 500 nM threshold. Low MHC-I affinity mechanistically expected for 10-residue peptide with non-natural amino acids. Antigen presentation via MHC-I requires proteasomal/TAP processing, poorly adapted to D-amino acids. D-Tyr1 and Arg(Me)9 expected to impair/block standard antigen processing. No MHC-I immunogenicity concern identified for either candidate."
+    },
+    {
+      "page": 24,
+      "type": "table",
+      "title": "Table 11: Gate 9 experimental assay panel C1-01",
+      "content": "C1-01 experimental panel: BLI binding kinetics (Adaptyv, KISS1R Kd, pass <100 nM, resolves G4); cAMP HTRF agonist (Ginkgo, EC50/Emax, pass EC50 <100 nM and Emax ≥80% KP-10, resolves G3/G4 functional potency); NPFFR2 functional assay (Ginkgo, IP1 or cAMP IC50, selectivity window >50× vs KISS1R EC50, resolves G8 NPFFR2 flag); Plasma stability LC-MS (CRO in-house, t1/2 in human plasma, pass >30 min, resolves G6 conditional/PlifePred gap); AGGRESCAN3D (computational, structure-based aggregation, score within acceptable range, resolves G7 conditional); Peptide-specific RMSD (computational, per-residue H-bond occupancy from .xtc, H-bonds >50% occupancy, resolves G5 conditional)."
+    },
+    {
+      "page": 24,
+      "type": "table",
+      "title": "Table 12: Gate 9 experimental assay panel C1-02",
+      "content": "C1-02 experimental panel: BLI binding kinetics (Adaptyv, KISS1R Kd + NPFFR1 Kd, pass KISS1R <100 nM and NPFFR1 >10× KISS1R, resolves G8 FAIL primary); NPFFR1 functional assay (Ginkgo, IP1 or cAMP NPFFR1, no functional agonism at NPFFR1 at 10× KISS1R EC50, resolves G8 FAIL definitive); cAMP HTRF agonist (Ginkgo, KISS1R EC50/Emax, pass EC50 <100 nM and Emax ≥80% KP-10, resolves G3/G4 functional potency); Plasma stability LC-MS (CRO, t1/2 in human plasma, pass >30 min, resolves G6 conditional/PlifePred gap); Neprilysin stability (CRO, neprilysin cleavage at T5|F6, cleavage rate acceptable for target route, resolves G6 neprilysin flag); AGGRESCAN3D (computational, structure-based aggregation, score within acceptable range, resolves G7 conditional)."
+    },
+    {
+      "page": 25,
+      "type": "text",
+      "title": "Gate 9 - Decision Criteria for Lead Optimization Advancement",
+      "content": "Advancement to Lead Optimization (post-G9) requires: (1) confirmed KISS1R binding Kd <100 nM by BLI; (2) functional agonist EC50 <100 nM with Emax ≥80% relative to KP-10 reference; (3) plasma half-life t1/2 >30 minutes in human plasma by LC-MS stability assay. For C1-02 specifically: selectivity window >50-fold at NPFFR1 (by functional assay) is additional mandatory criterion. Failure to establish required NPFFR1 selectivity window will trigger back-to-design cycle focused on C-terminal RF-amide motif substitution strategies (C-terminal aromatic ring modifications, Phe10 analogues to reduce NPFFR1 binding while preserving KISS1R potency)."
+    },
+    {
+      "page": 26,
+      "type": "text",
+      "title": "Summary and Conclusions",
+      "content": "Two lead candidates C1-01 and C1-02 emerged from KISS1R agonist computational pipeline. Both modified kisspeptin decapeptide analogues targeting KISS1R orthosteric binding site, evaluated against PDB 8XGO (2.68 Å). C1-01: D-Tyr1/Arg(Me)9-modified; C1-02: N-Ac/D-Tyr1/azaGly7/Arg(Me)9-modified. Both demonstrate strong computational binding evidence. PRODIGY-predicted Kd: C1-01 0.64 nM, C1-02 ~140 pM (highest in panel). C1-01 advanced through all 8 computational gates with no disqualifying findings; exceptional G3 metrics (iPTM 0.969, BSA 2363 Å², 283 contacts, above Class A calibration mean). Outstanding items: G5 trajectory re-analysis, G8 NPFFR2 functional assay. C1-02: highest predicted binding affinity (ΔG -13.40 kcal/mol), robust MD stability (5 replicas). G8 selectivity concern at NPFFR1 (ΔΔG -0.70) attributed to C-terminal RF-amide pharmacophore overlap; tractable experimental question (binding vs functional activity dissociation possible). Both have comprehensive proteolytic protection; single-site residual liabilities (chymotrypsin for C1-01, neprilysin for C1-02) require experimental plasma stability confirmation. MHC-I immunogenicity profiles clean (all IC50 >500 nM). Physicochemical properties consistent with injectable peptide class (hydrophilic cLogP <-3, charge +1, CamSol-predicted solubilities exceed injectable requirements). Gate 9 experimental validation panel fully designed; both candidates advanced to G9 staging. Critical path: BLI binding kinetics (Adaptyv) + NPFFR1/NPFFR2 functional assays (Ginkgo)."
+    },
+    {
+      "page": 27,
+      "type": "table",
+      "title": "Table 13: Full KISS1R agonist peptide candidate library",
+      "content": "10 candidates C1-01 through C1-10. C1-01 (D-Tyr1, Arg(Me)9, C-terminal amide): G9 Staged, all G0-G8 completed, NPFFR2 flag at G8. C1-02 (N-Ac, D-Tyr1, Thr5, azaGly7, Arg(Me)9, C-terminal amide): G9 Staged, G0-G7 cleared, NPFFR1 selectivity question at G8. C1-03 through C1-10 in queue pending evaluation: C1-03 (extended Arg(Me)9 + double D-amino acid, dual D-aa strategy for enhanced metabolic stability); C1-04 (PEGylated C-terminus, half-life extension/renal clearance modulation); C1-05 (cyclic lactam bridge, conformational constraint); C1-06 (N-Me-Phe10 variant, C-terminal aromatic modification to probe KISS1R/NPFFR1 selectivity); C1-07 (azaGly7 + Sar1, sarcosine N-terminal cap for aminopeptidase resistance); C1-08 (fluorinated Phe6, electronic modulation of aromatic ring); C1-09 (KP-13 N-terminal extension, probe N-terminal binding vestibule); C1-10 (bivalent scaffold, receptor avidity strategy, linker design pending)."
+    },
+    {
+      "page": 28,
+      "type": "table",
+      "title": "Table 15: Computational tool versions and references",
+      "content": "Boltz2 v2.0 (LiteFold): structure prediction, G3 iPTM/BSA. PRODIGY v2.1: G4 binding free energy (Vangone and Bonvin 2015; Xue et al. 2016). OpenMM 8.x (LiteFold): G5 MD simulations via LiteFold Dynamo platform. PROSPERousPlus v1.0: G6 cleavage prediction (Webb et al. 2020). PlifePred2 v2.0: G6 half-life (blocked: 10 residues <12 residue minimum). CamSol v2.0: G7 solubility (Sormanni et al. 2015). Na4vSS v1.0: G7 aggregation (sequence-based, L-aa proxy used). MHCflurry v2.0: G7 MHC-I (O'Donnell et al. 2020). ToxinPred3 v3.0: G8 toxicity (IMTECH/PIC). PRODIGY ΔΔG v2.1: G8 off-target selectivity (ΔΔG panel, same empirical potential as G4)."
+    },
+    {
+      "type": "text",
+      "title": "Key Findings Summary",
+      "content": "KEY FINDINGS FOR TRL ASSESSMENT: (1) TWO LEAD CANDIDATES (C1-01, C1-02) identified through 9-gate computational pipeline; both are modified kisspeptin decapeptide KISS1R agonists for idiopathic hypogonadotropic hypogonadism. (2) COMPUTATIONAL EVIDENCE OF BINDING: C1-01 predicted Kd 0.64 nM (PRODIGY ΔG -12.5 kcal/mol); C1-02 predicted Kd ~140 pM (ΔG -13.40 kcal/mol, highest in panel). Both passed docking convergence, complex quality (iPTM, BSA), and molecular dynamics stability gates. (3) STRUCTURE-BASED DESIGN: Evaluated against cryo-EM structure PDB 8XGO (2.68 Å). Rational modifications target proteolytic stability: D-Tyr1 (aminopeptidase resistance), Arg(Me)9 (trypsin/kallikrein resistance + 3-fold potency enhancement per literature), azaGly7 in C1-02 (chymotrypsin protection), C-terminal amide (carboxypeptidase blocking). (4) SELECTIVITY CONCERNS IDENTIFIED: C1-01 NPFFR2 flag (ΔΔG +0.86, below +1.4 threshold); C1-02 NPFFR1 selectivity failure (ΔΔG -0.70, predicted increased affinity). Both attributed to shared C-terminal RF-amide pharmacophore (class-level characteristic of kisspeptin scaffolds). TRACTABLE EXPERIMENTAL QUESTION: binding vs functional activity dissociation possible. (5) NO EXPERIMENTAL VALIDATION YET CONDUCTED: Both candidates at Gate 9 staging (pre-experimental). Gate 9 panel designed: BLI binding kinetics (Adaptyv Bio, Kd target <100 nM), cAMP HTRF functional agonist assay (Ginkgo Bioworks, EC50 <100 nM, Emax ≥80% vs KP-10), NPFFR1/NPFFR2 selectivity functional assays, plasma stability LC-MS (human plasma t1/2 target >30 min). (6) ADMET PROFILE: Favorable physicochemical properties (injectable class MW 1315-1373 Da, hydrophilic cLogP <-3, CamSol solubility >59 mg/mL). Low MHC-I immunogenicity predicted (all IC50 >20,000 nM, well above 500 nM threshold). Estimated plasma half-life 30-120 minutes based on literature analogues (experimental confirmation required). (7) CLINICAL PRECEDENT: Target validated by MVT-602 (Myovant/Sumitovant, Phase I/II, demonstrated LH pulsatility and follicular development) and TAK-683 (Takeda) clinical programmes. (8) TRL STATUS: Project is at TRL 1-2 boundary: computational lead identification completed (TRL 1), but NO experimental binding/functional data yet generated for C1-01/C1-02. Gate 9 experimental validation (BLI, functional assays, plasma stability) required to advance to TRL 2. Selectivity questions represent tractable hypotheses, not disqualifying findings."
+    }
+  ],
+  "key_findings": [
+    "Two lead candidates C1-01 and C1-02 identified through 9-gate computational pipeline for KISS1R agonism targeting idiopathic hypogonadotropic hypogonadism",
+    "Both modified kisspeptin decapeptides with predicted sub-nanomolar binding: C1-01 Kd 0.64 nM (PRODIGY ΔG -12.5 kcal/mol), C1-02 Kd ~140 pM (ΔG -13.40 kcal/mol)",
+    "Structure-based design against cryo-EM structure PDB 8XGO (2.68 Å resolution); rational proteolytic protection modifications: D-Tyr1, Arg(Me)9, azaGly7, C-terminal amide",
+    "Computational validation: docking convergence confirmed, complex quality metrics above Class A calibration (C1-01 iPTM 0.969, BSA 2363 Å²), molecular dynamics stability confirmed (RMSD <3.0 Å, no dissociation)",
+    "Selectivity concerns identified: C1-01 NPFFR2 flag (ΔΔG +0.86), C1-02 NPFFR1 selectivity failure (ΔΔG -0.70); both attributed to shared C-terminal RF-amide pharmacophore (class-level risk, tractable experimental question)",
+    "NO experimental validation yet conducted; both candidates at Gate 9 staging (pre-experimental)",
+    "Gate 9 experimental panel designed: BLI binding kinetics (Adaptyv Bio, target Kd <100 nM), cAMP HTRF functional agonist assay (Ginkgo Bioworks, EC50 <100 nM, Emax ≥80% KP-10), NPFFR1/NPFFR2 selectivity functional assays, plasma stability LC-MS (human plasma t1/2 target >30 min)",
+    "Favorable ADMET profile predicted: injectable class MW 1315-1373 Da, hydrophilic cLogP <-3, CamSol solubility >59 mg/mL, low MHC-I immunogenicity (all IC50 >20,000 nM), estimated plasma t1/2 30-120 min based on literature analogues",
+    "Target validated by clinical precedents: MVT-602 (Myovant/Sumitovant, Phase I/II, demonstrated LH pulsatility and follicular development in women with fertility disorders), TAK-683 (Takeda)",
+    "TRL STATUS: TRL 1-2 boundary (computational lead identification complete, but no experimental binding/functional data for C1-01/C1-02 yet; requires Gate 9 experimental validation to advance to TRL 2)"
+  ]
+}
