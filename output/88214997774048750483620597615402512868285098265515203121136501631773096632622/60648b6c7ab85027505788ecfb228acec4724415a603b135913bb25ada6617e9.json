@@ -1,0 +1,161 @@
+{
+  "file_path": "/OX2R-004_PreIND_v2.1.pdf",
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "Pre-IND computational feasibility assessment for OX2R-004, an 18-residue peptide agonist of human Orexin Receptor 2 for ADHD. The report evaluates the candidate through an 8-gate computational pipeline (G1-G8) using structure-based design, molecular dynamics (deferred), protease stability prediction, ADMET profiling, and immunogenicity screening. Key findings: proteolytic instability is the primary development risk (G6 Fail, ~5 min serum half-life), OX1R cross-reactivity is a concern (90-100% binding pocket conservation), but immunogenicity risk has been de-risked via MHCFlurry 2.1.5 screening. A stabilized variant OX2R-004-S1 with D-amino acid substitutions and N-acetylation shows 3.6× improved half-life (~55 min). No wet-lab validation experiments have been performed yet; all assessments are computational.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract and Problem Decomposition",
+      "content": "OX2R-004 is an 18-residue peptide (KGDRYGVAYEHGGAQPFK) designed as a selective agonist of human Orexin Receptor 2 (OX2R) targeting ADHD. Rationale: drug-naive children with ADHD show decreased orexin-A/B levels. No approved orexin agonists exist; all marketed orexin drugs are dual OX1R/OX2R antagonists for insomnia. Clinical-stage OX2R agonists (TAK-861, ORX750, BP1.15205) are exclusively small molecules for narcolepsy. OX2R-004 represents a novel peptide agonist approach. Competitive landscape: TAK-861 pEC50 8.6 at OX2R (~2.5 nM); ORX750 at 2.5 mg restored wakefulness in Phase 1. Design reference: PDB 7L1U (3.2Å cryo-EM structure of OX2R–Orexin-B–Gi complex). Natural agonist Orexin-B shows ~12-fold OX2R selectivity in binding, ~70-fold in functional assays over OX1R. Off-target concern: OX1R shares 64% sequence homology with OX2R."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Table 1: Clinical-stage OX2R agonists",
+      "content": "TAK-861 (Takeda, small molecule, Phase 2/3, pEC50 8.6 at OX2R); ORX750 (Centessa, small molecule, Phase 1, 2.5 mg restored wakefulness); BP1.15205 (Harmony, small molecule, Phase 1, initiated Nov 2025). No peptide agonists are in clinical development."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Candidate Characterization - Sequence and Physicochemical Properties",
+      "content": "Sequence: KGDRYGVAYEHGGAQPFK. Length: 18 amino acids. Composition: G(4), K(2), A(2), Y(2), D(1), R(1), V(1), E(1), H(1), Q(1), P(1), F(1). Cysteine: 0 (no disulfide bonds). MW: 1980.14 Da. Net charge (pH 7.4): +0.59. Isoelectric point: 8.44. GRAVY: -1.178 (strongly hydrophilic). Instability Index: -7.32 (stable, well below Guruprasad threshold of 40). Aromaticity: 0.167 (moderate). Fraction charged residues: 0.333 (high, 6/18 residues). Interpretation: Excellent predicted aqueous solubility (>50 mg/mL) due to negative GRAVY, high charged fraction, and near-neutral net charge."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Table 3: Summary of gate verdicts for OX2R-004",
+      "content": "G1 Sequence validation: Pass (prior). G2 Conformational sampling: Pass (prior, 2 clusters). G3 Complex structure (7L1U fallback): Provisional Pass (BSA 856 Å², iPTM pending). G4 PRODIGY binding energy: Pending (ΔG -6.8 kcal/mol on truncated structure). G5 Molecular dynamics: Deferred (CPU-only; GPU required for 3×100 ns production). G6 Proteolytic stability: Fail (t1/2 ~5 min; 5 sites). G7a Solubility: Pass (>50 mg/mL). G7b Aggregation: Pass (Avg a3v = -0.224). G7c Immunogenicity (MHCFlurry 2.1.5): Conditional Pass (0 strong, 1 weak binder). G8a Toxicity: Pass (score 0.0, non-toxic). G8b OX1R selectivity: Concern (90-100% pocket conservation)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Gate G3: Structural Complex Analysis - Provisional Pass",
+      "content": "PDB 7L1U fallback used because Boltz-2 co-folded prediction of OX2R + OX2R-004 was not returned due to HPC queue delays. Structure: OX2R–Orexin-B–Gi complex, 3.2Å cryo-EM resolution. Chain R: OX2R receptor. Chain L: Orexin-B (resolved C-terminal 9-mer: NHAAGILTM, residues 20-28). Thresholds: iPTM >0.7; BSA >800 Å²; contact conservation >60% vs. reference agonist. Buried Surface Area (BSA): 856.0 Å² (exceeds 800 Å² threshold - Pass). Contact Residues: 27 OX2R residues within 4.5Å of Orexin-B identified. Key Contact Verification: 10/10 known literature contact residues verified in structure (Q134, H350, Y354, T111, F227, T231, I320, N324, Y343, F346). Contact Conservation for OX2R-004: Cannot be computed without Boltz-2 co-folding or flexible docking. OX2R-004 (18 aa, 3 aromatic, net charge ~+2) differs substantially from resolved Orexin-B C-terminus (9 aa, 0 aromatic, net charge ~+1). iPTM: Not available (metric specific to structure prediction outputs). Verdict: Provisional Pass - BSA exceeds threshold and all key contacts verified, but iPTM and direct contact conservation for OX2R-004 unavailable pending Boltz-2 structure."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Table 5: PRODIGY interfacial contact analysis for OX2R–Orexin-B (PDB 7L1U)",
+      "content": "Charged-charged: 2 contacts. Charged-polar: 3. Charged-apolar: 14. Polar-polar: 4. Apolar-polar: 13. Apolar-apolar: 27. Total: 63 contacts. ΔG: -6.8 kcal/mol. Kd: ~11 µM. Interpretation: PRODIGY returned ΔG = -6.8 kcal/mol on truncated 9-residue Orexin-B fragment resolved in PDB 7L1U. This is an artifact of incomplete ligand resolution (9/28 residues), not weak binding. PRODIGY scales with interfacial contacts; 9-residue fragment provides only 63 contacts vs. ~150-200 expected for full 28-residue peptide. Published full-length Orexin-B Kd for OX2R is ~5-36 nM, implying true ΔG of -10.2 to -11.5 kcal/mol via ΔG=RT ln(Kd), consistent with -10 kcal/mol threshold. Verdict: Pending - structural limitation, not candidate failure."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Gate G5: Molecular Dynamics Stability - Deferred",
+      "content": "Status: Deferred. Two exploratory CPU-only simulation campaigns attempted: v2.0 (40 ps, 1 replicate, GBNeck2 implicit solvent); v2.1 (3×0.33 ns, vacuum). Both scientifically insufficient for gate verdict due to absence of explicit solvent, POPC membrane, PME electrostatics, and inadequate duration. Thresholds: Mean peptide RMSD <3.0Å (Pass); ligand dissociation >12Å COM displacement (Fail); H-bond occupancy >50% for ≥2 contacts (Pass). Campaign 2 (v2.1) vacuum results: Duration 0.316-0.337 ns, throughput 75-80 ns/day, RMSD mean 2.60-4.17Å, Rg mean 12.1-14.6Å, COM distance mean 14.3-15.7Å (max 17.3Å), H-bonds >50% occupancy: 13-16 (exceeds threshold). Formal verdict would be Fail (COM 17.3Å exceeds 12.0Å dissociation threshold), but result unreliable due to methodological deficiencies: (1) Vacuum environment (no solvent screening, ε=1 vs. ~80), (2) No POPC membrane (TM bundle loses stability), (3) NoCutoff electrostatics (unphysical), (4) Geometric placement without docking optimization, (5) Insufficient duration (0.33 ns vs. target 100 ns), (6) NVT ensemble (no barostat). Despite limitations, all 3 replicates maintained 13-16 H-bonds >50% occupancy, suggesting qualitative peptide-receptor complementarity."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Table 7: G5 target molecular dynamics protocol (requires GPU compute)",
+      "content": "Force field: AMBER ff14SB. Solvent: TIP3P explicit water (periodic box, 12Å padding). Ions: NaCl 0.15M (neutralized). Membrane: POPC lipid bilayer (128 lipids, pre-equilibrated). Ensemble: NPT (310K, 1 atm). Temperature control: Langevin thermostat (γ=1 ps⁻¹). Pressure control: Monte Carlo barostat (membrane-compatible). Electrostatics: Particle Mesh Ewald (PME), 1.0 nm cutoff. Simulation duration: 3×100 ns production (after equilibration). Integration timestep: 2.0 fs (with hydrogen mass repartitioning). Equilibration: 1 ns NVT → 5 ns NPT (restrained backbone). RMSD alignment: TM bundle only (TM1-TM7), excluding ECL loops. System size: ~150,000 atoms. Compute requirement: GPU-accelerated (NVIDIA A100/H100). Estimated completion: 48 hours from GPU provisioning. CPU-only would require 150-600 days vs. GPU 18-36 hours (~100-800× throughput advantage)."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Table 9: Protease cleavage sites identified in OX2R-004",
+      "content": "Trypsin: K1-G2, R4-Y5 (2 sites). Chymotrypsin: Y5-G6, Y9-E10, F17-K18 (3 sites). Proteinase K: Y5-G6, V7-A8, A8-Y9, Y9-E10, A14-Q15, F17-K18 (6 sites). Elastase: G2-D3, G6-V7, V7-A8, A8-Y9, G12-G13, G13-A14, A14-Q15 (7 sites). Pepsin: 0 sites. Total primary protease sites (trypsin + chymotrypsin): 5. Estimated serum half-life: ~5.0 minutes (0.084 hr). Verdict: FAIL (fails >2 hr threshold and ≤2 sites threshold). N-terminal lysine classified as primary destabilizing under N-end rule. Stabilization strategies proposed: (a) head-to-tail cyclization, (b) D-amino acid substitution at K1, R4, Y5, Y9, F17, (c) N-methylation at key amide bonds, (d) PEGylation, (e) retro-inverso design."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Gate G7: Developability - Conditional Pass",
+      "content": "Sub-gate 7a (Solubility): Pass. Estimated >50 mg/mL based on GRAVY -1.178 (strongly hydrophilic), 33.3% charged residues, net charge +0.59. Sub-gate 7b (Aggregation): Pass. AGGRESCAN average a3v = -0.224 (negative = low aggregation risk). Hot spots: YGVAY (positions 5-9, avg a3v=0.184) and GVAYE (6-10, avg a3v=0.012) - marginally positive but overall average negative. Chou-Fasman average β-propensity 0.918 confirms low β-sheet tendency. Sub-gate 7c (Immunogenicity - MHC-I): Conditional Pass. MHCFlurry 2.1.5 used across 3 HLA alleles (HLA-A*02:01, A*01:01, B*07:02). Scope: 38 unique peptides (8-11-mer windows) × 3 alleles = 114 combinations. Results: 0 strong binders (IC50 ≤50 nM), 1 weak binder (50<IC50≤500 nM), 113 non-binders (IC50 >500 nM). Previously flagged epitopes cleared: VAYEHGGA (IC50 26,295 nM), GVAYEHGGA (17,039 nM), GDRYGVAY (10,516 nM). Sole weak binder: KGDRYGVAY (9-mer, positions 1-9) at HLA-A*01:01 with IC50=182.9 nM (borderline). Assessment: Technical Fail by strict threshold but marginal. Clinical immunogenicity risk depends on proteasomal processing, route of administration, dosing regimen, and HLA haplotype distribution. Risk reclassified from High to Low-to-Moderate."
+    },
+    {
+      "page": 10,
+      "type": "table",
+      "title": "Table 12: Binding pocket residue conservation between OX2R and OX1R",
+      "content": "OX2R Q134 ↔ OX1R Q126: Identical. H350 ↔ H344: Identical. Y354 ↔ Y348: Identical. T111 ↔ T103: Conserved (known from literature, unmapped in truncated PDB alignment). F227 ↔ F219: Identical. T231 ↔ T223: Identical. I320 ↔ I314: Identical. N324 ↔ N318: Identical. Y343 ↔ Y337: Identical. F346 ↔ F340: Identical. Conservation: 9/10 identical, 1/10 conserved = effectively 10/10 (100%). Assessment: High cross-reactivity risk. Orthosteric peptide binding pocket nearly identical between OX2R and OX1R. OX2R-004 expected to bind OX1R with comparable affinity. Consistent with native Orexin-B showing only modest ~12-fold OX2R selectivity. Achieving >100-fold selectivity for peptide targeting orthosteric site would require engineering interactions with non-conserved residues outside core binding pocket (extracellular loops, N-terminus). Verdict: Pass (toxicity) / Concern (selectivity)."
+    },
+    {
+      "page": 11,
+      "type": "table",
+      "title": "Table 13: Chemical modifications in OX2R-004-S1 relative to OX2R-004",
+      "content": "Position N-term: H– → Acetyl– (Aminopeptidase resistance). Position R4: L-Arg → D-Arg (Trypsin resistance). Position Y5: L-Tyr → D-Tyr (Chymotrypsin resistance). Boltz-2 co-fold status: Job ID ee3f3896, queued. Important caveat: D-amino acids not natively modelled by Boltz-2; L-amino acid sequence used as proxy. Structural predictions should be interpreted with this limitation."
+    },
+    {
+      "page": 11,
+      "type": "table",
+      "title": "Table 15: Protease cleavage comparison OX2R-004 vs. OX2R-004-S1",
+      "content": "Trypsin sites: OX2R-004 2 (after K1, R4) → OX2R-004-S1 1 (after K1 only, R4 blocked by D-Arg). Chymotrypsin (high): 3 (Y5, Y9, F17) → 2 (Y9, F17, Y5 blocked by D-Tyr). Aminopeptidase: 1 (N-terminal) → 0 (blocked by N-acetylation). Total cleavage sites: 34 → 28 (17.6% reduction). Estimated t1/2: ~15 min → ~55 min (3.6× improvement). Three targeted modifications eliminate 6/34 predicted cleavage sites. Combined effect of site reduction, D-amino acid backbone resistance, and N-terminal capping yields 3.6-fold half-life improvement. Falls short of 60-minute threshold for systemic exposure but represents meaningful improvement; may be sufficient for intranasal or subcutaneous dosing with frequent administration."
+    },
+    {
+      "page": 12,
+      "type": "table",
+      "title": "Table 16: ADMET property comparison OX2R-004 vs. OX2R-004-S1",
+      "content": "Caco-2 permeability: Both Poor (expected Fail for any linear peptide >~600 Da). hERG inhibition: Both Low risk (Pass, mechanistic reasoning - peptides ~2000 Da too large to block hERG channel pore). CYP3A4 inhibition: Both Very unlikely (Pass, mechanistic - too large to fit CYP3A4 active site). Plasma t1/2: OX2R-004 ~15 min → OX2R-004-S1 ~55 min (target >60 min; Fail/Conditional). BBB Score: Both 0/4 (Fail, threshold ≥2/4). Renal Clearance: Both Moderate-High (Conditional, threshold <120 mL/min). Important caveat: Standard small-molecule ADMET prediction models (trained on MW <900 Da) have limited predictive value for peptides ~2000 Da. Values are rough estimates with low confidence. BBB Fail consistent with molecular properties (MW=1980 Da, TPSA=850 Ų, HBD=29); reinforces need for non-systemic delivery (intranasal). Experimental ADMET characterization essential before regulatory submission."
+    },
+    {
+      "page": 13,
+      "type": "table",
+      "title": "Table 17: CamSol intrinsic solubility scores OX2R-004-S1 vs. OX2R-004",
+      "content": "CamSol average score: Both 0.159. Classification: Both Soluble. Solubility drivers: K1, D3, R4, E10, K18 (charged residues). Aggregation-prone: V7, F17 (hydrophobic residues). D-amino acid substitutions at positions 4 and 5 do not alter intrinsic solubility scores (same side chain chemistry). N-terminal acetylation removes one positive charge, may marginally reduce solubility but unlikely to cause aggregation at typical formulation concentrations. Verdict: Pass."
+    },
+    {
+      "page": 13,
+      "type": "table",
+      "title": "Table 18: AGGRESCAN aggregation propensity OX2R-004-S1 vs. OX2R-004",
+      "content": "Average a3v: Both -0.074 (negative = low aggregation risk). Hot-spot residues (5/18): Y5 (0.414), V7 (0.575), Y9 (0.414), H11 (0.049), F17 (0.741). Aggregation-prone 5-mers: None with strongly positive average (max: YGVAY at 0.238). Overall assessment: Both Low risk. D-amino acid substitutions in S1 may further reduce aggregation by disrupting beta-sheet formation (effect not captured by sequence-based a3v). Verdict: Pass."
+    },
+    {
+      "page": 13,
+      "type": "table",
+      "title": "Table 19: MHCFlurry 2.1.5 immunogenicity comparison OX2R-004-S1 vs. OX2R-004",
+      "content": "HLA alleles tested: 13. Unique peptides (8-11-mer): 38. Total combinations: 494. Strong binders (IC50 <50 nM): 0 for both. Weak binders (50≤IC50<500 nM): 14 for both. Non-binders (IC50 ≥500 nM): 480 for both. Worst epitope: YEHGGAQPF / HLA-B*40:01 / 53.4 nM (borderline weak). S1 column reports identical L-sequence predictions; actual S1 peptide contains D-Arg4 and D-Tyr5, which would further reduce MHC-I binding because: (1) MHC-I binding grooves stereospecific for L-peptides, (2) D-amino acids disrupt canonical binding register, (3) D-amino acid peptides poorly processed by proteasome. Predictions represent upper-bound estimates of immunogenicity risk. Verdict: Pass (low immunogenicity risk)."
+    },
+    {
+      "page": 14,
+      "type": "text",
+      "title": "In-Silico Validation Summary",
+      "content": "Completed Assessments - Passed: G1, G2, G7a (solubility), G7b (aggregation), G8a (toxicity). Conditional Pass: G7c (immunogenicity, marginal). Provisional Pass: G3 (BSA verified; iPTM pending). Deferred: G5 (MD - CPU-only infrastructure; GPU required for 3×100 ns production). Pending: G4 (structural limitation, not candidate failure). Concern: G8b (OX1R selectivity). Failed: G6 (proteolytic stability). PDB 7L1U Fallback Impact: Gates G3, G4, G8b used experimental cryo-EM structure because Boltz-2 co-folded prediction not returned. G3: BSA and contact residue identification are reference-quality (3.2Å experimental) but describe Orexin-B binding mode, not OX2R-004. iPTM unavailable, contact conservation cannot be computed. G4: PRODIGY ΔG -6.8 kcal/mol reflects truncated 9-residue fragment, not full Orexin-B or OX2R-004 - structural limitation not candidate failure. G8b: Binding pocket conservation assessed structurally; provides strong evidence of cross-reactivity risk but does not quantify differential binding energy. All three gates should be re-evaluated when Boltz-2 structure available."
+    },
+    {
+      "page": 15,
+      "type": "table",
+      "title": "Table 20: Proposed G9 experimental validation plan",
+      "content": "G9a (OX2R binding): CFPS + BLI method, Adaptyv Bio CRO, readout Kd/kon/koff. G9b (OX2R functional): cAMP HTRF, Ginkgo Bioworks CRO, readout EC50/Emax vs. Orexin-B. OX1R bind (selectivity): CFPS + BLI, Adaptyv Bio, readout Kd. OX1R func (selectivity): cAMP HTRF, Ginkgo Bioworks, readout EC50. Stability: LC-MS degradation, CRO TBD, readout t1/2. Estimated cost for first go/no-go binding experiment: $500-600 (BLI panel). Full G9 including functional assay: $1,000-1,500. Turnaround: 4-6 weeks (assays); 2 weeks (serum stability). CRO assignments: Adaptyv Bio (CFPS for receptor expression + biolayer interferometry for binding affinity), Ginkgo Bioworks (cAMP HTRF for functional activity, EC50 and Emax relative to Orexin-B reference full agonist)."
+    },
+    {
+      "page": 15,
+      "type": "text",
+      "title": "G5 MD Simulation Compute Infrastructure Gap",
+      "content": "G5 MD requires GPU-accelerated compute, not available in current environment. Target protocol system ~150,000 atoms with PME cannot be executed on CPU within practical timescales. CPU (current): OpenMM CPU 48 threads, ~0.5-2.0 ns/day throughput, 50-200 days per 100 ns replicate, 150-600 days total for 3×100 ns. GPU (required): OpenMM CUDA (A100/H100), 200-400 ns/day throughput, 6-12 hours per 100 ns replicate, 18-36 hours total. ~100-800× throughput advantage from massive parallelization of non-bonded force calculations on shader cores. Production OpenMM scripts (AMBER ff14SB, TIP3P, POPC, PME, NPT) fully prepared and validated for correctness. Single CUDA-capable GPU would complete 3×100 ns campaign including equilibration, production, and automated analysis within 48 hours. Results in v2.2."
+    },
+    {
+      "page": 16,
+      "type": "text",
+      "title": "Decision Logic",
+      "content": "If G9 binding confirms OX2R affinity (Kd <500 nM) and functional agonism (EC50 <1 µM with >50% efficacy relative to Orexin-B): proceed to stabilization cycle addressing G6 failure. If G6 fails wet-lab confirmation (serum t1/2 <30 minutes as expected): enter stabilization cycle - (a) head-to-tail cyclization, (b) D-amino acid scan at K1, R4, Y5, Y9, F17, (c) N-methylation at susceptible amide bonds, (d) re-evaluate through G6-G8 after modification. If G8b selectivity concern confirmed in vitro (selectivity ratio <10-fold): consider (a) non-natural amino acid substitutions at positions engaging non-conserved extracellular loop residues, (b) truncation or extension to exploit differences in loop conformation between OX2R and OX1R. If G9 shows no measurable OX2R binding or agonism: candidate abandoned; return to de novo design (G1)."
+    },
+    {
+      "page": 17,
+      "type": "text",
+      "title": "BBB Penetration Gap - Required Pre-IND Assessment",
+      "content": "Intranasal CNS delivery of OX2R-004 biologically plausible but experimentally unproven. At 1,980 Da, sits within empirically permissive MW window for intranasal peptide CNS delivery, between oxytocin (~1,007 Da, confirmed) and orexin-A (~3,562 Da, confirmed via Dhuria et al. 2009). Central risk: proteolytic degradation at nasal mucosa. Nasal secretions have distinct protease/inhibitor milieu from serum - lower free trypsin-like activity, presence of endogenous α-1-antitrypsin and α-1-antichymotrypsin. G6 serum t1/2 failure does not directly predict nasal mucosal instability (two separate experiments). No validated nose-to-brain PK precedent for intranasal orexin-B or any OxB-derived de novo peptide. Recommended formulation: Chitosan nanoparticles (~165 nm, zeta potential +40-50 mV) as first-line strategy (91% direct transport percentage, 6.2-fold brain targeting efficiency vs. IV in rats; PubMed 41729212). Proposed pre-IND nose-to-brain PK study: Adult Sprague-Dawley rats (n=6/timepoint/group). Five groups: (1) IN unmodified OX2R-004 solution, (2) IN OX2R-004-S1 solution, (3) IN OX2R-004-S1 in chitosan nanoparticles, (4) IV OX2R-004-S1 comparator, (5) IN vehicle control. Sampling at 5, 15, 30, 60, 120 min. Matrices: plasma, CSF (cisterna magna), nasal mucosa lavage, olfactory bulb, hypothalamus, cortex, brainstem. Bioanalysis: LC-MS/MS for intact parent peptide and metabolite mapping. Go criteria: Intact peptide detectable in hypothalamus; brain:plasma AUC >0.5 in group 3; DTP% >50% in group 3; regional pattern consistent with olfactory entry (olfactory bulb > cortex > cerebellum). No-go triggers: No intact peptide in any brain region; brain exposure fully explained by plasma levels (DTP% ~0)."
+    },
+    {
+      "page": 18,
+      "type": "text",
+      "title": "Development Pathway - Primary Risks",
+      "content": "Primary Risk #1: Proteolytic Instability (G6 Fail). Estimated serum half-life ~5 minutes renders unmodified peptide unsuitable for therapeutic use. Known class limitation of linear peptides, not deficiency unique to OX2R-004. Extensive literature supports effectiveness of cyclization and D-amino acid substitution in extending peptide half-lives by orders of magnitude. G6 failure addressable but requires at least one design iteration cycle before IND-enabling studies. Primary Risk #2: OX1R Cross-Reactivity (G8b Concern). Structural alignment reveals 90-100% conservation at 10 key contact residues. Orthosteric pocket nearly identical between receptors, consistent with native Orexin-B showing only modest ~12-fold OX2R selectivity. Achieving OX2R selectivity via orthosteric site alone may not be feasible for peptide. If confirmed in vitro, selectivity engineering through non-conserved extracellular loop residues or receptor-specific allosteric contacts necessary. Immunogenicity: De-Risked by MHCFlurry Upgrade (G7c Revised). Upgrade from anchor-residue screening to MHCFlurry 2.1.5 substantially de-risked assessment. Three previously flagged epitopes all non-binders by MHCFlurry (IC50 >10,000 nM). Sole weak binder (KGDRYGVAY IC50=182.9 nM at HLA-A*01:01) borderline. Risk reclassified from High to Low-to-Moderate."
+    }
+  ],
+  "key_findings": [
+    "OX2R-004 is an 18-residue peptide (KGDRYGVAYEHGGAQPFK, MW 1980 Da) designed as selective OX2R agonist for ADHD targeting orexin system dysfunction",
+    "TRL status: Computational design only (TRL 1-2). No wet-lab validation experiments performed. All assessments computational",
+    "Gate G6 FAIL: Proteolytic instability is primary development blocker - estimated serum half-life ~5 minutes, 5 primary cleavage sites (trypsin, chymotrypsin, proteinase K, elastase)",
+    "Stabilized variant OX2R-004-S1 designed with D-Arg4, D-Tyr5, N-acetylation shows 3.6× half-life improvement (~15 min → ~55 min) but still below 60-min threshold",
+    "Gate G8b CONCERN: OX1R cross-reactivity risk - 90-100% binding pocket conservation between OX2R and OX1R at key contact residues, consistent with native Orexin-B showing only ~12-fold selectivity",
+    "Gate G7c immunogenicity de-risked: MHCFlurry 2.1.5 screening across 13 HLA alleles and 494 peptide-allele combinations found 0 strong binders, 14 weak binders (vs. prior coarse screen flagging 3 epitopes)",
+    "Gate G5 molecular dynamics DEFERRED: Requires GPU compute (150,000-atom system with explicit solvent, POPC membrane, PME). CPU-only exploratory simulations (vacuum, 0.33 ns) methodologically invalid but showed 13-16 H-bonds >50% occupancy",
+    "Gate G4 binding energy PENDING: PRODIGY returned ΔG=-6.8 kcal/mol on truncated 9-residue Orexin-B fragment from PDB 7L1U (structural artifact). Published Orexin-B Kd ~5-36 nM implies true ΔG -10.2 to -11.5 kcal/mol (consistent with threshold)",
+    "Gate G3 structural analysis provisional pass: BSA 856 Å² exceeds 800 Å² threshold, 10/10 key contact residues verified, but based on PDB 7L1U (Orexin-B structure) not OX2R-004. Boltz-2 co-fold pending HPC queue",
+    "Proposed experimental validation (G9): Adaptyv Bio BLI binding assay + Ginkgo Bioworks cAMP HTRF functional assay. Estimated cost $500-600 (binding), $1,000-1,500 (full G9). No experiments initiated",
+    "BBB penetration gap: Intranasal delivery proposed using chitosan nanoparticles (~165 nm). Pre-IND nose-to-brain PK study design specified (Sprague-Dawley rats, 5 groups, LC-MS/MS bioanalysis) but not executed",
+    "Competitive benchmarks: Endogenous Orexin-B EC50 10-36 nM at OX2R. Clinical small molecules: TAK-861 pEC50 8.6 (~2.5 nM), ORX750 Phase 1 complete. No peptide agonists in clinical development",
+    "Development stage: Pre-experimental computational design. Requires wet-lab validation before advancement to lead optimization or preclinical stages"
+  ]
+}
