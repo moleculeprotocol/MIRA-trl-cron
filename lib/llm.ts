@@ -961,7 +961,9 @@ const todoItemSchema = z.object({
     ),
 })
 
-const todoListSchema = z.array(todoItemSchema)
+const todoListSchema = z.object({
+  todos: z.array(todoItemSchema),
+})
 
 export type TodoItem = z.infer<typeof todoItemSchema>
 
@@ -1250,7 +1252,9 @@ You MUST generate at least 1 public AND at least 1 private todo if ANY criterion
     output: Output.object({ schema: todoListSchema }),
   })
 
-  console.log(`Todo generation complete: ${output.length} todos generated`)
+  console.log(
+    `Todo generation complete: ${output.todos.length} todos generated`,
+  )
 
-  return output
+  return output.todos
 }
