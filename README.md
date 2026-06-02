@@ -12,24 +12,24 @@ The pipeline processes each project through five sequential AI steps:
 Dataroom Documents (PDFs, images)
         |
         v
-  1. Content Extraction         (Claude Sonnet 4.5)
+  1. Content Extraction         (Claude Sonnet 4.6)
         |
         v
-  2. Questionnaire Filling      (Claude Opus 4.5)
+  2. Questionnaire Filling      (Claude Opus 4.6)
         |
         v
-  3. TRL Classification         (Claude Opus 4.5)
+  3. TRL Classification         (Claude Opus 4.6)
         |
         v
-  4. Weighted Scoring            (Claude Opus 4.5)
+  4. Weighted Scoring            (Claude Opus 4.6)
         |
         v
-  5. Todo Generation             (Claude Opus 4.5)
+  5. Todo Generation             (Claude Opus 4.6)
 ```
 
 ### Step 1: Content Extraction
 
-Each public document (PDF, PNG, JPEG, GIF, WebP) is downloaded and sent to Claude Sonnet 4.5 with a prompt focused on extracting scientifically relevant content. The model returns structured output containing:
+Each public document (PDF, PNG, JPEG, GIF, WebP) is downloaded and sent to Claude Sonnet 4.6 with a prompt focused on extracting scientifically relevant content. The model returns structured output containing:
 
 - **Document type** (pitch deck, experiment report, publication, etc.)
 - **Relevance** to TRL assessment (high / medium / low / none)
@@ -42,7 +42,7 @@ All extracted documents are then merged into a single formatted text that preser
 
 ### Step 2: Questionnaire Filling
 
-The merged content is sent to Claude Opus 4.5 with a biotech project questionnaire covering:
+The merged content is sent to Claude Opus 4.6 with a biotech project questionnaire covering:
 
 - **Project overview** -- title, therapeutic concept, target indication, patient population, mechanism of action, biological target, development timeline
 - **Experimental evidence** -- lab work status, experiment types, results, model systems (in vitro, advanced in vitro, in vivo), efficacy evidence, dose-response data, reproducibility, safety observations
@@ -53,7 +53,7 @@ The model fills each field based on what it found in the documents. Fields that 
 
 ### Step 3: TRL Classification
 
-The completed questionnaire is sent to Claude Opus 4.5 with a systematic decision tree that classifies the project into one of five levels:
+The completed questionnaire is sent to Claude Opus 4.6 with a systematic decision tree that classifies the project into one of five levels:
 
 | Level | Name | Definition |
 |-------|------|------------|
@@ -77,7 +77,7 @@ The output includes: `trl_classification`, `confidence` (high/medium/low), `rati
 
 Only projects classified as TRL 1, 2, or 3 are scored (Pre-TRL 1 and TRL >3 are skipped).
 
-Each TRL level has a different set of criteria with different weights. The raw project data is sent to Claude Opus 4.5 along with the TRL-specific scoring rubric.
+Each TRL level has a different set of criteria with different weights. The raw project data is sent to Claude Opus 4.6 along with the TRL-specific scoring rubric.
 
 **TRL 1** (3 criteria):
 
@@ -151,7 +151,7 @@ output/               Cached extraction results, organized by project ID
 | Dependency | Purpose |
 |------------|---------|
 | [Vercel AI SDK](https://sdk.vercel.ai/) (`ai`) | Unified interface for LLM calls with structured output via Zod schemas |
-| [@ai-sdk/anthropic](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) | Anthropic provider -- Claude Sonnet 4.5 for extraction, Claude Opus 4.5 for reasoning |
+| [@ai-sdk/anthropic](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) | Anthropic provider -- Claude Sonnet 4.6 for extraction, Claude Opus 4.6 for reasoning |
 | [Zod](https://zod.dev/) v4 | Schema validation for all structured LLM outputs |
 | TypeScript | Strict mode, ES2021, NodeNext modules |
 | Node.js 22 | Runtime |
