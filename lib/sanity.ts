@@ -47,7 +47,7 @@ async function notifyDiscord({
     return
   }
 
-  const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/tokens;ipnft;${documentId}`
+  const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/ipNfTs;ipnft;${documentId}`
 
   try {
     const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
