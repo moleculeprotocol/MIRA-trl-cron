@@ -168,6 +168,7 @@ export async function updateTrlAndScoringAsDraft(
   hash: string,
   scoringResult: ScoringResult | null,
   todos: TodoItem[] | null = null,
+  commitHash = true,
 ) {
   const draftId = `drafts.${documentId}`
 
@@ -176,7 +177,11 @@ export async function updateTrlAndScoringAsDraft(
     trlConfidence: trlAnalysis.confidence,
     trlRationale: trlAnalysis.rationale,
     trlLastUpdatedAt: new Date().toISOString(),
-    dataroomHash: hash,
+  }
+
+  // Skip hash on partial extraction failure so the next run retries.
+  if (commitHash) {
+    trlData.dataroomHash = hash
   }
 
   if (environment === "staging") {

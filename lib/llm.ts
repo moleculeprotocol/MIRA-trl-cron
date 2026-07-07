@@ -3,7 +3,11 @@ import * as path from "node:path"
 import { anthropic } from "@ai-sdk/anthropic"
 import { generateText, Output } from "ai"
 import { z } from "zod"
-import { EXTRACTION_MODEL, REASONING_MODEL } from "./config.js"
+import {
+  EXTRACTION_MODEL,
+  EXTRACTION_VERSION,
+  REASONING_MODEL,
+} from "./config.js"
 import type { DataRoomFile } from "./molecule.js"
 
 const OUTPUT_BASE_DIR = path.join(process.cwd(), "output")
@@ -206,6 +210,25 @@ Key Indicators:
 - No disease-relevant in vivo or organoid studies conducted
 - Experimental design uses simplified in vitro systems only`
 
+const MILESTONE_INSTRUCTIONS = `## Dates & Milestones
+Extract every date-anchored event mentioned in the document. These are used to build a project schedule and to judge whether the project is on track. Capture BOTH:
+- **Past events / achievements**: completed experiments, funding rounds closed, patents filed/granted, regulatory interactions held, hires made.
+- **Future / planned milestones**: upcoming study starts or readouts, IND filing targets, manufacturing runs, funding goals, commercial timelines.
+
+For each milestone:
+- **title**: a short name for the event.
+- **description**: what the milestone entails.
+- **date**: normalize to ISO 8601 when possible — "YYYY-MM-DD", "YYYY-MM", or "YYYY". For quarters use the form "2025-Q1". If only relative wording is given ("in 6 months", "next year"), keep the original wording verbatim.
+- **date_precision**: how precisely the date is specified.
+- **status**: completed, in_progress, planned, delayed, cancelled, or unknown.
+- **category**: the domain of the milestone (regulatory, clinical, preclinical, research, manufacturing, cmc, funding, ip, partnership, commercial, other).
+- **source_quote**: the verbatim sentence/phrase the milestone was derived from, for traceability.
+- **page**: 1-indexed page number if applicable.
+
+Only include milestones that are explicitly grounded in the document. Do NOT invent or infer dates that are not stated. If no dated events are present, return an empty milestones array.
+
+Also determine **document_date**: the date the document itself was authored, published, or last updated (from a cover page, footer, "as of" date, version date, etc.). Normalize to ISO 8601. Omit if it cannot be determined — do not guess.`
+
 const EXTRACTION_PROMPT = `You are extracting content from a biotech/science project document to support Technology Readiness Level (TRL) assessment.
 
 ## Your Task
@@ -240,13 +263,19 @@ Focus on evidence that helps classify a project as TRL 1 (concept only), TRL 2 (
 - For text: summarize claims AND the evidence supporting them
 - Include page numbers (1-indexed) when the document has multiple pages
 
+${MILESTONE_INSTRUCTIONS}
+
 ## Skip These
 - Logos, stock photos, building images
 - Generic marketing language without data
 - Contact info, legal disclaimers
 - Content that adds nothing to TRL assessment
 
-If the entire document is irrelevant (pure branding, logos only), just provide a brief summary explaining why and set relevance to "none".`
+If the entire document is irrelevant (pure branding, logos only), just provide a brief summary explaining why, set relevance to "none", and return an empty milestones array.`
+
+const MILESTONE_ONLY_PROMPT = `You are extracting timeline and schedule information from a biotech/science project document. Focus ONLY on dates and milestones — ignore everything else.
+
+${MILESTONE_INSTRUCTIONS}`
 
 type SupportedMimeType =
   | "application/pdf"
@@ -275,6 +304,62 @@ const contentBlockSchema = z.object({
   content: z.string().describe("Extracted content, description, or data"),
 })
 
+function lenientArray<T extends z.ZodTypeAny>(schema: T) {
+  return z.preprocess((val) => {
+    if (typeof val === "string") {
+      try {
+        return JSON.parse(val)
+      } catch {
+        return val
+      }
+    }
+    return val
+  }, z.array(schema))
+}
+
+const milestoneSchema = z.object({
+  title: z.string().describe("Short name for the milestone or event"),
+  description: z.string().describe("What the milestone entails"),
+  date: z
+    .string()
+    .describe(
+      "Normalized to ISO 8601 (YYYY-MM-DD, YYYY-MM, YYYY, or YYYY-Qn) when possible, otherwise the raw wording as stated",
+    ),
+  date_precision: z
+    .enum(["day", "month", "quarter", "year", "relative", "unknown"])
+    .describe("How precisely the date is specified in the document"),
+  status: z
+    .enum([
+      "completed",
+      "in_progress",
+      "planned",
+      "delayed",
+      "cancelled",
+      "unknown",
+    ])
+    .describe("Current status of the milestone as stated in the document"),
+  category: z
+    .enum([
+      "regulatory",
+      "clinical",
+      "preclinical",
+      "research",
+      "manufacturing",
+      "cmc",
+      "funding",
+      "ip",
+      "partnership",
+      "commercial",
+      "other",
+    ])
+    .describe("Domain the milestone belongs to"),
+  source_quote: z
+    .string()
+    .optional()
+    .describe("Verbatim text the milestone was derived from, for traceability"),
+  page: z.number().optional().describe("Page number (1-indexed) if applicable"),
+})
+
 const extractedDocumentSchema = z.object({
   document_type: z
     .string()
@@ -297,6 +382,26 @@ const extractedDocumentSchema = z.object({
     .describe(
       "Most important findings for TRL assessment: experiments, results, IP, regulatory, team, etc.",
     ),
+
+  document_date: z
+    .string()
+    .optional()
+    .describe(
+      "Date the document itself was authored/published/updated (ISO 8601). Omit if not determinable.",
+    ),
+  milestones: lenientArray(milestoneSchema).describe(
+    "Date-anchored events: past achievements and future planned milestones with their dates and status",
+  ),
+})
+
+const milestoneExtractionSchema = z.object({
+  document_date: z
+    .string()
+    .optional()
+    .describe(
+      "Date the document itself was authored/published/updated (ISO 8601). Omit if not determinable.",
+    ),
+  milestones: lenientArray(milestoneSchema),
 })
 
 async function saveCachedExtraction(
@@ -307,8 +412,12 @@ async function saveCachedExtraction(
 ): Promise<void> {
   await ensureOutputDir(projectId)
   const cachePath = path.join(getProjectOutputDir(projectId), cacheFilename)
-  const dataWithPath = { file_path: filePath, ...data }
-  await fs.writeFile(cachePath, JSON.stringify(dataWithPath, null, 2), "utf-8")
+  const dataWithMeta = {
+    file_path: filePath,
+    extraction_version: EXTRACTION_VERSION,
+    ...data,
+  }
+  await fs.writeFile(cachePath, JSON.stringify(dataWithMeta, null, 2), "utf-8")
 }
 
 function getMimeType(
@@ -362,11 +471,11 @@ async function ensureOutputDir(projectId: string): Promise<void> {
 async function getCachedExtraction(
   projectId: string,
   cacheFilename: string,
-): Promise<ExtractedDocument | null> {
+): Promise<CachedExtraction | null> {
   try {
     const cachePath = path.join(getProjectOutputDir(projectId), cacheFilename)
     const content = await fs.readFile(cachePath, "utf-8")
-    return JSON.parse(content) as ExtractedDocument
+    return JSON.parse(content) as CachedExtraction
   } catch {
     return null
   }
@@ -425,36 +534,96 @@ ${questionnaireText}
 
 export type ExtractedDocument = z.infer<typeof extractedDocumentSchema>
 export type ContentBlock = z.infer<typeof contentBlockSchema>
+export type Milestone = z.infer<typeof milestoneSchema>
 
-export async function extractDocumentContent(
-  projectId: string,
-  file: DataRoomFile,
-): Promise<ExtractedDocument | null> {
-  const cacheFilename = await generateCacheFilename(file)
+export type CachedExtraction = ExtractedDocument & {
+  file_path?: string
+  extraction_version?: number
+}
 
-  // Check cache first
-  const cached = await getCachedExtraction(projectId, cacheFilename)
-  if (cached) {
-    console.log(`Using cached extraction for: ${file.path}`)
-    return cached
-  }
+type DownloadResult =
+  | { ok: true; data: Buffer; mimeType: SupportedMimeType }
+  | { ok: false; reason: "unsupported" | "download_error" }
 
+async function downloadFileData(file: DataRoomFile): Promise<DownloadResult> {
   const mimeType = getMimeType(file.contentType, file.path)
   if (!mimeType) {
     console.log(`Unsupported file type: ${file.path} (${file.contentType})`)
-    return null
+    return { ok: false, reason: "unsupported" }
   }
-
-  console.log(`Extracting content from: ${file.path}`)
 
   const response = await fetch(file.downloadUrl)
   if (!response.ok) {
     console.error(`Failed to download ${file.path}: ${response.status}`)
+    return { ok: false, reason: "download_error" }
+  }
+
+  return { ok: true, data: Buffer.from(await response.arrayBuffer()), mimeType }
+}
+
+function buildFileMessageContent(
+  fileData: Buffer,
+  mimeType: SupportedMimeType,
+  promptText: string,
+) {
+  const filePart =
+    mimeType === "application/pdf"
+      ? ({
+          type: "file" as const,
+          data: fileData,
+          mediaType: mimeType,
+        } as const)
+      : ({
+          type: "image" as const,
+          image: fileData,
+          mediaType: mimeType,
+        } as const)
+  return [filePart, { type: "text" as const, text: promptText }]
+}
+
+/** Coerces stringified array fields from a failed generateText output. */
+function recoverStructuredOutput<T>(
+  error: unknown,
+  schema: z.ZodType<T>,
+  arrayKeys: string[],
+): T | null {
+  const err = error as
+    | { text?: unknown; cause?: { value?: unknown } }
+    | undefined
+
+  let raw: unknown
+  if (typeof err?.text === "string") {
+    try {
+      raw = JSON.parse(err.text)
+    } catch {
+      return null
+    }
+  } else if (err?.cause?.value && typeof err.cause.value === "object") {
+    raw = err.cause.value
+  } else {
     return null
   }
 
-  const fileData = Buffer.from(await response.arrayBuffer())
-  const isPdf = mimeType === "application/pdf"
+  if (typeof raw !== "object" || raw === null) return null
+  const obj = raw as Record<string, unknown>
+
+  for (const key of arrayKeys) {
+    if (typeof obj[key] === "string") {
+      try {
+        obj[key] = JSON.parse(obj[key] as string)
+      } catch {}
+    }
+  }
+
+  const result = schema.safeParse(obj)
+  return result.success ? result.data : null
+}
+
+async function extractMilestonesOnly(
+  file: DataRoomFile,
+): Promise<z.infer<typeof milestoneExtractionSchema> | null> {
+  const downloaded = await downloadFileData(file)
+  if (!downloaded.ok) return null
 
   try {
     const { output } = await generateText({
@@ -462,19 +631,93 @@ export async function extractDocumentContent(
       messages: [
         {
           role: "user",
-          content: isPdf
-            ? [
-                { type: "file" as const, data: fileData, mediaType: mimeType },
-                { type: "text" as const, text: EXTRACTION_PROMPT },
-              ]
-            : [
-                {
-                  type: "image" as const,
-                  image: fileData,
-                  mediaType: mimeType,
-                },
-                { type: "text" as const, text: EXTRACTION_PROMPT },
-              ],
+          content: buildFileMessageContent(
+            downloaded.data,
+            downloaded.mimeType,
+            MILESTONE_ONLY_PROMPT,
+          ),
+        },
+      ],
+      output: Output.object({ schema: milestoneExtractionSchema }),
+    })
+    return output
+  } catch (error) {
+    const recovered = recoverStructuredOutput(
+      error,
+      milestoneExtractionSchema,
+      ["milestones"],
+    )
+    if (recovered) {
+      console.warn(
+        `Recovered milestone output for ${file.path} (model returned a stringified array)`,
+      )
+      return recovered
+    }
+    console.error(`Failed to extract milestones from ${file.path}:`, error)
+    return null
+  }
+}
+
+type ExtractionOutcome =
+  | { status: "ok"; doc: ExtractedDocument }
+  | { status: "skipped" }
+  | { status: "failed"; doc: ExtractedDocument | null }
+
+export async function extractDocumentContent(
+  projectId: string,
+  file: DataRoomFile,
+): Promise<ExtractionOutcome> {
+  const cacheFilename = await generateCacheFilename(file)
+
+  const cached = await getCachedExtraction(projectId, cacheFilename)
+  if (cached) {
+    if (cached.extraction_version === EXTRACTION_VERSION) {
+      console.log(`Using cached extraction for: ${file.path}`)
+      return { status: "ok", doc: cached }
+    }
+
+    console.log(
+      `Amending cached extraction (v${cached.extraction_version ?? 1} -> v${EXTRACTION_VERSION}) for: ${file.path}`,
+    )
+    const milestoneData = await extractMilestonesOnly(file)
+    if (!milestoneData) {
+      console.warn(
+        `Milestone amend failed for ${file.path}; keeping existing cache and flagging for retry`,
+      )
+      return { status: "failed", doc: cached }
+    }
+
+    const { file_path: _fp, extraction_version: _ev, ...cachedDoc } = cached
+    const merged: ExtractedDocument = {
+      ...cachedDoc,
+      milestones: milestoneData.milestones,
+      document_date: milestoneData.document_date ?? cachedDoc.document_date,
+    }
+    await saveCachedExtraction(projectId, cacheFilename, merged, file.path)
+    console.log(`Cache amended for: ${file.path}`)
+    return { status: "ok", doc: merged }
+  }
+
+  const downloaded = await downloadFileData(file)
+  if (!downloaded.ok) {
+    return downloaded.reason === "unsupported"
+      ? { status: "skipped" }
+      : { status: "failed", doc: null }
+  }
+
+  console.log(`Extracting content from: ${file.path}`)
+
+  try {
+    const { output } = await generateText({
+      model: anthropic(EXTRACTION_MODEL),
+      messages: [
+        {
+          role: "user",
+          content: buildFileMessageContent(
+            downloaded.data,
+            downloaded.mimeType,
+            EXTRACTION_PROMPT,
+          ),
         },
       ],
       output: Output.object({ schema: extractedDocumentSchema }),
@@ -483,27 +726,52 @@ export async function extractDocumentContent(
     await saveCachedExtraction(projectId, cacheFilename, output, file.path)
     console.log(`Extraction complete and cached: ${file.path}`)
 
-    return output
+    return { status: "ok", doc: output }
   } catch (error) {
+    const recovered = recoverStructuredOutput(error, extractedDocumentSchema, [
+      "content_blocks",
+      "key_findings",
+      "milestones",
+    ])
+    if (recovered) {
+      console.warn(
+        `Recovered extraction for ${file.path} (model returned a stringified array)`,
+      )
+      await saveCachedExtraction(projectId, cacheFilename, recovered, file.path)
+      console.log(`Extraction recovered and cached: ${file.path}`)
+      return { status: "ok", doc: recovered }
+    }
     console.error(`Failed to extract content from ${file.path}:`, error)
-    return null
+    return { status: "failed", doc: null }
   }
+}
+
+export interface MultiExtractionResult {
+  extractions: Map<string, ExtractedDocument>
+  /** False when any file failed transiently; caller should skip hash commit. */
+  complete: boolean
 }
 
 export async function extractMultipleDocuments(
   projectId: string,
   files: DataRoomFile[],
-): Promise<Map<string, ExtractedDocument>> {
+): Promise<MultiExtractionResult> {
   const results = new Map<string, ExtractedDocument>()
+  let complete = true
 
   for (const file of files) {
-    const extracted = await extractDocumentContent(projectId, file)
-    if (extracted) {
-      results.set(file.path, extracted)
+    const outcome = await extractDocumentContent(projectId, file)
+
+    if ("doc" in outcome && outcome.doc) {
+      results.set(file.path, outcome.doc)
+    }
+
+    if (outcome.status === "failed") {
+      complete = false
     }
   }
 
-  return results
+  return { extractions: results, complete }
 }
 
 /**
@@ -529,6 +797,9 @@ export function formatExtractedDocumentsAsText(
     lines.push(`${"=".repeat(60)}`)
     lines.push(`FILE: ${filename}`)
     lines.push(`Type: ${doc.document_type} | Relevance: ${doc.relevance}`)
+    if (doc.document_date) {
+      lines.push(`Document date: ${doc.document_date}`)
+    }
     lines.push(`${"=".repeat(60)}`)
     lines.push("")
     lines.push(`Summary: ${doc.summary}`)
@@ -575,6 +846,17 @@ export function formatExtractedDocumentsAsText(
       lines.push("--- Key Findings ---")
       for (const finding of doc.key_findings) {
         lines.push(`• ${finding}`)
+      }
+      lines.push("")
+    }
+
+    if (doc.milestones && doc.milestones.length > 0) {
+      lines.push("--- Dates & Milestones ---")
+      for (const m of doc.milestones) {
+        lines.push(`• [${m.category}] ${m.title} — ${m.date} (${m.status})`)
+        if (m.description) {
+          lines.push(`  ${m.description}`)
+        }
       }
       lines.push("")
     }

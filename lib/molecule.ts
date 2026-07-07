@@ -8,7 +8,7 @@ const EXTRACTABLE_CONTENT_TYPES = new Set([
   "image/webp",
 ])
 
-const PROCESS_VERSION = "v2"
+const PROCESS_VERSION = "v3"
 
 const GET_ALL_PROJECTS_QUERY = `
 query GetAllProjects($page: Int) {

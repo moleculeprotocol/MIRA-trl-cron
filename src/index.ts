@@ -86,11 +86,17 @@ async function processProject(project: Project): Promise<void> {
 
   console.log(`Found ${extractableFiles.length} extractable file(s) to process`)
 
-  const extractedContent = await extractMultipleDocuments(
+  const { extractions, complete } = await extractMultipleDocuments(
     documentId,
     extractableFiles,
   )
-  const formattedContent = formatExtractedDocumentsAsText(extractedContent)
+  const formattedContent = formatExtractedDocumentsAsText(extractions)
+
+  if (!complete) {
+    console.log(
+      `Extraction incomplete for ${documentId} - proceeding with best-effort content but NOT committing dataroom hash (will retry next run)`,
+    )
+  }
 
   if (!formattedContent) {
     console.log(`Skipping ${documentId} - no relevant content extracted`)
@@ -166,6 +172,7 @@ async function processProject(project: Project): Promise<void> {
     currentHash,
     scoringResult,
     todos,
+    complete,
   )
 
   console.log(`Completed: ${symbol} - TRL: ${trlAnalysis.trl_classification}`)

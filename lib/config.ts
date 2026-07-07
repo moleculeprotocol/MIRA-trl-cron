@@ -4,6 +4,8 @@ export const EXTRACTION_MODEL = "claude-sonnet-4-6"
 /** Model used for questionnaire, TRL classification, scoring, and todo generation. */
 export const REASONING_MODEL = "claude-opus-4-6"
 
+export const EXTRACTION_VERSION = 2
+
 export const MOLECULE_GRAPHQL_ENDPOINT =
   "https://production.graphql.api.molecule.xyz/graphql"
 
