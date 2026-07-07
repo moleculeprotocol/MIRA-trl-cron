@@ -228,6 +228,8 @@ For each milestone:
 
 Only include milestones that are explicitly grounded in the document. Do NOT invent or infer dates that are not stated. If no dated events are present, return an empty milestones array.
 
+IMPORTANT: Return **milestones** as a real JSON array of objects — never as a single string containing serialized JSON. Inside string values (especially source_quote), escape any double quotes as \\" so the output is valid JSON.
+
 Also determine **document_date**: the date the document itself was authored, published, or last updated (from a cover page, footer, "as of" date, version date, etc.). Normalize to ISO 8601. Omit if it cannot be determined — do not guess.`
 
 const EXTRACTION_PROMPT = `You are extracting content from a biotech/science project document to support Technology Readiness Level (TRL) assessment.
@@ -295,20 +297,20 @@ const trlValueSchema = z.object({
 })
 
 const contentBlockSchema = z.object({
-  page: z.number().optional().describe("Page number (1-indexed) if applicable"),
+  page: z.number().nullish().describe("Page number (1-indexed) if applicable"),
   type: z.string().describe("text, figure, table, diagram, image, or mixed"),
-  title: z.string().optional().describe("Section or figure title if present"),
+  title: z.string().nullish().describe("Section or figure title if present"),
   content: z.string().describe("Extracted content, description, or data"),
 })
 
 function lenientArray<T extends z.ZodTypeAny>(schema: T) {
   return z.preprocess((val) => {
     if (typeof val === "string") {
-      try {
-        return JSON.parse(val)
-      } catch {
-        return val
-      }
+      // The model sometimes serializes a nested array as a JSON string.
+      // Recover via jsonrepair-backed parsing; fall back to the raw value
+      // (which then fails array validation and triggers retry/recovery).
+      const parsed = tolerantJsonParse(val)
+      return parsed !== undefined ? parsed : val
     }
     return val
   }, z.array(schema))
@@ -352,9 +354,9 @@ const milestoneSchema = z.object({
     .describe("Domain the milestone belongs to"),
   source_quote: z
     .string()
-    .optional()
+    .nullish()
     .describe("Verbatim text the milestone was derived from, for traceability"),
-  page: z.number().optional().describe("Page number (1-indexed) if applicable"),
+  page: z.number().nullish().describe("Page number (1-indexed) if applicable"),
 })
 
 const extractedDocumentSchema = z.object({
@@ -382,7 +384,7 @@ const extractedDocumentSchema = z.object({
 
   document_date: z
     .string()
-    .optional()
+    .nullish()
     .describe(
       "Date the document itself was authored/published/updated (ISO 8601). Omit if not determinable.",
     ),
@@ -631,33 +633,46 @@ async function runFullExtraction(
   data: Buffer,
   mimeType: SupportedMimeType,
 ): Promise<ExtractedDocument | null> {
-  try {
-    const { output } = await generateText({
-      model: anthropic(EXTRACTION_MODEL),
-      messages: [
-        {
-          role: "user",
-          content: buildFileMessageContent(data, mimeType, EXTRACTION_PROMPT),
-        },
-      ],
-      output: Output.object({ schema: extractedDocumentSchema }),
-    })
-    return output
-  } catch (error) {
-    const recovered = recoverStructuredOutput(error, extractedDocumentSchema, [
-      "content_blocks",
-      "key_findings",
-      "milestones",
-    ])
-    if (recovered) {
-      console.warn(
-        `Recovered extraction for ${file.path} (model returned a stringified array)`,
+  // The model occasionally emits a nested array as a malformed JSON string
+  // (e.g. with unescaped interior quotes) that no parser can recover. That
+  // failure is non-deterministic, so we retry once before giving up.
+  const maxAttempts = 2
+  let lastError: unknown
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const { output } = await generateText({
+        model: anthropic(EXTRACTION_MODEL),
+        messages: [
+          {
+            role: "user",
+            content: buildFileMessageContent(data, mimeType, EXTRACTION_PROMPT),
+          },
+        ],
+        output: Output.object({ schema: extractedDocumentSchema }),
+      })
+      return output
+    } catch (error) {
+      lastError = error
+      const recovered = recoverStructuredOutput(
+        error,
+        extractedDocumentSchema,
+        ["content_blocks", "key_findings", "milestones"],
       )
-      return recovered
+      if (recovered) {
+        console.warn(
+          `Recovered extraction for ${file.path} (model returned a stringified array)`,
+        )
+        return recovered
+      }
+      if (attempt < maxAttempts) {
+        console.warn(
+          `Extraction attempt ${attempt} for ${file.path} returned unparseable output; retrying...`,
+        )
+      }
     }
-    console.error(`Failed to extract content from ${file.path}:`, error)
-    return null
   }
+  console.error(`Failed to extract content from ${file.path}:`, lastError)
+  return null
 }
 
 type ExtractionOutcome =
@@ -790,7 +805,7 @@ export function formatExtractedDocumentsAsText(
     // Group content blocks by page for better readability
     const blocksByPage = new Map<number | undefined, ContentBlock[]>()
     for (const block of doc.content_blocks) {
-      const page = block.page
+      const page = block.page ?? undefined
       const existing = blocksByPage.get(page)
       if (existing) {
         existing.push(block)
@@ -1535,17 +1550,17 @@ const scheduleSignalSchema = z.object({
     ),
   milestone_title: z
     .string()
-    .optional()
+    .nullish()
     .describe("Milestone this signal refers to, if any"),
   reference_date: z
     .string()
-    .optional()
+    .nullish()
     .describe(
       "The milestone target/actual date (or document date) this signal is anchored to, as stated",
     ),
   source_document: z
     .string()
-    .optional()
+    .nullish()
     .describe("Filename the signal was derived from, for traceability"),
   impact: z
     .enum(["positive", "neutral", "negative"])
