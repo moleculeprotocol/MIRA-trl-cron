@@ -1,5 +1,6 @@
 {
   "file_path": "/apoptosens-202512updates.pdf",
+  "extraction_version": 2,
   "document_type": "project_overview",
   "relevance": "high",
   "summary": "ApoptoSENS is a CAR-NK cell therapy targeting senescent cells via novel surface markers (SENS-1, SENS-2, SENS-3). The project has completed a study and published results, representing a discovery-stage therapeutic program from SENS Research Foundation focused on eliminating senescent cells to reduce age-related inflammation and tissue dysfunction.",
@@ -75,5 +76,27 @@
     "No quantitative experimental data provided in this overview document (efficacy, selectivity, potency data)",
     "Development stage appears to be TRL 2-3: target discovery completed, validation in cell models done (publication), but no information on disease-relevant models or in vivo studies",
     "No future milestones or regulatory pathway specified, suggesting early/discovery stage program"
+  ],
+  "milestones": [
+    {
+      "title": "ApoptoSENS Study Completion",
+      "description": "The ApoptoSENS research study was completed in full.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "ApoptoSENS (study finished, paper published)",
+      "page": 1
+    },
+    {
+      "title": "Research Paper Publication",
+      "description": "A paper documenting the ApoptoSENS study results was published.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "ApoptoSENS (study finished, paper published)",
+      "page": 1
+    }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "file_path": "/vita-fast-whitepaper.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "Whitepaper describing VitaDAO's funding of autophagy activator discovery research at the Korolchuk Lab (Newcastle University) through blockchain-based IP-NFT tokenization. The document covers the scientific background, experimental approach, current progress with ~4000 compound screening, and future plans including clinical development pathway for Niemann-Pick Type C and potential expansion to Alzheimer's/Parkinson's.",
@@ -222,5 +223,197 @@
     "Funding structure: VitaDAO owns IP rights via Sponsored Research Agreement, ~$312k cost-based valuation (220,358 CHF research costs + 38,563 CHF legal/operational costs + inflation)",
     "IP structure: IP-NFT on Ethereum with fractional governance tokens (VITA-FAST), token holders vote on licensing, use of proceeds, and development decisions",
     "No U.S. sales: Regulation S compliance, geofencing and attestations required"
+  ],
+  "milestones": [
+    {
+      "title": "VitaDAO Sponsored Research Agreement (SRA) Established",
+      "description": "VitaDAO initially supported the Korolchuk Lab via a Sponsored Research Agreement (SRA) to accelerate their research and expand their impact, funding investigations into cellular mechanisms of aging and drug discovery.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "partnership",
+      "source_quote": "VitaDAO initially supported the Korolchuk Lab via a Sponsored Research Agreement (SRA) to accelerate their research and expand their impact. The SRA was created to fund the lab's investigations into cellular mechanisms of aging and provide resources for drug discovery and development.",
+      "page": 2
+    },
+    {
+      "title": "Initial Compound Library Screening Completed",
+      "description": "Dr. Korolchuk and his team generated data on thousands of compounds from an initial library using cell survival, p62 clearance, and autolysosome quantification assays. Several compounds with potential autophagic properties were identified and lead series were established.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "To date, Dr. Korolchuk and his team have generated data on thousands of compounds from an initial library using the assays described above. From the initial screen, several compounds have emerged as having potential autophagic properties. Lead series have been identified, a library of derivatives has been classified, and have been synthesized by external suppliers.",
+      "page": 4
+    },
+    {
+      "title": "Second-Generation Compound Screening In Progress",
+      "description": "At the time of publishing, the lab is screening the second generation of compounds developed as lead series based on initial hits and awaiting delivery of additional chemical series of leads.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "At the time of publishing, the lab is screening the second generation of compounds that have been developed as lead series based on hits and is waiting on the delivery of additional chemical series of their leads.",
+      "page": 4
+    },
+    {
+      "title": "Peter Banks Appointed to Run High-Throughput Screening Facility",
+      "description": "Peter Banks was appointed in 2011 to run a new screening facility within the Faculty of Medical Sciences at Newcastle University, initially offering genome-wide yeast screens.",
+      "date": "2011",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2011, Peter was appointed to run a new facility set up within the Faculty of Medical Sciences at Newcastle University.",
+      "page": 12
+    },
+    {
+      "title": "Mammalian siRNA Screening Capability Developed",
+      "description": "The Faculty of Medical Sciences at Newcastle University invested significant funds to develop mammalian siRNA screening capability at the screening facility.",
+      "date": "2012",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "the faculty invested significant funds to develop mammalian siRNA screening in 2012.",
+      "page": 12
+    },
+    {
+      "title": "Viktor Korolchuk PhD Awarded",
+      "description": "Dr. Viktor Korolchuk obtained his PhD from the University of Cambridge.",
+      "date": "2007",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "He obtained his PhD from the University of Cambridge in 2007 and subsequently held postdoctoral positions at the University of California, San Diego, and the University of Cambridge.",
+      "page": 12
+    },
+    {
+      "title": "Drug Translation Process Initiation (Post Lead Identification)",
+      "description": "Once lead molecules have been identified, VitaDAO and Molecule will work with Newcastle University and Dr. Korolchuk's lab to start the process of drug translation, considering pharmacokinetics, target deconvolution, structure-activity relationships, scalability, and manufacturing.",
+      "date": "once lead molecules have been identified",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Once lead molecules have been identified, VitaDAO and Molecule will work with Newcastle University and Dr. Korolchuk's lab to start the process of drug translation. They will be required to consider things such as pharmacokinetics, target deconvolution, structure-activity relationships, scalability, and manufacturing.",
+      "page": 4
+    },
+    {
+      "title": "In Vitro and In Vivo Model Studies",
+      "description": "Further research in in vitro and in vivo models will be performed after drug translation begins, including NPC patient-derived fibroblasts, CRISPR-Cas9 Npc1 knock-out cells, iPSCs, and Npc1-mutant animal models.",
+      "date": "upon completion",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Upon completion, further research in in vitro and in vivo models will need to be performed. Possibilities include using Neimann-Pick Type C patient-derived fibroblasts or CRISPR-Cas9 Npc1 knock-out cells to examine the efficacy of lead compounds in a human cell model.",
+      "page": 4
+    },
+    {
+      "title": "Phase 1 Clinical Trials",
+      "description": "Testing of the drug in a small group of healthy volunteers or patients (20-100) to evaluate safety, dosage, and side effects.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Phase 1 Clinical Trials: Testing of the drug in a small group of healthy volunteers or patients (20-100) to evaluate safety, dosage, and side effects.",
+      "page": 5
+    },
+    {
+      "title": "Phase 2 Clinical Trials / Orphan Drug Designation",
+      "description": "For Niemann-Pick Type C, Orphan Drug designation could be sought at Phase 2, which may provide benefits including tax credits and a waiver of the FDA user fee.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Phase 2 Clinical Trials: For Niemann-Pick Type C, Orphan Drug designation could be sought at this stage, which may provide some benefits including tax credits for certain research and a waiver of the FDA user fee.",
+      "page": 5
+    },
+    {
+      "title": "Phase 3 Clinical Trials",
+      "description": "If successful in Niemann-Pick Type C, the drug could be tried for Alzheimer's disease as a future indication, involving its own full set of clinical trials.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Phase 3 Clinical Trials: In this stage, if successful in Niemann-Pick Type C, the drug could be tried for Alzheimer's disease as a future indication, although that would involve its own full set of clinical trials.",
+      "page": 5
+    },
+    {
+      "title": "FDA Review and Market Submission (NDA)",
+      "description": "Once Phase 3 is complete, a New Drug Application (NDA) is submitted to the FDA. The FDA review can take up to 2 years, but may be faster for drugs with Breakthrough Therapy designation.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "FDA Review and Market: Once Phase 3 is complete, a New Drug Application (NDA) is submitted to the FDA. The FDA then reviews the application, which can take up to 2 years, but may be faster for drugs with a Breakthrough Therapy designation.",
+      "page": 5
+    },
+    {
+      "title": "VITA-FAST Genesis Token Sale",
+      "description": "A 2-day fixed-price sale of 10% of VITA-FAST tokens (100,000 VITA-FAST) to a maximum of 499 VITA token holders of VitaDAO, raising a target of 31,271 USD in WETH.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "The genesis VITA-FAST token sale will be a fixed-price sale with pro rata distribution, overflow refunds, and 2 month vesting. 10% of VITA-FAST tokens will be sold to VITA holders at a fixed price determined by a cost-based valuation as described below.",
+      "page": 7
+    },
+    {
+      "title": "VITA-FAST Token Vesting Period (2 Months)",
+      "description": "VITA-FAST tokens purchased in the genesis sale vest over 2 months with a 2-month cliff. After the 60-day vesting period, participants can swap vVITA-FAST for VITA-FAST.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "the VITA-FAST tokens purchased in the sale vesting over 2 months with a 2 month cliff.",
+      "page": 7
+    },
+    {
+      "title": "Researcher Token Vesting (4 Years, 1 Year Cliff)",
+      "description": "The Researchers will receive 5% of VITA-FAST tokens vested over 4 years with a 1-year cliff, incentivizing long-term success and discouraging data falsification.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "The Researchers will receive 5% of VITA-FAST tokens vested over 4 years with a 1 year cliff. The vesting period incentivizes long-term success of the project and discourages falsification of data.",
+      "page": 7
+    },
+    {
+      "title": "Newcastle University Token Vesting (4 Years, 1 Year Cliff)",
+      "description": "Newcastle University will receive 1% of VITA-FAST tokens vested over 4 years with a 1-year cliff, as an incentive to speed up the licensing process if completed by a deadline.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Newcastle University will receive 1% of VITA-FAST tokens vested over 4 years with a 1 year cliff. This is not required in the contract, but is intended to be a strong signal to other University TTOs and an incentive to speed up the licensing process if completed by a deadline.",
+      "page": 7
+    },
+    {
+      "title": "VitaDAO Dealflow Working Group Token Vesting (4 Years, 1 Year Cliff)",
+      "description": "VitaDAO's dealflow working group contributors will receive 5% of VITA-FAST tokens vested over 4 years with a 1-year cliff, subject to approval by VitaDAO governance.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "VitaDAO's dealflow working group contributors will receive 5% of VITA-FAST tokens vested over 4 years with a 1 year cliff.",
+      "page": 7
+    },
+    {
+      "title": "Uniswap V3 Liquidity Pool Creation",
+      "description": "A Uniswap V3 liquidity pool will be created upon claiming sale proceeds, matching 10% of VITA-FAST tokens with 10% of the funds raised.",
+      "date": "upon claiming the sale proceeds",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "A Uniswap V3 liquidity pool will be created upon claiming the sale proceeds, matching 10% of the VITA-FAST tokens with 10% of the funds raised.",
+      "page": 7
+    },
+    {
+      "title": "Bitcoin Whitepaper Published",
+      "description": "The Bitcoin whitepaper was published in 2008 by the pseudonymous Satoshi Nakamoto, marking the origin of blockchain technology.",
+      "date": "2008",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Since the publication of the Bitcoin whitepaper in 2008 by the pseudonymous person or group known as Satoshi Nakamoto, blockchain technology has gained significant attention and adoption.",
+      "page": 5
+    }
   ]
 }

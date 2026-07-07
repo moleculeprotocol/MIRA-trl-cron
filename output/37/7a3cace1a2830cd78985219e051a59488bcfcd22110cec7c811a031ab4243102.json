@@ -1,5 +1,6 @@
 {
   "file_path": "/jq2.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document contains only a stylized graphic illustration showing an abstract party hat or wizard hat design with stars and geometric shapes against a gradient purple background. It appears to be decorative artwork or branding material with no scientific, technical, or business content.",
@@ -13,5 +14,6 @@
     "No scientific, technical, or TRL-relevant content present in this image",
     "Document appears to be purely decorative or branding artwork",
     "No experimental data, research findings, team information, IP status, regulatory information, or business metrics available for TRL assessment"
-  ]
+  ],
+  "milestones": []
 }

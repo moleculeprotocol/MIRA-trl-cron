@@ -1,5 +1,6 @@
 {
   "file_path": "/24-jun-2025-contrato-de-licensia-de-propiedad-intelectual-kene-psydao-novacio-n-docx.pdf",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This is an intellectual property licensing agreement (in Spanish) between Fundación Kene Rao and PsyDAO Association regarding ancestral Kené designs from the Shipibo Konibo indigenous people. The document is a legal contract establishing royalty payments, exclusivity terms, and dispute resolution mechanisms. It contains no scientific, experimental, or technical development information relevant to TRL assessment.",
@@ -46,5 +47,28 @@
     "No experimental data, research findings, or development progress reported",
     "No information about therapeutic targets, drug development, or technology readiness",
     "Document is completely irrelevant to TRL assessment of biotech/science projects"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Contract Effective Date",
+      "description": "The Intellectual Property License Agreement for Kené Designs between Fundación Kene Rao (Licensor) and PsyDAO Association (Licensee) becomes effective, granting exclusive exploitation rights over Kené ancestral designs of the Shipibo Konibo people.",
+      "date": "2025-06-24",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "y se hace efectivo a partir de 24 Junio, 2025 (la \"Fecha Efectiva\").",
+      "page": 1
+    },
+    {
+      "title": "Monthly Royalty Payment Cycle Begins",
+      "description": "Royalty payments of 20% of retail price of any product made with the Works are due per sale, or optionally as a lump sum on the first business day of each month, beginning from the effective date of the contract.",
+      "date": "2025-06-24",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "commercial",
+      "source_quote": "El pago de regalías se realizará cada vez que se venda un producto hecho de la Obra o, a elección del Licenciante, en una suma global cada mes en el primer día hábil de cada mes.",
+      "page": 1
+    }
+  ],
+  "document_date": "2025-06-24"
 }

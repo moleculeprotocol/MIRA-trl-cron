@@ -1,5 +1,6 @@
 {
   "file_path": "/g1rxrv6aaaertvd.png",
+  "extraction_version": 2,
   "document_type": "figure",
   "relevance": "medium",
   "summary": "This is a laboratory photograph showing a researcher in a white lab coat and blue gloves performing cell culture or sample processing work in a biosafety cabinet. The image shows various laboratory equipment including cell culture plates, pipettes, media bottles, and sample containers, indicating active wet-lab research activities.",
@@ -16,5 +17,6 @@
     "Indicates ongoing experimental work with biological samples, consistent with TRL 2-3 activities (early in vitro experimentation)",
     "Laboratory setup suggests capacity for cell-based assays, screening, or sample processing relevant to biotech development",
     "Proper PPE and sterile technique indicate established laboratory protocols and GLP awareness"
-  ]
+  ],
+  "milestones": []
 }

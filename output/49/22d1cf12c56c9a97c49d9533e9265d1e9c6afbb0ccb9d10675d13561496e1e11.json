@@ -1,5 +1,6 @@
 {
   "file_path": "/matrix-updates202512.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "Matrix Bio is a therapeutic program developing small-molecule hyaluronidase inhibitors to increase high-molecular-weight hyaluronic acid (HMW-HA) in tissues, translating cancer-resistant biology from naked mole rats to humans. The document outlines the project concept, mechanism targeting the HA-CD44 axis for cancer prevention/treatment and longevity applications, team composition (led by Vera Gorbunova, PhD at University of Rochester), and planned formation of a new company with VitaDAO. Development stage and specific experimental data are not provided in this document section.",
@@ -63,5 +64,37 @@
     "Strong academic team led by Vera Gorbunova at University of Rochester with relevant expertise",
     "New company formation planned with VitaDAO partnership",
     "Development stage, specific experimental data, milestones, and IP status not disclosed in this document section"
+  ],
+  "milestones": [
+    {
+      "title": "Global Cancer Burden Reference (2020)",
+      "description": "Cancer caused approximately 10 million deaths and 19.3 million new cases worldwide in 2020, cited as context for patient population size.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Cancer caused ~10 million deaths and 19.3 million new cases worldwide in 2020",
+      "page": 1
+    },
+    {
+      "title": "Matrix Bio Newco Formation",
+      "description": "Launch of Matrix Bio as a new company, to be formed jointly by VitaDAO and the Gorbunova lab.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Matrix Bio – newco to be launched jointly by VitaDAO and the Gorbunova lab",
+      "page": 2
+    },
+    {
+      "title": "Next 3 Major Milestones",
+      "description": "The document indicates the next 3 major milestones with estimated dates are to be filled in, but no specific milestones or dates are provided in the document.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Development Timeline & Milestones: Next 3 major milestones (with estimated dates)",
+      "page": 2
+    }
   ]
 }

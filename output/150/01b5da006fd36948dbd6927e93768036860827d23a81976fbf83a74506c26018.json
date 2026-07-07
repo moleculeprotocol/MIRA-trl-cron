@@ -1,5 +1,6 @@
 {
   "file_path": "/foxo3-updates202512.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "FOXO3 antisense oligonucleotide project overview for VitaDAO. The document describes a pre-clinical discovery program targeting FOXO3 isoform modulation using AONs to treat degenerative disc disease. Project funding approved (~$298K Phase 1) with work initiated on AON design and validation in 2D culture models. No experimental results presented yet.",
@@ -76,5 +77,137 @@
     "Target: FOXO3 isoform modulation (long vs short) - rs2802292 G-allele associated with 36% increased exceptional longevity, 1.9-fold increased probability living past 95",
     "Indication: Degenerative Disc Disease (primary), multiple age-related conditions (secondary)",
     "Mechanism: AON steric hindrance to shift FOXO3-long/short ratio → nuclear translocation → autophagy, mitochondrial quality control, DNA repair, anti-inflammatory signaling"
+  ],
+  "milestones": [
+    {
+      "title": "Project Funding Approved",
+      "description": "Project funding approved based on VDP-146 revision incorporating community feedback, enabling initiation of Phase 1 work.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Project funding approved (based on VDP-146 revision incorporating community feedback).",
+      "page": 2
+    },
+    {
+      "title": "Phase 1 Initiated",
+      "description": "Phase 1 work initiated, encompassing AON design and validation in monolayer culture and evaluation of AON efficacy in 2D culture models of DDD.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "Phase 1 work initiated: AON design and validation in monolayer culture (Milestone 1a), evaluation of AON efficacy in 2D culture models of DDD (Milestone 1b).",
+      "page": 2
+    },
+    {
+      "title": "Milestone 1a – AON Design & Validation in Monolayer Culture",
+      "description": "Design and validate antisense oligonucleotides in monolayer culture using NHDF, HNPC, and HAFC cells; identify at least 2 lead AON candidates.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "Milestone 1a: AON design and validation in monolayer culture (NHDF, HNPC, HAFC cells) – identify ≥2 lead AON candidates",
+      "page": 3
+    },
+    {
+      "title": "Milestone 1b – AON Efficacy in 2D Culture Models of DDD",
+      "description": "Evaluate AON efficacy in 2D cell culture models of degenerative disc disease; demonstrate functional rescue of DDD phenotypes including impact on senescence, autophagy, and mitochondrial function.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Milestone 1b: Evaluate AON efficacy in 2D culture – demonstrate functional rescue of DDD phenotypes, impact on senescence, autophagy, mitochondrial function",
+      "page": 3
+    },
+    {
+      "title": "Go/No-Go Decision Point (Year 1)",
+      "description": "Go/No-Go decision point after Year 1 of Phase 1, determining whether the project advances to Phase 2 (ex vivo human organotypic models).",
+      "date": "after Year 1",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "→ Go/No-Go Point after Year 1",
+      "page": 3
+    },
+    {
+      "title": "Milestone 2 – AON Efficacy in Ex Vivo Organ-on-Chip & IVD Explants",
+      "description": "Evaluate AON efficacy in human ex vivo organ-on-chip models and primary intervertebral disc (IVD) explants; contingent on Phase 1 success.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Milestone 2: Evaluate AON efficacy in human ex vivo organ-on-chip models and primary IVD explants",
+      "page": 3
+    },
+    {
+      "title": "Phase 1 Fundraise (~$298K)",
+      "description": "Current fundraise of approximately $298K to fund Phase 1 activities (Milestones 1a, 1b, and Milestone 2).",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Phase 1 (Current Fundraise – ~$298K):",
+      "page": 3
+    },
+    {
+      "title": "Phase 2 – Oligo Sequence & Chemistry Optimization",
+      "description": "Optimization of oligonucleotide sequences and chemical modifications as part of Phase 2, contingent on Phase 2 funding.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Oligo sequence and chemistry optimization",
+      "page": 3
+    },
+    {
+      "title": "Phase 2 – In Vivo PK/PD & Toxicology Studies",
+      "description": "In vivo pharmacokinetic/pharmacodynamic and toxicology studies in rodent DDD models, to be conducted via CRO, as part of Phase 2.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "In vivo PK/PD and toxicology studies in rodent DDD models (CRO)",
+      "page": 3
+    },
+    {
+      "title": "Phase 2 – CMC & Safety Toxicology Package",
+      "description": "Development of Chemistry, Manufacturing, and Controls (CMC) and safety toxicology package as part of Phase 2.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "cmc",
+      "source_quote": "CMC and safety toxicology package",
+      "page": 3
+    },
+    {
+      "title": "Phase 2 – Path to IND Filing",
+      "description": "Progression toward Investigational New Drug (IND) filing, as part of Phase 2 activities.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "Path to IND filing",
+      "page": 3
+    },
+    {
+      "title": "Initial Patent Filing (Post-Phase 1)",
+      "description": "Phase 1 output will provide sufficient data for an initial patent filing covering prototype oligonucleotides demonstrating FOXO3 isoform modulation and attenuation of senescence/disease markers in 2D/3D tissue culture systems.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Phase 1 output will provide sufficient data for initial patent filing covering prototype oligonucleotides demonstrating FOXO3 isoform modulation and attenuation of senescence/disease markers in 2D/3D tissue culture systems.",
+      "page": 4
+    },
+    {
+      "title": "In Vivo Data to Bolster Patent Claims",
+      "description": "Claims from the initial patent filing to be bolstered with in vivo data within 12 months post-filing, contingent on Phase 2 funding.",
+      "date": "within 12 months post-filing",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Claims to be bolstered with in vivo data within 12 months post-filing (contingent on Phase 2 funding).",
+      "page": 4
+    }
   ]
 }

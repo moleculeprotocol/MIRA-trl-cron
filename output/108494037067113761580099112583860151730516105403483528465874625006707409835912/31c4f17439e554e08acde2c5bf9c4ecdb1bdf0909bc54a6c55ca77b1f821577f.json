@@ -1,5 +1,6 @@
 {
   "file_path": "/Transfidelity-Brand-Guidelines-1.pdf",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This is a brand guidelines document for Transfidelity dated 2025. It contains only visual identity specifications including logo usage rules, spacing requirements, color palette, and typography. No scientific, technical, or experimental content is present.",
@@ -64,5 +65,7 @@
     "Document specifies visual design standards for Transfidelity brand including logo, colors, and typography",
     "Mentions relationship to three other brands: Cerebrum Dao, Percepta Brain, and Neuron Percepta",
     "No experimental data, research findings, product development information, or TRL-relevant content present"
-  ]
+  ],
+  "milestones": [],
+  "document_date": "2025"
 }

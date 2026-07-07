@@ -1,5 +1,6 @@
 {
   "file_path": "/vdp63-matrix-proposal.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "VitaDAO funding proposal (VDP-63) for Matrix Bio, a venture with the Gorbunova Lab developing small molecule hyaluronidase inhibitors to increase high molecular weight hyaluronic acid (HMW-HA) levels for cancer treatment and longevity. The proposal outlines a $300k budget for high-throughput screening and validation studies based on naked mole rat research showing cancer resistance from HMW-HA.",
@@ -94,5 +95,127 @@
     "IP strategy: formulations/modifications of natural product hit, plus new chemical entities from HTS campaign",
     "No detailed R&D plan, milestones, or timeline provided in proposal",
     "Senior reviewer scores indicate high novelty (4.3) and relevance (4.6) but moderate feasibility/data (3.5) reflecting early stage"
+  ],
+  "milestones": [
+    {
+      "title": "NMR HMW-HA Cancer Resistance Published",
+      "description": "Gorbunova lab published research demonstrating that cancer resistance in naked mole rats is modulated by the abundance of high molecular weight hyaluronic acid (HMW-HA) in tissues.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Tian X, Azpurua J, Hine C, et al. High-molecular-mass hyaluronan mediates the cancer resistance of the naked mole rat. Nature. 2013;499(7458):346-349.",
+      "page": 6
+    },
+    {
+      "title": "vHMW-HA Cytoprotective Properties Published",
+      "description": "Takasugi et al. published findings that naked mole-rat very-high-molecular-mass hyaluronan exhibits superior cytoprotective properties, protecting human and mouse cells from stress-induced cell-cycle arrest and cell death.",
+      "date": "2020-05-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Takasugi M, Firsanov D, Tombline G, et al. Naked mole-rat very-high-molecular-mass hyaluronan exhibits superior cytoprotective properties. Nat Commun. 2020;11(1):2376. Published 2020 May 12.",
+      "page": 6
+    },
+    {
+      "title": "Hyaluronan in Tumor Microenvironment Published",
+      "description": "Liu et al. published research dissecting the dual nature of hyaluronan in the tumor microenvironment.",
+      "date": "2019-05-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Liu M, Tolg C, Turley E. Dissecting the Dual Nature of Hyaluronan in the Tumor Microenvironment. Front Immunol. 2019;10:947. Published 2019 May 10.",
+      "page": 6
+    },
+    {
+      "title": "Prior ~3k Compound Screen Completed",
+      "description": "The Gorbunova lab conducted a ~3,000 compound screen using their proprietary hyaluronidase inhibition assay, leading to the discovery of one natural product that increases HA levels in mouse and human tissues.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "A previous ~3k compound screen has led to discovery of one natural product that increases the levels of HA in mouse and human tissues.",
+      "page": 3
+    },
+    {
+      "title": "Two Hyaluronidase Targets Identified",
+      "description": "The team identified two hyaluronidase targets worth pursuing and prioritized one of them (not disclosed for IP protection).",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The team has already identified two targets worth pursuing and prioritised one of them (not disclosed here for IP protection).",
+      "page": 3
+    },
+    {
+      "title": "NMR HAS2 Transgenic Mice Longevity Preprint Posted",
+      "description": "Gorbunova lab posted a preprint demonstrating that transgenic mice expressing the naked mole rat hyaluronan synthase gene (NHAS2) have less tumors, improved health, and live 10% longer than control mice.",
+      "date": "2022-08-08",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Zhang Z, Tian X, Lu JY, Boit K, Ablaeva J, Tolibzoda Zakusilo F, Emmrich S, Firsanov D, Rydkina E, Biashad SA, Lu Q,Tyshkovsky A,Gladyshev VN, Horvath S, Seluanov A, Gorbunova V. Naked Mole-Rat Hyaluronan Synthase 2 Promotes Longevity and Enhances Healthspan in Mice. Preprint posted online August 8th, 2022.",
+      "page": 6
+    },
+    {
+      "title": "Term Sheet Signed — Matrix Bio Formation",
+      "description": "VitaDAO and the Gorbunova Lab signed a term sheet outlining deal terms for the incorporation of Matrix Bio, a new company (newco) to develop hyaluronidase inhibitors.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "partnership",
+      "source_quote": "VitaDAO is launching a newco with the Gorbunova lab, called Matrix Bio. A term sheet has been signed, with the deal terms below that entails the incorporation of Matrix Bio.",
+      "page": 2
+    },
+    {
+      "title": "VDP-63 Funding Proposal Passed",
+      "description": "VitaDAO governance proposal VDP-63 for funding Matrix Bio in collaboration with the Gorbunova Lab was voted on and passed.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VDP-63 [Funding]: Matrix Bio - Vera Gorbunova\nPassed",
+      "page": 1
+    },
+    {
+      "title": "Program 1 Phase 1: High Throughput Screening (HTS)",
+      "description": "Planned high throughput screening (HTS) of a larger compound library using the proprietary hyaluronidase inhibition assay to identify new inhibitor hits. Budget up to $100k.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Program 1: HTS and med chem for new inhibitors\nPhase 1: High Throughput Screening (HTS) – up to $100k",
+      "page": 4
+    },
+    {
+      "title": "Program 1 Phase 2: Medicinal Chemistry Optimization",
+      "description": "Planned medicinal chemistry optimization of HTS hits to produce patentable new chemical entities (NCEs). Budget up to $100k.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Phase 2: Medicinal Chemistry on hits – up $100k",
+      "page": 4
+    },
+    {
+      "title": "Program 2: In Vivo Validation of Existing Hit Compound",
+      "description": "Planned administration of an existing hit compound (EC50 ~20 µM) to mouse models of cancer to test for curative and preventative effects. Budget up to $100k.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Program 2: Validation of existing in vivo active inhibitor (EC50 ~ 20 µM)\nAdministration of hit compound to mouse models of cancer to test for curative and preventative effects - up to $100k",
+      "page": 4
+    },
+    {
+      "title": "Formal R&D Plan Milestones to Be Agreed",
+      "description": "Detailed project milestones and endpoints are to be agreed upon in a separate full-length R&D plan.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Milestones to be agreed in separate full length R&D plan.",
+      "page": 4
+    }
   ]
 }

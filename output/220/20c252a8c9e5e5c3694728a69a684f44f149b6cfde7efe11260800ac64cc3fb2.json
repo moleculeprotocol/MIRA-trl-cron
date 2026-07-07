@@ -1,5 +1,6 @@
 {
   "file_path": "/primadonna-lab-report",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "Prima Donna project developing iPSC-derived ameloblast organoids for enamel regeneration. Uses AI-designed Notch ligand to mature organoids that express enamel matrix proteins (AMELX, AMBN, ENAM). Initial in vivo proof-of-concept achieved with enamel-like calcified material formation in NOD-SCID mice. Currently at TRL 2-3 transition with in vitro validation complete and initial animal studies underway.",
@@ -94,5 +95,127 @@
     "Team includes Profs. Hannele Ruohola-Baker, Julie Mathieu, Jonathan An; patent inventors include David Baker (AI protein design)",
     "Target indication addresses massive unmet need: >90% individuals experience enamel loss; 2.4B people affected by dental caries; $120B US market",
     "Current stage: TRL 2-3 transition with robust in vitro validation and initial in vivo proof-of-concept, but manufacturing scale-up and full preclinical studies pending"
+  ],
+  "milestones": [
+    {
+      "title": "PCT Patent Application Filed",
+      "description": "Filing of PCT patent application PCT/US2022/053517 entitled 'HUMAN IPSC DERIVED AMELOBLASTS AND USES THEREOF' by inventors David Baker, Hannele Ruohola-Baker, Ammar Alghadeer, Hal Zhang, Julie Mathieu, and Sesha Hanson-Drury.",
+      "date": "2022-12-20",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "UW: Patent Application PCT/US2022/053517 filed Dec 20, 2022 (Priority Date Dec 28, 2021)",
+      "page": 3
+    },
+    {
+      "title": "Patent Priority Date",
+      "description": "Priority date established for PCT patent application PCT/US2022/053517 entitled 'HUMAN IPSC DERIVED AMELOBLASTS AND USES THEREOF'.",
+      "date": "2021-12-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "UW: Patent Application PCT/US2022/053517 filed Dec 20, 2022 (Priority Date Dec 28, 2021)",
+      "page": 3
+    },
+    {
+      "title": "iPSC Differentiation into Ameloblast-Lineage Organoids",
+      "description": "Successfully differentiated human iPSCs into ameloblast-lineage organoids with enhanced maturation using an AI-designed Notch ligand, achieving unprecedented control over ameloblast maturation in vitro.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "iPSC differentiation into ameloblast-lineage organoids with enhanced maturation using AI-designed Notch ligand",
+      "page": 2
+    },
+    {
+      "title": "In Vitro Functional Validation",
+      "description": "Functional validation of organoids in vitro, including expression of enamel matrix proteins (AMELX, AMBN, ENAM) and demonstration of improved organoid quality.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "In vitro functional validation, including expression of enamel matrix proteins and improved organoid quality",
+      "page": 2
+    },
+    {
+      "title": "Initial In Vivo Proof-of-Concept (Kidney Capsule Model)",
+      "description": "Transplantation of ismAM organoids under the kidney capsule of NOD-SCID mice demonstrating enamel-like calcified tissue formation confirmed by microCT analysis. First demonstration that Notch-activated iPSC-derived ameloblast organoids can form enamel-like calcified tissue in vivo.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Initial in vivo proof-of-concept, demonstrating enamel-like calcified tissue formation in NOD-SCID mouse kidney capsule model",
+      "page": 2
+    },
+    {
+      "title": "Patni et al. Publication (IJOS) – In Press",
+      "description": "Scientific publication (Patni et al., International Journal of Oral Science) reporting the first demonstration that Notch-activated iPSC-derived ameloblast organoids can form enamel-like calcified tissue in vivo, accepted and in press at time of document authorship.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Patni et al. IJOS, in press",
+      "page": 2
+    },
+    {
+      "title": "Organoid Production Reproducibility Established",
+      "description": "Organoid production reproducibility established with trained personnel and standardized protocols, enabling consistent batch-to-batch generation.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "Organoid production reproducibility established, with trained personnel and standardized protocols",
+      "page": 2
+    },
+    {
+      "title": "Quality Control Framework Implemented",
+      "description": "Implementation of quality control framework including quantitative metrics for cell viability, ameloblast-lineage identity, and functional performance (matrix production and mineralization potential) with batch-to-batch benchmarks routinely met.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "Quality control framework implemented, including metrics for: cell viability, ameloblast-lineage identity, functional performance (matrix production and mineralization potential)",
+      "page": 2
+    },
+    {
+      "title": "Organoid Production Scale-Up (Ongoing)",
+      "description": "Continuing organoid production scale-up to increase yield while maintaining quality and reproducibility. Full-scale production targets have not yet been achieved.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "Continue organoid production scale-up, focusing on increasing yield while maintaining quality and reproducibility",
+      "page": 2
+    },
+    {
+      "title": "Cryopreservation and Freeze-Thaw Validation",
+      "description": "Validation of cryopreservation process, assessing post-thaw viability and functional integrity of organoids.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "Cryopreservation and freeze-thaw validation, assessing post-thaw viability and functional integrity",
+      "page": 3
+    },
+    {
+      "title": "Dose-Finding and Cell Number Determination",
+      "description": "Determine the minimum effective organoid/cell input required for subsequent in vivo studies. Remains an active milestone.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "Dose-finding and cell number determination to define the minimum effective organoid/cell input for in vivo studies",
+      "page": 3
+    },
+    {
+      "title": "Milestone 1 Go/No-Go Assessment",
+      "description": "Go/No-Go decision point assessment conducted based on QC outcomes and production performance. Result: project positioned to continue toward scale-up; further optimization required before transitioning to in vivo studies.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "A Go/No-Go assessment was conducted based on QC outcomes and production performance to date. While further optimization is required to reach target production scale and cell numbers for in vivo studies, the demonstrated improvements in organoid quality, reproducibility, and maturation represent a substantial reduction in technical risk.",
+      "page": 5
+    }
   ]
 }

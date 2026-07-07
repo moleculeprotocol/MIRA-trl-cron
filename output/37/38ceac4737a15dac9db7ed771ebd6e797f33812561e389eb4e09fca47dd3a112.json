@@ -1,5 +1,6 @@
 {
   "file_path": "/screenshot-2025-08-18-at-09-43-36.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document is a technical API or software documentation page showing a mutation class called 'DatasetsMut' with a method 'CreateDatasetFromSnapshotResult'. It displays programming fields (isSuccess: Boolean, message: String) and various implementation error types. This is software development documentation, not biotech or scientific research content.",
@@ -24,5 +25,6 @@
     "This is software development/API documentation, not scientific or biotech research content",
     "No experimental data, biological information, or TRL-relevant content present",
     "Document shows programming interface specifications for dataset creation operations"
-  ]
+  ],
+  "milestones": []
 }

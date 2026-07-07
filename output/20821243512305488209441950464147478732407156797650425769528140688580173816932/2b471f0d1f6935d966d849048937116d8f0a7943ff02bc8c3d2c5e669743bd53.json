@@ -1,5 +1,6 @@
 {
   "file_path": "/KP13_FULL_Hypothesis.pdf",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "low",
   "summary": "This is a hypothesis document proposing that engineered analogs of kisspeptin-13 (KP-13) peptide could retain KISS1R receptor agonist activity while improving metabolic stability. The document outlines a theoretical framework and experimental plan but contains no actual experimental data, results, or evidence of completed work.",
@@ -43,5 +44,6 @@
     "Experimental plan outlined but no evidence of execution: receptor assays and serum stability testing proposed for 10-20 analogs",
     "No information on: team, funding, IP status, regulatory pathway, manufacturing, or timelines",
     "No quantitative data, control experiments, model systems, or validation results present"
-  ]
+  ],
+  "milestones": []
 }

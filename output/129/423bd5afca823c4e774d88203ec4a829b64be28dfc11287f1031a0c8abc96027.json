@@ -1,5 +1,6 @@
 {
   "file_path": "/2025-06-13-CLAW-update-IRB-protocol-executive-summary-1.pdf",
+  "extraction_version": 2,
   "document_type": "regulatory",
   "relevance": "high",
   "summary": "IRB protocol submission for Percepta, a plant-based dietary supplement (cat's claw and oolong tea extract) for Mild Cognitive Impairment. This is a 6-month randomized, double-blind, placebo-controlled trial (n=154) conducted by Cerebrum DAO and Reputable Health, measuring cognitive performance via digital MoCA, wearable biomarkers, and participant-reported outcomes.",
@@ -70,5 +71,58 @@
     "Study conducted by Cerebrum DAO (Switzerland) with Lead Investigator Dr. Mark Melnykowycz",
     "Trial partner: Reputable Health",
     "Interim analysis planned at 3 months with potential extensions to 9 and 12 months"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "IRB Protocol Submission",
+      "description": "The IRB protocol for the Percepta 6-month randomized controlled trial was submitted to the ethics committee.",
+      "date": "2025-06",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Update June 2025\nIRB protocol submitted to the ethics committee",
+      "page": 1
+    },
+    {
+      "title": "Interim Analysis at 3 Months",
+      "description": "Interim analyses of study endpoints (cognitive performance, wearable biomarkers, BHI) will be conducted at the 3-month mark of the trial.",
+      "date": "3 months into the trial",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Interim analyses will be conducted at 3 months, with potential extensions to 9 and 12 months based on initial findings.",
+      "page": 2
+    },
+    {
+      "title": "Primary Endpoint Assessment at 6 Months",
+      "description": "Primary and secondary endpoints (digital MoCA, wearable biomarker metrics, BHI scores) assessed at the 6-month mark, completing the core trial duration.",
+      "date": "6 months into the trial",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Endpoints will be assessed at baseline, 3 months, and 6 months, with potential extensions to 9 and 12 months.",
+      "page": 2
+    },
+    {
+      "title": "Potential Trial Extension to 9 Months",
+      "description": "Optional extension of the trial to 9 months based on initial findings from the 6-month assessment.",
+      "date": "9 months into the trial",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Interim analyses will be conducted at 3 months, with potential extensions to 9 and 12 months based on initial findings.",
+      "page": 2
+    },
+    {
+      "title": "Potential Trial Extension to 12 Months",
+      "description": "Optional extension of the trial to 12 months based on initial findings from earlier assessments.",
+      "date": "12 months into the trial",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Interim analyses will be conducted at 3 months, with potential extensions to 9 and 12 months based on initial findings.",
+      "page": 2
+    }
+  ],
+  "document_date": "2025-06"
 }

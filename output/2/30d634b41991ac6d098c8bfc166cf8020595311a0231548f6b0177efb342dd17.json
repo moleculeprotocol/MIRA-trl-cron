@@ -1,5 +1,6 @@
 {
   "file_path": "/revised-experimental-plan-2025",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "high",
   "summary": "This is an experiment plan modification proposal for the VITA-FAST project, which is developing autophagy-inducing compounds for therapeutic applications. The document outlines a pivot in experimental strategy based on computational optimization results that identified two promising molecular targets, and proposes confirmatory experiments, computational compound generation, and lead candidate development with specific budget allocations.",
@@ -70,5 +71,98 @@
     "Previous experiments in worm longevity, aging cell lines, and round 3 SAR synthesis being cancelled/postponed based on current target information",
     "Work being conducted at University of Newcastle with medicinal chemistry subcontractor Dr Johannes Reynisson at University of Keele",
     "Project has $147,500k in wallet as of September 2025 with funding allocated for this plan and follow-on experiments"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "VFDP-13 Experiment Plan Approved",
+      "description": "In March 2025, experiments and budget totalling $135K for the development of new chemical entities (NCEs) were scoped and approved in VFDP-13.",
+      "date": "2025-03",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In March 2025 in VFDP-13 we scoped experiments and budget totalling $135K for the development of new chemical entities (NCE's).",
+      "page": 1
+    },
+    {
+      "title": "H1 2025 NCE Results / Target Hypothesis",
+      "description": "Following 2nd round of NCE testing and target discovery experiments at Newcastle in H1 2025, a strong hypothesis on two autophagy targets was established.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Following results in H1 we want to modify the plan and budget of the upcoming series of experiments to focus on computational optimisation with the now known targets.",
+      "page": 1
+    },
+    {
+      "title": "NCE Round 2 Completed at Newcastle",
+      "description": "2nd round of NCE testing and target discovery experiments completed at Newcastle University, identifying two key autophagy targets.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Following the 2nd round of NCE testing and target discovery experiments at Newcastle we found that we have a strong hypothesis of two targets that are causing increased autophagy.",
+      "page": 1
+    },
+    {
+      "title": "$56,620 of VFDP-13 Budget Spent",
+      "description": "To date, $56,620 of the $135K budgeted in VFDP-13 has been spent on experiments.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "To date we have spent $56,620 of the $135K budgeted in VFDP-13 and now we are replanning the next experiments.",
+      "page": 1
+    },
+    {
+      "title": "Cancellation of Previously Planned Experiments",
+      "description": "Cancellation of four experiment types previously approved in VFDP-13: (1) Worm longevity at Ora Biomedical, (2) Aging cell lines at Newcastle, (3) Worm healthspan at Magnitude Biosciences, (4) 3rd round SAR NCE Synthesis.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "cancelled",
+      "category": "research",
+      "source_quote": "We propose to cancel the other experiments that were approved in VFDP-13 that have not yet been conducted, specifically that is (1) Worm longevity at Ora Biomedical, (2) Aging cell lines at Newcastle, (3) Worm healthspan at Magnitude Biosciences, (4) 3rd round SAR NCE Synthesis.",
+      "page": 1
+    },
+    {
+      "title": "Additional siRNA Reagents Ordered at Newcastle",
+      "description": "Additional siRNA reagents ordered at Newcastle University at a cost of $3K, scheduled for August–December.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Additional siRNA reagents ordered @Newcastle | $3K | Aug-Dec",
+      "page": 1
+    },
+    {
+      "title": "Extension of MedChem Subcontract",
+      "description": "Extension of the medicinal chemistry subcontract with Dr Johannes Reynisson at $8K, scheduled for July–December.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "partnership",
+      "source_quote": "Extension of MedChem subcontract | $8K | Jul-Dec",
+      "page": 1
+    },
+    {
+      "title": "VITA-FAST Wallet Value as of 2 Sep 2025",
+      "description": "The VITA-FAST project wallet has a value of $147,500K (likely $147,500) as of 2nd September 2025, sufficient to fund the new plan.",
+      "date": "2025-09-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "The VITA-FAST project wallet currently has a value of $147,500K (as of 2nd Sep 2025 and accounting for allocated but unrealised costs).",
+      "page": 1
+    },
+    {
+      "title": "Project Data Update / Reporting in September",
+      "description": "A project data update to describe the results that led to the modified experiment plan conclusion will be given in September.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "A project data update to describe the results that led to this conclusion will be given in September.",
+      "page": 1
+    }
+  ],
+  "document_date": "2025-09-10"
 }

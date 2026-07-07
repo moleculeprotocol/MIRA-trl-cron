@@ -1,5 +1,6 @@
 {
   "file_path": "/mity-fission-bio-labs-report",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "Fission Bio is developing small molecule inhibitors targeting pathological mitochondrial fission by blocking the DRP1-FIS1 protein interaction to treat neurodegenerative diseases and chronic inflammation. The program has completed virtual screening of 48 billion compounds, confirmed 15 active hits in cellular assays, and is entering hit-to-lead optimization with planned in vivo validation in disease models by mid-2026.",
@@ -56,5 +57,107 @@
     "IP strategy: Composition of matter patents planned for novel scaffolds, three distinct classes (brain-penetrant, peripheral, tissue-restricted), clean FTO with de novo scaffolds",
     "Funding: $84,508 disbursed of $200K initial allocation, targeting ~$500K additional through IPT round",
     "Regulatory pathway: ALS lead indication for orphan drug designation, standard FDA IND pathway planned post lead optimization and safety profiling"
+  ],
+  "milestones": [
+    {
+      "title": "IP-NFT Minted",
+      "description": "An IP-NFT has been minted, with Cerebrum DAO serving as IP custodian for the Fission Bio program.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "An IP-NFT has been minted, and composition of matter patents are planned for novel DRP1-FIS1 inhibitor scaffolds following hit-to-lead optimization.",
+      "page": 2
+    },
+    {
+      "title": "Hit Confirmation Completed",
+      "description": "The team has completed hit confirmation, with 90 hits analyzed and 15 compounds confirmed active in primary mitoROS assays.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The team... has completed hit confirmation and entered early optimization.",
+      "page": 2
+    },
+    {
+      "title": "Early Optimization Initiated",
+      "description": "The program has entered early optimization following hit confirmation.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "The team... has completed hit confirmation and entered early optimization.",
+      "page": 2
+    },
+    {
+      "title": "Initial Funding Disbursement",
+      "description": "$84,508 disbursed to date out of $200,000 in initial funding allocated by Cerebrum DAO.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "With $200,000 in initial funding allocated by Cerebrum DAO ($84,508 disbursed to date)...",
+      "page": 2
+    },
+    {
+      "title": "IPT Community Funding Round",
+      "description": "Additional community funding anticipated through an IPT round targeting approximately $500,000.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "additional community funding anticipated through an IPT round targeting approximately $500,000",
+      "page": 2
+    },
+    {
+      "title": "New Compound Synthesis & Secondary Screening Completion",
+      "description": "Completion of new compound synthesis and secondary screening, with 300 additional compounds undergoing evaluation.",
+      "date": "2025-11",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Completion of new compound synthesis and secondary screening by November 2025, with 300 additional compounds undergoing evaluation",
+      "page": 2
+    },
+    {
+      "title": "Hit-to-Lead Optimization & IP Filings",
+      "description": "Hit-to-lead optimization and IP filings for novel DRP1-FIS1 inhibitor scaffolds, selecting three lead scaffolds for advancement.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Hit-to-lead optimization and IP filings for novel scaffolds in Q1 2026, selecting three lead scaffolds for advancement",
+      "page": 2
+    },
+    {
+      "title": "In Vivo Validation in Disease Models",
+      "description": "In vivo validation in ALS, Huntington's disease, and Alzheimer's disease iPSC-derived models.",
+      "date": "mid-2026",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "In vivo validation in ALS, Huntington's disease, and Alzheimer's disease iPSC-derived models by mid-2026",
+      "page": 2
+    },
+    {
+      "title": "FDA IND Pathway Filing",
+      "description": "Plans to follow the standard FDA IND pathway after completion of lead optimization, in vivo efficacy studies, and safety profiling, with ALS as the lead indication targeting orphan drug designation.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "plans to follow the standard FDA IND pathway after completion of lead optimization, in vivo efficacy studies, and safety profiling",
+      "page": 2
+    },
+    {
+      "title": "Seed Round Fundraising",
+      "description": "A seed round is planned contingent on hit-to-lead success. Cerebrum DAO holds 85% preferred stock in the operating company.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Cerebrum DAO holds 85% preferred stock in the operating company, with a seed round planned contingent on hit-to-lead success.",
+      "page": 3
+    }
   ]
 }

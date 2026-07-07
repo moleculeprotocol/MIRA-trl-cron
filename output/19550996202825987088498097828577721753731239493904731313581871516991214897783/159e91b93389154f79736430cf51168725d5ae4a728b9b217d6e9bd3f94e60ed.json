@@ -1,5 +1,6 @@
 {
   "file_path": "/updates-12",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document is a purely aesthetic architectural or interior design photograph showing a minimalist room with natural lighting, wooden flooring, and plant shadows. It contains no scientific, technical, or biotech-related content whatsoever.",
@@ -12,5 +13,6 @@
   "key_findings": [
     "This document contains no biotech, scientific, experimental, or technology development content relevant to TRL assessment",
     "The image is purely decorative/architectural in nature with no connection to life sciences research or product development"
-  ]
+  ],
+  "milestones": []
 }

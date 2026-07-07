@@ -1,5 +1,6 @@
 {
   "file_path": "/vdp18-periodontal.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "VitaDAO funding proposal for Dr. Jonathan An's research on using geroscience-based treatments (PI3K/NFkB/mTOR pathway inhibitors) to reverse age-related periodontal disease. The proposal requests $250k-$300k for preclinical mouse studies testing 5 small molecule candidates, building on prior rapamycin efficacy data. This is an early-stage preclinical project with established animal models.",
@@ -78,5 +79,87 @@
     "Commercialization intent: Spin-out company with VitaDAO support",
     "Independent evaluation: Strong scores on novelty/impact, feasibility, longevity relevance; unanimous funding recommendation",
     "Risk: No prior entrepreneurial experience, weaker IP type, extrapolation to general aging uncertain"
+  ],
+  "milestones": [
+    {
+      "title": "VDP-18 Funding Proposal Passed",
+      "description": "VitaDAO governance proposal VDP-18 requesting up to $300,000 USD to fund Jonathan An's geroscience-based research on periodontitis was passed by the VitaDAO community.",
+      "date": "4y ago",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "In VitaDAO · 4y ago · #84647",
+      "page": 1
+    },
+    {
+      "title": "eLife Rapamycin Paper Published",
+      "description": "Jonathan An's research group published an eLife paper (https://doi.org/10.7554/eLife.54318.sa2) demonstrating positive effects of 8-week treatment with oral rapamycin on age-related periodontal bone loss in mice, providing the basis for the current proposal.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The proposal is mainly based on a recent eLife paper (https://doi.org/10.7554/eLife.54318.sa2) by the research group, where they find positive effects of 8-week treatment with oral rapamycin in age-related periodontal bone loss in mice.",
+      "page": 2
+    },
+    {
+      "title": "Primary 8-Week Preclinical Study (Systemic Administration)",
+      "description": "Test 5 small molecule inhibitors of the PI3K/NFkB/mTOR pathway administered orally in chow over 8 weeks in a mouse model of age-related periodontitis, using rapamycin as a positive control. Will also address effects on cognitive function and lifespan.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Jonathan An's Lab proposes to use small molecule inhibitors of the PI3K/NFkB/mTOR pathway to treat periodontal disease, and will test 5 candidates administered orally in the chow in an 8-week study, using rapamycin as a positive control.",
+      "page": 2
+    },
+    {
+      "title": "Secondary Sub-Study (Local Delivery)",
+      "description": "If the first systemic study demonstrates efficacy, a second sub-study will test local delivery of effective compounds by brushing across the gum line, compared against locally delivered rapamycin.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "If this first study demonstrates that any of the small molecules is effective in reversing periodontal disease when administered systemically, a second sub-study will be carried out to test the effectiveness of their local delivery by brushing the interventions across the gum line, comparing them with locally delivered rapamycin.",
+      "page": 2
+    },
+    {
+      "title": "IP Generation from Preclinical Results",
+      "description": "Results from the proposed preclinical study will provide critical pre-clinical IP data to support a future company targeting periodontal disease through geroscience, with plans to spin out with VitaDAO support. IP expected to cover formulation and/or delivery methods.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Either result could be the base for novel IP regarding formulation and/or delivery methods to improve aging, inflammation, and periodontal disease.",
+      "page": 2
+    },
+    {
+      "title": "Spinout Company Formation",
+      "description": "Investigators intend to spin out a company targeting periodontal disease through geroscience, supported by VitaDAO, following generation of pre-clinical IP data.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Results from the proposed study will provide critical pre-clinical IP data to support a future company targeting periodontal disease through geroscience, which the investigator(s) intend to spin out with support from VitaDAO.",
+      "page": 2
+    },
+    {
+      "title": "Non-Human Primate Safety/Feasibility Studies",
+      "description": "If the lab observes an effect on lifespan and healthspan in mice, additional tests of feasibility and safety in non-human primates will begin for potential clinical application targeting aging.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "If Jonathan An's Lab observes an effect in lifespan and healthspan, additional test of feasibility and safety in other mammalian models (i.e., non-human primates) will begin for application in clinic to target aging.",
+      "page": 3
+    },
+    {
+      "title": "IP-NFT Funding Commitment by VitaDAO",
+      "description": "VitaDAO commits funding to the project via an IP-NFT mechanism, as recommended by the proposal.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "This proposal recommends VitaDAO commits funding via an IP-NFT.",
+      "page": 4
+    }
   ]
 }

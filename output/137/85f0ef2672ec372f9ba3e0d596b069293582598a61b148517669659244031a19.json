@@ -1,5 +1,6 @@
 {
   "file_path": "/athenadao-ovaria-ipt-update-docx.pdf",
+  "extraction_version": 2,
   "document_type": "presentation",
   "relevance": "medium",
   "summary": "This is an update slide about Ovaria IPT, a project from AthenaDAO focused on menopause prediction modeling. Gero AI developed machine learning models to predict age at natural menopause (ANM) using UK Biobank data, correcting for self-reporting biases. The work includes GWAS and Mendelian Randomization analysis linking menopause timing to disease risk.",
@@ -37,5 +38,6 @@
     "Target replication across multiple datasets provides some validation of computational findings",
     "No information on: therapeutic modality, drug candidates, cell/animal models, efficacy data, IP status, regulatory strategy, or development timeline",
     "Appears to be early discovery stage - computational target identification without experimental validation"
-  ]
+  ],
+  "milestones": []
 }

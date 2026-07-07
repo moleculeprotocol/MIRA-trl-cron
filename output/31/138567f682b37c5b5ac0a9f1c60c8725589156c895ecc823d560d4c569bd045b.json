@@ -1,5 +1,6 @@
 {
   "file_path": "/dr-jonothan-an-supporting-paper",
+  "extraction_version": 2,
   "document_type": "publication",
   "relevance": "high",
   "summary": "This is a research publication from eLife (2020) demonstrating that rapamycin (FDA-approved mTOR inhibitor) rejuvenates oral health in aged mice. The study shows regeneration of periodontal bone, reduction of inflammation, and restoration of youthful oral microbiome composition after 8 weeks of treatment in elderly mice. This represents TRL 3-4 evidence: validated in animal disease models with quantitative efficacy data across multiple endpoints.",
@@ -103,5 +104,238 @@
     "Effects replicated across two independent sites (University of Washington and Jackson Laboratory) with different mouse substrains (C57BL/6Nia vs C57BL/6J) and housing conditions, demonstrating robustness",
     "Rapamycin is already FDA-approved drug, enabling potential rapid translation to human clinical trials for periodontal disease",
     "Female C57BL/6 mice used; previous work shows this dose (42ppm) significantly extends lifespan in multiple mouse strains"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Manuscript Received by eLife",
+      "description": "The research article 'Rapamycin rejuvenates oral health in aging mice' was received by the journal eLife.",
+      "date": "2019-12-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Received: 10 December 2019",
+      "page": 1
+    },
+    {
+      "title": "Manuscript Accepted by eLife",
+      "description": "The research article was accepted for publication by eLife.",
+      "date": "2020-04-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Accepted: 17 April 2020",
+      "page": 1
+    },
+    {
+      "title": "Manuscript Published in eLife",
+      "description": "The research article 'Rapamycin rejuvenates oral health in aging mice' was published in eLife.",
+      "date": "2020-04-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Published: 28 April 2020",
+      "page": 1
+    },
+    {
+      "title": "Prior Rapamycin Periodontitis Study Published",
+      "description": "An earlier study demonstrating that aged mice treated with rapamycin have greater levels of periodontal bone than control animals was published.",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Consistent with that hypothesis, aged mice treated with rapamycin have greater levels of periodontal bone than control animals (An et al., 2017).",
+      "page": 2
+    },
+    {
+      "title": "Rapamycin Lifespan Extension Study (Harrison et al.)",
+      "description": "Landmark study demonstrating that rapamycin extends lifespan in mice when administered beginning at 9 or 20 months of age was published.",
+      "date": "2009",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "In mice, rapamycin extends lifespan when administered beginning at 9 or 20 months of age (Harrison et al., 2009)",
+      "page": 1
+    },
+    {
+      "title": "Short-term Rapamycin Lifespan Increase (Bitto et al.)",
+      "description": "Study demonstrating that short-term rapamycin treatments of 6–12 weeks during adulthood increase lifespan was published.",
+      "date": "2016",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "short-term treatments ranging from 6 to 12 weeks during adulthood have been shown to increase lifespan (Bitto et al., 2016)",
+      "page": 1
+    },
+    {
+      "title": "Rapamycin Cardiac Function Improvement Studies",
+      "description": "Studies demonstrating rapamycin improves cardiac function published (Flynn et al. 2013 and Dai et al. 2014).",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "improve cardiac function (Flynn et al., 2013; Dai et al., 2014)",
+      "page": 1
+    },
+    {
+      "title": "Rapamycin Immune Function Restoration Study (Chen et al.)",
+      "description": "Study showing rapamycin restores immune function as measured by vaccine response was published.",
+      "date": "2009",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "restore immune function as measured by vaccine response (Chen et al., 2009)",
+      "page": 1
+    },
+    {
+      "title": "Rapamycin in Companion Dogs Heart Function Studies",
+      "description": "Initial studies indicating mTORC1 inhibition may reverse declines in age-related heart function in companion dogs were published.",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Initial indications suggest that mTORC1 inhibition may also reverse declines in age-related heart function in companion dogs (Urfer et al., 2017a; Urfer et al., 2017b)",
+      "page": 1
+    },
+    {
+      "title": "Rapamycin Human Immune Function Study (Mannick et al. 2014)",
+      "description": "Study showing age-related immune function improvements with mTORC1 inhibition in humans was published.",
+      "date": "2014",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "age-related immune function (Mannick et al., 2014; Mannick et al., 2018) and skin aging (Chung et al., 2019) in humans.",
+      "page": 1
+    },
+    {
+      "title": "Rapamycin Human Skin Aging Study (Chung et al.)",
+      "description": "Topical rapamycin study reducing markers of senescence and aging in human skin published.",
+      "date": "2019",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "skin aging (Chung et al., 2019) in humans.",
+      "page": 1
+    },
+    {
+      "title": "NIA-UW Cohort Young Mice (6 months) Tissue Collection",
+      "description": "Young (6-month-old) NIA-UW mice were harvested for oral tissues and microbiome as normative aging controls.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "The Young and Adult cohorts were harvested for oral tissues and microbiome.",
+      "page": 3
+    },
+    {
+      "title": "NIA-UW Cohort Adult Mice (13 months) Tissue Collection",
+      "description": "Adult (13-month-old) NIA-UW mice were harvested for oral tissues and microbiome as normative aging controls.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "The Young and Adult cohorts were harvested for oral tissues and microbiome.",
+      "page": 3
+    },
+    {
+      "title": "8-Week Rapamycin Treatment of Aged Mice (NIA-UW and JAX Cohorts)",
+      "description": "Aged mice (~20 months old) were treated with 42ppm encapsulated rapamycin (eRAPA) or eudragit control for 8 weeks, with all animals harvested at ~22 months of age.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "The Old cohorts were randomized and either given Eudragit or 42ppm eRAPA within the food for 8 weeks. For the JAX colonies, an initial microCT image was taken prior to the 8 week treatment and then a final microCT before harvest. All animals were harvested at the end of 8 weeks, ~22 months old.",
+      "page": 3
+    },
+    {
+      "title": "JAX Cohort Initial microCT Imaging (Pre-treatment)",
+      "description": "Initial microCT imaging was performed on JAX cohort mice prior to the 8-week treatment period to establish baseline periodontal bone levels.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "For the JAX colonies, an initial microCT image was taken prior to the 8 week treatment and then a final microCT before harvest.",
+      "page": 3
+    },
+    {
+      "title": "JAX Cohort Final microCT Imaging (Post-treatment)",
+      "description": "Final microCT imaging was performed on JAX cohort mice after the 8-week treatment period to assess periodontal bone changes.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "For the JAX colonies, an initial microCT image was taken prior to the 8 week treatment and then a final microCT before harvest.",
+      "page": 3
+    },
+    {
+      "title": "16S rDNA Sequences Deposited at ENA",
+      "description": "The V4-16S rDNA sequences from the microbiome analysis were deposited at the European Nucleotide Archive (ENA) under study accession no. PRJEB35672.",
+      "date": "2019",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The V4-16S rDNA sequences in raw format, prior to post-processing and data analysis, have been deposited at the European Nucleotide Archive (ENA) under study accession no. PRJEB35672.",
+      "page": 13
+    },
+    {
+      "title": "Dataset Deposited in Dryad Digital Repository",
+      "description": "Study dataset 'Rapamycin rejuvenates oral health in aging mice' was deposited in the Dryad Digital Repository.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "An JY, Kerns KA... 2020 Rapamycin rejuvenates oral health in aging mice http://dx.doi.org/10.5061/dryad.f4qrfj6sn Dryad Digital Repository",
+      "page": 14
+    },
+    {
+      "title": "Future Study: Persistence of Rapamycin Effects on Periodontium",
+      "description": "Planned future studies to determine whether the effects of rapamycin on the aged periodontium will persist after the treatment period or revert back to the aged state.",
+      "date": "future studies",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "One such question is whether the effects of rapamycin on the aged periodontium will persist after the treatment period or will rapidly revert back to the aged state.",
+      "page": 7
+    },
+    {
+      "title": "Future Study: Local vs. Systemic Mechanism of Rapamycin",
+      "description": "Planned future studies to determine whether the oral health effects of rapamycin are mediated through local inhibition of mTORC1 in gingiva and periodontal bone or through systemic effects on immune function or other tissues.",
+      "date": "future studies",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "It will also be important in future studies to determine whether these effects are mediated through local inhibition of mTORC1 in the gingiva and periodontal bone or through systemic effects on immune function or other tissues.",
+      "page": 7
+    },
+    {
+      "title": "Future Study: Rapamycin Effect on Salivary Function",
+      "description": "Planned future investigation into whether additional features of oral health that decline with age, such as salivary function, are improved by rapamycin treatment.",
+      "date": "future studies",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Likewise, it will be of interest to understand whether additional features of oral health that are known to decline with age, such as salivary function, are improved by rapamycin treatment.",
+      "page": 7
+    },
+    {
+      "title": "Future Clinical Trial: Rapamycin for Gum Health in Humans",
+      "description": "A potential clinical trial to evaluate whether rapamycin has the same effects on gum health in humans as observed in mice, given rapamycin's existing FDA approval.",
+      "date": "future studies",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Rapamycin is already approved for use in people, so a clinical trial could reveal whether it has the same effects on gum health in humans as it does in mice.",
+      "page": 2
+    },
+    {
+      "title": "Cardiac Function Persistence Post-Rapamycin (Quarles et al. 2020)",
+      "description": "Publication demonstrating that improvements in age-related cardiac function from rapamycin treatment persist for at least 8 weeks following cessation of treatment.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Improvements in age-related cardiac function associated with a similar rapamycin treatment regimen have been found to persist for at least eight weeks following cessation of treatment (Quarles et al., 2020)",
+      "page": 7
+    }
+  ],
+  "document_date": "2020-04-28"
 }

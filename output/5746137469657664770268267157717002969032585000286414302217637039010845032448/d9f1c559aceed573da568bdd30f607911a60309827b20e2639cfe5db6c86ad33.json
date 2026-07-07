@@ -1,5 +1,6 @@
 {
   "file_path": "/Metabolic%20Peptides%3A%20Efficacy%20and%20Safety%20for%20Young%20Men-paper.pdf",
+  "extraction_version": 2,
   "document_type": "publication",
   "relevance": "medium",
   "summary": "This is an academic literature review examining incretin-based peptides for weight management in young men aged 20-30, published January 2026. It systematically analyzes FDA-approved GLP-1 agonists (semaglutide, tirzepatide), investigational agents (retatrutide, orforglipron, CagriSema), and non-approved performance peptides (growth hormone secretagogues, tissue repair peptides). The document focuses on clinical trial data, regulatory status, and risk-benefit analysis rather than original experimental research. While comprehensive, it is secondary literature reviewing existing clinical programs, not a primary research document describing novel discoveries or experiments at a specific TRL.",
@@ -152,5 +153,138 @@
     "Semaglutide and tirzepatide are FDA-approved for chronic weight management with established cardiovascular benefits; orforglipron (oral GLP-1) has FDA approval anticipated March 2026",
     "Major clinical trials predominantly enrolled older adults with obesity/T2DM; age-stratified analyses for men under 35 notably absent, creating knowledge gap for long-term safety in young healthy males",
     "Extreme weight loss from next-generation incretin agonists creates significant sarcopenia risk, critical but understudied concern for young men aiming to preserve metabolic health and physical function"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Semaglutide (Wegovy) FDA Approval for Chronic Weight Management",
+      "description": "Semaglutide received FDA approval for chronic weight management in adults with obesity or related comorbidities.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Semaglutide (Wegovy) and tirzepatide (Zepbound) are FDA-approved for chronic weight management and are legally prescribable for adults with obesity or related comorbidities.",
+      "page": 5
+    },
+    {
+      "title": "Tirzepatide (Zepbound) FDA Approval for Chronic Weight Management",
+      "description": "Tirzepatide received FDA approval for chronic weight management in adults with obesity or related comorbidities.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Semaglutide (Wegovy) and tirzepatide (Zepbound) are FDA-approved for chronic weight management and are legally prescribable for adults with obesity or related comorbidities.",
+      "page": 5
+    },
+    {
+      "title": "Semaglutide FDA Approval for Cardiovascular Risk Reduction",
+      "description": "Semaglutide became the first weight-loss drug also FDA-approved to reduce the risk of major adverse cardiovascular events in adults with established cardiovascular disease and obesity or overweight.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Semaglutide is the first weight-loss drug also FDA-approved to reduce the risk of major adverse cardiovascular events in adults with established cardiovascular disease and obesity or overweight.",
+      "page": 5
+    },
+    {
+      "title": "GLP-1 Agonist Dispensing Rate Surge in Young Adult Males",
+      "description": "Between 2020 and 2023, dispensing rates for GLP-1 receptor agonists increased by over 500% in young adult males.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Between 2020 and 2023, dispensing rates for GLP-1 receptor agonists increased by over 500% in young adult males.",
+      "page": 2
+    },
+    {
+      "title": "Retatrutide Phase 3 TRIUMPH-4 Trial Results",
+      "description": "The Phase 3 TRIUMPH-4 clinical trial demonstrated a mean weight reduction of 28.7% at 68 weeks with retatrutide 12 mg weekly subcutaneous injection in participants with obesity and concomitant knee osteoarthritis.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "The Phase 3 TRIUMPH-4 clinical trial provided definitive evidence of retatrutide's unprecedented efficacy in obesity management... participants receiving the highest dose of retatrutide (12 mg weekly subcutaneous injection) achieved a mean weight reduction of 28.7% from baseline.",
+      "page": 7
+    },
+    {
+      "title": "Retatrutide Projected FDA Approval",
+      "description": "Retatrutide (LY3437943) is projected to receive FDA approval in 2026–2027, contingent upon completion of the TRIUMPH program and regulatory review.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "The drug's potential approval in 2026–2027, contingent upon completion of the TRIUMPH program and regulatory review, would mark a pivotal moment in the evolution of metabolic medicine.",
+      "page": 9
+    },
+    {
+      "title": "Orforglipron Phase 3 Trial Results",
+      "description": "Orforglipron, an oral small-molecule GLP-1 agonist, demonstrated 12% weight loss in Phase 3 trials.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "oral small-molecule GLP-1 agonists such as orforglipron, which demonstrated 12% weight loss in Phase 3 trials with anticipated FDA approval by March 2026",
+      "page": 2
+    },
+    {
+      "title": "Orforglipron Anticipated FDA Approval",
+      "description": "Orforglipron, the leading oral GLP-1 candidate, is anticipated to receive FDA approval by March 2026.",
+      "date": "2026-03",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "oral small-molecule GLP-1 agonists such as orforglipron, which demonstrated 12% weight loss in Phase 3 trials with anticipated FDA approval by March 2026",
+      "page": 2
+    },
+    {
+      "title": "Pfizer Danuglipron Phase 2b Trial – Discontinuation of Twice-Daily Formulation",
+      "description": "Pfizer halted advancement of the twice-daily danuglipron formulation into Phase 3 studies due to intolerable gastrointestinal adverse events (>50% discontinuation rates), pivoting to a once-daily modified-release version.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "cancelled",
+      "category": "clinical",
+      "source_quote": "These high discontinuation rates, driven primarily by gastrointestinal toxicity rather than lack of efficacy, led Pfizer to halt advancement of the twice-daily formulation into Phase 3 studies and pivot toward developing a once-daily modified-release version.",
+      "page": 13
+    },
+    {
+      "title": "CagriSema REDEFINE 1 Trial Results",
+      "description": "The REDEFINE 1 trial demonstrated CagriSema achieved mean weight reductions of 20.4–22.7% at 68 weeks in patients with overweight or obesity without type 2 diabetes; 53.6% of patients achieved ≥20% weight loss.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "In the REDEFINE 1 trial, which enrolled patients with overweight or obesity without type 2 diabetes, CagriSema achieved mean weight reductions of 20.4–22.7% at 68 weeks, compared to only 2.3–3.0% with placebo.",
+      "page": 15
+    },
+    {
+      "title": "CagriSema REDEFINE 2 Trial Results",
+      "description": "The REDEFINE 2 trial demonstrated CagriSema achieved a mean weight reduction of 15.7% in patients with overweight or obesity and type 2 diabetes, with 73.5% of patients achieving HbA1c ≤6.5%.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "In the REDEFINE 2 trial, which studied patients with overweight or obesity and type 2 diabetes, CagriSema demonstrated a mean weight reduction of 15.7%, with 73.5% of patients achieving HbA1c ≤6.5%.",
+      "page": 15
+    },
+    {
+      "title": "FDA Classification of BPC-157, Ipamorelin, CJC-1295 as Category 2 Substances",
+      "description": "The FDA classified BPC-157, Ipamorelin, and CJC-1295 as Category 2 substances under the Interim Policy on Compounding Using Bulk Drug Substances, indicating 'significant safety risks' and legally prohibiting compounding pharmacies from preparing them for human use.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "The U.S. Food and Drug Administration has classified several popular non-GLP-1 peptides—including BPC-157, Ipamorelin, and CJC-1295—as Category 2 substances under the Interim Policy on Compounding Using Bulk Drug Substances.",
+      "page": 17
+    },
+    {
+      "title": "Retatrutide Projected Peak Sales",
+      "description": "Analysts project retatrutide's peak sales exceeding $15 billion annually, driven by unmet need for highly effective obesity treatments.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Analysts project peak sales exceeding $15 billion annually, driven by the unmet need for highly effective, well-tolerated obesity treatments.",
+      "page": 9
+    }
+  ],
+  "document_date": "2026-01-26"
 }

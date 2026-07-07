@@ -1,5 +1,6 @@
 {
   "file_path": "/vdp163-foxo3-proposal.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "VitaDAO funding proposal (VDP-163) for developing antisense oligonucleotide (AON) therapeutics targeting FOXO3 isoforms to treat degenerative disc disease (DDD). The proposal outlines a two-phase preclinical program with a go/no-go milestone. Phase 1 (covered by this funding request) includes AON design, validation in 2D cell culture, and testing in ex vivo organ-on-chip models. Budget: £219,846 (~$298k). IP ownership goes to VitaDAO. PI: Professor Lorna Harries (University of Exeter).",
@@ -154,5 +155,198 @@
     "Budget £219,846 ($297,805) covers: PDRA salary (£70,124 x 2 years), PI time (2hr/week, £18,371 x 2 years), reagents for AON synthesis (8 sequences), primary cells (HNPC, HAFC), tissue culture reagents, assay kits (Seahorse, immunofluorescence, luciferase reporter, ELISA, Western blot, qPCR), organ-on-chip system (£7,806)",
     "Safety considerations addressed: Local delivery limits systemic exposure; oligonucleotides are reversible (not permanent like gene therapy); defined sequence motifs screened to avoid inflammation/liver tox/complement activation; clinical safety monitoring via cardiac/hepatic/renal/respiratory markers and metabolic endpoints; many upstream FOXO regulators already have well-characterized safety profiles (MEK, AKT, SIRT1, mTOR inhibitors)",
     "Emerging biomarkers for DDD: GDF-15, IL-6, miR-155, miR-26a, ACAN, MMP2, MMP3, MMP7 have predictive/prognostic power for disease progression; can be combined with established clinical endpoints (spine MRI, CT, pain/mobility assessment)"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "VDP-146 Discourse Approval",
+      "description": "The predecessor proposal VDP-146 was approved on Discourse but did not reach quorum in the on-chain vote.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "This proposal is a revised version of VDP-146, which was approved on Discourse but did not reach quorum in the on-chain vote.",
+      "page": 1
+    },
+    {
+      "title": "VDP-163 Published for Community Comment",
+      "description": "The revised proposal VDP-163 was published on Discourse for community comments before being put up for vote on Snapshot.",
+      "date": "2025-08-01",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Paolo 1 August 1, 2025, 11:36pm … The proposal is published here for comments, before putting it up for vote on Snapshot.",
+      "page": 1
+    },
+    {
+      "title": "VitaDAO $50k Anchor Funding Commitment",
+      "description": "VitaDAO plans to provide $50,000 anchor funding for the IPT raise on the same terms as all contributors.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Plans an IPT raise with $50k anchor funding by VitaDAO",
+      "page": 1
+    },
+    {
+      "title": "SpineDAO Expression of Interest",
+      "description": "SpineDAO expressed interest in contributing funding and expertise to the project.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "partnership",
+      "source_quote": "Includes an expression of interest by SpineDAO to contribute funding and expertise",
+      "page": 1
+    },
+    {
+      "title": "IPT Raise Launch",
+      "description": "The project will be financed through the issuance of Intellectual Property Tokens (IPTs) on Bio Protocol's platform, anchored by a $50,000 commitment from VitaDAO.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "This project will be financed through the issuance of Intellectual Property Tokens (IPTs) on Bio Protocol's platform, anchored by a $50,000 commitment from VitaDAO on the same terms as all contributors, including aligned DAOs, such as SpineDAO.",
+      "page": 12
+    },
+    {
+      "title": "Phase 1 Research Start (Oligo Design and Validation)",
+      "description": "Start of Phase 1 IP Building Round, including Milestone 1a (AON design and validation in monolayer culture) and Milestone 1b (AON efficacy in 2D culture), to be funded by the current fundraise.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Phase 1: IP Building Round (to be covered by the current fundraise)",
+      "page": 7
+    },
+    {
+      "title": "Milestone 1a: AON Design and Validation in Monolayer Culture",
+      "description": "Design and validate antisense oligonucleotides (AONs) that effectively and specifically modulate FOXO3 isoform expression in human monolayer culture of primary fibroblasts, HNPC, and HAFC. Outcome: at least two lead AON candidates identified.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Milestone 1a: AON Design and Validation in Monolayer Culture … Identification of at least two lead AON candidates that demonstrate potent and specific modulation of FOXO3 isoforms and a reduction in senescence markers.",
+      "page": 7
+    },
+    {
+      "title": "Milestone 1b: AON Efficacy in 2D Culture",
+      "description": "Evaluate whether changes in FOXO3 isoform expression translate to a functional rescue of the senescent phenotype in cells relevant to DDD, including assessment of autophagy, mitochondrial function, and senescence markers.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Milestone 1b: Evaluate AON Efficacy in 2D Culture … This work will provide validation of the impact of our nascent therapeutics on the activity and subcellular localisation of FOXO3 isoforms, and on mitochondrial function, senescence kinetics, autophagy, and cell survival in human primary cell types relevant to DDD in 2D.",
+      "page": 7
+    },
+    {
+      "title": "Go/No-Go Decision Point (End of Year 1)",
+      "description": "After completing Milestones 1a and 1b, a go/no-go decision is made based on identification of AONs that robustly shift FOXO3 isoform ratios and produce a statistically significant improvement in at least two key markers of cellular health.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "→ Go-No/Go Point After Milestones 1a and 1b … Go/No-Go Point at the End of Year 1",
+      "page": 8
+    },
+    {
+      "title": "Milestone 2: AON Efficacy in Human ex vivo Model",
+      "description": "Evaluate the ability of AONs targeting specific FOXO3 isoforms to modulate markers of disc health and degeneration in a physiologically relevant ex vivo model of DDD, including organ-on-a-chip and primary human IVD explants.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Milestone 2: Evaluate AON Efficacy in a Human ex vivo Model … This work will generate validation data demonstrating the impact of FOXO3-targeted AONs on molecular and structural features of disc degeneration in a human-relevant ex vivo system.",
+      "page": 8
+    },
+    {
+      "title": "Initial Patent Filing",
+      "description": "Following completion of Phase 1 (in vitro and ex vivo data), an initial patent filing will be made covering the prototype oligonucleotides and their demonstrated activity.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "This would provide enough data to make an initial patent filing. … Initial filing",
+      "page": 10
+    },
+    {
+      "title": "Phase 2: Translation Round Start",
+      "description": "Phase 2 to be covered by a subsequent fundraise, involving oligo sequence and chemistry optimisation, in vivo PK/PD and toxicology studies in rodent DDD models via CRO.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Phase 2: Translation Round (to be covered by a subsequent fundraise) … Oligo sequence and chemistry optimisation",
+      "page": 9
+    },
+    {
+      "title": "In vivo Dataset and Ex vivo Human Tissue Explants",
+      "description": "Generation of in vivo dataset and ex vivo human tissue explant data as part of Phase 2 activities.",
+      "date": "2027",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Ex vivo human tissue explants … In vivo dataset [shown at 2027 on Figure 4 timeline]",
+      "page": 10
+    },
+    {
+      "title": "Rodent PK/PD Study",
+      "description": "In vivo PK/PD study in rodent DDD model to assess biodistribution and gross toxicology, and determine whether naked oligos in saline can be delivered to target cells and organs.",
+      "date": "2027",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "PK/PD in mouse … Rodent PK/PD study [shown at 2027-2028 on Figure 4 timeline]",
+      "page": 10
+    },
+    {
+      "title": "IP Patent Claims Bolstered by In Vivo Data",
+      "description": "Within 12 months after initial patent filing, claims to be bolstered by provision of additional data from in vivo model systems, contingent on further funding.",
+      "date": "within 12 months of initial filing",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Following initial filing, claims would be bolstered by provision of additional data from in vivo model systems within the following 12 months, but this would be contingent on further funding.",
+      "page": 6
+    },
+    {
+      "title": "Second Animal (NHP) PK/PD Study",
+      "description": "Second animal PK/PD study in non-human primates (NHP) as part of the preclinical development path.",
+      "date": "2028",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Second animal PK/PD study (NHP) [shown at 2028 on Figure 4 timeline]",
+      "page": 10
+    },
+    {
+      "title": "Toxicology and CMC Package",
+      "description": "Toxicology and CMC packages to be undertaken in two mammalian species once a candidate molecule is identified, as part of the preclinical package toward IND.",
+      "date": "2028",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "cmc",
+      "source_quote": "Tox and CMC [shown at 2028-2029 on Figure 4 timeline] … CMC and toxicology packages (traditionally in 2 mammalian species) are undertaken somewhat later for AON drugs.",
+      "page": 10
+    },
+    {
+      "title": "IND Application",
+      "description": "Target submission of an Investigational New Drug (IND) application following completion of the preclinical package (CMC, safety toxicology, PK/PD).",
+      "date": "2029",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "IND application [shown at 2029 on Figure 4 timeline] … Milestones and estimated timing to eventual IND approval are given.",
+      "page": 10
+    },
+    {
+      "title": "Human Phase 1 Clinical Trial",
+      "description": "Entry into Human Phase 1 clinical trials following IND approval, as the end goal of the overall development path.",
+      "date": "2029",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Human phase 1 [shown at 2029 on Figure 4 timeline]",
+      "page": 10
+    }
+  ],
+  "document_date": "2025-08-01"
 }

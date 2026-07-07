@@ -1,5 +1,6 @@
 {
   "file_path": "/claw-percepta-labs-report",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "Percepta is developing an at-home cognitive monitoring platform combining digital biomarkers with blood-based pTau-217 testing for early brain health detection. The project has completed preclinical validation showing significant reductions in amyloid and tau aggregation in vitro and positive rodent model results. An IRB-approved human clinical study is planned to begin recruitment in September 2025, funded through a tokenized IP-NFT DeSci model.",
@@ -70,5 +71,107 @@
     "No safety concerns identified in preclinical models; botanical ingredients have established dietary use",
     "Potential regulatory pathway through FDA botanical drug approach pending clinical efficacy data",
     "Team includes PI Dr. Mark Melnykowycz, operating through Reputable Health CRO and BIO.xyz"
+  ],
+  "milestones": [
+    {
+      "title": "Study Protocol Finalization",
+      "description": "Completion of the clinical study protocol finalization, establishing the design for the non-therapeutic, structure-function trial evaluating biomarker and cognitive function changes.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "has completed study protocol finalization and IRB submission.",
+      "page": 1
+    },
+    {
+      "title": "IRB Submission",
+      "description": "Submission of the study protocol to the Institutional Review Board (IRB) for review and approval.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "has completed study protocol finalization and IRB submission.",
+      "page": 1
+    },
+    {
+      "title": "Biomarker Panel Expansion",
+      "description": "Expansion of the biomarker panel to include pTau-217 quantification using the Simoa ALZpath assay.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The biomarker panel has been expanded to include pTau-217 quantification using the Simoa ALZpath assay.",
+      "page": 1
+    },
+    {
+      "title": "Home-Use Blood Collection Device Validation",
+      "description": "Ongoing validation of the home-use blood collection device to support remote, decentralized sample collection.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "clinical",
+      "source_quote": "device validation for home-use blood collection is underway.",
+      "page": 2
+    },
+    {
+      "title": "Small-Scale Commercial Manufacturing",
+      "description": "Small-scale commercial production of the supplement is already operational for the supplement market, demonstrating manufacturing feasibility.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "Small-scale commercial production is already operational for the supplement market, demonstrating manufacturing feasibility.",
+      "page": 2
+    },
+    {
+      "title": "Committed Funding Secured",
+      "description": "Over $418,000 in committed funding secured across multiple initiatives to support program development.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "With over $418,000 in committed funding across multiple initiatives, the program has reached critical development milestones.",
+      "page": 2
+    },
+    {
+      "title": "IRB Final Approval",
+      "description": "Expected receipt of final IRB approval for the clinical study.",
+      "date": "2025-09-15",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "IRB final approval expected September 15, 2025",
+      "page": 2
+    },
+    {
+      "title": "Subject Recruitment Start",
+      "description": "Beginning of subject recruitment for the clinical study evaluating biomarker and cognitive function changes.",
+      "date": "2025-09-16",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Subject recruitment beginning September 16, 2025",
+      "page": 2
+    },
+    {
+      "title": "First Data Collection",
+      "description": "Scheduled first data collection for the clinical study, marking the start of active participant data gathering.",
+      "date": "2025-11-01",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "First data collection scheduled for November 1, 2025",
+      "page": 2
+    },
+    {
+      "title": "IP-NFT Crowdsale Tokenization",
+      "description": "First crowdsale-backed tokenization of a brain health patent portfolio through an IP-NFT structure, representing a DeSci funding model for the Cognitive Clarity patent portfolio.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "This represents the first crowdsale-backed tokenization of a brain health patent portfolio through an IP-NFT structure, pioneering a new model for decentralized science (DeSci) funding.",
+      "page": 1
+    }
   ]
 }

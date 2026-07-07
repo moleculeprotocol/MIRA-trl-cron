@@ -1,5 +1,6 @@
 {
   "file_path": "/transfidelity-labs-report",
+  "extraction_version": 2,
   "document_type": "project_announcement",
   "relevance": "high",
   "summary": "Transfidelity is a research program targeting neurodegenerative diseases by enhancing ribosomal translation fidelity to prevent protein misfolding upstream rather than addressing downstream aggregation. The University of Zurich team has completed early-stage preclinical discovery with two hit compounds demonstrating reduced translational errors in HEK293 cells. The program has secured $254,000 in funding since August 2024 and is advancing toward validation in neuronal models.",
@@ -60,5 +61,67 @@
     "No competing translational fidelity modulators in clinical development - potential first-in-class",
     "Team at University of Zurich/Basel with multidisciplinary expertise",
     "Primary experiments in cell culture (HEK293), disease-relevant models (iPSC neurons) planned but not yet executed"
+  ],
+  "milestones": [
+    {
+      "title": "Initial Funding Secured",
+      "description": "$254,000 in funding secured for the Transfidelity research program since August 2024.",
+      "date": "2024-08",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "With $254,000 in funding secured since August 2024, the program is targeting three critical milestones:",
+      "page": 2
+    },
+    {
+      "title": "Early-Stage Preclinical Discovery Completed",
+      "description": "The University of Zurich team completed early-stage preclinical discovery, including identification of two hit compounds and their chemical evaluation and red-flag analysis.",
+      "date": "2024-08",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "The University of Zurich team, led by Dr. Dimitri Scherbakov and including experts in molecular biology, translation control, proteostasis, neurodegeneration models, and medicinal chemistry from the University of Basel, has completed early-stage preclinical discovery. Both hit compounds have undergone chemical evaluation and red-flag analysis.",
+      "page": 1
+    },
+    {
+      "title": "Pathway Profiling & Proteostasis Assessment (Ongoing)",
+      "description": "The team is currently conducting pathway profiling and proteostasis assessment to understand the full mechanism of action of the two hit compounds.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "The team is now conducting pathway profiling and proteostasis assessment to understand the full mechanism of action.",
+      "page": 2
+    },
+    {
+      "title": "iPSC-Derived Neuronal Model Validation",
+      "description": "Planned milestone to demonstrate reduced protein aggregation in human iPSC-derived neuronal models to validate the approach in disease-relevant cell types.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Demonstrating reduced protein aggregation in human iPSC-derived neuronal models to validate the approach in disease-relevant cell types",
+      "page": 2
+    },
+    {
+      "title": "Mechanism of Action Elucidation",
+      "description": "Planned milestone to elucidate mechanism of action through proteomic and transcriptomic profiling to identify the exact molecular targets and pathways involved.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Elucidating mechanism of action through proteomic and transcriptomic profiling to identify the exact molecular targets and pathways involved",
+      "page": 2
+    },
+    {
+      "title": "Hit-to-Lead Optimization & Target Product Profile Definition",
+      "description": "Planned milestone to define the target product profile and advance to hit-to-lead optimization in preparation for medicinal chemistry campaigns and eventual animal studies.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Defining the target product profile and advancing to hit-to-lead optimization in preparation for medicinal chemistry campaigns and eventual animal studies",
+      "page": 2
+    }
   ]
 }

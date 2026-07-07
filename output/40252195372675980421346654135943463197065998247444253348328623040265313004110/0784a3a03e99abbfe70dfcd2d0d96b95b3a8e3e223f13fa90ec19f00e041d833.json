@@ -1,5 +1,6 @@
 {
   "file_path": "/OX2R-004_PreIND_v2.1.pdf",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "high",
   "summary": "Pre-IND computational feasibility assessment for OX2R-004, an 18-residue peptide agonist targeting Orexin Receptor 2 for ADHD. The report evaluates the candidate through an 8-gate pipeline (G1-G8) covering conformational sampling, binding, dynamics, stability, developability, and toxicity. Key findings: proteolytic instability (G6 Fail, t1/2 ~5 min), OX1R cross-reactivity concern (90-100% pocket conservation), low immunogenicity risk (MHCFlurry upgrade), and deferred molecular dynamics due to GPU compute gap. A stabilized variant (OX2R-004-S1) with D-amino acids and N-acetylation improves half-life to ~55 min. Document is at TRL 1-2: computational design complete, no experimental validation yet (G9 proposed).",
@@ -149,5 +150,218 @@
     "No clinical precedent for peptide OX2R agonists; all clinical-stage agonists are small molecules (TAK-861 pEC50 8.6/~2.5 nM, ORX750 Phase 1, BP1.15205 Phase 1) for narcolepsy not ADHD",
     "BBB penetration gap requires dedicated nose-to-brain PK study: intranasal delivery biologically plausible (MW 1,980 Da within permissive window between oxytocin 1,007 Da and orexin-A 3,562 Da) but experimentally unproven; recommended chitosan nanoparticle formulation (91% DTP%, 6.2× brain targeting efficiency in rats); proposed study in Sprague-Dawley rats with 5 groups, LC-MS/MS bioanalysis across plasma/CSF/hypothalamus/olfactory bulb",
     "Current TRL assessment: TRL 1-2 (computational design complete, no experimental data, primary risks identified: proteolytic instability and OX1R cross-reactivity)"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Gates G1–G2 Conformational Sampling Completed",
+      "description": "Gates G1 (sequence validation) and G2 (conformational sampling) were completed in prior computational cycles. G2 identified 2 conformational clusters with primary cluster dominance confirmed.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gates G1 and G2 were completed in prior computational cycles. G2 identified 2 conformational clusters from ensemble sampling, with primary cluster dominance confirmed. These gates are considered Passed.",
+      "page": 3
+    },
+    {
+      "title": "BP1.15205 Phase 1 Initiated",
+      "description": "Harmony Biosciences initiated Phase 1 first-in-human study for BP1.15205, a clinical-stage small molecule OX2R agonist for narcolepsy.",
+      "date": "2025-11",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "BP1.15205 Harmony Small molecule 1 Initiated Nov 2025 [10]",
+      "page": 2
+    },
+    {
+      "title": "Gate G3 Structural Complex Analysis — Provisional Pass",
+      "description": "G3 evaluated using PDB 7L1U fallback (OX2R–Orexin-B–Gi complex at 3.2 Å resolution) due to HPC queue delays for Boltz-2 co-fold. BSA of 856 Å² exceeded the 800 Å² threshold; iPTM and direct contact conservation remain unavailable.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "G3 achieved Provisional Pass with buried surface area of 856 Å² exceeding the 800 Å² threshold, but iPTM and direct contact conservation for OX2R-004 remain unavailable.",
+      "page": 1
+    },
+    {
+      "title": "Gate G4 PRODIGY Binding Energy — Pending",
+      "description": "PRODIGY run on truncated 9-residue Orexin-B fragment returned ΔG = −6.8 kcal/mol, an artifact of incomplete ligand resolution. G4 will be re-evaluated once the Boltz-2 OX2R-004 complex is available.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "G4 is Pending: PRODIGY returned ΔG = −6.8 kcal/mol on the truncated 9-residue Orexin-B fragment, an artifact of incomplete ligand resolution rather than weak binding.",
+      "page": 1
+    },
+    {
+      "title": "Gate G5 MD Exploratory Campaign 1 (v2.0) — CPU Only",
+      "description": "Exploratory CPU-only MD simulation: 40 ps/1 replicate, GBNeck2 implicit solvent, trimmed 49-residue receptor shell. Scientifically insufficient for a gate verdict.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Campaign 1 (v2.0): OpenMM 8.4, AMBER ff14SB, GBNeck2 implicit solvent, trimmed 49-residue receptor shell (12 Å around binding pocket), geometric peptide placement, 1 replicate, 40 ps.",
+      "page": 6
+    },
+    {
+      "title": "Gate G5 MD Exploratory Campaign 2 (v2.1) — Vacuum",
+      "description": "Exploratory CPU-only MD simulation: 3 replicates × ~0.33 ns in vacuum, AMBER ff14SB, 1,931 total atoms. Scientifically insufficient for a gate verdict due to methodological limitations.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Campaign 2 (v2.1): OpenMM 8.4, AMBER ff14SB, vacuum (NoCutoff, no solvent, no membrane), trimmed 103-residue receptor shell (15 Å around binding pocket), geometric peptide placement, 3 replicates with independent random seeds, 1,931 total atoms.",
+      "page": 6
+    },
+    {
+      "title": "Gate G5 GPU MD Production Run — Planned for v2.2",
+      "description": "Full 3×100 ns GPU-accelerated molecular dynamics production run (AMBER ff14SB, TIP3P, POPC membrane, PME, NPT at 310 K, ~150,000-atom system). Estimated completion within 48 hours from GPU provisioning. Results to be reported in v2.2.",
+      "date": "48 hours from GPU provisioning",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Estimated completion: 48 hours from GPU provisioning. Results in v2.2.",
+      "page": 2
+    },
+    {
+      "title": "Gate G6 Proteolytic Stability — Failed",
+      "description": "Proteolytic stability assessment failed. Estimated serum half-life approximately 5 minutes with 5 primary cleavage sites (trypsin + chymotrypsin), well below the >2 hr threshold.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate G6 (proteolytic stability) Failed: estimated serum half-life of approximately 5 minutes with 5 primary cleavage sites.",
+      "page": 1
+    },
+    {
+      "title": "Gate G7c Immunogenicity Upgrade to MHCFlurry 2.1.5",
+      "description": "G7c immunogenicity screening upgraded from coarse anchor-residue analysis to MHCFlurry 2.1.5 across 13 HLA alleles and 494 peptide–allele combinations. Zero strong binders, 14 weak binders identified. Immunogenicity risk reclassified from High to Low-to-Moderate.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "(5) MHCFlurry 2.1.5 immunogenicity screening across 13 HLA alleles and 494 peptide–allele combinations (zero strong binders, 14 weak binders, low immunogenicity risk).",
+      "page": 1
+    },
+    {
+      "title": "Gate G8 Toxicity — Passed",
+      "description": "Toxicity assessment passed with score 0.0/1.0 (high confidence non-toxic). OX1R selectivity raised a Concern: 90–100% binding pocket residue conservation between OX2R and OX1R.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate G8 passed toxicity but raised a selectivity Concern: structural alignment of OX2R and OX1R binding pockets revealed 90–100% residue conservation at key contact positions.",
+      "page": 1
+    },
+    {
+      "title": "Boltz-2 Co-Fold of OX2R-004-S1 Submitted — Pending",
+      "description": "Boltz-2 co-fold job for stabilised variant OX2R-004-S1 submitted (Job ID ee3f3896) and currently queued in HPC queue. iPTM, pLDDT, and contact conservation metrics are pending.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Pending: Boltz-2 co-fold of OX2R-004-S1 (Job ID ee3f3896, queued).",
+      "page": 2
+    },
+    {
+      "title": "OX2R-004-S1 Stabilised Variant Design Completed",
+      "description": "Stabilised variant OX2R-004-S1 designed with N-terminal acetylation, D-Arg4, and D-Tyr5 modifications. Protease cleavage analysis completed showing reduction from 34 to 28 total cleavage sites and estimated serum half-life improvement from ~15 min to ~55 min.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "(1) Protease cleavage comparison of OX2R-004 vs. OX2R-004-S1, showing reduction from 34 to 28 total cleavage sites and estimated serum half-life improvement from ∼15 min to ∼55 min",
+      "page": 1
+    },
+    {
+      "title": "ADMET Profiling Completed for OX2R-004 and OX2R-004-S1",
+      "description": "ADMET profiling completed for both peptides (Caco-2, hERG, CYP3A4, BBB, renal clearance) with appropriate caveats for peptide applicability domain.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "(2) ADMET profiling of both peptides with appropriate caveats for peptide applicability (Caco-2, hERG, CYP3A4, BBB, renal clearance)",
+      "page": 1
+    },
+    {
+      "title": "CamSol Solubility Assessment Completed",
+      "description": "CamSol solubility assessment completed for OX2R-004 and OX2R-004-S1. Both peptides classified as Soluble with average score 0.159.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "(3) CamSol solubility assessment (both peptides classified as Soluble, average score 0.159)",
+      "page": 1
+    },
+    {
+      "title": "AGGRESCAN Aggregation Propensity Assessment Completed",
+      "description": "AGGRESCAN aggregation propensity assessment completed. Average a3v = −0.074, indicating low aggregation risk for both peptides.",
+      "date": "2026-04-17",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "(4) AGGRESCAN aggregation propensity (average a3v = −0.074, low risk)",
+      "page": 1
+    },
+    {
+      "title": "Computational Re-Evaluation of G3, G4, G8b — Planned",
+      "description": "Once Boltz-2 co-folded structures become available, re-evaluate G3 (iPTM and contact conservation for OX2R-004), G4 (PRODIGY on actual OX2R/OX2R-004 complex), and G8b (co-fold OX1R + OX2R-004). These should precede wet-lab commitment.",
+      "date": "pending Boltz-2 structure availability",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "When the Boltz-2 co-folded structure becomes available, G3, G4, and G8b should all be re-evaluated. These computational re-evaluations should precede wet-lab commitment.",
+      "page": 15
+    },
+    {
+      "title": "G9a Binding Affinity Experiment (Adaptyv Bio BLI) — Planned",
+      "description": "Proposed first go/no-go binding experiment via cell-free protein synthesis (CFPS) + biolayer interferometry (BLI) at Adaptyv Bio to determine OX2R Kd, kon, koff. Estimated cost $500–600. OX1R selectivity binding run in parallel.",
+      "date": "pending Boltz-2 structure availability",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Experimental validation (G9) is proposed pending Boltz-2 structure availability, with a minimal viable binding experiment cost of $500–600 (Adaptyv Bio BLI panel) and full G9 cost of $1,000–1,500.",
+      "page": 2
+    },
+    {
+      "title": "G9b Functional Agonism Assay (Ginkgo Bioworks cAMP HTRF) — Planned",
+      "description": "Proposed functional activity assay via cAMP HTRF at Ginkgo Bioworks to determine OX2R EC50 and Emax vs. Orexin-B as reference full agonist. OX1R functional selectivity run in parallel. Full G9 cost $1,000–1,500; turnaround 4–6 weeks.",
+      "date": "4–6 weeks from start",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Full G9 including functional assay: $1,000–1,500. This represents the minimal viable experimental commitment before entering a stabilisation cycle. Turnaround: 4–6 weeks (assays); 2 weeks (serum stability).",
+      "page": 15
+    },
+    {
+      "title": "Serum Stability LC-MS Assay — Planned",
+      "description": "LC-MS-based degradation kinetics to confirm proteolytic half-life. CRO to be determined. Turnaround approximately 2 weeks.",
+      "date": "2 weeks from start",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Turnaround: 4–6 weeks (assays); 2 weeks (serum stability).",
+      "page": 15
+    },
+    {
+      "title": "Pre-IND Nose-to-Brain PK Study — Planned",
+      "description": "Proposed rodent (Sprague-Dawley) nose-to-brain PK study with 5 groups including IN OX2R-004, IN OX2R-004-S1, IN OX2R-004-S1 in chitosan nanoparticles, IV OX2R-004-S1 comparator, and IN vehicle control. Sampling at 5, 15, 30, 60, 120 min across multiple CNS matrices.",
+      "date": "pre-IND",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "CNS delivery feasibility requires a dedicated rodent nose-to-brain PK study... Proposed pre-IND nose-to-brain PK study: Adult Sprague-Dawley rats (n = 6/timepoint/group).",
+      "page": 17
+    },
+    {
+      "title": "Report v2.2 Publication — Planned",
+      "description": "Next report version (v2.2) to include Gate G5 molecular dynamics results following GPU provisioning and completion of 3×100 ns production simulations.",
+      "date": "48 hours from GPU provisioning",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Upon GPU availability, the complete 3 × 100 ns campaign including equilibration, production, and automated analysis is estimated to complete within 48 hours, with results compiled into report version v2.2.",
+      "page": 8
+    }
+  ],
+  "document_date": "2026-04-17"
 }

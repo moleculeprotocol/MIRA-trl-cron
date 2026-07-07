@@ -1,5 +1,6 @@
 {
   "file_path": "/primadonna-science-update.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "PrimaDonna is an enamel regeneration project by Molecule Labs (Sept 2025) using stem-cell-derived oral epithelial organoids that produce enamel proteins (amelogenin, enamelin, ameloblastin). The project has demonstrated in vitro protein production, mineralization in lab experiments, and animal model validation showing enamel-like mineral deposition. Next steps focus on scaling production and benchmarking against natural enamel.",
@@ -68,5 +69,88 @@
     "Current stage: Transitioning from proof-of-concept to reproducible high-yield culture production (scaling phase)",
     "Next critical milestones: large-batch production protocols, benchmarking against natural enamel, preclinical durability and tissue integration studies",
     "No regulatory pathway, clinical data, IP status, team information, or quantitative experimental results provided"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "In Vitro Enamel Protein Production",
+      "description": "Achieved in vitro production of key enamel proteins: Amelogenin, Enamelin, and Ameloblastin using stem-cell derived oral epithelial organoids.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Achieved in vitro production of enamel proteins: - Amelogenin - Enamelin - Ameloblastin",
+      "page": 2
+    },
+    {
+      "title": "Stem-Cell Derived Oral Epithelial Organoid Development",
+      "description": "Developed stem-cell derived oral epithelial organoids that reproduce key steps of ameloblast differentiation.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Breakthrough: Developed stem-cell derived oral epithelial organoids • Organoids reproduce key steps of ameloblast differentiation",
+      "page": 2
+    },
+    {
+      "title": "In Vitro Mineralization Demonstration",
+      "description": "Mineralization demonstrated in lab experiments, confirming enamel-like mineral deposition.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Mineralization demonstrated in lab experiments",
+      "page": 3
+    },
+    {
+      "title": "Animal Model Validation",
+      "description": "Animal model validation completed with enamel-like mineral deposition confirmed.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Animal model validation: enamel-like mineral deposition confirmed",
+      "page": 3
+    },
+    {
+      "title": "Scale-Up to Reproducible High-Yield Cultures",
+      "description": "Transitioning from small-scale proof-of-concept to reproducible, high-yield organoid cultures with optimized culture stability and consistency.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "From small-scale proof-of-concept → reproducible, high-yield cultures • Optimizing culture stability & consistency",
+      "page": 4
+    },
+    {
+      "title": "Large-Batch Production Protocol Refinement",
+      "description": "Refine large-batch production protocols for organoid-derived enamel.",
+      "date": "next steps",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Refine large-batch production protocols",
+      "page": 5
+    },
+    {
+      "title": "Benchmarking Organoid-Derived vs. Natural Enamel",
+      "description": "Benchmark organoid-derived enamel against natural enamel to validate quality and equivalence.",
+      "date": "next steps",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Benchmark organoid-derived enamel vs. natural enamel",
+      "page": 5
+    },
+    {
+      "title": "Preclinical Durability & Integration Studies",
+      "description": "Establish preclinical durability and integration of organoid-derived enamel into dental tissue.",
+      "date": "next steps",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Establish preclinical durability & integration into dental tissue",
+      "page": 5
+    }
+  ],
+  "document_date": "2025-09"
 }

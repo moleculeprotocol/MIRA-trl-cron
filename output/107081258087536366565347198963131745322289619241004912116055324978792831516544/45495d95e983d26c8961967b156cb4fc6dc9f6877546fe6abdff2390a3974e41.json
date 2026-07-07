@@ -1,5 +1,6 @@
 {
   "file_path": "/PsyDAO-Brand-Assets-Link.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document is a title page or cover sheet for 'PsyDAO Brand Assets' with a Google Drive link and a purple logo. It contains no scientific, experimental, or technical information relevant to technology readiness assessment.",
@@ -15,5 +16,6 @@
     "This is a brand assets reference document with no scientific or technical content",
     "No experimental data, research findings, development information, or TRL-relevant details are present",
     "Document serves only as a pointer to external brand asset resources"
-  ]
+  ],
+  "milestones": []
 }

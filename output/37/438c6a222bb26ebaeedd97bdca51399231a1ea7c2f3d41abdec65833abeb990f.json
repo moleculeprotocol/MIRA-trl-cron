@@ -1,5 +1,6 @@
 {
   "file_path": "/screenshot-2025-08-21-at-13-13-21.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document is a GraphQL IDE interface screenshot showing code syntax and an error message. It contains no scientific, technical, or business information relevant to biotech TRL assessment. The visible content includes GraphQL query syntax examples, code completion shortcuts, and a JSON syntax error message.",
@@ -17,5 +18,6 @@
     "This is not a biotech/science document - it is a software development interface screenshot",
     "No experimental data, scientific findings, or TRL-relevant information present",
     "Document shows GraphQL query syntax and a JSON parsing error only"
-  ]
+  ],
+  "milestones": []
 }

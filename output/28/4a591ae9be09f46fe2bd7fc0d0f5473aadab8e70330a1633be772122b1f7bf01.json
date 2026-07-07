@@ -1,5 +1,6 @@
 {
   "file_path": "/customized-transfection-test-with-3-vectors-in-calu-6-cell-line-p250903-1038mva.pdf",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "medium",
   "summary": "VectorBuilder transfection experiment report testing three vectors (two clinical-compatible, one control) in Calu-6 cancer cell line. Western blot analysis demonstrates successful p53 protein expression 72 hours post-transfection in all three experimental vectors and G418 selection group, with fluorescence imaging confirming transfection efficiency.",
@@ -54,5 +55,48 @@
     "Transfection efficiency demonstrated: Control vector with dual fluorescent markers (EGFP/mCherry) shows robust expression confirming cell permeability and transcriptional activity",
     "Selection marker validation: G418 treatment control also shows p53 expression, supporting stable transfection capability",
     "TRL indicator: This represents in vitro cell culture validation (TRL 2-3 boundary) - functional gene delivery to disease-relevant cancer cell line with protein expression confirmation, but limited to single cell line and single timepoint without functional outcome measures (apoptosis, proliferation, tumor suppression)"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Customized Transfection Test Report Published",
+      "description": "VectorBuilder issued a customized transfection test report for 3 vectors (VB240514-1548ggn, VB250610-1157tpv, VB250610-1162rmu) in Calu-6 cell line, covering imaging and Western Blot results.",
+      "date": "2025-10-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2025/10/28 Customized transfection test with 3 vectors in Calu-6 cell line S250924-1038amb/P250903-1038mva",
+      "page": 1
+    },
+    {
+      "title": "Cell Harvest (72h Post-Transfection)",
+      "description": "Cells were harvested 72 hours after transduction for imaging and Western Blot analysis.",
+      "date": "72h after transduction",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Harvest cell time: 72h after transduction",
+      "page": 4
+    },
+    {
+      "title": "Fluorescence Imaging at 72h Post-Transfection",
+      "description": "Fluorescence microscopy images were captured 72 hours after transfection, confirming successful transfection of the control vector VB181204-1110ybw (mCherry/EGFP expression observed).",
+      "date": "72h after transduction",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Images(72 hours after transfection)",
+      "page": 5
+    },
+    {
+      "title": "Western Blot p53 Expression Confirmed",
+      "description": "Western Blot results confirmed p53 expression in all three experimental vector transfection groups (VB240514-1548ggn, VB250610-1157tpv, VB250610-1162rmu) and in the G418 induction group, indicating successful experiment.",
+      "date": "2025-10-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "According to the Western Blot results, p53 expression was detected in all three experimental vector transfection groups, and the p53 expression was also detected in the G418 induction group, indicating that the experiment was successful.",
+      "page": 7
+    }
+  ],
+  "document_date": "2025-10-28"
 }

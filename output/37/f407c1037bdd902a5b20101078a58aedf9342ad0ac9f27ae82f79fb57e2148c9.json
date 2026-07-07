@@ -1,5 +1,6 @@
 {
   "file_path": "/screenshot-2025-08-18-at-09-43-07.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document is a technical code documentation page showing an API or data structure interface for 'CreateDatasetResultMissingInputs'. It displays programming fields including missingInputs (array of strings), isSuccess (boolean), and message (string), implementing CreateDatasetFromSnapshotResult.",
@@ -14,5 +15,6 @@
     "This is software development documentation, not scientific or biotech research content",
     "Contains no experimental data, biological information, or technology development evidence",
     "Not relevant for TRL assessment as it documents a code interface rather than scientific progress"
-  ]
+  ],
+  "milestones": []
 }

@@ -1,5 +1,6 @@
 {
   "file_path": "/vitafast-202512updates.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "VitaFAST project document detailing development of small-molecule autophagy activators for lysosomal storage disorders (NPC) and longevity. The document outlines completed high-throughput screening identifying novel autophagy inducers, three rounds of NCE synthesis showing 10-100x potency improvements, identification of two novel molecular targets, and planning for both novel compound development and drug repurposing clinical trials. The project is at TRL 2-3, with in vitro validation in disease-relevant cell models and planning for IND-enabling studies.",
@@ -148,5 +149,237 @@
     "Favorable FTO position: Novel mechanism distinct from mTOR inhibitors (rapamycin/rapalogs), targeting downstream autophagy activation and lysosomal function rescue via newly identified targets",
     "Safety data: Lead compounds show no acute cytotoxicity at therapeutic concentrations in cellular assays; mechanism-specific rescue (works in Npc1-/- but not Atg5-/- cells); worm healthspan/longevity studies ongoing",
     "Substantial market opportunity: LSD therapeutics market ($9-11B in 2025, growing to $13-20B by 2032-2034), longevity market ($8.9B in 2023, $24.5B by 2032), with strong unmet need for cellular-level lysosomal function restoration"
+  ],
+  "milestones": [
+    {
+      "title": "Pilot FDA Library Screen – 12 Autophagy Inducers Identified",
+      "description": "Pilot screening of FDA-approved drug library identified 12 previously unknown autophagy inducers.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Pilot screening of FDA-approved drug library identified 12 previously unknown autophagy inducers ✓",
+      "page": 2
+    },
+    {
+      "title": "Large-Scale Compound Library Screening Completed",
+      "description": "Thousands of compounds from natural and commercial libraries screened; multiple hit series with autophagy-activating signatures identified.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Thousands of compounds from natural and commercial libraries screened ✓",
+      "page": 2
+    },
+    {
+      "title": "Multiple Hit Series Identified",
+      "description": "Multiple hit series with autophagy-activating signatures identified from screening campaigns.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Multiple hit series with autophagy-activating signatures identified ✓",
+      "page": 2
+    },
+    {
+      "title": "Three NCE Rounds Ordered and Tested",
+      "description": "Three rounds of new chemical entities (NCEs) were ordered and tested, yielding lead compounds with 10-100x higher potency than prior series.",
+      "date": "2024-Q4",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Three NCE rounds ordered and tested (Q4 2024 – H2 2025) ✓",
+      "page": 2
+    },
+    {
+      "title": "Three Lead Compounds Identified (10-100x Potency)",
+      "description": "Three lead compounds identified with 10-100x higher potency than previous series.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Three lead compounds identified with 10-100x higher potency than previous series ✓",
+      "page": 2
+    },
+    {
+      "title": "Two Novel Longevity Targets Identified",
+      "description": "Two novel targets identified — previously proposed longevity targets — enabling a new mechanism of action for autophagy activation.",
+      "date": "2025-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Two novel targets identified (H1 2025) – previously proposed longevity targets ✓",
+      "page": 2
+    },
+    {
+      "title": "Commercially Available Compounds Validated as Potent Autophagy Inducers",
+      "description": "Commercially available compounds binding the two newly identified targets validated as potent autophagy inducers.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Commercially available compounds binding these targets validated as potent autophagy inducers ✓",
+      "page": 2
+    },
+    {
+      "title": "IP Patent Filed – Repurposed Pharmaceutical Compounds for Autophagy",
+      "description": "Patent application filed for repurposed compounds for autophagy induction and longevity use. Patent title: 'METHODS FOR ENHANCING AUTOPHAGY USING REPURPOSED PHARMACEUTICAL COMPOUNDS'.",
+      "date": "2025-12-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Application IP filed 2nd Dec 2025 for repurposed compounds for autophagy induction and longevity use - Patent title - METHODS FOR ENHANCING AUTOPHAGY USING REPURPOSED PHARMACEUTICAL COMPOUNDS",
+      "page": 4
+    },
+    {
+      "title": "Computational Optimization of Known Targets Complete & IP Filing for Lead Molecules",
+      "description": "Complete computational optimization with known targets and file IP for lead molecules.",
+      "date": "2025-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Q4 2025: Complete computational optimization with known targets, IP filing for lead molecules",
+      "page": 2
+    },
+    {
+      "title": "New Patent Applications for NCEs from SAR Optimization",
+      "description": "New patent applications planned for novel compounds developed through SAR optimization.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "New patent applications planned for novel compounds developed through SAR optimization (targeting H2 2025)",
+      "page": 4
+    },
+    {
+      "title": "Drug Repurposing Trial Scoping (UAE Pathway)",
+      "description": "Drug repurposing trial scoping via UAE regulatory pathway, including regulatory pre-submission, CMC planning, and clinical protocol draft.",
+      "date": "2025-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "Q4 2025 – Q1 2026: Drug repurposing trial scoping (UAE pathway) – regulatory pre-submission, CMC planning, clinical protocol draft",
+      "page": 2
+    },
+    {
+      "title": "Drug Repurposing Trial Scoping – Q1 2026 Completion",
+      "description": "Completion of drug repurposing trial scoping activities including regulatory pre-submission, CMC planning, and clinical protocol draft by Q1 2026.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Q4 2025 – Q1 2026: Drug repurposing trial scoping (UAE pathway) – regulatory pre-submission, CMC planning, clinical protocol draft",
+      "page": 2
+    },
+    {
+      "title": "IND-Enabling Studies (Murine Safety Experiments)",
+      "description": "IND-enabling murine safety experiments for novel lead compounds to be conducted.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "2026: IND-enabling studies (murine safety experiments) for novel lead compounds",
+      "page": 2
+    },
+    {
+      "title": "Potential Phase 2 Clinical Trial Initiation (Repurposed Compound Pathway)",
+      "description": "Potential initiation of a Phase 2 clinical trial using the repurposed compound development pathway.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "2026-2027: Potential Phase 2 clinical trial initiation (repurposed compound pathway)",
+      "page": 2
+    },
+    {
+      "title": "VitaDAO Initial Grant (VDP-16)",
+      "description": "VitaDAO awarded initial grant to the VitaFAST project, valued at approximately $285,000.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VitaDAO initial grant (VDP-16): ~$285,000 (project valuation)",
+      "page": 10
+    },
+    {
+      "title": "VITA-FAST Token Crowdsale",
+      "description": "VITA-FAST IP Token crowdsale completed, 1700%+ oversubscribed, ~$620K in bids against ~$32K target; 1,000,000 tokens minted, 10% sold to community.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VITA-FAST Token crowdsale: 1700%+ oversubscribed, ~$620K in bids, ~$32K target sale (1,000,000 tokens minted, 10% sold to community)",
+      "page": 10
+    },
+    {
+      "title": "VFDP-11 Budget Approved (Q4 2024)",
+      "description": "Governance-approved budget VFDP-11 for Q4 2024 operations.",
+      "date": "2024-Q4",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Ongoing governance-approved budgets: VFDP-11 (Q4 2024), VFDP-12, VFDP-13 ($135K H1 2025), VFDP-14 ($30K repurposing scoping), VFDP-15 (modified H2 2025 plan)",
+      "page": 10
+    },
+    {
+      "title": "VFDP-13 Budget Approved ($135K H1 2025)",
+      "description": "Governance-approved budget VFDP-13 of $135K for H1 2025 operations.",
+      "date": "2025-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Ongoing governance-approved budgets: VFDP-11 (Q4 2024), VFDP-12, VFDP-13 ($135K H1 2025), VFDP-14 ($30K repurposing scoping), VFDP-15 (modified H2 2025 plan)",
+      "page": 10
+    },
+    {
+      "title": "VFDP-14 Budget Approved ($30K Repurposing Scoping)",
+      "description": "Governance-approved budget VFDP-14 of $30K for drug repurposing trial scoping activities.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Ongoing governance-approved budgets: VFDP-11 (Q4 2024), VFDP-12, VFDP-13 ($135K H1 2025), VFDP-14 ($30K repurposing scoping), VFDP-15 (modified H2 2025 plan)",
+      "page": 10
+    },
+    {
+      "title": "VFDP-15 Modified H2 2025 Plan Approved",
+      "description": "Governance-approved modified H2 2025 plan (VFDP-15) focusing on computational optimization with known targets.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Ongoing governance-approved budgets: VFDP-11 (Q4 2024), VFDP-12, VFDP-13 ($135K H1 2025), VFDP-14 ($30K repurposing scoping), VFDP-15 (modified H2 2025 plan)",
+      "page": 10
+    },
+    {
+      "title": "GMP Manufacturing Scoping Initiated (VFDP-14)",
+      "description": "GMP manufacturing scoping for repurposed compound initiated under VFDP-14 budget.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "GMP manufacturing scoping initiated (VFDP-14)",
+      "page": 7
+    },
+    {
+      "title": "Community Update Call – November 2024",
+      "description": "VitaDAO community update call held in November 2024 to document project progress and milestones.",
+      "date": "2024-11",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Community update calls (November 2024, ongoing)",
+      "page": 11
+    },
+    {
+      "title": "Computational Target Analysis – Novel Targets (H1 2025)",
+      "description": "Computational target analysis conducted following identification of two novel targets in H1 2025.",
+      "date": "2025-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Computational target analysis following identification of two novel targets (H1 2025)",
+      "page": 8
+    }
   ]
 }

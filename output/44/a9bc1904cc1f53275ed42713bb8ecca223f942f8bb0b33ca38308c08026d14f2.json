@@ -1,5 +1,6 @@
 {
   "file_path": "/surfing-the-scientific-ocean-introducing-graphsurfer.pdf",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This is a product announcement blog post for GraphSurfer, a web-based platform for visualizing scientific knowledge graphs. It describes a software tool for exploring research literature, not a biotech project developing a therapeutic or diagnostic product. The document contains no experimental data, clinical development information, or TRL-assessable content.",
@@ -46,5 +47,77 @@
     "No experimental data, clinical information, or drug/device development content present",
     "Not applicable for TRL assessment in the biotech/pharma context",
     "The platform is a research tool rather than a research output with therapeutic applications"
+  ],
+  "milestones": [
+    {
+      "title": "GraphSurfer v1 Launch",
+      "description": "Launch of the first version of GraphSurfer, a web-based interactive platform for exploring scientific knowledge graphs, with an initial focus on psychedelic science.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "In this first version, we've launched a graph focused on psychedelic science: a rich, rapidly evolving field full of interconnected ideas, emergent subfields, and gaps in the literature.",
+      "page": 2
+    },
+    {
+      "title": "PsyDAO 5 ETH Grant Awarded",
+      "description": "PsyDAO awarded a 5 ETH grant to BeeARD to support the development of GraphSurfer, expanding the psychedelic knowledge graph and improving the platform's usability, gamification, and community features.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "PsyDAO recently awarded a 5 ETH grant to support the development of GraphSurfer, helping us expand the psychedelic knowledge graph and improve the platform's usability, gamification, and community features for psychedelic science explorers.",
+      "page": 4
+    },
+    {
+      "title": "Multi-Domain Knowledge Graph Support",
+      "description": "Planned feature to extend GraphSurfer support beyond psychedelics to multiple knowledge domains.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Support for multiple knowledge domains (not just psychedelics)",
+      "page": 4
+    },
+    {
+      "title": "Token-Based Incentives for Exploration",
+      "description": "Planned introduction of token-based incentives for exploration, contribution, and curation within GraphSurfer.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Token-based incentives for exploration, contribution, and curation",
+      "page": 4
+    },
+    {
+      "title": "Leaderboards and Achievement Systems",
+      "description": "Planned addition of leaderboards and achievement systems for scientific discovery within GraphSurfer.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Leaderboards and achievement systems for scientific discovery",
+      "page": 4
+    },
+    {
+      "title": "Deeper Kai AI Integration",
+      "description": "Planned deeper integration of the Kai AI assistant to support contextual Q&A, summarization, and guidance within GraphSurfer.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Deeper Kai integrations to support contextual Q&A, summarization, and guidance",
+      "page": 4
+    },
+    {
+      "title": "HypGen Deep-Dive Blogpost",
+      "description": "An upcoming blogpost planned to dive deep into HypGen, the autonomous hypothesis generation platform.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Try HypGen: https://hypgen.ai [Stay tuned! In the next blogpost we dive deep into HypGen.]",
+      "page": 6
+    }
   ]
 }

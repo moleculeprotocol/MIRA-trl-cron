@@ -1,5 +1,6 @@
 {
   "file_path": "/Hempy-Research-Project-Confirms-Enzymes-Soften-Hemp-Fibers.pdf",
+  "extraction_version": 2,
   "document_type": "publication",
   "relevance": "medium",
   "summary": "Newsletter article from ValleyDAO announcing the Hempy research project's successful use of enzyme treatments to soften hemp fibers by breaking down lignin. The project demonstrates early-stage biotechnology research in sustainable textile materials but provides limited experimental detail or quantitative results.",
@@ -55,5 +56,28 @@
     "Target application: sustainable textile materials for fashion industry as alternative to resource-intensive conventional materials",
     "No specific experimental protocols, enzyme types, treatment conditions, or quantitative measurements (fiber strength, softness metrics, lignin degradation percentage) disclosed in this publication",
     "No information on IP status, regulatory pathway, manufacturing scale-up, or partnerships with textile manufacturers"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Enzyme Treatment Confirms Hemp Fiber Softening",
+      "description": "The Hempy research team successfully used advanced enzyme treatments to break down lignin in raw hemp fibers, producing lighter, softer fibers without sacrificing durability. Results were confirmed and published.",
+      "date": "2025-03-20",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Hempy's latest research marks a major step forward. Using advanced enzyme treatments, the Hempy research team has successfully broken down lignin, the natural polymer responsible for hemp's stiffness in raw hemp fibers. The results are immediately visible: lighter, softer fibers without sacrificing hemp's durability.",
+      "page": 1
+    },
+    {
+      "title": "Testing Additional Enzymes to Optimize Fiber Properties",
+      "description": "The Hempy team is expanding their work by testing additional enzymes to further optimize fiber properties, with the goal of strengthening hemp's case as a cornerstone of sustainable fashion.",
+      "date": "The Hempy team is expanding their work",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "The Hempy team is expanding their work by testing additional enzymes to further optimize fiber properties. Each step strengthens the case for hemp as a cornerstone of sustainable fashion, proving that DeSci can fund and fuel real biotech advancements with market-ready applications.",
+      "page": 3
+    }
+  ],
+  "document_date": "2025-03-20"
 }

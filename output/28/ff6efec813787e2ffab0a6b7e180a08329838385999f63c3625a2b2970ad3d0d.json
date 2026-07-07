@@ -1,5 +1,6 @@
 {
   "file_path": "/artan-bio-partners-with-syenex-pr-mjt.pdf",
+  "extraction_version": 2,
   "document_type": "regulatory",
   "relevance": "medium",
   "summary": "Press release announcing a strategic collaboration between ARTAN Bio and Syenex dated June 6, 2025. ARTAN Bio is developing ARTAN-102, a codon suppressor therapeutic for aging and age-related disease. The partnership provides ARTAN access to Syenex's VivoCell Platform for precision in vivo delivery vehicle development to accelerate progression from in vitro proof-of-concept to IND-enabling studies.",
@@ -38,5 +39,78 @@
     "Non-exclusive program license option secured for clinical delivery vehicle, relevant for IP strategy",
     "ARTAN Bio is community-backed with decentralized research model",
     "First-in-class therapeutic mechanism using codon suppression to restore full-length functional proteins"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "ARTAN Bio & Syenex Strategic Collaboration Announced",
+      "description": "ARTAN Bio and Syenex publicly announced a strategic collaboration to access Syenex's VivoCell Platform for precision in vivo delivery of ARTAN's lead drug, ARTAN-102.",
+      "date": "2025-06-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "partnership",
+      "source_quote": "CHICAGO & HOUSTON, Texas – June 6, 2025 – ARTAN Bio, a community-backed biotechnology company developing therapeutics to reverse epigenetic changes associated with aging and age-related disease, and Syenex, an open-science genetic medicines platform company, today announced a strategic collaboration to access Syenex's precision in vivo delivery technologies, the VivoCell Platform, for ARTAN's lead drug, ARTAN-102.",
+      "page": 1
+    },
+    {
+      "title": "Syenex Founded",
+      "description": "Syenex was founded, establishing the open-science biotechnology platform company.",
+      "date": "2022",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Founded in 2022, Syenex has assembled a portfolio of cell-specific ex vivo and in vivo delivery platforms and over 50 partnerships with industry leaders across biopharma and academia.",
+      "page": 1
+    },
+    {
+      "title": "ARTAN-102 Strong Preclinical Data Generated",
+      "description": "ARTAN Bio has generated strong preclinical data on the therapeutic potential of ARTAN-102, their lead drug candidate.",
+      "date": "2025-06-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "ARTAN Bio has generated strong preclinical data on the therapeutic potential of their lead drug candidate, ARTAN-102.",
+      "page": 1
+    },
+    {
+      "title": "Rapid Prototyping via VivoCell Platform",
+      "description": "Syenex to provide ARTAN access to the complete VivoCell Platform, including libraries of precision delivery components, with pre-clinical scale prototyping and production support.",
+      "date": "2025-06-06",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "Rapid Prototyping – Platform Access to the complete VivoCell Platform including libraries of precision delivery components supported by Syenex pre-clinical scale prototyping and production support.",
+      "page": 1
+    },
+    {
+      "title": "GMP Manufacturing Scale-Up",
+      "description": "Prototypes developed on the VivoCell Platform to be transferred to Syenex's CDMO partner for GMP scale-up.",
+      "date": "2025-06-06",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Manufacturing Scale-Up – Prototypes to be transferred to Syenex CDMO partner for GMP scale-up.",
+      "page": 1
+    },
+    {
+      "title": "Non-Exclusive Program License Option",
+      "description": "Syenex grants ARTAN a non-exclusive program license option for the clinical delivery vehicle composition.",
+      "date": "2025-06-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Option Rights – Non-exclusive Program License option for the clinical delivery vehicle composition.",
+      "page": 1
+    },
+    {
+      "title": "Progression to IND-Enabling Studies",
+      "description": "The collaboration aims to accelerate ARTAN's program from in vitro proof-of-concept to IND-enabling studies in a capital-efficient manner.",
+      "date": "accelerate the timeline of ARTAN's program from in vitro proof-of-concept to IND-enabling studies",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "The goal is to accelerate the timeline of ARTAN's program from in vitro proof-of-concept to IND-enabling studies while maintaining a maximally capital-efficient path for ARTAN.",
+      "page": 1
+    }
+  ],
+  "document_date": "2025-06-06"
 }

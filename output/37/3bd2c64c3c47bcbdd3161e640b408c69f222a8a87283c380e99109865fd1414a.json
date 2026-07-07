@@ -1,5 +1,6 @@
 {
   "file_path": "/floki.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document contains only a holiday-themed photograph of a Shiba Inu dog dressed in a Santa Claus costume in front of a Christmas tree. There is no scientific, technical, or biotech-related content present.",
@@ -11,5 +12,6 @@
   ],
   "key_findings": [
     "No TRL-relevant content present - document contains only a holiday photograph with no connection to biotech, research, experiments, IP, regulatory information, or technology development"
-  ]
+  ],
+  "milestones": []
 }

@@ -1,5 +1,6 @@
 {
   "file_path": "/KISS1R-report-v1.2.pdf",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "high",
   "summary": "This is a computational lead identification report for KISS1R agonist peptide candidates C1-01 and C1-02, developed by PeptAI and BIO Protocol. The report documents a nine-gate computational pipeline evaluating two modified kisspeptin decapeptide analogues targeting KISS1R (GPR54) for idiopathic hypogonadotropic hypogonadism treatment. Both candidates passed computational structure-based validation (docking, molecular dynamics, binding affinity prediction) and are staged for experimental validation (Gate 9) including biolayer interferometry, functional assays, and plasma stability testing.",
@@ -201,5 +202,248 @@
     "Favorable ADMET profile predicted: injectable class MW 1315-1373 Da, hydrophilic cLogP <-3, CamSol solubility >59 mg/mL, low MHC-I immunogenicity (all IC50 >20,000 nM), estimated plasma t1/2 30-120 min based on literature analogues",
     "Target validated by clinical precedents: MVT-602 (Myovant/Sumitovant, Phase I/II, demonstrated LH pulsatility and follicular development in women with fertility disorders), TAK-683 (Takeda)",
     "TRL STATUS: TRL 1-2 boundary (computational lead identification complete, but no experimental binding/functional data for C1-01/C1-02 yet; requires Gate 9 experimental validation to advance to TRL 2)"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Computational Lead Identification Report Published",
+      "description": "Publication of the nine-gate computational lead identification report for the KISS1R Agonist Peptide Programme (v4.0) by PeptAI and BIO Protocol.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "BIO Protocol, Zug, Switzerland\nApril 2026",
+      "page": 1
+    },
+    {
+      "title": "KISS1R Cryo-EM Structure (PDB 8XGO) Selected as Reference",
+      "description": "The cryo-EM structure of KISS1R (PDB 8XGO, 2.68 Å resolution) was identified as the highest-resolution experimental KISS1R structure available as of 2026 and adopted as the structural template for all computational gates.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "As of April 2026, 8XGO represents the highest-resolution experimental structure of KISS1R available in the Protein Data Bank",
+      "page": 9
+    },
+    {
+      "title": "Gate 0 Calibration Panel Completed",
+      "description": "Gate 0 calibration step completed prior to candidate evaluation; reference distributions for G3 (interface quality) and G4 (binding free energy) gate metrics established using a six-compound panel including KP-10, KP-13, MVT-602, KP-54 proxy, CHEMBL374295, and ScrambledKP10.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The Gate 0 calibration step was performed prior to candidate evaluation to establish empirical reference distributions for the G3 (interface quality) and G4 (binding free energy) gate metrics.",
+      "page": 8
+    },
+    {
+      "title": "Gate 1 – Reference Structure Acquisition Completed",
+      "description": "PDB 8XGO cryo-EM structure selected and verified as satisfying gate criteria (resolution < 3.5 Å, binding site complete) for both C1-01 and C1-02.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate 1 verdict: PASS for both C1-01 and C1-02.",
+      "page": 9
+    },
+    {
+      "title": "Gate 2 – Docking Convergence Completed (C1-01 & C1-02)",
+      "description": "Docking convergence confirmed for both C1-01 and C1-02 against the KISS1R binding site defined by PDB 8XGO; both received PASS verdicts.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate 2 verdict for C1-01: PASS.\n...Gate 2 verdict for C1-02: PASS.",
+      "page": 10
+    },
+    {
+      "title": "Gate 3 – Complex Quality Assessment Completed",
+      "description": "Boltz2 iPTM and BSA metrics computed for C1-01 (iPTM 0.969, BSA 2363 Å², 283 contacts) and C1-02 (iPTM 0.922, BSA 1129.9 Å², 119 contacts); both received PASS verdicts.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Both candidates exceed all three gate thresholds (iPTM > 0.7, BSA > 800 Å2, contacts ≥ 100) and are assigned a gate verdict of PASS.",
+      "page": 11
+    },
+    {
+      "title": "Gate 4 – Binding Affinity Assessment Completed",
+      "description": "PRODIGY binding free energy computed for C1-01 (ΔG = −12.5 kcal/mol, Kd ~0.64 nM) and C1-02 (ΔG = −13.40 kcal/mol, Kd ~140 pM); both received PASS verdicts.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Both candidates substantially exceed the gate pass criterion of ∆G < −10 kcal/mol and are assigned a verdict of PASS.",
+      "page": 12
+    },
+    {
+      "title": "Gate 5 – MD Stability Assessment Completed (C1-01 COND. PASS, C1-02 PASS)",
+      "description": "Molecular dynamics stability assessed; C1-01 received COND. PASS (single replica, trajectory re-analysis pending); C1-02 received full PASS (5 clean replicas, mean RMSD final 40% = 2.83 ± 0.13 Å).",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate 5 verdict for C1-01: COND. PASS — trajectory re-analysis with corrected .xtc file access required to complete peptide-specific RMSD and H-bond profiling.\nGate 5 verdict for C1-02: PASS.",
+      "page": 13
+    },
+    {
+      "title": "Gate 6 – Proteolytic Stability Assessment Completed",
+      "description": "PROSPERousPlus protease panel completed for both candidates; both received COND. PASS pending experimental serum stability LC-MS confirmation.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate 6 verdict: COND. PASS for both C1-01 and C1-02. Experimental serum stability LC-MS assay is required to confirm in silico proteolytic stability predictions.",
+      "page": 16
+    },
+    {
+      "title": "Gate 7 – Physicochemical & Immunogenicity Assessment Completed",
+      "description": "CamSol, Na4vSS, and MHCflurry assessments completed for both C1-01 and C1-02; both received COND. PASS pending structure-based AGGRESCAN3D aggregation confirmation.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate 7 verdict: COND. PASS for both C1-01 and C1-02. Structure-based AGGRESCAN3D confirmation of aggregation propensity is required.",
+      "page": 17
+    },
+    {
+      "title": "Gate 8 – Off-target Selectivity Assessment Completed",
+      "description": "PRODIGY ΔΔG off-target panel completed; C1-01 received COND. PASS (NPFFR2 flag); C1-02 received FAIL (NPFFR1 ΔΔG = −0.70 kcal/mol, predicted stabilisation).",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gate 8 verdict for C1-01: COND. PASS...Gate 8 verdict for C1-02: FAIL. The NPFFR1 ∆∆G of −0.70 kcal/mol represents a predicted stabilisation (i.e., increased affinity) at NPFFR1 relative to the KISS1R baseline, constituting a selectivity failure at this off-target.",
+      "page": 19
+    },
+    {
+      "title": "C1-01 & C1-02 Advanced to Gate 9 Staging",
+      "description": "Both lead candidates (C1-01 and C1-02) have been advanced to Gate 9 (experimental validation) staging following completion of computational Gates G0–G8.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The Gate 9 experimental validation panel has been fully designed and both candidates are advanced to G9 staging.",
+      "page": 4
+    },
+    {
+      "title": "Gate 9 – BLI Binding Kinetics Assay (C1-01) Initiated at Adaptyv Bio",
+      "description": "Planned initiation of BLI binding kinetics assay for C1-01 at Adaptyv Bio to confirm KISS1R Kd < 100 nM and resolve G4 experimental confirmation.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "The immediate critical path item is initiation of the BLI binding kinetics assay for both candidates at Adaptyv Bio in parallel with submission of the NPFFR1/NPFFR2 functional assay panel to Ginkgo Bioworks.",
+      "page": 26
+    },
+    {
+      "title": "Gate 9 – BLI Binding Kinetics Assay (C1-02) Initiated at Adaptyv Bio",
+      "description": "Planned initiation of BLI binding kinetics assay for C1-02 at Adaptyv Bio, measuring KISS1R Kd and NPFFR1 Kd to resolve the G8 FAIL selectivity finding.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "The immediate critical path item is initiation of the BLI binding kinetics assay for both candidates at Adaptyv Bio in parallel with submission of the NPFFR1/NPFFR2 functional assay panel to Ginkgo Bioworks.",
+      "page": 26
+    },
+    {
+      "title": "Gate 9 – NPFFR1/NPFFR2 Functional Assay Panel Submitted to Ginkgo Bioworks",
+      "description": "Planned submission of NPFFR1 and NPFFR2 functional assay panel (IP1 or cAMP) to Ginkgo Bioworks for both C1-01 and C1-02 to resolve selectivity flags from Gate 8.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "The immediate critical path item is initiation of the BLI binding kinetics assay for both candidates at Adaptyv Bio in parallel with submission of the NPFFR1/NPFFR2 functional assay panel to Ginkgo Bioworks.",
+      "page": 26
+    },
+    {
+      "title": "Gate 9 – Plasma Stability LC-MS Assay (C1-01 & C1-02)",
+      "description": "Mandatory experimental plasma stability LC-MS assay planned for both candidates to confirm half-life (t1/2 > 30 min in human plasma), resolving the G6 conditional and PlifePred gap.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Experimental plasma stability LC-MS assay is required to confirm in silico proteolytic stability predictions and is a mandatory deliverable at Gate 9 for both candidates.",
+      "page": 15
+    },
+    {
+      "title": "Gate 9 – AGGRESCAN3D Aggregation Analysis (C1-01 & C1-02)",
+      "description": "Planned structure-based AGGRESCAN3D aggregation analysis using Boltz2-predicted bound-state structures for both candidates, resolving the G7 conditional finding.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Structure-based AGGRESCAN3D analysis using the Boltz2-predicted bound-state structures is planned at Gate 9 to provide a more accurate structural assessment.",
+      "page": 17
+    },
+    {
+      "title": "Gate 9 – C1-01 Peptide-Specific RMSD & H-bond Re-analysis",
+      "description": "Planned trajectory re-analysis of C1-01 with corrected .xtc file access to complete peptide-specific backbone RMSD and per-residue H-bond profiling (>50% occupancy threshold), resolving the G5 conditional pass.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "peptide-specific backbone RMSD analysis (separate from the whole-complex RMSD) requires trajectory re-analysis with corrected .xtc file access; (2) per-residue hydrogen bond profiling with > 50% occupancy threshold to characterise the full peptide-receptor H-bond network requires the same corrected trajectory.",
+      "page": 13
+    },
+    {
+      "title": "Gate 9 – Neprilysin Stability Assay (C1-02)",
+      "description": "Planned in-house CRO assay to measure neprilysin cleavage rate at the Thr5|Phe6 junction for C1-02, resolving the G6 neprilysin flag.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Neprilysin stability — CRO (in-house) — Neprilysin cleavage at T5|F6 — Cleavage rate acceptable for target route — G6 neprilysin flag",
+      "page": 25
+    },
+    {
+      "title": "Candidates C1-03 through C1-10 Queued for Computational Evaluation",
+      "description": "Eight additional KISS1R agonist peptide candidates (C1-03 to C1-10) placed in the computational pipeline queue for subsequent evaluation cycles, with design concepts documented at library entry.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Candidates C1-03 through C1-10 are in queue for evaluation and will be processed through the pipeline in subsequent computational cycles.",
+      "page": 27
+    },
+    {
+      "title": "Lead Optimisation Advancement Decision",
+      "description": "Post-Gate 9 decision milestone: advancement of C1-01 and/or C1-02 to Lead Optimisation phase contingent on confirmed KISS1R Kd < 100 nM by BLI, functional EC50 < 100 nM with Emax ≥ 80%, and plasma t1/2 > 30 min; C1-02 additionally requires >50-fold NPFFR1 selectivity window.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Advancement to Lead Optimisation (post-G9) requires the following criteria to be met for both candidates: (1) confirmed KISS1R binding Kd < 100 nM by BLI; (2) functional agonist EC50 < 100 nM with Emax ≥ 80% relative to the KP-10 reference; (3) plasma half-life t1/2 > 30 minutes in human plasma by LC-MS stability assay.",
+      "page": 25
+    },
+    {
+      "title": "Second-Round Design Cycle for C1-03 to C1-10",
+      "description": "Resolution of Gate 9 experimental questions will inform the second-round design cycle for candidates C1-03 through C1-10 currently in the computational queue.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Resolution of the experimental questions at Gate 9 will determine final advancement decisions to Lead Optimisation and inform the second-round design cycle for candidates C1-03 through C1-10 currently in the computational queue.",
+      "page": 26
+    },
+    {
+      "title": "Nishizawa et al. 2012 Arg(Me)9 Potency Enhancement Published",
+      "description": "Published literature reference documenting 3-fold enhancement in receptor potency from Arg(Me)9 substitution, cited as prior art supporting the C1-01 and C1-02 scaffold design rationale.",
+      "date": "2012",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Substitution of Arg9 with Nω-methyl-Arg9 (Arg(Me)9) confers resistance to trypsin and kallikrein-related peptidases through steric occlusion of the endopeptidase recognition site, while simultaneously providing a 3-fold enhancement in receptor potency as reported by Nishizawa and colleagues in 2012",
+      "page": 6
+    },
+    {
+      "title": "MVT-602 Phase I/II Clinical Evaluation",
+      "description": "MVT-602 (Myovant Sciences, now Sumitovant) advanced through Phase I and Phase II clinical evaluation demonstrating that exogenous kisspeptin administration can drive LH pulsatility and support follicular development in women with fertility disorders.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "MVT-602, developed by Myovant Sciences (now Sumitovant), is a synthetic kisspeptin analogue that advanced through Phase I and Phase II clinical evaluation, demonstrating that exogenous kisspeptin administration can drive LH pulsatility and support follicular development in women with fertility disorders.",
+      "page": 6
+    }
+  ],
+  "document_date": "2026-04"
 }

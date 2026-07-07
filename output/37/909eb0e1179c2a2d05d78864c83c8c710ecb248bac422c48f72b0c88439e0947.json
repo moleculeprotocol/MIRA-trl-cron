@@ -1,5 +1,6 @@
 {
   "file_path": "/jwt-test-file-20250731-123658.pdf",
+  "extraction_version": 2,
   "document_type": "publication",
   "relevance": "none",
   "summary": "This is an academic whitepaper describing Unichain, a blockchain technology optimized for DeFi (decentralized finance) trading. It presents a technical architecture for an optimistic rollup with innovations in block building and validation. This document is entirely focused on blockchain/cryptocurrency infrastructure and contains no biotech, pharmaceutical, or life sciences content relevant to TRL assessment.",
@@ -28,5 +29,168 @@
     "No biological, pharmaceutical, medical device, or life sciences content present",
     "Document describes financial technology architecture, not biotech R&D",
     "Contains no experimental data, therapeutic targets, disease models, or clinical development information relevant to biotech TRL assessment"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Unichain Whitepaper Published",
+      "description": "The Unichain technical whitepaper was authored and published, describing the optimistic rollup's design and key innovations.",
+      "date": "2024-10",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Unichain\nOctober 2024",
+      "page": 1
+    },
+    {
+      "title": "Uniswap v1 Core Release",
+      "description": "Uniswap v1 Core was released, pioneering the automated market maker (AMM) model.",
+      "date": "2018",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Hayden Adams. 2018. Uniswap v1 Core.",
+      "page": 3
+    },
+    {
+      "title": "Uniswap v2 Core Release",
+      "description": "Uniswap v2 Core was released, expanding on the AMM model.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Hayden Adams, Noah Zinsmeister, and Dan Robinson. 2020. Uniswap v2 Core.",
+      "page": 3
+    },
+    {
+      "title": "Ethereum Rollup-Centric Roadmap Proposal",
+      "description": "Vitalik Buterin proposed a rollup-centric Ethereum roadmap, which Unichain is built upon.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Vitalik Buterin. 2020. A rollup-centric ethereum roadmap.",
+      "page": 3
+    },
+    {
+      "title": "Ethereum is a Dark Forest Publication",
+      "description": "Dan Robinson and Georgios Konstantopoulos published their analysis of MEV and sandwich attacks on Ethereum.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Dan Robinson and Georgios Konstantopoulos. 2020. Ethereum is a Dark Forest.",
+      "page": 3
+    },
+    {
+      "title": "Uniswap v3 Core Release",
+      "description": "Uniswap v3 Core was released with concentrated liquidity features.",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Hayden Adams, Noah Zinsmeister, Moody Salem, River Keefer, and Dan Robinson. 2021. Uniswap v3 Core.",
+      "page": 3
+    },
+    {
+      "title": "The Future of MEV is SUAVE Publication",
+      "description": "Flashbots published their vision for SUAVE as a solution to MEV risks including single points of failure in private mempools.",
+      "date": "2022",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Flashbots. 2022. The Future of MEV is SUAVE.",
+      "page": 3
+    },
+    {
+      "title": "MEV-Share Publication",
+      "description": "Robert Miller published MEV-Share, a programmably private orderflow system to share MEV with users.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Robert Miller. 2023. MEV-Share: programmably private orderflow to share MEV with users.",
+      "page": 3
+    },
+    {
+      "title": "Don't Let MEV Slip Paper Publication",
+      "description": "Adams et al. published research on the costs of swapping on the Uniswap Protocol.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Austin Adams, Benjamin Y Chan, Sarit Markovich, and Xin Wan. 2023. Don't Let MEV Slip: The Costs of Swapping on the Uniswap Protocol.",
+      "page": 3
+    },
+    {
+      "title": "Uniswap $2 Trillion Trading Volume Milestone",
+      "description": "Uniswap reached a historic $2 trillion in cumulative trading volume.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "RT Watson. 2024. Uniswap hits a historic $2 trillion in trading volume.",
+      "page": 3
+    },
+    {
+      "title": "Rollup-Boost Introduction by Flashbots",
+      "description": "Flashbots introduced Rollup-Boost, the technology enabling Verifiable Block Building for Unichain.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Flashbots. 2024. Introducing Rollup Boost.",
+      "page": 3
+    },
+    {
+      "title": "Priority Is All You Need Publication",
+      "description": "Dan Robinson and Dave White published their paper on priority ordering, which underpins MEV tax and Flashblock ordering in Unichain.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Dan Robinson and Dave White. 2024. Priority Is All You Need.",
+      "page": 3
+    },
+    {
+      "title": "ERC-7683 Cross Chain Intents Standard",
+      "description": "Mark Toda, Matt Rice, and Nick Pai published ERC-7683, the cross-chain intents standard used as the basis for Unichain's cross-chain bridge.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Mark Toda, Matt Rice, and Nick Pai. 2024. ERC-7683: Cross Chain Intents: An interface for cross-chain trade execution systems.",
+      "page": 3
+    },
+    {
+      "title": "Layer 2 Scaling on Uniswap v3 Research",
+      "description": "Austin Adams published research on Layer 2 scaling challenges and opportunities for Uniswap v3.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Austin Adams. 2024. Layer 2 be or Layer not 2 be: Scaling on Uniswap v3.",
+      "page": 3
+    },
+    {
+      "title": "Unichain Experimental Testnet Launch",
+      "description": "Features described in the Unichain whitepaper will be thoroughly tested on a publicly accessible testnet called Unichain Experimental before mainnet deployment.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "The features described in this document will be thoroughly tested on a publicly accessible testnet called Unichain Experimental before being deployed to Unichain mainnet.",
+      "page": 1
+    },
+    {
+      "title": "Unichain Mainnet Deployment",
+      "description": "Unichain features, including Verifiable Block Building and the Unichain Validation Network, will be deployed to Unichain mainnet after testnet validation.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "The features described in this document will be thoroughly tested on a publicly accessible testnet called Unichain Experimental before being deployed to Unichain mainnet.",
+      "page": 1
+    }
+  ],
+  "document_date": "2024-10"
 }

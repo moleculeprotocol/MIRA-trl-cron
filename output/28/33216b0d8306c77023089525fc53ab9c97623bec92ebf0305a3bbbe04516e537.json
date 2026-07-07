@@ -1,5 +1,6 @@
 {
   "file_path": "/ArtanBio-Preclinical-Mouse-Update.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "Pitch deck for ArtanBio/VitaRNA, describing development of gene therapy suppressors targeting arginine CGA codon nonsense mutations for aging and rare diseases. The company has received $91K initial funding and $300K follow-on funding from VitaDAO, and is seeking $5M to advance lead candidate Artan-102 (AAV9-delivered tRNA suppressor) to clinical trials in UAE. Deck includes in vitro proof-of-concept data and preliminary mouse safety/PK studies.",
@@ -125,5 +126,237 @@
     "Regulatory pathway: Preliminary discussions with Abu Dhabi DoH (May 2025) indicate single-species GLP tox + GMP manufacturing sufficient for FIH; considering premature aging post-chemotherapy as first indication",
     "IP status: Patent filings underway (mentioned in funding milestones); tokenization via VitaDAO (VitaRNA IP-NFT)",
     "Timeline: 12-month plan to clinical trial start (subject to $5M raise and regulatory feedback); GMP manufacturing 9 months, GLP tox 6 months, Phase 1 trial 3 months"
+  ],
+  "milestones": [
+    {
+      "title": "VDP-103 Discourse Proposal",
+      "description": "ArtanBio's initial proposal (VDP-103) submitted to VitaDAO Discourse for community review and voting on mutation-specific codon suppression for aging and longevity.",
+      "date": "2023-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VDP-103 Discourse (May 2023) → Passed Discourse vote",
+      "page": 19
+    },
+    {
+      "title": "VDP-103 Snapshot Vote",
+      "description": "VDP-103 went to Snapshot vote in July 2023 and passed, enabling initial funding of $91K for research.",
+      "date": "2023-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VDP-103 on Snapshot in July 2023 → Raised $91K to fund research → Passed vote",
+      "page": 19
+    },
+    {
+      "title": "Initial VitaDAO Funding ($91K)",
+      "description": "ArtanBio received $91K in initial funding from VitaDAO, enabling development and screening of suppressors, in vitro assays to measure target effect of drug candidates, and identification of fifteen potential drug candidates as proof of concept.",
+      "date": "2023-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Initial VitaDAO funding: $91k • Enabled development and screening of suppressors • In vitro assays to measure target effect of drug candidates • Fifteen potential drug candidates – Proof of concept",
+      "page": 2
+    },
+    {
+      "title": "VDP-140 Snapshot Vote (ArtanBio Tokenization)",
+      "description": "VDP-140 passed Snapshot vote in February 2024, enabling tokenization of ArtanBio IP-NFT.",
+      "date": "2024-02",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Passed Snapshot in Feb 2024 → Tokenization of ArtanBio Q1 '24",
+      "page": 19
+    },
+    {
+      "title": "ArtanBio Tokenization (IP-NFT)",
+      "description": "Tokenization of ArtanBio IP-NFT completed in Q1 2024, with $300K raised to continue development of the assets.",
+      "date": "2024-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Tokenization of ArtanBio Q1 '24 → $300K to continue development of the assets",
+      "page": 19
+    },
+    {
+      "title": "IPT Follow-on Funding ($300K)",
+      "description": "ArtanBio received $300K in follow-on funding via IPT to validate lead drug candidates via in vitro assays, develop animal-deliverable formulations, conduct proof-of-concept in animal models, and file patents.",
+      "date": "2024-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "IPT Funding: $300k • Validation of lead drug candidates via in vitro assays • Formulation that can be delivered to animals • Proof of concept in animal models • Patent filings",
+      "page": 2
+    },
+    {
+      "title": "Patent Filings",
+      "description": "Patent filings undertaken as part of the IPT funding activities.",
+      "date": "2024-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "IPT Funding: $300k • ... • Patent filings",
+      "page": 2
+    },
+    {
+      "title": "Contract Signed with Lonza for ARTAN-102 Manufacturing",
+      "description": "ArtanBio signed a contract with Lonza to produce ARTAN-102 at scale using the Xcite AAV platform. The process is ongoing.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "ArtanBio has signed a contract with Lonza to produce ARTAN-102 at scale. The process is ongoing",
+      "page": 12
+    },
+    {
+      "title": "Publication: Somatic Mutation as Explanation for Epigenetic Aging",
+      "description": "Key supporting scientific publication published in Nature Aging on January 13, 2025, demonstrating correlation between CpG mutations and aging.",
+      "date": "2025-01-13",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Analysis | Published: 13 January 2025 Somatic mutation as an explanation for epigenetic aging",
+      "page": 4
+    },
+    {
+      "title": "Artan-102 Detection Data Expected (CRO)",
+      "description": "Artan-102 biodistribution/detection data from a CRO is expected at the end of April 2025, as part of the preliminary safety and PK mouse study.",
+      "date": "2025-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Artan-102 detection is underway at a CRO. Data expected at the end of April 2025",
+      "page": 13
+    },
+    {
+      "title": "Meeting with Abu Dhabi Department of Health Regulators",
+      "description": "ArtanBio met with Abu Dhabi Department of Health Regulators in May 2025. Guidance received was for single-species GLP tox and GMP manufacturing to support FIH. Premature aging post-chemo was discussed as a potential human proof of concept. Discussions are ongoing.",
+      "date": "2025-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "ArtanBio met with Abu Dhabi Department of Health Regulators in May 2025. Guidance was for single-species GLP tox and GMP manufacturing to support FIH. Discussed premature aging post-chemo as a potential human proof of concept. Discussions are ongoing",
+      "page": 17
+    },
+    {
+      "title": "Tox Batch & GMP Manufacturing Start",
+      "description": "Initiation of toxicology batch and GMP manufacturing activities as part of the $5M fundraise roadmap.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Tox batch & GMP manufacturing [Q2 2025 – Q4 2025]",
+      "page": 16
+    },
+    {
+      "title": "Analytical Manufacturing Activities",
+      "description": "Analytical manufacturing work planned to begin in Q2 2025 and complete by approximately Q3 2025.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "cmc",
+      "source_quote": "Analytical [Q2 2025 – Q3 2025]",
+      "page": 16
+    },
+    {
+      "title": "Biomarker/BioA Assay Development",
+      "description": "Biomarker and bioassay assay development planned to begin in Q2 2025.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Assay development [Q2 2025 – Q3 2025]",
+      "page": 16
+    },
+    {
+      "title": "Dose Finding TK/PK Studies",
+      "description": "Dose-finding toxicokinetic and pharmacokinetic studies planned to start in Q2/Q3 2025.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Dose Finding TK/PK Studies [Q2 2025 – Q3 2025]",
+      "page": 16
+    },
+    {
+      "title": "Non-GLP Tox Study in Non-Human Primates (Fundraise)",
+      "description": "Currently raising $500K to support a non-GLP toxicology study in non-human primates.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Currently raising $500K to support non-GLP tox study in non-human primates",
+      "page": 16
+    },
+    {
+      "title": "Biomarker/BioA Assay Validation",
+      "description": "Assay validation for biomarker and bioassay activities planned for Q3 2025.",
+      "date": "2025-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Assay Validation [Q3 2025 – Q4 2025]",
+      "page": 16
+    },
+    {
+      "title": "Tox Batch & GMP Manufacturing Completion",
+      "description": "Completion of the toxicology batch and GMP manufacturing activities targeted for Q4 2025.",
+      "date": "2025-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Tox batch & GMP manufacturing [Q2 2025 – Q4 2025]",
+      "page": 16
+    },
+    {
+      "title": "GLP Tox & Biodistribution Studies",
+      "description": "GLP toxicology and biodistribution studies planned to run from Q1 2026 through Q2 2026.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "GLP Tox & Biodistribution [Q1 2026 – Q2 2026]",
+      "page": 16
+    },
+    {
+      "title": "CTA Preparation (UAE)",
+      "description": "Preparation of the Clinical Trial Application for the UAE regulatory authority, planned for Q1 2026.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "CTA Prep [Q1 2026 – Q2 2026]",
+      "page": 16
+    },
+    {
+      "title": "FIH (First-in-Human) Study Start",
+      "description": "First-in-human clinical trial (Phase 1) initiation planned for Q2 2026 in the UAE, as part of the $5M fundraise roadmap.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "FIH Study [Q2 2026] Clinical Trial Start",
+      "page": 16
+    },
+    {
+      "title": "Phase 1 Trial in UAE (Clinical Trial within 12 Months)",
+      "description": "ArtanBio plans to raise $5M to initiate a Phase 1 clinical trial in the UAE within 12 months. The trial is a small proof-of-concept study with biomarker endpoints, budgeted at $700K for 3 months.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Raising $5M to initiate a clinical trial within *12 months (in the UAE) ... Phase 1 Trial (UAE) 3 months 700,000.00 Small proof-of-concept study with biomarker endpoints",
+      "page": 17
+    },
+    {
+      "title": "$5M Fundraise",
+      "description": "ArtanBio is raising $5M in total to fund GMP manufacturing, GLP tox, regulatory prep, Phase 1 trial in UAE, G&A, and contingency over approximately 12 months.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Pipeline and Roadmap Forward (Raise $5M)",
+      "page": 16
+    }
   ]
 }

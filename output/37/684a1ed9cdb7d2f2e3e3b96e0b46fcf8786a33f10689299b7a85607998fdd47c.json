@@ -1,5 +1,6 @@
 {
   "file_path": "/jamiroquia.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document contains only a logo and branding image showing the word 'SPACEHAT' with a stylized illustration of a hat with planet-like rings and stars. There is no scientific, technical, or business content present.",
@@ -11,5 +12,6 @@
   ],
   "key_findings": [
     "No relevant content for TRL assessment - document contains only branding/logo imagery with no scientific, experimental, or business information"
-  ]
+  ],
+  "milestones": []
 }

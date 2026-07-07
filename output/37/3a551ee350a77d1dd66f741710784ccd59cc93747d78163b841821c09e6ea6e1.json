@@ -1,5 +1,6 @@
 {
   "file_path": "/a-few-wise-men",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This is an artistic illustration depicting three classical philosophers in ancient robes, surrounded by symbolic elements representing insight, knowledge, and creative thought. The image contains mechanical and scientific instruments as symbolic elements but no actual scientific data, experimental results, or biotech project information relevant to TRL assessment.",
@@ -13,5 +14,6 @@
     "This document contains no scientific data, experimental results, or biotech project information",
     "The image is purely artistic/allegorical in nature with no relevance to technology readiness level assessment",
     "No information about therapeutic targets, experiments, team, IP, regulatory status, or development progress"
-  ]
+  ],
+  "milestones": []
 }

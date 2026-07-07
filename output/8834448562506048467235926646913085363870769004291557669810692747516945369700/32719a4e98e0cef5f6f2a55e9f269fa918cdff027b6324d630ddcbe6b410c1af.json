@@ -1,5 +1,6 @@
 {
   "file_path": "/vitastem-hematopoietic-stem-cell-rejuvenation-1pager-ar.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "low",
   "summary": "This is a research proposal for hematopoietic stem cell (HSC) rejuvenation therapy targeting aging-related dysfunction. The document describes completed computational analysis of single-cell RNA-seq data to identify candidate gene targets, and proposes future in vitro and in vivo validation experiments. No experimental results or efficacy data are presented yet.",
@@ -38,5 +39,47 @@
     "No efficacy data, no proof-of-concept experiments, no model systems tested yet",
     "PI: Dr. Ashish Rajput, PhD; VitaLabs provided funding for computational analysis phase",
     "Technology platform: single-cell RNA-seq analysis with AI/ML-assisted gene regulatory network modeling"
+  ],
+  "milestones": [
+    {
+      "title": "VitaLabs-Funded scRNA-seq Analysis",
+      "description": "Systematic analysis of publicly available and proprietary human scRNA-seq datasets spanning different ages and genders, mapping aging-specific molecular signatures of HSCs and their niches using enhanced computational pipelines and AI/ML-assisted GRN modeling (including AubrAI terminal) to identify and prioritize lead candidate genes driving HSC decline.",
+      "date": "the past decade",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In a VitaLabs funded project, we have systematically analyzed publicly available and proprietary human scRNA-seq datasets spanning different ages and genders. Using enhanced computational pipelines developed over the past decade and applied in high-impact publications, we mapped aging-specific molecular signatures of HSCs and their niches.",
+      "page": 1
+    },
+    {
+      "title": "In Vitro Validation of Candidate Targets in Human Primary HSCs",
+      "description": "Validation of identified candidate genes in vitro using young and aged human primary HSCs, testing interventions such as mRNA overexpression via electroporation, siRNA, or CRISPR-based activation or inhibition depending on whether genes are overexpressed or downregulated with age.",
+      "date": "current proposal",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "In the current proposal, these candidate targets will now be validated in vitro using young and aged human primary HSCs followed by organoid and in vivo models through CRO or academic partnerships.",
+      "page": 1
+    },
+    {
+      "title": "Organoid and In Vivo Model Validation",
+      "description": "Following in vitro validation, candidate targets will be tested in organoid and in vivo models through CRO or academic partnerships to further assess rejuvenation of HSC function.",
+      "date": "current proposal",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "these candidate targets will now be validated in vitro using young and aged human primary HSCs followed by organoid and in vivo models through CRO or academic partnerships.",
+      "page": 1
+    },
+    {
+      "title": "Drug Discovery and Gene Therapy Strategy Development",
+      "description": "Pursuit of drug discovery strategies including computational chemistry, QSAR-based docking, and potential gene therapy approaches to restore youthful HSC function.",
+      "date": "current proposal",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Additionally, drug discovery strategies ranging from computational chemistry and QSAR-based docking to potential gene therapy approaches will be pursued to restore youthful HSC function.",
+      "page": 1
+    }
   ]
 }

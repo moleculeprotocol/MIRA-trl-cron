@@ -1,5 +1,6 @@
 {
   "file_path": "/fission-bio-fixing-broken-mitochondria-to-stop-brain-disease",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "Fission Bio is developing small molecule inhibitors targeting mitochondrial dysfunction in neurodegenerative diseases. The company has raised $400,000 through Cerebrum DAO to advance SC9, a drug candidate derived from Stanford's P110 peptide that blocks pathological Drp1-Fis1 interaction. The document describes 13 years of validation across 11 disease models and the transition from peptide to small molecule development.",
@@ -88,5 +89,117 @@
     "Mechanism targets fundamental mitochondrial dysfunction rather than downstream symptoms",
     "P110 demonstrated no immunosuppression unlike anti-inflammatory approaches",
     "IP being tokenized and developed with fractional community ownership"
+  ],
+  "milestones": [
+    {
+      "title": "P110 Peptide Discovery at Stanford",
+      "description": "Stanford researchers developed P110, a peptide designed to block the pathological Drp1–Fis1 interaction while preserving normal mitochondrial dynamics.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Stanford researchers developed P110 – a peptide designed to block the pathological Drp1–Fis1 interaction while preserving normal mitochondrial dynamics (Qi et al., 2013).",
+      "page": 3
+    },
+    {
+      "title": "P110 Reduces Neurodegeneration in Huntington's Models",
+      "description": "P110 demonstrated reduced neurodegeneration in Huntington's disease animal models.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Reduced neurodegeneration in Huntington's disease models (Guo et al., 2013)",
+      "page": 3
+    },
+    {
+      "title": "P110 Restores Mitochondrial Function in ALS Cells",
+      "description": "P110 restored mitochondrial function in ALS patient cells and improved cognitive performance in Alzheimer's models.",
+      "date": "2018",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Restored mitochondrial function in ALS patient cells (Joshi et al., 2018)\nImproved cognitive performance in Alzheimer's models (Joshi et al., 2018)",
+      "page": 3
+    },
+    {
+      "title": "P110 Enhances Cardiac Function in Ischemic Disease",
+      "description": "P110 demonstrated enhanced cardiac function in ischemic disease models.",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Enhanced cardiac function in ischemic disease (Tian et al., 2017)",
+      "page": 3
+    },
+    {
+      "title": "SWAG Binding Site Identification & SC9 Development",
+      "description": "Dr. Luis Rios identified the specific binding site (SWAG – switch I-adjacent groove) and developed SC9, a small molecule mimicking P110's protective effects while overcoming peptide limitations.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Building on years of P110 research, his team developed SC9, a small molecule that mimics P110's protective effects while overcoming peptide limitations (Rios et al., 2023).",
+      "page": 4
+    },
+    {
+      "title": "Cerebrum DAO Initial Funding Round – $200,000",
+      "description": "Cerebrum DAO community funded Fission Bio's initial $200,000 development phase.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "The community funded Fission Bio's initial $200,000 development phase",
+      "page": 4
+    },
+    {
+      "title": "MITY Token IP Tokenization – $188,000 Raised",
+      "description": "Intellectual property was tokenized through MITY tokens on the Molecule platform, raising an additional $188,000 for lead identification and in-vivo testing.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "then tokenized the intellectual property through MITY tokens on the @Molecule_sci platform, raising an additional $188,000 for lead identification and in-vivo testing.",
+      "page": 4
+    },
+    {
+      "title": "Total Funding Raised – $400,000",
+      "description": "Fission Bio raised a total of $400,000 through Cerebrum DAO's IP-Token model to develop drugs that repair mitochondrial dysfunction.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Fission Bio raised $400,000 through Cerebrum DAO's IP-Token model to develop drugs that repair mitochondrial dysfunction instead of treating downstream symptoms.",
+      "page": 1
+    },
+    {
+      "title": "FissionBio & Cerebrum DAO 'Meet The Scientists' Podcast",
+      "description": "Cerebrum DAO published a 'Meet The Scientists' podcast episode featuring Dr. Luis Rios discussing mitochondria, fission, and the advantages of DeSci funding.",
+      "date": "2025-08-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "FissionBio @FissionBioDeSci · Aug 27, 2025 Watch @Cerebrum_DAO's latest Meet The Scientists podcast, where @bmagierski talks with FissionBio's Principal Investigator, Dr. Luis Rios.",
+      "page": 4
+    },
+    {
+      "title": "Lead Identification and In-Vivo Testing Phase",
+      "description": "Use of additional $188,000 raised via MITY tokens to conduct lead identification and in-vivo testing of SC9 or related compounds.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "raising an additional $188,000 for lead identification and in-vivo testing.",
+      "page": 4
+    },
+    {
+      "title": "Translation of Compounds into Medicines",
+      "description": "Systematic process of turning promising laboratory compounds into viable medicines, the stated next step for Fission Bio.",
+      "date": "next steps",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Fission Bio has proven its concept works in laboratory models. Now comes the systematic process of turning promising compounds into medicines.",
+      "page": 5
+    }
   ]
 }

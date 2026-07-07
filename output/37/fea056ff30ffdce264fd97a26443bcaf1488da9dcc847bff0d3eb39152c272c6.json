@@ -1,5 +1,6 @@
 {
   "file_path": "/8e61fa65-507e-4289-af19-dab466fa8620.png",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "none",
   "summary": "This document contains only a decorative illustration of a colorful stylized fish with blue, orange, teal, and purple coloring. It appears to be clipart or decorative artwork with no scientific, technical, or business content relevant to biotechnology or TRL assessment.",
@@ -13,5 +14,6 @@
     "No scientific, experimental, regulatory, IP, team, or business content present",
     "Document contains only decorative fish illustration",
     "Not applicable for TRL assessment"
-  ]
+  ],
+  "milestones": []
 }

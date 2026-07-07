@@ -1,5 +1,6 @@
 {
   "file_path": "/vitafast-to-use-molecules-coin-to-company-legal-framework",
+  "extraction_version": 2,
   "document_type": "regulatory",
   "relevance": "medium",
   "summary": "VFDP-16 is a governance proposal to establish a dual-entity structure for VITA-FAST, transitioning from an IP-NFT to a real-world asset structure. It proposes creating a Wyoming DUNA for community governance and a Delaware LLC for operations, treasury management, IP sublicensing, and equity financing to commercialize autophagy research from the Korolchuk Lab at Newcastle University.",
@@ -124,5 +125,87 @@
     "Implementation in 3 phases: entity formation (now), operational integration (30-60 days), ongoing operations",
     "Key risk: DUNA framework untested (mitigated by Wyoming DAO track record and a16z backing)",
     "Aligns with existing VDP-111 governance framework and enables commercialization while preserving decentralized governance"
+  ],
+  "milestones": [
+    {
+      "title": "Wyoming DUNA Act Effective",
+      "description": "Wyoming enacted the Decentralized Unincorporated Nonprofit Association (DUNA) Act, providing purpose-built legal recognition for DAOs, which forms the regulatory basis for the VitaFast DUNA.",
+      "date": "2024-07-01",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Wyoming enacted the DUNA Act (effective July 1, 2024), providing purpose-built legal recognition for DAOs.",
+      "page": 2
+    },
+    {
+      "title": "Phase 1: Entity Formation",
+      "description": "File VitaFast DUNA formation documents with Wyoming Secretary of State, establish DUNA governing principles, form VitaFast LLC in Delaware, register both entities with registered agent services, and designate initial DUNA administrators.",
+      "date": "now",
+      "date_precision": "relative",
+      "status": "in_progress",
+      "category": "other",
+      "source_quote": "Phase 1: Entity Formation (now)",
+      "page": 5
+    },
+    {
+      "title": "Phase 2: Operational Integration",
+      "description": "Establish LLC treasury account, execute treasury transfer from multisig to LLC, align DUNA governance processes with VITA-FAST Snapshot, establish reporting mechanisms between DUNA, LLC, and token holders, and update multisig configuration as needed.",
+      "date": "30–60 days post-formation",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Phase 2: Operational Integration (30–60 days post-formation)",
+      "page": 6
+    },
+    {
+      "title": "Phase 3: Ongoing Operations",
+      "description": "DUNA coordinates governance while LLC executes treasury operations; regular community updates; annual compliance and financial reporting; governance proposals for major decisions.",
+      "date": "ongoing",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Phase 3: Ongoing Operations",
+      "page": 6
+    },
+    {
+      "title": "Treasury Transfer to VitaFast LLC",
+      "description": "Transfer VITA-FAST treasury funds (derived from IP-NFT fractionalization and token sales) from multisig to VitaFast LLC treasury account, enabling traditional banking relationships for operational needs.",
+      "date": "30–60 days post-formation",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Execute treasury transfer from multisig to LLC",
+      "page": 6
+    },
+    {
+      "title": "IP License to VitaFast LLC",
+      "description": "VitaFast LLC to hold a perpetual, worldwide, sublicensable license to develop and commercialize research IP arising from the Newcastle autophagy program, with full ownership of developed products.",
+      "date": "now",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "IP: Perpetual, worldwide, sublicensable license to develop and commercialize research IP arising from the Newcastle autophagy program, with full ownership of developed products.",
+      "page": 4
+    },
+    {
+      "title": "Equity Financing Pursuit",
+      "description": "VitaFast LLC to pursue equity financing from strategic investors, pharmaceutical companies, and longevity-focused funds via compliant securities exemptions (Reg D/S/CF/A).",
+      "date": "ongoing",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Pursue equity financing from strategic investors",
+      "page": 4
+    },
+    {
+      "title": "Ministerial Agent Agreement",
+      "description": "The VitaFast DUNA will enter into an agreement with a third party (yet to be defined) to act as its ministerial agent for limited operational and clerical functions.",
+      "date": "ongoing",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "partnership",
+      "source_quote": "The DUNA will also enter into an agreement with a third party (yet to be defined) to act as its ministerial agent for limited operational and clerical functions, ensuring the DUNA can take limited actions in the real world without centralizing control.",
+      "page": 1
+    }
   ]
 }

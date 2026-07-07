@@ -1,5 +1,6 @@
 {
   "file_path": "/customized-aav-production-and-transduction-test-external-distribution.pdf",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "high",
   "summary": "Experimental report from VectorBuilder documenting AAV9 vector production, transduction testing, Western blot analysis, and RNA extraction from Calu-6 lung cancer cells. Compares large-scale vs ultra-purified AAV9 preparations for delivering p53-related constructs at MOI=5E+6, with quantitative Ct values showing 27-130x reduction in tRNA delivery with ultra-purified vectors.",
@@ -100,5 +101,88 @@
     "Successful RNA extraction confirmed by gel electrophoresis showing intact RNA bands around 1kb for all samples",
     "Controls included: Calu6 WT untransduced cells (Ct ~24.7), G418 selection (2000ug/ml), and positive control samples",
     "All experiments performed with biological duplicates showing consistent results"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "AAV9L (VB240514-1548ggn) Lot Production",
+      "description": "Production of AAV9L vector (VB240514-1548ggn), Lot 250617AAVM01, with titer 2.06E+12 GC/ml, for use in Calu-6 transduction experiments.",
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9L(VB240514-1548ggn) 250617AAVM01 2.06E+12",
+      "page": 3
+    },
+    {
+      "title": "AAV9MP (VB240514-1548ggn) Lot Production",
+      "description": "Production of AAV9MP vector (VB240514-1548ggn), Lot 250618AAVY17, with titer 1.54E+13 GC/ml, for use in Calu-6 transduction experiments.",
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9MP(VB240514-1548ggn) 250618AAVY17 1.54E+13",
+      "page": 3
+    },
+    {
+      "title": "AAV9MP (VB250610-1157tpv) Lot Production",
+      "description": "Production of AAV9MP vector (VB250610-1157tpv), Lot 250702AAVP15, with titer 5.39E+12 GC/ml.",
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9MP(VB250610-1157tpv) 250702AAVP15 5.39E+12",
+      "page": 3
+    },
+    {
+      "title": "AAV9MP (VB250610-1162rmu) Lot Production",
+      "description": "Production of AAV9MP vector (VB250610-1162rmu), Lot 250703AAVN13, with titer 1.00E+13 GC/ml.",
+      "date": "2025-07-03",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9MP(VB250610-1162rmu) 250703AAVN13 1.00E+13",
+      "page": 3
+    },
+    {
+      "title": "AAV9L (VB250610-1162rmu) Lot Production",
+      "description": "Production of AAV9L vector (VB250610-1162rmu), Lot 250702AAVU01, with titer 2.38E+12 GC/ml.",
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9L(VB250610-1162rmu) 250702AAVU01 2.38E+12",
+      "page": 3
+    },
+    {
+      "title": "AAV9L (VB250610-1157tpv) Lot Production",
+      "description": "Production of AAV9L vector (VB250610-1157tpv), Lot 250712AAVW01, with titer 3.47E+12 GC/ml.",
+      "date": "2025-07-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9L(VB250610-1157tpv) 250712AAVW01 3.47E+12",
+      "page": 3
+    },
+    {
+      "title": "Calu-6 AAV Transduction and Cell Harvest (Western Blot & RNA)",
+      "description": "Calu-6 cells were transduced with customized AAV vectors and harvested 72 hours post-transduction for Western Blot (protein analysis with Anti-p53 and Anti-GAPDH) and RNA extraction using TRIzol reagent.",
+      "date": "72h after transduction",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Harvest cell time: 72h after transduction",
+      "page": 4
+    },
+    {
+      "title": "Project Report Document Date",
+      "description": "The customized AAV production and transduction test report (including Western Blot and RNA QC results for Calu-6 cell line) was issued on this date.",
+      "date": "2025-08-14",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2025/8/14",
+      "page": 1
+    }
+  ],
+  "document_date": "2025-08-14"
 }

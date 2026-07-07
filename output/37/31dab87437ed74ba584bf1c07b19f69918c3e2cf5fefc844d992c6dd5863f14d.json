@@ -1,5 +1,6 @@
 {
   "file_path": "/data-processors-diagram-2.png",
+  "extraction_version": 2,
   "document_type": "figure",
   "relevance": "low",
   "summary": "This is a technical architecture diagram showing a data processing pipeline with multiple AWS Lambda processors triggered on different schedules. The diagram illustrates data flow from various sources through processors to storage and analytics platforms including Azure, Moralis, and Amazon Aurora. This appears to be infrastructure/technical documentation rather than biotech research.",
@@ -15,5 +16,6 @@
     "Shows automated data pipeline architecture with scheduled processors",
     "No experimental data, biological findings, or TRL-relevant scientific content present",
     "Document appears to be from a software/blockchain technology context rather than life sciences"
-  ]
+  ],
+  "milestones": []
 }

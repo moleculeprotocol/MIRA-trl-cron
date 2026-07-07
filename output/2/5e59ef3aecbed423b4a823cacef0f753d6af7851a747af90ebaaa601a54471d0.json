@@ -1,5 +1,6 @@
 {
   "file_path": "/vdp-16-fundingproposal.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "VitaDAO funding proposal (VDP-16) for Prof. Korolchuk lab to discover novel autophagy activators targeting lysosomal dysfunction in aging. The project proposes screening ~200 natural bioactive compounds using an innovative cell death-based assay system, followed by hit validation, derivative synthesis, and SAR studies. Budget requested: £80,000 for 12 months.",
@@ -94,5 +95,138 @@
     "Budget £80,000 for 12-month lead identification; potential expansion to £16,600 for ADMET/tox studies",
     "IP-NFT mechanism proposed; team interested in company formation",
     "Key risk: Npc1 model generalizability to broader aging (though team has data addressing this)"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "VDP-16 Proposal Passed",
+      "description": "VitaDAO governance proposal VDP-16 for the Korolchuk Lab Autophagy Activators funding was passed via on-chain vote (prior to VitaDAO's use of Snapshot).",
+      "date": "4y ago",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "NOTE: This is a duplicate of an on chain proposal from prior to VitaDAO's using snapshot, and is present here for completeness on snapshot. No snapshot vote occurred.",
+      "page": 1
+    },
+    {
+      "title": "Initial Compound Screen (~200 compounds)",
+      "description": "Screen a diverse library of ~200 naturally occurring bioactive compounds in cell survival assays (Atg5 vs Npc1 KO) for dose response effect, including optimisation and set up. Budget: £5,000.",
+      "date": "2 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Screen a diverse library of naturally occurring bioactive compounds (~200) in cell survival assays (Atg5 vs Npc1 KO) dose response effect (VK) (£5,000, 2 months including optimisation and set up)",
+      "page": 7
+    },
+    {
+      "title": "Hits Selection",
+      "description": "Selection of hit compounds based on chemical diversity, chemical tractability, and physicochemical parameters. Budget: £2,000.",
+      "date": "1 month",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Hits selection based on their chemical diversity, chemical tractability, and physicochemical parameters (JR) (£2,000, 1 month)",
+      "page": 7
+    },
+    {
+      "title": "Hit Verification Screening",
+      "description": "Orthogonal assays for hit verification including Luc-p62 clearance and traffic light LC3. Budget: £3,000.",
+      "date": "2 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Hit verification screening Orthogonal assays (Luc-p62 clearance, traffic light LC3) (VK) (£3,000, 2 months)",
+      "page": 7
+    },
+    {
+      "title": "Synthesis of Derivatives for Hit Series",
+      "description": "Synthesis of derivatives for 3–5 hit series (~12 each) and additional autophagy assays in parallel. Budget: £10,000 (synthesis) + £5,000 (assays).",
+      "date": "2 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "In parallel (2 months): Synthesis of derivatives for 3-5 hit series, ~12 each (JR, KPV) (£10,000); Additional autophagy assays (autophagic cargo degradation; flux assays; imaging-based determination of autophagy induction; testing an involvement of known signalling pathways) (VK) (£5,000)",
+      "page": 7
+    },
+    {
+      "title": "Lead Series Determination",
+      "description": "Determination of lead compound series from screening results. Budget: £2,000.",
+      "date": "2 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Lead series determined by screening (VK) (£2,000, 2 months)",
+      "page": 7
+    },
+    {
+      "title": "Second Round Synthesis & Lead Compound Testing",
+      "description": "Second round synthesis of ~12 derivatives based on lead series, testing lead compounds against lysosomal dysfunction cellular defects, and determination of biological targets via Samsara platform. Budget: £3,000 (synthesis) + £5,000 (testing).",
+      "date": "2 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "In parallel (2 months): Second round of synthesis based on lead series ~12 derivatives (KPV, JR) (£3,000); Testing the ability of lead compounds to alleviate cellular defects caused by lysosomal dysfunction (e.g. mitochondrial deficit, DNA damage, increased sensitivity to stress and cell death) (VK) (£5,000); Determination of biological target (Samsara)",
+      "page": 7
+    },
+    {
+      "title": "SAR Determination & Drug Lead Identification",
+      "description": "Screening of derivatives, structure-activity relationship (SAR) determination, and identification of drug leads. Budget: £3,000.",
+      "date": "1 month",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Screening of derivatives, SAR determination, identification of drug leads (KPV, JR, VK) (£3,000, 1 month)",
+      "page": 7
+    },
+    {
+      "title": "Total Phase 1 Completion (12-month postdoc)",
+      "description": "Completion of the lead compound identification phase funded by a 12-month postdoc plus running costs. Total budget: £80,000.",
+      "date": "12 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Total: 12-month postdoc + running costs - £80,000",
+      "page": 7
+    },
+    {
+      "title": "ADMET & DMPK Profiling in Mouse Models",
+      "description": "ADMET and DMPK profiling in mouse models including pharmacokinetics, tissue distribution, excretion, routes of administration (PO, IV), and preliminary toxicology studies (dose-range finding, MTD). Budget: £16,600. Contingent on successful screening.",
+      "date": "4 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "ADMET, DMPK profile determined in mouse models, (KPV) (Total £16,600, 4 Months)",
+      "page": 8
+    },
+    {
+      "title": "IP / Patent Filing for Drug Candidate(s)",
+      "description": "Filing for intellectual property protection for drug candidates identified from the screening programme.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "IP sought for drug candidate(s) patent",
+      "page": 8
+    },
+    {
+      "title": "Proof-of-Principle FDA-Approved Drug Screen",
+      "description": "A proof-of-principle screen using a library of FDA-approved drugs (Newcastle High Throughput Facility) was performed, producing 12 small molecules not previously known as autophagy inducers that effectively activated autophagy flux.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "As a proof of principle, we performed a screen using a library of FDA-approved drugs, provided by the Newcastle High Throughput Facility. The screen produced 12 small molecules previously not known as autophagy inducers that effectively activated autophagy flux.",
+      "page": 5
+    },
+    {
+      "title": "VitaDAO Funding Commitment via IP-NFT",
+      "description": "VitaDAO commits funding to the Korolchuk Lab autophagy activators project via an IP-NFT mechanism, with a ticket size of $150,000–$250,000.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "This proposal recommends VitaDAO commits funding via an IP-NFT. ... Small ticket size ($150000-$250000)",
+      "page": 2
+    }
+  ],
+  "document_date": "2021"
 }

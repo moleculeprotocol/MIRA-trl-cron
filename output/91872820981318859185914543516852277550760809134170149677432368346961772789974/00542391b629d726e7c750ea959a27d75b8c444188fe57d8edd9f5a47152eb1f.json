@@ -1,5 +1,6 @@
 {
   "file_path": "/KP10_Hypothesis_Report.pdf",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "medium",
   "summary": "Hypothesis report outlining a rational drug design strategy to develop stabilized analogs of kisspeptin-10 (KP-10) peptide with improved metabolic stability and pharmacokinetics while maintaining KISS1R receptor agonism. The document describes known liabilities of native KP-10, proposes three analog classes with specific modification strategies, and outlines an experimental plan for validation. This is a pre-experimental planning document establishing scientific rationale for TRL 1-2 work.",
@@ -62,5 +63,6 @@
     "Target product profile prioritizes improved plasma half-life and protease resistance while maintaining KISS1R potency",
     "Commercial applications span fertility, endocrinology, oncology, and metabolic regulation",
     "No actual experimental results, efficacy data, or manufactured compounds reported - purely conceptual stage"
-  ]
+  ],
+  "milestones": []
 }

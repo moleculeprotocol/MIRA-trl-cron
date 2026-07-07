@@ -1,5 +1,6 @@
 {
   "file_path": "/2025-09-23-14-07-55.jpg",
+  "extraction_version": 2,
   "document_type": "other",
   "relevance": "low",
   "summary": "This is a project status email from a service provider (likely a sequencing or molecular biology service lab) to a client named Michael. It confirms that a tRNA qPCR project for scientist Anthony Schwartz is on track for completion by end of week, with an expected data analysis delivery date of 9/26/2025.",
@@ -23,5 +24,67 @@
     "Refers to a tRNA qPCR sequencing project for Anthony Schwartz with 14 samples",
     "All wet lab steps completed, data analysis pending with expected delivery 9/26/2025",
     "No experimental results, scientific findings, or TRL-relevant information present"
+  ],
+  "milestones": [
+    {
+      "title": "Sample QC Completed",
+      "description": "Sample quality control for project J_081925-qPCR-12 (tRNA qPCR, 1x14) has been completed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Sample QC: Done",
+      "page": 1
+    },
+    {
+      "title": "Library Preparation Completed",
+      "description": "Library preparation for project J_081925-qPCR-12 (tRNA qPCR, 1x14) has been completed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Library Preparation: Done",
+      "page": 1
+    },
+    {
+      "title": "Library QC Completed",
+      "description": "Library quality control for project J_081925-qPCR-12 (tRNA qPCR, 1x14) has been completed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Library QC: Done",
+      "page": 1
+    },
+    {
+      "title": "Cluster Generation and Sequencing Completed",
+      "description": "Cluster generation and sequencing for project J_081925-qPCR-12 (tRNA qPCR, 1x14) has been completed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Cluster generation and Sequencing: Done",
+      "page": 1
+    },
+    {
+      "title": "Data Analysis Expected Completion",
+      "description": "Data analysis for project J_081925-qPCR-12 (tRNA qPCR, 1x14) is expected to be completed by September 26, 2025, described as 'the end of this week'.",
+      "date": "2025-09-26",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Data Analysis: Expected 9/26/2025",
+      "page": 1
+    },
+    {
+      "title": "Project Completion by End of Week",
+      "description": "The overall project is set to be completed by the end of the current week.",
+      "date": "end of this week",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Your project is set to be completed by the end of this week.",
+      "page": 1
+    }
   ]
 }

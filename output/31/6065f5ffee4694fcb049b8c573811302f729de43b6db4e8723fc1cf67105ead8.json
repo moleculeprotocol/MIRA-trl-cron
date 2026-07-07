@@ -1,5 +1,6 @@
 {
   "file_path": "/periodontal-updates202512.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "This document describes a preclinical project applying geroscience principles to treat age-related periodontal disease by targeting PI3K/NFκB/mTOR inflammatory pathways. The project builds on prior published work (eLife) showing rapamycin reverses periodontal bone loss in aged mice. The team plans to test five candidate compounds in aged mouse models with both systemic and local delivery approaches.",
@@ -50,5 +51,67 @@
     "Strong academic team from University of Washington with expertise in geroscience, aging, and translational research",
     "Large patient population (>70% of older adults have periodontal disease)",
     "PI has access to dental clinic for future human studies"
+  ],
+  "milestones": [
+    {
+      "title": "Prior In Vivo Rapamycin Study (eLife Publication)",
+      "description": "Prior in vivo evidence published in eLife showing reversal of age-related periodontal bone loss in mice following 8-week oral rapamycin treatment.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "The project builds on prior in vivo evidence (eLife publication) showing reversal of age-related periodontal bone loss in mice following 8-week oral rapamycin treatment.",
+      "page": 2
+    },
+    {
+      "title": "8-Week Systemic Administration Study",
+      "description": "8-week systemic administration study of five candidate compounds in aged mice with periodontal disease, targeting PI3K/NFκB/mTOR pathways.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "8-week systemic administration study of five candidate compounds in aged mice with periodontal disease.",
+      "page": 2
+    },
+    {
+      "title": "Local Delivery Sub-Study",
+      "description": "Local delivery sub-study involving gum-line application of effective compounds, comparing results to locally delivered rapamycin.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Local delivery sub-study (gum-line application) comparing effective compounds to locally delivered rapamycin.",
+      "page": 2
+    },
+    {
+      "title": "Evaluation of Periodontal, Cognitive, and Lifespan Outcomes / Preclinical IP Generation",
+      "description": "Evaluation of periodontal outcomes, cognitive function, and lifespan in treated aged mouse models, with the goal of generating preclinical IP for a future spin-out.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Evaluation of periodontal outcomes, cognitive function, and lifespan, generating preclinical IP for future spin-out.",
+      "page": 2
+    },
+    {
+      "title": "IP Filing (Pending Successful Outcomes)",
+      "description": "No patents filed yet; IP to be generated contingent on successful preclinical study outcomes, focusing on methods of use, formulation, and delivery claims.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "No patents filed yet; IP to be generated contingent on successful outcomes.",
+      "page": 3
+    },
+    {
+      "title": "Seminar Organization",
+      "description": "A seminar to be organized following completion of the project to disseminate findings.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Geroscience-Based Reversal of Periodontal Disease (finished, seminar to be organized)",
+      "page": 1
+    }
   ]
 }

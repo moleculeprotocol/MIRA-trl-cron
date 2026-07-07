@@ -1,5 +1,6 @@
 {
   "file_path": "/Cocoa-Zero-A-Step-Towards-DeSci-Enabled-Chocolate.pdf",
+  "extraction_version": 2,
   "document_type": "publication",
   "relevance": "medium",
   "summary": "ValleyDAO blog post about Cocoa Zero project at Imperial College London, developing microbial production of cocoa fats. Led by Dr. Oliver Konzock and Dr. Rodrigo Ledesma-Amaro. Engineered yeast strains achieved fatty acid profile matching cocoa butter. Project funded February 2024, now moving to chocolate manufacturer testing and commercialization.",
@@ -67,5 +68,48 @@
     "Currently partnering with chocolate manufacturers for testing in real formulations",
     "Next phase: scaling process toward commercialization of first DeSci-enabled chocolate bar",
     "Market driver: cocoa prices increased 300% since 2023 due to climate impacts on farming"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "ValleyDAO Funds Cocoa Zero Initiative",
+      "description": "ValleyDAO funded a research initiative at Imperial College London led by Dr. Oliver Konzock under the supervision of Dr. Rodrigo Ledesma-Amaro to develop a method for producing cocoa fats using microbes.",
+      "date": "2024-02",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "In February 2024, ValleyDAO funded a research initiative at Imperial College London led by Dr. Oliver Konzock under the supervision of Dr. Rodrigo Ledesma-Amaro, to develop a method for producing cocoa fats using microbes similar to those used in beer brewing.",
+      "page": 1
+    },
+    {
+      "title": "Cocoa Butter Fatty Acid Profile Milestone Achieved",
+      "description": "The Imperial College team engineered yeast strains that produce fats with a fatty acid profile closely resembling real cocoa butter, enabling mimicry of melting point, mouthfeel, and texture of real chocolate.",
+      "date": "2025-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The team at Imperial recently achieved a significant milestone. They've engineered yeast strains that produce fats with a fatty acid profile closely resembling that of real cocoa butter.",
+      "page": 2
+    },
+    {
+      "title": "Partnership with Chocolate Manufacturers for Fat Testing",
+      "description": "ValleyDAO partners with chocolate manufacturers to test bioproduced fats in real chocolate formulations.",
+      "date": "2025-04",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "partnership",
+      "source_quote": "As part of this milestone, ValleyDAO is now partnering with chocolate manufacturers to test the bioproduced fats in real chocolate formulations.",
+      "page": 5
+    },
+    {
+      "title": "Scale-Up and Commercialization",
+      "description": "The next step is scaling up the bioproduction process and moving toward commercialization, with the goal of creating the first DeSci-enabled chocolate bar.",
+      "date": "next step",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "The next step is scaling up the process and moving toward commercialization. If successful, this project could lead to the creation of the first DeSci-enabled chocolate bar, marking a major step in bringing DeSci innovations into consumer products.",
+      "page": 5
+    }
+  ],
+  "document_date": "2025-04-23"
 }

@@ -1,5 +1,6 @@
 {
   "file_path": "/fidel-updates-sep-2025.pdf",
+  "extraction_version": 2,
   "document_type": "presentation",
   "relevance": "high",
   "summary": "This is a Transfidelity project update document from Cerebrum DAO describing early-stage development of compounds to prevent protein misfolding in neurodegenerative diseases, specifically targeting alpha-synuclein aggregation in Parkinson's disease. The document outlines current experimental activities, near-term milestones through December 2025, and planned validation studies in early 2026 using disease-relevant cell models.",
@@ -38,5 +39,87 @@
     "Mechanistic studies planned: pathway analysis (near-term) and comprehensive transcriptomics/proteomics analysis (early 2026)",
     "Project pace is ahead of expectations, indicating good execution in early-stage research",
     "No quantitative efficacy data, animal model data, regulatory pathway information, or IP status provided in this update"
+  ],
+  "milestones": [
+    {
+      "title": "$FIDEL Token Launch",
+      "description": "Launch of the $FIDEL token by the Transfidelity team, marking the beginning of the current phase of research activity.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "With $FIDEL launched, the Transfidelity team has been making impressive progress on developing compounds that could prevent protein misfolding in neurodegenerative diseases.",
+      "page": 1
+    },
+    {
+      "title": "Compound Testing & Validation (Ongoing)",
+      "description": "Testing improved versions of original compounds while validating findings across different cell types.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Testing improved versions of the original compounds while validating findings across different cell types.",
+      "page": 1
+    },
+    {
+      "title": "Parkinson's Disease Cell Model Development (Ongoing)",
+      "description": "Developing a disease cell model using stem cells that overproduce alpha-synuclein, the protein that clumps together in Parkinson's disease.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Developing a disease cell model using stem cells that overproduce alpha-synuclein, the protein that clumps together in Parkinson's.",
+      "page": 1
+    },
+    {
+      "title": "Optimized Compound Testing Completion",
+      "description": "Expected completion of testing of optimized compounds by December.",
+      "date": "2025-12",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "By December, we expect to complete testing of optimized compounds and finish developing the Parkinson's disease cell model.",
+      "page": 1
+    },
+    {
+      "title": "Parkinson's Disease Cell Model Completion",
+      "description": "Expected completion of development of the Parkinson's disease cell model by December.",
+      "date": "2025-12",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "By December, we expect to complete testing of optimized compounds and finish developing the Parkinson's disease cell model.",
+      "page": 1
+    },
+    {
+      "title": "Pathway Analysis",
+      "description": "Working on pathway analysis to better understand how the compounds function.",
+      "date": "2025-12",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Also working on pathway analysis to better understand how the compounds function.",
+      "page": 1
+    },
+    {
+      "title": "Efficacy Test in Parkinson's Neurons",
+      "description": "Testing whether the compounds can prevent toxic protein clumps (alpha-synuclein aggregates) from forming in Parkinson's neurons.",
+      "date": "Early 2026",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Early 2026 will bring a significant test: seeing whether these compounds can prevent toxic protein clumps from forming in Parkinson's neurons, plus deeper molecular analysis through transcriptomics and proteomics.",
+      "page": 1
+    },
+    {
+      "title": "Transcriptomics & Proteomics Analysis",
+      "description": "Deeper molecular analysis through transcriptomics and proteomics, planned alongside efficacy testing in Parkinson's neurons.",
+      "date": "Early 2026",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Early 2026 will bring a significant test: seeing whether these compounds can prevent toxic protein clumps from forming in Parkinson's neurons, plus deeper molecular analysis through transcriptomics and proteomics.",
+      "page": 1
+    }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "file_path": "/vitastem-ipt-proposal-ar.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "medium",
   "summary": "Research proposal for hematopoietic stem cell (HSC) rejuvenation through multi-modal interventions targeting aging-disrupted pathways identified via single-cell RNA-seq analysis of 850,000 transcriptomes from donors aged 23-91. Proposes in vitro validation using mRNA/siRNA electroporation and small molecules in young vs aged HSCs, with detailed experimental methods, budget, and 12-month timeline.",
@@ -106,5 +107,137 @@
     "12-month timeline with defined milestones, CRO/academic partner execution, budget $100K",
     "No in vivo animal data yet - this is a proposal for in vitro validation studies (TRL 2 stage)",
     "Future direction includes CRISPR gene therapy vectors, nanoparticle delivery, organ-on-chip models (pending additional funding)"
+  ],
+  "milestones": [
+    {
+      "title": "scRNA-seq Data Analysis Completed",
+      "description": "Analysis of nearly 850,000 single-cell transcriptomes from healthy donors aged 23 to 91, generating a high-resolution atlas of hematopoietic aging and identifying lead candidate target genes for HSC rejuvenation.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In a VitaLabs funded project, we have systematically analyzed publicly available and proprietary human scRNA-seq datasets spanning different ages and genders... we identified and prioritized several lead candidate genes whose dysregulation drives HSC decline and represent promising intervention points for rejuvenation.",
+      "page": 2
+    },
+    {
+      "title": "Target Gene List Identified",
+      "description": "A comprehensive list of target genes for HSC rejuvenation was identified through single-cell RNA-seq data analysis from 850,000 transcriptomes, including TPSB2/TPSAB1, CD38, CCR9, KCNK17, and others from both circulating HSPCs and bone marrow-isolated HSCs.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "A comprehensive single-cell RNA-seq data analysis from 850,000 transcriptomes resulted in the following target genes for the HSC rejuvenation.",
+      "page": 5
+    },
+    {
+      "title": "Project Start Date",
+      "description": "Proposed start date for the in vitro validation and experimental work of the HSC rejuvenation project.",
+      "date": "2025-11-01",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Proposed Start Date\n01-Nov-2025",
+      "page": 10
+    },
+    {
+      "title": "Q1 Milestone: Setup & Pilot Experiments (Months 1–3)",
+      "description": "Secure approvals, contracts, and reagents. Optimize CD34+ stem cell isolation and electroporation (or culture commercial stem cells). Run pilot CFU and flow assays; establish experiment pipeline. Run first experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules. Analyze preliminary transcriptomic and functional data from cohort 1; refine protocols for cohort 2. Checkpoint: Successful optimization of HSC culture and transfection.",
+      "date": "2025-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Months 1–3 (Q1): Secure approvals, contracts, and reagents. Optimize CD34+ stem cell isolation and electroporation. Alternatively, culture commercial stem cells. pilot CFU and flow assays; establish experiment pipeline. Run first experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules. Analyze preliminary transcriptomic and functional data from cohort 1; refine protocols for cohort 2. Checkpoint: Successful optimization of HSC culture and transfection.",
+      "page": 10
+    },
+    {
+      "title": "Q2 Milestone: Second Experimental Cohorts (Months 4–6)",
+      "description": "Run second experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Months 4–6 (Q2): Run second experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules.",
+      "page": 11
+    },
+    {
+      "title": "Q3 Milestone: Validation & Multi-Omics Integration (Months 7–9)",
+      "description": "Validate across donors with reproducibility assays; add ATAC-seq for chromatin changes. Perform mechanistic assays (phospho-flow for key pathways) and single-cell differentiation tracking. Integrate functional, QPCR, scRNA-seq, and ATAC-seq data for candidate prioritization. Confirm top 2–3 interventions that restore youthful HSC signatures and improve CFU/LTC-IC metrics.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Months 7–9 (Q3): Validate across donors with reproducibility assays; add ATAC-seq for chromatin changes. Perform mechanistic assays (e.g., phospho-flow for key pathways) and single-cell differentiation tracking. Integrate functional, QPCR, scRNA-seq, and ATAC-seq data for candidate prioritization. Confirm top 2–3 interventions that restore youthful HSC signatures and improve CFU/LTC-IC metrics.",
+      "page": 11
+    },
+    {
+      "title": "Q4 Milestone: Final Experiments & Report Delivery (Months 10–12)",
+      "description": "Final confirmatory experiments, statistical analyses, and complete data package. Deliver final report with candidate list, figures, and translational plan for next-stage preclinical studies.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Month 10-12 (Q4): Final confirmatory experiments, statistical analyses, and complete data package. Deliver final report with candidate list, figures, and translational plan for next-stage preclinical studies.",
+      "page": 11
+    },
+    {
+      "title": "6-Month Milestone Cost Checkpoint",
+      "description": "A defined cost checkpoint at the 6-month mark of approximately $65–70K USD, covering $53K for experiments plus additional TBD costs for CRO or partner lab personnel.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Cost for a 6-month milestone: Approx $65-70K USD ($53K for experiments + additional amount TBD for CRO or partner lab personnel)",
+      "page": 10
+    },
+    {
+      "title": "Publication of Results",
+      "description": "Results from the in vitro HSC rejuvenation validation study will be published in a scientific journal.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Results will be published in a scientific journal.",
+      "page": 11
+    },
+    {
+      "title": "IP / Patent Filing",
+      "description": "Intellectual property will advance towards patent filing following successful in vitro validation, with further pre-clinical testing to follow.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "IP would advance towards patent filing and further pre-clinical testing.",
+      "page": 11
+    },
+    {
+      "title": "Future CRISPR & Nanoparticle Delivery Experiments",
+      "description": "Contingent on future fundraising from trading fees, additional experiments using CRISPR-mediated gene inhibition and activation via gene therapy vectors or nanoparticle-based delivery mechanisms to mimic in situ human conditions.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Depending on the future fundraising from trading fees, additional experiments using CRISPR-mediated gene inhibition and activation could be done using gene therapy vectors or nanoparticle-based delivery mechanisms to mimic in situ human conditions.",
+      "page": 11
+    },
+    {
+      "title": "Organ-on-a-Chip / Human-on-a-Chip Pipeline",
+      "description": "Future implementation of an organ-on-a-chip / human-on-a-chip pipeline to mimic in vivo human conditions, contingent on future funding.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "To mimic in vivo human conditions, an organ-on-a-chip / human-on-a-chip pipeline could be implemented.",
+      "page": 11
+    },
+    {
+      "title": "Funding Request: $100K USD",
+      "description": "Requested funding amount of $100,000 USD to support in vitro studies (CRO), bioinformatics analysis for drug discovery and target identification, PI stipend, reagents, and related costs.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Requested Funding Amount\n100K USD",
+      "page": 9
+    }
   ]
 }
