@@ -1,5 +1,6 @@
 {
   "file_path": "/ab4ad-daniel-bar-2024-fundraising-deck",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "Ab4AD is a Catalyst-funded research project from Tel Aviv University investigating whether protective antibodies against Alzheimer's disease-associated pathogens (HSV-1, P. gingivalis) can be identified in elderly non-demented individuals. The project aims to develop both a diagnostic tool and ultimately a vaccine, with preliminary data showing differential antibody responses in AD vs. non-AD populations.",
@@ -151,5 +152,128 @@
     "Project goal is dual: short-term saliva-based diagnostic, long-term preventive vaccine",
     "No in vivo validation studies planned in current funding phase - acknowledged limitation",
     "Small sample sizes in preliminary data - statistical validation needed with larger cohorts"
-  ]
+  ],
+  "milestones": [
+    {
+      "title": "Publication: Kidney methylation study",
+      "description": "Team member Naor Sagy (with Daniel Z Bar) published peer-reviewed paper on kidney-specific methylation patterns in Clinical Epigenetics.",
+      "date": "2024-02",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Naor Sagy, Noa Meyrom, Pazit Beckerman, Oren Pleniceanu, Daniel Z Bar. Kidney-specific methylation patterns correlate with kidney function and are lost upon kidney disease progression. Clin Epigenetics. 2024 Feb 12;16(1):27.",
+      "page": 29
+    },
+    {
+      "title": "Tokenomics last updated",
+      "description": "IP Tokenomics and 'How IP Tokens Work' slides last updated, indicating active fundraising preparation on Catalyst platform.",
+      "date": "2024-07-09",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Last updated July 9th, 2024",
+      "page": 24
+    },
+    {
+      "title": "Preliminary data collection completed (Pilot)",
+      "description": "Saliva samples collected from dental clinic patients and blood samples from Fliman Geriatric Hospital; proof-of-principle antibody detection assays completed for P. gingivalis.",
+      "date": "2024-07-09",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Saliva samples were collected from consenting patients undergoing routine dental treatments. Additionally, blood samples were also collected from consenting patients at Fliman Geriatric Hospital.",
+      "page": 32
+    },
+    {
+      "title": "M1: Mass Spectrometry to identify AD-associated antigens",
+      "description": "Blood and saliva samples analyzed by mass spectrometry to identify significant differences in pathogenic or AD-protective proteins between AD and non-AD participants.",
+      "date": "4 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M1: Mass spectrometry to identify AD-associated antigens | 4 months | $20,000",
+      "page": 17
+    },
+    {
+      "title": "M2: VirScan to identify specific antibodies",
+      "description": "VirScan assay applied to blood samples to identify which viruses patients have been exposed to and characterize specific antibody responses. Described as 'the most crucial data unlock provided by this funding.'",
+      "date": "5 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M2: VirScan to identify specific antibodies | 5 months | $70,000",
+      "page": 17
+    },
+    {
+      "title": "M3: Validation with Peptide Microarrays and ELISA",
+      "description": "Validation of immune response against identified antigens using peptide microarrays and ELISA to confirm specific pathogenic proteins in AD vs non-AD samples.",
+      "date": "3 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M3: Validation of immune response against identified antigens with Peptide Microarrays and ELISA | 3 months | $14,000",
+      "page": 17
+    },
+    {
+      "title": "Total funded research program completion",
+      "description": "Completion of all three experimental milestones (M1 mass spec, M2 VirScan, M3 peptide microarrays/ELISA) over a 12-month period, total cost $192,570.",
+      "date": "12 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Total | 12 months | $192,570",
+      "page": 17
+    },
+    {
+      "title": "Access to nationwide sample sets",
+      "description": "Following strong preliminary data from this study, team plans to gain access to nationwide sample sets for larger-scale analysis, described as 'the greatest value-unlock.'",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Strong preliminary data from this study will allow us to gain access to nationwide sample sets. Currently the analysis of larger data sets is expected to be the greatest value-unlock.",
+      "page": 22
+    },
+    {
+      "title": "In vivo AD mouse model studies for protective antibodies",
+      "description": "Test protective potential of candidate peptides (e.g., Peptide 1007) against AD in AD mouse models; also investigate antiviral drugs in reducing AD risk in mouse models.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Test the protective potential of candidate peptides against AD in AD mouse models (in-vivo studies)",
+      "page": 15
+    },
+    {
+      "title": "IP filing: Antibody design, vaccine, and diagnostic tool patents",
+      "description": "Future planned patent filings covering: (1) new antibodies and application methods for treating AD, (2) vaccine ingredients/processes for AD prevention, (3) wetware/hardware/software components for AD detection kits.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Obtaining patents for the new antibodies and their application methods developed for treating Alzheimer's Disease",
+      "page": 21
+    },
+    {
+      "title": "Short-term: Early diagnostic tool development",
+      "description": "Development of an early diagnostic tool using the antibody model, enabling asymptomatic people infected with AD-associated pathogens to intervene at early stages.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Short-term goal: Early diagnostic tool using our antibody model",
+      "page": 9
+    },
+    {
+      "title": "Long-term: Vaccine development against AD",
+      "description": "Long-term goal of developing a vaccine against Alzheimer's Disease, leveraging identified protective antibodies and pathogen targets.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Long-term goal: Development of a vaccine",
+      "page": 9
+    }
+  ],
+  "document_date": "2024-07-09"
 }

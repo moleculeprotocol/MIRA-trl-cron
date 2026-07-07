@@ -1,5 +1,6 @@
 {
   "file_path": "/ab4ad-report.pdf",
+  "extraction_version": 2,
   "document_type": "experiment_report",
   "relevance": "high",
   "summary": "Ab4AD experimental report investigating pathogen-driven Alzheimer's disease through antibody profiling. Study compares AD patients vs. cognitively healthy elderly controls (>85 years) using IP-MS, peptide microarrays, and VirScan to identify immune signatures. Key finding: gingipain antigens from P. gingivalis showed strongest enrichment in AD patients, suggesting a diagnostic biomarker strategy for patient stratification.",
@@ -79,5 +80,47 @@
     "IP/regulatory: Not disclosed in document",
     "Team/funding: Not disclosed in document",
     "No animal models or CMC/manufacturing data - biomarker discovery stage only"
+  ],
+  "milestones": [
+    {
+      "title": "Gingipain Antibody Target Discovery",
+      "description": "IP-MS and discovery-phase peptide microarray identified gingipain antigens from P. gingivalis as the strongest and most consistent immune targets enriched in AD patient blood samples compared to healthy elderly controls.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The gingipain antigens from Porphyromonas gingivalis showed the strongest and most consistent enrichment in the AD patients' blood samples compared to the healthy elderly controls.",
+      "page": 3
+    },
+    {
+      "title": "Independent Validation of Gingipain Targets",
+      "description": "Gingipain-derived peptide microarray targets were validated in an independent group of patients, confirming strong AD-specific antibody signals.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Gingipain-derived targets were successfully validated, showing strong AD-specific signals in an independent group of patients.",
+      "page": 3
+    },
+    {
+      "title": "Expanded Cohort Validation (Planned)",
+      "description": "Planned future study to increase participant numbers and confirm that gingipain antibody signatures are reliably associated with AD.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Expanded Cohort Validation: Increase the number of participants in future studies to confirm that the gingipain antibody signatures are reliably associated with AD.",
+      "page": 4
+    },
+    {
+      "title": "Retrospective Trial Analysis (Planned)",
+      "description": "Planned effort to access archived blood samples from prior anti-gingipain drug trials to determine if patients with the gingipain antibody signature showed a better response to treatment, potentially enabling regulatory re-submission for a defined patient subgroup.",
+      "date": "<UNKNOWN>",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Retrospective Trial Analysis: Seek to access archived blood samples from prior drug trials to determine if patients with the gingipain antibody signature showed a better response to the treatment, which could immediately move a failed drug closer to approval for a specific patient group.",
+      "page": 4
+    }
   ]
 }

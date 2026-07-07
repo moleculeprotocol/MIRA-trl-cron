@@ -1,5 +1,6 @@
 import { TEST_PROJECTS } from "../lib/config.js"
 import {
+  assessScheduleStatus,
   calculateWeightedScore,
   extractMultipleDocuments,
   fillOutQuestionnaire,
@@ -164,7 +165,28 @@ async function processProject(project: Project): Promise<void> {
     }
   }
 
-  // Step 4: Update Sanity with TRL data, scoring results, and todos
+  // Step 4: Assess schedule status (traffic light) from milestone/document dates
+  const scheduleStatus = await assessScheduleStatus(extractions)
+
+  if (scheduleStatus) {
+    console.log("\n========== SCHEDULE STATUS ==========")
+    console.log(`Project: ${symbol} (${documentId})`)
+    console.log(`Traffic Light: ${scheduleStatus.traffic_light.toUpperCase()}`)
+    console.log(`Confidence: ${scheduleStatus.confidence}`)
+    console.log(`\nRationale (investors): ${scheduleStatus.rationale}`)
+    console.log(`\nFix (team): ${scheduleStatus.fix}`)
+    if (scheduleStatus.signals.length > 0) {
+      console.log(`\nSignals (${scheduleStatus.signals.length}):`)
+      for (const s of scheduleStatus.signals) {
+        const ref = s.reference_date ? ` [${s.reference_date}]` : ""
+        const src = s.source_document ? ` (${s.source_document})` : ""
+        console.log(`  • (${s.impact})${ref} ${s.observation}${src}`)
+      }
+    }
+    console.log("=====================================\n")
+  }
+
+  // Step 5: Update Sanity with TRL data, scoring results, and todos
   await updateTrlAndScoringAsDraft(
     documentId,
     symbol,

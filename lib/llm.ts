@@ -1522,3 +1522,223 @@ You MUST generate at least 1 public AND at least 1 private todo if ANY criterion
 
   return output.todos
 }
+
+// =============================================================================
+// Schedule Status (Traffic Light)
+// =============================================================================
+
+const scheduleSignalSchema = z.object({
+  observation: z
+    .string()
+    .describe(
+      "One concrete, date-grounded observation supporting the assessment",
+    ),
+  milestone_title: z
+    .string()
+    .optional()
+    .describe("Milestone this signal refers to, if any"),
+  reference_date: z
+    .string()
+    .optional()
+    .describe(
+      "The milestone target/actual date (or document date) this signal is anchored to, as stated",
+    ),
+  source_document: z
+    .string()
+    .optional()
+    .describe("Filename the signal was derived from, for traceability"),
+  impact: z
+    .enum(["positive", "neutral", "negative"])
+    .describe("Whether this signal points toward on-track or behind-schedule"),
+})
+
+const scheduleStatusSchema = z.object({
+  traffic_light: z
+    .enum(["green", "yellow", "red"])
+    .describe(
+      "green = on track; yellow = insufficient confidence to judge; red = confidently behind schedule",
+    ),
+  confidence: z
+    .enum(["high", "medium", "low"])
+    .describe("How confident the assessment is, given date coverage/recency"),
+  rationale: z
+    .string()
+    .describe(
+      "Investor-facing explanation (2-4 sentences) of WHY the project got this light, grounded in the milestone dates. Plain, honest, non-alarmist.",
+    ),
+  fix: z
+    .string()
+    .describe(
+      "Team-facing explanation of which missing/outdated PUBLIC information is driving a yellow/red light and which public documents to add to the data room to resolve it. For green, note any minor gaps or state none are needed.",
+    ),
+  signals: z
+    .array(scheduleSignalSchema)
+    .describe("The dated evidence the assessment is grounded in"),
+})
+
+export type ScheduleStatus = z.infer<typeof scheduleStatusSchema>
+export type TrafficLight = ScheduleStatus["traffic_light"]
+
+const SCHEDULE_STATUS_PROMPT = `You are a biotech/pharma diligence analyst. Your job is to judge whether a project is ON TRACK or BEHIND SCHEDULE, using ONLY the date-anchored milestones and document dates extracted from the project's public data room.
+
+The output is used for a traffic-light indicator shown to current and prospective investors, plus an internal note for the project team.
+
+## Core Principle: Evidence, Not Vibes
+Every conclusion MUST be grounded in an actual date (a milestone target/actual date or a document date). Never infer that something is late without a date to justify it. When you cannot ground a claim in the data, do not make it — default toward YELLOW instead of guessing RED.
+
+## Use Document Dates to Resolve the Current Truth
+Documents are provided with a "document date" (when each was authored/published/updated). Milestones can appear in multiple documents and may be corrected or superseded over time.
+- Treat the milestone information from the document with the LATEST document date as the most authoritative version of the plan.
+- If a milestone's date or status differs across documents, prefer the version from the most recent document. A later document can mark a previously-"planned" milestone as completed, move its target date, or drop it.
+- Do NOT flag a milestone as "missed" if a more recent document shows it completed, rescheduled, or explicitly re-planned.
+- If document dates are missing or old, say so — it lowers confidence and pushes toward YELLOW.
+
+## How to Judge "Behind Schedule" (materiality buffers)
+A planned/in-progress milestone counts as OVERDUE only if its target date has clearly passed by more than a materiality buffer that scales with how precisely the date was stated (compare against the ASSESSMENT DATE provided below):
+- Day or month precision: overdue if the target is more than ~2 months in the past.
+- Quarter precision (e.g. 2025-Q1): overdue if the quarter ended more than ~1 quarter (~3 months) ago.
+- Year precision (e.g. 2025): overdue if more than ~6 months past the end of that year.
+- Relative/unknown dates ("in 6 months", "next year"): cannot be reliably judged as overdue — treat as low-confidence, not as evidence of lateness.
+An overdue milestone only counts against the project if NO later document indicates it was completed or re-planned.
+
+## Staleness & Momentum
+- If the most recent dated activity anywhere in the data room (latest completed milestone OR latest document date) is more than ~12 months old, momentum is questionable — this pushes toward YELLOW, and toward RED if concrete near-term milestones were promised in that window and there is no evidence they happened.
+- Biotech moves slowly. Do NOT penalize long ABSOLUTE timelines (e.g. multi-year preclinical or regulatory paths). Only penalize when the project's OWN stated targets have slipped, or when activity has clearly stalled relative to its own plan.
+
+## Category-Specific Guidance
+- IP: A patent that was announced as "to be filed" / "planned" but remains unfiled more than ~12 months after its stated target is a negative signal. However, a patent that HAS been filed but is not yet granted is NORMAL (grants routinely take years) — do NOT treat a pending grant as behind schedule.
+- Regulatory/clinical: Missing a self-imposed IND/first-in-human/readout target date (beyond the buffers above) with no revised plan is a strong negative signal.
+- Funding: A closed round is positive/neutral. A funding milestone that was targeted and then passed with no evidence of closing is a negative signal but rarely sufficient on its own for RED.
+
+## Traffic-Light Definitions (be strict and consistent)
+GREEN — On track. The plan is legible and recent, and the project is meeting it:
+- There is at least one reasonably recent dated document (typically within ~12 months), AND
+- No material milestone is overdue per the buffers above (or any that were overdue are shown completed/re-planned in a newer document), AND
+- Completed milestones and/or a coherent forward plan show momentum consistent with the stated roadmap.
+
+RED — Confidently behind schedule. You can safely say the project has slipped:
+- One or more MATERIAL milestones are overdue per the buffers above with no later document showing completion or a credible re-plan, OR
+- A category that should show steady progress has clearly stalled (e.g. a promised patent filing >12 months overdue; a promised IND/readout date long past with no update), OR
+- The most recent activity is very stale AND concrete near-term milestones that were promised have no evidence of happening.
+Only choose RED when the dates make lateness unambiguous.
+
+YELLOW — Insufficient confidence to call it green or red. The evidence is sparse, stale, low-precision, or contradictory:
+- Milestones lack dates or use only relative/unknown dates, OR
+- There is no forward-looking plan to measure against, OR
+- Documents are old / undated so you cannot confirm current status, OR
+- Signals conflict and cannot be reconciled even after applying document-date precedence.
+YELLOW is the correct, honest answer whenever you cannot defend GREEN or RED with dated evidence.
+
+## Writing the Outputs
+- rationale (INVESTORS): 2-4 plain sentences explaining why the light is what it is, referencing the concrete dates/milestones that drove it. Be honest but measured — no hype, no unwarranted alarm. Avoid confidential specifics; keep it suitable for a prospective investor.
+- fix (PROJECT TEAM): explain which missing or outdated information caused a yellow/red, and name the specific PUBLIC documents/updates that, if added to the data room, would let the assessment reach (or confirm) green. Only suggest items that can be public and non-confidential — e.g. an updated roadmap with current target dates, a granted patent or public filing confirmation, a dated progress update or milestone summary, a published paper/preprint, a public clinical-trial registration, or a press release. Do NOT request confidential/proprietary data. If GREEN, state that no additional info is needed (or note minor items that would strengthen confidence).
+- signals: list the specific dated observations (positive, neutral, and negative) you relied on, each tied to a milestone/date and source document where possible. Include the ones that most influenced the decision.`
+
+/**
+ * Builds a compact, date-first view of the data room for schedule assessment.
+ * Documents are ordered oldest-to-newest by document date so the model can
+ * reason about which later documents supersede earlier milestone information.
+ */
+function formatMilestonesForScheduleAssessment(
+  extractions: Map<string, ExtractedDocument>,
+): { text: string; milestoneCount: number } {
+  const docs = [...extractions.entries()].filter(
+    ([, doc]) => doc.relevance !== "none",
+  )
+
+  // Sort by document date ascending; undated documents sink to the bottom.
+  docs.sort(([, a], [, b]) => {
+    const da = a.document_date ?? ""
+    const db = b.document_date ?? ""
+    if (da && db) return da < db ? -1 : da > db ? 1 : 0
+    if (da) return -1
+    if (db) return 1
+    return 0
+  })
+
+  let milestoneCount = 0
+  const sections: string[] = []
+
+  for (const [filename, doc] of docs) {
+    const lines: string[] = []
+    lines.push(`FILE: ${filename}`)
+    lines.push(`Document date: ${doc.document_date ?? "unknown"}`)
+    lines.push(`Type: ${doc.document_type}`)
+
+    const milestones = doc.milestones ?? []
+    if (milestones.length === 0) {
+      lines.push("Milestones: none extracted from this document")
+    } else {
+      lines.push("Milestones:")
+      for (const m of milestones) {
+        milestoneCount++
+        lines.push(
+          `  • [${m.category}] ${m.title} — target/actual: ${m.date} (precision: ${m.date_precision}, status: ${m.status})`,
+        )
+        if (m.description) lines.push(`    ${m.description}`)
+        if (m.source_quote) lines.push(`    quote: "${m.source_quote}"`)
+      }
+    }
+
+    sections.push(lines.join("\n"))
+  }
+
+  return { text: sections.join("\n\n"), milestoneCount }
+}
+
+/**
+ * Assesses whether a project is on track or behind schedule based on the
+ * date-anchored milestones and document dates in its (public) data room, and
+ * produces a traffic-light status with an investor-facing rationale and a
+ * team-facing fix note.
+ *
+ * @param extractions - Extracted documents (with milestones + document dates)
+ * @param options.assessmentDate - The "today" reference (ISO YYYY-MM-DD).
+ *   Defaults to the current date. Injected so lateness is judged relative to it.
+ * @returns The schedule status, or null if there is no relevant content.
+ */
+export async function assessScheduleStatus(
+  extractions: Map<string, ExtractedDocument>,
+  options: { assessmentDate?: string } = {},
+): Promise<ScheduleStatus | null> {
+  const { text, milestoneCount } =
+    formatMilestonesForScheduleAssessment(extractions)
+
+  if (!text) {
+    console.log("Schedule assessment skipped - no relevant documents")
+    return null
+  }
+
+  const assessmentDate =
+    options.assessmentDate ?? new Date().toISOString().slice(0, 10)
+
+  console.log(
+    `Assessing schedule status (${milestoneCount} milestone(s), as of ${assessmentDate})...`,
+  )
+
+  const prompt = `${SCHEDULE_STATUS_PROMPT}
+
+## Assessment Date (treat as "today")
+
+${assessmentDate}
+
+## Data Room — Documents & Milestones (oldest to newest by document date)
+
+Newer documents supersede older ones when they describe the same milestone.
+
+<data_room>
+${text}
+</data_room>`
+
+  const { output } = await generateText({
+    model: anthropic(REASONING_MODEL),
+    prompt,
+    output: Output.object({ schema: scheduleStatusSchema }),
+  })
+
+  console.log(
+    `Schedule assessment complete: ${output.traffic_light} (confidence: ${output.confidence})`,
+  )
+
+  return output
+}
