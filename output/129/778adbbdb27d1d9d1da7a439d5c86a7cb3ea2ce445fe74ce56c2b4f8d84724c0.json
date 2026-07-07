@@ -1,5 +1,6 @@
 {
   "file_path": "/percepta-human-trial-approved-by-the-irb",
+  "extraction_version": 2,
   "document_type": "regulatory",
   "relevance": "high",
   "summary": "IRB approval announcement for Percepta, a brain health supplement containing PTI-00703 Cat's Claw and MemorTea oolong tea extract. The document describes a 6-month randomized controlled trial in adults with mild cognitive impairment, tracking neurocognitive outcomes, wearable data, and P-tau 217 biomarkers. This represents progression to human clinical trials (TRL 5-6 transition) following in-vitro validation and comparative studies.",
@@ -54,5 +55,127 @@
     "First results expected in 2026",
     "Key inventor: Dr. Alan Snow",
     "Trial design: double-blinded, decentralized, placebo-controlled"
+  ],
+  "milestones": [
+    {
+      "title": "Percepta Development by Dr. Alan Snow",
+      "description": "Dr. Alan Snow developed Percepta using PTI-00703® Cat's Claw and MemorTea® oolong extract as neuroprotective compounds.",
+      "date": "2010s",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2010s: Dr. Alan Snow developed Percepta with PTI-00703® Cat's Claw and MemorTea® oolong extract.",
+      "page": 1
+    },
+    {
+      "title": "Core Patent Portfolio Secured",
+      "description": "12+ core patents secured for Percepta's unique formulation, building a robust, defensible IP portfolio.",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "2017-present: 12+ core patents secured for Percepta's unique formulation, creating a robust, defensible IP portfolio.",
+      "page": 2
+    },
+    {
+      "title": "Nature Scientific Reports Publication",
+      "description": "Dr. Alan Snow published research on the plaque and tangle-reducing potential of cat's claw compounds in Nature Scientific Reports; ranked in the top 100 most downloaded papers for a Nature journal that year.",
+      "date": "2019",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2019: Dr. Alan Snow's 2019 research into the plaque and tangle-reducing potential of cat's claw compounds, published in Nature Scientific Reports, became one of the top 100 most downloaded papers for a Nature journal that year.",
+      "page": 2
+    },
+    {
+      "title": "Head-to-Head Comparison Study vs. 20+ Brain Supplements",
+      "description": "A comparison study tested Percepta directly against 20+ major brain supplements under identical laboratory conditions; Percepta outperformed all competitors by substantial margins.",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2021: A 2021 comparison study tested Percepta directly against 20+ major brain supplements using identical laboratory conditions – Percepta outperformed all competitors by substantial margins.",
+      "page": 2
+    },
+    {
+      "title": "Percepta IP-NFT Tokenization (Neuron_Percepta)",
+      "description": "Percepta was tokenized as the Neuron_Percepta Intellectual Property Non-Fungible Token (IP-NFT), initiating the DeSci funding model.",
+      "date": "2024-10",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "We've been working towards this milestone since October 2024, when we tokenized Percepta as the Neuron_Percepta Intellectual Property Non-Fungible Token (\"IP-NFT\").",
+      "page": 1
+    },
+    {
+      "title": "NEURON-CLAW Community Crowd-Funding Round",
+      "description": "NEURON-CLAW tokenized and raised $500K+ (127.7 ETH from 115 contributors) via the CLAW Intellectual Property Token (IPT). Community voted to approve clinical trial funding — the first community-funded clinical trial for a brain health supplement.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "2024: NEURON-CLAW tokenized, raising $500K+ (127.7 ETH from 115 contributors). The community voted to approve clinical trial funding – the first community-funded clinical trial for a brain health supplement.",
+      "page": 2
+    },
+    {
+      "title": "Bio Protocol Additional Funding Contribution",
+      "description": "Bio Protocol contributed an additional $80K in funding toward the clinical trial.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "2025: Bio Protocol contributed an additional $80K.",
+      "page": 2
+    },
+    {
+      "title": "CLAW Listed on CoinGecko",
+      "description": "CLAW listed on CoinGecko as the first tokenized supplement patent portfolio on a major crypto platform.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "CLAW listed on CoinGecko as the first tokenized supplement patent portfolio on a major crypto platform.",
+      "page": 2
+    },
+    {
+      "title": "IRB Approval Secured",
+      "description": "Institutional Review Board (IRB) approved the 6-month, double-blinded, decentralized, randomized placebo-controlled trial of Percepta in adults with Mild Cognitive Impairment.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "2026: IRB approval secured. Human trial begins.",
+      "page": 2
+    },
+    {
+      "title": "Human Trial Initiation",
+      "description": "Commencement of the 6-month double-blinded decentralized randomized placebo-controlled human trial of Percepta in adults with MCI.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "clinical",
+      "source_quote": "2026: IRB approval secured. Human trial begins.",
+      "page": 2
+    },
+    {
+      "title": "Trial Participant Recruitment",
+      "description": "Recruitment for the Percepta human trial beginning soon after IRB approval.",
+      "date": "recruitment beginning soon",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "With IRB approval secured, recruitment beginning soon, and first results expected later this year, Percepta is entering its most important phase yet.",
+      "page": 2
+    },
+    {
+      "title": "First Trial Results Expected",
+      "description": "First results from the Percepta 6-month randomized controlled trial expected later in 2026.",
+      "date": "later this year",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "With IRB approval secured, recruitment beginning soon, and first results expected later this year, Percepta is entering its most important phase yet.",
+      "page": 2
+    }
   ]
 }
