@@ -2,6 +2,7 @@ import * as fs from "node:fs/promises"
 import * as path from "node:path"
 import { anthropic } from "@ai-sdk/anthropic"
 import { generateText, Output } from "ai"
+import { jsonrepair } from "jsonrepair"
 import { z } from "zod"
 import {
   EXTRACTION_MODEL,
@@ -273,10 +274,6 @@ ${MILESTONE_INSTRUCTIONS}
 
 If the entire document is irrelevant (pure branding, logos only), just provide a brief summary explaining why, set relevance to "none", and return an empty milestones array.`
 
-const MILESTONE_ONLY_PROMPT = `You are extracting timeline and schedule information from a biotech/science project document. Focus ONLY on dates and milestones — ignore everything else.
-
-${MILESTONE_INSTRUCTIONS}`
-
 type SupportedMimeType =
   | "application/pdf"
   | "image/png"
@@ -392,16 +389,6 @@ const extractedDocumentSchema = z.object({
   milestones: lenientArray(milestoneSchema).describe(
     "Date-anchored events: past achievements and future planned milestones with their dates and status",
   ),
-})
-
-const milestoneExtractionSchema = z.object({
-  document_date: z
-    .string()
-    .optional()
-    .describe(
-      "Date the document itself was authored/published/updated (ISO 8601). Omit if not determinable.",
-    ),
-  milestones: lenientArray(milestoneSchema),
 })
 
 async function saveCachedExtraction(
@@ -581,7 +568,24 @@ function buildFileMessageContent(
   return [filePart, { type: "text" as const, text: promptText }]
 }
 
-/** Coerces stringified array fields from a failed generateText output. */
+/** Parses JSON, falling back to jsonrepair for lightly-malformed output. */
+function tolerantJsonParse(text: string): unknown | undefined {
+  try {
+    return JSON.parse(text)
+  } catch {}
+  try {
+    return JSON.parse(jsonrepair(text))
+  } catch {}
+  return undefined
+}
+
+/**
+ * Best-effort recovery when the model returned valid-ish JSON but serialized one
+ * or more array fields as a (possibly malformed) JSON string. This is only a
+ * backstop — the primary defense is using the rich extraction schema, which
+ * Claude does not stringify. Some malformed outputs (e.g. unescaped quotes
+ * inside string values) are unrecoverable by any parser and return null.
+ */
 function recoverStructuredOutput<T>(
   error: unknown,
   schema: z.ZodType<T>,
@@ -593,11 +597,8 @@ function recoverStructuredOutput<T>(
 
   let raw: unknown
   if (typeof err?.text === "string") {
-    try {
-      raw = JSON.parse(err.text)
-    } catch {
-      return null
-    }
+    raw = tolerantJsonParse(err.text)
+    if (raw === undefined) return null
   } else if (err?.cause?.value && typeof err.cause.value === "object") {
     raw = err.cause.value
   } else {
@@ -609,9 +610,8 @@ function recoverStructuredOutput<T>(
 
   for (const key of arrayKeys) {
     if (typeof obj[key] === "string") {
-      try {
-        obj[key] = JSON.parse(obj[key] as string)
-      } catch {}
+      const parsed = tolerantJsonParse(obj[key] as string)
+      if (parsed !== undefined) obj[key] = parsed
     }
   }
 
@@ -619,41 +619,43 @@ function recoverStructuredOutput<T>(
   return result.success ? result.data : null
 }
 
-async function extractMilestonesOnly(
+/**
+ * Runs the full-document extraction LLM call for already-downloaded file data.
+ * We deliberately use the full schema/prompt (never a minimal single-array
+ * schema) because Claude reliably returns proper arrays for the rich schema,
+ * whereas a degenerate `{ milestones: [...] }` schema frequently gets serialized
+ * as a (often malformed) JSON string that no parser can recover.
+ */
+async function runFullExtraction(
   file: DataRoomFile,
-): Promise<z.infer<typeof milestoneExtractionSchema> | null> {
-  const downloaded = await downloadFileData(file)
-  if (!downloaded.ok) return null
-
+  data: Buffer,
+  mimeType: SupportedMimeType,
+): Promise<ExtractedDocument | null> {
   try {
     const { output } = await generateText({
       model: anthropic(EXTRACTION_MODEL),
       messages: [
         {
           role: "user",
-          content: buildFileMessageContent(
-            downloaded.data,
-            downloaded.mimeType,
-            MILESTONE_ONLY_PROMPT,
-          ),
+          content: buildFileMessageContent(data, mimeType, EXTRACTION_PROMPT),
         },
       ],
-      output: Output.object({ schema: milestoneExtractionSchema }),
+      output: Output.object({ schema: extractedDocumentSchema }),
     })
     return output
   } catch (error) {
-    const recovered = recoverStructuredOutput(
-      error,
-      milestoneExtractionSchema,
-      ["milestones"],
-    )
+    const recovered = recoverStructuredOutput(error, extractedDocumentSchema, [
+      "content_blocks",
+      "key_findings",
+      "milestones",
+    ])
     if (recovered) {
       console.warn(
-        `Recovered milestone output for ${file.path} (model returned a stringified array)`,
+        `Recovered extraction for ${file.path} (model returned a stringified array)`,
       )
       return recovered
     }
-    console.error(`Failed to extract milestones from ${file.path}:`, error)
+    console.error(`Failed to extract content from ${file.path}:`, error)
     return null
   }
 }
@@ -668,82 +670,62 @@ export async function extractDocumentContent(
   file: DataRoomFile,
 ): Promise<ExtractionOutcome> {
   const cacheFilename = await generateCacheFilename(file)
-
   const cached = await getCachedExtraction(projectId, cacheFilename)
-  if (cached) {
-    if (cached.extraction_version === EXTRACTION_VERSION) {
-      console.log(`Using cached extraction for: ${file.path}`)
-      return { status: "ok", doc: cached }
-    }
 
-    console.log(
-      `Amending cached extraction (v${cached.extraction_version ?? 1} -> v${EXTRACTION_VERSION}) for: ${file.path}`,
-    )
-    const milestoneData = await extractMilestonesOnly(file)
-    if (!milestoneData) {
+  // Fully current cache — nothing to do.
+  if (cached?.extraction_version === EXTRACTION_VERSION) {
+    console.log(`Using cached extraction for: ${file.path}`)
+    return { status: "ok", doc: cached }
+  }
+
+  const isAmend = cached != null
+  const downloaded = await downloadFileData(file)
+  if (!downloaded.ok) {
+    if (isAmend) {
+      // Can't reach the file to amend; keep stale cache and retry next run.
       console.warn(
-        `Milestone amend failed for ${file.path}; keeping existing cache and flagging for retry`,
+        `Cannot re-extract ${file.path} to amend; keeping existing cache and flagging for retry`,
       )
       return { status: "failed", doc: cached }
     }
+    return downloaded.reason === "unsupported"
+      ? { status: "skipped" }
+      : { status: "failed", doc: null }
+  }
 
+  console.log(
+    isAmend
+      ? `Amending cached extraction (v${cached.extraction_version ?? 1} -> v${EXTRACTION_VERSION}) for: ${file.path}`
+      : `Extracting content from: ${file.path}`,
+  )
+
+  const extracted = await runFullExtraction(
+    file,
+    downloaded.data,
+    downloaded.mimeType,
+  )
+  if (!extracted) {
+    // Extraction failed. On amend, keep stale content for this run.
+    return { status: "failed", doc: isAmend ? cached : null }
+  }
+
+  if (isAmend) {
+    // Preserve the existing content blocks / key findings (stability); only
+    // adopt the newly-extracted timeline fields.
     const { file_path: _fp, extraction_version: _ev, ...cachedDoc } = cached
     const merged: ExtractedDocument = {
       ...cachedDoc,
-      milestones: milestoneData.milestones,
-      document_date: milestoneData.document_date ?? cachedDoc.document_date,
+      milestones: extracted.milestones,
+      document_date: extracted.document_date ?? cachedDoc.document_date,
     }
     await saveCachedExtraction(projectId, cacheFilename, merged, file.path)
     console.log(`Cache amended for: ${file.path}`)
     return { status: "ok", doc: merged }
   }
 
-  const downloaded = await downloadFileData(file)
-  if (!downloaded.ok) {
-    return downloaded.reason === "unsupported"
-      ? { status: "skipped" }
-      : { status: "failed", doc: null }
-  }
-
-  console.log(`Extracting content from: ${file.path}`)
-
-  try {
-    const { output } = await generateText({
-      model: anthropic(EXTRACTION_MODEL),
-      messages: [
-        {
-          role: "user",
-          content: buildFileMessageContent(
-            downloaded.data,
-            downloaded.mimeType,
-            EXTRACTION_PROMPT,
-          ),
-        },
-      ],
-      output: Output.object({ schema: extractedDocumentSchema }),
-    })
-
-    await saveCachedExtraction(projectId, cacheFilename, output, file.path)
-    console.log(`Extraction complete and cached: ${file.path}`)
-
-    return { status: "ok", doc: output }
-  } catch (error) {
-    const recovered = recoverStructuredOutput(error, extractedDocumentSchema, [
-      "content_blocks",
-      "key_findings",
-      "milestones",
-    ])
-    if (recovered) {
-      console.warn(
-        `Recovered extraction for ${file.path} (model returned a stringified array)`,
-      )
-      await saveCachedExtraction(projectId, cacheFilename, recovered, file.path)
-      console.log(`Extraction recovered and cached: ${file.path}`)
-      return { status: "ok", doc: recovered }
-    }
-    console.error(`Failed to extract content from ${file.path}:`, error)
-    return { status: "failed", doc: null }
-  }
+  await saveCachedExtraction(projectId, cacheFilename, extracted, file.path)
+  console.log(`Extraction complete and cached: ${file.path}`)
+  return { status: "ok", doc: extracted }
 }
 
 export interface MultiExtractionResult {
