@@ -4,6 +4,18 @@ export const EXTRACTION_MODEL = "claude-sonnet-4-6"
 /** Model used for questionnaire, TRL classification, scoring, and todo generation. */
 export const REASONING_MODEL = "claude-opus-4-6"
 
+/**
+ * LLM sampling temperatures per task.
+ */
+export const TEMPERATURE = {
+  extraction: 0,
+  questionnaire: 0.2,
+  classification: 0,
+  scoring: 0,
+  todos: 0.4,
+  scheduleStatus: 0,
+} as const
+
 export const EXTRACTION_VERSION = 2
 
 export const MOLECULE_GRAPHQL_ENDPOINT =

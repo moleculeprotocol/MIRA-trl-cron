@@ -8,6 +8,7 @@ import {
   EXTRACTION_MODEL,
   EXTRACTION_VERSION,
   REASONING_MODEL,
+  TEMPERATURE,
 } from "./config.js"
 import type { DataRoomFile } from "./molecule.js"
 
@@ -491,6 +492,7 @@ export async function fillOutQuestionnaire(inputText: string): Promise<string> {
 
   const { text } = await generateText({
     model: anthropic(REASONING_MODEL),
+    temperature: TEMPERATURE.questionnaire,
     prompt,
   })
 
@@ -513,6 +515,7 @@ ${questionnaireText}
 
   const { output } = await generateText({
     model: anthropic(REASONING_MODEL),
+    temperature: TEMPERATURE.classification,
     prompt,
     output: Output.object({ schema: trlValueSchema }),
   })
@@ -642,6 +645,7 @@ async function runFullExtraction(
     try {
       const { output } = await generateText({
         model: anthropic(EXTRACTION_MODEL),
+        temperature: TEMPERATURE.extraction,
         messages: [
           {
             role: "user",
@@ -1199,6 +1203,7 @@ The final_weighted_score should be the sum of all weighted_scores.`
 
   const { output } = await generateText({
     model: anthropic(REASONING_MODEL),
+    temperature: TEMPERATURE.scoring,
     prompt,
     output: Output.object({ schema }),
   })
@@ -1527,6 +1532,7 @@ You MUST generate at least 1 public AND at least 1 private todo if ANY criterion
 
   const { output } = await generateText({
     model: anthropic(REASONING_MODEL),
+    temperature: TEMPERATURE.todos,
     prompt,
     output: Output.object({ schema: todoListSchema }),
   })
@@ -1747,6 +1753,7 @@ ${text}
 
   const { output } = await generateText({
     model: anthropic(REASONING_MODEL),
+    temperature: TEMPERATURE.scheduleStatus,
     prompt,
     output: Output.object({ schema: scheduleStatusSchema }),
   })
