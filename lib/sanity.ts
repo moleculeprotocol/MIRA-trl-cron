@@ -54,7 +54,7 @@ async function notifyDiscord({
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        content: "📝 New IP-NFT TRL draft by MIRA ready for review!",
+        content: "📝 New lab TRL draft by MIRA ready for review!",
         embeds: [
           {
             title: `${documentName} ($${symbol})`,
