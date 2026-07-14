@@ -1,4 +1,4 @@
-import { IPNFT_CONTRACT_ADDRESS, MOLECULE_GRAPHQL_ENDPOINT } from "./config.js"
+import { MOLECULE_GRAPHQL_ENDPOINT } from "./config.js"
 
 const EXTRACTABLE_CONTENT_TYPES = new Set([
   "application/pdf",
@@ -15,9 +15,7 @@ query GetAllProjects($page: Int, $perPage: Int) {
   labs(page: $page, perPage: $perPage) {
     nodes {
       ipnftId
-      ipnft {
-        symbol
-      }
+      shortname
     }
     totalCount
     pageInfo {
@@ -32,9 +30,7 @@ query GetAllProjects($page: Int, $perPage: Int) {
 
 interface ProjectNode {
   ipnftId: string | null
-  ipnft: {
-    symbol: string
-  } | null
+  shortname: string | null
 }
 
 interface PageInfo {
@@ -78,19 +74,23 @@ interface DataRoom {
 }
 
 interface ProjectWithDataRoom {
-  ipnftUid: string
-  ipnftSymbol: string
+  oclId: string
+  shortname: string | null
   dataRoom: DataRoom | null
 }
 
 interface GetProjectResponse {
   data: {
-    projectWithDataRoomAndFilesV2: ProjectWithDataRoom | null
+    labWithDataRoomAndFiles: ProjectWithDataRoom | null
   }
 }
 
-function buildIpnftUid(ipnftId: string): string {
-  return `${IPNFT_CONTRACT_ADDRESS}_${ipnftId}`
+interface ResolveOclIdResponse {
+  data: {
+    ipnft: {
+      oclId: string | null
+    } | null
+  }
 }
 
 async function hashString(input: string): Promise<string> {
@@ -117,7 +117,7 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
   }
 
   const allNodes: ProjectNode[] = []
-  // The `labs` query is 0-indexed (defaults to 0); perPage max is 100.
+  // The `labs` query is 0-indexed; perPage max is 100.
   let currentPage = 0
   let hasNextPage = true
 
@@ -158,26 +158,31 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
 
   console.log(`Total labs fetched: ${allNodes.length}`)
 
-  // Only labs linked to a legacy IPNFT can flow through the IPNFT-keyed
-  // pipeline (Sanity doc id + ipnftUid). Skip labs without a linked IPNFT.
+  // The rest of the pipeline is keyed by IPNFT token id, so skip labs that
+  // have no linked IPNFT.
   return allNodes
     .filter(
-      (
-        node,
-      ): node is ProjectNode & { ipnftId: string; ipnft: { symbol: string } } =>
-        node.ipnftId != null && node.ipnft != null,
+      (node): node is ProjectNode & { ipnftId: string } => node.ipnftId != null,
     )
     .map((node) => ({
       tokenId: node.ipnftId,
-      symbol: node.ipnft.symbol,
+      symbol: node.shortname?.toUpperCase() ?? node.ipnftId,
     }))
 }
 
+const RESOLVE_OCL_ID_QUERY = `
+query ResolveOclId($id: ID!) {
+  ipnft(id: $id) {
+    oclId
+  }
+}
+`
+
 const GET_PROJECT_QUERY = `
-query GetProject($ipnftUid: ID!) {
-  projectWithDataRoomAndFilesV2(ipnftUid: $ipnftUid) {
-    ipnftUid
-    ipnftSymbol
+query GetProject($oclId: String!) {
+  labWithDataRoomAndFiles(oclId: $oclId) {
+    oclId
+    shortname
     dataRoom {
       id
       alias
@@ -197,6 +202,37 @@ query GetProject($ipnftUid: ID!) {
 }
 `
 
+/**
+ * Resolves a lab's oclId from its IPNFT token id. Returns null when the IPNFT
+ * has no linked lab.
+ */
+async function resolveOclId(
+  ipnftId: string,
+  apiKey: string,
+): Promise<string | null> {
+  const response = await fetch(MOLECULE_GRAPHQL_ENDPOINT, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "x-api-key": apiKey,
+    },
+    body: JSON.stringify({
+      query: RESOLVE_OCL_ID_QUERY,
+      variables: { id: ipnftId },
+    }),
+  })
+
+  if (!response.ok) {
+    throw new Error(
+      `Failed to resolve oclId: ${response.status} ${response.statusText}`,
+    )
+  }
+
+  const result = (await response.json()) as ResolveOclIdResponse
+
+  return result.data?.ipnft?.oclId ?? null
+}
+
 export async function getProjectDataRoomFiles(
   ipnftId: string,
 ): Promise<DataRoomFile[]> {
@@ -204,6 +240,13 @@ export async function getProjectDataRoomFiles(
 
   if (!apiKey) {
     throw new Error("MOLECULE_API_KEY environment variable is not set")
+  }
+
+  const oclId = await resolveOclId(ipnftId, apiKey)
+
+  if (!oclId) {
+    console.log(`No lab found for ipnftId: ${ipnftId}`)
+    return []
   }
 
   const response = await fetch(MOLECULE_GRAPHQL_ENDPOINT, {
@@ -214,7 +257,7 @@ export async function getProjectDataRoomFiles(
     },
     body: JSON.stringify({
       query: GET_PROJECT_QUERY,
-      variables: { ipnftUid: buildIpnftUid(ipnftId) },
+      variables: { oclId },
     }),
   })
 
@@ -226,10 +269,10 @@ export async function getProjectDataRoomFiles(
 
   const result = (await response.json()) as GetProjectResponse
 
-  const project = result.data?.projectWithDataRoomAndFilesV2
+  const project = result.data?.labWithDataRoomAndFiles
 
   if (!project) {
-    console.log(`No project found for ipnftId: ${ipnftId}`)
+    console.log(`No lab found for oclId: ${oclId} (ipnftId: ${ipnftId})`)
     return []
   }
 
