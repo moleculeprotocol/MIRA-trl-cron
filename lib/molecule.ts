@@ -11,13 +11,13 @@ const EXTRACTABLE_CONTENT_TYPES = new Set([
 const PROCESS_VERSION = "v3"
 
 const GET_ALL_PROJECTS_QUERY = `
-query GetAllProjects($page: Int) {
-  projectsV2(page: $page) {
+query GetAllProjects($page: Int, $perPage: Int) {
+  labs(page: $page, perPage: $perPage) {
     nodes {
-      ipnftUid
-      ipnftSymbol
-      ipnftAddress
-      ipnftTokenId
+      ipnftId
+      ipnft {
+        symbol
+      }
     }
     totalCount
     pageInfo {
@@ -31,10 +31,10 @@ query GetAllProjects($page: Int) {
 `
 
 interface ProjectNode {
-  ipnftUid: string
-  ipnftSymbol: string
-  ipnftAddress: string
-  ipnftTokenId: string
+  ipnftId: string | null
+  ipnft: {
+    symbol: string
+  } | null
 }
 
 interface PageInfo {
@@ -46,7 +46,7 @@ interface PageInfo {
 
 interface GetAllProjectsResponse {
   data: {
-    projectsV2: {
+    labs: {
       nodes: ProjectNode[]
       totalCount: number
       pageInfo: PageInfo
@@ -117,7 +117,8 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
   }
 
   const allNodes: ProjectNode[] = []
-  let currentPage = 1
+  // The `labs` query is 0-indexed (defaults to 0); perPage max is 100.
+  let currentPage = 0
   let hasNextPage = true
 
   while (hasNextPage) {
@@ -129,7 +130,7 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
       },
       body: JSON.stringify({
         query: GET_ALL_PROJECTS_QUERY,
-        variables: { page: currentPage },
+        variables: { page: currentPage, perPage: 100 },
       }),
     })
 
@@ -141,26 +142,35 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
 
     const result = (await response.json()) as GetAllProjectsResponse
 
-    const nodes = result.data?.projectsV2?.nodes ?? []
+    const nodes = result.data?.labs?.nodes ?? []
     allNodes.push(...nodes)
 
-    const pageInfo = result.data?.projectsV2?.pageInfo
+    const pageInfo = result.data?.labs?.pageInfo
     hasNextPage = pageInfo?.hasNextPage ?? false
     currentPage++
 
     if (pageInfo) {
       console.log(
-        `Fetched page ${pageInfo.currentPage} of ${pageInfo.totalPages} (${nodes.length} projects)`,
+        `Fetched page ${pageInfo.currentPage} of ${pageInfo.totalPages} (${nodes.length} labs)`,
       )
     }
   }
 
-  console.log(`Total projects fetched: ${allNodes.length}`)
+  console.log(`Total labs fetched: ${allNodes.length}`)
 
-  return allNodes.map((node) => ({
-    tokenId: node.ipnftTokenId,
-    symbol: node.ipnftSymbol,
-  }))
+  // Only labs linked to a legacy IPNFT can flow through the IPNFT-keyed
+  // pipeline (Sanity doc id + ipnftUid). Skip labs without a linked IPNFT.
+  return allNodes
+    .filter(
+      (
+        node,
+      ): node is ProjectNode & { ipnftId: string; ipnft: { symbol: string } } =>
+        node.ipnftId != null && node.ipnft != null,
+    )
+    .map((node) => ({
+      tokenId: node.ipnftId,
+      symbol: node.ipnft.symbol,
+    }))
 }
 
 const GET_PROJECT_QUERY = `
