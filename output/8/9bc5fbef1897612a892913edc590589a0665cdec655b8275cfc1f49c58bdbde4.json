@@ -1,0 +1,154 @@
+{
+  "file_path": "/athenadao-facc-ipt-update-docx.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "AthenaDAO FACC IPT Update describing preclinical progress on lead compound A2, a STING inhibitor targeting ovarian aging and systemic inflammation. The document covers in vivo mouse studies demonstrating efficacy on reproductive and metabolic biomarkers, early toxicology findings, PK work initiation, IP filing, and spinout formation activities.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Updates – Lead Compound A2 Overview",
+      "content": "Mario's lab identified hit compound A2 with excellent STING inhibition demonstrated in an in vivo systemic inflammation model. A2 is the lead compound under active preclinical development targeting ovarian aging and inflammation-related indications. Mechanism of action: STING pathway inhibition."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "1-Month Oral Study in Middle-Aged Female Mice (9-month)",
+      "content": "Study design: 1-month oral dosing in 9-month-old female mice (middle-aged). Endpoints measured: ovarian follicle counts, AMH (anti-Müllerian hormone, an ovarian reserve biomarker), and pregnancy rates. Results: Increases in ovarian follicles, AMH levels, and pregnancy rates compared to vehicle control. Offspring (pups) are being followed up long-term; no adverse effects observed so far. This constitutes a completed in vivo efficacy study with reproductive endpoints in a relevant aging model."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "3-Month Ongoing Study in Older Female Mice (12-month)",
+      "content": "Study design: 3-month oral study in 12-month-old (older) female mice. Status: ongoing. Early readouts: signs of better glucose tolerance and improved welfare as measured by nesting score. This extends the efficacy evidence to metabolic and welfare endpoints in an older, more aged animal model, suggesting broader systemic benefit beyond reproductive outcomes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Long-Term Toxicology",
+      "content": "Long-term studies conducted to date show no toxicity for compound A2. Dedicated formal toxicology (tox) work is planned for next year. Current safety signal is reassuring but formal IND-enabling tox package has not yet been initiated."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Pharmacokinetic Profiling",
+      "content": "Lead compound A2 is being sent to WuXi AppTec (a CRO) for pharmacokinetic (PK) profiling. This represents initiation of drug metabolism and pharmacokinetics (DMPK) characterization, a key step in lead optimization / IND-enabling activities."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP Updates – Patent Filing",
+      "content": "Composition of matter patents for A2 and related compounds are being filed at the European Patent Office (EPO). Filing covers A2 and related chemical matter, providing potential exclusivity for the lead series."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Spinout Updates",
+      "content": "Negotiations are underway with Pablo Olavide University to add another inflammation-related asset from Mario's research into the spinout pipeline, potentially expanding the asset portfolio. The spinout is actively searching for a CEO to lead commercialization and company-building activities."
+    }
+  ],
+  "key_findings": [
+    "Lead compound A2 is a STING inhibitor validated in an in vivo systemic inflammation model — establishes mechanism-based in vivo proof of concept.",
+    "1-month oral study in middle-aged (9-month) female mice showed increases in ovarian follicles, AMH, and pregnancy rates vs. vehicle — direct in vivo reproductive efficacy evidence.",
+    "Pups from A2-treated mothers are being followed long-term with no issues observed, indicating no gross developmental toxicity signal.",
+    "Ongoing 3-month study in older (12-month) mice shows early signals of improved glucose tolerance and welfare (nesting score) — hints at broader metabolic benefit.",
+    "No toxicity observed in long-term studies to date; dedicated formal toxicology work planned for next year.",
+    "A2 sent to WuXi AppTec for PK profiling — DMPK characterization initiated, indicating transition toward lead optimization/IND-enabling stage.",
+    "Composition of matter patents for A2 and related compounds being filed at the EPO — IP protection in process.",
+    "Spinout formation in progress; CEO search active; negotiations with Pablo Olavide University for additional inflammation asset.",
+    "Overall TRL assessment: project is at approximately TRL 3 — in vivo disease-model validation completed with efficacy and early safety data, PK work just initiated, formal tox and IND-enabling studies not yet started."
+  ],
+  "milestones": [
+    {
+      "title": "Hit Compound A2 Identified (STING Inhibitor, In Vivo)",
+      "description": "Mario's lab identified compound A2 as a hit with excellent STING inhibition in an in vivo systemic inflammation model.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Recap: Mario's lab identified a hit compound (A2) with excellent STING inhibition in an in vivo systemic inflammation model.",
+      "page": 1
+    },
+    {
+      "title": "1-Month Oral Efficacy Study Completed (9-month Mice)",
+      "description": "Completed 1-month oral dosing study in middle-aged (9-month) female mice showing increases in ovarian follicles, AMH, and pregnancy rates vs. vehicle.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "In a 1-month oral study (9-month female mice, i.e. middle age): increases in ovarian follicles, AMH (ovarian biomarker), and pregnancy rates compared to vehicle.",
+      "page": 1
+    },
+    {
+      "title": "Long-Term Pup Follow-Up (Ongoing)",
+      "description": "Offspring from A2-treated dams are being followed long-term to assess developmental outcomes; no issues observed so far.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "Pups are being followed up long-term, no issues observed so far.",
+      "page": 1
+    },
+    {
+      "title": "3-Month Study in Older Mice (12-month) – Ongoing",
+      "description": "Ongoing 3-month oral study in 12-month-old female mice with early readouts of improved glucose tolerance and welfare (nesting score).",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "A 3-month study in older mice (12-month) is ongoing → early signs of better glucose tolerance and improved welfare (nesting score).",
+      "page": 1
+    },
+    {
+      "title": "PK Profiling at WuXi AppTec – Initiated",
+      "description": "Lead compound A2 sent to WuXi AppTec for pharmacokinetic profiling to characterize DMPK properties.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "preclinical",
+      "source_quote": "Lead compound A2 is being sent to WuXi AppTec for pharmacokinetic profiling.",
+      "page": 1
+    },
+    {
+      "title": "Composition of Matter Patent Filing at EPO",
+      "description": "Composition of matter patents for A2 and related compounds are being filed at the European Patent Office.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "ip",
+      "source_quote": "Composition of matter patents for A2 and related compounds are being filed at the EPO.",
+      "page": 1
+    },
+    {
+      "title": "Dedicated Toxicology Work Planned for Next Year",
+      "description": "Formal dedicated toxicology studies for A2 are planned for the following year; no formal tox package initiated yet.",
+      "date": "next year",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Long-term studies show no toxicity so far (dedicated tox work planned for next year).",
+      "page": 1
+    },
+    {
+      "title": "Negotiations with Pablo Olavide University for Additional Asset",
+      "description": "Ongoing negotiations to add another inflammation-related asset from Mario's research at Pablo Olavide University into the spinout pipeline.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "partnership",
+      "source_quote": "Negotiations with Pablo Olavide University to add another inflammation-related asset from Mario's research into the pipeline.",
+      "page": 1
+    },
+    {
+      "title": "CEO Search for Spinout",
+      "description": "Actively searching for a CEO to lead the spinout company forward.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "other",
+      "source_quote": "Actively looking for a CEO to drive the spinout forward.",
+      "page": 1
+    }
+  ]
+}
