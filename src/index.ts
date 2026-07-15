@@ -221,7 +221,8 @@ async function main(): Promise<void> {
 
   console.log(`Processing ${projects.length} project(s)...\n`)
 
-  for (const project of projects) {
+  for (const [index, project] of projects.entries()) {
+    console.log(`\nProcessing project ${index + 1} of ${projects.length}`)
     try {
       await processProject(project)
     } catch (error) {
