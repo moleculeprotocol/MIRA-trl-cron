@@ -5,6 +5,11 @@ on:
     - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
+      ocl_id:
+        description: 'Process only this OCL ID (leave empty to process all/test projects)'
+        required: false
+        default: ''
+        type: string
       use_all_projects:
         description: 'Fetch all projects from GraphQL (false = use test project)'
         required: false
@@ -63,6 +68,7 @@ jobs:
       - name: Run TRL assessment
         run: pnpm tsx src/index.ts
         env:
+          OCL_ID: ${{ github.event_name == 'schedule' && '' || github.event.inputs.ocl_id || '' }}
           ENVIRONMENT: ${{ github.event_name == 'schedule' && 'production' || github.event.inputs.environment || 'staging' }}
           USE_ALL_PROJECTS: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.use_all_projects || 'true' }}
           FORCE_PROCESS: ${{ github.event_name == 'schedule' && 'false' || github.event.inputs.force_process || 'false' }}

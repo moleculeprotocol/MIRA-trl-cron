@@ -194,7 +194,8 @@ pnpm dev:all
 | `SANITY_STUDIO_URL` | No | Base URL for Sanity Studio (required for Discord notification links) |
 | `ENVIRONMENT` | No | `staging` or `production` -- controls Sanity dataset |
 | `SANITY_PUBLISH_IMMEDIATELY` | No | `true` to write TRL/scoring data directly to the published document instead of a draft |
-| `USE_ALL_PROJECTS` | No | `true` to fetch all projects; otherwise uses test projects |
+| `OCL_ID` | No | Process only this single OCL ID; overrides `USE_ALL_PROJECTS` when set |
+| `USE_ALL_PROJECTS` | No | `true` to fetch all projects; otherwise uses test projects (ignored when `OCL_ID` is set) |
 | `FORCE_PROCESS` | No | `true` to skip change detection and reprocess everything |
 
 ## Scheduled execution

@@ -200,14 +200,20 @@ async function processProject(project: Project): Promise<void> {
 
 /**
  * Main entry point for local development.
- * Processes test projects or all projects based on USE_ALL_PROJECTS env var.
+ * Processes a single project when OCL_ID is set, otherwise processes test
+ * projects or all projects based on USE_ALL_PROJECTS env var.
  */
 async function main(): Promise<void> {
+  const singleOclId = process.env.OCL_ID?.trim()
   const useAllProjects = process.env.USE_ALL_PROJECTS === "true"
 
   let projects: Project[]
 
-  if (useAllProjects) {
+  if (singleOclId) {
+    const oclId = singleOclId.toLowerCase()
+    console.log(`Processing single project (OCL_ID=${oclId})...`)
+    projects = [{ oclId, name: oclId }]
+  } else if (useAllProjects) {
     console.log("Fetching all projects from GraphQL...")
     const fetchedProjects = await getAllProjects()
     projects = fetchedProjects.map((p) => ({
