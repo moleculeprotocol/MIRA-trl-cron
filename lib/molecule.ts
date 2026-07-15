@@ -11,8 +11,8 @@ const EXTRACTABLE_CONTENT_TYPES = new Set([
 const PROCESS_VERSION = "v3"
 
 const GET_ALL_PROJECTS_QUERY = `
-query GetAllProjects($page: Int, $perPage: Int) {
-  labs(page: $page, perPage: $perPage) {
+query GetAllProjects($page: Int) {
+  labs(page: $page) {
     nodes {
       ipnftId
       shortname
@@ -117,11 +117,12 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
   }
 
   const allNodes: ProjectNode[] = []
-  // The `labs` query is 0-indexed; perPage max is 100.
-  let currentPage = 0
-  let hasNextPage = true
+  // The `page` argument is 0-indexed; pageInfo.currentPage is 1-indexed.
+  let page = 0
+  let totalPages = 1
+  let expectedTotal: number | undefined
 
-  while (hasNextPage) {
+  while (page < totalPages) {
     const response = await fetch(MOLECULE_GRAPHQL_ENDPOINT, {
       method: "POST",
       headers: {
@@ -130,7 +131,7 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
       },
       body: JSON.stringify({
         query: GET_ALL_PROJECTS_QUERY,
-        variables: { page: currentPage, perPage: 100 },
+        variables: { page },
       }),
     })
 
@@ -146,17 +147,20 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
     allNodes.push(...nodes)
 
     const pageInfo = result.data?.labs?.pageInfo
-    hasNextPage = pageInfo?.hasNextPage ?? false
-    currentPage++
-
     if (pageInfo) {
+      totalPages = pageInfo.totalPages
+      expectedTotal ??= result.data?.labs?.totalCount
       console.log(
         `Fetched page ${pageInfo.currentPage} of ${pageInfo.totalPages} (${nodes.length} labs)`,
       )
     }
+
+    page++
   }
 
-  console.log(`Total labs fetched: ${allNodes.length}`)
+  console.log(
+    `Total labs fetched: ${allNodes.length}${expectedTotal != null ? ` (API totalCount: ${expectedTotal})` : ""}`,
+  )
 
   // The rest of the pipeline is keyed by IPNFT token id, so skip labs that
   // have no linked IPNFT.
