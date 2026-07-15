@@ -1,5 +1,6 @@
 {
   "file_path": "/fixing-broken-mitochondria-fissionbio.pdf",
+  "extraction_version": 2,
   "document_type": "pitch_deck",
   "relevance": "high",
   "summary": "FissionBio is developing small molecule drugs targeting the Drp1-Fis1 protein interaction to prevent excessive mitochondrial fission in neurodegenerative diseases (Alzheimer's, ALS, Huntington's) and other inflammatory conditions. The company is advancing from second-generation peptide mimetics (SC9) to third-generation brain-penetrant small molecules, funded by Cerebrum DAO through community-driven biotech investing.",
@@ -136,5 +137,127 @@
     "Key advantage: achieves anti-inflammatory benefits without immunosuppression",
     "Eight peer-reviewed publications in high-impact journals (JCI, EMBO Molecular Medicine, Nature Communications, Scientific Reports) support mechanism and efficacy",
     "No specific quantitative efficacy data (IC50, EC50, dose-response curves) provided in this document"
+  ],
+  "milestones": [
+    {
+      "title": "P110 Peptide Preclinical Research Program",
+      "description": "Over 13 years of research across 11 different disease models demonstrating P110's therapeutic potential in Huntington's, ALS, Alzheimer's, Parkinson's, cardiovascular disease, stroke, IBD, and sepsis.",
+      "date": "2012",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Over 13 years of research across 11 different disease models has built an impressive body of evidence for P110's therapeutic potential",
+      "page": 5
+    },
+    {
+      "title": "Qi et al. 2012 - Drp1 Inhibitor Huntington's Study",
+      "description": "Publication demonstrating novel Drp1 inhibitor diminishes aberrant mitochondrial fission and neurotoxicity in Huntington's disease models.",
+      "date": "2012",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Huntington's disease models: Reduced brain cell death and improved motor function, with researchers noting that \"novel Drp1 inhibitor diminishes aberrant mitochondrial fission and neurotoxicity\" (Qi et al., 2012).",
+      "page": 5
+    },
+    {
+      "title": "Guo et al. 2013 - Huntington's Disease Publication",
+      "description": "Publication in Journal of Clinical Investigation showing inhibition of mitochondrial fragmentation diminishes Huntington's disease-associated neurodegeneration.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Guo, X. et al. Inhibition of mitochondrial fragmentation diminishes Huntington's disease–associated neurodegeneration. Journal of Clinical Investigation 123, 5371–5388 (2013).",
+      "page": 9
+    },
+    {
+      "title": "Joshi et al. 2018 - ALS Publication",
+      "description": "Publication in EMBO Molecular Medicine demonstrating inhibition of Drp1/Fis1 interaction slows progression of ALS; restored mitochondrial function and cellular viability in human neurons derived from patient models.",
+      "date": "2018",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "ALS patient cells: Restored mitochondrial function and cellular viability in human neurons derived from patient models (Joshi et al., 2018).",
+      "page": 5
+    },
+    {
+      "title": "Joshi et al. 2018 - Alzheimer's Disease Publication",
+      "description": "Publication in Oncotarget demonstrating Drp1/Fis1 interaction mediates mitochondrial dysfunction, bioenergetic failure and cognitive decline in Alzheimer's disease; P110 enhanced cognitive performance and reduced neurodegeneration.",
+      "date": "2018",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Alzheimer's disease models: Enhanced cognitive performance and reduced neurodegeneration, with studies demonstrating that \"Drp1/Fis1 interaction mediates mitochondrial dysfunction, bioenergetic failure and cognitive decline in Alzheimer's disease\" (Joshi et al., 2018).",
+      "page": 5
+    },
+    {
+      "title": "Tian et al. 2017 - Cardiac/Pulmonary Hypertension Publication",
+      "description": "Publication in Journal of Molecular Medicine showing ischemia-induced Drp1 and Fis1-mediated mitochondrial fission and right ventricular dysfunction in pulmonary hypertension; P110 improved cardiac function.",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Cardiac conditions: Improved function in ischemic heart disease, such as pulmonary hypertension, showing that mitochondrial protection extends beyond the brain (Tian et al., 2017).",
+      "page": 5
+    },
+    {
+      "title": "Rios et al. 2023 - SWAG Site Discovery Publication",
+      "description": "Publication in Nature Communications identifying the SWAG (switch I-adjacent groove) allosteric binding site on Drp1 and demonstrating benefits of targeting it in Parkinson's disease, stroke, IBD, and sepsis. This is the key IP foundation for FissionBio's small molecule program.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Rios, L., Pokhrel, S., Li, S.-J., Heo, G., Haileselassie, B. & Mochly-Rosen, D. Targeting an allosteric site in dynamin-related protein 1 to inhibit Fis1-mediated mitochondrial dysfunction. Nature Communications 14, 4356 (2023).",
+      "page": 10
+    },
+    {
+      "title": "SC9 Small Molecule Development (2nd Generation)",
+      "description": "Development and laboratory/animal validation of SC9, a 2nd-generation small molecule P110 mimetic that binds to the SWAG site. Demonstrated P110-like protective effects in lab and animal studies but lacks brain penetration for CNS applications.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "From this foundation, his team developed SC9, a small 2nd-generation P110 mimetic molecule that binds to the SWAG site and mimics P110's protective effects in both laboratory and animal studies.",
+      "page": 6
+    },
+    {
+      "title": "Cerebrum DAO Initial Funding Commitment",
+      "description": "Cerebrum DAO committed $200,000 to support FissionBio's initial development work.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "We committed $200,000 to support FissionBio's initial development work, with an additional $200,000 raised from the community through the MITY IP-NFT crowdsale round",
+      "page": 7
+    },
+    {
+      "title": "MITY IP-NFT Crowdsale Round",
+      "description": "Community crowdsale round raising an additional $200,000 through the MITY IP-NFT mechanism, bringing total early-stage funding to approximately $400,000.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "with an additional $200,000 raised from the community through the MITY IP-NFT crowdsale round, demonstrating the potential of crowdfunding science through a DAO.",
+      "page": 7
+    },
+    {
+      "title": "3rd-Generation Brain-Penetrant Compound Development",
+      "description": "FissionBio is currently developing third-generation small molecule compounds that build on SC9/SWAG knowledge while achieving better brain penetration for neurological applications. Currently in hit identification and lead optimization stages.",
+      "date": "in progress",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "FissionBio is now developing third-generation compounds that build on this knowledge while achieving better drug properties, particularly brain penetration.",
+      "page": 8
+    },
+    {
+      "title": "IND-Enabling Studies",
+      "description": "Planned comprehensive preclinical safety studies required by the FDA before first-in-human clinical trials can begin. Contingent on successful lead optimization, safety testing, pharmacokinetics, and disease model validation.",
+      "date": "planned",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "Successful compounds advance to Investigational New Drug (IND)-enabling studies – comprehensive safety testing required before human clinical trials can begin. These studies generate the preclinical data that regulatory agencies, such as the FDA, require to approve first-in-human testing.",
+      "page": 8
+    }
   ]
 }

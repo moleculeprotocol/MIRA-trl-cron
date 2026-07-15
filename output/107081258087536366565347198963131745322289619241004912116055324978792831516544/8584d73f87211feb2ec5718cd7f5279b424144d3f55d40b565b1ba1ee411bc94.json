@@ -83,6 +83,16 @@
       "category": "ip",
       "source_quote": "y se hace efectivo a partir de 16 diciembre, 2024 (la \"Fecha Efectiva\").",
       "page": 1
+    },
+    {
+      "title": "Advance Payment at Signing",
+      "description": "Licensee (PsyDAO Association) pays an advance of 1,000 PEN to Licensor (Fundación Kene Rao) at the moment of contract signing.",
+      "date": "2024-12-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "El Licenciatario pagará un adelanto de mil Soles (1000 PEN) realizado en el momento de firma de este contrato",
+      "page": 1
     }
   ],
   "document_date": "2024-12-16"
