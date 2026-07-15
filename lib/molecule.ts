@@ -10,9 +10,11 @@ const EXTRACTABLE_CONTENT_TYPES = new Set([
 
 const PROCESS_VERSION = "v3"
 
+const LABS_PER_PAGE = 50
+
 const GET_ALL_PROJECTS_QUERY = `
-query GetAllProjects($page: Int) {
-  labs(page: $page) {
+query GetAllProjects($page: Int, $perPage: Int) {
+  labs(page: $page, perPage: $perPage) {
     nodes {
       ipnftId
       shortname
@@ -131,7 +133,7 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
       },
       body: JSON.stringify({
         query: GET_ALL_PROJECTS_QUERY,
-        variables: { page },
+        variables: { page, perPage: LABS_PER_PAGE },
       }),
     })
 
