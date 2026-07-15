@@ -1,0 +1,21 @@
+{
+  "file_path": "/universe-public-file",
+  "extraction_version": 2,
+  "document_type": "figure",
+  "relevance": "none",
+  "summary": "The image is a well-known artistic/scientific illustration of the observable universe rendered in a logarithmic, spherical projection. It depicts cosmic structures from the Solar System at the center outward through stars, nebulae, galaxies, and the cosmic microwave background at the outer edge. This is a cosmological visualization, not a biotech or science project document, and contains no experimental data, therapeutic targets, clinical or preclinical results, IP, regulatory, or funding information relevant to a TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Logarithmic Map of the Observable Universe",
+      "content": "A circular, logarithmic-scale artistic illustration of the entire observable universe. The center shows the Solar System (Sun and planets visible), surrounded by concentric regions representing: the Milky Way galaxy, nearby galaxies (e.g., Andromeda), galaxy clusters, large-scale cosmic structure (filaments and voids), and finally the cosmic microwave background (CMB) glowing in orange/red at the outermost ring. The image is purely cosmological/astronomical in nature and contains no biotech, pharmaceutical, or clinical content."
+    }
+  ],
+  "key_findings": [
+    "This document is a cosmological illustration (logarithmic map of the observable universe) with no relevance to biotech, drug development, or TRL assessment.",
+    "No experimental data, model systems, therapeutic targets, regulatory interactions, IP, or funding information are present.",
+    "The image is likely the well-known artwork by Pablo Carlos Budassi or a similar artist depicting the universe on a logarithmic scale."
+  ],
+  "milestones": []
+}

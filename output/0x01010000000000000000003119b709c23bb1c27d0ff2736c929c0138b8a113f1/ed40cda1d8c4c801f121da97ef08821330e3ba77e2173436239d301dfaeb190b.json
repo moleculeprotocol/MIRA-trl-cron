@@ -1,0 +1,148 @@
+{
+  "file_path": "/echolens-trl2-pitch-deck",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "ECHOLENS is a TRL2 research proposal seeking $100,000 to develop a physics-informed deep learning pipeline for detecting dark matter substructure in gravitational lensing archives from Euclid and JWST. The project aims to advance from TRL2 (concept formulated, preliminary synthetic validation) to TRL3 (validated on real archival data, benchmarked, and published) within 12 months. The pipeline combines a physics-informed neural residual model with wavelet-domain anomaly detection.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page — Project Overview",
+      "content": "Project: ECHOLENS. Domain: Astrophysics / Cosmology. Description: A Physics-Informed Deep Learning Pipeline for Detecting Dark Matter Substructure in Gravitational Lensing Archives. Current TRL: TRL2. Target TRL: TRL3. Funding requested: $100,000. Duration: 12-month sprint. Prepared for prospective research funders, July 2026."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "The Opportunity — Problem Statement and Market Context",
+      "content": "Key statistics framing the opportunity: (1) ~85% of the universe's matter is dark matter — never directly observed. (2) 600+ TB of public strong-lensing imagery now available from Euclid & JWST archives. (3) <5% of known lens systems have been searched for substructure signals to date. Problem: Substructure lensing anomalies — small perturbations in lensed arcs caused by dark matter clumps — are faint, rare, and easily buried in imaging noise. Manual and classical statistical searches don't scale to the archive sizes now available. This establishes the scientific gap and the need for an automated, scalable pipeline."
+    },
+    {
+      "page": 3,
+      "type": "diagram",
+      "title": "Technical Approach — 4-Step Pipeline",
+      "content": "ECHOLENS pipeline consists of four sequential steps: (1) Ingest — Pull calibrated strong-lens cutouts from public Euclid/JWST archives. (2) Model the smooth lens — Physics-informed network learns the expected smooth mass distribution. (3) Residual + wavelet scan — Subtract the smooth model; scan residuals at multiple scales for anomalies. (4) Rank candidates — Score and rank anomalies by statistical significance for expert review. Core technical innovation: pairing a physics-informed neural residual model with wavelet-domain anomaly detection."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "TRL Status — Current TRL2 vs. Requirements for TRL3",
+      "content": "Current TRL: TRL2. Technology concept formulated. Basic principles observed and documented. Not yet validated against real survey data at scale.\n\nAlready in hand (TRL2 evidence):\n- Literature-grounded theoretical framework for residual-based substructure detection\n- Network architecture designed and specified (physics-informed encoder + wavelet head)\n- Preliminary validation on synthetic simulated lens systems\n- Public archive access confirmed (Euclid Q1 data release, JWST archival cutouts)\n\nNeeded to reach TRL3:\n- Train and validate the pipeline on a real archival subsample (not just simulations)\n- Establish a false-positive / false-negative benchmark against known lens catalogs\n- Demonstrate at least one reproducible detection reviewed by domain experts\n- Publish methodology for peer review and open-source the pipeline"
+    },
+    {
+      "page": 5,
+      "type": "diagram",
+      "title": "12-Month Roadmap — Quarterly Milestones",
+      "content": "Four quarterly milestones to advance from TRL2 to validated TRL3 proof of concept (starting from funding award, assumed ~Q3 2026 based on document date of July 2026):\n\nQ1 — Data pipeline: Archive access, cleaning, and curated benchmark dataset of known lens systems.\nQ2 — Model training: Train physics-informed residual model; internal validation on held-out simulations.\nQ3 — Real-data trial: Run pipeline on archival subsample; benchmark against known catalogs.\nQ4 — Review & publish: Expert review of candidate detections; publish methodology and open-source release."
+    },
+    {
+      "page": 6,
+      "type": "table",
+      "title": "Budget Breakdown — Use of $100,000 Funds",
+      "content": "Line items for the $100,000 budget:\n- Research lead (0.5 FTE, 12 mo.): $42,000\n- ML / data engineer (0.5 FTE, 12 mo.): $30,000\n- Compute & cloud storage: $15,000\n- Domain expert review & benchmarking: $8,000\n- Dissemination, open-source release, conference: $5,000\n- Total: $100,000\n\nNote: Fully allocated to reaching a validated TRL3 milestone within 12 months. No telescope time or hardware required — uses public archival data."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Team & Advisors",
+      "content": "Team composition (small, focused):\n1. Research Lead — Astrophysics PhD background; owns methodology, benchmark design, and publication.\n2. ML / Data Engineer — Builds and trains the physics-informed model; owns the data pipeline and infrastructure.\n3. Domain Expert Reviewers — External advisors from gravitational lensing survey teams; validate candidate detections.\n\nNo specific named individuals are provided; roles are described by function and background."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Why Now — Strategic Rationale",
+      "content": "Four strategic arguments for timing:\n1. Unprecedented archive growth: Euclid and JWST are producing lensing imagery at a volume no manual pipeline can keep pace with.\n2. Mature ML tooling, immature application: Physics-informed deep learning is proven in adjacent fields but barely applied to substructure lensing.\n3. Low-cost, high-leverage entry point: $100K buys a full validation cycle against public data — no telescope time or hardware required.\n4. Open-source multiplier: A published, open pipeline lets any survey team apply the method to their own archives."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "The Ask — Funder Value Proposition",
+      "content": "Funding request: $100,000 to take ECHOLENS from a formulated concept to a validated, published, open-source TRL3 proof of concept in 12 months.\n\nWhat funders receive:\n- A trained, benchmarked substructure-detection pipeline validated on real archival data\n- At least one expert-reviewed candidate detection\n- A published methodology paper and open-source repository\n- A clear, de-risked path to a larger follow-on study at TRL4+\n\nContact information fields are placeholders ([name / org], [email], [link to full proposal])."
+    }
+  ],
+  "key_findings": [
+    "Project is currently at TRL2: technology concept formulated, network architecture designed, and preliminary validation completed on synthetic simulated lens systems only — not yet validated on real survey data.",
+    "Key TRL2 evidence in hand: literature-grounded theoretical framework, physics-informed encoder + wavelet head architecture specified, preliminary synthetic validation, and confirmed access to Euclid Q1 and JWST archival data.",
+    "TRL3 gap: pipeline has not yet been trained or validated on real archival data; no false-positive/false-negative benchmark established; no expert-reviewed detection demonstrated; methodology not yet published.",
+    "Technical approach: physics-informed neural residual model combined with wavelet-domain anomaly detection; 4-step pipeline (ingest → smooth lens model → residual+wavelet scan → candidate ranking).",
+    "Data sources: 600+ TB of public strong-lensing imagery from Euclid and JWST archives; <5% of known lens systems have been searched for substructure signals to date.",
+    "12-month roadmap with four quarterly milestones: Q1 data pipeline, Q2 model training on simulations, Q3 real-data trial and benchmarking, Q4 expert review and open-source publication.",
+    "Budget of $100,000 is fully allocated: 72% personnel (research lead + ML engineer at 0.5 FTE each), 15% compute/storage, 8% expert review, 5% dissemination.",
+    "Team: Research Lead (astrophysics PhD), ML/Data Engineer, and external domain expert reviewers from gravitational lensing survey teams — no named individuals provided.",
+    "No IP (patents) mentioned; open-source release is a stated deliverable and strategic multiplier.",
+    "No clinical, regulatory, or manufacturing components — this is a pure research/computational astrophysics project."
+  ],
+  "document_date": "2026-07",
+  "milestones": [
+    {
+      "title": "Preliminary Synthetic Validation",
+      "description": "Preliminary validation of the ECHOLENS pipeline architecture on synthetic simulated lens systems, establishing the TRL2 baseline.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Preliminary validation on synthetic simulated lens systems",
+      "page": 4
+    },
+    {
+      "title": "Public Archive Access Confirmed",
+      "description": "Access to Euclid Q1 data release and JWST archival cutouts confirmed for use in the pipeline.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Public archive access confirmed (Euclid Q1 data release, JWST archival cutouts)",
+      "page": 4
+    },
+    {
+      "title": "Q1 — Data Pipeline",
+      "description": "Archive access, cleaning, and creation of a curated benchmark dataset of known lens systems.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Q1 — Data pipeline: Archive access, cleaning, and curated benchmark dataset of known lens systems",
+      "page": 5
+    },
+    {
+      "title": "Q2 — Model Training",
+      "description": "Train the physics-informed residual model; internal validation on held-out simulations.",
+      "date": "2026-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Q2 — Model training: Train physics-informed residual model; internal validation on held-out simulations",
+      "page": 5
+    },
+    {
+      "title": "Q3 — Real-Data Trial",
+      "description": "Run the pipeline on a real archival subsample; benchmark performance against known lens catalogs to establish false-positive/false-negative rates.",
+      "date": "2027-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Q3 — Real-data trial: Run pipeline on archival subsample; benchmark against known catalogs",
+      "page": 5
+    },
+    {
+      "title": "Q4 — Expert Review & Open-Source Publication",
+      "description": "Expert review of candidate detections; publish methodology paper and open-source release of the pipeline, achieving TRL3.",
+      "date": "2027-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Q4 — Review & publish: Expert review of candidate detections; publish methodology and open-source release",
+      "page": 5
+    },
+    {
+      "title": "TRL3 Proof of Concept Achieved",
+      "description": "Full TRL3 milestone: trained and benchmarked pipeline validated on real archival data, at least one expert-reviewed candidate detection, published methodology paper, and open-source repository released.",
+      "date": "2027-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "$100,000 to take ECHOLENS from a formulated concept to a validated, published, open-source TRL3 proof of concept — in 12 months.",
+      "page": 9
+    }
+  ]
+}
