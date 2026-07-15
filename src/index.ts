@@ -20,19 +20,19 @@ import {
 } from "../lib/sanity.js"
 
 interface Project {
-  documentId: string
-  symbol: string
+  oclId: string
+  name: string
 }
 
 function logScoringResults(
-  symbol: string,
-  documentId: string,
+  name: string,
+  oclId: string,
   scoringResult: NonNullable<
     Awaited<ReturnType<typeof calculateWeightedScore>>
   >,
 ): void {
   console.log("\n========== SCORING RESULTS ==========")
-  console.log(`Project: ${symbol} (${documentId})`)
+  console.log(`Project: ${name} (${oclId})`)
   console.log(`TRL Level: ${scoringResult.trlLevel}`)
   console.log("\nCriterion Scores:")
 
@@ -59,48 +59,46 @@ function logScoringResults(
 }
 
 async function processProject(project: Project): Promise<void> {
-  const { documentId, symbol } = project
+  const { oclId, name } = project
 
   console.log("--------------------------------")
-  console.log(`Processing Project: ${symbol} (ID: ${documentId})`)
+  console.log(`Processing Project: ${name} (OCL ID: ${oclId})`)
 
-  const currentHash = await getDataRoomHash(documentId)
-  const hashChanged = await dataroomHashChanged(documentId, currentHash)
+  const currentHash = await getDataRoomHash(oclId)
+  const hashChanged = await dataroomHashChanged(oclId, currentHash)
   const forceProcess = process.env.FORCE_PROCESS === "true"
 
   if (!hashChanged && !forceProcess) {
     console.log(
-      `Skipping ${documentId} - dataroom hash unchanged (set FORCE_PROCESS=true to override)`,
+      `Skipping ${oclId} - dataroom hash unchanged (set FORCE_PROCESS=true to override)`,
     )
     return
   }
 
-  const files = await getProjectDataRoomFiles(documentId)
+  const files = await getProjectDataRoomFiles(oclId)
   const extractableFiles = getPublicExtractableFiles(files)
 
   if (extractableFiles.length === 0) {
-    console.log(
-      `Skipping ${documentId} - no extractable public files in dataroom`,
-    )
+    console.log(`Skipping ${oclId} - no extractable public files in dataroom`)
     return
   }
 
   console.log(`Found ${extractableFiles.length} extractable file(s) to process`)
 
   const { extractions, complete } = await extractMultipleDocuments(
-    documentId,
+    oclId,
     extractableFiles,
   )
   const formattedContent = formatExtractedDocumentsAsText(extractions)
 
   if (!complete) {
     console.log(
-      `Extraction incomplete for ${documentId} - proceeding with best-effort content but NOT committing dataroom hash (will retry next run)`,
+      `Extraction incomplete for ${oclId} - proceeding with best-effort content but NOT committing dataroom hash (will retry next run)`,
     )
   }
 
   if (!formattedContent) {
-    console.log(`Skipping ${documentId} - no relevant content extracted`)
+    console.log(`Skipping ${oclId} - no relevant content extracted`)
     return
   }
 
@@ -118,7 +116,7 @@ async function processProject(project: Project): Promise<void> {
   )
 
   if (scoringResult) {
-    logScoringResults(symbol, documentId, scoringResult)
+    logScoringResults(name, oclId, scoringResult)
   }
 
   // Step 3: Generate todos based on scoring results and data room content
@@ -132,7 +130,7 @@ async function processProject(project: Project): Promise<void> {
 
     if (todos && todos.length > 0) {
       console.log("\n========== GENERATED TODOS ==========")
-      console.log(`Project: ${symbol} (${documentId})`)
+      console.log(`Project: ${name} (${oclId})`)
       console.log(`TRL Level: ${trlAnalysis.trl_classification}`)
       console.log(`\nTodos (${todos.length}):`)
 
@@ -170,7 +168,7 @@ async function processProject(project: Project): Promise<void> {
 
   if (scheduleStatus) {
     console.log("\n========== SCHEDULE STATUS ==========")
-    console.log(`Project: ${symbol} (${documentId})`)
+    console.log(`Project: ${name} (${oclId})`)
     console.log(`Traffic Light: ${scheduleStatus.traffic_light.toUpperCase()}`)
     console.log(`Confidence: ${scheduleStatus.confidence}`)
     console.log(`\nRationale (investors): ${scheduleStatus.rationale}`)
@@ -188,8 +186,8 @@ async function processProject(project: Project): Promise<void> {
 
   // Step 5: Update Sanity with TRL data, scoring results, and todos
   await updateTrlAndScoringAsDraft(
-    documentId,
-    symbol,
+    oclId,
+    name,
     trlAnalysis,
     currentHash,
     scoringResult,
@@ -197,7 +195,7 @@ async function processProject(project: Project): Promise<void> {
     complete,
   )
 
-  console.log(`Completed: ${symbol} - TRL: ${trlAnalysis.trl_classification}`)
+  console.log(`Completed: ${name} - TRL: ${trlAnalysis.trl_classification}`)
 }
 
 /**
@@ -213,12 +211,12 @@ async function main(): Promise<void> {
     console.log("Fetching all projects from GraphQL...")
     const fetchedProjects = await getAllProjects()
     projects = fetchedProjects.map((p) => ({
-      documentId: p.tokenId,
-      symbol: p.symbol,
+      oclId: p.oclId,
+      name: p.name,
     }))
   } else {
     console.log("Using test projects (set USE_ALL_PROJECTS=true for all)...")
-    projects = TEST_PROJECTS
+    projects = TEST_PROJECTS.map((oclId) => ({ oclId, name: oclId }))
   }
 
   console.log(`Processing ${projects.length} project(s)...\n`)
@@ -227,7 +225,7 @@ async function main(): Promise<void> {
     try {
       await processProject(project)
     } catch (error) {
-      console.error(`Error processing ${project.symbol}:`, error)
+      console.error(`Error processing ${project.name}:`, error)
     }
   }
 

@@ -11,10 +11,11 @@ const dataset = SANITY_DATASETS[environment]
 
 console.log(`Using ${environment} environment (dataset: ${dataset})`)
 
+const ONCHAIN_LAB_TYPE = "onChainLab"
+
 interface NotifyDiscordParams {
-  documentId: string
-  documentName: string
-  symbol: string
+  oclId: string
+  name: string
   trlAnalysis: TrlAnalysis
 }
 
@@ -27,9 +28,8 @@ const client = createClient({
 })
 
 async function notifyDiscord({
-  documentId,
-  documentName,
-  symbol,
+  oclId,
+  name,
   trlAnalysis,
 }: NotifyDiscordParams) {
   if (environment !== "production") {
@@ -47,7 +47,7 @@ async function notifyDiscord({
     return
   }
 
-  const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/ipNfTs;ipnft;${documentId}`
+  const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/onChainLabs;onChainLab;${oclId}`
 
   try {
     const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
@@ -57,7 +57,7 @@ async function notifyDiscord({
         content: "📝 New lab TRL draft by MIRA ready for review!",
         embeds: [
           {
-            title: `${documentName} ($${symbol})`,
+            title: name,
             url: studioUrl,
             fields: [
               {
@@ -91,21 +91,21 @@ async function notifyDiscord({
 }
 
 export async function dataroomHashChanged(
-  documentId: string,
+  oclId: string,
   currentHash: string,
 ): Promise<boolean> {
-  const draftId = `drafts.${documentId}`
+  const draftId = `drafts.${oclId}`
 
   // Check both draft and published documents - the hash is stored in the draft
   // until it gets published, so we need to check both
   const [draft, published] = await Promise.all([
     client.getDocument(draftId),
-    client.getDocument(documentId),
+    client.getDocument(oclId),
   ])
 
   if (!published) {
     throw new Error(
-      `Document ${documentId} not found. Cannot check if dataroom hash changed.`,
+      `onChainLab ${oclId} not found. Cannot check if dataroom hash changed.`,
     )
   }
 
@@ -162,15 +162,15 @@ function transformTodosForSanity(todos: TodoItem[]) {
 }
 
 export async function updateTrlAndScoringAsDraft(
-  documentId: string,
-  symbol: string,
+  oclId: string,
+  name: string,
   trlAnalysis: TrlAnalysis,
   hash: string,
   scoringResult: ScoringResult | null,
   todos: TodoItem[] | null = null,
   commitHash = true,
 ) {
-  const draftId = `drafts.${documentId}`
+  const draftId = `drafts.${oclId}`
 
   const trlData: Record<string, unknown> = {
     trlValue: trlAnalysis.trl_classification,
@@ -184,10 +184,6 @@ export async function updateTrlAndScoringAsDraft(
     trlData.dataroomHash = hash
   }
 
-  if (environment === "staging") {
-    trlData.name = symbol
-  }
-
   if (scoringResult) {
     trlData.projectScoring = transformScoringForSanity(scoringResult)
   }
@@ -196,12 +192,18 @@ export async function updateTrlAndScoringAsDraft(
     trlData.todos = transformTodosForSanity(todos)
   }
 
-  // Check if a draft already exists
+  // The onChainLab document must already exist. We only add TRL/scoring data.
   const existingDraft = await client.getDocument(draftId)
-  const published = await client.getDocument(documentId)
+  const published = await client.getDocument(oclId)
 
   if (!published) {
-    throw new Error(`Document ${documentId} not found`)
+    throw new Error(`onChainLab ${oclId} not found`)
+  }
+
+  if (published._type !== ONCHAIN_LAB_TYPE) {
+    throw new Error(
+      `Document ${oclId} is of type "${published._type}", expected "${ONCHAIN_LAB_TYPE}"`,
+    )
   }
 
   if (existingDraft) {
@@ -216,13 +218,12 @@ export async function updateTrlAndScoringAsDraft(
 
   const todoCount = todos?.length ?? 0
   console.log(
-    `Draft created/updated for ${documentId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoCount > 0 ? ` and ${todoCount} todo(s)` : ""}`,
+    `Draft created/updated for ${oclId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoCount > 0 ? ` and ${todoCount} todo(s)` : ""}`,
   )
 
   await notifyDiscord({
-    documentId,
-    documentName: published.name as string,
-    symbol,
+    oclId,
+    name,
     trlAnalysis,
   })
 }

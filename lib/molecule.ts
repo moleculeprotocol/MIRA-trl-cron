@@ -16,8 +16,8 @@ const GET_ALL_PROJECTS_QUERY = `
 query GetAllProjects($page: Int, $perPage: Int) {
   labs(page: $page, perPage: $perPage) {
     nodes {
-      ipnftId
-      shortname
+      oclId
+      name
     }
     totalCount
     pageInfo {
@@ -31,8 +31,8 @@ query GetAllProjects($page: Int, $perPage: Int) {
 `
 
 interface ProjectNode {
-  ipnftId: string | null
-  shortname: string | null
+  oclId: string | null
+  name: string | null
 }
 
 interface PageInfo {
@@ -53,8 +53,8 @@ interface GetAllProjectsResponse {
 }
 
 export interface ProjectInfo {
-  tokenId: string
-  symbol: string
+  oclId: string
+  name: string
 }
 
 export interface DataRoomFile {
@@ -84,14 +84,6 @@ interface ProjectWithDataRoom {
 interface GetProjectResponse {
   data: {
     labWithDataRoomAndFiles: ProjectWithDataRoom | null
-  }
-}
-
-interface ResolveOclIdResponse {
-  data: {
-    ipnft: {
-      oclId: string | null
-    } | null
   }
 }
 
@@ -164,25 +156,16 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
     `Total labs fetched: ${allNodes.length}${expectedTotal != null ? ` (API totalCount: ${expectedTotal})` : ""}`,
   )
 
-  // The rest of the pipeline is keyed by IPNFT token id, so skip labs that
-  // have no linked IPNFT.
+  // Skip labs that have no oclId.
   return allNodes
     .filter(
-      (node): node is ProjectNode & { ipnftId: string } => node.ipnftId != null,
+      (node): node is ProjectNode & { oclId: string } => node.oclId != null,
     )
     .map((node) => ({
-      tokenId: node.ipnftId,
-      symbol: node.shortname?.toUpperCase() ?? node.ipnftId,
+      oclId: node.oclId.toLowerCase(),
+      name: node.name ?? node.oclId.toLowerCase(),
     }))
 }
-
-const RESOLVE_OCL_ID_QUERY = `
-query ResolveOclId($id: ID!) {
-  ipnft(id: $id) {
-    oclId
-  }
-}
-`
 
 const GET_PROJECT_QUERY = `
 query GetProject($oclId: String!) {
@@ -208,51 +191,13 @@ query GetProject($oclId: String!) {
 }
 `
 
-/**
- * Resolves a lab's oclId from its IPNFT token id. Returns null when the IPNFT
- * has no linked lab.
- */
-async function resolveOclId(
-  ipnftId: string,
-  apiKey: string,
-): Promise<string | null> {
-  const response = await fetch(MOLECULE_GRAPHQL_ENDPOINT, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": apiKey,
-    },
-    body: JSON.stringify({
-      query: RESOLVE_OCL_ID_QUERY,
-      variables: { id: ipnftId },
-    }),
-  })
-
-  if (!response.ok) {
-    throw new Error(
-      `Failed to resolve oclId: ${response.status} ${response.statusText}`,
-    )
-  }
-
-  const result = (await response.json()) as ResolveOclIdResponse
-
-  return result.data?.ipnft?.oclId ?? null
-}
-
 export async function getProjectDataRoomFiles(
-  ipnftId: string,
+  oclId: string,
 ): Promise<DataRoomFile[]> {
   const apiKey = process.env.MOLECULE_API_KEY
 
   if (!apiKey) {
     throw new Error("MOLECULE_API_KEY environment variable is not set")
-  }
-
-  const oclId = await resolveOclId(ipnftId, apiKey)
-
-  if (!oclId) {
-    console.log(`No lab found for ipnftId: ${ipnftId}`)
-    return []
   }
 
   const response = await fetch(MOLECULE_GRAPHQL_ENDPOINT, {
@@ -278,7 +223,7 @@ export async function getProjectDataRoomFiles(
   const project = result.data?.labWithDataRoomAndFiles
 
   if (!project) {
-    console.log(`No lab found for oclId: ${oclId} (ipnftId: ${ipnftId})`)
+    console.log(`No lab found for oclId: ${oclId}`)
     return []
   }
 
@@ -291,8 +236,8 @@ export function getPublicExtractableFiles(
   return filterExtractableFiles(filterPublicFiles(files))
 }
 
-export async function getDataRoomHash(ipnftId: string): Promise<string> {
-  const files = await getProjectDataRoomFiles(ipnftId)
+export async function getDataRoomHash(oclId: string): Promise<string> {
+  const files = await getProjectDataRoomFiles(oclId)
   const publicFiles = filterPublicFiles(files)
 
   const fileHashes = await Promise.all(
