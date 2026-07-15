@@ -1,0 +1,21 @@
+{
+  "file_path": "/clubculturehypothesis",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document presents a theoretical hypothesis about club culture and social dynamics, proposing that clubs function as temporary social ecosystems that enhance collective identity, emotional release, and social bonding through synchronized sensory experiences. It contains no biotech, therapeutic, or scientific experimental content relevant to TRL assessment. There are no experiments, data, model systems, therapeutic targets, or development milestones of any kind.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis on Club Culture and Social Dynamics",
+      "content": "The document proposes a sociological hypothesis: club culture functions as a temporary social ecosystem enhancing collective identity, emotional release, and social bonding via synchronized sensory experiences (music, lighting, shared physical space). It introduces the concept of 'collective flow,' suggests clubs reduce self-consciousness and social barriers, and posits clubs as spaces for identity exploration. The implication is that club culture could serve as a social mechanism for emotional regulation and community formation in urban environments. No experimental data, biotech content, or TRL-relevant scientific evidence is present."
+    }
+  ],
+  "key_findings": [
+    "Document is a purely theoretical sociological hypothesis with no experimental data, biotech relevance, therapeutic targets, or TRL-assessable content.",
+    "No model systems, assays, clinical or preclinical studies, IP, funding, or regulatory information is present.",
+    "Not relevant to any stage of biotech/pharmaceutical technology readiness assessment."
+  ],
+  "milestones": []
+}

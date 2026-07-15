@@ -1,0 +1,19 @@
+{
+  "file_path": "/new-hire-business",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image contains only a decorative abstract graphic — a spiral/circular arrangement of light blue dots/circles on a pale blue gradient background. There is no text, data, figures, tables, experimental results, or any scientifically relevant content present. This appears to be a background or branding image only.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Decorative Background Graphic",
+      "content": "Decorative abstract graphic consisting of circles of varying sizes arranged in a spiral/orbital pattern on a light blue gradient background. No text, labels, data, or scientific content is present. This is purely a visual/branding element."
+    }
+  ],
+  "key_findings": [
+    "No scientifically relevant content found. The image is a decorative graphic with no experimental data, text, figures, tables, or TRL-relevant information."
+  ],
+  "milestones": []
+}

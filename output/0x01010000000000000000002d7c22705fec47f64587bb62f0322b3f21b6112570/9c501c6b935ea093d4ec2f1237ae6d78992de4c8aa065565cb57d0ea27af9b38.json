@@ -1,0 +1,19 @@
+{
+  "file_path": "/an-image-of-a-phone",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This image is a marketing/promotional visual for a financial technology application called \"TX\" (or \"tx\"). It displays a mobile app interface showing a personal investment portfolio with crypto, equity (AAPL), and stablecoin (USDC) assets, along with a \"Refer & Earn\" promotion. There is no biotech, scientific, or pharmaceutical content present.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "TX Financial App Promotional Image",
+      "content": "A dark-themed promotional image featuring a smartphone displaying the TX app interface. The app shows: Total Portfolio Value of $3,022 (with $18.5 or 0.6% staked), a 'Refer & Earn' banner (earn 250 TX per verified referral), and a portfolio breakdown including TX Native Asset (306,992.93 units / $2,282), AAPL Apple Inc. (2 shares / $612), and USDC (100 units). Navigation tabs include Vault, Activity, Scan, and Apps. The TX logo (stylized 'tx' in neon green) is displayed prominently on the left. This is a fintech/crypto wallet application with no scientific or biotech relevance."
+    }
+  ],
+  "key_findings": [
+    "This document is a fintech/cryptocurrency app promotional image with no scientific, biotech, or pharmaceutical content. It is entirely irrelevant to TRL assessment."
+  ],
+  "milestones": []
+}

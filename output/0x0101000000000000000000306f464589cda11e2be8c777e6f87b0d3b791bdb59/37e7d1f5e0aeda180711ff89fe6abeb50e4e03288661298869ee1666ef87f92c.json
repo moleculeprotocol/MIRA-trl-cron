@@ -1,0 +1,21 @@
+{
+  "file_path": "/snowballhypothesis",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document presents a conceptual hypothesis about the \"snowball effect\" — the idea that small, consistent actions compound over time into disproportionately large outcomes via feedback loops. It covers applications in finance, behavior, and business. There is no biotech, therapeutic, or scientific experimental content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis on the Snowball Effect",
+      "content": "The document proposes that small, consistent actions compound over time into disproportionately large outcomes driven by feedback loops and cumulative momentum. It describes applications in finance (compound interest), behavior (daily habits shaping identity), and business (early traction leading to network effects). It concludes that designing systems leveraging compounding and feedback loops can yield significant long-term success. No experimental data, therapeutic targets, model systems, or quantitative results are present. This document has no relevance to biotech TRL assessment."
+    }
+  ],
+  "key_findings": [
+    "The document is a conceptual/theoretical hypothesis about the snowball effect and compounding actions — it contains no biotech, pharmaceutical, or scientific experimental content.",
+    "No experiments, model systems, assay data, regulatory information, IP status, funding details, or clinical/preclinical milestones are mentioned.",
+    "The document is entirely irrelevant to Technology Readiness Level (TRL) assessment for a biotech or science project."
+  ],
+  "milestones": []
+}

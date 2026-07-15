@@ -1,0 +1,19 @@
+{
+  "file_path": "/funding-proposal",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document consists solely of a decorative, monochromatic illustration of a microscope with abstract geometric shapes on a light-blue gradient background. There is no scientific text, experimental data, figures with results, tables, or any other content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Decorative Microscope Illustration",
+      "content": "The image contains a stylized, light-blue isometric line-art illustration of a compound optical microscope surrounded by abstract geometric shapes (spheres, cylinders, pyramids, diamonds). There is no text, data, experimental results, or scientific content present. This appears to be a decorative background or placeholder image, likely used as a cover or section divider in a biotech/science document."
+    }
+  ],
+  "key_findings": [
+    "No scientifically relevant content is present. The image is purely decorative and contains no experimental evidence, development progress indicators, or project context useful for TRL classification."
+  ],
+  "milestones": []
+}
