@@ -1,0 +1,19 @@
+{
+  "file_path": "/so-publicc",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image shows a black formal vest/waistcoat laid flat on a wooden herringbone floor. This is a photograph of a clothing item, not a biotech or science document. There is no scientific, experimental, regulatory, or technical content relevant to a Technology Readiness Level (TRL) assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Black Formal Vest/Waistcoat",
+      "content": "A black formal vest/waistcoat photographed from above, laid flat on a light wood herringbone-pattern floor. The garment features a V-neckline with lapels, a cinched waist with a small D-ring buckle strap at the back, and a satin lining visible at the shoulders. No scientific or technical content is present."
+    }
+  ],
+  "key_findings": [
+    "This image contains no biotech, scientific, or technical content. It is a photograph of a black formal vest/waistcoat and is entirely irrelevant to TRL assessment."
+  ],
+  "milestones": []
+}

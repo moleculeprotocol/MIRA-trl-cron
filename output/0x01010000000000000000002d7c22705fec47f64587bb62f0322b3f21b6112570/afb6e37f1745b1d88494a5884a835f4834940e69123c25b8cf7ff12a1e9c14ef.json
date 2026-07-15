@@ -1,0 +1,19 @@
+{
+  "file_path": "/police-lights",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image shows a stylized, high-contrast photograph of a police car's light bar (siren/emergency lights) at night, with red and blue lights illuminated. There is also a traffic cone visible in the background. This is a law enforcement/public safety scene photograph with no biotech, scientific, or TRL-relevant content whatsoever.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Police Vehicle Light Bar - Nighttime Scene",
+      "content": "High-contrast nighttime photograph of a police vehicle roof with an active light bar showing red and blue emergency lights. A traffic cone is visible in the background. There is a warning label visible on the light bar housing. No scientific, biotech, or TRL-relevant content is present in this image."
+    }
+  ],
+  "key_findings": [
+    "This image contains no scientifically relevant content. It is a stylized photograph of a police car emergency light bar at night and has no relevance to biotech, pharmaceutical development, or Technology Readiness Level (TRL) assessment."
+  ],
+  "milestones": []
+}
