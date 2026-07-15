@@ -234,9 +234,15 @@ export async function updateTrlAndScoringAsDraft(
     `${action} for ${oclId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoCount > 0 ? ` and ${todoCount} todo(s)` : ""}`,
   )
 
-  await notifyDiscord({
-    oclId,
-    name,
-    trlAnalysis,
-  })
+  if (commitHash) {
+    await notifyDiscord({
+      oclId,
+      name,
+      trlAnalysis,
+    })
+  } else {
+    console.log(
+      `Skipping Discord notification for ${oclId} (extraction incomplete, will retry next run)`,
+    )
+  }
 }
