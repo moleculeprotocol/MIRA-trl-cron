@@ -29,6 +29,14 @@ on:
         options:
           - 'false'
           - 'true'
+      sanity_publish_immediately:
+        description: 'Publish directly in Sanity (false = create drafts only)'
+        required: false
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
 
 jobs:
   process-projects:
@@ -58,6 +66,7 @@ jobs:
           ENVIRONMENT: ${{ github.event_name == 'schedule' && 'production' || github.event.inputs.environment || 'staging' }}
           USE_ALL_PROJECTS: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.use_all_projects || 'true' }}
           FORCE_PROCESS: ${{ github.event_name == 'schedule' && 'false' || github.event.inputs.force_process || 'false' }}
+          SANITY_PUBLISH_IMMEDIATELY: ${{ github.event_name == 'schedule' && 'true' || github.event.inputs.sanity_publish_immediately || 'true' }}
           SANITY_API_TOKEN: ${{ secrets.SANITY_API_TOKEN }}
           MOLECULE_API_KEY: ${{ secrets.MOLECULE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
