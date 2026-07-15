@@ -193,6 +193,7 @@ pnpm dev:all
 | `DISCORD_WEBHOOK_URL` | No | Discord webhook for notifications (production only) |
 | `SANITY_STUDIO_URL` | No | Base URL for Sanity Studio (required for Discord notification links) |
 | `ENVIRONMENT` | No | `staging` or `production` -- controls Sanity dataset |
+| `SANITY_PUBLISH_IMMEDIATELY` | No | `true` to write TRL/scoring data directly to the published document instead of a draft |
 | `USE_ALL_PROJECTS` | No | `true` to fetch all projects; otherwise uses test projects |
 | `FORCE_PROCESS` | No | `true` to skip change detection and reprocess everything |
 

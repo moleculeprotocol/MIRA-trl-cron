@@ -11,6 +11,8 @@ const dataset = SANITY_DATASETS[environment]
 
 console.log(`Using ${environment} environment (dataset: ${dataset})`)
 
+const publishImmediately = process.env.SANITY_PUBLISH_IMMEDIATELY === "true"
+
 const ONCHAIN_LAB_TYPE = "onChainLab"
 
 interface NotifyDiscordParams {
@@ -54,7 +56,9 @@ async function notifyDiscord({
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        content: "📝 New lab TRL draft by MIRA ready for review!",
+        content: publishImmediately
+          ? "✅ New lab TRL published by MIRA!"
+          : "📝 New lab TRL draft by MIRA ready for review!",
         embeds: [
           {
             title: name,
@@ -206,7 +210,15 @@ export async function updateTrlAndScoringAsDraft(
     )
   }
 
-  if (existingDraft) {
+  if (publishImmediately) {
+    // Write directly to the published document, skipping the draft entirely.
+    await client.patch(oclId).set(trlData).commit()
+
+    // If a stale draft exists, discard it so it doesn't shadow the published data.
+    if (existingDraft) {
+      await client.delete(draftId)
+    }
+  } else if (existingDraft) {
     await client.patch(draftId).set(trlData).commit()
   } else {
     await client.create({
@@ -217,8 +229,9 @@ export async function updateTrlAndScoringAsDraft(
   }
 
   const todoCount = todos?.length ?? 0
+  const action = publishImmediately ? "Published" : "Draft created/updated"
   console.log(
-    `Draft created/updated for ${oclId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoCount > 0 ? ` and ${todoCount} todo(s)` : ""}`,
+    `${action} for ${oclId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoCount > 0 ? ` and ${todoCount} todo(s)` : ""}`,
   )
 
   await notifyDiscord({
