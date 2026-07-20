@@ -1,0 +1,23 @@
+{
+  "file_path": "/feline-superiority-whitepaper.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a humorous, satirical \"whitepaper\" comparing domestic cats and dogs across six whimsical performance domains (operational autonomy, hygiene engineering, acoustic footprint, spatial efficiency, cognitive economy, and total cost of ownership). It is written in a tongue-in-cheek tech/DevOps style and contains no biotech, therapeutic, or scientific research content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "The Feline Superiority Initiative – Full Document",
+      "content": "A satirical two-page whitepaper (v1.0, July 2026) from the 'Feline Superiority Lab' arguing that cats are superior companion animals to dogs. The document uses tech/DevOps metaphors (serverless, continuous deployment, TCO, hard cap) to humorously frame comparisons across six domains: operational autonomy, hygiene engineering, acoustic footprint, spatial/energetic efficiency, cognitive economy/emotional design, and total cost of ownership. It acknowledges dogs excel at fetch, search-and-rescue, and unconditional morale. No experimental data, therapeutic targets, model systems, clinical results, IP, regulatory interactions, or funding information are present. The document is entirely non-scientific satire with no relevance to biotech TRL assessment."
+    }
+  ],
+  "key_findings": [
+    "Document is a satirical, humorous comparison of cats vs. dogs with no biotech, therapeutic, or scientific research content.",
+    "No experimental evidence, model systems, quantitative data, or clinical/preclinical results are present.",
+    "No regulatory, IP, funding, manufacturing, or partnership milestones are mentioned.",
+    "The document has zero relevance to Technology Readiness Level (TRL) assessment for any biotech or science project."
+  ],
+  "document_date": "2026-07",
+  "milestones": []
+}
