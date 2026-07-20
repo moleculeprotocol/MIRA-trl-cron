@@ -98,7 +98,7 @@ async function processProject(project: Project): Promise<void> {
   }
 
   if (!formattedContent) {
-    console.log(`Skipping ${oclId} - no relevant content extracted`)
+    console.log(`Skipping ${oclId} - no relevant content found`)
     return
   }
 
