@@ -1,0 +1,129 @@
+{
+  "file_path": "/feline-ip-team-dossier.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "Development Dossier DD-01 from the Feline Superiority Lab (July 2026) covers team composition, IP status, manufacturing/CMC considerations, regulatory pathway, and development milestones for a non-therapeutic companion-animal platform (cats). The platform targets companionship-deficit and household-noise-sensitivity contexts for knowledge workers, with an addressable population of ~370M cat-owning households globally. The project is at an early research/behavioral-study stage with one completed cohort study and several planned expansions.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Personnel & Affiliations",
+      "content": "Principal Investigator: Dr. M. Whiskerton, DVM/PhD (behavioral ethology), Molecule DeSci Companion-Animal Group. Co-Investigator: Dr. A. Purrsson (bioacoustics), Institute for Domestic Feline Studies, Zurich. Data & Biostatistics: R. Tabbyani, MSc. Program Operations: Molecule Labs. Team expertise spans in vivo behavioral trial design, acoustic instrumentation, and reproducible-research tooling."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Intellectual Property Status",
+      "content": "One provisional patent application filed (2026-05) covering a 'method for metered-affection companionship delivery and acoustic-footprint minimization' — method-of-use claims only. Composition-of-matter claims not pursued (subject is a naturally occurring platform). Preliminary FTO review found no blocking patents; a prior 1997 filing on automated feeders was assessed non-blocking (different claim scope)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Manufacturing / CMC & Delivery Considerations",
+      "content": "Platform is self-replicating and self-manufacturing; GMP not applicable. Delivery route (adoption + acclimatization) assessed as low-friction and high-viability. Scale-up constraint: supply is shelter-limited, not production-limited; partnership with rehoming networks recommended over de novo manufacturing. No CMC blockers identified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Regulatory Pathway",
+      "content": "No IND-enabling studies initiated (out of scope for a non-therapeutic companion-animal platform). Applicable oversight is animal-welfare and ethics review. IACUC-equivalent approval obtained for the behavioral cohort (protocol FSL-2026-07). No formal toxicology package required or initiated."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Development Timeline & Next Milestones",
+      "content": "Completed milestones: cohort study ER-01 (2026-07), provisional patent filing (2026-05), whitepaper v1.0 (2026-07). Planned M1: expand cohort to n=60 with multi-site replication, target 2026-Q4. Planned M2: longitudinal 6-month retention & satisfaction study, target 2027-Q1. Planned M3: open community-funded replication round and pre-register endpoints, target 2027-H1."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Patient / Beneficiary Population",
+      "content": "Estimated addressable population: ~370M cat-owning households globally (proxy for beneficiary scale). Target 'indication': companionship-deficit and household-noise-sensitivity contexts for the modern knowledge worker."
+    }
+  ],
+  "key_findings": [
+    "Platform is a non-therapeutic companion-animal system (cats); GMP and IND-enabling studies are explicitly out of scope.",
+    "IACUC-equivalent ethics approval obtained for behavioral cohort under protocol FSL-2026-07, indicating institutional oversight is in place.",
+    "Cohort study ER-01 completed July 2026 — earliest experimental evidence available; no quantitative efficacy data reported in this dossier.",
+    "Provisional patent filed May 2026 on method-of-use claims for 'metered-affection companionship delivery and acoustic-footprint minimization'; no composition-of-matter claims.",
+    "Preliminary FTO review found no blocking patents; prior 1997 automated-feeder filing assessed non-blocking.",
+    "Scale-up is shelter-supply-limited, not manufacturing-limited; no CMC blockers identified.",
+    "Team has relevant expertise: behavioral ethology (PI), bioacoustics (Co-I), biostatistics, and program operations.",
+    "Addressable market estimated at ~370M cat-owning households globally.",
+    "Project is at an early research/behavioral-study stage (TRL 2–3 equivalent), with planned multi-site replication and longitudinal studies still ahead."
+  ],
+  "document_date": "2026-07",
+  "milestones": [
+    {
+      "title": "Provisional Patent Filed",
+      "description": "Provisional patent application filed covering 'method for metered-affection companionship delivery and acoustic-footprint minimization' — method-of-use claims.",
+      "date": "2026-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "One provisional patent application filed (2026-05) covering a 'method for metered-affection companionship delivery and acoustic-footprint minimization' - method-of-use claims.",
+      "page": 1
+    },
+    {
+      "title": "Cohort Study ER-01 Completed",
+      "description": "Initial behavioral cohort study ER-01 completed.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Completed: cohort study ER-01 (2026-07), provisional patent (2026-05), whitepaper v1.0 (2026-07).",
+      "page": 1
+    },
+    {
+      "title": "Whitepaper v1.0 Published",
+      "description": "Whitepaper v1.0 authored and published.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Completed: cohort study ER-01 (2026-07), provisional patent (2026-05), whitepaper v1.0 (2026-07).",
+      "page": 1
+    },
+    {
+      "title": "IACUC-Equivalent Approval Obtained",
+      "description": "IACUC-equivalent ethics approval obtained for the behavioral cohort under protocol FSL-2026-07.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "IACUC-equivalent approval obtained for the behavioral cohort (protocol FSL-2026-07).",
+      "page": 1
+    },
+    {
+      "title": "M1 – Expanded Multi-Site Cohort (n=60)",
+      "description": "Expand cohort to n=60 with multi-site replication.",
+      "date": "2026-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Planned M1 - expand cohort to n=60 with multi-site replication, target 2026-Q4.",
+      "page": 1
+    },
+    {
+      "title": "M2 – Longitudinal 6-Month Retention & Satisfaction Study",
+      "description": "Longitudinal 6-month retention and satisfaction study.",
+      "date": "2027-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Planned M2 - longitudinal 6-month retention & satisfaction study, target 2027-Q1.",
+      "page": 1
+    },
+    {
+      "title": "M3 – Community-Funded Replication Round & Pre-Registration",
+      "description": "Open community-funded replication round and pre-register endpoints.",
+      "date": "2027-H1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Planned M3 - open community-funded replication round and pre-register endpoints, target 2027-H1.",
+      "page": 1
+    }
+  ]
+}

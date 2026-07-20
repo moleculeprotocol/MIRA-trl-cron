@@ -1,0 +1,87 @@
+{
+  "file_path": "/feline-experiment-report.pdf",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "Experiment Report ER-01 from the Feline Superiority Lab (July 2026) presents an in vivo behavioral cohort study comparing feline (n=12) and canine (n=12) companion animals across autonomy, acoustic, and task-completion endpoints. The study uses pseudo-biotech framing (EC50, dose-response, adverse events) to humorously argue for feline superiority in a domestic deployment context. While the document mimics rigorous experimental reporting with real statistical outputs, the subject matter is a whimsical comparison of cats vs. dogs rather than a genuine therapeutic or biotech platform.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Objective & Hypothesis",
+      "content": "Primary objective: quantify performance differences between matched feline (Felis catus) and canine (Canis familiaris) cohorts across autonomy, acoustic, and task-completion endpoints. Hypothesis: the feline platform delivers equivalent or superior companionship uptime at lower operational overhead. Mechanism of action framed as 'metered-affection signalling': feline endorsement is scarcity-priced and therefore information-rich. This is a satirical framing of companion-animal behavior using biotech/pharma language."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Model System & Study Design",
+      "content": "In vivo cohort study (not in vitro): 24 client-owned animals, n=12 per arm, matched for age (2–6 yr) and household type. Prospective, controlled, within-household where possible. Two blinded observers scored each trial; inter-rater agreement Cohen's kappa = 0.89. Each endpoint replicated across 3 independent sessions per subject. The 'disease-relevance' note frames the domestic household as the target deployment environment. Study arms: feline (Felis catus) vs. canine (Canis familiaris)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Quantitative Results — Trial 7 (Object Permanence)",
+      "content": "Feline success: 11/12 (91.7%). Canine success: 4/12 (33.3%). Differential: +58.4 percentage points. Statistical test: chi-square, p = 0.006. Median feline latency: 8.1 s (IQR 6.4–9.0 s). Felines significantly outperformed canines on object permanence task."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Quantitative Results — Trial 11 (Acoustic Response to Doorbell)",
+      "content": "Feline mean acoustic emission: 0.0 dB (SD 0.0). Canine mean acoustic emission: 94.2 dB (SD 6.1), sustained for 3.7 minutes. Statistical test: Welch t-test, p < 0.001. Neighbor complaints over 30 days: feline = 0, canine = 3. Felines produced no noise response; canines produced sustained high-decibel vocalization."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Quantitative Results — Trial 12 (48-Hour Autonomy)",
+      "content": "Feline arm: 12/12 completed 48-hour autonomy trial nominally. Canine arm: terminated at hour 6 on welfare grounds (intervention required). Felines demonstrated full unattended-deployment capability; canines failed the autonomy endpoint entirely."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Quantitative Results — Dose-Response Proxy",
+      "content": "Interaction-per-day vs. satisfaction score proxy: Feline curve is monotonic with EC50 approximately 2.1 interactions/day. Canine curve is saturating and demanding, requiring >8 interactions/day. Felines show a more efficient dose-response relationship for companionship satisfaction."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Controls, Reproducibility & Rigor",
+      "content": "Positive control: food-motivated recall — both arms responded, confirming task validity. Negative control: empty-room baseline — 0 false responses (felines), 2 spontaneous alerts (canines). All primary endpoints replicated across 3 sessions with concordant direction. Pre-registered outlier: Trial 9 (fetch) — feline arm 0/12 by unanimous non-participation; excluded per protocol as out-of-scope for the platform thesis. Inter-rater reliability: Cohen's kappa = 0.89 (strong agreement)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Preliminary Safety & Tolerability",
+      "content": "Feline arm: no adverse events across 48 hours. Canine arm: stress-related furniture damage (3 cushions destroyed) and elevated vocalization; classified as tolerability-limiting for the unattended-deployment use case. No pharmacological intervention involved; safety assessed behaviorally."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Interpretation & Conclusions",
+      "content": "Authors conclude reproducible, statistically significant, quantitative outcomes in a live cohort modeling the real deployment environment. Evidence described as supporting 'early proof-of-concept efficacy' for the feline platform in its intended use case, consistent with a 'disease-relevant in vivo readout.' This language maps to approximately TRL 2–3 framing within the satirical biotech narrative."
+    }
+  ],
+  "key_findings": [
+    "In vivo cohort study with n=24 animals (n=12 feline, n=12 canine), prospective and controlled, with strong inter-rater reliability (Cohen's kappa = 0.89) and 3-session replication per subject.",
+    "Trial 7 (object permanence): feline success rate 91.7% vs. canine 33.3%, differential +58.4 pp, chi-square p = 0.006 — statistically significant feline superiority.",
+    "Trial 11 (acoustic response): feline 0.0 dB vs. canine 94.2 dB sustained 3.7 min, Welch t-test p < 0.001; felines generated zero neighbor complaints vs. 3 for canines over 30 days.",
+    "Trial 12 (48-hour autonomy): feline arm 12/12 completed; canine arm terminated at hour 6 on welfare grounds — felines fully capable of unattended deployment.",
+    "Dose-response proxy: feline EC50 ~2.1 interactions/day (monotonic curve) vs. canine >8 interactions/day (saturating/demanding curve) — felines are more operationally efficient.",
+    "Safety: no adverse events in feline arm; canine arm showed tolerability-limiting stress behaviors (furniture damage, elevated vocalization).",
+    "Controls validated: positive control (food recall) confirmed task validity; negative control (empty room) showed 0 false feline responses vs. 2 spontaneous canine alerts.",
+    "Pre-registered exclusion: Trial 9 (fetch) excluded due to unanimous feline non-participation — acknowledged limitation of the feline platform.",
+    "Document is satirical in nature, using biotech/pharma language to frame a humorous cats-vs-dogs behavioral comparison; not a genuine therapeutic development program."
+  ],
+  "document_date": "2026-07",
+  "milestones": [
+    {
+      "title": "ER-01 Study Conducted and Reported",
+      "description": "In vivo companion-animal behavioral cohort study (ER-01) completed and reported by the Feline Superiority Lab, comparing feline and canine cohorts across multiple behavioral endpoints.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Feline Superiority Lab - July 2026",
+      "page": 1
+    }
+  ]
+}
