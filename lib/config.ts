@@ -41,5 +41,5 @@ export const SANITY_DATASETS = {
  * Set USE_ALL_PROJECTS=true to fetch real projects from the Molecule API instead.
  */
 export const TEST_PROJECTS: string[] = [
-  "0x01010000000000000000003119b709c23bb1c27d0ff2736c929c0138b8a113f1",
+  "0x01010000000000000000001f96a3babca74d62c672e2e7180a061e296bb5581b",
 ]
