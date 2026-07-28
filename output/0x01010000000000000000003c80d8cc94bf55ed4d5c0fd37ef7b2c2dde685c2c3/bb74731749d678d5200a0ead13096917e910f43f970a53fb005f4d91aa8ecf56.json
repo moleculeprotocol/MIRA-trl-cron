@@ -1,0 +1,129 @@
+{
+  "file_path": "/ai-assisted-emotion-regulation-proposal",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This is a research proposal for a randomized controlled trial (N≈200) evaluating an AI-assisted, ACT-informed digital intervention (\"Brightn\" platform) for mood enhancement and emotional resilience in first-year university students. The proposal builds on a completed pilot study (N=56) showing statistically significant reductions in anxiety and depression and increased social connection. The project is framed within a next-generation human enhancement paradigm and targets behavioral/psychological rather than pharmacological mechanisms.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract",
+      "content": "Proposes an AI-assisted, ACT-informed intervention targeting cognitive flexibility, affective regulation, and value-consistent behavior to enhance mood and emotional resilience in young adults. Builds on pilot data (N=56) showing reductions in anxiety/depression and increased social connection. Planned RCT (N≈200) comparing AI-assisted values training to active control over 8 weeks with longitudinal follow-up. 12-month project timeline. Multidisciplinary team with prior IRB approval. Open data sharing planned. Framed as a non-pharmacological, scalable modulator of mood-related neural and behavioral processes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Introduction & Hypotheses",
+      "content": "Positions AI-assisted emotional training platforms as 'digital neuroplasticity enhancers.' ACT reliably improves emotional regulation via values-based behavior and metacognitive awareness. Pilot (N=56): decreased anxiety/depression symptoms and increased social connection after 4 weeks of AI-guided values journaling. Hypotheses: H1 (Primary): AI-assisted values training → greater reductions in anxiety/depression vs. controls. H2 (Primary): Increased emotional resilience over time. H3 (Secondary): Increased perceived social connection. H4 (Secondary): Values-aligned behaviors mediate mood improvements. Targets subclinical populations to enhance baseline functioning, not treat clinical disorders."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Methods — Participants & Sample",
+      "content": "Target: ~200 first-year university students, ages 18–22, recruited via academic advising programs and first-year seminar courses. Exclusion: acute psychiatric instability requiring immediate clinical intervention. Inclusion: mild-to-moderate anxiety/depression symptoms eligible. Power analysis based on pilot data (small-to-moderate effects); N=200 provides ≥0.80 power accounting for attrition. Randomized to AI-assisted intervention or active control (structured journaling without AI feedback or values scaffolding, matched for time/engagement)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Methods — Materials, Procedures & AI System",
+      "content": "Intervention: 8-week program using the Brightn platform (LLM-based AI app). Participants identify 4 core personal values (relationships, academic/professional, self-care/leisure, community). Daily: brief mood check-in + guided journaling prompts on values alignment. AI provides personalized feedback: reflective summary, values alignment feedback, actionable recommendation. Dosage: one structured interaction/day (5–7 min), compliance tracked via timestamped logs. Control: comparable daily/weekly monitoring without values training or AI feedback. Outcome measures: baseline + weekly during intervention + follow-up months post-intervention. Primary: GAD-7 (anxiety), PHQ-8 (depression). Secondary: UCLA Loneliness Scale (social connection), Brief Resilience Scale (BRS), PROMIS Global Mental Health. Fidelity: automated logging of prompt-response sequences, ACT-adherence scoring via predefined rubric. Safety: automatic high-risk language detection, escalation to human review, AI restricted from clinical advice."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Methods — Planned Analyses & Ethics",
+      "content": "Analysis: longitudinal mixed-effects modeling, group-by-time interactions as primary efficacy indicator. Mediation analyses for values-aligned behavior and reflective engagement as mediators of mood outcomes. Intent-to-treat framework with sensitivity analyses for adherence/attrition. Missing data: maximum likelihood estimation. Exploratory: individual differences in responsiveness (baseline symptoms, engagement patterns). Ethics: existing approved IRB protocol with amendments as needed. Informed consent required. Secure encrypted data storage, de-identified. Open science: de-identified datasets, analysis code, and study materials publicly available post-completion."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Pilot Data (N=56) — Quantitative Results",
+      "content": "Pilot study (N=56) conducted at PI's home institution. Intervention group (Brightn + values-based training) results: Average mood distribution: 58.3% positive moods, 30% neutral moods, 11.8% negative moods. Statistically significant decreases in anxiety symptoms (GAD-7) vs. control. Statistically significant decreases in depression symptoms (PHQ-8) vs. control. Statistically significant increase in social connection (single-item: 'How much did you feel connected to other people this past week?') vs. control. Duration of pilot: 4 weeks of AI-guided values journaling."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Pilot Data — Qualitative Results & Sentiment Analysis",
+      "content": "Free-response questions administered to capture student sentiments. Sentiment analysis of Brightn users in values training group showed consistently positive sentiment scores across questions: (1) helpfulness of reflective journaling for mental health/wellbeing, (2) quality of AI actionable steps/recommendations, (3) AI affirmation, (4) app utility for values/experience/wellbeing reflection. Representative student quotes: 'I found journaling to be really helpful to be aware of and active in my own personal development. In fact, I think the presence of an AI that responded to my journal entries helped significantly, even if it simply reflected my own thoughts in a slightly different manner, because it gave the journal entries weight and it didn't feel like I was constantly just repeating the obvious back to myself.' Second student: 'I was able to supercharge my personal growth — shifting my entire mindset to be growth oriented, tackling procrastination and developing unique study strategies, gaining social confidence to make friends, significantly increasing my confidence and energy in my daily life, etc.'"
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Budget",
+      "content": "Total requested budget: $10,000 USD. Breakdown: Personnel (project coordinator, analyst): $5,000; Participant incentives: $5,000. Note: funds supplement existing institutional and platform resources including in-kind support for app deployment, cloud infrastructure, and personnel time."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "References",
+      "content": "1. Gloster et al. (2020) — empirical status of ACT, review of meta-analyses. Journal of Contextual Behavioral Science, 18, 181–192. 2. López-Pinar et al. (2025) — ACT process of change and efficacy for anxiety/depression in adolescents, meta-analysis of RCTs. Journal of Affective Disorders, 368, 633–644. 3. Spitzer et al. (2006) — GAD-7 validation. Archives of Internal Medicine, 166(10), 1092–1097. 4. Kroenke et al. (2009) — PHQ-8 validation. Journal of Affective Disorders, 114(1–3), 163–173. 5. Swarbrick (2006) — wellness approach. Psychiatric Rehabilitation Journal, 29(4), 311."
+    }
+  ],
+  "key_findings": [
+    "Pilot study (N=56) demonstrated statistically significant reductions in anxiety (GAD-7) and depression (PHQ-8) symptoms in the AI-assisted values training group vs. control after 4 weeks.",
+    "Pilot participants using Brightn reported 58.3% positive moods, 30% neutral, and 11.8% negative moods.",
+    "Pilot showed statistically significant increase in social connection in the intervention group vs. control.",
+    "Sentiment analysis of free-response data showed consistently positive scores across all qualitative wellbeing dimensions for Brightn users.",
+    "Proposed RCT (N≈200) is powered at ≥0.80 to detect small-to-moderate effects based on pilot data, with 8-week intervention and longitudinal follow-up.",
+    "The Brightn platform uses an LLM-based architecture with ACT-grounded structured prompt templates (values clarification, cognitive defusion, committed action).",
+    "Intervention dosage: one structured interaction per day (5–7 minutes), compliance tracked via timestamped logs.",
+    "Prior IRB approval is in place; study targets subclinical (non-clinical) population of first-year university students aged 18–22.",
+    "Safety guardrails include automatic high-risk language detection and escalation to human review; AI restricted from providing clinical advice.",
+    "Total requested budget is $10,000 USD, supplementing existing institutional and platform in-kind resources.",
+    "Project is framed as a behavioral analog to pharmacological enhancement (psychoplastogens), operating through iterative reinforcement of adaptive cognitive-emotional patterns.",
+    "Open science commitment: de-identified data, analysis code, and study materials to be publicly shared post-completion."
+  ],
+  "milestones": [
+    {
+      "title": "Pilot Study Completion (N=56)",
+      "description": "Completed pilot study at PI's home institution using Brightn platform with ACT-based values training over 4 weeks, demonstrating statistically significant reductions in anxiety and depression and increased social connection.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Recent pilot data (N=56) collected from the PI's home institution showed promising results, namely: those students who used Brightn as part of the values-based training reported an average of 58.3% positive moods, 30% neutral moods, and 11.8% negative moods.",
+      "page": 4
+    },
+    {
+      "title": "IRB Approval Obtained",
+      "description": "Prior IRB approval is in place for the study; amendments to be submitted as needed to reflect expanded study scope.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "The multidisciplinary team combines expertise in social neuroscience, clinical psychology, and digital intervention design, with prior IRB approval in place.",
+      "page": 1
+    },
+    {
+      "title": "RCT Deployment and Data Collection",
+      "description": "Randomized controlled trial (N≈200) comparing AI-assisted values training to active control over 8 weeks, with longitudinal follow-up assessments several months post-intervention.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "A randomized controlled trial (N≈200) will compare AI-assisted values training to active control conditions across 8 weeks, with longitudinal follow-up.",
+      "page": 1
+    },
+    {
+      "title": "12-Month Project Completion",
+      "description": "Full project run including deployment, data collection, and analysis to be completed over 12 months.",
+      "date": "unknown",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The project will run over 12 months, including deployment, data collection, and analysis.",
+      "page": 1
+    },
+    {
+      "title": "Open Data Release",
+      "description": "All anonymized data, analysis pipelines, and study materials to be shared via open repositories following study completion.",
+      "date": "unknown",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "All anonymized data and analysis pipelines will be shared via open repositories to support reproducibility and translational development of scalable mood-enhancement technologies.",
+      "page": 1
+    }
+  ]
+}
