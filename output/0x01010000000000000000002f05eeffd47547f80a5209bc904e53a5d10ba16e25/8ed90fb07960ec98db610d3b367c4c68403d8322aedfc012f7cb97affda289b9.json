@@ -1,0 +1,19 @@
+{
+  "file_path": "/q3-public-report",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This image shows a project creation form interface (likely from a biotech data room or project management platform). It contains only UI elements: an image upload area, a project name field, a description field, and a \"Create project\" button. No scientific content, experimental data, or project-specific information has been entered.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Project Creation Form UI",
+      "content": "A web form interface for creating a new project. Contains: (1) A 'Project image' upload area accepting PNG, JPG, WebP, GIF up to 10 MB. (2) A 'Name' text field with placeholder 'e.g. Ribosome Engineering'. (3) A 'Description' text area (0/500 characters) with placeholder 'What is this project about?' and helper text 'A one-paragraph summary. You can edit this later from settings.' (4) A 'Create project' button. Footer note: 'By creating this project, an assignment agreement is generated to govern your IP across the data room. You also agree to the Terms of Service.' No scientific or project-specific data has been entered."
+    }
+  ],
+  "key_findings": [
+    "This is an empty project creation form with no scientific content, experimental data, or project-specific information entered. It is not relevant to TRL assessment."
+  ],
+  "milestones": []
+}
