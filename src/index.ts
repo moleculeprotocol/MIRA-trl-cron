@@ -8,6 +8,7 @@ import {
   generateTodos,
   getTrlAnalysis,
 } from "../lib/llm.js"
+import { getLocalInputFiles } from "../lib/local-files.js"
 import {
   getAllProjects,
   getDataRoomHash,
@@ -64,7 +65,11 @@ async function processProject(project: Project): Promise<void> {
   console.log("--------------------------------")
   console.log(`Processing Project: ${name} (OCL ID: ${oclId})`)
 
-  const currentHash = await getDataRoomHash(oclId)
+  // Additional files placed manually in input/files/<oclId>/ are processed
+  // alongside the files fetched from the Molecule API.
+  const localInputFiles = await getLocalInputFiles(oclId)
+
+  const currentHash = await getDataRoomHash(oclId, localInputFiles)
   const hashChanged = await dataroomHashChanged(oclId, currentHash)
   const forceProcess = process.env.FORCE_PROCESS === "true"
 
@@ -76,11 +81,20 @@ async function processProject(project: Project): Promise<void> {
   }
 
   const files = await getProjectDataRoomFiles(oclId)
-  const extractableFiles = getPublicExtractableFiles(files)
+  const extractableFiles = [
+    ...getPublicExtractableFiles(files),
+    ...localInputFiles,
+  ]
 
   if (extractableFiles.length === 0) {
     console.log(`Skipping ${oclId} - no extractable public files in dataroom`)
     return
+  }
+
+  if (localInputFiles.length > 0) {
+    console.log(
+      `Including ${localInputFiles.length} local input file(s) from input/files/${oclId}/`,
+    )
   }
 
   console.log(`Found ${extractableFiles.length} extractable file(s) to process`)

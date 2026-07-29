@@ -544,6 +544,18 @@ async function downloadFileData(file: DataRoomFile): Promise<DownloadResult> {
     return { ok: false, reason: "unsupported" }
   }
 
+  // Locally-provided files (from input/files/<oclId>/) are read from disk
+  // instead of fetched over the network.
+  if (file.localPath) {
+    try {
+      const data = await fs.readFile(file.localPath)
+      return { ok: true, data, mimeType }
+    } catch (error) {
+      console.error(`Failed to read local file ${file.localPath}:`, error)
+      return { ok: false, reason: "download_error" }
+    }
+  }
+
   const response = await fetch(file.downloadUrl)
   if (!response.ok) {
     console.error(`Failed to download ${file.path}: ${response.status}`)
@@ -1609,10 +1621,19 @@ Every conclusion MUST be grounded in an actual date (a milestone target/actual d
 
 ## Use Document Dates to Resolve the Current Truth
 Documents are provided with a "document date" (when each was authored/published/updated). Milestones can appear in multiple documents and may be corrected or superseded over time.
-- Treat the milestone information from the document with the LATEST document date as the most authoritative version of the plan.
-- If a milestone's date or status differs across documents, prefer the version from the most recent document. A later document can mark a previously-"planned" milestone as completed, move its target date, or drop it.
-- Do NOT flag a milestone as "missed" if a more recent document shows it completed, rescheduled, or explicitly re-planned.
+- Treat the milestone information from the document with the LATEST document date as the CURRENT state of the plan — but remember that a CHANGE to the plan is itself information, not something to silently absorb (see "Progress Must Track the Roadmap" below).
+- A later document that shows a previously-"planned" milestone as GENUINELY COMPLETED (on or near its committed date) is real, positive progress.
+- A later document that quietly moves a target date later, drops a committed milestone, or replaces it with unrelated work is a DEVIATION from the original roadmap — treat it as a negative signal, NOT as neutral truth-updating that makes the project look on-track.
+- Do NOT flag a milestone as "missed" if a more recent document shows it genuinely completed on plan. But completion is not the same as re-planning: an explicitly acknowledged, dated re-plan with a stated rationale is a SOFTER signal than a silent slip, yet both still count as departures from the original schedule and must be surfaced.
 - If document dates are missing or old, say so — it lowers confidence and pushes toward YELLOW.
+
+## Progress Must Track the Roadmap
+The traffic light measures progress AGAINST THE PROJECT'S OWN ROADMAP — not activity in the abstract. Establish the roadmap baseline from the earliest coherent plan (its sequenced, committed milestones), then judge later activity against that baseline.
+- Progress that advances the stated, sequenced milestones is real progress and supports GREEN.
+- Activity that is NOT on the roadmap (work on unlisted objectives, pivots, or new directions that replace earlier commitments) is NOT progress toward the plan. Do NOT let off-roadmap busyness offset milestones that were promised and not delivered.
+- A project can be "busy" and still be BEHIND: if the original near-term milestones are overdue while effort has clearly shifted elsewhere, that is a deviation, not progress. Say so in the rationale and record it as negative signal(s).
+- Distinguish three cases explicitly: (a) staying on the roadmap and hitting the committed milestones [positive]; (b) an explicit, dated, justified re-plan of the roadmap [surface it; lowers confidence; mildly negative]; (c) silent drift where the plan quietly changes with no acknowledgement [negative — the project is not executing its stated plan].
+- When judging momentum, only count completed work that maps to a roadmap milestone. Off-roadmap completions may be mentioned as context but must never be the basis for GREEN.
 
 ## How to Judge "Behind Schedule" (materiality buffers)
 A planned/in-progress milestone counts as OVERDUE only if its target date has clearly passed by more than a materiality buffer that scales with how precisely the date was stated (compare against the ASSESSMENT DATE provided below):
@@ -1620,7 +1641,7 @@ A planned/in-progress milestone counts as OVERDUE only if its target date has cl
 - Quarter precision (e.g. 2025-Q1): overdue if the quarter ended more than ~1 quarter (~3 months) ago.
 - Year precision (e.g. 2025): overdue if more than ~6 months past the end of that year.
 - Relative/unknown dates ("in 6 months", "next year"): cannot be reliably judged as overdue — treat as low-confidence, not as evidence of lateness.
-An overdue milestone only counts against the project if NO later document indicates it was completed or re-planned.
+An overdue milestone does not count against the project if a later document shows it genuinely completed. A later document that merely RE-PLANS it (pushes the date, drops it, or swaps it) does not clear the deviation — it downgrades a hard "overdue" signal to a softer "off-roadmap / re-planned" signal, which still counts against the project (more so if the re-plan is silent or unexplained).
 
 ## Staleness & Momentum
 - If the most recent dated activity anywhere in the data room (latest completed milestone OR latest document date) is more than ~12 months old, momentum is questionable — this pushes toward YELLOW, and toward RED if concrete near-term milestones were promised in that window and there is no evidence they happened.
@@ -1632,16 +1653,18 @@ An overdue milestone only counts against the project if NO later document indica
 - Funding: A closed round is positive/neutral. A funding milestone that was targeted and then passed with no evidence of closing is a negative signal but rarely sufficient on its own for RED.
 
 ## Traffic-Light Definitions (be strict and consistent)
-GREEN — On track. The plan is legible and recent, and the project is meeting it:
+GREEN — On track. The plan is legible and recent, and the project is meeting it ON PLAN:
 - There is at least one reasonably recent dated document (typically within ~12 months), AND
-- No material milestone is overdue per the buffers above (or any that were overdue are shown completed/re-planned in a newer document), AND
-- Completed milestones and/or a coherent forward plan show momentum consistent with the stated roadmap.
+- No material milestone is overdue per the buffers above (or any that were overdue are shown genuinely completed in a newer document), AND
+- Completed milestones and/or a coherent forward plan show momentum consistent with the stated roadmap, AND the milestones being delivered are the ones the roadmap actually called for (progress is ON the plan, not off it), AND
+- The roadmap has not silently changed — there is no unexplained dropping, reordering, or wholesale replacement of previously-committed milestones.
 
 RED — Confidently behind schedule. You can safely say the project has slipped:
 - One or more MATERIAL milestones are overdue per the buffers above with no later document showing completion or a credible re-plan, OR
 - A category that should show steady progress has clearly stalled (e.g. a promised patent filing >12 months overdue; a promised IND/readout date long past with no update), OR
+- The project has clearly deviated from its original roadmap — committed near-term milestones have been silently dropped, replaced, or repeatedly pushed while effort moved to unlisted work — so that its stated plan is no longer being executed, OR
 - The most recent activity is very stale AND concrete near-term milestones that were promised have no evidence of happening.
-Only choose RED when the dates make lateness unambiguous.
+Only choose RED when the dates make lateness or deviation unambiguous.
 
 YELLOW — Insufficient confidence to call it green or red. The evidence is sparse, stale, low-precision, or contradictory:
 - Milestones lack dates or use only relative/unknown dates, OR
@@ -1651,7 +1674,7 @@ YELLOW — Insufficient confidence to call it green or red. The evidence is spar
 YELLOW is the correct, honest answer whenever you cannot defend GREEN or RED with dated evidence.
 
 ## Writing the Outputs
-- rationale (INVESTORS): 2-4 plain sentences explaining why the light is what it is, referencing the concrete dates/milestones that drove it. Be honest but measured — no hype, no unwarranted alarm. Avoid confidential specifics; keep it suitable for a prospective investor.
+- rationale (INVESTORS): 2-4 plain sentences explaining why the light is what it is, referencing the concrete dates/milestones that drove it. If the project has progressed but OFF its stated roadmap (dropped, replaced, or silently rescheduled milestones), say so explicitly — describe it as a deviation from the original plan rather than as progress. Be honest but measured — no hype, no unwarranted alarm. Avoid confidential specifics; keep it suitable for a prospective investor.
 - fix (PROJECT TEAM): explain which missing or outdated information caused a yellow/red, and name the specific PUBLIC documents/updates that, if added to the data room, would let the assessment reach (or confirm) green. Only suggest items that can be public and non-confidential — e.g. an updated roadmap with current target dates, a granted patent or public filing confirmation, a dated progress update or milestone summary, a published paper/preprint, a public clinical-trial registration, or a press release. Do NOT request confidential/proprietary data. If GREEN, state that no additional info is needed (or note minor items that would strengthen confidence).
 - signals: list the specific dated observations (positive, neutral, and negative) you relied on, each tied to a milestone/date and source document where possible. Include the ones that most influenced the decision.`
 

@@ -67,6 +67,11 @@ export interface DataRoomFile {
   tags: string[]
   categories: string[]
   downloadUrl: string
+  /**
+   * Absolute path to a locally-provided file (from `input/files/<oclId>/`).
+   * When set, the file is read from disk instead of fetched via `downloadUrl`.
+   */
+  localPath?: string
 }
 
 interface DataRoom {
@@ -236,9 +241,12 @@ export function getPublicExtractableFiles(
   return filterExtractableFiles(filterPublicFiles(files))
 }
 
-export async function getDataRoomHash(oclId: string): Promise<string> {
+export async function getDataRoomHash(
+  oclId: string,
+  extraFiles: DataRoomFile[] = [],
+): Promise<string> {
   const files = await getProjectDataRoomFiles(oclId)
-  const publicFiles = filterPublicFiles(files)
+  const publicFiles = [...filterPublicFiles(files), ...extraFiles]
 
   const fileHashes = await Promise.all(
     publicFiles.map((file) =>
