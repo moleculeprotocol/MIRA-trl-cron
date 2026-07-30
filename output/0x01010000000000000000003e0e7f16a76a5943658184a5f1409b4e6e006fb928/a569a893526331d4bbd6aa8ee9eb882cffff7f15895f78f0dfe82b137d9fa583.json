@@ -1,0 +1,280 @@
+{
+  "file_path": "/whm-cancer-feasibility-pilot-proposal-jul2026",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a revised research proposal (July 2026) for an active 16-week feasibility pilot studying the Wim Hof Method (breathwork and cold exposure) in adults living with cancer, focused on cancer-related inflammation. The study is a single-arm, remotely delivered interventional feasibility pilot with 22 cancer participants enrolled (exceeding the original 15–20 target), with primary outcomes of recruitment, retention, adherence, safety, and data completeness. It is explicitly not a treatment efficacy study and cannot establish causal claims about the Wim Hof Method and cancer outcomes.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page and Study Overview",
+      "content": "Title: Wim Hof Method Breathwork and Cold Exposure for Cancer-Related Inflammation. Full Revised Research Proposal — July 2026. Revision date: 16 July 2026. Study start date: 18 May 2026. Current status: Active feasibility pilot. Principal Investigator: Sara Matijevic, PhD candidate. Contributors: Rafael Rolli, Jim Nasr, Jane Jones. Revised funding request: $10,000. DOI: 10.55277/researchhub.tfoaxkij. Explicit disclaimer: This is not a medical-treatment study; does not test WHM as a cancer treatment; does not claim breathing or cold exposure can cure, control, or treat cancer."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Core Team and Affiliations",
+      "content": "Principal Investigator: Sara Matijevic, PhD candidate, University of Oxford, Turing Enrichment Scholar. Study Coordinator: Rafael Rolli, Independent Researcher. Co-Investigator: Jim Nasr, Independent Researcher. WHM Instructor: Jane Jones, UK Lead, Certified Advanced Wim Hof Method Instructor. Medical Safety Advisor: Dr. Owais Durrani, Memorial Hermann Health System, ER Physician. Special Advisor: Wim Hof, Creator of the Wim Hof Method. Affiliation clarification: Institutional affiliations are for biographical identification only; no institutional sponsorship or oversight is implied. Conflicts of interest: Research team has no financial interests in the Wim Hof organization. Raw anonymized data will be made publicly available."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Abstract and Study Design Summary",
+      "content": "Design: 16-week prospective, single-arm, remotely delivered interventional feasibility pilot in adults living with cancer, with a separate healthy-volunteer observational reference cohort. Primary outcomes: recruitment, retention, adherence, safety, data completeness, acceptability. Secondary exploratory outcomes: fatigue, sleep, mood, pain, energy, wearable-derived measures, and inflammation-related laboratory values (from participants' usual medical care). The study does not provide or require laboratory testing or wearable devices. Not a cancer-treatment or efficacy study. Intervention: 16 weeks followed by week-20 follow-up assessment."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Progress and Current Status (as of July 2026)",
+      "content": "Pilot launched 18 May 2026. Current status: 49 participants consented across the platform; 22 people living with cancer enrolled in the intervention cohort (exceeding original target of 15–20); 16 guided-session recordings available; Week 9 documented in the study update. Operational progress: Participants completing weekly check-ins with verifiable records. 16 guided-session recordings including live and guest sessions by certified WHM instructor Jane Jones. Special live guided-breathwork session held with Wim Hof. Study continued despite not reaching original $100,000 fundraising goal, using existing platform and in-kind infrastructure."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Background and Scientific Rationale",
+      "content": "Many people living with cancer experience fatigue, sleep disruption, psychological distress, and changes in inflammatory and autonomic measures. Controlled breathing and gradual cold exposure hypothesized to influence stress responses, autonomic regulation, and some inflammatory measures. Key cited evidence: (1) Seki et al. 2022 (Nature, Karolinska Institutet): 'Brown-fat-mediated tumour suppression by cold-altered global metabolism' — cold-induced activation of brown adipose tissue may have tumour-suppressive effect in animal models at 4°C. (2) Kox et al. 2014 (PNAS): voluntary immune-system modulation via WHM. (3) Muzik et al. 2018 (NeuroImage): brain-connectivity changes during WHM breathing and cold exposure. (4) Buijze et al. 2016 (PLoS ONE): reduced sick days associated with cold-shower practice. Evidence in people living with cancer remains limited. This pilot is not designed to establish efficacy or a cancer-treatment effect."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Study Classification and Ethics Oversight",
+      "content": "Feasibility pilot assessing whether adults living with cancer can safely and consistently practice WHM with physician approval and appropriate monitoring. Physician-gated approach: each participant must obtain written medical clearance from treating physician before participating. Participants on active cancer treatment must obtain approval from oncologist/cancer-care team. Medical Safety Advisor: Dr. Owais Durrani. Protocol changes, safety concerns, and analysis amendments will be documented transparently. Formal ethics or regulatory review must be determined by appropriate qualified body — physician clearance does not replace formal ethics approval."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Primary Feasibility Objectives",
+      "content": "1. Recruitment: Assess whether eligible adults living with cancer can be recruited into a remote, physician-gated WHM feasibility study. Original target: 15–20 participants in cancer intervention cohort. 2. Retention: Assess percentage completing 16-week protocol and week-20 follow-up. Target: at least 75%. 3. Adherence: Assess percentage of prescribed breathing and cold-exposure sessions completed. Target: at least 70% for breathing and at least 70% for cold-exposure. 4. Safety: Document adverse events, serious adverse events, tolerability concerns, temporary holds, withdrawals, and physician-directed discontinuations. 5. Data completeness: Assess whether participants consistently complete required daily or weekly study records. 6. Acceptability: Assess whether participants consider remote instruction, gradual progression, check-ins, and data-collection procedures practical and acceptable."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Secondary Exploratory Objectives and Outcome Measures",
+      "content": "Explore changes from baseline to week 16 in: Fatigue (FACIT-Fatigue scale), Sleep quality (PROMIS Sleep Disturbance short form), Mood and anxiety (PHQ-4), Pain (0–10 numerical scale), Appetite (0–10 scale), Self-reported energy, Self-reported overall well-being, Self-reported weight, Heart-rate variability (wearable), Resting heart rate (wearable), Sleep duration and activity (wearable), Inflammation-related laboratory values from usual medical care. Potential laboratory measures: high-sensitivity C-reactive protein, interleukin-6, fasting glucose, fasting insulin, HOMA-IR. Confounding factors to be documented: infections, injuries, medication changes, treatment changes, cancer progression, hospitalization, changes in general health. Exploratory findings presented using effect sizes, confidence intervals, descriptive statistics, and clear statements of uncertainty."
+    },
+    {
+      "page": 4,
+      "type": "table",
+      "title": "Study Overview Parameters",
+      "content": "Parameter | Specification\nLength | 16-week intervention period followed by a four-week follow-up survey at week 20\nOriginal target size | 15 to 20 participants in the cancer intervention cohort\nCurrent enrolment | 22 people living with cancer enrolled in the intervention cohort\nSetting | Remote instructor-guided sessions and home practice"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Eligibility Criteria",
+      "content": "Inclusion: Adults aged 18+ living with cancer; access to smartphone or device; ability to provide informed consent; written medical clearance from treating physician; oncologist/cancer-care team clearance where applicable; approval for both breathing practice and gradual cold exposure. Safety Exclusions (extensive list): serious cardiovascular disease, uncontrolled hypertension, recent MI, severe arrhythmia, NYHA class III/IV heart failure, cardiomyopathy (EF <50%), stroke/TIA within 6 months, epilepsy/seizure disorder, pregnancy/breastfeeding, active psychosis, severe mania, recent suicide attempt, cold urticaria, severe Raynaud disease, recent surgery/hospitalization within 4 weeks, active wounds, ports/medical devices at cold-exposure sites, severe anemia (Hgb <10 g/dL), severe immunosuppression, ANC <500, recent transplant, COPD, severe asthma, pulmonary hypertension, active infection, fever, chemotherapy-induced neuropathy grade 2+, cachexia/BMI <16, history of febrile neutropenia, current/recent oxaliplatin within 6 months."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Breathing Technique Specification",
+      "content": "Element | Specification\nFrequency | Daily practice with a minimum target of five days per week\nDuration | Approximately 10 to 15 minutes per session\nTechnique | 30–40 cycles of controlled breathing; deep inhalation followed by passive exhalation; breath retention following final exhalation; self-regulated retention typically 1–2 minutes; recovery breath (deep inhalation held ~10–15 seconds); 3–4 rounds per session\nSafety | Must be performed sitting or lying down; never in water, before entering water, while driving, operating machinery, or in unsafe locations"
+    },
+    {
+      "page": 6,
+      "type": "table",
+      "title": "Cold-Exposure Protocol by Phase",
+      "content": "Phase | Duration | Temperature | Frequency\nWeeks 1–2 (Adaptation) | Cold finish to normal shower, approx. 15–30 seconds | Mild cold sensation; focus on tolerability and controlled breathing | 3–5 days per week\nWeeks 3–8 (Building) | Approx. 30–90 seconds | Gradually decreased; may approach approx. 10–16°C where available and tolerated | 5–7 days per week\nWeeks 9–16 (Maintenance) | Approx. 1–3 minutes | Approx. 10–16°C or coldest comfortably available | 5–7 days per week\nOptional cold-water immersion at 4°C or below requires: 4+ weeks of breathing/cold-shower practice, separate written medical approval, WHM instructor supervision, safe setting. Prohibited for participants on active chemotherapy."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Safety Monitoring and Stopping Rules",
+      "content": "Before enrolment: written informed consent, written medical clearance, oncologist clearance where applicable, baseline remote health screening by Dr. Durrani, baseline BP and HR where available, current cancer diagnosis/treatment status, medications, medical history, contraindications, recent oncology labs. During study: regular participant check-ins, scheduled review by medical-safety advisor, review of adverse events, protocol deviations, temporary practice holds, periodic safety review. Practice must be suspended for: fever >38°C/100.4°F, active infection, significant dehydration, active mucositis, compromised central-line site, material health deterioration, concerning reaction to breathing or cold exposure. Study-level stopping rule: protocol must be paused if two or more serious adverse events are considered potentially related to WHM practice."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Analysis Plan",
+      "content": "Primary feasibility analysis: recruitment rate (% contacted eligible individuals who enroll, time to target enrollment, reasons for non-enrollment); retention (% completing 16-week protocol and week-20 follow-up, timing/reasons for withdrawal); adherence (% prescribed breathing and cold-exposure sessions completed, weekly patterns, barriers); safety (adverse events by severity, serious adverse events, temporary holds, tolerability ratings); data completeness (% expected check-ins and practice logs received, availability of baseline and follow-up measures). Exploratory outcome analysis: changes from baseline to week 16 summarized using descriptive statistics, effect sizes, confidence intervals. Paired comparisons using appropriate methods; nonparametric methods (Wilcoxon signed-rank) where distributional assumptions not appropriate. No fixed p-value threshold for significance given exploratory nature and small sample size. Confounders documented and addressed through covariate adjustment, stratified descriptions, or sensitivity analyses."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Machine-Learning and AI Analysis",
+      "content": "Optional, exploratory, and hypothesis-generating. Potential analyses: clustering and pattern discovery, longitudinal pattern analysis, change-point detection, rolling-average analysis, exploration of adherence and outcome relationships, exploratory prediction of later outcomes from early adherence or wearable measures, exploratory causal-inference methods. Limitations: small sample size creates substantial risk of overfitting, instability, and wide uncertainty. Advanced ML analyses not guaranteed under $10,000 revised budget — will be completed only where existing data, time, and in-kind analytical resources permit."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Milestones — Completed or Underway",
+      "content": "Completed or underway milestones: Protocol version 1 posted; Participant platform launched; Recruitment completed above original cancer-cohort target; 22 cancer-cohort participants enrolled; 49 participants consented across the platform; Baseline information collected; Guided sessions underway; Weekly check-ins being received; Recorded participant-support content available; Verifiable data records being generated."
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "Milestones — Remaining",
+      "content": "Remaining milestones: Completion of the 16-week intervention for the final participant; Completion of the week-20 follow-up; Final adverse-event and safety review; Data lock; Protocol-deviation review; Data-quality review; Primary feasibility analysis; Exploratory-outcome analysis where data permit; Preparation of the final report or manuscript; Community results readout; Release of consent-permitted anonymized data and code where feasible; Post-study community call."
+    },
+    {
+      "page": 12,
+      "type": "table",
+      "title": "Revised Budget Outline",
+      "content": "Line item | Named | Amount\nMedical Safety Advisor | Dr. Owais Durrani | $2,000\nCertified Wim Hof Method Instructor | Jane Jones | $2,300\nPrincipal Investigator | Sara Matijevic, PhD | $5,700\nTotal revised request | — | $10,000\n\nInstructor contracted services breakdown:\n2 live guided introductory sessions @ £50/session = £100\n16 live guided breathing sessions @ £50/session = £800\n16 live YouTube hosting sessions @ £50/session = £800\nTotal planned contractor fee: £1,700 (~$2,300)\n\nOriginal budget was $100,000 (assumed new platform development, study-funded laboratory kits, wearable purchases, AI/ML development, blockchain infrastructure, research-portal development, project management, reporting, dissemination, ethics consultation, contingency). Revised request focuses exclusively on personnel effort to complete, oversee, analyze, and report the active pilot."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "Limitations",
+      "content": "Key limitations: (1) Primary cancer cohort is uncontrolled, limiting causal inference. (2) Healthy-volunteer cohort is not a scientific control group. (3) Small sample size. (4) Biomarker findings will be exploratory and underpowered for definitive conclusions. (5) Laboratory data may be incomplete (study does not fund standardized testing). (6) Self-selected participant population. (7) Heterogeneous cancer types, disease stages, and treatment statuses. (8) Different wearable devices may calculate measures differently; wearable ownership not required. (9) Adherence and several outcomes rely on participant self-report. (10) Cannot distinguish WHM-specific effects from expectation, attention, instructor contact, group support, lifestyle changes, or other nonspecific factors. (11) Cannot establish that WHM causes changes in biomarkers or patient-reported outcomes. (12) Cannot establish that WHM treats cancer."
+    },
+    {
+      "page": 14,
+      "type": "text",
+      "title": "Scope of Conclusions and Future Directions",
+      "content": "What this study will tell us: recruitment, retention, adherence, safety/tolerability, data completeness, practicality of remote participant support, preliminary patient-reported outcome patterns, exploratory effect-size estimates, information for future sample-size calculations, practical lessons for designing a future controlled study. What this study cannot tell us: cannot prove WHM causes biomarker changes, cannot prove clinical efficacy, cannot demonstrate WHM treats or cures cancer, cannot support changes to cancer treatment, cannot generalize findings to all people living with cancer, cannot support clinical recommendations based on this pilot alone. Future directions (if feasibility demonstrated): larger RCT (60–120 participants) comparing full WHM vs. breathwork without cold exposure vs. standard care; narrower cancer population; standardized wearables and laboratory testing; longer follow-up (6–12 months); brown-adipose-tissue imaging; immune-cell phenotyping; formal prospective statistical analysis; independent safety monitoring; appropriate ethics and regulatory oversight."
+    },
+    {
+      "page": 15,
+      "type": "table",
+      "title": "Funding Status (as of 16 July 2026)",
+      "content": "Field | Value\nRaised | $2,429 of $10,000 goal (24%)\nStatus | Open\nContributors | 2\nEnd date | 14 September 2026\nFunders | Jeffrey Koury ($2,231); Tyler Diorio ($198)\nTopics | #breathing-exercises, #observational-study\nDOI | 10.55277/researchhub.tfoaxkij\nPlatform | ResearchHub — Fund Proposal"
+    }
+  ],
+  "key_findings": [
+    "This is a TRL 2–3 level feasibility pilot: the study is actively running (launched 18 May 2026) but is not designed to establish efficacy or causal claims about the Wim Hof Method and cancer outcomes.",
+    "22 people living with cancer enrolled in the intervention cohort (exceeding original target of 15–20); 49 participants consented across the platform as of July 2026.",
+    "Study is at Week 9 of a 16-week intervention as of the July 2026 revision; 16 guided-session recordings available.",
+    "Primary outcomes are feasibility metrics only: recruitment, retention (target ≥75%), adherence (target ≥70% for breathing and cold exposure), safety, data completeness, and acceptability.",
+    "Secondary exploratory outcomes include patient-reported outcomes (FACIT-Fatigue, PROMIS Sleep Disturbance, PHQ-4) and inflammation-related laboratory values (hs-CRP, IL-6, HOMA-IR) from participants' usual medical care — the study does not fund or provide laboratory testing.",
+    "Scientific rationale draws on animal model data (Seki et al. 2022, Nature: cold-induced brown adipose tissue activation showed tumour-suppressive effects in mice at 4°C) and prior WHM human studies (Kox et al. 2014 PNAS: voluntary immune modulation; Muzik et al. 2018 NeuroImage: brain connectivity changes; Buijze et al. 2016 PLoS ONE: reduced sick days with cold showers).",
+    "No randomization, no control group, no standardized laboratory testing funded, no wearable devices provided — all major limitations acknowledged explicitly.",
+    "Funding is severely underpowered: only $2,429 raised of $10,000 goal (24%) as of 16 July 2026; original $100,000 budget was not reached.",
+    "No formal IRB/ethics approval is confirmed; physician-gated clearance is used as a safety mechanism but does not replace formal ethics review.",
+    "The study explicitly states it cannot establish that WHM treats, controls, or cures cancer, and cannot support clinical recommendations based on this pilot alone."
+  ],
+  "document_date": "2026-07-16",
+  "milestones": [
+    {
+      "title": "Study Start / Pilot Launch",
+      "description": "The WHM Cancer-Related Inflammation Feasibility Pilot officially launched and began enrolling participants.",
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The study began on 18 May 2026.",
+      "page": 2
+    },
+    {
+      "title": "Participant Platform Live",
+      "description": "The participant portal/platform was launched and made live for study use.",
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The pilot launched on 18 May 2026. Since then, the participant platform is live, enrolment exceeded the original cancer-cohort target, guided instruction is underway, and verified weekly submissions are being received.",
+      "page": 2
+    },
+    {
+      "title": "Recruitment Target Exceeded",
+      "description": "22 people living with cancer enrolled in the intervention cohort, exceeding the original target of 15–20; 49 participants consented across the platform.",
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Recruitment completed above the original cancer-cohort target. Twenty-two cancer-cohort participants enrolled. Forty-nine participants consented across the platform.",
+      "page": 11
+    },
+    {
+      "title": "Week 9 Study Update Documented",
+      "description": "Week 9 of the 16-week intervention was documented in the study update, indicating active progress at time of revision.",
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Week 9 documented in the study update.",
+      "page": 2
+    },
+    {
+      "title": "Special Guided Breathwork Session with Wim Hof",
+      "description": "A special live guided-breathwork session was held with Wim Hof, Jane Jones, participants, and study-team members.",
+      "date": "2026-07-16",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "A special live guided-breathwork session was held with Wim Hof.",
+      "page": 2
+    },
+    {
+      "title": "Protocol Version 1 Posted",
+      "description": "The original study protocol (version 1) was posted publicly.",
+      "date": "2026-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Protocol version 1 posted.",
+      "page": 11
+    },
+    {
+      "title": "Revised Proposal Submitted (July 2026)",
+      "description": "Full revised research proposal submitted reflecting active study status, implementation progress, revised completion budget, and operational changes.",
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "This July 2026 revision updates the original protocol to reflect the study's active status, implementation progress, revised completion budget, and operational changes.",
+      "page": 2
+    },
+    {
+      "title": "Funding Campaign End Date",
+      "description": "ResearchHub funding campaign for the $10,000 revised budget closes. As of 16 July 2026, $2,429 (24%) has been raised from 2 contributors.",
+      "date": "2026-09-14",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "End date 14 September 2026",
+      "page": 15
+    },
+    {
+      "title": "Completion of 16-Week Intervention",
+      "description": "Final participant completes the 16-week WHM intervention protocol.",
+      "date": "2026-09",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Completion of the 16-week intervention for the final participant.",
+      "page": 12
+    },
+    {
+      "title": "Week-20 Follow-Up Assessment",
+      "description": "Completion of the week-20 follow-up survey for all participants, four weeks after the end of the 16-week intervention.",
+      "date": "2026-10",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Completion of the week-20 follow-up.",
+      "page": 12
+    },
+    {
+      "title": "Data Lock and Safety Review",
+      "description": "Final adverse-event and safety review, data lock, protocol-deviation review, and data-quality review following completion of the intervention.",
+      "date": "2026-10",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Final adverse-event and safety review. Data lock. Protocol-deviation review. Data-quality review.",
+      "page": 12
+    },
+    {
+      "title": "Primary Feasibility Analysis",
+      "description": "Conduct primary feasibility analysis and exploratory outcome analysis where data permit.",
+      "date": "2026-10",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Primary feasibility analysis. Exploratory-outcome analysis where data permit.",
+      "page": 12
+    },
+    {
+      "title": "Final Report / Manuscript Preparation",
+      "description": "Preparation of the final report or manuscript, community results readout, release of consent-permitted anonymized data and code, and post-study community call.",
+      "date": "2026-11",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Preparation of the final report or manuscript. Community results readout. Release of consent-permitted anonymized data and code where feasible. Post-study community call.",
+      "page": 12
+    }
+  ]
+}
