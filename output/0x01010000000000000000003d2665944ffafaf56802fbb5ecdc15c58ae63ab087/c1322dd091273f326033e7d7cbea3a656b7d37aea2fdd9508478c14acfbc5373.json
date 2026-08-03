@@ -1,0 +1,296 @@
+{
+  "file_path": "/crc-exosome-biomarker-r01-plan",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "This is a 17-page NIH R01-style research plan (5 years, modular budget) proposing to develop and prospectively validate an extracellular vesicle (EV) proteomic panel measured by mass spectrometry as a triage test applied after a positive faecal immunochemical test (FIT) and before colonoscopy for colorectal cancer (CRC) screening. The project is at an early research/concept stage (TRL 1–2), with no experimental data yet generated; all quantitative claims are derived from literature meta-analysis of 131 FIT-triage and 56 EV-proteomics records. The plan is structured around three stage-gated aims: assay development (Years 1–2), biomarker discovery and panel lock (Years 2–3), and prospective blinded validation in N=2,000 consecutive FIT-positive adults (Years 3–5).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Specific Aims — Overview and Clinical Problem",
+      "content": "Organised CRC screening with FIT refers every test-positive participant to colonoscopy. Across 22 retrieved cohorts: median probability of CRC after positive FIT = 5.1% (IQR 3.15–8.0%); median probability of any advanced neoplasm = 21.1% (IQR 16.9–33.0%). Roughly 4 in 5 colonoscopies triggered by positive FIT find nothing requiring colonoscopy. Median serious-complication rate = 3.13 per 1,000 procedures (13 retrieved reports). Proposal: develop and prospectively validate an EV proteomic panel by mass spectrometry as a triage test after positive FIT and before colonoscopy."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Aim 1 — Assay Development and Pre-analytical Lock (Years 1–2)",
+      "content": "Compare size-exclusion chromatography (SEC), ultracentrifugation (UC), and tetraspanin (CD9/CD63/CD81) immunoaffinity capture head-to-head on FIT-positive plasmas. Characterise every isolate to MISEV2023 standards (NTA, TEM, immunoblot for tetraspanins + calnexin negative marker). Qualify DIA mass-spectrometry workflow. Gate 1: ≥1,500 proteins at median CV ≤30% from ≤1 mL plasma, stable across pre-analytical stress panel. Rationale: retrieved literature median depth = 826 proteins from 0.8 mL plasma; only 4 of 56 EV studies used DIA."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Aim 2 — Discovery and Panel Lock (Years 2–3)",
+      "content": "Unbiased DIA-MS discovery on retrospective FIT-positive biobank: n=50 advanced neoplasia, n=50 neoplasia-free colonoscopy (frequency-matched on age, sex, site). Two sites, randomised block injection order, site as model covariate. Panel reduction: nested cross-validated elastic net to ≤12 proteins + 2 EV normalisers. Transfer to targeted PRM with heavy stable-isotope-labelled internal standards. Gate 2: locked panel, locked coefficients, locked single threshold, held-out AUC ≥0.80. Controls are FIT-positive patients with negative colonoscopy — not healthy donors."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Aim 3 — Prospective Blinded Validation (Years 3–5)",
+      "content": "Enrol N=2,000 consecutive FIT-positive adults across 4 endoscopy units in 2 integrated health systems. Blood drawn before bowel preparation. Locked PRM panel run blinded to endoscopic outcome. Reference standard: colonoscopy with central histopathology adjudication. At retrieved prevalence priors: 422 advanced neoplasms and 102 cancers expected. Gate 3 (co-primary): CRC sensitivity ≥98% AND advanced-neoplasia NPV ≥95% at single pre-specified threshold. Exclusions: prior CRC, IBD, colonoscopy within 5 years, inability to complete colonoscopy within 6 months."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Co-primary Endpoint Rationale and Decision Analysis Preview",
+      "content": "Both criteria (≤1 missed cancer per 1,000 FIT-positive patients AND advanced-neoplasia NPV ≥95%) are satisfied at only 10 of 203 operating points evaluated, and only where CRC sensitivity ≥98.2% meets specificity ≥86% simultaneously. Either criterion alone is far easier than the pair. The trial is designed to fail honestly rather than produce a publishable AUC regardless of clinical value."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2.1 — The Unnecessary-Colonoscopy Burden",
+      "content": "From fit_triage_evidence.csv (131 extracted records): median FIT sensitivity for CRC = 80% (IQR 69.0–89.6%); median specificity = 91%; median programme positivity = 7.65% (IQR 5.0–13.02%). Largest single retrieved cohort: organised biennial programme, 2.81 million invitations, 2010–2023 (PMID 41617486), reports CRC PPV = 5.10%, advanced neoplasia PPV = 20.40%. Of every 1,000 colonoscopies on FIT-positive participants, ~790 find no advanced neoplasm, carrying ~3.1 serious complications."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2.2 — Triage vs. Screening Positioning",
+      "content": "In a screening population, advanced neoplasia prevalence ~1%; after positive FIT, prevalence = 21.1% (20-fold higher). This enrichment: (1) makes high NPV attainable at achievable specificity; (2) shrinks required validation cohort from tens of thousands to 2,000; (3) defines a clean comparator (colonoscopy in same patients). This is the key strategic positioning of the proposal."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Section 2.3 — Competitive Landscape: Pivotal Blood/Stool CRC Trials",
+      "content": "From crc_blood_test_landscape.csv (116 trials; 88 blood-based). Key pivotal programmes:\n- NCT04369053 (Freenome): n=48,995, multiomics blood, average-risk screening\n- NCT04136002 (Guardant Health): n=44,467, ctDNA, average-risk screening\n- NCT04144738 BLUE-C (Exact Sciences): n=26,758, multi-target stool DNA, average-risk screening\n- NCT04739722 (Geneoscopy): n=14,263, stool RNA, average-risk screening\n- NCT06059963 (Universal Diagnostics): n=12,000, blood, average-risk screening\n- NCT00855348 PRESEPT (Epigenomics): n=7,929, methylated SEPT9, average-risk screening\nRegistry holds 13 EV-related CRC trials; largest is NCT06342401 (n=400, City of Hope) for early-onset detection. No retrieved trial evaluates EV proteomic panel for FIT triage at any scale."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 3 — Innovation Points",
+      "content": "Five innovation claims: (1) Controls in discovery and validation are FIT-positive patients with neoplasia-free colonoscopy — not healthy donors — avoiding pre-analytical and demographic confounding. (2) Safety constraint is a co-primary endpoint computed in advance from decision analysis. (3) Precision (CV), not sample size, is the gated parameter; Gate 1 is a CV gate. (4) Capture handles and readout analytes separated on structural grounds: only EPCAM, EGFR, MET, CD44 have integral TM segment with defined ectodomain — prerequisite for immunocapture ligand. (5) Contamination-prone candidates (SERPINA3, FGA — high-abundance hepatic plasma proteins) excluded a priori as Tier 3."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "Figure 1 — Three-Aim Workflow with Stage Gates",
+      "content": "Diagram showing the three-aim workflow with three stage gates and pre-specified failure branch. Aim 1 (Y1-Y2): Multi-site plasma collection SOP → EV isolation head-to-head (SEC vs UC vs immunocapture) → MISEV2023 characterisation (NTA, TEM, CD9/CD63/CD81, calnexin-negative) → DIA-MS depth & precision (≥1,500 proteins, median CV ≤30%) → Pre-analytical stress panel (delay, F/T, haemolysis). Gate 1 at end Y2. Aim 2 (Y2-Y3): Retrospective FIT-positive biobank (n=50 advanced neoplasia, n=50 no neoplasia) → DIA-MS discovery (n=25/group/site, 2 sites, randomised block injection order) → Differential abundance (limma on log2, BH-FDR 5%, site as covariate) → Panel reduction (nested-CV elastic net, locked to ≤12 proteins + 2 EV normalisers) → PRM/MRM transfer with heavy peptides (LLOQ, linearity, inter-lab CV ≤20%). Gate 2 mid Y3. Aim 3 (Y3-Y5): Prospective enrolment at 4 FIT-programme sites, N=2,000 consecutive FIT-positive adults → Blood drawn BEFORE bowel preparation → Reference standard: colonoscopy + histology, central pathology adjudication → Pre-specified analysis: sens/spec/NPV at locked threshold, STARD reporting → Decision model: colonoscopies avoided, cancers missed, cost per case detected. Gate 3 at end Y5: CRC sensitivity ≥98% AND AN NPV ≥95%. Pre-specified failure branch: if Gate 2 not met, Aim 3 converts to confirmatory single-marker design on highest-ranked capture-tractable target (EPCAM or EGFR ectodomain)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 4.1 — Aim 1 Detailed Design",
+      "content": "EV evidence table (ev_proteomics_crc_evidence.csv, 56 studies, 51 in CRC): median total N=100, median depth 826 proteins, median input 0.8 mL, DIA used in 4 studies. Only 15 of 51 CRC studies report any independent validation. Several report AUCs at or approaching 1.00 in cohorts of a few dozen — pattern characteristic of overfitting. Design: 30 FIT-positive plasmas split three ways (SEC, UC, CD9/CD63/CD81 immunoaffinity). Single locked SOP: K₂EDTA, two-step centrifugation, ≤2h draw-to-freeze. DIA on high-field orbitrap with project-specific spectral library; pooled reference every 10 samples. Pre-analytical stress panel: draw-to-freeze delay (2/4/8/24h), 1–3 freeze-thaw cycles, graded haemolysis and lipaemia. Any protein moving more under pre-analytical variation than disease is disqualified before Gate 2."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Section 4.2 — Candidate Protein Watchlist (14 proteins)",
+      "content": "14 proteins replicated across ≥2 independent EV-CRC studies, annotated from UniProt (human, reviewed):\n\nTier 1:\n- OLFM4: 3 studies, secreted/soluble, high intestinal/goblet specificity, quantified analyte only\n- CEA: 3 studies, peripheral/membrane-associated (no ectodomain), high colonic epithelium, quantified analyte only\n- EPCAM: 3 studies, integral TM + defined ectodomain, pan-epithelial, capture ligand candidate + quantified analyte\n- EGFR: 3 studies, integral TM + defined ectodomain, broad epithelial, capture ligand candidate + quantified analyte\n\nTier 2:\n- MET: 2 studies, integral TM + defined ectodomain, broad epithelial, capture ligand candidate + quantified analyte\n- S100A9: 2 studies, peripheral/membrane-associated (no ectodomain), myeloid (neutrophil), quantified analyte only\n- CD44: 2 studies, integral TM + defined ectodomain, broad, capture ligand candidate + quantified analyte\n- MYH9: 2 studies, peripheral/membrane-associated (no ectodomain), ubiquitous, quantified analyte only\n- LGALS3BP: 3 studies, secreted/soluble, broad, quantified analyte only\n\nTier 3 (excluded from locked panel a priori):\n- SERPINA3: 2 studies, secreted/soluble, hepatic (plasma), quantified analyte only\n- ANXA11: 2 studies, cytosolic/lumenal, ubiquitous, quantified analyte only\n- ANXA5: 2 studies, cytosolic/lumenal, ubiquitous, quantified analyte only\n- FGA: 2 studies, secreted/soluble, hepatic (plasma), quantified analyte only\n- GSTP1: 2 studies, cytosolic/lumenal, broad, quantified analyte only"
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 4.3 — Aim 3 Detailed Design",
+      "content": "Population: consecutive adults with positive FIT in organised screening at 4 endoscopy units across 2 integrated health systems, enrolled over 21 months, N=2,000. Blood drawn at pre-colonoscopy visit before bowel preparation. Exclusions: prior CRC, IBD, colonoscopy within 5 years, inability to complete colonoscopy within 6 months. Reference standard: full colonoscopy with histopathology of all resected lesions, adjudicated centrally and blinded to panel results. Advanced neoplasia defined as: CRC, or adenoma ≥10mm, or high-grade dysplasia, or ≥25% villous component, or sessile serrated lesion ≥10mm. Measurement: locked PRM panel, monthly batches, randomised case-control-balanced injection order, blinded to endoscopic outcome, pooled reference QC every 10 samples, batch as pre-specified covariate. Analysis: primary sensitivity/specificity/NPV/PPV at locked threshold with exact Clopper-Pearson CIs; secondary AUC, stratified performance, incremental value over quantitative FIT haemoglobin. Reporting: STARD with complete flow diagram."
+    },
+    {
+      "page": 6,
+      "type": "figure",
+      "title": "Figure 2 — Statistical Design and Power Simulations",
+      "content": "Three panels: (a) Simulated discovery power: fraction of truly differential proteins recovered at BH-FDR 5% across 1,000-protein panel, by group size and analytical CV. At n=25/group: 2.0× fold change at CV 30% = 100% recovery; 1.5× at CV 30% = 99%; 1.5× at CV 40% = 84%; 1.3× at CV 20% = 97%; 1.3× at CV 30% = 58%. (b) Validation precision as function of total cohort size at retrieved prevalence priors — sensitivity claim (not AUC) sets cohort size. (c) Achieved power for pre-specified sensitivity floors at locked cohort size (N=2,000): AN sensitivity >85% floor at 90% true = 91% power; AN sensitivity >85% at 92.5% true = 99.9%; CRC sensitivity >85% at 95% true = 97%; CRC sensitivity >90% at 98% true = 95%; CRC sensitivity >90% at 95% true = 42% (honest limit)."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Section 5.1 — Discovery Power: CV is the Binding Constraint",
+      "content": "Simulated two-sample comparisons on log₂ intensities across 1,000-protein panel with 5% truly differential, BH control at 5%, at n=25 per group:\n- 2.0× fold change, CV 30%: 100% recovery\n- 1.5× fold change, CV 30%: 99% recovery; CV 40%: 84%\n- 1.3× fold change, CV 20%: 97%; CV 30%: 58%\nDropping CV from 30% to 20% raises 1.3-fold recovery from 58% to 97% — larger gain than any affordable increase in N. Effects below 1.3-fold declared out of scope. This is why Gate 1 is a precision gate."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Section 5.2 — Validation Power Table",
+      "content": "At N=2,000 with prevalence priors (21.1% advanced neoplasia, 5.1% CRC): 422 advanced neoplasms, 102 cancers, 1,578 neoplasia-free. Sensitivity power (binomial, Clopper-Pearson one-sided lower bound, α=0.05):\n- AN sensitivity, 422 cases, true 90%, floor >85%: 91% power\n- AN sensitivity, 422 cases, true 92.5%, floor >85%: 99.9% power\n- CRC sensitivity, 102 cases, true 95%, floor >85%: 97% power\n- CRC sensitivity, 102 cases, true 98%, floor >90%: 95% power\n- CRC sensitivity, 102 cases, true 95%, floor >90%: 42% power (honest limit)\nPrecision at N=2,000: AUC half-width ±0.024 (AN) and ±0.047 (CRC); sensitivity half-width ±2.9 pp (AN) and ±5.8 pp (CRC)."
+    },
+    {
+      "page": 8,
+      "type": "figure",
+      "title": "Figure 3 — Decision Analysis: Operating Surface and Admissible Region",
+      "content": "Three panels: (a) Operating surface showing colonoscopies avoided (fill) with contours for cancers missed and hatched admissible region. Admissibility starts at 98% CRC sensitivity paired with 86% specificity — needs both at once. (b) Advanced adenomas (not cancers) cap the achievable rule-out NPV; 95% NPV target line shown. (c) Absolute counts at nominated operating point (98% CRC sensitivity, 78% advanced-adenoma sensitivity, 60% specificity) per 1,000 FIT-positive patients: colonoscopies performed=490, colonoscopies avoided=510 (51%), advanced neoplasms missed=36, cancers missed=1.0, NPV for advanced neoplasia=92.9%, serious complications averted=1.6. Error bars span IQR of retrieved prevalence (CRC 3.2–8.0%, AN 16.9–33.0%). Colonoscopy complication rate 3.13 per 1,000."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Section 6 — Decision Analysis Results Table",
+      "content": "Modelled panel applied to 1,000 FIT-positive patients at nominated operating point (98% CRC sensitivity, 78% advanced-adenoma sensitivity, 60% specificity):\n- Colonoscopies performed: 490 (range 471–541)\n- Colonoscopies avoided: 510 (51%) (range 529–459)\n- Cancers missed: 1.0 (range 0.6–1.6)\n- Advanced neoplasms missed: 36 (range 31–57)\n- NPV for advanced neoplasia: 92.9% (range 94–88%)\n- Serious complications averted: 1.6 (range 1.7–1.4)\nKey finding: imposing both criteria (≤1 cancer missed per 1,000 AND AN NPV ≥95%) leaves only 10 of 203 grid points admissible, requiring CRC sensitivity ≥98.2% AND specificity ≥86% simultaneously. Advanced adenomas dominate the false-negative pool (4× more prevalent than cancers among FIT-positive patients)."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Section 7 — Rigour and Reproducibility Measures",
+      "content": "Blinding: lab staff blinded to endoscopic outcome; endoscopists/pathologists blinded to panel results; statisticians blinded until database lock. Pre-registration: Aim 3 protocol, panel composition, coefficients, threshold and analysis plan registered publicly and deposited with DSMB before first prospective sample drawn. No panel/threshold modification permitted after Gate 2. Randomisation: injection order randomised in balanced blocks within monthly batches; batch and site are pre-specified covariates; pooled reference QC every 10 injections with pre-specified drift rules. Biological variables: sex reported separately; age, site, quantitative FIT concentration are pre-specified covariates. Data/code: raw and processed MS data deposited in ProteomeXchange/PRIDE; analysis code version-controlled and released. Reporting: STARD; EV work reports to MISEV2023 and registered in EV-TRACK."
+    },
+    {
+      "page": 9,
+      "type": "table",
+      "title": "Section 8 — Pre-specified Failure Branches",
+      "content": "Pre-specified contingency table:\n- Gate 1 fails on depth: Switch to immunocapture-only isolates; accept shallower vesicle-specific proteome; re-baseline panel size; report depth limit as finding.\n- Gate 1 fails on CV: Do not proceed to discovery. Reallocate Year 3 to precision engineering; reduce discovery to Tier 1 watchlist measured by PRM.\n- Gate 2 fails (no panel reaches AUC 0.80): Aim 3 converts to confirmatory single-marker design on highest-ranked capture-tractable target (EPCAM or EGFR ectodomain), powered for advanced-neoplasia sensitivity alone; panel co-primary dropped and reported as negative result.\n- Gate 3 misses rule-out bar but reaches rule-in point: Report negative rule-out result; pursue pre-specified secondary claim of prioritisation of colonoscopy scheduling for high-score patients (no missed-cancer risk).\n- Accrual reaches only ~1,500: Report co-primary at achieved N with exact CIs; do not re-power or extend enrolment selectively.\n- Competitor approved for triage specifically: Reposition as reflex test on competitor-positive patients; locked assay and prospective cohort retain value as comparator dataset."
+    },
+    {
+      "page": 10,
+      "type": "figure",
+      "title": "Figure 4 — Five-Year Timeline with Stage Gates",
+      "content": "Sixteen-task Gantt chart over 60 months with three gates at months 24, 42, and 60. Tasks span: Aim 1 (assay development, Y1-Y2), Aim 2 (discovery, Y2-Y3), Aim 3 (validation, Y3-Y5), and cross-cutting activities. Key milestones: Month 9: Locked multi-site pre-analytical SOP; all sites activated. Month 15: EV isolation method selected; MISEV2023 dossier complete. Month 24: Gate 1 — assay qualified (≥1,500 proteins, median CV ≤30%). Month 35: Discovery complete; differential abundance locked. Month 36: First prospective participant enrolled. Month 42: Gate 2 — panel, coefficients and threshold locked; pre-registration filed. Month 57: Enrolment complete (N=2,000). Month 60: Database lock; unblinding; co-primary analysis; Gate 3 — co-primary read-out; decision model; Q-Sub package."
+    },
+    {
+      "page": 10,
+      "type": "table",
+      "title": "Section 10 — Budget Summary by Year",
+      "content": "Modular budget (all years below $500,000 direct-cost threshold):\n- Year 1: $388,000 direct costs, 15 modules\n- Year 2: $471,000 direct costs, 18 modules\n- Year 3: $498,000 direct costs, 19 modules\n- Year 4: $495,000 direct costs, 19 modules\n- Year 5: $452,000 direct costs, 18 modules\n- Total direct costs: $2,304,000\n- Total project costs (F&A at 58.5%): $3,651,840\nPrincipal cost-containment: Aim 3 rides on colonoscopies that would happen anyway; award pays for blood collection, processing, cold-chain shipping, MS measurement, and blinded pathology adjudication — not procedures."
+    },
+    {
+      "page": 11,
+      "type": "table",
+      "title": "Section 10 — Detailed Line-Item Budget",
+      "content": "Personnel and other direct costs by year (Y1–Y5):\nPersonnel:\n- PI (1.8 cal mo/yr): $46K/$47K/$48K/$50K/$51K\n- Co-I Gastroenterology/FIT lead (0.6 cal mo): $13K/$13K/$14K/$14K/$15K\n- Co-I Biostatistics (1.2 cal mo): $20K/$21K/$22K/$23K/$24K\n- MS scientist (9 cal mo): $54K/$55K/$50K/$44K/$44K\n- Research technician EV isolation (12 cal mo): $66K/$68K/$60K/$44K/$34K\n- Clinical research coordinator (0.5 FTE Y1-Y2 → 1.0 FTE Y3-Y5): $0/$26K/$52K/$54K/$55K\n- Data manager/programmer (3 cal mo): $20K/$21K/$19K/$22K/$23K\n- Fringe benefits (28%): $62K/$70K/$74K/$70K/$68K\nOther direct:\n- EV isolation consumables (SEC columns, capture reagents): $52K/$38K/$14K/$12K/$8K\n- LC-MS consumables, columns, calibrants, service contract: $38K/$40K/$36K/$34K/$34K\n- Heavy stable-isotope peptide standards (PRM panel): $0/$26K/$18K/$14K/$8K\n- Biospecimen collection kits, processing, cold-chain shipping: $10K/$16K/$24K/$24K/$14K\n- Subawards: 2 external FIT-programme enrolment sites: $0/$16K/$42K/$42K/$22K\n- Central pathology adjudication (blinded second read): $0/$5K/$18K/$18K/$10K\n- CLIA validation and FDA Q-Sub regulatory support: $0/$0/$0/$20K/$30K\n- Publication, travel, DSMB honoraria: $7K/$9K/$7K/$10K/$12K"
+    },
+    {
+      "page": 12,
+      "type": "table",
+      "title": "Section 11-12 — Performance Sites and Budget Allocation",
+      "content": "Five performance sites:\n- Site 1 (Coordinating centre + EV/MS core): Academic medical centre (applicant institution), Y1-Y5, $1,574,805 (68.4%)\n- Site 2 (Clinical accrual site A, lead GI partner): Integrated health system with organised FIT outreach, Y2-Y5, $357,795 (15.5%)\n- Site 3 (Clinical accrual site B): Second integrated health system or safety-net/FQHC-affiliated system, Y3-Y5, $179,686 (7.8%)\n- Site 4 (Central pathology/adjudication): Academic GI pathology service, Y2-Y5, $51,000 (2.2%)\n- Site 5 (Statistical and data coordinating function): Biostatistics unit at applicant institution, Y1-Y5, $140,714 (6.1%)\nTotal: $2,304,000. Site 3 specified as deliberately different payer mix and demographic profile (safety-net, FQHC, or VA facility) — not redundancy but generalisability requirement."
+    },
+    {
+      "page": 12,
+      "type": "table",
+      "title": "Section 12 — Required Partnerships (8 total)",
+      "content": "Eight partnerships required; three are hard preconditions:\n- P1 (Essential — Aim 3): Organised FIT screening programme (integrated health system). Provides consecutive FIT-positive patients with scheduled colonoscopy. Instrument: letter of support + subaward + data use agreement + single-IRB reliance.\n- P2 (Essential — Aims 1&2): Proteomics/MS core with DIA capability. Provides orbitrap-class DIA, ~1,000+ protein depth from 1 mL plasma-derived EVs, PRM assay transfer, 5-year instrument stability. Instrument: internal core service agreement with guaranteed instrument time.\n- P3 (Essential — reference standard): GI endoscopy and pathology service. Provides index colonoscopy reports, withdrawal times, ADR; blinded central pathology re-read. Instrument: co-investigator appointment + per-case pathology adjudication contract.\n- P4 (High — de-risks Aim 2 timeline): Biorepository with FIT-positive plasma and linked colonoscopy outcomes. Instrument: material transfer agreement + honest-broker linkage.\n- P5 (Medium — Y4-Y5 translation): CLIA laboratory/assay-development partner. Provides transfer of locked PRM panel into CLIA-validated LDT. Instrument: fee-for-service or co-development agreement.\n- P6 (Medium — required for prospective aim): Data safety monitoring board/independent oversight. Instrument: DSMB charter; honoraria budgeted.\n- P7 (Medium — rigour): EV methodology/MISEV reporting advisor. Instrument: advisory role, honorarium.\n- P8 (Optional — strengthens Aim 3 interpretation): Health-economics/screening-modelling collaborator. Instrument: unfunded collaboration or supplement.\nBinding constraint: P1. FIT positivity median 7.65% (IQR 5.00–13.02%); system performing 30,000 FITs/year generates ~2,300 positives/year; two systems accruing over 3 years supports 2,000-participant Aim 3 target."
+    },
+    {
+      "page": 13,
+      "type": "table",
+      "title": "Section 13 — External Advisory Contacts",
+      "content": "Eight key advisors identified from corpus authorship:\n- Ajay Goel (City of Hope): EV/exosome liquid biopsy in CRC — Aim 1-2 scientific advice; closest active analogue (NCT06342401)\n- Kenneth W Witwer (Johns Hopkins): EV methodology and MISEV reporting standards — P7 advisor for EV SOP review before Gate 1\n- Rienk Nieuwland (Amsterdam UMC): Plasma EV pre-analytics and clinical chemistry — pre-analytical SOP advice (draw-to-spin, platelet contamination, bowel-prep effects)\n- Manon C W Spaander (Erasmus MC): FIT-based screening programmes and colonoscopy triage — P1/P3 Aim 3 design, accrual realism, reference-standard adjudication\n- Hermann Brenner (DKFZ): CRC screening epidemiology and biomarker evaluation — study design critique; expected performance shrinkage from case-control to prospective\n- Douglas A Corley (Kaiser Permanente): Integrated-system CRC screening delivery and outcomes — P1 FIT-programme partnership\n- Antoni Castells (Hospital Clínic de Barcelona): Organised CRC screening programme outcomes — prevalence assumptions and long-term adherence effects\n- Joaquín Cubiella (Complexo Hospitalario Universitario de Ourense): Risk stratification of FIT-positive patients — comparator question: does assay beat existing clinical risk score?"
+    },
+    {
+      "page": 14,
+      "type": "table",
+      "title": "Section 14 — Risk Register (10 risks)",
+      "content": "Ten risks with likelihood/impact and mitigations:\n- R1 (Analytical, High/High): High-abundance plasma protein co-isolation swamps EV proteome. Mitigation: 3-way isolation comparison, MISEV2023 evidence required, FGA/SERPINA3 pre-assigned Tier 3, Gate 1 CV gate. Contingency: switch to immunocapture-only.\n- R2 (Biological, High/High): Published EV CRC markers do not replicate independently. Mitigation: unbiased DIA-MS discovery; shortlist is watchlist only; 2-site discovery with site as covariate. Contingency: fallback to Tier 1 capture-tractable targets.\n- R3 (Analytical, High/Medium): Discovery underpowered for modest effects (58% recovery of 1.3-fold at CV 30%). Mitigation: CV ceiling at Gate 1; matched FIT-positive controls remove pre-analytical confounding. Contingency: effects <1.3-fold declared out of scope; if CV=40%, increase N to 40/group.\n- R4 (Clinical, Medium/High): FIT-positive accrual falls short of N=2,000. Mitigation: rides on existing organised FIT programme; 4 endoscopy units across 2 systems; monthly monitoring with Year 4 decision point. Contingency: report co-primary at achieved N.\n- R5 (Pre-analytical, High/High): Pre-analytical drift across 4 endoscopy units creates site-specific EV proteome signatures. Mitigation: single locked SOP (K₂EDTA, ≤2h draw-to-freeze); dedicated stress panel; haemolysis index and platelet-marker QC on every sample. Contingency: site as covariate; close site if QC failure >10%.\n- R6 (Analytical, Medium/High): LC-MS instrument drift over multi-year run. Mitigation: targeted PRM/MRM with heavy SIL internal standards; monthly batches with randomised injection order; pooled reference QC every 10 samples; batch as pre-specified covariate. Contingency: re-injection rules; sensitivity analysis excluding failed batches.\n- R7 (Statistical, Medium/High): Threshold or panel re-optimised on validation cohort. Mitigation: panel/coefficients/threshold locked at Gate 2 and deposited with DSMB and public pre-registration before Aim 3 opens; analysts blinded until database lock. Contingency: any post hoc threshold reported as exploratory.\n- R8 (Translational, Medium/High): Well-performing panel cannot meet safety bar for rule-out triage. Mitigation: safety constraint pre-specified as co-primary; decision model is named deliverable. Contingency: if misses rule-out but reaches rule-in, pursue colonoscopy scheduling prioritisation claim.\n- R9 (Competitive, High/Low): cfDNA or stool-based competitor approved for same indication before Year 5. Mitigation: targets FIT triage (not addressed by pivotal programmes); EV proteome is orthogonal to cfDNA methylation. Contingency: reposition as reflex test.\n- R10 (Regulatory, Medium/Low): CLIA and FDA path longer than award period. Mitigation: regulatory support budgeted from Year 4; Q-Sub meeting scheduled on strength of locked assay and enrolled cohort. Contingency: Year 5 deliverable seeds confirmatory study."
+    },
+    {
+      "page": 16,
+      "type": "text",
+      "title": "Section 15 — Honest Appraisal",
+      "content": "Three candid admissions: (1) The biology is the bet, and the evidence for it is thin. Corpus: 56 EV studies, 51 in CRC, median N=100, only 15 with independent validation. Only 14 proteins recur across ≥2 independent studies; a third are ubiquitous cytoskeletal, annexin, or high-abundance plasma proteins whose presence in EV preparations is as consistent with co-isolation as with tumour-derived cargo. Plan does not assume any published marker replicates. (2) The rule-out bar is harder than the field's published AUCs suggest. Several retrieved studies report AUCs >0.96 in cohorts of a few dozen. Decision analysis shows even 98% cancer sensitivity does not clear 95% advanced-neoplasia NPV unless specificity also reaches ~86%, because advanced adenomas dominate the false-negative pool. (3) The absence of competitors is ambiguous evidence — either an opening or a verdict. Stage-gated structure is the answer: Gate 1 costs 2 years and ~$859,000 to establish whether the assay can be made precise enough to be worth testing."
+    },
+    {
+      "page": 16,
+      "type": "table",
+      "title": "Deliverables — Supporting Data Files",
+      "content": "Eight supporting data files:\n- fit_triage_evidence.csv: 131 extracted records on FIT programme performance, predictive values, positivity and colonoscopy complications\n- ev_proteomics_crc_evidence.csv: 56 EV biomarker studies (51 CRC), methods detail mined from 31 full texts\n- crc_blood_test_landscape.csv: 116 registered CRC screening/triage trials classified by modality\n- candidate_targets_annotated.csv: 14 replicated candidates with UniProt topology, tissue specificity, tier and panel role\n- design_calculations.csv: Discovery power simulations, AUC and exact sensitivity sizing, achieved power at locked N\n- decision_analysis.csv: Operating-point grid with admissibility flags and prevalence sensitivity analysis\n- budget_summary.csv: Line-item modular budget by year\n- risk_register.csv: Ten risks with evidence, mitigation and contingency\nAdditional files: performance_sites.csv, required_partnerships.csv, advisory_contacts.csv"
+    }
+  ],
+  "key_findings": [
+    "No experimental data have been generated by this team yet; the proposal is a forward-looking research plan grounded in literature meta-analysis.",
+    "Across 22 retrieved cohorts, median probability of CRC after a positive FIT is 5.1% (IQR 3.15–8.0%); median probability of any advanced neoplasm is 21.1% (IQR 16.9–33.0%).",
+    "Median serious-complication rate of colonoscopy is 3.13 per 1,000 procedures (13 retrieved reports).",
+    "Across 56 retrieved EV proteomics studies (51 in CRC): median total N=100, median proteome depth 826 proteins from median 0.8 mL plasma; only 4 of 56 studies used DIA; only 15 of 51 CRC studies report any independent validation.",
+    "Only 14 proteins replicated across ≥2 independent EV-CRC studies; a third are ubiquitous cytoskeletal, annexin, or high-abundance plasma proteins potentially representing co-isolation artifacts.",
+    "No registered trial evaluates an EV proteomic panel for FIT triage at any scale (registry of 116 CRC trials reviewed).",
+    "Gate 1 target: ≥1,500 proteins quantified at median CV ≤30% from ≤1 mL plasma with MISEV2023 compliance.",
+    "Gate 2 target: locked panel (≤12 proteins + 2 EV normalisers) with held-out AUC ≥0.80 and inter-laboratory CV ≤20%.",
+    "Gate 3 (co-primary): CRC sensitivity ≥98% AND advanced-neoplasia NPV ≥95% at a single pre-specified threshold.",
+    "Decision analysis shows that meeting both co-primary criteria requires CRC sensitivity ≥98.2% coinciding with specificity ≥86%; only 10 of 203 operating points evaluated are admissible.",
+    "At the nominated operating point (98% CRC sensitivity, 78% advanced-adenoma sensitivity, 60% specificity), per 1,000 FIT-positive patients: 510 colonoscopies avoided (51%), 1.0 cancer missed, 36 advanced neoplasms missed, NPV for advanced neoplasia 92.9%.",
+    "Advanced adenomas (not cancers) cap the achievable NPV because they are ~4× more prevalent than cancers among FIT-positive patients.",
+    "Discovery power simulations: at n=25/group and CV 30%, 99% recovery of 1.5-fold changes; only 58% recovery of 1.3-fold changes — CV is the binding constraint, not N.",
+    "Validation cohort of N=2,000 yields 422 advanced neoplasms and 102 cancers at retrieved prevalence priors; achieves 95% power for CRC sensitivity floor >90% if true sensitivity is 98%.",
+    "Candidate protein watchlist of 14 proteins identified; Tier 1 (OLFM4, CEA, EPCAM, EGFR) and Tier 2 (MET, S100A9, CD44, MYH9, LGALS3BP); Tier 3 (SERPINA3, ANXA11, ANXA5, FGA, GSTP1) excluded a priori from locked panel.",
+    "EPCAM, EGFR, MET, CD44 are the only candidates with integral transmembrane segment and defined ectodomain — candidate immunocapture ligands.",
+    "Total 5-year direct costs: $2,304,000 (total with F&A at 58.5%: $3,651,840); all years below $500,000 direct-cost threshold.",
+    "Eight required partnerships identified; three are hard preconditions (organised FIT programme, DIA-capable MS core, GI endoscopy/pathology service)."
+  ],
+  "document_date": "2026-07-31",
+  "milestones": [
+    {
+      "title": "Locked Multi-site Pre-analytical SOP; All Sites Activated",
+      "description": "Finalise and lock the K₂EDTA two-step centrifugation pre-analytical SOP across all participating sites; activate all sites for sample collection.",
+      "date": "Month 9",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Locked multi-site pre-analytical SOP; all sites activated — Month 9",
+      "page": 10
+    },
+    {
+      "title": "EV Isolation Method Selected; MISEV2023 Dossier Complete",
+      "description": "Complete head-to-head comparison of SEC, ultracentrifugation, and immunoaffinity capture; select optimal EV isolation method; complete MISEV2023 characterisation dossier.",
+      "date": "Month 15",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "EV isolation method selected; MISEV2023 dossier complete — Month 15",
+      "page": 10
+    },
+    {
+      "title": "Gate 1 — Assay Qualified",
+      "description": "DIA-MS assay achieves ≥1,500 proteins quantified at median CV ≤30% from ≤1 mL plasma, with documented MISEV2023 compliance and a passing pre-analytical stress panel.",
+      "date": "Month 24",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Gate 1 — assay qualified (≥1,500 proteins, median CV ≤30%) — Month 24",
+      "page": 10
+    },
+    {
+      "title": "First Prospective Participant Enrolled",
+      "description": "First consecutive FIT-positive adult enrolled in the prospective blinded validation cohort (Aim 3) at one of the four endoscopy units.",
+      "date": "Month 36",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "First prospective participant enrolled — Month 36",
+      "page": 10
+    },
+    {
+      "title": "Discovery Complete; Differential Abundance Locked",
+      "description": "DIA-MS discovery on retrospective FIT-positive biobank (n=100) complete; differential abundance analysis finalised with site as covariate and BH-FDR 5% control.",
+      "date": "Month 35",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Discovery complete; differential abundance locked — Month 35",
+      "page": 10
+    },
+    {
+      "title": "Gate 2 — Panel, Coefficients and Threshold Locked; Pre-registration Filed",
+      "description": "Locked protein panel (≤12 proteins + 2 EV normalisers), classifier coefficients, and single decision threshold deposited with DSMB and publicly pre-registered. Held-out AUC ≥0.80 and inter-laboratory CV ≤20% achieved.",
+      "date": "Month 42",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Gate 2 — panel, coefficients and threshold locked; pre-registration filed — Month 42",
+      "page": 10
+    },
+    {
+      "title": "Enrolment Complete (N=2,000)",
+      "description": "Prospective blinded validation cohort reaches target enrolment of 2,000 consecutive FIT-positive adults across four endoscopy units.",
+      "date": "Month 57",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Enrolment complete (N = 2,000) — Month 57",
+      "page": 10
+    },
+    {
+      "title": "Gate 3 — Co-primary Read-out; Decision Model; Q-Sub Package",
+      "description": "Database lock, unblinding, and co-primary analysis. Gate 3 co-primary criteria assessed: CRC sensitivity ≥98% AND advanced-neoplasia NPV ≥95% at single pre-specified threshold. Decision model and FDA Q-Sub pre-submission package completed.",
+      "date": "Month 60",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "Gate 3 — co-primary read-out; decision model; Q-Sub package — Month 60",
+      "page": 10
+    },
+    {
+      "title": "CLIA Validation and FDA Q-Sub Regulatory Support Initiated",
+      "description": "Begin CLIA validation of locked PRM panel as laboratory-developed test (LDT) and initiate FDA Q-Sub pre-submission meeting process.",
+      "date": "Year 4",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "CLIA validation and FDA Q-Sub regulatory support — Y4: $20,000, Y5: $30,000",
+      "page": 11
+    }
+  ]
+}
