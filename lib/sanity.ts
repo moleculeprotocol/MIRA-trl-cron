@@ -1,5 +1,9 @@
 import { createClient } from "@sanity/client"
-import { SANITY_DATASETS, SANITY_PROJECT_ID } from "./config.js"
+import {
+  MOLECULE_PROJECT_BASE_URL,
+  SANITY_DATASETS,
+  SANITY_PROJECT_ID,
+} from "./config.js"
 import type { ScoringResult, TodoItem, TrlAnalysis } from "./llm.js"
 
 type Environment = "staging" | "production"
@@ -18,6 +22,7 @@ const ONCHAIN_LAB_TYPE = "onChainLab"
 interface NotifyDiscordParams {
   oclId: string
   name: string
+  shortname: string | null
   trlAnalysis: TrlAnalysis
 }
 
@@ -32,6 +37,7 @@ const client = createClient({
 async function notifyDiscord({
   oclId,
   name,
+  shortname,
   trlAnalysis,
 }: NotifyDiscordParams) {
   if (environment !== "production") {
@@ -50,6 +56,16 @@ async function notifyDiscord({
   }
 
   const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/onChainLabs;onChainLab;${oclId}`
+
+  const projectUrl = shortname
+    ? `${MOLECULE_PROJECT_BASE_URL}/${shortname}`
+    : null
+
+  if (!projectUrl) {
+    console.log(
+      `No shortname for ${oclId}, omitting Project URL from notification`,
+    )
+  }
 
   try {
     const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
@@ -74,6 +90,15 @@ async function notifyDiscord({
                 value: String(trlAnalysis.confidence),
                 inline: true,
               },
+              ...(projectUrl
+                ? [
+                    {
+                      name: "Project URL",
+                      value: projectUrl,
+                      inline: false,
+                    },
+                  ]
+                : []),
               {
                 name: "Rationale",
                 value: trlAnalysis.rationale,
@@ -168,6 +193,7 @@ function transformTodosForSanity(todos: TodoItem[]) {
 export async function updateTrlAndScoringAsDraft(
   oclId: string,
   name: string,
+  shortname: string | null,
   trlAnalysis: TrlAnalysis,
   hash: string,
   scoringResult: ScoringResult | null,
@@ -238,6 +264,7 @@ export async function updateTrlAndScoringAsDraft(
     await notifyDiscord({
       oclId,
       name,
+      shortname,
       trlAnalysis,
     })
   } else {

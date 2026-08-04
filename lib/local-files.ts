@@ -76,6 +76,9 @@ export async function getLocalInputFiles(
       tags: [],
       categories: ["local-input"],
       downloadUrl: "",
+      // Stands in for the data-room upload date: the closest local equivalent
+      // of "when this file appeared" is its last-modified time.
+      createdAt: stats.mtime.toISOString(),
       localPath: fullPath,
     })
   }

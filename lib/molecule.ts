@@ -68,6 +68,16 @@ export interface DataRoomFile {
   categories: string[]
   downloadUrl: string
   /**
+   * When the file was uploaded to the data room, as an ISO 8601 timestamp
+   * (`AWSDateTime`, non-null in the API; occasionally nanosecond precision).
+   * For locally-provided files this is synthesized from the file's mtime.
+   *
+   * Used as a fallback timeline anchor for documents that carry no date of
+   * their own, and as evidence of data-room activity. The document content was
+   * authored on or before this date.
+   */
+  createdAt: string
+  /**
    * Absolute path to a locally-provided file (from `input/files/<oclId>/`).
    * When set, the file is read from disk instead of fetched via `downloadUrl`.
    */
@@ -90,6 +100,15 @@ interface GetProjectResponse {
   data: {
     labWithDataRoomAndFiles: ProjectWithDataRoom | null
   }
+}
+
+export interface ProjectDataRoom {
+  /**
+   * URL slug of the project's public page on molecule.xyz. Null when the API
+   * has no shortname for the lab.
+   */
+  shortname: string | null
+  files: DataRoomFile[]
 }
 
 async function hashString(input: string): Promise<string> {
@@ -190,15 +209,16 @@ query GetProject($oclId: String!) {
         tags
         categories
         downloadUrl
+        createdAt
       }
     }
   }
 }
 `
 
-export async function getProjectDataRoomFiles(
+export async function getProjectDataRoom(
   oclId: string,
-): Promise<DataRoomFile[]> {
+): Promise<ProjectDataRoom> {
   const apiKey = process.env.MOLECULE_API_KEY
 
   if (!apiKey) {
@@ -229,10 +249,13 @@ export async function getProjectDataRoomFiles(
 
   if (!project) {
     console.log(`No lab found for oclId: ${oclId}`)
-    return []
+    return { shortname: null, files: [] }
   }
 
-  return project.dataRoom?.files ?? []
+  return {
+    shortname: project.shortname,
+    files: project.dataRoom?.files ?? [],
+  }
 }
 
 export function getPublicExtractableFiles(
@@ -245,7 +268,7 @@ export async function getDataRoomHash(
   oclId: string,
   extraFiles: DataRoomFile[] = [],
 ): Promise<string> {
-  const files = await getProjectDataRoomFiles(oclId)
+  const { files } = await getProjectDataRoom(oclId)
   const publicFiles = [...filterPublicFiles(files), ...extraFiles]
 
   const fileHashes = await Promise.all(

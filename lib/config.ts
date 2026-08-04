@@ -21,6 +21,9 @@ export const EXTRACTION_VERSION = 2
 export const MOLECULE_GRAPHQL_ENDPOINT =
   "https://production.graphql.api.molecule.xyz/graphql"
 
+/** Public project page base URL; a project's `shortname` is appended to it. */
+export const MOLECULE_PROJECT_BASE_URL = "https://molecule.xyz/projects"
+
 // =============================================================================
 // Sanity CMS
 // =============================================================================
@@ -42,4 +45,6 @@ export const SANITY_DATASETS = {
  */
 export const TEST_PROJECTS: string[] = [
   "0x01010000000000000000001f96a3babca74d62c672e2e7180a061e296bb5581b",
+  "0x01010000000000000000001ae6a2a6cbf30b07d1031d5ddbb9fa9bf55660dca5",
+  "0x01010000000000000000002aaf51ae3bc6da75399876442f1b97b53abd4aa656",
 ]

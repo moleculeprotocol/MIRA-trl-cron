@@ -1574,7 +1574,7 @@ const scheduleSignalSchema = z.object({
     .string()
     .nullish()
     .describe(
-      "The milestone target/actual date (or document date) this signal is anchored to, as stated",
+      "The date this signal is anchored to, as stated: a milestone target/actual date, a document date, or an upload date",
     ),
   source_document: z
     .string()
@@ -1617,15 +1617,26 @@ const SCHEDULE_STATUS_PROMPT = `You are a biotech/pharma diligence analyst. Your
 The output is used for a traffic-light indicator shown to current and prospective investors, plus an internal note for the project team.
 
 ## Core Principle: Evidence, Not Vibes
-Every conclusion MUST be grounded in an actual date (a milestone target/actual date or a document date). Never infer that something is late without a date to justify it. When you cannot ground a claim in the data, do not make it — default toward YELLOW instead of guessing RED.
+Every conclusion MUST be grounded in an actual date (a milestone target/actual date, a document date, or a file's upload date). Never infer that something is late without a date to justify it. When you cannot ground a claim in the data, do not make it — default toward YELLOW instead of guessing RED.
 
-## Use Document Dates to Resolve the Current Truth
-Documents are provided with a "document date" (when each was authored/published/updated). Milestones can appear in multiple documents and may be corrected or superseded over time.
-- Treat the milestone information from the document with the LATEST document date as the CURRENT state of the plan — but remember that a CHANGE to the plan is itself information, not something to silently absorb (see "Progress Must Track the Roadmap" below).
+## Two Kinds of Dates — and What Each One Proves
+Each document carries up to two dates. They answer different questions and must not be conflated:
+- **Date stated in document** — read off the document itself (cover page, footer, "as of" date, version date). This dates the CONTENT: the state of the project the document describes. It is the stronger evidence of how current the information is.
+- **Uploaded to data room** — platform metadata recording when the file was added. Always known. The content was authored ON OR BEFORE this date, so it is an upper bound on the content's age, never a guarantee of freshness.
+
+The **timeline anchor** given for each document is the date used to order the documents below: the stated document date when one exists, otherwise the upload date. Apply these rules:
+- When a document states its own date, that date governs how current its CONTENT is — even if the file was uploaded much later.
+- When a document states no date, use the upload date as its anchor but treat it as WEAKER evidence. It establishes that the information is no NEWER than that date; it does not establish that the information IS that new. Reflect this in your confidence rather than assuming an undated file is fresh.
+- A recent upload of clearly OLD content (stated date long before the upload) is NOT progress. It shows the data room is being maintained, but re-posting old material does not advance the roadmap — say so instead of crediting it as momentum.
+- Use upload dates as evidence of data-room ACTIVITY (momentum, staleness). Use stated document dates to judge whether milestone information is CURRENT.
+
+## Use the Timeline to Resolve the Current Truth
+Milestones can appear in multiple documents and may be corrected or superseded over time.
+- Treat the milestone information from the document with the LATEST timeline anchor as the CURRENT state of the plan — but remember that a CHANGE to the plan is itself information, not something to silently absorb (see "Progress Must Track the Roadmap" below). Where that latest anchor is only an upload date, hold the conclusion more loosely.
 - A later document that shows a previously-"planned" milestone as GENUINELY COMPLETED (on or near its committed date) is real, positive progress.
 - A later document that quietly moves a target date later, drops a committed milestone, or replaces it with unrelated work is a DEVIATION from the original roadmap — treat it as a negative signal, NOT as neutral truth-updating that makes the project look on-track.
 - Do NOT flag a milestone as "missed" if a more recent document shows it genuinely completed on plan. But completion is not the same as re-planning: an explicitly acknowledged, dated re-plan with a stated rationale is a SOFTER signal than a silent slip, yet both still count as departures from the original schedule and must be surfaced.
-- If document dates are missing or old, say so — it lowers confidence and pushes toward YELLOW.
+- If stated document dates are missing (so you are relying on upload dates) or the anchors are old, say so — it lowers confidence and pushes toward YELLOW.
 
 ## Progress Must Track the Roadmap
 The traffic light measures progress AGAINST THE PROJECT'S OWN ROADMAP — not activity in the abstract. Establish the roadmap baseline from the earliest coherent plan (its sequenced, committed milestones), then judge later activity against that baseline.
@@ -1644,7 +1655,9 @@ A planned/in-progress milestone counts as OVERDUE only if its target date has cl
 An overdue milestone does not count against the project if a later document shows it genuinely completed. A later document that merely RE-PLANS it (pushes the date, drops it, or swaps it) does not clear the deviation — it downgrades a hard "overdue" signal to a softer "off-roadmap / re-planned" signal, which still counts against the project (more so if the re-plan is silent or unexplained).
 
 ## Staleness & Momentum
-- If the most recent dated activity anywhere in the data room (latest completed milestone OR latest document date) is more than ~12 months old, momentum is questionable — this pushes toward YELLOW, and toward RED if concrete near-term milestones were promised in that window and there is no evidence they happened.
+- Judge staleness from the most recent dated evidence anywhere in the data room: the latest completed milestone, the latest stated document date, OR the latest upload date.
+- If that most recent dated activity is more than ~12 months old, momentum is questionable — this pushes toward YELLOW, and toward RED if concrete near-term milestones were promised in that window and there is no evidence they happened.
+- A recent upload date shows the data room is alive, but on its own it does NOT establish progress. Recent uploads of undated or clearly-old content support at best YELLOW — never GREEN by themselves.
 - Biotech moves slowly. Do NOT penalize long ABSOLUTE timelines (e.g. multi-year preclinical or regulatory paths). Only penalize when the project's OWN stated targets have slipped, or when activity has clearly stalled relative to its own plan.
 
 ## Category-Specific Guidance
@@ -1654,7 +1667,7 @@ An overdue milestone does not count against the project if a later document show
 
 ## Traffic-Light Definitions (be strict and consistent)
 GREEN — On track. The plan is legible and recent, and the project is meeting it ON PLAN:
-- There is at least one reasonably recent dated document (typically within ~12 months), AND
+- There is at least one reasonably recent document (typically within ~12 months by timeline anchor) whose content actually reports progress — a recent upload of undated or clearly-old material does NOT satisfy this, AND
 - No material milestone is overdue per the buffers above (or any that were overdue are shown genuinely completed in a newer document), AND
 - Completed milestones and/or a coherent forward plan show momentum consistent with the stated roadmap, AND the milestones being delivered are the ones the roadmap actually called for (progress is ON the plan, not off it), AND
 - The roadmap has not silently changed — there is no unexplained dropping, reordering, or wholesale replacement of previously-committed milestones.
@@ -1669,8 +1682,8 @@ Only choose RED when the dates make lateness or deviation unambiguous.
 YELLOW — Insufficient confidence to call it green or red. The evidence is sparse, stale, low-precision, or contradictory:
 - Milestones lack dates or use only relative/unknown dates, OR
 - There is no forward-looking plan to measure against, OR
-- Documents are old / undated so you cannot confirm current status, OR
-- Signals conflict and cannot be reconciled even after applying document-date precedence.
+- Documents are old, or none of them state their own date so you are relying entirely on upload dates and cannot confirm current status, OR
+- Signals conflict and cannot be reconciled even after applying timeline-anchor precedence.
 YELLOW is the correct, honest answer whenever you cannot defend GREEN or RED with dated evidence.
 
 ## Writing the Outputs
@@ -1679,34 +1692,146 @@ YELLOW is the correct, honest answer whenever you cannot defend GREEN or RED wit
 - signals: list the specific dated observations (positive, neutral, and negative) you relied on, each tied to a milestone/date and source document where possible. Include the ones that most influenced the decision.`
 
 /**
+ * Maps data-room file paths to their upload timestamps. Keyed by `path` to
+ * match how `extractMultipleDocuments` keys its extraction results.
+ */
+function buildUploadDateMap(files: DataRoomFile[]): Map<string, string> {
+  const map = new Map<string, string>()
+  for (const file of files) {
+    if (file.createdAt) {
+      map.set(file.path, file.createdAt)
+    }
+  }
+  return map
+}
+
+/**
+ * Normalizes a date to a `YYYY-MM-DD`-shaped string so plain lexicographic
+ * comparison orders values of mixed precision correctly. Imprecise dates are
+ * pinned to the START of the period they denote (`2025` -> `2025-01-01`), and
+ * full ISO timestamps are truncated to their date part.
+ */
+function toComparableDate(value: string): string {
+  const quarter = /^(\d{4})-Q([1-4])$/.exec(value)
+  if (quarter) {
+    const month = (Number(quarter[2]) - 1) * 3 + 1
+    return `${quarter[1]}-${String(month).padStart(2, "0")}-01`
+  }
+  if (/^\d{4}$/.test(value)) return `${value}-01-01`
+  if (/^\d{4}-\d{2}$/.test(value)) return `${value}-01`
+  return value.slice(0, 10)
+}
+
+interface DocumentTimeline {
+  /** Date stated inside the document, if the extraction found one. */
+  documentDate: string | null
+  /** Date the file was uploaded to the data room (`YYYY-MM-DD`). */
+  uploadDate: string | null
+  /** Date used to place the document on the timeline. */
+  anchor: string | null
+  anchorSource: "document" | "upload" | "none"
+}
+
+/**
+ * Resolves the two possible dates for a document into a single timeline anchor.
+ *
+ * A date stated in the document itself always wins: it dates the CONTENT. The
+ * upload date is the fallback for documents that carry no date of their own —
+ * weaker evidence, since it only bounds the content's age from above.
+ */
+function resolveDocumentTimeline(
+  doc: ExtractedDocument,
+  uploadedAt: string | undefined,
+): DocumentTimeline {
+  const documentDate = doc.document_date ?? null
+  const uploadDate = uploadedAt ? toComparableDate(uploadedAt) : null
+
+  if (documentDate) {
+    return {
+      documentDate,
+      uploadDate,
+      anchor: documentDate,
+      anchorSource: "document",
+    }
+  }
+  if (uploadDate) {
+    return {
+      documentDate: null,
+      uploadDate,
+      anchor: uploadDate,
+      anchorSource: "upload",
+    }
+  }
+  return {
+    documentDate: null,
+    uploadDate: null,
+    anchor: null,
+    anchorSource: "none",
+  }
+}
+
+/**
  * Builds a compact, date-first view of the data room for schedule assessment.
- * Documents are ordered oldest-to-newest by document date so the model can
+ * Documents are ordered oldest-to-newest by timeline anchor so the model can
  * reason about which later documents supersede earlier milestone information.
+ *
+ * @param extractions - Extracted documents, keyed by data-room file path
+ * @param uploadDates - File path -> upload timestamp, used as the fallback
+ *   anchor for documents that state no date of their own
  */
 function formatMilestonesForScheduleAssessment(
   extractions: Map<string, ExtractedDocument>,
-): { text: string; milestoneCount: number } {
-  const docs = [...extractions.entries()].filter(
-    ([, doc]) => doc.relevance !== "none",
-  )
+  uploadDates: Map<string, string>,
+): { text: string; milestoneCount: number; latestUploadDate: string | null } {
+  const docs = [...extractions.entries()]
+    .filter(([, doc]) => doc.relevance !== "none")
+    .map(([filename, doc]) => ({
+      filename,
+      doc,
+      timeline: resolveDocumentTimeline(doc, uploadDates.get(filename)),
+    }))
 
-  // Sort by document date ascending; undated documents sink to the bottom.
-  docs.sort(([, a], [, b]) => {
-    const da = a.document_date ?? ""
-    const db = b.document_date ?? ""
+  // Sort by timeline anchor ascending; documents with no anchor at all sink to
+  // the bottom.
+  docs.sort((a, b) => {
+    const da = a.timeline.anchor ? toComparableDate(a.timeline.anchor) : ""
+    const db = b.timeline.anchor ? toComparableDate(b.timeline.anchor) : ""
     if (da && db) return da < db ? -1 : da > db ? 1 : 0
     if (da) return -1
     if (db) return 1
     return 0
   })
 
+  // Upload dates are already normalized to YYYY-MM-DD, so they compare as
+  // strings.
+  let latestUploadDate: string | null = null
+  for (const { timeline } of docs) {
+    const uploaded = timeline.uploadDate
+    if (
+      uploaded &&
+      (latestUploadDate === null || uploaded > latestUploadDate)
+    ) {
+      latestUploadDate = uploaded
+    }
+  }
+
   let milestoneCount = 0
   const sections: string[] = []
 
-  for (const [filename, doc] of docs) {
+  for (const { filename, doc, timeline } of docs) {
     const lines: string[] = []
     lines.push(`FILE: ${filename}`)
-    lines.push(`Document date: ${doc.document_date ?? "unknown"}`)
+    lines.push(
+      `Date stated in document: ${timeline.documentDate ?? "none found"}`,
+    )
+    lines.push(`Uploaded to data room: ${timeline.uploadDate ?? "unknown"}`)
+    lines.push(
+      timeline.anchorSource === "document"
+        ? `Timeline anchor: ${timeline.anchor} (stated document date)`
+        : timeline.anchorSource === "upload"
+          ? `Timeline anchor: ${timeline.anchor} (upload date — content authored on or before this; weaker evidence of freshness)`
+          : "Timeline anchor: none — this document cannot be placed in time",
+    )
     lines.push(`Type: ${doc.document_type}`)
 
     const milestones = doc.milestones ?? []
@@ -1727,7 +1852,7 @@ function formatMilestonesForScheduleAssessment(
     sections.push(lines.join("\n"))
   }
 
-  return { text: sections.join("\n\n"), milestoneCount }
+  return { text: sections.join("\n\n"), milestoneCount, latestUploadDate }
 }
 
 /**
@@ -1737,16 +1862,22 @@ function formatMilestonesForScheduleAssessment(
  * team-facing fix note.
  *
  * @param extractions - Extracted documents (with milestones + document dates)
+ * @param files - The data-room files the extractions came from. Their upload
+ *   timestamps anchor documents that carry no date of their own.
  * @param options.assessmentDate - The "today" reference (ISO YYYY-MM-DD).
  *   Defaults to the current date. Injected so lateness is judged relative to it.
  * @returns The schedule status, or null if there is no relevant content.
  */
 export async function assessScheduleStatus(
   extractions: Map<string, ExtractedDocument>,
+  files: DataRoomFile[],
   options: { assessmentDate?: string } = {},
 ): Promise<ScheduleStatus | null> {
-  const { text, milestoneCount } =
-    formatMilestonesForScheduleAssessment(extractions)
+  const { text, milestoneCount, latestUploadDate } =
+    formatMilestonesForScheduleAssessment(
+      extractions,
+      buildUploadDateMap(files),
+    )
 
   if (!text) {
     console.log("Schedule assessment skipped - no relevant documents")
@@ -1757,7 +1888,7 @@ export async function assessScheduleStatus(
     options.assessmentDate ?? new Date().toISOString().slice(0, 10)
 
   console.log(
-    `Assessing schedule status (${milestoneCount} milestone(s), as of ${assessmentDate})...`,
+    `Assessing schedule status (${milestoneCount} milestone(s), latest upload ${latestUploadDate ?? "unknown"}, as of ${assessmentDate})...`,
   )
 
   const prompt = `${SCHEDULE_STATUS_PROMPT}
@@ -1766,10 +1897,14 @@ export async function assessScheduleStatus(
 
 ${assessmentDate}
 
-## Data Room — Documents & Milestones (oldest to newest by document date)
+## Data Room — Documents & Milestones (oldest to newest by timeline anchor)
 
 Newer documents supersede older ones when they describe the same milestone.
-
+${
+  latestUploadDate
+    ? `\nMost recent upload to the data room among these documents: ${latestUploadDate}.\n`
+    : ""
+}
 <data_room>
 ${text}
 </data_room>`

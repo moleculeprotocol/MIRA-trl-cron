@@ -12,7 +12,7 @@ import { getLocalInputFiles } from "../lib/local-files.js"
 import {
   getAllProjects,
   getDataRoomHash,
-  getProjectDataRoomFiles,
+  getProjectDataRoom,
   getPublicExtractableFiles,
 } from "../lib/molecule.js"
 import {
@@ -80,7 +80,7 @@ async function processProject(project: Project): Promise<void> {
     return
   }
 
-  const files = await getProjectDataRoomFiles(oclId)
+  const { shortname, files } = await getProjectDataRoom(oclId)
   const extractableFiles = [
     ...getPublicExtractableFiles(files),
     ...localInputFiles,
@@ -177,8 +177,12 @@ async function processProject(project: Project): Promise<void> {
     }
   }
 
-  // Step 4: Assess schedule status (traffic light) from milestone/document dates
-  const scheduleStatus = await assessScheduleStatus(extractions)
+  // Step 4: Assess schedule status (traffic light) from milestone dates,
+  // document dates, and — for documents that state no date — upload dates.
+  const scheduleStatus = await assessScheduleStatus(
+    extractions,
+    extractableFiles,
+  )
 
   if (scheduleStatus) {
     console.log("\n========== SCHEDULE STATUS ==========")
@@ -202,6 +206,7 @@ async function processProject(project: Project): Promise<void> {
   await updateTrlAndScoringAsDraft(
     oclId,
     name,
+    shortname,
     trlAnalysis,
     currentHash,
     scoringResult,
