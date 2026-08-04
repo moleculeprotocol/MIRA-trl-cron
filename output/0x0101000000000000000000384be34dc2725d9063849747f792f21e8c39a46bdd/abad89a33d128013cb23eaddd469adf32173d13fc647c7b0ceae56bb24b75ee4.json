@@ -1,0 +1,181 @@
+{
+  "file_path": "/vitastem-ipt-proposal-ar.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "This is a research funding proposal by Dr. Ashish Rajput (VitaLabs / Infinity BioSciences GmbH) for in-situ hematopoietic stem cell (HSC) rejuvenation. The project builds on completed single-cell RNA-seq analysis of ~850,000 transcriptomes (ages 23–91) that identified aging-associated target genes. The proposal requests $100K USD to validate these targets in vitro using mRNA/siRNA electroporation and small-molecule interventions in human CD34+ HSCs, with a proposed start date of November 1, 2025.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract – Project Overview and Completed Bioinformatics Work",
+      "content": "PI: Dr. Ashish Rajput, PhD. Category: Aging. The project aims to rejuvenate the body's own HSCs in situ rather than replacing them via transplantation. COMPLETED WORK: Analysis of ~850,000 single-cell transcriptomes from healthy donors aged 23–91 (publicly available + proprietary datasets), generating a high-resolution atlas of hematopoietic aging. Key findings: younger HSCs show elevated DNA repair and mitochondrial gene expression; older HSCs exhibit ferroptosis drivers, inflammatory signaling (TNF, IL-17), and upregulation of CCR9 and long non-coding RNAs. Findings confirmed in both circulating and bone marrow-derived HSCs. A list of target genes for HSC rejuvenation intervention has been identified. Multi-pronged approach targeting transcriptional stress responses, epigenetic regulation, and protein homeostasis simultaneously."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Introduction – Scientific Background and Rationale",
+      "content": "HSCs generate all blood and immune cells; aging causes functional decline leading to impaired blood cell production, myeloid-biased differentiation, chronic inflammation, and increased risk of myelodysplastic syndromes and leukemia. Molecular drivers: DNA damage accumulation, telomere shortening, mitochondrial dysfunction, epigenetic drift (intrinsic); inflammatory cytokines, impaired stromal support, altered Wnt/Notch/TGF-β/mTOR signaling (extrinsic). Current therapeutic limitations: bone marrow transplantation (GVHD risk, not scalable); rapamycin/NAD+ boosters (systemic, non-specific); senolytics (indirect). scRNA-seq enables cell-type-specific profiling of rare HSC populations. Prior VitaLabs-funded project used AI/ML-assisted GRN modeling (including AubrAI terminal) to identify and prioritize lead candidate genes. Current proposal: validate candidates in vitro (young and aged human primary HSCs), then organoid and in vivo models via CRO/academic partnerships."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "AubrAI Hypothesis – AI-Assisted Multi-Modal Intervention Framework",
+      "content": "AI tool (AubrAI) generated a comprehensive hypothesis for multi-modal HSC rejuvenation. Key mechanistic targets identified: (1) Intrinsic HSC Mechanisms: RhoA hyperactivation → chromatin compaction → blocks Klf4/AP-1 motifs; RhoA inhibition restores chromatin accessibility. NR4A family dysregulation (pulsed activation proposed). AP-1 targets (JUNB, FOS, FOSB) as conserved aging signature stress mediators. (2) Metabolic: CD38 inhibition (proven to reverse HSC aging via NAD+ preservation); UHRF1 modulation prevents symmetric differentiation. (3) Epigenetic: Irf8/Blnk hypermethylation locks myeloid fate; dCas9-TET targeted demethylation proposed. ID1/ID2 activation counters TGF-β decline. XIST and HIST1H4C inhibition. (4) Differentiation: CCR9 activation restores trafficking; KCNK17 modulation for haematogenic endothelium gradient; TPSB2/TPSAB1 inhibition reduces inflammatory milieu. (5) Niche: endothelial cell infusion + senolytic clearance + CXCL12/SCF gradient restoration. NOTE: This is AI-generated hypothesis, not experimental data."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "AubrAI Temporal Coordination Strategy – Proposed Experimental Phases",
+      "content": "AI-proposed phased intervention protocol: Phase 1 (Days 0–2): Environmental pH modulation to 6.9 (primes aged HSCs via polyamine metabolism/epigenetic polarity). Phase 2 (Days 3–5): siRNA knockdowns – UHRF1 (prevent symmetric differentiation), MPO (block myeloid skewing), XIST (epigenetic reset). Phase 3 (Days 6–10): Restoration – pulsed NR4A1/2 mRNA delivery, sustained ID1/ID2 activation, CCR9/KCNK17 upregulation. Phase 4 (Days 11–14): Small molecule cocktail – RhoA inhibitors, CD38 inhibitors, rapamycin, CASIN (CDC42 modulation). Phase 5 (Weeks 3–4): Niche intervention – young endothelial cell infusion, senolytic treatment, growth factor restoration. Proposed readouts: erythrocyte-to-platelet chimerism ratios, LTC-IC frequency, single-cell transcriptomic trajectories, serial transplantation capacity. In vivo delivery: CD117-targeted lipid nanoparticles for in situ delivery without mobilization. NOTE: This is a proposed/planned framework, not completed experiments."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Hypothesis Section – Experimental Plan Summary",
+      "content": "Proposal aims to validate lead target genes identified through prior scRNA-seq analysis (VitaLabs-funded) and expanded via AubrAI discussions. Experimental plan: in vitro interventions on HSCs using mRNA electroporation (activation) and siRNA-mediated knockdown (inhibition), via CRO or academic partners. Parallel bioinformatics to identify additional candidate genes and small-molecule modulators. Goal: advance most promising candidates toward clinical testing after preclinical validation. Potential impact: multi-modal HSC rejuvenation framework for regenerative medicine."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Preliminary Data – Target Gene Table (Circulating HSPCs)",
+      "content": "Table of 4 prioritized targets from scRNA-seq analysis of circulating HSPCs (850,000 transcriptomes):\n\n1. TPSB2/TPSAB1 | Expression: ↑↑↑ Overexpressed | Strategy: INHIBITION | Mechanism: Block mast cell degranulation | Clinical Approach: Cromolyn sodium (FDA approved) | Stage: Repurpose existing drug | Benefit: Reduce inflammation\n\n2. CD38 | Expression: ↑↑ Overexpressed | Strategy: INHIBITION | Mechanism: Inhibit CD38 NADase activity | Clinical Approach: CD38 inhibitors (in development) | Stage: Preclinical/Phase I | Benefit: Preserve NAD+ levels\n\n3. CCR9 | Expression: ↓↓↓ Downregulated | Strategy: ACTIVATION | Mechanism: Enhance immune cell migration | Clinical Approach: CCR9 agonists | Stage: Research stage | Benefit: Restore immune function\n\n4. KCNK17 | Expression: ↓↓ Downregulated | Strategy: ACTIVATION | Mechanism: Restore K+ channel function | Clinical Approach: K+ channel modulators | Stage: Research stage | Benefit: Improve cellular homeostasis\n\nNote: This is bioinformatics-derived target list; no in vitro/in vivo validation data presented yet."
+    },
+    {
+      "page": 6,
+      "type": "figure",
+      "title": "Volcano Plot – Critical Aging Intervention Targets (Bone Marrow HSCs, Young vs Old)",
+      "content": "Volcano plot showing differentially expressed genes between young and old HSCs from bone marrow. X-axis: Log2 Fold Change (Young vs Old). Y-axis: -Log10 Adjusted P-value (range 0–300+). Color coding: red = Upregulated_Old, blue = Upregulated_Young, grey = Not_significant. Key highlighted therapeutic targets: Upregulated in Young (left side, negative fold change): ID1, NR4A1, NR4A2, JUNB, FOS, FOSB. Upregulated in Old (right side, positive fold change): DHFR, MPO, TYMS, UHRF1, HIST1H4C, XIST (extreme right, ~FC 15, -log10 p ~300). Several targets show very high statistical significance (-log10 adjusted p-value >200–300), indicating robust differential expression. This is computational/bioinformatics data from scRNA-seq analysis – no functional validation shown."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Methods – Cell Sourcing and Preparation",
+      "content": "PLANNED (not yet executed): Human Bone Marrow CD34+ Cells, Frozen (Catalog #70002.5, StemCell Technologies). Alternatively via CRO/partner labs: CD34+ HSPCs from (i) cord blood (young controls, processed within 24h) and (ii) mobilized peripheral blood from elderly donors (>65 years). Immunomagnetic positive selection (>90% CD34+ purity). Density-gradient centrifugation + RosetteSep pre-enrichment. Cryopreservation with controlled-rate freezing; thawing with Plasmatherm system + CD34 microbead MACS sorting. Expected CD34+ yield: 1–2% from cord blood mononuclear cells."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Methods – Culture Conditions, mRNA/siRNA Delivery, Small Molecules",
+      "content": "PLANNED METHODS: Culture: StemSpan SFEM II or HPC Expansion Medium DXF + cytokines (SCF 100 ng/mL, TPO 100 ng/mL, Flt3L 100 ng/mL, IL-6 20 ng/mL). Seeding: 5×10^4 cells/mL (expansion) or 1×10^5 cells/mL (differentiation). mRNA/siRNA Delivery: Electroporation only (Neon or Amaxa, 1600V, 10ms, 3 pulses). Modified mRNA (pseudouridine/5-methylcytidine, optimized UTRs) for overexpression; siRNA for knockdown. Expected: 60–80% transfection efficiency, 70–80% viability. Activation targets (NR4A1/2, JUNB, FOS): pulsed mRNA electroporation (48–72h). Inhibition targets (UHRF1, MPO, XIST): siRNA knockdown (50–100 pmol/10^6 cells), monitored by qPCR/flow at 24, 48, 72h. Small Molecules: CD38 inhibitor (78c, 10–50 μM), RhoA inhibitors (Fasudil/Y-27632, 10 μM), CDC42 inhibitor (CASIN, 2–5 μM), Rapamycin (10–100 nM, baseline control). Applied 4h post-electroporation. Both young and aged HSCs tested in parallel with vehicle controls."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Methods – Functional Readouts, Controls, Timeline and Endpoints",
+      "content": "PLANNED READOUTS: (1) CFU Assays: 1×10^3 CD34+ cells in MethoCult H4434; colonies scored day 14 (CFU-E, BFU-E, CFU-GM, CFU-GEMM); cluster-to-CFU-GM ratio >0.6 = impaired differentiation. (2) LTC-IC Assays: co-culture with irradiated MS-5/OP9 stromal cells for 5 weeks + secondary CFU. (3) Flow Cytometry: HSC subsets (CD34, CD38, CD90, CD45RA), lineage (CD19, CD33, CD235a), target markers (CD38, CCR9, KCNK17), intracellular (phospho-RhoA, Klf4, NR4A1/2). (4) Single-Cell Differentiation Tracking: single CD34+ cells in 96-well methylcellulose; erythrocyte-to-platelet chimerism ratios as rejuvenation biomarker. (5) Transcriptomic Validation: qPCR + ATAC-seq at days 3, 7, 14. Controls: non-targeting siRNA, vehicle-only, untreated age-matched HSCs; cross-culture experiments. n≥3 biological replicates from independent donors, technical triplicates. Mixed-effects statistical models. Timeline: Days 0–2 preconditioning; Day 3 electroporation; Day 4 small molecules; Day 7 first assessments; Day 14 colony scoring/transcriptomics; Weeks 3–5 LTC-IC. Primary endpoint: restoration of balanced lymphoid-to-myeloid differentiation in aged HSCs."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Budget Breakdown",
+      "content": "Total requested: $100K USD. Breakdown: In-vitro studies via CRO: ~$40K; Bioinformatics (small molecule drug discovery + additional scRNA-seq target ID): ~$40K; PI Stipend (10 months): $20K. Reagents (~$13,765–$17,000): Human BM CD34+ cells (Lonza: 3–5 × 1,317 EUR; StemCell Technologies TBD); ENFINIA IVT Ready DNA (~$1,500 for 7 genes); siRNAs (~$1,000 for 6 targets); Small molecules: CD38 inhibitor 78c ($140–$370/1–5mg), Fasudil ($50–$120/10mg), Y-27632 ($90–$120/10mg), CASIN ($112–$117/10mg), Rapamycin ($80–$140/1mg); Cell culture reagents: StemSpan SFEM II $140/100mL, HPC Expansion Medium DXF $310/500mL, SCF $150–$300/100μg, TPO $250–$400/100μg, Flt3L $200–$350/100μg, IL-6 $150–$300/100μg. 6-month milestone cost: ~$65–70K ($53K experiments + TBD CRO/partner lab personnel)."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Milestones, Project Outcomes, and Future Directions",
+      "content": "Proposed Start Date: 01-Nov-2025. Milestone schedule (relative to start): Months 1–3 (Q1): Secure approvals/contracts/reagents; optimize CD34+ isolation and electroporation; pilot CFU and flow assays; run first experimental cohorts (mRNA, siRNA, small molecules); analyze cohort 1 data; checkpoint: successful HSC culture/transfection optimization. Months 4–6 (Q2): Run second experimental cohorts. Months 7–9 (Q3): Validate across donors (reproducibility); add ATAC-seq; mechanistic assays (phospho-flow); single-cell differentiation tracking; integrate multi-omics data; confirm top 2–3 interventions. Months 10–12 (Q4): Final confirmatory experiments, statistical analyses, complete data package; deliver final report with candidate list and translational plan. Project Outcomes: (1) Validate in-situ rejuvenation targets from prior VitaLabs scRNA-seq project; (2) Publish results in scientific journal; (3) Advance IP toward patent filing and further preclinical testing. Future Directions: CRISPR-mediated gene inhibition/activation via gene therapy vectors or nanoparticles; organ-on-a-chip / human-on-a-chip pipeline."
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "Research Team and References",
+      "content": "PI: Dr. Ashish Rajput, PhD. Affiliations: VitaLabs and Infinity BioSciences GmbH. Google Scholar: https://scholar.google.com/citations?user=ADHtWIkAAAAJ&hl=en. Key references cited: (1) Nature Medicine 2025 – reference model of circulating HSCs across lifespan; (2) eLife – perturbations in human hematopoiesis with healthy aging at single-cell resolution; (3) Blood Cancer Discovery – single-cell transcriptional atlas of human hematopoiesis; (4) Stem Cell Research & Therapy – scRNA-seq for HSC heterogeneity; (5) Nano Letters – in vivo RNA delivery to HSPCs via targeted lipid nanoparticles; (6) Genome Research – scRNA-seq reveals cell cycle/differentiation changes upon HSC aging; (7) Cells (MDPI) – single cell transcriptomics for HSC heterogeneity and aging."
+    }
+  ],
+  "key_findings": [
+    "COMPLETED: Analysis of ~850,000 single-cell transcriptomes from healthy donors aged 23–91 (publicly available + proprietary datasets) generating a high-resolution hematopoietic aging atlas — this is the primary completed experimental work.",
+    "Younger HSCs show elevated DNA repair and mitochondrial gene expression; older HSCs exhibit ferroptosis drivers, inflammatory signaling (TNF, IL-17), CCR9 downregulation, and lncRNA upregulation — confirmed in both circulating and bone marrow HSCs.",
+    "Volcano plot (bone marrow HSCs) identifies key differentially expressed targets with very high statistical significance (-log10 adj. p >200–300): upregulated in old = DHFR, MPO, TYMS, UHRF1, HIST1H4C, XIST; upregulated in young = ID1, NR4A1, NR4A2, JUNB, FOS, FOSB.",
+    "Target gene table (circulating HSPCs) identifies 4 prioritized targets: TPSB2/TPSAB1 (overexpressed, inhibit), CD38 (overexpressed, inhibit), CCR9 (downregulated, activate), KCNK17 (downregulated, activate) — all at research/early preclinical stage.",
+    "NO in vitro or in vivo experimental validation data presented — the proposal is entirely at the bioinformatics/computational discovery stage (TRL 1–2); all wet-lab experiments are planned.",
+    "Proposed multi-modal intervention strategy: mRNA electroporation (activation), siRNA knockdown (inhibition), and small molecules (CD38 inhibitor 78c, RhoA inhibitors Fasudil/Y-27632, CDC42 inhibitor CASIN, rapamycin) — not yet executed.",
+    "AI tool (AubrAI) used to generate and expand the intervention hypothesis, including a 5-phase temporal coordination strategy — this is AI-generated hypothesis, not experimental evidence.",
+    "Proposed start date: November 1, 2025; 12-month project timeline with 4 quarterly milestones; total funding requested: $100K USD.",
+    "IP advancement toward patent filing is listed as a project outcome, but no patents have been filed or granted yet.",
+    "PI affiliated with VitaLabs and Infinity BioSciences GmbH; project is a continuation of a prior VitaLabs-funded in-silico project."
+  ],
+  "milestones": [
+    {
+      "title": "Prior VitaLabs-Funded scRNA-seq Analysis Completed",
+      "description": "Analysis of ~850,000 single-cell transcriptomes from healthy donors aged 23–91 using publicly available and proprietary datasets; identification of aging-specific molecular signatures and lead candidate target genes for HSC rejuvenation.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In a VitaLabs funded project, we have systematically analyzed publicly available and proprietary human scRNA-seq datasets spanning different ages and genders.",
+      "page": 2
+    },
+    {
+      "title": "Proposed Project Start Date",
+      "description": "Proposed start of the funded in vitro validation project for HSC rejuvenation targets.",
+      "date": "2025-11-01",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Proposed Start Date: 01-Nov-2025",
+      "page": 10
+    },
+    {
+      "title": "Q1 Milestone: Setup, Optimization, and First Experimental Cohort",
+      "description": "Secure approvals, contracts, and reagents; optimize CD34+ stem cell isolation and electroporation (or culture commercial stem cells); pilot CFU and flow assays; establish experiment pipeline; run first experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules; analyze preliminary transcriptomic and functional data from cohort 1.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Months 1–3 (Q1): Secure approvals, contracts, and reagents. Optimize CD34+ stem cell isolation and electroporation. Alternatively, culture commercial stem cells. pilot CFU and flow assays; establish experiment pipeline.",
+      "page": 10
+    },
+    {
+      "title": "Q2 Milestone: Second Experimental Cohort",
+      "description": "Run second experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Months 4–6 (Q2): Run second experimental cohorts using mRNA (activation), siRNA (inhibition), and small molecules.",
+      "page": 11
+    },
+    {
+      "title": "Q3 Milestone: Cross-Donor Validation, ATAC-seq, and Candidate Prioritization",
+      "description": "Validate across donors with reproducibility assays; add ATAC-seq for chromatin changes; perform mechanistic assays (phospho-flow) and single-cell differentiation tracking; integrate functional, qPCR, scRNA-seq, and ATAC-seq data; confirm top 2–3 interventions that restore youthful HSC signatures and improve CFU/LTC-IC metrics.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Months 7–9 (Q3): Validate across donors with reproducibility assays; add ATAC-seq for chromatin changes. Perform mechanistic assays (e.g., phospho-flow for key pathways) and single-cell differentiation tracking. Integrate functional, QPCR, scRNA-seq, and ATAC-seq data for candidate prioritization. Confirm top 2–3 interventions that restore youthful HSC signatures and improve CFU/LTC-IC metrics.",
+      "page": 11
+    },
+    {
+      "title": "Q4 Milestone: Final Confirmatory Experiments and Report Delivery",
+      "description": "Final confirmatory experiments, statistical analyses, and complete data package; deliver final report with candidate list, figures, and translational plan for next-stage preclinical studies.",
+      "date": "2026-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Month 10-12 (Q4): Final confirmatory experiments, statistical analyses, and complete data package. Deliver final report with candidate list, figures, and translational plan for next-stage preclinical studies.",
+      "page": 11
+    },
+    {
+      "title": "Patent Filing for HSC Rejuvenation IP",
+      "description": "Advance intellectual property toward patent filing following successful in vitro validation of HSC rejuvenation targets.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "IP would advance towards patent filing and further pre-clinical testing.",
+      "page": 11
+    },
+    {
+      "title": "Publication of Results",
+      "description": "Publish validated HSC rejuvenation target results in a scientific journal.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Results will be published in a scientific journal.",
+      "page": 11
+    }
+  ]
+}
