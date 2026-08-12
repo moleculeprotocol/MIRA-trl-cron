@@ -1,0 +1,146 @@
+{
+  "file_path": "/customized-aav-production-and-transduction-test-external-distribution.pdf",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a VectorBuilder experimental report dated August 14, 2025, documenting customized AAV production and transduction testing in the Calu-6 (lung cancer) cell line. The study evaluates six AAV9 variants (large-scale and ultra-purified medium-scale) across three vector constructs using Western Blot (anti-p53) and RNA extraction/QC as readouts. Key findings include differential p53 expression by vector/purification type and a consistent ~27–130x drop in target RNA levels in ultra-purified vs. large-scale AAV preparations.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page – Study Overview",
+      "content": "Title: 'Customized AAV production and transduction test with Calu-6 cell line (RNA extraction and Western Blot)'. Sales Order: S250613-1039jjn / P250610-1004gsu. Date: 2025/8/14. Conducted by VectorBuilder. Study involves AAV9 transduction of Calu-6 cells with downstream RNA extraction and Western Blot analysis."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Materials – Virus List and Titers",
+      "content": "Cell line: Calu-6 (from ATCC, passage 3). Transduction format: 24-well plates / 6-well plates. Cell numbers: 3E+4 cells (24-well) / 8E+4 cells (6-well). MOI: 5E+6.\n\nViruses tested (all under Sales Order S250613-1039jjn):\n1. AAV9L(VB240514-1548ggn) – Lot 250617AAVM01 – Titer: 2.06E+12 GC/ml\n2. AAV9MP(VB240514-1548ggn) – Lot 250618AAVY17 – Titer: 1.54E+13 GC/ml\n3. AAV9MP(VB250610-1157tpv) – Lot 250702AAVP15 – Titer: 5.39E+12 GC/ml\n4. AAV9MP(VB250610-1162rmu) – Lot 250703AAVN13 – Titer: 1.00E+13 GC/ml\n5. AAV9L(VB250610-1162rmu) – Lot 250702AAVU01 – Titer: 2.38E+12 GC/ml\n6. AAV9L(VB250610-1157tpv) – Lot 250712AAVW01 – Titer: 3.47E+12 GC/ml\n\nAAV9L = large-scale; AAV9MP = ultra-purified medium scale."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Protocol – Western Blot and RNA Extraction Parameters",
+      "content": "Western Blot Protocol:\n- Harvest time: 72h post-transduction\n- Cell lysis: 100 µl RIPA lysis buffer per 24-well plate\n- Sample treatment: Ultrasonic disruption + 95°C for 10 min\n- Protein loaded: 10 µg\n- SDS-PAGE: 80V for 30 min, then 125V for 1 hour\n- Transfer: 250 mA for 60 min\n- Primary antibody: Overnight at 4°C\n- Secondary antibody: 1 hour at room temperature\n\nRNA Extraction Protocol (6-well plate, MOI=5E+6):\n- Harvest time: 72h post-transduction\n- Reagent: TRIzol® (Invitrogen™ Cat# 15596026)\n- Method: Per Invitrogen™ 15596026 procedural guidelines"
+    },
+    {
+      "page": 5,
+      "type": "figure",
+      "title": "Bright Field Microscopy Images – Cell Morphology Post-Transduction",
+      "content": "Bright field images (10 ms exposure) of Calu-6 cells 72h post-transduction with six AAV variants: AAV9L(VB240514-1548ggn), AAV9MP(VB240514-1548ggn), AAV9L(VB250610-1157tpv), AAV9MP(VB250610-1157tpv), AAV9L(VB250610-1162rmu), AAV9MP(VB250610-1162rmu). Controls: Calu6 WT and G418 (2000 µg/ml) treated cells.\n\nKey observation: Cells transduced with non-purified (large-scale) virus showed more cell debris than those transduced with ultra-purified virus, suggesting greater cytotoxicity from the large-scale preparations."
+    },
+    {
+      "page": 6,
+      "type": "mixed",
+      "title": "Western Blot Results – VB240514-1548ggn and VB250610-1157tpv (Anti-p53 and Anti-GAPDH)",
+      "content": "Western blot performed on Calu-6 cells 72h post-transduction. Two antibodies used: Anti-p53 (50 kDa, 45s exposure) and Anti-GAPDH (35 kDa, 10s exposure as loading control).\n\nLane assignments:\n1: AAV9L(VB240514-1548ggn)\n2: AAV9L(VB240514-1548ggn) duplicate\n3: AAV9MP(VB240514-1548ggn)\n4: AAV9MP(VB240514-1548ggn) duplicate\n5: AAV9L(VB250610-1157tpv)\n6: AAV9L(VB250610-1157tpv) duplicate\n7: AAV9MP(VB250610-1157tpv)\n8: AAV9MP(VB250610-1157tpv) duplicate\n9: G418 2000 µg/mL\n10: Positive control\n11: Calu6 WT\n12: Calu6 WT\n\nObservations: Strong p53 bands visible in lanes 1, 2 (AAV9L VB240514-1548ggn) and lanes 5, 6 (AAV9L VB250610-1157tpv). Weaker or absent p53 bands in ultra-purified (AAV9MP) lanes 3, 4, 7, 8. GAPDH loading control shows consistent loading across lanes.\n\nRNA QC data (Ct Mean by Arraystar):\n- VB240514-1548ggn large-scale: Ct ~10.08 (166 ng/µl, 129 ng/µl)\n- VB240514-1548ggn ultra-purified: Ct ~17.11 (303 ng/µl, 325 ng/µl)\n- VB250610-1157tpv large-scale: Ct ~12.69 (162 ng/µl, 236 ng/µl)\n- VB250610-1157tpv ultra-purified: Ct ~17.44 (226 ng/µl, 340 ng/µl)"
+    },
+    {
+      "page": 7,
+      "type": "mixed",
+      "title": "Western Blot Results – VB250610-1162rmu (Anti-p53 and Anti-GAPDH)",
+      "content": "Second Western blot panel for VB250610-1162rmu vector. Same antibodies: Anti-p53 (50 kDa, 45s) and Anti-GAPDH (35 kDa, 10s).\n\nLane assignments:\n1: Calu6 WT\n2: Calu6 WT\n3: AAV9L(VB250610-1162rmu)\n4: AAV9L(VB250610-1162rmu) duplicate\n5: AAV9MP(VB250610-1162rmu)\n6: AAV9MP(VB250610-1162rmu) duplicate\n7: G418 2000 µg/mL\n8: Positive control\n\nObservations: Strong p53 band in lane 4 (AAV9L duplicate). Weaker bands in lanes 3, 5, 6. GAPDH loading control consistent.\n\nRNA QC data (Ct Mean by Arraystar):\n- VB250610-1162rmu large-scale: Ct 11.517 (214 ng/µl), Ct 10.611 (216 ng/µl)\n- VB250610-1162rmu ultra-purified: Ct 17.092 (257 ng/µl), Ct 17.567 (411 ng/µl)"
+    },
+    {
+      "page": 8,
+      "type": "figure",
+      "title": "Raw Ct Values Chart – Grouped by Vector and Purification Type",
+      "content": "Bar chart showing raw Ct values (y-axis) for each vector/purification combination. Red dashed line at Ct=25 (threshold). WT Control bar approaches Ct=25.\n\nSummary table of ΔCt and fold-change in tRNA:\n\nVector | Large-scale Ct | Ultra-purified Ct | ΔCt (Ultra–Large) | Approx. fold drop in tRNA (Ultra vs Large)\nVB240514-1548ggn | 10.08 | 17.11 | 7.02 | ~130×\nVB250610-1157tpv | 12.69 | 17.44 | 4.75 | ~27×\nVB250610-1162rmu | 11.06 | 17.33 | 6.27 | ~77×\n\nInterpretation: Large-scale (non-purified) AAV preparations result in substantially lower Ct values (higher RNA signal/knockdown) compared to ultra-purified medium-scale preparations. The WT control Ct (~24.7) is near the threshold, confirming baseline expression. Large-scale virus shows 27–130× more target RNA reduction than ultra-purified virus."
+    },
+    {
+      "page": 9,
+      "type": "mixed",
+      "title": "RNA QC – Gel Electrophoresis and Quantification Table",
+      "content": "Agarose gel (1%) showing RNA quality for 14 samples (all AAV-transduced and WT Calu-6 controls). GeneRuler 1 kb DNA Ladder used. 1 kb band visible as reference. All lanes show intact RNA bands, confirming successful RNA extraction.\n\nLane assignments:\n1: AAV9L(VB240514-1548ggn)\n2: AAV9L(VB240514-1548ggn) duplicate\n3: AAV9MP(VB240514-1548ggn)\n4: AAV9MP(VB240514-1548ggn) duplicate\n5: AAV9L(VB250610-1157tpv)\n6: AAV9L(VB250610-1157tpv) duplicate\n7: AAV9MP(VB250610-1157tpv)\n8: AAV9MP(VB250610-1157tpv) duplicate\n9: AAV9L(VB250610-1162rmu)\n10: AAV9L(VB250610-1162rmu) duplicate\n11: AAV9MP(VB250610-1162rmu)\n12: AAV9MP(VB250610-1162rmu) duplicate\n13: Calu6 WT\n14: Calu6 WT\n\nGel conditions: 0.5 µg/lane, 8 cm gel, 1X TAE, 7 V/cm, 45 min."
+    },
+    {
+      "page": 10,
+      "type": "table",
+      "title": "RNA QC – Full Quantification Table with Ct Values",
+      "content": "Complete RNA QC data table:\n\nNum | Vector ID | Vector name | Virus type | Concentration | Volume | Ct Mean (Arraystar)\n1 | VB240514-1548ggn | Vector 1 | large scale | 166 ng/µl | 50 µl | 10.078\n2 | VB240514-1548ggn | Vector 1 duplicate | large scale | 129 ng/µl | 50 µl | 10.090\n3 | VB240514-1548ggn | Vector 1 | ultra-purified medium scale | 303 ng/µl | 50 µl | 17.786\n4 | VB240514-1548ggn | Vector 1 duplicate | ultra-purified medium scale | 325 ng/µl | 50 µl | 16.425\n5 | VB250610-1157tpv | Vector 2 | large scale | 162 ng/µl | 50 µl | 12.396\n6 | VB250610-1157tpv | Vector 2 duplicate | large scale | 236 ng/µl | 50 µl | 12.978\n7 | VB250610-1157tpv | Vector 2 | ultra-purified medium scale | 226 ng/µl | 50 µl | 18.138\n8 | VB250610-1157tpv | Vector 2 duplicate | ultra-purified medium scale | 340 ng/µl | 50 µl | 16.733\n9 | VB250610-1162rmu | Vector 1 | large scale | 214 ng/µl | 50 µl | 11.517\n10 | VB250610-1162rmu | Vector 1 duplicate | large scale | 216 ng/µl | 50 µl | 10.611\n11 | VB250610-1162rmu | Vector 1 | ultra-purified medium scale | 257 ng/µl | 50 µl | 17.092\n12 | VB250610-1162rmu | Vector 1 duplicate | ultra-purified medium scale | 411 ng/µl | 50 µl | 17.567\n13 | / | Calu6 WT | WT | 227 ng/µl | 50 µl | 24.682\n14 | / | Calu6 WT | WT | 367 ng/µl | 50 µl | 24.789\n\nNote: Lower Ct = higher RNA signal (more target RNA present or less knockdown). Large-scale preparations consistently show lower Ct values than ultra-purified, and both are substantially lower than WT control (Ct ~24.7)."
+    }
+  ],
+  "key_findings": [
+    "Six AAV9 variants (3 vector constructs × 2 purification types: large-scale [AAV9L] and ultra-purified medium-scale [AAV9MP]) were tested for transduction efficiency in Calu-6 (lung cancer) cells at MOI=5E+6, with cells harvested 72h post-transduction.",
+    "Western Blot with Anti-p53 antibody shows stronger p53 protein expression in cells transduced with large-scale (non-purified) AAV9L preparations compared to ultra-purified AAV9MP preparations, suggesting higher transduction efficiency or different biological activity of large-scale virus.",
+    "RNA QC (Ct values by Arraystar) demonstrates that large-scale AAV preparations produce substantially lower Ct values (higher target RNA signal) vs. ultra-purified: ΔCt of 7.02 (~130× fold difference) for VB240514-1548ggn, 4.75 (~27×) for VB250610-1157tpv, and 6.27 (~77×) for VB250610-1162rmu.",
+    "WT Calu-6 control Ct values (~24.7) are near the detection threshold (Ct=25), confirming low baseline target RNA expression and validating the assay sensitivity.",
+    "Bright field microscopy shows more cell debris in cells transduced with non-purified (large-scale) virus vs. ultra-purified virus, indicating greater cytotoxicity from large-scale preparations despite higher transduction efficiency.",
+    "All RNA samples show intact RNA bands on agarose gel, confirming successful RNA extraction quality across all 14 samples.",
+    "Virus titers ranged from 2.06E+12 GC/ml (AAV9L VB240514-1548ggn) to 1.54E+13 GC/ml (AAV9MP VB240514-1548ggn), with ultra-purified preparations generally achieving higher titers.",
+    "The study is a preclinical in vitro experiment using a commercial cell line (Calu-6, ATCC, P3), consistent with early-stage (TRL 2-3) vector development and optimization."
+  ],
+  "document_date": "2025-08-14",
+  "milestones": [
+    {
+      "title": "AAV9L(VB240514-1548ggn) Production",
+      "description": "Large-scale AAV9 production of vector VB240514-1548ggn completed, yielding Lot 250617AAVM01 at 2.06E+12 GC/ml.",
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9L(VB240514-1548ggn) 250617AAVM01 2.06E+12",
+      "page": 3
+    },
+    {
+      "title": "AAV9MP(VB240514-1548ggn) Production",
+      "description": "Ultra-purified medium-scale AAV9 production of vector VB240514-1548ggn completed, yielding Lot 250618AAVY17 at 1.54E+13 GC/ml.",
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9MP(VB240514-1548ggn) 250618AAVY17 1.54E+13",
+      "page": 3
+    },
+    {
+      "title": "AAV9MP(VB250610-1157tpv) Production",
+      "description": "Ultra-purified medium-scale AAV9 production of vector VB250610-1157tpv completed, yielding Lot 250702AAVP15 at 5.39E+12 GC/ml.",
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9MP(VB250610-1157tpv) 250702AAVP15 5.39E+12",
+      "page": 3
+    },
+    {
+      "title": "AAV9L(VB250610-1162rmu) Production",
+      "description": "Large-scale AAV9 production of vector VB250610-1162rmu completed, yielding Lot 250702AAVU01 at 2.38E+12 GC/ml.",
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9L(VB250610-1162rmu) 250702AAVU01 2.38E+12",
+      "page": 3
+    },
+    {
+      "title": "AAV9MP(VB250610-1162rmu) Production",
+      "description": "Ultra-purified medium-scale AAV9 production of vector VB250610-1162rmu completed, yielding Lot 250703AAVN13 at 1.00E+13 GC/ml.",
+      "date": "2025-07-03",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9MP(VB250610-1162rmu) 250703AAVN13 1.00E+13",
+      "page": 3
+    },
+    {
+      "title": "AAV9L(VB250610-1157tpv) Production",
+      "description": "Large-scale AAV9 production of vector VB250610-1157tpv completed, yielding Lot 250712AAVW01 at 3.47E+12 GC/ml.",
+      "date": "2025-07-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "AAV9L(VB250610-1157tpv) 250712AAVW01 3.47E+12",
+      "page": 3
+    },
+    {
+      "title": "Calu-6 Transduction and Functional Assay Report",
+      "description": "Completion of AAV transduction experiment in Calu-6 cells with Western Blot (anti-p53) and RNA extraction/QC readouts, comparing large-scale vs. ultra-purified AAV9 preparations across three vector constructs.",
+      "date": "2025-08-14",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Customized AAV production and transduction test with Calu-6 cell line (RNA extraction and Western Blot) 2025/8/14",
+      "page": 1
+    }
+  ]
+}

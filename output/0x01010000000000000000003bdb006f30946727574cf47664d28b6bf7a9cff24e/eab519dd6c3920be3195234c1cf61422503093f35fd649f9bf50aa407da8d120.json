@@ -1,0 +1,19 @@
+{
+  "file_path": "/47decd38-2f6d-4ffd-a5e7-dda2a8b3d725-1-105-c.jpeg",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image shows the exterior of a commercial/office building with the address number 905 visible and what appears to be \"Lonza\" signage on the entrance doors. This is a photograph of a building facade with landscaping, not a scientific or technical document. There is no experimental data, research findings, or project development information present.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Building Exterior Photo",
+      "content": "Exterior photograph of a commercial building at address 905. The building features a purple/violet accent facade around the entrance, gray paneling, large windows, and well-maintained landscaping with red and white flowers. Signage on the entrance doors appears to read 'Lonza'. An American flag is reflected in one of the upper windows. No scientific or TRL-relevant content is present."
+    }
+  ],
+  "key_findings": [
+    "This document is a photograph of a building exterior (likely a Lonza facility based on door signage) and contains no scientifically relevant content for TRL assessment."
+  ],
+  "milestones": []
+}

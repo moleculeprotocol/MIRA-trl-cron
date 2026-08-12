@@ -1,0 +1,116 @@
+{
+  "file_path": "/vitafast-to-use-molecules-coin-to-company-legal-framework",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "VFDP-16 is a governance/legal proposal for VITA-FAST (a VitaDAO project focused on Korolchuk Lab autophagy research) to establish a dual-entity structure: VitaFast DUNA (Wyoming, community governance layer) and VitaFast LLC (Delaware, operating company). The proposal implements VitaDAO's Coin-to-Company (C2C) model to enable compliant equity financing and IP commercialization while preserving decentralized token holder governance. The document contains no experimental data, preclinical results, or scientific findings relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposal Overview and One-Liner",
+      "content": "VFDP-16 proposes establishing a dual-entity structure for VITA-FAST: (1) VitaFast DUNA (Wyoming Decentralized Unincorporated Nonprofit Association) as the community governance layer for VITA-FAST token holders, and (2) VitaFast LLC as the operating company enabling compliant equity financing, IP commercialization, and streamlined operations. This implements VitaDAO's Coin-to-Company (C2C) model. The underlying science is Korolchuk Lab's autophagy research at Newcastle University. No experimental data or scientific results are presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Entity Structure: VitaFast DUNA (Community Layer)",
+      "content": "VitaFast DUNA: Wyoming DUNA providing liability protection for VITA-FAST token holders. Membership is automatic upon holding the VITA-FAST governance token (no identity verification required for governance-only participation). Does NOT hold treasury funds (to avoid securities classification). Coordinates governance via Snapshot. Will engage a ministerial agent (third party, yet to be defined) for limited operational/clerical functions."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Entity Structure: VitaFast LLC (Operating Layer)",
+      "content": "VitaFast LLC: Delaware LLC holding and managing VITA-FAST treasury funds (derived from IP-NFT fractionalization and token sales). Holds perpetual, worldwide, sublicensable license to develop and commercialize research IP from the Newcastle autophagy program, with full ownership of developed products. Enables equity issuance via Reg D/S/CF/A + Rule 701. QSBS eligible. VitaDAO (through Vitality Now) is majority voting shareholder. Managed by Neuro Longevity LLC (managed by Oliver Armitage, core lead for VITA-FAST project)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "IP and Research Context",
+      "content": "VitaFast LLC holds a perpetual, worldwide, sublicensable license to develop and commercialize research IP arising from the Newcastle autophagy program, with full ownership of developed products. LLC will enter contracts with Newcastle University, Korolchuk Lab, and partners, and execute sponsored research agreement addendums. This is the primary scientific context: autophagy research IP from the Korolchuk Lab at Newcastle University. No experimental data, assay results, or preclinical findings are described."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Regulatory Context",
+      "content": "Wyoming enacted the DUNA Act (effective July 1, 2024), providing purpose-built legal recognition for DAOs. Combined with Delaware's established LLC framework, this enables a dual-entity structure providing legal existence, liability protection, entity-level taxation, and for-profit activities while maintaining a nonprofit governance layer. Tokens are positioned to avoid securities classification."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Equity Financing Pathways",
+      "content": "Two equity financing pathways: (1) Community Member Route: Token holder → Voluntary token lock → KYC/AML → Apply for contributor equity → AIPP Agreement. (2) Investor Route: Investor → Capital investment (Reg D/S/CF/A) → KYC/AML & accreditation → Stock Purchase Agreement with token perk → Equity. Token locking creates eligibility to apply for equity but no automatic right or enforceable claim."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Implementation Phases",
+      "content": "Phase 1 (Entity Formation, now): File VitaFast DUNA with Wyoming Secretary of State; form VitaFast LLC in Delaware; register both entities; designate initial DUNA administrators. Phase 2 (Operational Integration, 30–60 days post-formation): Establish LLC treasury account; execute treasury transfer from multisig to LLC; align DUNA governance with VITA-FAST Snapshot; establish reporting mechanisms. Phase 3 (Ongoing Operations): DUNA coordinates governance; LLC executes treasury operations; annual compliance and financial reporting."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Risks and Mitigations",
+      "content": "Risk | Impact | Mitigation\nDUNA framework untested | Medium | DUNA modeled on established UNA law; Wyoming has strong DAO track record; a16z backing\nDual-entity complexity | Low | Clear separation of responsibilities\nCentralization concerns | Low | DUNA designed for decentralized orgs; LLC executes governance decisions, doesn't make them\nRegulatory changes | Medium | Current U.S. administration favorable; dual-entity provides better protection than no entity"
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Alignment with Existing Framework",
+      "content": "Proposal is consistent with: VDP-111 (VITA-FAST Governance) — token holder authority preserved via DUNA; C2C Model — categorical separation of tokens (utility) and equity (securities); VITA-FAST Whitepaper — enables commercialization pathway for autophagy research IP; Assignment Agreements — LLC manages sublicensing rights per Newcastle University agreements; FAM Membership Agreement — token holder rights and governance participation maintained via DUNA."
+    }
+  ],
+  "key_findings": [
+    "This is a legal/governance proposal with no experimental data or scientific results; TRL relevance is low.",
+    "The underlying science is Korolchuk Lab's autophagy research at Newcastle University, commercialized via VITA-FAST.",
+    "VitaFast LLC will hold a perpetual, worldwide, sublicensable license to develop and commercialize research IP from the Newcastle autophagy program.",
+    "The project is at a stage of entity formation and IP commercialization structuring, suggesting early-stage (TRL 1-3) scientific development.",
+    "VitaDAO (through Vitality Now) is the majority voting shareholder in VitaFast LLC; managed by Neuro Longevity LLC (Oliver Armitage).",
+    "Wyoming DUNA Act became effective July 1, 2024, enabling the legal structure proposed.",
+    "Equity financing pathways include Reg D/S/CF/A and Rule 701; QSBS eligibility noted for qualifying shareholders.",
+    "Treasury funds are derived from IP-NFT fractionalization and token sales.",
+    "No preclinical data, animal studies, cell line results, or clinical information are presented in this document."
+  ],
+  "milestones": [
+    {
+      "title": "Wyoming DUNA Act Effective",
+      "description": "Wyoming enacted the DUNA Act, providing purpose-built legal recognition for DAOs, which underpins the VitaFast DUNA formation.",
+      "date": "2024-07-01",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Wyoming enacted the DUNA Act (effective July 1, 2024), providing purpose-built legal recognition for DAOs.",
+      "page": 2
+    },
+    {
+      "title": "Phase 1: Entity Formation",
+      "description": "File VitaFast DUNA formation documents with Wyoming Secretary of State, form VitaFast LLC in Delaware, register both entities with registered agent services, and designate initial DUNA administrators.",
+      "date": "now",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "other",
+      "source_quote": "Phase 1: Entity Formation (now)",
+      "page": 5
+    },
+    {
+      "title": "Phase 2: Operational Integration",
+      "description": "Establish LLC treasury account, execute treasury transfer from multisig to LLC, align DUNA governance processes with VITA-FAST Snapshot, establish reporting mechanisms between DUNA, LLC, and token holders, and update multisig configuration.",
+      "date": "30–60 days post-formation",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Phase 2: Operational Integration (30–60 days post-formation)",
+      "page": 6
+    },
+    {
+      "title": "Phase 3: Ongoing Operations",
+      "description": "DUNA coordinates governance; LLC executes treasury operations; regular community updates; annual compliance and financial reporting; governance proposals for major decisions.",
+      "date": "ongoing",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Phase 3: Ongoing Operations",
+      "page": 6
+    }
+  ]
+}

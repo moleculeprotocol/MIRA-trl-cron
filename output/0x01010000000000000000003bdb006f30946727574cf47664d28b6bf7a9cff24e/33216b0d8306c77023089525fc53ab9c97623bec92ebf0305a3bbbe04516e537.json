@@ -1,0 +1,302 @@
+{
+  "file_path": "/ArtanBio-Preclinical-Mouse-Update.pdf",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "ArtanBio (VitaRNA) pitch deck presenting their AAV9-based gene therapy (Artan-102) that suppresses arginine CGA nonsense mutations to address aging and rare diseases. The deck covers scientific rationale, in vitro proof-of-concept data, preliminary in vivo safety/PK data in mice, manufacturing partnership with Lonza, and a roadmap to a Phase 1 clinical trial in the UAE with a $5M raise target.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover / Project Overview",
+      "content": "Presentation titled 'Solving an Age-Old Problem with Future Solutions: Tokenizing the Cure for Time' by Michael Torres, Ph.D., CSO of VitaRNA & ArtanBio. Presented under VitaDAO branding. Website: vitarna.xyz."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "ArtanBio Overview and Funding History",
+      "content": "ArtanBio is developing gene therapy targeting suppression of nonsense mutations at arginine CGA codons to reduce/eliminate genetic, age-related, and longevity diseases. Two funding rounds completed: (1) Initial VitaDAO funding of $91K — enabled development and screening of suppressors, in vitro assays to measure target effect, identified 15 potential drug candidates (proof of concept). (2) IPT Funding of $300K — validation of lead drug candidates via in vitro assays, formulation for animal delivery, proof of concept in animal models, patent filings. Company is looking to raise additional capital. Team: Anthony Schwartz, PhD (Co-Founder, CEO); Michael Torres, PhD (CEO CrossBridge Bio, Co-Founder ReCode Therapeutics, CSO ArtanBio)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Scientific Rationale: Genomic Instability and Aging",
+      "content": "Slide poses the question: 'Can one gene-therapy address multiple aspects of aging?' References the Hallmarks of Aging framework (López-Otín et al., Cell 2023). Key claim: genomic instability underlies many causes of aging, including epigenetic alterations, telomere attrition, loss of proteostasis, and other hallmarks. The scientific premise is that a single gene therapy targeting genomic instability (specifically CGA nonsense mutations) could address multiple aging pathways simultaneously."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Scientific Rationale: CpG Mutations and Aging Correlation",
+      "content": "References a Nature Aging (2025) publication: 'Somatic mutation as an explanation for epigenetic aging' by Zane Koch, Adam Li, Daniel S. Evans, Steven Cummings & Trey Ideker (published 13 January 2025; 4837 accesses, 305 Altmetric). Key findings cited: (1) CpG mutations coincide with age-related methylation changes; (2) Mutation accumulation and epigenetic clocks correlate; (3) Methylation can potentiate mutation via spontaneous deamination of 5-methylcytosine to thymine; (4) Somatic mutation burden predicts biological age. Mechanism: CGA deamination leads to TGA stop codon. This supports the biological rationale for targeting CGA nonsense mutations."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Target Biology: Arginine CGA Codons in Aging Proteins",
+      "content": "Arginine CGA codons are present in many age-related proteins including p53, LKB1, APP, RB1, AMYLOID, BRCA2, CDKN2A, PTEN, ATM, APC, BRCA, WRN, ERCC6, TERT, APOE, PINK1, PRKN. Mechanism: cytosine in DNA/RNA is frequently mutated; methylation potentiates CpG mutations; CGA > UGA causes a 'stop' mutation. Diseases affected include cystic fibrosis, autism, neurological conditions, cancers. Source: Romanov et al. 2017. Key claim: suppression of arginine mutations could impact multiple age-related pathways."
+    },
+    {
+      "page": 6,
+      "type": "diagram",
+      "title": "Mechanism of Action: Artan-102",
+      "content": "Artan-102 mechanism of action diagram: (1) Acquired CGA mutations over time lead to TGA stop codons in proteins like p53, causing reduced protein function; (2) Artan-102 (delivered via AAV9) suppresses these nonsense mutations; (3) This restores translation and protein function, with the goal of significantly slowing down aging. The asset is tokenized as VitaRNA via the DeSci community."
+    },
+    {
+      "page": 7,
+      "type": "figure",
+      "title": "In Vitro Western Blot: Vector Screening for p53 Suppression",
+      "content": "Western blot experiment in Calu-6 reporter cell line (arginine nonsense mutation in tumor suppressor p53, R196X/R196X). Five vectors (Vec1–Vec5) tested. Antibody: Santa Cruz anti-p53 (55 kDa); reference: anti-GAPDH (37 kDa). Results: Vector 2 and Vector 3 significantly induce expression of p53 protein (highlighted in orange box). Other vectors (Vec1, Vec4, Vec5) show minimal p53 expression. Performed at a 3rd party CRO. Conclusion: Two lead vectors identified from a panel of five."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "AAV Serotype Tissue Tropism Comparison",
+      "content": "Table showing tissue tropism of AAV serotypes AAV1–AAV13 across CNS, Retina, Lung, Liver, Pancreas, Kidney, Heart, Muscle. AAV9 (highlighted) shows tropism across ALL listed tissues: CNS, Retina, Lung, Liver, Pancreas, Kidney, Heart, Muscle — making it the broadest-tropism serotype. Rationale for selecting AAV9 as the delivery vector for a systemic gene therapy product. Source: Pupo et al. Mol Ther 2022; Gao et al. J Virol 2004; Lisowski et al. Curr Opin Pharmacol 2015; Genemedi.net; Addgene.org."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Next Steps: Animal Model Formulation Plan",
+      "content": "Second funding round of $300K via IPT secured. Plan: vectors encapsulated into AAV9 (broad tissue tropism; FDA has approved AAV9-based gene therapies). ARTAN-101 & ARTAN-102 AAV drug candidates to be tested in animal models for Safety/Distribution/Target Hit. Once safety/efficacy established, clinical pathway will be devised and drug optimized for IND-enabling studies and human clinical trials. Vector optimization components: Promoter, Codon optimization, Capsid (Spark100 vs 200), Protein sequence (furin cleavage)."
+    },
+    {
+      "page": 10,
+      "type": "figure",
+      "title": "In Vitro AAV9 Encapsulation and Activity: Artan-101 vs Artan-102",
+      "content": "Two experiments shown: (1) GFP reporter virus delivery in Calu-6 cells at MOI=10^4 and MOI=10^6 (vs. Calu6-WT control). Green fluorescence (GFP) confirms dose-dependent viral delivery at 72h. (2) Western blot comparing Artan-101 and Artan-102 (AAV9-encapsulated) in Calu-6 cells (R196X/R196X p53 mutation). Anti-p53 and Anti-GAPDH shown. Artan-102 (lane 5) shows strongest p53 induction (highlighted in orange box). G418 (positive control) shows modest p53 signal. Key conclusion: Artan-102 is the lead candidate that can be scaled up to support additional animal safety and efficacy studies. Performed at a 3rd party CRO."
+    },
+    {
+      "page": 11,
+      "type": "figure",
+      "title": "Dose-Response of Artan-102 In Vitro (qPCR)",
+      "content": "Bar graph showing Mean Relative Expression (2^-ΔCt) of Artan-102 expression levels in Calu-6 cells at different MOIs (NC, 1E+4, 1E+6) for both Artan-102 and Artan-101. Artan-102 at 1E+6 MOI shows highest expression (~6.8 relative units), with 1E+6 replicate 2 at ~3.2. Artan-101 shows lower and more variable expression (~2.4, ~1.0, ~2.7, ~2.0 across conditions). Clear dose-response relationship demonstrated for Artan-102. Conclusion: clear dose-response of Artan-102 when delivered in vitro."
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "Manufacturing: Lonza Contract Signed",
+      "content": "ArtanBio has signed a contract with Lonza to produce ARTAN-102 at scale using Lonza's Xcite™ AAV Platform (Bench to IND). Process is ongoing. Timeline shown: ~18 months from contract signing covering Material Transfer/Gap Analysis (months 1-6), Process/Assay Feasibility (months 1-5), Process Tech Transfer to GMP (months 4-7), GMP Run/BDS Production (months 7-12), GMP Release Testing (months 10-14), DP Fill/Finish (months 12-13), DP Release Testing (months 13-17). Lonza platform performance data shown: relative titer improvements vs. competitor — AAV2: 217%, AAV5: 903%, AAV8: 409%, AAV9: 401%, Anc80: 581% (using 588 cells + Lonza plasmids vs. competitor cell line + standard plasmids, transgene = GFP)."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "Preliminary In Vivo Safety and PK Study Design",
+      "content": "Pilot safety and PK study for Artan-102 (AAV9 gene therapy) in mice. Design: single-dose study, tail-vein injection, dose 1.8x10^12 GC/mouse, stock concentration 2.74x10^13 GC/ml. Two test groups: Vehicle (PBS) and Artan-102 (AAV9-ARTAN-102). Mouse strain: C57BL/6. Mice per group: 4 (2 Female/2 Male). Duration: 14 days. Endpoints: body weight every other day, clinical observation every other day, clinical chemistry pre/post-treatment, tissue collection (liver, lung, pancreas, kidney, brain, heart) for RNA extraction stored in RNAlater. Results: No significant changes in body weight reported. Artan-102 detection underway at a CRO; data expected end of April 2025."
+    },
+    {
+      "page": 14,
+      "type": "figure",
+      "title": "In Vivo Safety: Blood Cell Counts (CBC) in Mice",
+      "content": "Six panels showing blood cell parameters comparing Artan-102 vs. PBS control (Start vs. End, 14-day study): WBC, Neutrophils, Lymphocytes, Monocytes, Eosinophils, Basophils. No significant differences between Artan-102 and vehicle groups across all measured blood cell parameters. Conclusion: 'No significant blood cell findings reported' — Artan-102 shows excellent safety profile in preliminary mouse study."
+    },
+    {
+      "page": 15,
+      "type": "figure",
+      "title": "In Vivo Biodistribution: Artan-102 Tissue Detection in Mice",
+      "content": "Six bar graphs showing Mean Relative Expression (2^-ΔCt) of Artan-102 vs. Vehicle in six tissues at 14 days post-dosing (1.8x10^12 GC/mouse): Brain (~4.2 vs ~1.0), Heart (~31 vs ~1.0), Liver (~350 vs ~1.0), Lung (~20 vs ~1.0), Pancreas (~12 vs ~1.0), Kidney (~10 vs ~1.0). Artan-102 is detected in all six key tissues with substantial expression above vehicle control. Liver shows highest expression (~350x over vehicle). This confirms broad biodistribution consistent with AAV9 tropism."
+    },
+    {
+      "page": 16,
+      "type": "table",
+      "title": "Development Roadmap / Pipeline Timeline",
+      "content": "Gantt chart showing activities from Q2 2025 to Q2 2026 (with $5M raise): Manufacturing: Tox batch & GMP manufacturing (Q2–Q4 2025), Analytical (Q2–Q3 2025). Pharmacology: Dose Finding TK/PK Studies (Q2–Q3 2025). Toxicology: GLP Tox & Biodistribution (Q1–Q2 2026). Biomarker/BioA: Assay development (Q2–Q3 2025), Assay Validation (Q3–Q4 2025). Regulatory: CTA Prep (Q1 2026), FIH Study (Q2 2026). Clinical Trial Start targeted Q2 2026. Currently raising $500K to support non-GLP tox study in non-human primates. Timeline subject to regulatory feedback."
+    },
+    {
+      "page": 17,
+      "type": "table",
+      "title": "Budget Breakdown for $5M Raise (UAE Clinical Trial)",
+      "content": "Detailed budget for raising $5M to initiate a clinical trial within 12 months in the UAE: GMP Manufacturing (9 months): $2,000,000 — engineering run and GMP run for FIH, clinical-grade AAV9 Artan-102 production; GLP Toxicology & Biodistribution (6 months): $1,000,000 — UAE guided species, BioA method development, required for UAE CTA; Regulatory & Trial Prep UAE (3 months): $300,000 — CTA prep, local UAE guidance, IRB/ethics; Phase 1 Trial UAE (3 months): $700,000 — small proof-of-concept study with biomarker endpoints; G&A: Consultants, IP, Legal (12 months): $300,000; Contingency & Misc.: $200,000. Total: $4,500,000. Note: ArtanBio met with Abu Dhabi Department of Health Regulators in May 2025. Guidance: single-species GLP tox and GMP manufacturing to support FIH. Discussed premature aging post-chemo as potential human proof of concept. Discussions ongoing."
+    },
+    {
+      "page": 19,
+      "type": "text",
+      "title": "VitaDAO Funding Journey (Appendix)",
+      "content": "Timeline of ARTAN's funding through VitaDAO: (1) VDP-103 Discourse posted May 2023; passed Discourse vote. (2) ~3 months later: VDP-103 on Snapshot July 2023; raised $91K to fund research; passed vote. (3) ~6 months later: Passed Snapshot February 2024; Tokenization of ArtanBio Q1 2024; $300K to continue development of assets (VDP-140 — Tokenization of the ArtanBio IP-NFT)."
+    }
+  ],
+  "key_findings": [
+    "Lead drug candidate Artan-102 is an AAV9-delivered tRNA suppressor targeting arginine CGA nonsense mutations (CGA>UGA stop codons) in aging-related proteins including p53, BRCA2, ATM, TERT, APOE, and others.",
+    "In vitro Western blot in Calu-6 cells (p53 R196X/R196X reporter line) confirmed that Vector 2 (Artan-101) and Vector 3 (Artan-102) significantly induce p53 protein expression from a panel of 5 vectors; performed at a 3rd party CRO.",
+    "Artan-102 encapsulated in AAV9 shows clear dose-response in vitro (qPCR, Calu-6 cells) with expression up to ~6.8 mean relative units at MOI=10^6, outperforming Artan-101.",
+    "Preliminary in vivo safety study in C57BL/6 mice (n=4/group, single IV dose 1.8x10^12 GC/mouse, 14 days): no significant body weight changes and no significant blood cell findings (WBC, neutrophils, lymphocytes, monocytes, eosinophils, basophils all within normal range).",
+    "Biodistribution data from mouse study shows Artan-102 detected in all 6 key tissues (liver ~350x, heart ~31x, lung ~20x, pancreas ~12x, kidney ~10x, brain ~4x over vehicle control), confirming broad AAV9 tissue tropism.",
+    "Manufacturing contract signed with Lonza (Xcite™ AAV Platform) for GMP-grade production of ARTAN-102; process is ongoing.",
+    "Patent filings completed as part of IPT funding activities.",
+    "ArtanBio met with Abu Dhabi Department of Health Regulators in May 2025; guidance received for single-species GLP tox and GMP manufacturing to support FIH; premature aging post-chemotherapy discussed as potential human proof-of-concept indication.",
+    "Total funding raised to date: $91K (VitaDAO initial) + $300K (IPT/VitaDAO follow-on) = $391K. Currently raising $500K for non-GLP NHP tox study and $5M total for UAE Phase 1 clinical trial.",
+    "Scientific rationale supported by Nature Aging 2025 publication (Koch et al.) showing somatic CpG mutation burden predicts biological age and correlates with epigenetic clocks."
+  ],
+  "document_date": "2025-05",
+  "milestones": [
+    {
+      "title": "VDP-103 Discourse Proposal",
+      "description": "VitaDAO Discourse proposal (VDP-103) for mutation-specific codon suppression for aging and longevity posted and passed.",
+      "date": "2023-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VDP-103 Discourse (May 2023) ... Passed Discourse vote",
+      "page": 19
+    },
+    {
+      "title": "VDP-103 Snapshot Vote and Initial $91K Funding",
+      "description": "VDP-103 passed Snapshot vote in July 2023; raised $91K to fund initial research including suppressor development, screening, and in vitro assays.",
+      "date": "2023-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "VDP-103 on Snapshot in July 2023 ... Raised $91K to fund research ... Passed vote",
+      "page": 19
+    },
+    {
+      "title": "VDP-140 Snapshot Vote and ArtanBio Tokenization",
+      "description": "VDP-140 (Tokenization of ArtanBio IP-NFT) passed Snapshot vote in February 2024; ArtanBio tokenized in Q1 2024; $300K follow-on funding secured to continue development.",
+      "date": "2024-02",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Passed Snapshot in Feb 2024 ... Tokenization of ArtanBio Q1 '24 ... $300K to continue development of the assets",
+      "page": 19
+    },
+    {
+      "title": "Patent Filings",
+      "description": "Patent filings completed as part of IPT funding activities.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "IPT Funding: $300k ... Patent filings",
+      "page": 2
+    },
+    {
+      "title": "Lonza Manufacturing Contract Signed",
+      "description": "ArtanBio signed a contract with Lonza to produce ARTAN-102 at scale using Lonza's Xcite™ AAV Platform (Bench to IND). Process is ongoing.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "ArtanBio has signed a contract with Lonza to produce ARTAN-102 at scale. The process is ongoing",
+      "page": 12
+    },
+    {
+      "title": "Preliminary Mouse Safety/PK Study Completed",
+      "description": "Single-dose pilot safety and PK study in C57BL/6 mice (n=4/group, 1.8x10^12 GC/mouse IV, 14 days). No significant body weight changes or blood cell findings reported.",
+      "date": "2025-Q1",
+      "date_precision": "quarter",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "No significant changes in body weight reported ... No significant blood cell findings reported",
+      "page": 13
+    },
+    {
+      "title": "Artan-102 Tissue Detection Data Expected",
+      "description": "Artan-102 biodistribution/detection data from mouse study underway at a CRO; data expected at end of April 2025.",
+      "date": "2025-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Artan-102 detection is underway at a CRO. Data expected at the end of April 2025",
+      "page": 13
+    },
+    {
+      "title": "Abu Dhabi Department of Health Regulatory Meeting",
+      "description": "ArtanBio met with Abu Dhabi Department of Health Regulators in May 2025. Guidance received: single-species GLP tox and GMP manufacturing required to support FIH. Premature aging post-chemo discussed as potential human proof of concept. Discussions ongoing.",
+      "date": "2025-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "ArtanBio met with Abu Dhabi Department of Health Regulators in May 2025. Guidance was for single-species GLP tox and GMP manufacturing to support FIH.",
+      "page": 17
+    },
+    {
+      "title": "Current Fundraise: $500K for Non-GLP NHP Tox Study",
+      "description": "Currently raising $500K to support a non-GLP toxicology study in non-human primates.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Currently raising $500K to support non-GLP tox study in non-human primates",
+      "page": 16
+    },
+    {
+      "title": "Tox Batch & GMP Manufacturing Start",
+      "description": "Initiation of toxicology batch and GMP manufacturing activities for Artan-102.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Tox batch & GMP manufacturing [Q2 2025 – Q4 2025]",
+      "page": 16
+    },
+    {
+      "title": "Dose Finding TK/PK Studies",
+      "description": "Pharmacology dose-finding TK/PK studies planned for Q2–Q3 2025.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Dose Finding TK/PK Studies [Q2 2025 – Q3 2025]",
+      "page": 16
+    },
+    {
+      "title": "Biomarker Assay Development",
+      "description": "Biomarker/BioA assay development planned for Q2–Q3 2025.",
+      "date": "2025-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Assay development [Q2 2025 – Q3 2025]",
+      "page": 16
+    },
+    {
+      "title": "Assay Validation",
+      "description": "Biomarker/BioA assay validation planned for Q3–Q4 2025.",
+      "date": "2025-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Assay Validation [Q3 2025 – Q4 2025]",
+      "page": 16
+    },
+    {
+      "title": "GLP Toxicology & Biodistribution Study",
+      "description": "GLP toxicology and biodistribution study planned for Q1–Q2 2026 (UAE guided species, includes BioA method development; required for UAE CTA).",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "GLP Tox & Biodistribution [Q1 2026 – Q2 2026]",
+      "page": 16
+    },
+    {
+      "title": "CTA Preparation (UAE)",
+      "description": "Clinical Trial Authorization preparation for UAE, including local UAE guidance and IRB/ethics, planned for Q1 2026.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "CTA Prep [Q1 2026]",
+      "page": 16
+    },
+    {
+      "title": "Phase 1 FIH Clinical Trial Start (UAE)",
+      "description": "First-in-human Phase 1 clinical trial start in UAE, small proof-of-concept study with biomarker endpoints, targeted for Q2 2026.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Clinical Trial Start [Q2 2026] ... FIH Study [Q2 2026]",
+      "page": 16
+    },
+    {
+      "title": "Full $5M Fundraise Target",
+      "description": "Raising $5M total ($4.5M budgeted) to fund GMP manufacturing, GLP tox, regulatory prep, Phase 1 trial in UAE, and G&A over 12 months.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Raising $5M to initiate a clinical trial within *12 months (in the UAE)",
+      "page": 17
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "file_path": "/vdp-16-fundingproposal.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "VDP-16 is a VitaDAO funding proposal (passed) for Prof. Korolchuk's lab at Newcastle University to initiate a drug discovery programme identifying novel autophagy-activating small molecules. The project uses an innovative cell-survival-based HTS assay leveraging Npc1 KO and Atg5 KO cell lines to screen a unique library of 1000+ natural compounds from northern Russia. The proposal requests £80,000–$250,000 (including TTO overhead) for a 12-month programme covering primary screening, hit verification, derivative synthesis, SAR, and target identification.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Summary & Problem Statement",
+      "content": "Ageing is associated with decline in autophagy capacity to degrade dysfunctional cellular components (protein aggregates, mitochondria). Dysfunctional autophagy undermines DNA repair, metabolism, and survival. Lysosomal dysfunction is a key contributor to reduced autophagy during aging; when lysosomes are dysfunctional, autophagy is blocked at the terminal stage, making stimulation of autophagy initiation ineffective. Current autophagy measurement methods are unreliable, slow, and have complicated readouts, limiting screening efficiency. The proposal aims to identify novel bioactive autophagy inducers via a drug discovery programme."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Opportunity & Assay Design",
+      "content": "Prof. Korolchuk lab uses Npc1 KO cells (mutation in lysosomal protein Npc1, associated with Niemann-Pick type C1 Disease and Parkinson's Disease) as a lysosomal dysfunction model. Under metabolic stress (galactose medium replacing glucose), these cells undergo cell death due to dysfunctional autophagy, providing a simple binary readout (cells dead/alive). Parallel use of autophagy-initiation-deficient cells (Atg5 KO) serves as a negative control to confirm true autophagy activation. If funded, the lab will screen a unique library of natural compounds, synthesize derivatives from hits, and identify biological targets."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Highlights (Proposal Strengths)",
+      "content": "Key highlights: (1) Assay with easy readout, decent throughput, good controls targeting autophagy in cellular aging; (2) Solid evidence supporting the approach; (3) Small ticket size ($150,000–$250,000); (4) Platform enables collaboration with other autophagy/mitophagy projects; (5) Potential for IP/NFT generation from screening hits; (6) Strong scientific team interested in IP/NFT model and company formation."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Risks",
+      "content": "Risk 1: Application relies on the natural compound library producing hits; contingency plan needed. Risk 2: Screening model relies on rescuing autophagy in a single KO model (Npc1); risk that identified compounds solve a problem specific to this KO rather than general aging. However, the team is working on addressing this risk and there are promising data suggesting it may not be a problem."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Peer Evaluation Scores",
+      "content": "4 independent evaluators scored the proposal: Novelty and Impact: Strong (4/4); Feasibility and Data: Outstanding (3/4), Satisfactory (1/4); Relevance to longevity: Outstanding (1/4), Strong (2/4), Satisfactory (1/4); Science Team: Strong (3/4), Satisfactory (1/4); Market Advantage: Strong (1/4), Satisfactory (2/4), Weak (1/4); IP-NFT Potential: Strong (1/4), Satisfactory (2/4), N/A (1/4). All 4 evaluators considered the project worth funding."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Mechanism of Funding",
+      "content": "VitaDAO commits funding via an IP-NFT structure."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Scientific Background & Mechanistic Evidence",
+      "content": "Lysosomal dysfunction (modeled by Npc1 mutation) blocks autophagy at the terminal stage. In normal glucose medium, autophagy KO cells upregulate glycolysis at the expense of mitochondrial respiration. When glucose is replaced with galactose (forcing respiration, zero net ATP from glycolysis), autophagy-deficient cells become apoptotic. This phenotype is shared by Npc1 KO MEFs (impaired autophagosome maturation) and cells lacking core autophagy genes (Atg5, Atg7, FIP200/Rb1cc1). Supporting publications: ResearchSquare rs-659023/v1; bioRxiv 10.1101/2020.01.31.928424v1 (under revision for Nature Cell Biology)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Cell Death Mechanism & Cross-Species Conservation",
+      "content": "Established sequence of events in autophagy-deficient cell death: (1) accumulation of dysfunctional mitochondria; (2) increased ROS and DNA damage; (3) activation of NADases (Sirtuin and PARP family); (4) depletion of NAD+/NADH pools; (5) mitochondrial depolarisation; (6) apoptotic cascade. This mechanism is evolutionarily conserved from yeast to humans, validated in yeast, fly, and human stem cell-derived neuronal models. Targeting downstream processes (mitochondrial dysfunction, NADase hyperactivity, NAD boosting, mitochondrial re-polarisation) rescues cell death in both Atg gene KO and Npc1 KO cells/organisms."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Proof-of-Concept Screening Data",
+      "content": "Key experimental achievements: (1) Generated and optimized HTS-ready WT and Npc1 KO MEFs with inducible tet-on-tet-off luciferase-tagged autophagy flux reporter p62. (2) Performed proof-of-principle screen using FDA-approved drug library (Newcastle High Throughput Facility) — identified 12 small molecules previously unknown as autophagy inducers that effectively activated autophagy flux. (3) Generated and optimized WT and Npc1 KO cells stably expressing 'traffic-light' EGFP-RFP-LC3 for high-throughput high-content screening (secondary/tertiary screening platform). These results demonstrate the assay is functional and capable of identifying novel autophagy inducers."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Team",
+      "content": "Viktor Korolchuk (VK) — cell biology, Newcastle University, UK. Jóhannes Reynisson (JR) — drug discovery, Keele University, UK. Konstantin Volcho (KPV) — organic and medicinal chemistry, Novosibirsk Institute of Organic Chemistry, Russian Academy of Sciences."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Next Steps & Compound Library",
+      "content": "KVP lab has collected 1000+ compounds isolated from rare plant and animal species from northern Russia — a virgin collection never tested for autophagy effects. Natural occurrence implies bioavailability advantage. KVP also brings in vivo testing capacity. Plan: (1) Screen ~200 diverse, readily available compounds in cell survival assays; (2) Process hits through secondary/tertiary readouts; (3) Synthesize structurally similar derivatives of hits; (4) Validate effect on autophagy in standard assays and build preliminary SAR; (5) Identify cellular targets via Samsara platform; (6) Test lead compounds in human fibroblasts and neurons for alleviation of lysosomal dysfunction-related cellular defects; (7) Test focused small molecule collections to establish robust SAR for preclinical translation."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Budget Breakdown — Lead Compound Identification (12-month programme)",
+      "content": "Step 1: Screen ~200 natural compounds in cell survival assays (Atg5 vs Npc1 KO), dose-response (VK) — £5,000, 2 months. Step 2: Hits selection by chemical diversity, tractability, physicochemical parameters (JR) — £2,000, 1 month. Step 3: Hit verification via orthogonal assays (Luc-p62 clearance, traffic light LC3) (VK) — £3,000, 2 months. Step 4 (parallel, 2 months): Synthesis of derivatives for 3–5 hit series (~12 each) (JR, KPV) — £10,000; Additional autophagy assays (cargo degradation, flux, imaging, signalling pathways) (VK) — £5,000. Step 5: Lead series determination (VK) — £2,000, 2 months. Step 6 (parallel, 2 months): Second round synthesis ~12 derivatives (KPV, JR) — £3,000; Testing lead compounds for alleviation of lysosomal dysfunction defects (VK) — £5,000; Biological target determination (Samsara). Step 7: Screening of derivatives, SAR determination, drug lead identification (KPV, JR, VK) — £3,000, 1 month. TOTAL: 12-month postdoc + running costs = £80,000."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Future Work (Subject to Successful Screening) & IP",
+      "content": "Step 8: ADMET/DMPK profiling in mouse models (KPV) — £16,600, 4 months: Pharmacokinetics, tissue distribution, excretion (£3,300); Routes of administration PO/IV (£3,300); Preliminary tox studies — dose-range finding, MTD (£10,000). Step 9: IP filing (patent) for drug candidate(s). TTO overhead (20–60%) not included in current budget; may increase total ticket size to $250,000. Contingency: Back-up screen of 1000+ natural bioactive compounds (KPV and VK)."
+    }
+  ],
+  "key_findings": [
+    "Proof-of-concept FDA-approved drug screen identified 12 novel small molecules that effectively activated autophagy flux using the Npc1 KO / Atg5 KO dual-cell-line HTS platform.",
+    "Innovative binary cell-survival assay (cells dead/alive in galactose medium) provides easy, high-throughput readout for autophagy activation, with built-in specificity control via Atg5 KO cells.",
+    "Cell death mechanism in autophagy-deficient cells is evolutionarily conserved from yeast to humans, validated in yeast, fly, and human stem cell-derived neuronal models.",
+    "KVP lab holds a unique, untested library of 1000+ natural compounds from rare northern Russian plant/animal species with inherent bioavailability advantages.",
+    "Three complementary HTS platforms established: (1) cell survival assay, (2) luciferase-tagged p62 flux reporter, (3) EGFP-RFP-LC3 'traffic-light' high-content imaging.",
+    "All 4 independent evaluators rated the project worth funding; Novelty/Impact rated Strong by all 4; Feasibility/Data rated Outstanding by 3/4.",
+    "Funding mechanism: IP-NFT via VitaDAO; total budget £80,000 (core) up to $250,000 with TTO overhead.",
+    "Future work includes ADMET/DMPK mouse model profiling and IP filing for drug candidates, contingent on successful screening.",
+    "Current TRL is approximately TRL 2–3: assay validated with proof-of-concept screen; no lead compounds yet identified from the natural compound library."
+  ],
+  "document_date": "2021",
+  "milestones": [
+    {
+      "title": "Proof-of-Concept FDA Drug Screen Completed",
+      "description": "Performed a screen of FDA-approved drug library using the Newcastle High Throughput Facility with the Npc1 KO / luciferase-p62 HTS platform, identifying 12 novel autophagy-inducing small molecules.",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "As a proof of principle, we performed a screen using a library of FDA-approved drugs, provided by the Newcastle High Throughput Facility. The screen produced 12 small molecules previously not known as autophagy inducers that effectively activated autophagy flux.",
+      "page": 5
+    },
+    {
+      "title": "HTS Cell Lines Generated and Optimized",
+      "description": "Generated and optimized WT and Npc1 KO MEFs with inducible tet-on-tet-off luciferase-tagged p62 reporter and EGFP-RFP-LC3 'traffic-light' cells for high-throughput high-content screening.",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Additionally, we generated and optimised for HTS wild type or Npc1 KO MEFs with an inducible tet-on-tet-off expression of a luciferase-tagged autophagy flux reporter p62... Finally, we generated and optimised wild type or Npc1 KO cells stably expressing \"traffic-light\" EGFP-RFP-LC3 for high throughput high content screening.",
+      "page": 5
+    },
+    {
+      "title": "Primary Screen of ~200 Natural Compounds",
+      "description": "Screen a diverse library of ~200 naturally occurring bioactive compounds in cell survival assays (Atg5 vs Npc1 KO) with dose-response effect.",
+      "date": "2 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Screen a diverse library of naturally occurring bioactive compounds (~200) in cell survival assays (Atg5 vs Npc1 KO) dose response effect (VK) (£5,000, 2 months including optimisation and set up)",
+      "page": 7
+    },
+    {
+      "title": "Hit Selection and Verification",
+      "description": "Select hits based on chemical diversity, tractability, and physicochemical parameters; verify via orthogonal assays (Luc-p62 clearance, traffic light LC3).",
+      "date": "5 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Hits selection based on their chemical diversity, chemical tractability, and physicochemical parameters (JR) (£2,000, 1 month). Hit verification screening Orthogonal assays (Luc-p62 clearance, traffic light LC3) (VK) (£3,000, 2 months)",
+      "page": 7
+    },
+    {
+      "title": "Derivative Synthesis and SAR Development",
+      "description": "Synthesize derivatives for 3–5 hit series (~12 each), perform additional autophagy assays, determine lead series, and build preliminary structure-activity relationship (SAR).",
+      "date": "9 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Synthesis of derivatives for 3-5 hit series, ~12 each (JR, KPV) (£10,000)... Lead series determined by screening (VK) (£2,000, 2 months)",
+      "page": 7
+    },
+    {
+      "title": "Biological Target Identification and Lead Compound Validation",
+      "description": "Determine biological targets via Samsara platform; test lead compounds for alleviation of lysosomal dysfunction-related cellular defects in human fibroblasts and neurons; finalize SAR and identify drug leads.",
+      "date": "12 months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Determination of biological target (Samsara)... Screening of derivatives, SAR determination, identification of drug leads (KPV, JR, VK) (£3,000, 1 month). Total: 12-month postdoc + running costs - £80,000",
+      "page": 7
+    },
+    {
+      "title": "ADMET/DMPK Profiling in Mouse Models",
+      "description": "Subject to successful screening: ADMET and DMPK profiling in mouse models including pharmacokinetics, tissue distribution, excretion, routes of administration (PO/IV), and preliminary toxicology studies (dose-range finding, MTD).",
+      "date": "4 months after lead identification",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "ADMET, DMPK profile determined in mouse models, (KPV) (Total £16,600, 4 Months). Pharmacokinetics, tissue distribution, excretion (£3,300). Routes of administration: PO, IV – (£3,300). Preliminary tox studies (dose-range finding, MTD) (£10,000)",
+      "page": 8
+    },
+    {
+      "title": "IP Filing for Drug Candidate(s)",
+      "description": "Seek patent protection for drug candidates identified through the screening programme.",
+      "date": "after lead identification",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "IP sought for drug candidate(s) patent",
+      "page": 8
+    },
+    {
+      "title": "VitaDAO Funding Proposal Passed",
+      "description": "VDP-16 funding proposal by Korolchuk Lab for autophagy activators drug discovery programme passed by VitaDAO community vote (on-chain, prior to Snapshot).",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Passed... NOTE: This is a duplicate of an on chain proposal from prior to VitaDAO's using snapshot, and is present here for completeness on snapshot. No snapshot vote occurred.",
+      "page": 1
+    }
+  ]
+}

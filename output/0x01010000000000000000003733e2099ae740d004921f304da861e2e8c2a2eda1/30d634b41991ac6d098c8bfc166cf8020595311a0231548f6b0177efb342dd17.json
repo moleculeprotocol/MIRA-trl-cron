@@ -1,0 +1,170 @@
+{
+  "file_path": "/revised-experimental-plan-2025",
+  "extraction_version": 2,
+  "document_type": "regulatory",
+  "relevance": "high",
+  "summary": "VFDP-15 is a governance/funding proposal from the VITA-FAST decentralized science project seeking approval to modify their 2025 experiment plan. Following H1 2025 NCE testing results at Newcastle University, the team identified two autophagy-inducing protein targets and proposes to pivot toward computational optimization of their VF-series compounds against Autophagy1 and Autophagy2 targets. The budget request covers $11K in additional reagents and MedChem subcontract extension, drawing from an existing $147,500K project wallet.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "VFDP-15 Proposal Header & TLDR",
+      "content": "Title: VFDP-15 - Approval for modified VITA-FAST experiment plan 2025. Edited 10/09/2025. TLDR: Following results in H1, the team wants to modify the plan and budget of the upcoming series of experiments to focus on computational optimisation with the now known targets."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Background: VITA-FAST Project Overview",
+      "content": "VITA-FAST is developing new autophagy-inducing compounds for potential therapeutic applications and systemic cellular longevity. In March 2025 (VFDP-13), experiments and budget totalling $135K were scoped for development of new chemical entities (NCEs). The plan covered ordering and testing of two rounds of NCEs (round 2 and round 3) as well as ancillary and confirmatory experiments in worms and human aging cell lines."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Experimental Results from H1 2025 (Newcastle NCE Testing)",
+      "content": "Following the 2nd round of NCE testing and target discovery experiments at Newcastle University, the team found: (1) A strong hypothesis of two targets (Autophagy1 and Autophagy2 protein families) that are causing increased autophagy. (2) The structural modifications tested in round 2 of NCEs were not binding these targets any more potently than those in the first round. This provides two critical pieces of information: (a) The 1st target is now known, and a strong hypothesis exists on the 2nd target — these are targets of molecules that fulfil VITA-FAST's mission to induce 10x more autophagy than rapamycin. (b) The chemical moieties tested in round 2 do not contribute to target binding. Footnote clarifies: Autophagy1 is a confirmed target; Autophagy2 is a second family of proteins whose binding activates autophagy, but the specific member is not yet known."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Objective",
+      "content": "To use the target information to develop VITA-FAST compounds to a lead candidate, with a target identified and understanding of mechanistic basis of the compounds' healthspan and longevity effects on human cells. These experiments should allow definition of lead molecule(s) for subsequent IND-enabling activities such as murine safety experiments. IP will also be filed for these compounds. Project milestones targeted: (1) Lead compound, (2) Target ID, (3) Intellectual property — to raise further financing and move compounds into mammals and towards humans."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Plan: Cancellation of Previously Approved Experiments",
+      "content": "Proposal to cancel experiments approved in VFDP-13 that have not yet been performed: (1) Worm longevity at Ora Biomedical, (2) Aging cell lines at Newcastle, (3) Worm healthspan at Magnitude Biosciences, (4) 3rd round SAR NCE Synthesis. Note: these are not bad experiments, just not appropriate given current information. To date, $56,620 of the $135K budgeted in VFDP-13 has been spent. The remaining budget is being replanned."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "New Experiments Plan",
+      "content": "The new plan consists of two components: (1) Conduct confirmatory experiments to confirm which of the Autophagy2 protein family is most important — to be done through siRNA knockouts and computational modelling at Newcastle University. (2) Computationally optimise the VF series novel compounds against the Autophagy1 and Autophagy2 targets to generate a highly potent compound now that drug <> target binding can be modelled. After completion, the team will most likely order the computationally optimised compound as an NCE for lab testing, with a plan update at that time."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cost Implications & Budget",
+      "content": "Original VFDP-13 budget: $135K. Spent to date: $56,620. Next steps can be conducted within existing resources at the University of Newcastle and with medicinal chemist subcontractor Dr Johannes Reynisson, Lecturer in Drug Discovery at the University of Keele (originally added in VFDP-4). Project wallet value: $147,500K as of 2nd Sep 2025 (accounting for allocated but unrealised costs), sufficient to fund this plan and follow-on experiments."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Budget Request Table",
+      "content": "Two line items requested:\n1. Additional siRNA reagents ordered @Newcastle — Cost: $3K — Months: Aug–Dec\n2. Extension of MedChem subcontract — Cost: $8K — Months: Jul–Dec\nTotal new budget requested: $11K"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Recommendation",
+      "content": "VITA-FAST has developed potent and novel compounds. This proposal seeks to leverage computational development of those molecules at a highly efficient price point utilising suppliers already in place with quotes from each. Recommended as a highly efficient way of improving the VF series compounds to generate value in the VITA-FAST project and raise further funding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Reporting",
+      "content": "A project data update to describe the results that led to this conclusion will be given in September. A project update on the [document appears cut off]."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Governance / Voting",
+      "content": "Community vote on the proposal: 1 vote cast, 100% Yes, 0% No. No end date specified for the vote."
+    }
+  ],
+  "key_findings": [
+    "VITA-FAST compounds have been confirmed to induce autophagy at 10x the level of rapamycin, with two protein targets (Autophagy1 confirmed, Autophagy2 hypothesised) identified as the mechanism of action.",
+    "Round 2 NCE structural modifications did not improve target binding potency vs. Round 1, informing a pivot away from SAR-based NCE synthesis toward computational optimisation.",
+    "Target discovery experiments conducted at Newcastle University in H1 2025 provided strong mechanistic hypotheses for both Autophagy1 and Autophagy2 protein families.",
+    "The project is at an early lead optimisation stage (pre-IND), with IND-enabling murine safety studies identified as the next major downstream milestone after lead compound identification.",
+    "IP filing is planned for the lead compounds once identified through computational optimisation.",
+    "MedChem subcontractor Dr Johannes Reynisson (Lecturer in Drug Discovery, University of Keele) is engaged for computational drug-target binding modelling.",
+    "siRNA knockouts and computational modelling at Newcastle University will be used to confirm which Autophagy2 protein family member is most relevant.",
+    "Project wallet stands at $147,500K as of 2 Sep 2025; $56,620 of $135K previously approved budget has been spent.",
+    "Previously approved experiments (worm longevity at Ora Biomedical, aging cell lines at Newcastle, worm healthspan at Magnitude Biosciences, 3rd round SAR NCE synthesis) are proposed for cancellation.",
+    "The project is governed via a decentralised voting mechanism (VFDP proposals); this proposal received 100% Yes with 1 vote."
+  ],
+  "document_date": "2025-09-10",
+  "milestones": [
+    {
+      "title": "VFDP-13 Experiment Plan Scoped",
+      "description": "Experiments and budget totalling $135K scoped for development of new chemical entities (NCEs), including two rounds of NCE testing and confirmatory experiments in worms and human aging cell lines.",
+      "date": "2025-03",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In March 2025 in VFDP-13 we scoped experiments and budget totalling $135K for the development of new chemical entities (NCE's).",
+      "page": 1
+    },
+    {
+      "title": "Round 2 NCE Testing & Target Discovery at Newcastle",
+      "description": "2nd round of NCE testing and target discovery experiments conducted at Newcastle University, resulting in identification of Autophagy1 and Autophagy2 as key targets and finding that round 2 structural modifications did not improve target binding.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Following the 2nd round of NCE testing and target discovery experiments at Newcastle we found that we have a strong hypothesis of two targets that are causing increased autophagy.",
+      "page": 1
+    },
+    {
+      "title": "MedChem Subcontract Extension (Jul–Dec 2025)",
+      "description": "Extension of MedChem subcontract with Dr Johannes Reynisson (University of Keele) for computational drug-target binding modelling and VF series compound optimisation.",
+      "date": "2025-07",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Extension of MedChem subcontract — $8K — Jul-Dec",
+      "page": 1
+    },
+    {
+      "title": "siRNA Reagents Ordered at Newcastle (Aug–Dec 2025)",
+      "description": "Additional siRNA reagents ordered at Newcastle University to conduct confirmatory experiments identifying which Autophagy2 protein family member is most important, via siRNA knockouts and computational modelling.",
+      "date": "2025-08",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Additional siRNA reagents ordered @Newcastle — $3K — Aug-Dec",
+      "page": 1
+    },
+    {
+      "title": "Project Data Update / Reporting in September",
+      "description": "A project data update to describe the H1 experimental results that led to the modified plan will be provided in September 2025.",
+      "date": "2025-09",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "A project data update to describe the results that led to this conclusion will be given in September.",
+      "page": 1
+    },
+    {
+      "title": "Project Wallet Valuation",
+      "description": "VITA-FAST project wallet valued at $147,500K as of 2nd September 2025, accounting for allocated but unrealised costs, sufficient to fund the modified plan.",
+      "date": "2025-09-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "The VITA-FAST project wallet currently has a value of $147,500K (as of 2nd Sep 2025 and accounting for allocated but unrealised costs).",
+      "page": 1
+    },
+    {
+      "title": "IP Filing for Lead Compounds",
+      "description": "Intellectual property to be filed for lead compounds identified through computational optimisation of VF series against Autophagy1 and Autophagy2 targets.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "We will also file IP for these compounds.",
+      "page": 1
+    },
+    {
+      "title": "IND-Enabling Murine Safety Studies",
+      "description": "Following lead compound identification, IND-enabling activities such as murine safety experiments are planned as the next downstream milestone.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "These experiments should allow us to define our lead molecule(s) for subsequent IND enabling activities such as murine safety experiments.",
+      "page": 1
+    }
+  ]
+}
