@@ -1,0 +1,206 @@
+{
+  "file_path": "/trl2-bufotenine-prodrug-project",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a TRL 2 project description for bufotenine (5-HO-DMT) prodrugs designed as CNS-penetrant 5-HT2A agonists for psychiatric indications. The work is entirely computational/analytical at this stage — no synthesis or biological experiments have been conducted. The document outlines a staged in silico campaign (WP1–WP6) covering physicochemical modeling, virtual library enumeration, receptor docking, MD simulations, ADMET profiling, and IP/FTO scanning, with defined success criteria and a path to TRL 3 wet-lab validation.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview and Concept Statement",
+      "content": "TRL 2 project. Modality: small molecule (natural-product-derived tryptamine). Work type: analytical and computational only — no synthesis, no biological material, no in vivo work. Core concept: bufotenine (5-HO-DMT) is a potent 5-HT2A agonist in vitro but has poor CNS penetration due to its free 5-hydroxyl group causing high polarity and ionization at physiological pH. The proposed approach is transient masking of the 5-OH group to create a CNS-penetrant prodrug, analogous to psilocybin (4-PO-DMT → psilocin). Intended application: controlled-duration, orally or intranasally dosed serotonergic agent for psychiatric indications, addressing limitations of 5-MeO-DMT (abrupt onset, ~10–20 min duration, poor titrability)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Problem Statement: Limitations of Existing Toad-Derived Psychedelics",
+      "content": "Two-column table comparing compounds and their limitations:\n- Bufotenine (5-HO-DMT): High polarity and ionization at pH 7.4; poor and route-dependent CNS exposure; prominent peripheral cardiovascular effects at doses needed for central activity.\n- 5-MeO-DMT: Good BBB penetration but very rapid onset and ~10–20 min duration; difficult to titrate; limited therapeutic window for psychological support.\nConclusion: Neither is a satisfactory clinical starting point. The prodrug concept targets the gap between them."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Underlying Rationale",
+      "content": "Four pillars of rationale:\n1. Precedent: Psilocybin is a naturally occurring phosphate ester prodrug of psilocin; dephosphorylation by alkaline phosphatase during first pass yields the active phenol, establishing that phenolic masking on a DMT scaffold is metabolically tractable and clinically viable.\n2. Physicochemistry: Masking the 5-OH removes a hydrogen-bond donor, lowers TPSA, and raises logD at pH 7.4 — the three parameters most strongly driving passive CNS penetration in the tryptamine series.\n3. Kinetic control: Ester, carbamate, and phosphate promoieties hydrolyse at different rates, making the rate of unmasking a design variable for tuning duration and onset.\n4. Metabolic protection: Bufotenine is a MAO substrate; a promoiety shielding the molecule during first pass may reduce presystemic MAO clearance."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Hypothesis",
+      "content": "Bufotenine analogs bearing hydrolysable 5-position promoieties will show predicted CNS penetration comparable to 5-MeO-DMT while retaining 5-HT2A binding of the released parent, with a 5-HT2A/5-HT2B selectivity margin at least as favourable as bufotenine itself."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "WP1 — Physicochemical Baseline and Model Validation",
+      "content": "Compute pKa (tertiary amine, indole NH, 5-OH), logP, logD (pH 7.4), TPSA, HBD/HBA counts, and CNS multiparameter optimisation score for a reference panel: bufotenine, 5-MeO-DMT, DMT, psilocin, psilocybin, serotonin. The panel has a known experimental rank order of CNS penetration. Purpose: validate that chosen predictors reproduce the known rank order before scoring novel structures. Gate: predicted BBB ranking must place 5-MeO-DMT and DMT above bufotenine and serotonin; if not, stop and re-parameterise."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "WP2 — Virtual Analog Library",
+      "content": "Enumerate 150–300 bufotenine derivatives across promoiety classes: simple alkyl and aryl esters, carbonate and carbamate esters, phosphate and phosphoramidate esters, and amino-acid conjugates addressing peptide transporter uptake. Output: enumerated, physicochemically annotated library with predicted hydrolytic half-lives estimated from published ester-hydrolysis QSAR where the chemotype is covered."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "WP3 — Receptor Docking and Selectivity Triage",
+      "content": "Dock released parent compound and any promoieties large enough to plausibly bind against active-state 5-HT2A and counter-targets 5-HT2B and 5-HT1A. Structures selected from current PDB depositions of agonist-bound 5-HT2A and ergoline-bound 5-HT2B (specific PDB identifiers to be confirmed at project start). Purpose: 5-HT2B agonism is the mechanism behind valvular heart disease seen with fenfluramine and pergolide — early triage is essential. Gate: retain only series with predicted 5-HT2A preference over 5-HT2B."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "WP4 — Molecular Dynamics and Binding Free Energy",
+      "content": "For top 10–20 candidates, run MD simulations of ligand–receptor complex and estimate relative binding free energies by MM-GBSA or FEP. Assess stability of toggle-switch and conserved binding-pocket contacts characteristic of agonist engagement. Explicit limitation: docking and free-energy methods rank affinity, not efficacy or signalling bias. Computational prediction of Gq vs. β-arrestin bias is not currently reliable; no bias claims should be made from this work package."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "WP5 — ADMET and Liability Profiling",
+      "content": "Predict hERG inhibition, CYP inhibition and induction, MAO-A/B substrate likelihood, hepatotoxicity flags, and aqueous solubility. Cross-check hits against structural alerts."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "WP6 — Prior Art and Freedom-to-Operate Scan",
+      "content": "Systematic literature and patent search on 5-position tryptamine prodrugs. The psilocybin analog space is heavily patented and the psychedelic IP landscape moves quickly; this scan must be run fresh and cannot be inherited from a prior review."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Success Criteria for TRL 2 Completion",
+      "content": "TRL 2 stage is complete when the project can present:\n1. A validated physicochemical prediction workflow (WP1 gate passed).\n2. At least 5 designed candidates with predicted CNS penetration in the 5-MeO-DMT range.\n3. A predicted 5-HT2A/5-HT2B selectivity rationale for the retained series.\n4. A documented FTO position.\n5. A written, costed wet-lab protocol ready to execute — the actual handover artifact to TRL 3."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Deliverables",
+      "content": "- Computational methods report with validation data\n- Annotated virtual library (structures, descriptors, predicted properties)\n- Docking and MD results package with explicit confidence statements\n- Prior art / FTO memorandum\n- TRL 3 experimental protocol: radioligand binding, functional cAMP/IP1 assay, PAMPA-BBB or MDCK-MDR1 permeability, and hydrolysis stability in plasma and simulated intestinal fluid"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Risks and Assumptions",
+      "content": "Five risks identified with severity and mitigation:\n1. In silico BBB predictors have modest accuracy for zwitterionic/ionizable species (this chemotype) — Severity: High — Mitigation: WP1 validation gate; treat all predictions as hypothesis-generating only.\n2. Promoiety hydrolysis may be too fast (no benefit) or too slow (no active drug released) — Severity: High — Mitigation: Deliberate spread of promoiety classes across a hydrolysis-rate range.\n3. Peripheral cardiovascular effects may be intrinsic to bufotenine, not a consequence of dosing high to overcome poor penetration — Severity: Medium — Mitigation: Explicit falsification test designed into TRL 3 protocol.\n4. 5-HT2B liability may not be separable within this scaffold — Severity: Medium — Mitigation: Early counter-screen; kill criterion defined before work begins.\n5. Crowded IP landscape — Severity: Medium — Mitigation: WP6 executed early, not at the end.\n\nCore assumption requiring wet-lab falsification: bufotenine's weak psychoactivity is predominantly a pharmacokinetic problem rather than a pharmacodynamic one. If bufotenine is intrinsically a weaker or differently-behaving 5-HT2A agonist in vivo than in vitro data suggest, the entire prodrug premise fails. This is the single most important question for TRL 3 to answer."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Regulatory and Compliance Notes",
+      "content": "- Bufotenine and 5-MeO-DMT are Schedule I in the United States and controlled in most jurisdictions. Computational work on structures is not itself restricted, but any downstream synthesis, possession, or handling requires appropriate controlled-substance licensing and institutional approvals, secured before TRL 3 begins.\n- Novel analogs may fall under analog-substance provisions in some jurisdictions; legal review required before physical work.\n- If any project stage contemplates animal-derived material, Nagoya Protocol access-and-benefit-sharing obligations and CITES status of the source species apply."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Path to TRL 3",
+      "content": "TRL 3 is reached on first experimental proof of concept: synthesis of 3–5 prioritised candidates under licence, followed by demonstration that (a) the promoiety hydrolyses to release bufotenine at a usable rate in plasma, and (b) the prodrug shows measurably improved permeability over bufotenine in a cell-based BBB model."
+    }
+  ],
+  "key_findings": [
+    "Project is at TRL 2 — technology concept formulated; all work is computational/analytical only with no synthesis, biological material, or in vivo experiments conducted.",
+    "Core concept: masking the 5-OH group of bufotenine (5-HO-DMT) with hydrolysable promoieties (esters, carbamates, phosphates, amino-acid conjugates) to improve CNS penetration, analogous to psilocybin as a prodrug of psilocin.",
+    "Central hypothesis: 5-position prodrugs will achieve predicted CNS penetration comparable to 5-MeO-DMT while retaining 5-HT2A binding and maintaining 5-HT2A/5-HT2B selectivity at least as favourable as bufotenine.",
+    "Six computational work packages planned: WP1 physicochemical baseline/model validation, WP2 virtual library (150–300 analogs), WP3 receptor docking/selectivity triage, WP4 MD and binding free energy, WP5 ADMET profiling, WP6 prior art/FTO scan.",
+    "WP1 gate criterion: predicted BBB ranking must place 5-MeO-DMT and DMT above bufotenine and serotonin; failure requires re-parameterisation before proceeding.",
+    "WP3 gate criterion: retain only candidate series with predicted 5-HT2A preference over 5-HT2B (5-HT2B agonism linked to valvular heart disease via fenfluramine/pergolide precedent).",
+    "TRL 2 completion requires: validated prediction workflow, ≥5 candidates with predicted CNS penetration in 5-MeO-DMT range, 5-HT2A/5-HT2B selectivity rationale, documented FTO position, and a written costed wet-lab protocol.",
+    "TRL 3 path: synthesis of 3–5 prioritised candidates under Schedule I licence, plasma hydrolysis demonstration, and improved permeability over bufotenine in cell-based BBB model (PAMPA-BBB or MDCK-MDR1).",
+    "Core assumption requiring wet-lab falsification: bufotenine's weak psychoactivity is predominantly pharmacokinetic, not pharmacodynamic. If bufotenine is intrinsically a weaker 5-HT2A agonist in vivo, the entire prodrug premise fails.",
+    "Two high-severity risks identified: (1) in silico BBB predictor accuracy for ionizable/zwitterionic species, and (2) promoiety hydrolysis rate being too fast or too slow.",
+    "Regulatory note: bufotenine and 5-MeO-DMT are Schedule I in the US; controlled-substance licensing required before any physical work at TRL 3. Novel analogs may fall under analog-substance provisions.",
+    "Explicit computational limitation stated: docking/free-energy methods rank affinity only, not efficacy or signalling bias; no Gq vs. β-arrestin bias claims should be made from WP4.",
+    "IP landscape noted as crowded (psilocybin analog space heavily patented); WP6 FTO scan must be run fresh and early."
+  ],
+  "milestones": [
+    {
+      "title": "WP1 Physicochemical Baseline and Model Validation",
+      "description": "Compute pKa, logP, logD, TPSA, HBD/HBA, and CNS MPO scores for reference panel (bufotenine, 5-MeO-DMT, DMT, psilocin, psilocybin, serotonin); validate that predicted BBB ranking reproduces known experimental rank order.",
+      "date": "before WP2",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Compute pKa (tertiary amine, indole NH, 5-OH), logP, logD (pH 7.4), TPSA, hydrogen-bond donor/acceptor counts, and a CNS multiparameter optimisation score for a reference panel: bufotenine, 5-MeO-DMT, DMT, psilocin, psilocybin, serotonin.",
+      "page": 1
+    },
+    {
+      "title": "WP2 Virtual Analog Library Enumeration",
+      "description": "Enumerate 150–300 bufotenine derivatives across promoiety classes with physicochemical annotation and predicted hydrolytic half-lives.",
+      "date": "after WP1 gate",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Enumerate 150–300 bufotenine derivatives across promoiety classes: simple alkyl and aryl esters, carbonate and carbamate esters, phosphate and phosphoramidate esters, and amino-acid conjugates addressing peptide transporter uptake.",
+      "page": 2
+    },
+    {
+      "title": "WP3 Receptor Docking and Selectivity Triage",
+      "description": "Dock released parent and promoieties against active-state 5-HT2A, 5-HT2B, and 5-HT1A; retain only series with predicted 5-HT2A preference over 5-HT2B.",
+      "date": "after WP2",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Dock the released parent compound and any promoieties large enough to plausibly bind, against active-state 5-HT2A and against 5-HT2B and 5-HT1A as counter-targets.",
+      "page": 2
+    },
+    {
+      "title": "WP4 Molecular Dynamics and Binding Free Energy",
+      "description": "Run MD simulations and MM-GBSA or FEP binding free energy estimates for top 10–20 candidates.",
+      "date": "after WP3",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "For the top 10–20 candidates, run MD simulations of the ligand–receptor complex and estimate relative binding free energies by MM-GBSA or FEP.",
+      "page": 2
+    },
+    {
+      "title": "WP5 ADMET and Liability Profiling",
+      "description": "Predict hERG inhibition, CYP inhibition/induction, MAO-A/B substrate likelihood, hepatotoxicity flags, aqueous solubility, and structural alerts for hit candidates.",
+      "date": "after WP3",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Predict hERG inhibition, CYP inhibition and induction, MAO-A/B substrate likelihood, hepatotoxicity flags, and aqueous solubility. Cross-check hits against structural alerts.",
+      "page": 2
+    },
+    {
+      "title": "WP6 Prior Art and Freedom-to-Operate Scan",
+      "description": "Systematic literature and patent search on 5-position tryptamine prodrugs; must be run fresh given rapidly evolving psychedelic IP landscape.",
+      "date": "early in project",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Systematic literature and patent search on 5-position tryptamine prodrugs. The psilocybin analog space is heavily patented and the psychedelic IP landscape moves quickly, so this scan must be run fresh — it cannot be inherited from a prior review.",
+      "page": 2
+    },
+    {
+      "title": "TRL 2 Completion — Handover to TRL 3",
+      "description": "Deliver validated prediction workflow, ≥5 candidates with predicted CNS penetration in 5-MeO-DMT range, 5-HT2A/5-HT2B selectivity rationale, documented FTO position, and written costed wet-lab protocol.",
+      "date": "after all WPs complete",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The stage is complete when the project can present: 1. A validated physicochemical prediction workflow (WP1 gate passed). 2. At least 5 designed candidates with predicted CNS penetration in the 5-MeO-DMT range. 3. A predicted 5-HT2A/5-HT2B selectivity rationale for the retained series. 4. A documented FTO position. 5. A written, costed wet-lab protocol ready to execute — this is the actual handover artifact to TRL 3.",
+      "page": 2
+    },
+    {
+      "title": "Controlled-Substance Licensing Secured Before TRL 3",
+      "description": "Appropriate Schedule I controlled-substance licensing and institutional approvals must be obtained before any synthesis, possession, or handling of bufotenine, 5-MeO-DMT, or novel analogs begins.",
+      "date": "before TRL 3 begins",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "any downstream synthesis, possession, or handling requires the appropriate controlled-substance licensing and institutional approvals, secured before TRL 3 begins.",
+      "page": 3
+    },
+    {
+      "title": "TRL 3 First Experimental Proof of Concept",
+      "description": "Synthesis of 3–5 prioritised candidates under Schedule I licence; demonstrate (a) promoiety hydrolyses to release bufotenine at usable rate in plasma, and (b) prodrug shows measurably improved permeability over bufotenine in cell-based BBB model (PAMPA-BBB or MDCK-MDR1).",
+      "date": "after TRL 2 completion",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "TRL 3 is reached on first experimental proof of concept: synthesis of 3–5 prioritised candidates under licence, followed by demonstration that (a) the promoiety hydrolyses to release bufotenine at a usable rate in plasma, and (b) the prodrug shows measurably improved permeability over bufotenine in a cell-based BBB model.",
+      "page": 3
+    }
+  ]
+}
