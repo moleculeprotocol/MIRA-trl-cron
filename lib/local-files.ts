@@ -21,6 +21,9 @@ const EXTRACTABLE_EXTENSIONS = new Map<string, string>([
   [".jpeg", "image/jpeg"],
   [".gif", "image/gif"],
   [".webp", "image/webp"],
+  [".txt", "text/plain"],
+  [".md", "text/markdown"],
+  [".markdown", "text/markdown"],
 ])
 
 /**

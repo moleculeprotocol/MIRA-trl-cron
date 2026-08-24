@@ -6,6 +6,8 @@ const EXTRACTABLE_CONTENT_TYPES = new Set([
   "image/jpeg",
   "image/gif",
   "image/webp",
+  "text/plain",
+  "text/markdown",
 ])
 
 const PROCESS_VERSION = "v3"

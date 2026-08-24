@@ -283,6 +283,17 @@ type SupportedMimeType =
   | "image/jpeg"
   | "image/gif"
   | "image/webp"
+  | "text/plain"
+  | "text/markdown"
+
+const TEXT_MIME_TYPES: ReadonlySet<SupportedMimeType> = new Set([
+  "text/plain",
+  "text/markdown",
+])
+
+function isTextMimeType(mimeType: SupportedMimeType): boolean {
+  return TEXT_MIME_TYPES.has(mimeType)
+}
 
 const trlValueSchema = z.object({
   trl_classification: z.enum([
@@ -420,6 +431,8 @@ function getMimeType(
     "image/jpeg",
     "image/gif",
     "image/webp",
+    "text/plain",
+    "text/markdown",
   ]
 
   if (supportedTypes.includes(contentType as SupportedMimeType)) {
@@ -433,6 +446,9 @@ function getMimeType(
     ".jpeg": "image/jpeg",
     ".gif": "image/gif",
     ".webp": "image/webp",
+    ".txt": "text/plain",
+    ".md": "text/markdown",
+    ".markdown": "text/markdown",
   }
 
   const ext = path.extname(filePath).toLowerCase()
@@ -565,11 +581,38 @@ async function downloadFileData(file: DataRoomFile): Promise<DownloadResult> {
   return { ok: true, data: Buffer.from(await response.arrayBuffer()), mimeType }
 }
 
+/**
+ * Upper bound on characters of text-file content we inline into the prompt.
+ * Text files (.txt/.md) are sent as raw tokens rather than as a native file
+ * part, so a pathologically large file could blow the context window. ~500k
+ * chars (~125k tokens) is generous for real dataroom text while staying safe.
+ */
+const MAX_TEXT_FILE_CHARS = 500_000
+
 function buildFileMessageContent(
   fileData: Buffer,
   mimeType: SupportedMimeType,
   promptText: string,
 ) {
+  // Text files (.txt/.md) carry no binary structure — decode and inline the
+  // content as text so the same extraction schema/prompt applies as for PDFs.
+  if (isTextMimeType(mimeType)) {
+    let text = fileData.toString("utf-8")
+    if (text.length > MAX_TEXT_FILE_CHARS) {
+      console.warn(
+        `Text file exceeds ${MAX_TEXT_FILE_CHARS} chars; truncating for extraction`,
+      )
+      text = `${text.slice(0, MAX_TEXT_FILE_CHARS)}\n\n[Content truncated]`
+    }
+    return [
+      {
+        type: "text" as const,
+        text: `<document>\n${text}\n</document>`,
+      },
+      { type: "text" as const, text: promptText },
+    ]
+  }
+
   const filePart =
     mimeType === "application/pdf"
       ? ({
