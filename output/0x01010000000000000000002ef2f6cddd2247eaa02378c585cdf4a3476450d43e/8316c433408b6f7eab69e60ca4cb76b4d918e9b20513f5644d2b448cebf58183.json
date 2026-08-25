@@ -1,0 +1,22 @@
+{
+  "file_path": "/readme-template",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a placeholder README file authored by Albert Einstein on November 28, 2024, titled \"Nuclear Waste Disposal on Mars.\" It contains no scientific content, experimental data, or biotech-relevant information — only template instructions for writing Markdown content. It is entirely irrelevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Placeholder Document",
+      "content": "The document contains only a title ('Nuclear Waste Disposal on Mars'), author metadata (Albert Einstein), and boilerplate instructions to 'write content using standard Markdown here' along with a link to Markdown syntax documentation. No scientific, experimental, clinical, or technical content is present."
+    }
+  ],
+  "key_findings": [
+    "Document is an empty template with no scientific or technical content relevant to TRL assessment.",
+    "No experiments, results, therapeutic targets, regulatory information, or milestones are described.",
+    "The topic (nuclear waste disposal on Mars) is outside the biotech/life sciences domain."
+  ],
+  "document_date": "2024-11-28",
+  "milestones": []
+}
