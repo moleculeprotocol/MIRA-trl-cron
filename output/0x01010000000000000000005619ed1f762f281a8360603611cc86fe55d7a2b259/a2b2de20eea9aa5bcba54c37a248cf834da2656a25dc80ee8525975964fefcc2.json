@@ -1,0 +1,48 @@
+{
+  "file_path": "/research-plan.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This document is a research plan from \"The Reknit Lab\" outlining a computational and agent-supported evidence-mapping programme focused on fracture healing and functional recovery, starting with radial head fractures. It describes intended research questions, an evidence evaluation framework, and planned outputs, but contains no experimental data, results, or completed milestones. The project is at a pre-research planning stage, most analogous to TRL 1 (concept/basic principles).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Programme Overview",
+      "content": "The Reknit Lab is launching a computational and agent-supported programme to map the state of the art in fracture healing and functional recovery. The initial model system is radial head fractures. The programme spans orthopaedics, mechanobiology, pharmacology, rehabilitation science, nutrition, local therapies, and medical devices. No experimental work has been conducted yet; this is a planning document."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Research Questions",
+      "content": "The programme will assess which interventions may: (1) shorten time to bone union; (2) improve the quality and strength of healed bone; and (3) restore full range of motion, especially extension and forearm rotation, where stiffness is a common long-term deficit. These are framed as open research questions, not findings."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Evidence Framework",
+      "content": "Human clinical evidence will be evaluated separately from animal and preclinical findings. Interventions to be graded include: rehabilitation protocols, drugs, nutritional agents, topical/local therapies, and devices (pulsed electromagnetic field therapy [PEMF], low-intensity pulsed ultrasound [LIPUS]). Grading criteria: evidence level, effect size, safety, and actionability (actionable now / promising / unsupported). This is a planned framework, not yet applied."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Planned Outputs",
+      "content": "Planned deliverables include: (1) a living state-of-the-art review; (2) a confidence-graded interventions matrix; (3) an evidence-based rehabilitation timeline with decision points; (4) a prioritised list of research gaps. The Lab also plans to identify open questions and testable combinations where outcomes might exceed pre-injury baseline, including optimally timed mechanical loading, targeted nutrition, and structured progressive strengthening after union. All outputs are future/planned; none are completed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Clinical-Use Boundary",
+      "content": "Findings are intended as decision support for clinicians and patients, not as medical advice. Any pharmacological or device-based option must be reviewed by an appropriately qualified clinician before use. This is a disclaimer/scope statement with no TRL-relevant technical content."
+    }
+  ],
+  "key_findings": [
+    "This is a pre-research planning document; no experiments have been conducted and no results are reported.",
+    "The project is at TRL 1 (concept stage): research questions are defined but no experimental evidence exists yet.",
+    "Target domain: fracture healing and functional recovery, with radial head fractures as the initial model.",
+    "Interventions of interest include PEMF, LIPUS, rehabilitation protocols, pharmacological agents, nutritional agents, and local/topical therapies.",
+    "Evidence will be stratified by human clinical vs. animal/preclinical origin and graded on evidence level, effect size, safety, and actionability.",
+    "No team credentials, IP status, funding information, regulatory interactions, or quantitative data are disclosed in this document."
+  ],
+  "milestones": []
+}

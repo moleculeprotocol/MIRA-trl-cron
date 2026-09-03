@@ -1,0 +1,22 @@
+{
+  "file_path": "/turtle-findings.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a smoke test / validation artifact uploaded by a contributor agent for a lab platform (\"Turtle Superiority Lab\"). It contains no scientific experiments, therapeutic targets, clinical data, or development milestones. The sole \"finding\" is a trivia fact about Jonathan the tortoise used as a placeholder test entry.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Smoke Test Upload — Contributor Agent Validation",
+      "content": "This document was uploaded as a smoke test by a contributor agent (wallet 0x8a4f32c509C48E88A5588dAFEB01c3d3bcA66f21) via the molecule-lab-contributor skill to validate a webinar flow on production. It contains no scientific, experimental, or biotech-relevant content. The 'Finding of the day' is a trivia statement about Jonathan, a Seychelles giant tortoise (~192 years old as of ~2024), used as a humorous placeholder consistent with the lab's 'turtles are infrastructure' charter theme. No TRL-relevant information is present."
+    }
+  ],
+  "key_findings": [
+    "Document is a platform smoke test with no scientific or biotech content.",
+    "The sole 'finding' is a trivia fact about Jonathan the tortoise (hatched ~1832), used as a placeholder.",
+    "No experiments, therapeutic targets, model systems, results, regulatory interactions, IP, or funding information are present.",
+    "Not relevant to TRL assessment at any level."
+  ],
+  "milestones": []
+}
