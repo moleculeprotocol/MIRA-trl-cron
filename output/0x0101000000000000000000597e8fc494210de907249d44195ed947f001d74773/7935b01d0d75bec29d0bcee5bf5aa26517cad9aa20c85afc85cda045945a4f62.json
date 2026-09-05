@@ -1,0 +1,178 @@
+{
+  "file_path": "/peptai-webinar-presentation.pdf",
+  "extraction_version": 2,
+  "document_type": "presentation",
+  "relevance": "medium",
+  "summary": "This is a webinar presentation (Webinar #1) by PeptAI and Molecule Labs titled \"From Prompt to Peptide,\" introducing an AI-driven drug discovery workflow platform. The document describes the conceptual architecture of an agentic peptide design system (Vault, SOUL, Skills, agent fleets) and its integration with wet-lab validation, but contains no experimental results or quantitative data. The platform is at an early stage (TRL 1–2), with two programs listed on Molecule Labs at TRL 1.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover / Overview – From Prompt to Peptide",
+      "content": "Webinar #1 by Molecule Labs. PeptAI is described as a drug-discovery lab running on Molecule Labs. Key pillars: THE IDEA (Your gigabrain), THE ENGINE (Memory + provenance), YOU LEAVE WITH (Vault · SOUL · skills · wallet). No experimental data presented."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Team",
+      "content": "Team members: Logan Bishop-Currey (Molecule, Product Growth Manager – new operational models for biotech research); Ella McCarthy-Page (Molecule, Product Marketing); Rafael Rolli (PeptAI, Lead Scientist); Martin Karlsson (PeptAI, Applied AI); Corey Howe (PeptAI, Computational Biologist)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Why We Started PeptAI – Motivation",
+      "content": "Founding rationale: (1) Peptides and de novo binders represent a large unexplored chemical space. (2) Problem: tools are scattered across many models, CROs, and file formats. (3) One-shot AI design rarely works; success requires rapid iteration between AI design and experimental validation. (4) Intelligent systems require memory, calibration, provenance, and decentralized knowledge graphs. (5) Most AI×Bio tools are built for solo operators; PeptAI aims to support cross-geography collaboration. No experimental evidence cited."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Quick Glossary – Key Terms",
+      "content": "Definitions used throughout: Vault (plain-text lab memory folder), Harness (app enabling AI to read files and run tools, e.g. Claude Code or Codex), SOUL (document holding lab identity and rules, read first each session), Skill/SOP (saved repeatable AI process), Agent fleet (parallel AI workers), API key (authentication for external tools/databases), Provenance (traceable source behind every claim), Pay-as-you-go (per-call compute/data billing)."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "The Big Idea – Gigabrain Concept",
+      "content": "Core concept: The 'gigabrain' = AI model (transient, forgets at session end, swappable) + Vault (persistent plain-text notes, versioned and cross-linked). Together they form a brain that loads full context on demand and improves over time. This is a conceptual framework, not an experimental result."
+    },
+    {
+      "page": 7,
+      "type": "diagram",
+      "title": "The Stack – Layer by Layer",
+      "content": "Six-layer architecture diagram: Layer 1 (Base) – Memory: The vault (plain-text) + Git, one source of truth. Layer 2 – Identity: SOUL + priming, beliefs, defaults, vault map. Layer 3 – Coordination: The harness – skills (SOPs), agent fleets, model tiering. Layer 4 – Science: Databases, literature agent, design compute, wet-lab. Layer 5 – Payments: OCL wallet, pay-as-you-go compute and data. Layer 6 (Top) – Public layer: Molecule Labs page – share, signal, and fund. Flows: grounding (read on activation), funding (pay-as-you-go), on-chain record (written back and published)."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "How the Gigabrain Boots – Context Rebuilding",
+      "content": "Two directions for context rebuilding: Bottom-up (Ground Truth) – what actually happened; vault keeps the record across sessions, eliminating re-asking. Top-down (North Star) – what the lab is trying to do; enables picking up work where left off, analogous to a colleague who remembers yesterday."
+    },
+    {
+      "page": 9,
+      "type": "diagram",
+      "title": "The Architecture – Design-Predict-Wet-Lab-Recalibrate Loop",
+      "content": "Four-step iterative loop: 01 Design (Generate) – define vault, generate scientific research and candidates. 02 Predict (In silico) – fold, score, and filter on hosted GPU. 03 Wet-Lab (Measure) – libraries of candidates tested at the bench. 04 Recalibrate (Learn) – results return as paired data and retune thresholds. This is the intended workflow architecture; no results from completed cycles are presented."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Starter Pack – Tools Installed",
+      "content": "Participants receive: (1) Obsidian (free notebook/vault) + coding harness (Claude Code/Codex) on same folder. (2) Vault skeleton + SOUL + skills, personalized. (3) Molecule Labs account with data-recording layer + wallet for automatic payments. Housekeeping via Telegram group."
+    },
+    {
+      "page": 11,
+      "type": "table",
+      "title": "Tool Stack Table",
+      "content": "| Tool | Purpose | Cost | Alternatives |\n|---|---|---|---|\n| Obsidian | Vault: notes, programmes, decisions | FREE | Any Markdown editor |\n| Git + GitHub | Versioning, history, off-machine backup | FREE | GitLab, local git only |\n| Claude Code / Codex | The harness that runs the show | PAID | OpenRouter + Aider / Continue |\n| subseq.bio | Structure runner (hosted GPU) | PAY-GO | Local Boltz if GPU available |\n| K-Dense skills | Open-source scientific skills bundle | FREE | Hand-rolled skills |\n| OCL wallet | Agentic per-call payments | PAY-GO | Covered by Molecule to start |"
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "Datasets & Scientific Skills",
+      "content": "Data and compute integrations: (1) Databases/Lookups – PDB, UniProt, PubMed, ClinicalTrials.gov via gget, biopython, bioservices, paper-lookup. (2) Literature/Deep Research – pulls and double-checks sources before vault entry. (3) Compute/Structure & Design – subseq.bio (hosted GPU) for structure; Boltz for structure + binding; no local GPU required. (4) Wet-Lab/Own Datasets – Adaptyv skill initiates real binding assays from a sequence."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "Collaborative Work – Drafted vs Published",
+      "content": "Two-tier knowledge management: Your Laptop (The Kitchen) – private, messy, fast iteration space for working drafts. Shared Drive (The Cookbook) – only checked, agreed work promoted here; promoting = review; verify claim, cite source; version every change, never overwrite silently."
+    },
+    {
+      "page": 15,
+      "type": "mixed",
+      "title": "Molecule Labs Public Layer – PeptAI Profile",
+      "content": "Screenshot of PeptAI's Molecule Labs public page. Founded 2026. Description: 'An autonomous AI agent for peptide drug discovery. Researchers specify a protein target, and the agentic fleet sources candidate peptides, evaluates each against a multi-parameter screening cascade, and advances only those meeting all criteria. Candidate peptides are validated in the lab.' Stats: Total Labs = 2, Tokenized IP Value = $17,500.00. Team listed: Paul Kolhaas (Lead Architect), Rafael Rolli (Principal Scientist), Martin Karlsson (Applied AI Expert). Two programs listed: (1) KISS1R – 'PeptAI's first program targets a fertility disorder where the body fails to produce enough...' TRL Score: TRL 1, Funding: $10,000.00. (2) OX2R-004 – 'Children with ADHD show low levels of orexin, a brain signaling molecule tied to focus and...' TRL Score: TRL 1, Funding: $7,500.00. Lab Activity: High."
+    },
+    {
+      "page": 17,
+      "type": "text",
+      "title": "Provenance – Common Roadblocks",
+      "content": "Four common failure modes in AI-driven drug discovery: (1) One-shot design rarely works – play for shots on goal; screen binding-first; save expensive assays for candidates that already look real. (2) Calibrate before you rank – run positive controls; suspect own setup first (version, out-of-distribution, wrong threshold) before blaming the tool. (3) Silent data/format drift – 0- vs 1-index; check every file type; make 'pick the best' prove itself against the whole pool. (4) Confident fabrication – models invent citations; verify the primary source; treat own hedging as cue to go check."
+    },
+    {
+      "page": 18,
+      "type": "text",
+      "title": "Wrap-Up & Next Steps",
+      "content": "This week action items: Join Telegram group; set up vault, OCL, and wallet; share projects; account questions to ella@molecule.to. Coming in Webinar #2 (advanced module): Agentic payments; vibecode own front-end/dashboard; run agents through Hermes with reward functions and loops."
+    },
+    {
+      "page": 19,
+      "type": "diagram",
+      "title": "Webinar #2 Preview – Reward Function Architecture",
+      "content": "Preview of Webinar #2 content. Autonomous agent reward function: reward = 0.5 × binding + 0.3 × drug-likeness + 0.2 × can-you-make-it. Three components: (1) Docking (weight 0.5) – 'Does it bind?' – dock molecule into target pocket and score. (2) ADMET (weight 0.3) – 'Would it act like a drug?' – size, solubility, drug-likeness. (3) Synthesis (weight 0.2, pending) – 'Can you make or buy it?' – sourcing feasibility. Bar chart shown with 5 candidates (D1–D5) scored: D1=0.74, D2=0.61, D3=0.54, D4=0.50, D5=0.50. Calibration note: 'Real antihistamines beat a sugar – diphenhydramine and doxepin bind the H1 pocket; glucose barely does.' Seed molecule: Diphenhydramine (Benadryl). This is a preview/planned demonstration, not completed experimental data."
+    }
+  ],
+  "key_findings": [
+    "PeptAI is an autonomous AI agent for peptide drug discovery, founded in 2026, currently at TRL 1 for both active programs.",
+    "Two programs are listed on Molecule Labs: KISS1R (fertility disorder, TRL 1, $10,000 funded) and OX2R-004 (ADHD/orexin, TRL 1, $7,500 funded); total tokenized IP value $17,500.",
+    "The platform architecture is a four-step iterative loop: Design (AI candidate generation) → Predict (in silico folding/scoring on hosted GPU via subseq.bio/Boltz) → Wet-Lab (binding assays via Adaptyv) → Recalibrate (paired data retuning thresholds).",
+    "No experimental results or quantitative efficacy/binding data are presented in this document; the content is conceptual and workflow-oriented.",
+    "The team includes a Lead Scientist (Rafael Rolli), Applied AI expert (Martin Karlsson), and Computational Biologist (Corey Howe) on the PeptAI side, plus a Lead Architect (Paul Kolhaas) listed on the Molecule Labs profile.",
+    "Key acknowledged limitation: one-shot AI design rarely works; success requires rapid iteration between AI design and experimental validation.",
+    "Webinar #2 will introduce agentic reward functions (reward = 0.5×binding + 0.3×drug-likeness + 0.2×synthesizability) with H1 receptor antihistamine calibration example (diphenhydramine, doxepin vs. glucose control).",
+    "The system integrates with PDB, UniProt, PubMed, ClinicalTrials.gov for literature/database lookups, and Adaptyv for wet-lab binding assay ordering.",
+    "Payments are handled via OCL wallet on a pay-as-you-go basis; results are published on-chain via Molecule Labs."
+  ],
+  "milestones": [
+    {
+      "title": "PeptAI Founded",
+      "description": "PeptAI was founded, as indicated on the Molecule Labs public profile page.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Founded in 2026 · Peptide · Autonomous Drug Design",
+      "page": 15
+    },
+    {
+      "title": "KISS1R Program Initiated (TRL 1)",
+      "description": "PeptAI's first program targeting a fertility disorder (KISS1R) is listed at TRL 1 with $10,000 in funding on Molecule Labs.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "KISS1R – PeptAI's first program targets a fertility disorder where the body fails to produce enough... TRL 1, $10,000.00",
+      "page": 15
+    },
+    {
+      "title": "OX2R-004 Program Initiated (TRL 1)",
+      "description": "Second PeptAI program targeting OX2R for ADHD/orexin deficiency is listed at TRL 1 with $7,500 in funding on Molecule Labs.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "OX2R-004 – Children with ADHD show low levels of orexin, a brain signaling molecule tied to focus and... TRL 1, $7,500.00",
+      "page": 15
+    },
+    {
+      "title": "Webinar #1 – From Prompt to Peptide",
+      "description": "First PeptAI/Molecule Labs webinar introducing the platform architecture, vault system, and starter pack to participants.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "WEBINAR #1 · MOLECULE LABS – From Prompt to Peptide",
+      "page": 1
+    },
+    {
+      "title": "Webinar #2 – Advanced Module (Planned)",
+      "description": "Second webinar planned covering agentic payments, custom front-end/dashboard (vibecoding), and running agents through Hermes with reward functions and loops.",
+      "date": "relative",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "COMING IN WEBINAR #2 – The advanced module → Agentic payments. → Vibecode your own front-end / dashboard. → Run your agents through Hermes with reward functions and loops.",
+      "page": 18
+    },
+    {
+      "title": "Participant Workspace Setup (This Week)",
+      "description": "Action items for webinar participants: join Telegram group, set up vault/OCL/wallet, share projects.",
+      "date": "relative",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "THIS WEEK – Post your first run → Join the Telegram group for questions, wins, and shared learnings. → Set up your workspaces: the vault, OCL, and the wallet.",
+      "page": 18
+    }
+  ]
+}
