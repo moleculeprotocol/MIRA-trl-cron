@@ -1,0 +1,151 @@
+{
+  "file_path": "/synthistat-multi-target-dd-overview-010926",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "Synthistat Ltd's non-confidential business development summary describes a multi-target HDAC inhibitor platform comprising 14 small-molecule candidates with computationally predicted (docking) activity against HDAC2/6, BRD4, PARP1, and dopamine D2R. All evidence presented is computational (molecular docking, predicted physicochemical/ADME properties); no wet-lab experimental data are reported. The platform is at an early discovery/computational stage, seeking partners for in-vitro biology and translational development, with provisional patent protection in place.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Executive Summary – Multi-Target HDAC Inhibitor Platform",
+      "content": "Synthistat Ltd is developing multi-target epigenetic therapeutics that combine HDAC inhibition, BRD4 modulation, PARP1 inhibition, and (in advanced embodiments) dopamine D2R regulation within a single small-molecule scaffold. The platform uses a modular pharmacophore: Novel cap – Programmed linker – Zinc-binding group. The novel cap moiety acts as a global conformational director, preventing intramolecular folding, enforcing extended binding geometries, improving engagement of HDAC/BRD4/PARP1, and enhancing metabolic stability. No wet-lab experimental data are presented; all activity claims are computational predictions."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Core Molecular Innovation – Linker Design",
+      "content": "The linker is intentionally engineered (often conformationally constrained) to encode exit-vector control, three-dimensional geometry, and expansion of target scope into GPCR space (D2R). This design is claimed to allow multi-target engagement without sacrificing epigenetic pharmacology. All described properties are design rationale, not empirical results."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Integrated Multi-Target Activity Summary (Predicted)",
+      "content": "Summary of predicted functional outcomes per target class:\n- HDAC2/HDAC6: Robust zinc-coordinated predicted inhibition with pose-verified non-covalent geometry.\n- BRD4: Strong predicted engagement across the 14 dual-target candidates, with recurrent Asn140-directed recognition geometries.\n- PARP1: Additional predicted engagement in 9 of the 14 current HDAC/BRD4 candidates.\n- D2R (HDAC-008): High-affinity predicted D2R engagement (-10.1 kcal/mol) in the advanced dual-target lead.\nAll values are computational docking scores, not biochemical assay results."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Table 1A – Docking Scores and Predicted Physicochemical Properties: HDAC-006 to HDAC-018 vs. Panobinostat",
+      "content": "14 HDAC/BRD4 candidates compared to panobinostat reference. Key data (all predicted/docking):\n\nBRD4 docking (kcal/mol): HDAC-006=-8.9, HDAC-007=-8.2, HDAC-008=-7.9, HDAC-009=-8.3, HDAC-014=-8.3, HDAC-017=-8.3, HDAC-018=-8.3, Panobinostat=-6.5\nHDAC2 docking (kcal/mol): HDAC-006=-8.3, HDAC-007=-8.6, HDAC-008=-8.6, HDAC-009=-8.2, HDAC-014=-8.2, HDAC-017=-8.2, HDAC-018=-8.2, Panobinostat=-8.4\nHDAC6 docking (kcal/mol): HDAC-006=-8.6, HDAC-007=-6.5, HDAC-008=-6.2, HDAC-009=-6.7, HDAC-014=-6.4, HDAC-017=-6.3, HDAC-018=-6.5, Panobinostat=-6.2\nPARP1 docking (kcal/mol): HDAC-006=-11.4, HDAC-007=-10.3, HDAC-008=-9.6, HDAC-009=-9.9, HDAC-014=-10.0, HDAC-017=-9.7, HDAC-018=-, Panobinostat=-8.6\nD2R docking (kcal/mol): HDAC-008=-10.1, all others=-\nMolecular Weight: 385-469 Da (all candidates), Panobinostat=349.18\nLog P (Predicted): 0.359-2.022 (candidates), Panobinostat=2.98\nLog S (Predicted): -3.669 to -1.743 (candidates), Panobinostat=-3.79\nLog D7.4 (Predicted): 0.940-2.333 (candidates), Panobinostat=2.205\nTPSA (Å²): 106.19-126.42 (candidates), Panobinostat=77.15\nHBD: 2-4 (candidates), Panobinostat=4\nHBA: 9-11 (candidates), Panobinostat=5\nRotatable Bonds: 5-8 (candidates), Panobinostat=8\nFraction Csp3: 0.182-0.500 (candidates), Panobinostat=0.19\nQED: 0.329-0.381 (candidates), Panobinostat=0.229\nSynthetic Accessibility: 2.336-2.900 (candidates), Panobinostat=2.88\nLipinski Violations: 0 for all candidates and panobinostat\nPAINS Alerts: 0 for all candidates; Panobinostat=1\nZn-O Distance (Å): 1.77-2.20 (candidates)\nAsn140 ND2-O (Å): 2.80-3.20 (candidates)\nNote: All physicochemical/ADME values are ML model predictions from SMILES; docking scores from computational campaigns. SMILES intentionally omitted."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Table 1B – Docking Scores and Predicted Physicochemical Properties: HDAC-022 to HDAC-040 vs. Panobinostat",
+      "content": "Second subset of 7 candidates:\nBRD4 docking (kcal/mol): HDAC-022=-8.4, HDAC-023=-8.3, HDAC-031=-8.6, HDAC-032=-9.1, HDAC-035=-9.1, HDAC-039=-7.9, HDAC-040=-8.1, Panobinostat=-6.5\nHDAC2 docking (kcal/mol): HDAC-022=-8.0, HDAC-023=-8.2, HDAC-031=-9.8, HDAC-032=-9.4, HDAC-035=-9.3, HDAC-039=-9.0, HDAC-040=-8.7, Panobinostat=-8.4\nHDAC6 docking (kcal/mol): HDAC-022=-6.8, HDAC-023=-6.9, HDAC-031=-6.6, HDAC-032=-6.6, HDAC-035=-6.2, HDAC-039=-6.6, HDAC-040=-6.6, Panobinostat=-6.2\nPARP1 docking (kcal/mol): HDAC-031=-10.4, HDAC-032=-9.6, HDAC-035=-9.7, others=-, Panobinostat=-8.6\nD2R: all=-\nMolecular Weight: 396.19-440.22 Da (candidates)\nLog P (Predicted): 0.750-1.611 (candidates)\nLog S (Predicted): -3.620 to -2.882 (candidates)\nLog D7.4 (Predicted): 1.208-1.953 (candidates)\nTPSA (Å²): 112.18-126.70 (candidates)\nHBD: 2-3 (candidates)\nHBA: 9-10 (candidates)\nRotatable Bonds: 7-8 (candidates)\nFraction Csp3: 0.300-0.455 (candidates)\nQED: 0.276-0.416 (candidates)\nSynthetic Accessibility: 2.744-3.611 (candidates)\nLipinski Violations: 0 for all\nPAINS Alerts: 0 for all candidates; Panobinostat=1\nZn-O Distance (Å): 1.84-2.10 (candidates)\nAsn140 ND2-O (Å): 2.80-3.10 (candidates)"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Docking & ADME Highlights and Prediction Methodology",
+      "content": "Key highlights from computational analysis:\n- 14 pose-verified candidates show predicted engagement of both HDAC and BRD4.\n- All 14 have zero Lipinski violations.\n- Predicted logP: ~0.36-2.02; logS: ~-3.67 to -1.74.\n- HDAC-031: strongest predicted HDAC2 binding (-9.8 kcal/mol).\n- HDAC-006: strongest predicted HDAC6 binding (-8.6 kcal/mol).\n- HDAC-032 and HDAC-035: strongest predicted BRD4 binding (-9.1 kcal/mol).\n- 9 of 14 candidates have PARP1 docking scores; HDAC-008 has D2R score of -10.1 kcal/mol.\n\nPrediction Methodology: logP and logS generated using trained molecular graph-based regression models with 2D cheminformatics descriptors. These are model-specific predictions, not fragment-based or linear descriptor calculations.\n\nLead Evolution Strategy (HDAC-007 → HDAC-008): preserve HDAC/BRD4/PARP1 pharmacology, reprogram linker geometry, unlock D2R engagement without destabilising core HDAC/BRD4 binding. Described as 'encoded polypharmacology, not empirical promiscuity.'"
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Primary Oncology Applications and Strategic Differentiation",
+      "content": "Target indications:\n- Acute Myeloid Leukaemia (AML)\n- MYC-driven & super-enhancer-dependent cancers\n- HR-deficient tumours (breast, ovarian, prostate, pancreatic, lung, glioblastoma)\n\nAdditional commercial application: Enhancement of lentiviral vector production (LVV) for CAR-T, gene therapy, and CRISPR manufacturing.\n\nStrategic Differentiation vs. Conventional HDACi:\n- Multi-target integration: Yes (Novel) vs. No (Conventional)\n- HDAC+BRD4: Yes (14 candidates) vs. No\n- HDAC+BRD4+PARP1: Yes (9 candidates) vs. No\n- D2R modulation: Yes (HDAC-008) vs. No\n- Conformational control: Engineered vs. Absent\n- Michael acceptors: None vs. Common\n- Developability: High vs. Limited\nAll differentiation claims are based on computational predictions, not experimental data."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Ligand Pose Verification & Structural Robustness",
+      "content": "Multi-target activity supported by ligand-pose verification across independent docking campaigns using multiple receptor structures, cavity definitions, and docking engines. 14 candidates have pose-verified predicted activity at both HDAC and BRD4. 9 extend into predicted HDAC-BRD4-PARP1 tri-target profile; HDAC-008 additionally carries D2R score.\n\nStructural metrics across dual set:\n- HDAC zinc-donor distance: ~1.77-2.20 Å\n- BRD4 Asn140 ND2-to-acceptor distances: ~2.8-3.2 Å\n- Three-anchor architecture: (A) cap-mediated surface recognition/conformational control, (B) linker-mediated directional steering, (C) zinc-binding-group coordination in HDAC.\n\nDevelopment & Partnering status:\n- Provisional patent protection in place\n- Multiple validated lead series (computationally)\n- Extensive structural & docking verification\n- Ready for in-vitro biology & translational development (not yet initiated)\n- Seeking partnership; additional confidential data available under NDA."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Older Series – HDAC/D2R Dual-Mechanism Candidate Therapeutics (Separate Provisional Filing)",
+      "content": "An earlier/separate series of small-molecule candidates designed via structure-guided computational methods to engage HDAC2/6 and D2R simultaneously. Scientific rationale: HDAC inhibition is established in AML (San José-Enériz et al., 2019; Zhang et al., 2021); D2R antagonism (thioridazine) selectively eliminates leukemic progenitor populations in AML (Sachlos et al., 2012), validating D2R as a target in AML pathobiology.\n\nComputational results for older series (Molecules 1-4):\n- HDAC2 binding: down to -8.5 kcal/mol\n- D2R engagement: down to -10.7 kcal/mol (potential nM potency)\n- Favourable solubility, polarity, permeability indicators\n- Improved molecular flexibility profiles\n- Absence of critical toxicity-associated motifs\nAll results are computational; no wet-lab data reported."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Table 1 (Older Series) – HDAC/D2R Docking Scores and ADME Parameters: Molecules 1-4 vs. Panobinostat",
+      "content": "Comparison of older HDAC/D2R dual-mechanism candidates vs. panobinostat:\n\nHDAC2 Docking Score (kcal/mol): Panobinostat=-8.4, Mol1=-8.0, Mol2=-8.2, Mol3=-8.5, Mol4=-9.8 (Mol4 strongest)\nHDAC6 Docking Score (kcal/mol): Panobinostat=-6.2, Mol1=-8.0, Mol2=-6.7, Mol3=-7.7, Mol4=-6.5 (Mol1 strongest)\nD2R Docking Score (kcal/mol): Panobinostat=—, Mol1=-10.1, Mol2=-10.1, Mol3=-9.9, Mol4=-10.7 (Mol4 strongest)\nFsp3 (Saturation): Panobinostat=0.19, Mol1=0.29, Mol2=0.32, Mol3=0.29, Mol4=0.25\nLog P (Lipophilicity): Panobinostat=2.98, Mol1=2.38, Mol2=2.14, Mol3=2.19, Mol4=2.34 (all within favourable range)\nLog S (Solubility): Panobinostat=-3.79, Mol1=-3.85, Mol2=-3.90, Mol3=-3.36, Mol4=-3.64 (Mol3 highest solubility)\nTPSA (Polarity, Å²): Panobinostat=77, Mol1=71, Mol2=80, Mol3=88.59, Mol4=91.48\nRotatable Bonds: Panobinostat=8, Mol1=6, Mol2=8, Mol3=5, Mol4=6 (Mol3 least flexible)\nMetabolism (CYP): Panobinostat=CYP1A2/2D6, Mol1=CYP1A2/2D6, Mol2=Only CYP2D6 (simplest profile), Mol3=CYP1A2/2D6, Mol4=CYP2C19/2C9/2C8\nMichael Acceptor: Panobinostat=Present, Mol1-4=Absent (all candidates avoid this liability)\n\nMolecule 3 highlighted as most promising: highest solubility, lowest rotatable-bond count, most favourable TPSA, strong HDAC2 and D2R scores, no reactive liabilities.\nAll values are computational predictions."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "IP Status, Partnering, and References",
+      "content": "IP: Structures protected under a provisional patent filing with full priority coverage; not disclosed to external parties. Additional confidential molecular information available under NDA.\n\nPartnering: Synthistat welcomes scientific feedback and exploratory discussions regarding HDAC/D2R-binding biochemical assays, AML-derived cell line testing, and future translational development.\n\nReferences cited:\n1. Grant et al. (2022) Carcinogenesis 43(6):517-529 – dopamine in cancer.\n2. Sachlos et al. (2012) Cell 149(6):1284-1297 – D2R antagonist selectively targets AML cancer stem cells.\n3. San José-Enériz et al. (2019) Cancers 11(11):1794 – HDAC inhibitors in AML.\n4. Zhang, Gao & Yu (2021) Frontiers in Oncology 11:741746 – HDACs in AML.\n\nContact: Zakeria Abdi, CEO, Synthistat Ltd. info@synthistat.com"
+    }
+  ],
+  "key_findings": [
+    "All activity data are purely computational (molecular docking scores and ML-predicted physicochemical/ADME properties); no wet-lab experimental results (biochemical assays, cell-based assays, in vivo studies) are reported anywhere in the document.",
+    "14 pose-verified small-molecule candidates show predicted dual engagement of HDAC (HDAC2/HDAC6) and BRD4, all with zero Lipinski violations and no PAINS alerts.",
+    "9 of 14 candidates additionally show predicted PARP1 engagement (docking scores -9.6 to -11.4 kcal/mol), and HDAC-008 shows predicted D2R engagement (-10.1 kcal/mol).",
+    "Strongest predicted HDAC2 binder: HDAC-031 (-9.8 kcal/mol); strongest predicted BRD4 binders: HDAC-032 and HDAC-035 (-9.1 kcal/mol); strongest predicted HDAC6 binder: HDAC-006 (-8.6 kcal/mol); strongest predicted PARP1 binder: HDAC-006 (-11.4 kcal/mol).",
+    "Older series (separate provisional filing): 4 molecules with predicted HDAC2 binding down to -8.5 kcal/mol and D2R engagement down to -10.7 kcal/mol; Molecule 3 identified as most promising based on combined ADME and docking profile.",
+    "All candidates lack Michael acceptors (a key safety/selectivity advantage over panobinostat, which has a Michael acceptor present).",
+    "Provisional patent protection is in place for both the newer multi-target series and the older HDAC/D2R series (separate filings); SMILES and full structures withheld.",
+    "Platform is explicitly described as 'ready for in-vitro biology & translational development,' indicating no in-vitro biology has been conducted yet — consistent with TRL 1-2.",
+    "Scientific rationale for D2R targeting in AML is supported by published preclinical evidence (Sachlos et al., 2012: thioridazine selectively eliminates D2R-expressing AML progenitors).",
+    "Predicted physicochemical properties generated using trained molecular graph-based ML regression models combined with 2D cheminformatics descriptors — not experimental measurements.",
+    "Panobinostat used as reference comparator throughout; Synthistat candidates show improved predicted BRD4 engagement and ADME profiles vs. panobinostat across most metrics.",
+    "Additional commercial application proposed: enhancement of lentiviral vector production (LVV) for CAR-T, gene therapy, and CRISPR manufacturing — no supporting data provided."
+  ],
+  "milestones": [
+    {
+      "title": "Provisional Patent Filing – Multi-Target HDAC Inhibitor Platform",
+      "description": "Provisional patent application filed covering the novel multi-target HDAC/BRD4/PARP1/D2R inhibitor platform. Structures not disclosed to external parties; full priority coverage claimed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Provisional patent protection",
+      "page": 6
+    },
+    {
+      "title": "Provisional Patent Filing – Older HDAC/D2R Series (Separate Filing)",
+      "description": "A separate provisional patent filing covering the earlier HDAC/D2R dual-mechanism candidate series (Molecules 1-4).",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Older Series, separate provisional filing.",
+      "page": 7
+    },
+    {
+      "title": "In-Vitro Biology Initiation (Planned)",
+      "description": "Platform described as ready for in-vitro biology and translational development; no in-vitro experiments have been conducted yet. Seeking partners to initiate this work.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Ready for in-vitro biology & translational development",
+      "page": 6
+    },
+    {
+      "title": "HDAC/D2R Biochemical Assays (Planned)",
+      "description": "Planned evaluation pathway includes HDAC/D2R-binding biochemical assays as a next step following computational work.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Synthistat welcomes scientific feedback and exploratory discussion regarding evaluation pathways, potentially including HDAC/D2R-binding biochemical assays, AML-derived cell line testing, and future translational development considerations.",
+      "page": 8
+    },
+    {
+      "title": "AML-Derived Cell Line Testing (Planned)",
+      "description": "Planned in-vitro cellular assays using AML-derived cell lines as part of the non-clinical development pathway.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Our computational findings support continued non-clinical investigation toward in-vitro cellular assays and in-vivo feasibility studies.",
+      "page": 8
+    },
+    {
+      "title": "In-Vivo Feasibility Studies (Planned)",
+      "description": "In-vivo feasibility studies planned as a future step following in-vitro cellular assay validation.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Our computational findings support continued non-clinical investigation toward in-vitro cellular assays and in-vivo feasibility studies.",
+      "page": 8
+    }
+  ]
+}
