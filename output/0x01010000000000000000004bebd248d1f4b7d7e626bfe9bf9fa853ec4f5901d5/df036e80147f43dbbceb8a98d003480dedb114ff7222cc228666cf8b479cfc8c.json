@@ -1,0 +1,19 @@
+{
+  "file_path": "/screenshot-2026-09-08-at-15-39-37",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This image shows a retrospective/collaborative tool interface (likely a digital whiteboard or team retrospective platform) featuring a \"Start, Stop, Continue\" framework. It contains no biotech, scientific, or TRL-relevant content — only UI elements, input fields, and usage tips for a facilitated team reflection session.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Start / Stop / Continue Retrospective Tool UI",
+      "content": "The image displays a three-column retrospective interface with a 5-minute 4-second timer. Columns are: 'Start' (What new behaviors should we adopt?), 'Stop' (What existing behaviors should we cease doing?), and 'Continue' (What current behaviors should we keep doing?). Each column has a text input area. Tip boxes at the bottom read: 'Collapse the sidebar if you need more room to work', 'A highlighted column means your facilitator wants you to focus on that area', and 'Click the ? in the bottom bar for more tips'. No scientific, experimental, or biotech content is present."
+    }
+  ],
+  "key_findings": [
+    "This document is a team retrospective/collaboration tool UI screenshot with no scientific, experimental, or biotech content relevant to TRL assessment."
+  ],
+  "milestones": []
+}
