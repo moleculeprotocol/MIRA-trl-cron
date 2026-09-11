@@ -1,0 +1,311 @@
+{
+  "file_path": "/kiss1r-ox2r-program-update.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "PeptAI's Program Plan for two Class A GPCR agonist programmes — KISS1R (lead, novel IP) and OX2R (public-facing) — funded under Track 2 of the Launch tranche. The document covers the full arc from pre-funding computational design through current wet-lab status (peptide synthesis complete, functional cell-based assays imminent) as of 2026-09-10. Both programmes are at an early preclinical/discovery stage (TRL 2–3), with Round-1 functional dose-response data expected within ~15 business days of compound receipt.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Funding Frame & Governance",
+      "content": "PeptAI's Launch / TGE token claim defines 'Week 0'. Launch wet-lab cap: $25,000. Track-2 all-in envelope (revised): ~$30–55K over the round. Governance rule: Science-Lead sign-off required on novel candidates and any treasury spend >$1,000 USDC. Track 2 (KISS1R + OX2R) is the novel-IP deliverable on a longer timeline, distinct from Track 1 (GLP-1R autonomous-loop demo)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "KISS1R Programme Thesis",
+      "content": "Target: KISS1R (GPR54), UniProt Q969F8, Class A GPCR. Reference structure: PDB 8XGO (2.68 Å resolution). Indication: idiopathic hypogonadotropic hypogonadism (IHH) and fertility. Clinical precedents de-risk the target: MVT-602 (Myovant) and TAK-683 (Takeda). Edge: novel-IP de novo agonists (C3/C4 series) plus a closed design→predict→wet-lab→recalibrate loop. Regimen strategy: pulsatile/acute agonism to avoid tachyphylaxis that discontinued MVT-602."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "OX2R Programme Thesis",
+      "content": "Target: OX2R (Orexin Receptor 2), UniProt O43614, Class A GPCR. Reference structure: PDB 7L1U (3.2 Å resolution). Indication: ADHD via orexin hypofunction; narcolepsy optionality. Mechanism clinically validated 2026-08-05: Takeda ORZEYFUL (oveporexton), oral OX2R agonist, FDA-approved for narcolepsy type 1. Edge: no peptide OX2R agonist exists in the clinic. Differentiation strategy: intranasal peptide + hepatic-safety (DILI) wedge — ORZEYFUL carries a severe-hepatic-impairment contraindication + CPK caution, providing a concrete approved comparator."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Phase 0 — Pre-funding Computational Design (April–early May 2026)",
+      "content": "Purpose: have wet-lab-ready leads in hand at funding. KISS1R: Gen-1 library C1-01…C1-10 designed vs PDB 8XGO; all 8 computational gates cleared by C1-01 & C1-02. Gen-2 (C2-01) + Gen-3 de novo (C3, RFdiffusion-seeded) queued as novel-IP arm. OX2R: OX2R-004 (natural-AA parent, public-facing candidate) + OX2R-004-S1 (N-Ac, D-Arg4, D-Tyr5 stabilized variant; t½ improved from 5 → 55 min). Gate-0 biology-anchored calibration panels run for both targets. Exit state: 2 wet-lab-ready leads per target."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Phase 2 — Class-A Pivot + Vendor Resolution (May–June 2026)",
+      "content": "Defining constraint: 2026-05-11 — Adaptyv BLI confirmed infeasible for both targets (Class A GPCRs have no soluble extracellular domain to immobilize). Primary readout pivoted from BLI to cell-based functional assay. 2026-05-29 — Ginkgo dropped (non-responsive). 2026-06-02/03 — Eurofins Discovery selected as primary functional vendor. Readouts resolved: KISS1R → Cerep G275 (human Ca-flux, Gα15/Chemiscreen; KP-10 reference); OX2R → Cerep G093 (human Ca-flux; orexin-B reference); NPFFR1 → DiscoverX (cAMP, RFRP-3 reference) as C1-02 selectivity counter-screen. Synthesis vendor: Eurofins Villapharma (Spain), TFA-free."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Phase 3 — Round 1 Contracted + Synthesized (July–early Sept 2026)",
+      "content": "2026-07-27/30: Round-1 scope + firm quotes finalized; agonist mode only confirmed for all three assays. Quotes: Cerep FR095-0058300 (KISS1R G275 + OX2R G093, €2,331.60 each), DiscoverX US073-0039536 (NPFFR1, €2,331.60), Villapharma VP26-0325 synthesis of 4 peptides (€3,192.92). Synthesis triggered early to work around Villapharma's Aug 1–16 site closure; quoted to complete first week of September. 2026-09-01: PO + NDA signed by CEO; banking details received. 2026-09-08: Functional assays paid in full (100%) — Cerep + DiscoverX. Compound submission forms submitted for both studies. 2026-09-09: Eurofins confirms both submission forms received; compounds to route internally from Villapharma → Cerep (France) + DiscoverX (Fremont, US). Synthesis reported done/nearly done. 2026-09-10: Orders registered in Eurofins portal (US073 + FR095)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Phase 4 — Functional Cell Assays (Current Status as of 2026-09-10)",
+      "content": "Peptides in transit: C1-01, C1-02, OX2R-004, OX2R-004-S1 — synthesized, TFA-free, >95% HPLC purity, CoA per shipment; moving from Villapharma to assay sites within Eurofins network. Assays running next: (1) KISS1R Ca-flux EC50/Emax vs KP-10 (Cerep G275); (2) OX2R Ca-flux EC50/Emax vs orexin-B (Cerep G093); (3) C1-02 NPFFR1 cAMP selectivity vs RFRP-3 (DiscoverX) — definitive off-target call. Advancement criteria — KISS1R: EC50 <100 nM, Emax ≥80% vs KP-10; plasma t½ >30 min; C1-02 also needs NPFFR1 window >50×. OX2R: EC50 <1 µM, Emax >50% vs orexin-B → then stabilization cycle + OX1R selectivity + intranasal PK. Open items: settle synthesis payment; confirm inter-site compound transfer; confirm raw-data export (RFU/Ca traces, cAMP, per-point DRC) for fitness model. Expected turnaround: ~15 business days per assay block from compound receipt."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Phase 5 — Shots-on-Goal: De Novo Libraries + Binding-First Strategy",
+      "content": "Strategy adopted 2026-06-24: one-shot design is low-probability → buy shots on goal. Screen binding-first (cheap/fast) then reserve functional assays for proven binders. KISS1R natAA ≤15-mer library: o2h Kickstarter activated + accepted 2026-06-08; gating action = generate ~100-peptide KP-10 + RF-amide library. De novo novel-IP arm (C3/C4 RFdiffusion/BoltzGen) = strongest IP position (no KP-10 scaffold, no prior art). Functional-agonism predictor: pivoted to DeorphaNN (2026-08-16); OX2R is the first validation target. Binding ≠ agonism — this layer ranks likely agonists before wet-lab spend."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Phase 6 — Lead Optimization, IP & Raise (Post-Round-1)",
+      "content": "Undermind FTO on C1-01/C1-02/C1-10 before any BD/public IP claim (priority: WO 2006/001499, Asami 2012, Takeda continuations). Feed wet-lab sequence-activity pairs back as training data (calibration → ranking). OX2R: stabilization cycle + intranasal nose-to-brain PK study. Package Round-1 result → preprint + library results → support a ~$250K raise."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Budget — Track 2 Share of Launch Tranche",
+      "content": "Launch wet-lab cap: $25,000 (status: —). Track-2 all-in envelope (revised): $30–55K (status: —). KISS1R functional — Cerep G275 (FR095-0058300): €2,331.60 (paid in full). OX2R functional — Cerep G093 (FR095-0058300): €2,331.60 (paid in full). NPFFR1 selectivity — DiscoverX (US073-0039536): €2,331.60 (paid in full). Synthesis — Villapharma (VP26-0325, 4 peptides): €3,192.92 (payment line open). Round-1 all-in: ~€10K (inside envelope). Compute (GPU MD, folding/binding): ~$200–500/run (operational). o2h Kickstarter library: scoped on sequence delivery (queued)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Risk Register — KISS1R",
+      "content": "1. C1-01 prior art (Takeda) → reframed as validated positive control. 2. C1-02 NPFFR1 selectivity flag (computational) → this round's DiscoverX assay is the definitive call; fallback = redesign the C-terminal RF-amide motif. 3. Binding measured indirectly (no BLI) → KD inferred from EC50; true KD deferred to nanodisc BLI/radioligand in a later round. 4. De novo library not yet generated → gates the shots-on-goal arm."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Risk Register — OX2R",
+      "content": "1. G6 proteolytic instability (t½ 55 min still sub-systemic). 2. G8b OX1R cross-reactivity (~100% pocket conservation) → selectivity engineering required. 3. ADHD white space contested by Alkermes ALKS-7290 → case rests on modality (peptide) + DILI wedge, not indication timing. 4. BBB penetration plausible (MW window) but experimentally unproven."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Shared Live Risks",
+      "content": "1. Synthesis payment line still to settle (Villapharma VP26-0325). 2. Inter-site compound transfer (Villapharma → Cerep + DiscoverX) to confirm. 3. Raw-data export terms to confirm (feeds the fitness model)."
+    },
+    {
+      "page": 4,
+      "type": "table",
+      "title": "Milestone Ledger",
+      "content": "M0: Pre-funding leads in hand — ✅ done (Apr–May 2026). M1: Class-A pivot + Eurofins vendor lock — ✅ done (Jun 2026). M2: Round-1 scope + firm quotes (agonist mode) — ✅ done (Jul 2026). M3: OX2R continue-or-drop → CONTINUE — ✅ done (Jul 2026). M4: PO + NDA signed; functional assays paid in full — ✅ done (Sep 1–8 2026). M5: Peptide synthesis complete (Villapharma) — ⏳ done/nearly done. M6: Compounds delivered to assay sites — ⏳ IN PROGRESS. M7: Round-1 functional data (EC50/Emax + NPFFR1) — ◻ ~15 business days from receipt. M8: ~100-pep KISS1R library generated + o2h synth — ◻ gating action. M9: DeorphaNN agonism ranking validated (OX2R) — ◻ first GPU run. M10: FTO cleared → IP position + ~$250K raise — ◻ post-Round-1."
+    }
+  ],
+  "key_findings": [
+    "Both KISS1R and OX2R programmes are at early discovery/TRL 2–3: computational design complete, peptides synthesized to >95% HPLC purity (TFA-free), and first functional cell-based assays (Ca-flux EC50/Emax) imminent as of 2026-09-10.",
+    "KISS1R advancement criteria: EC50 <100 nM, Emax ≥80% vs KP-10 reference; plasma t½ >30 min; C1-02 NPFFR1 selectivity window >50×.",
+    "OX2R advancement criteria: EC50 <1 µM, Emax >50% vs orexin-B; then stabilization cycle + OX1R selectivity + intranasal PK.",
+    "OX2R-004-S1 stabilized variant achieved t½ improvement from 5 → 55 min via N-Ac, D-Arg4, D-Tyr5 modifications, but t½ 55 min is still sub-systemic.",
+    "Primary binding readout (BLI) was confirmed infeasible for Class A GPCRs (no soluble extracellular domain); pivoted to cell-based functional assay (Ca-flux) as primary readout.",
+    "OX2R mechanism clinically validated by FDA approval of Takeda ORZEYFUL (oveporexton) on 2026-08-05 for narcolepsy type 1; no peptide OX2R agonist exists in the clinic.",
+    "KISS1R target de-risked by clinical precedents MVT-602 (Myovant) and TAK-683 (Takeda); C1-01 may overlap with Takeda prior art (reframed as positive control).",
+    "C1-02 has a computational NPFFR1 selectivity flag; DiscoverX cAMP assay (RFRP-3 reference) is the definitive off-target call this round.",
+    "De novo novel-IP arm (C3/C4, RFdiffusion/BoltzGen) not yet generated — gates the shots-on-goal strategy.",
+    "DeorphaNN functional-agonism predictor adopted 2026-08-16 to rank likely agonists before wet-lab spend; OX2R is first validation target.",
+    "FTO analysis (Undermind) on C1-01/C1-02/C1-10 pending; key prior art: WO 2006/001499, Asami 2012, Takeda continuations.",
+    "Round-1 all-in cost ~€10K; functional assays paid in full (€6,994.80); synthesis (€3,192.92) payment line still open.",
+    "Post-Round-1 plan: preprint + library results to support a ~$250K raise."
+  ],
+  "document_date": "2026-09-10",
+  "milestones": [
+    {
+      "title": "Pre-funding Leads in Hand (M0)",
+      "description": "Gen-1 KISS1R library (C1-01…C1-10) designed vs PDB 8XGO with all 8 computational gates cleared by C1-01 & C1-02; OX2R-004 and OX2R-004-S1 designed and Gate-0 calibration panels run. Two wet-lab-ready leads per target in hand before funding.",
+      "date": "2026-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "M0 | Pre-funding leads in hand | ✅ done (Apr–May 2026)",
+      "page": 4
+    },
+    {
+      "title": "Adaptyv BLI Confirmed Infeasible — Pivot to Cell-Based Assay",
+      "description": "Adaptyv BLI confirmed infeasible for both KISS1R and OX2R (Class A GPCRs have no soluble extracellular domain to immobilize). Primary readout pivoted from BLI to cell-based functional assay.",
+      "date": "2026-05-11",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2026-05-11 — Adaptyv BLI infeasible for both (Class A GPCRs have no soluble extracellular domain to immobilize; confirmed by Adaptyv). → Primary readout pivots BLI → cell-based functional assay.",
+      "page": 2
+    },
+    {
+      "title": "Ginkgo Dropped",
+      "description": "Ginkgo dropped as a vendor due to non-responsiveness.",
+      "date": "2026-05-29",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "2026-05-29 — Ginkgo dropped (non-responsive).",
+      "page": 2
+    },
+    {
+      "title": "Eurofins Discovery Selected as Primary Functional Vendor (M1)",
+      "description": "Eurofins Discovery locked as primary functional vendor. Assay readouts resolved: KISS1R → Cerep G275 (Ca-flux, Gα15/Chemiscreen, KP-10 reference); OX2R → Cerep G093 (Ca-flux, orexin-B reference); NPFFR1 → DiscoverX (cAMP, RFRP-3 reference). Synthesis vendor: Eurofins Villapharma (Spain), TFA-free.",
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "partnership",
+      "source_quote": "2026-06-02/03 — Eurofins Discovery = primary functional vendor. Readouts resolved: KISS1R → Cerep G275 … OX2R → Cerep G093 … NPFFR1 → DiscoverX",
+      "page": 2
+    },
+    {
+      "title": "o2h Kickstarter Library Activated and Accepted",
+      "description": "KISS1R natAA ≤15-mer library o2h Kickstarter activated and accepted; gating action is generation of ~100-peptide KP-10 + RF-amide library.",
+      "date": "2026-06-08",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "KISS1R natAA ≤15-mer library — o2h Kickstarter activated + accepted 2026-06-08.",
+      "page": 3
+    },
+    {
+      "title": "Shots-on-Goal / Binding-First Strategy Adopted",
+      "description": "Strategy decision: one-shot design is low-probability; adopt binding-first screening (cheap/fast) then reserve functional assays for proven binders.",
+      "date": "2026-06-24",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Strategy adopted 2026-06-24: one-shot design is low-probability → buy shots on goal. Screen binding-first (cheap/fast) then reserve functional for proven binders.",
+      "page": 3
+    },
+    {
+      "title": "Round-1 Scope + Firm Quotes Finalized (M2)",
+      "description": "Round-1 scope finalized with agonist mode only confirmed for all three assays. Firm quotes received: Cerep FR095-0058300 (KISS1R G275 + OX2R G093, €2,331.60 each), DiscoverX US073-0039536 (NPFFR1, €2,331.60), Villapharma VP26-0325 synthesis of 4 peptides (€3,192.92).",
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2026-07-27/30 — Round-1 scope + firm quotes finalized; agonist mode only confirmed for all three assays.",
+      "page": 2
+    },
+    {
+      "title": "OX2R Continue-or-Drop Decision → CONTINUE (M3)",
+      "description": "Formal programme decision point for OX2R: decision made to continue the programme.",
+      "date": "2026-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "M3 | OX2R continue-or-drop → CONTINUE | ✅ done (Jul 2026)",
+      "page": 4
+    },
+    {
+      "title": "DeorphaNN Agonism Predictor Adopted",
+      "description": "Functional-agonism predictor pivoted to DeorphaNN; OX2R is the first validation target. This layer ranks likely agonists before wet-lab spend.",
+      "date": "2026-08-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Functional-agonism predictor: pivoted to DeorphaNN (2026-08-16); OX2R is the first validation target.",
+      "page": 3
+    },
+    {
+      "title": "OX2R Mechanism Clinically Validated — FDA Approval of ORZEYFUL",
+      "description": "Takeda ORZEYFUL (oveporexton), an oral OX2R agonist, received FDA approval for narcolepsy type 1, clinically validating the OX2R agonism mechanism.",
+      "date": "2026-08-05",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "regulatory",
+      "source_quote": "Mechanism clinically validated 2026-08-05: Takeda ORZEYFUL (oveporexton), oral OX2R agonist, FDA-approved for narcolepsy type 1.",
+      "page": 1
+    },
+    {
+      "title": "PO + NDA Signed; Functional Assays Paid in Full (M4)",
+      "description": "Purchase order and NDA signed by CEO; banking details received (Sep 1). Functional assays paid in full (100%) — Cerep + DiscoverX (Sep 8). Compound submission forms submitted for both studies.",
+      "date": "2026-09-01",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "2026-09-01 — PO + NDA signed by the CEO; banking details received. 2026-09-08 — functional assays paid in full (100%) (Cerep + DiscoverX). Compound submission forms submitted for both studies.",
+      "page": 2
+    },
+    {
+      "title": "Functional Assays Paid in Full",
+      "description": "Cerep and DiscoverX functional assays paid in full (100%); compound submission forms submitted for both studies.",
+      "date": "2026-09-08",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2026-09-08 — functional assays paid in full (100%) (Cerep + DiscoverX). Compound submission forms submitted for both studies.",
+      "page": 2
+    },
+    {
+      "title": "Eurofins Confirms Submission Forms; Synthesis Done/Nearly Done",
+      "description": "Eurofins confirms both compound submission forms received; compounds to route internally from Villapharma → Cerep (France) + DiscoverX (Fremont, US). Synthesis reported done or nearly done.",
+      "date": "2026-09-09",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "2026-09-09 — Eurofins confirms both submission forms received; compounds to route internally from Villapharma → Cerep (France) + DiscoverX (Fremont, US). Synthesis reported done / nearly done.",
+      "page": 2
+    },
+    {
+      "title": "Orders Registered in Eurofins Portal",
+      "description": "Round-1 assay orders (US073 + FR095) registered in the Eurofins portal.",
+      "date": "2026-09-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2026-09-10 — orders registered in the Eurofins portal (US073 + FR095).",
+      "page": 2
+    },
+    {
+      "title": "Peptide Synthesis Complete — Villapharma (M5)",
+      "description": "Synthesis of 4 peptides (C1-01, C1-02, OX2R-004, OX2R-004-S1) by Villapharma (VP26-0325) complete or nearly complete; TFA-free, >95% HPLC purity, CoA per shipment.",
+      "date": "2026-09-10",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "manufacturing",
+      "source_quote": "M5 | Peptide synthesis complete (Villapharma) | ⏳ done / nearly done",
+      "page": 4
+    },
+    {
+      "title": "Compounds Delivered to Assay Sites (M6)",
+      "description": "Internal inter-site transfer of synthesized peptides from Villapharma to Cerep (France) and DiscoverX (Fremont, US) within the Eurofins network.",
+      "date": "2026-09-10",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "M6 | Compounds delivered to assay sites | ⏳ IN PROGRESS",
+      "page": 4
+    },
+    {
+      "title": "Round-1 Functional Data — EC50/Emax + NPFFR1 (M7)",
+      "description": "First functional dose-response data: KISS1R Ca-flux EC50/Emax vs KP-10 (Cerep G275), OX2R Ca-flux EC50/Emax vs orexin-B (Cerep G093), and C1-02 NPFFR1 cAMP selectivity vs RFRP-3 (DiscoverX). Expected ~15 business days from compound receipt.",
+      "date": "~15 business days from compound receipt",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M7 | Round-1 functional data (EC50/Emax + NPFFR1) | ◻ ~15 business days from receipt",
+      "page": 4
+    },
+    {
+      "title": "~100-Peptide KISS1R Library Generated + o2h Synthesis (M8)",
+      "description": "Generate the ~100-peptide KP-10 + RF-amide library for KISS1R and trigger o2h synthesis; this is the gating action for the shots-on-goal arm.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M8 | ~100-pep KISS1R library generated + o2h synth | ◻ gating action",
+      "page": 4
+    },
+    {
+      "title": "DeorphaNN Agonism Ranking Validated on OX2R (M9)",
+      "description": "First GPU run of DeorphaNN functional-agonism predictor validated using OX2R as the first target.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M9 | DeorphaNN agonism ranking validated (OX2R) | ◻ first GPU run",
+      "page": 4
+    },
+    {
+      "title": "FTO Cleared → IP Position + ~$250K Raise (M10)",
+      "description": "Undermind FTO analysis on C1-01/C1-02/C1-10 completed; IP position established; Round-1 results packaged into preprint + library results to support a ~$250K fundraise.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "M10 | FTO cleared → IP position + ~$250K raise | ◻ post-Round-1",
+      "page": 4
+    }
+  ]
+}
