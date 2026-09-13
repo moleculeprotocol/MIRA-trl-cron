@@ -1,0 +1,90 @@
+{
+  "file_path": "/b1-orthome-work-brief-revised",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This confidential work brief summarizes the final computational chemistry campaign for the B1 series targeting TrkB (a neurotrophin receptor), culminating in the selection of B1 orthoMe as the primary lead candidate. Evidence is based on docking, structure-activity relationship (SAR) analysis, and two independent 2 ns molecular dynamics (MD) replicates demonstrating superior pocket engagement and hydrogen-bond persistence over the benchmark compound B1 diF B. The document represents early-stage (TRL 2–3) computational/in silico lead identification work.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page – Campaign Overview and Decision",
+      "content": "Title: B1 orthoMe Work Brief – TrkB lead validation and final ranking (Confidential draft). The brief summarizes the final computational chemistry campaign for the B1 series, combining docking, selectivity context, developability context, topology correction, and replicated molecular dynamics (MD) to identify the most robust candidate for downstream validation. Decision: Advance B1 orthoMe. Primary lead: B1 orthoMe. Benchmark: B1 diF B. Backup: B1 H. Evidence level: Docking, SAR, two independent 2 ns MD replicates."
+    },
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Protein–Ligand View of the Final Lead (TrkB Binding Site)",
+      "content": "Structural visualization of B1 orthoMe docked into the TrkB binding pocket. The ligand is shown in blue, the protein in cartoon representation (gold/yellow secondary structure elements). The local binding-site geometry is retained for interpretation. This image supports the claim of pocket engagement but does not provide quantitative binding affinity data."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Executive Conclusion",
+      "content": "B1 orthoMe is the best-supported lead from the final campaign. Two independent 2 ns MD replicates showed persistent pocket engagement, frequent hydrogen bonding, and stronger binding-site occupancy than the benchmark B1 diF B."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "What Was Done – Experimental Methods Summary",
+      "content": "Campaign steps: (1) Built a TrkB-directed medicinal chemistry series around the B1 scaffold. (2) Ran focused SAR and selectivity-context checks against the receptor panel (TrkB/TrkA/TrkC). (3) Performed short MD validation on the top candidates. (4) Corrected a topology issue and repeated B1 orthoMe with a ligand-preserving build. (5) Ran two independent 2 ns MD replicates to test reproducibility. All work is computational (in silico); no wet-lab experimental data is reported."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Replicated MD Evidence – Head-to-Head Comparison Table",
+      "content": "Comparison of B1 diF B (benchmark) vs. B1 orthoMe replicate 1 and replicate 2 across six MD metrics:\n\n| Metric | B1 diF B | B1 orthoMe rep 1 | B1 orthoMe rep 2 |\n|---|---|---|---|\n| Protein Cα RMSD mean (Å) | 4.091 | 3.414 | 3.423 |\n| Ligand heavy-atom RMSD mean (Å) | 4.023 | 3.078 | 2.869 |\n| Pocket-contact occupancy (%) | 60 | 100 | 100 |\n| Unique H-bonds | 2 | 5 | 3 |\n| Top H-bond occupancy (%) | 20 | 30 | 60 |\n| Frames with any H-bond (%) | 25 | 95 | 95 |\n\nInterpretation: B1 orthoMe is more reproducible in the bound state and retains the pocket interaction network more persistently. Pocket-contact occupancy is 100% in both replicates vs. 60% for benchmark. Frames with any H-bond: 95% vs. 25%."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Bar Charts – Ligand RMSD, Pocket-Contact Occupancy, and Top H-Bond Occupancy",
+      "content": "Three bar charts comparing B1 diF B, B1 orthoMe rep1, and B1 orthoMe rep2:\n1. Ligand heavy-atom RMSD (Å): B1 diF B = 4.02, B1 orthoMe rep1 = 3.08, B1 orthoMe rep2 = 2.87. Lower RMSD indicates better ligand retention.\n2. Pocket-contact occupancy (%): B1 diF B = 60%, B1 orthoMe rep1 = 100%, B1 orthoMe rep2 = 100%.\n3. Top H-bond occupancy (%): B1 diF B = 20%, B1 orthoMe rep1 = 30%, B1 orthoMe rep2 = 60%.\nConclusion stated: Ligand retention and interaction persistence are stronger for B1 orthoMe than for the benchmark."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Why B1 orthoMe Was Selected – Rationale",
+      "content": "Four reasons for selection: (1) Reproducibility: both MD replicates converged on the same qualitative result. (2) Pocket persistence: the ligand remained engaged in the binding site throughout both runs. (3) Hydrogen-bond persistence: recurring anchors were observed in most frames. (4) Benchmark comparison: B1 diF B remains useful as a comparator but is less persistent in the binding site."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Developability and Selectivity Context",
+      "content": "Key points: (1) The series remained in a CNS-like physicochemical space during optimization, indicating CNS drug-likeness was maintained. (2) B1 H remains the preferred developability backup. (3) TrkB/TrkA/TrkC selectivity screens were used as context; the final choice was driven by reproducible pocket behavior rather than a claim of perfect selectivity. (4) The final candidate shows the best overall balance of binding-site persistence and series consistency. No quantitative selectivity data (e.g., IC50 ratios) are reported."
+    },
+    {
+      "page": 4,
+      "type": "diagram",
+      "title": "Campaign Flow Diagram – 5-Stage Discovery-to-Validation Pipeline",
+      "content": "Five sequential stages: (1) TrkB neurorestorative lead campaign → (2) Docking + SAR optimization → (3) Short MD validation → (4) Corrected topology & 2×2 ns replicates → (5) Primary lead: B1 orthoMe. Note: 'Campaign frozen after reproducible MD support for B1_orthoMe; B1_diF_B retained as benchmark.'"
+    },
+    {
+      "page": 4,
+      "type": "table",
+      "title": "Final Compound Ranking Table",
+      "content": "Final ranking of B1 series compounds:\n\n| Rank | Compound | Interpretation |\n|---|---|---|\n| 1 | B1 orthoMe | Primary lead; strongest reproducible pocket engagement and H-bond persistence |\n| 2 | B1 diF B | Benchmark lead; useful reference comparator |\n| 3 | B1 H | Developability backup |\n| 4 | B1 parent | Reference scaffold |\n| 5 | B1 orthoCl | Comparator |"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "One-Line Summary",
+      "content": "B1 orthoMe is the most robust candidate from the final TrkB campaign, supported by replicated MD and a clear binding-site advantage over the benchmark series member."
+    }
+  ],
+  "key_findings": [
+    "Primary lead selected: B1 orthoMe, a TrkB-targeting small molecule from the B1 scaffold series, intended for CNS neurorestorative applications.",
+    "Evidence is entirely computational (in silico): docking, SAR analysis, and 2 ns molecular dynamics simulations — no wet-lab or in vitro/in vivo data reported.",
+    "Two independent 2 ns MD replicates of B1 orthoMe both achieved 100% pocket-contact occupancy vs. 60% for benchmark B1 diF B.",
+    "Frames with any H-bond: 95% for B1 orthoMe (both replicates) vs. 25% for B1 diF B, indicating far superior hydrogen-bond persistence.",
+    "Ligand heavy-atom RMSD mean: B1 orthoMe rep1 = 3.078 Å, rep2 = 2.869 Å vs. B1 diF B = 4.023 Å — lower RMSD indicates better ligand retention in the binding site.",
+    "Protein Cα RMSD mean: B1 orthoMe rep1 = 3.414 Å, rep2 = 3.423 Å vs. B1 diF B = 4.091 Å — more stable protein conformation with B1 orthoMe.",
+    "Top H-bond occupancy: B1 orthoMe rep2 = 60%, rep1 = 30% vs. B1 diF B = 20%.",
+    "A topology correction was required and applied before the final replicated MD runs, indicating iterative refinement of the computational model.",
+    "Series maintained CNS-like physicochemical space throughout optimization — relevant for blood-brain barrier penetration.",
+    "TrkB/TrkA/TrkC selectivity screens were conducted as context but no quantitative selectivity data (IC50 ratios) are reported; selectivity is not claimed.",
+    "Campaign is frozen at the computational lead identification stage; next step is downstream (experimental) validation of B1 orthoMe.",
+    "Five-compound ranking established: B1 orthoMe > B1 diF B > B1 H > B1 parent > B1 orthoCl."
+  ],
+  "milestones": []
+}
