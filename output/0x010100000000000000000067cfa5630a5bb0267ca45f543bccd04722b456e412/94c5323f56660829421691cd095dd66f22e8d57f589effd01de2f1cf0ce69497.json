@@ -1,0 +1,46 @@
+{
+  "file_path": "/campaigns/A1-EGFR-8HGO/03-prediction-report.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a computational prediction report for Challenge A1, targeting human EGFR extracellular domain (UniProt P00533). The pipeline generated 250 raw designs, of which 4 passed all interface quality gates. All metrics are computational predictions only — no binding affinity (KD) has been measured, and no experimental validation has been performed.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Challenge Metadata & Status",
+      "content": "Challenge: A1. Target: human EGFR ECD (UniProt P00533). PDB admitted: 8HGO / chain A. PDB actually run: 1IVO / chain A (protocol deviation noted). Status: computational prediction only — not a KD, not a measured binder. Cost: $6.05 USD (BIOS staging MCP). OpenLabs project references provided for traceability (discussion, claim, and project UUIDs). This document represents TRL 1 — basic concept/computational stage with no experimental evidence of binding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Pipeline Summary",
+      "content": "Design pipeline: 250 raw designs generated. Interface filtering retained 4 designs. Rejection breakdown: shape filter rejected 7, chemistry filter rejected 55, confidence filter rejected 184. Gate-passed designs: 4 (3 from rfd3 engine, 1 from boltzgen engine). Selectivity: no number available — panel 0/6 scored, margin null. Novelty legs: unchecked (stage completed but per-leg fields not exposed). Molecular dynamics (MD): skipped. Key caveat: 4/250 is NOT described as a hit rate."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Variation Shortlist (8 designs)",
+      "content": "Table of 8 candidate designs with the following columns: rank (#), designId, engine (rfd3 or boltzgen), passed (True/False), selRank, ipSAE_pred (predicted interface SAE score), cluster assignment, and selection reason.\n\nPassed designs (4):\n1. rfd3-inputs_d4_0_model_6-s2 | rfd3 | passed=True | selRank=1 | ipSAE_pred=0.701 | cluster=0 | top-passed-rfd3\n2. boltzgen-rank01_design_11-s0 | boltzgen | passed=True | selRank=3 | ipSAE_pred=0.653 | cluster=3 | top-passed-boltzgen\n3. rfd3-inputs_d7_0_model_1-s0 | rfd3 | passed=True | selRank=2 | ipSAE_pred=0.717 | cluster=1 | passed-new-cluster-1\n4. rfd3-inputs_d3_0_model_7-s1 | rfd3 | passed=True | selRank=4 | ipSAE_pred=0.557 | cluster=2 | passed-new-cluster-2\n\nFailed designs (4, mid-score variations):\n5. boltzgen-rank05_design_03-s0 | boltzgen | passed=False | selRank=21 | ipSAE_pred=0.425 | cluster=None\n6. rfd3-inputs_d7_0_model_5-s0 | rfd3 | passed=False | selRank=20 | ipSAE_pred=0.421 | cluster=None\n7. boltzgen-rank11_design_07-s0 | boltzgen | passed=False | selRank=19 | ipSAE_pred=0.732 | cluster=None\n8. rfd3-inputs_d8_0_model_3-s0 | rfd3 | passed=False | selRank=18 | ipSAE_pred=0.300 | cluster=None\n\nNote: ipSAE_pred is a predicted score, not a measured binding affinity."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Passed Designs Detail",
+      "content": "All 4 gate-passing designs listed with precise ipSAE_pred values:\n- rfd3-inputs_d4_0_model_6-s2: rfd3, selRank 1, ipSAE_pred 0.7012193202972412\n- rfd3-inputs_d7_0_model_1-s0: rfd3, selRank 2, ipSAE_pred 0.7169766426086426\n- boltzgen-rank01_design_11-s0: boltzgen, selRank 3, ipSAE_pred 0.6529269218444824\n- rfd3-inputs_d3_0_model_7-s1: rfd3, selRank 4, ipSAE_pred 0.5574659109115601\n\nAll values are computational predictions. No experimental binding data exists. Document explicitly states: 'Do not invent pxdesign hits. Do not call 4/250 a hit rate.'"
+    }
+  ],
+  "key_findings": [
+    "Target is human EGFR extracellular domain (UniProt P00533); all work is computational only — no measured binding (KD) exists.",
+    "250 raw designs were generated; only 4 passed interface quality gates (shape, chemistry, and confidence filters).",
+    "Rejection breakdown: 184 failed confidence filter, 55 failed chemistry filter, 7 failed shape filter.",
+    "4 gate-passing designs span 2 engines (rfd3: 3 designs; boltzgen: 1 design) and 4 distinct clusters, suggesting structural diversity.",
+    "ipSAE_pred scores for passed designs range from 0.557 to 0.717 — these are predicted interface quality scores, not experimental affinities.",
+    "Selectivity panel was not scored (0/6); selectivity margin is null — no selectivity data available.",
+    "Molecular dynamics (MD) simulations were skipped — no stability validation performed.",
+    "A protocol deviation was noted: PDB admitted was 8HGO/chain A but 1IVO/chain A was actually used in the run.",
+    "Project cost to date: $6.05 USD (BIOS staging MCP).",
+    "TRL assessment: TRL 1 — purely computational concept stage with no experimental validation."
+  ],
+  "milestones": []
+}

@@ -1,0 +1,63 @@
+{
+  "file_path": "/campaigns/A1-EGFR-8HGO/00-construct.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This is a construct card for Challenge A1 targeting the human EGFR ectodomain (UniProt P00533), describing a computational protein design campaign. The document defines the structural basis, epitope rules, and hotspot residues for designing EGF-competitive binders against EGFR Domain I/III. No experimental binding data (KD, IC50) or in vitro/in vivo results are reported; the status is explicitly a computational prediction only.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Challenge & Status Overview",
+      "content": "Challenge A1 targets human EGFR ECD (UniProt P00533). PDB admitted: 8HGO chain A (EGFR). PDB actually run: 1IVO chain A (protocol_deviation stamped). Status is explicitly 'computational prediction, not a KD; not a measured binder.' Spend: $6.05 USD (BIOS staging MCP). Author: TargetLead. Visibility: PUBLIC. This places the project firmly at TRL 1–2: concept and computational design, no experimental validation of binding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Protein Identity & Construct Definition",
+      "content": "Target protein: Human EGFR ectodomain Domains I–IV, UniProt P00533. Soluble construct: ECD approximately amino acids 25–645 (His/Fc catalog forms acceptable). Explicitly excluded: full-length/membrane EGFR and intracellular kinase domain. Scientific tractability: PASS (soluble ECD + PDB + chain). Catalog source: BenchBB + Adaptyv Top targets (ECD SKUs only)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Structural Basis & PDB References",
+      "content": "Admitted structure: PDB 8HGO, auth chain A = EGFR (P00533); chain B = HER2 (P04626); chain C = EGF (P01133). Design is on chain A only. Live BIOS run used PDB 1IVO chain A (protocol_deviation stamped); same UniProt target. TargetLead acknowledged for EGF-competitive DI/DIII work. Numbering freeze: UniProt P00533 / PDB auth_seq_id on EGFR chain A. Supporting references: 1IVO, 1NQL (EGF site)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Epitope Rule & Design Constraints",
+      "content": "Epitope rule: EGF-competitive Domain I/III ligand face only. Domain IV is explicitly excluded. No Cetuximab-sticker focus. No signaling/blockade claims permitted. Must not target Domain IV / Cetuximab epitope as design goal, full-length membrane EGFR or kinase-domain antigens. Must not claim binders, KD, hit rate, or signaling blockade. Must not place Adaptyv orders from bots."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Frozen Hotspot Residues (Full DI/DIII from 8HGO A–C contacts <4.5 Å)",
+      "content": "Domain I (DI) hotspots: Q32, N36, L38, T39, Q40, L41, G42, D46, R53, M54, Y69, L93, Y125, N152.\nDomain III (DIII) hotspots: L349, H370, L372, D379, S380, F381, Q408, Q432, H433, F436, I462, S464, G465.\nExcluded DIV contact: K489.\nEvidence source: /workspace/qa-bios/evidence/a1-8hgo-egfr-egf-contacts.json · BIOSQA-21/26/32/34."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Campaign-8 Budget-Truncated Hotspots",
+      "content": "Due to engine budget truncation (stamped), the campaign-8 hotspot set is reduced to residues: 32, 40, 53, 69, 125, 372, 408, 436. This is a subset of the full frozen hotspot list, applied for computational efficiency."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "OpenLabs Provenance & Traceability",
+      "content": "OpenLabs URL: https://openlabs.bio.xyz/. P0 discussion ID: d7923cd0-9514-4b7e-8a83-5a34caebe87a. P3 claim ID: 15e2549f-96c3-4b16-8a86-1ad1765b02cb. Project ID: 725baa18-5b6f-4fb4-8596-040bd7ada827. These identifiers provide traceability to the computational design workflow on the BIOS/OpenLabs platform."
+    }
+  ],
+  "key_findings": [
+    "Status is explicitly 'computational prediction, not a KD; not a measured binder' — no experimental binding data exists; TRL is 1–2.",
+    "Target: Human EGFR ectodomain (UniProt P00533), soluble construct ECD ~aa 25–645; kinase domain and membrane forms excluded.",
+    "Structural basis: PDB 8HGO (admitted) and 1IVO (actually run, protocol_deviation stamped); both map to same UniProt target.",
+    "Epitope design rule: EGF-competitive Domain I/III ligand face only; Domain IV and Cetuximab epitope explicitly excluded.",
+    "Full frozen hotspot set derived from 8HGO A–C contacts <4.5 Å: 14 DI residues and 13 DIII residues; K489 (DIV) excluded.",
+    "Campaign-8 uses a budget-truncated hotspot set of 8 residues: 32, 40, 53, 69, 125, 372, 408, 436.",
+    "Spend to date: $6.05 USD (BIOS staging MCP), indicating very early-stage computational work.",
+    "No in vitro assays, cell-based experiments, animal studies, or regulatory interactions reported.",
+    "No IP (patents), funding rounds, partnerships, or clinical/preclinical milestones mentioned."
+  ],
+  "milestones": []
+}

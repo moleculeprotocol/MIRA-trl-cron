@@ -1,0 +1,36 @@
+{
+  "file_path": "/campaigns/A1-EGFR-8HGO/07-openlabs-urls.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a project metadata/tracking record for Challenge A1, targeting human EGFR extracellular domain (UniProt P00533). It describes a computational prediction run (not a measured binding affinity/KD), with a noted protocol deviation (PDB 1IVO used instead of admitted 8HGO). The document primarily serves as an OpenLabs project index with associated URLs and identifiers, with no experimental binding data reported.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Challenge A1 — Project Metadata & Status",
+      "content": "Challenge: A1. Target: human EGFR ECD (UniProt P00533). PDB admitted: 8HGO / chain A. PDB actually run: 1IVO / chain A — flagged as a protocol_deviation. Status: computational prediction only; NOT a measured KD or confirmed binder. Spend: $6.05 USD (BIOS staging MCP). This indicates the work is at TRL 1–2: a computational/in silico prediction with no experimental binding validation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "OpenLabs Project Links & Identifiers",
+      "content": "Identity: openlabs_mini_swarm. Project Mini-swarm A-series UUID: 725baa18-5b6f-4fb4-8596-040bd7ada827 (https://openlabs.bio.xyz/). P0 discussion UUID: d7923cd0-9514-4b7e-8a83-5a34caebe87a. Solver process comment UUID: dcfd1471-5a28-4edb-ae82-390ea94fa820. P3 claim (Reviewer-allowed) UUID: 15e2549f-96c3-4b16-8a86-1ad1765b02cb. These are tracking/provenance identifiers for the computational run and associated claims on the OpenLabs platform."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Workflow & File Management Note",
+      "content": "Operational note: OpenLabs is used for claims/discussions; Molecule Labs is the file vault. Instructions specify not to replace OpenLabs posts with vault uploads — Lab links should be commented under matching posts after upload. This is a process/governance note with no direct TRL-relevant experimental content."
+    }
+  ],
+  "key_findings": [
+    "Target is human EGFR extracellular domain (ECD), UniProt P00533 — a well-validated oncology target.",
+    "Work is a computational prediction only; no KD or experimental binding measurement has been performed.",
+    "Protocol deviation noted: PDB structure 1IVO / chain A was used instead of the admitted structure 8HGO / chain A.",
+    "Total compute/platform spend was $6.05 USD via BIOS staging MCP, indicating a very early-stage, low-cost in silico exercise.",
+    "Project is classified as 'not a measured binder' — TRL 1 (basic principles/concept) at best.",
+    "Project is tracked on the OpenLabs platform under the Mini-swarm A-series project."
+  ],
+  "milestones": []
+}

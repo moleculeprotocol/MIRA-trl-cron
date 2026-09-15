@@ -1,0 +1,47 @@
+{
+  "file_path": "/campaigns/A1-EGFR-8HGO/04-reviewer-verdict.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a reviewer verdict for Challenge A1, a computational protein design effort targeting human EGFR extracellular domain (ECD, UniProt P00533). The project produced computational binding predictions using at least two engines (rfd3 and boltzgen), but no experimental binding measurements (KD, IC50, etc.) were obtained. The verdict classifies the output as a PREDICTION_PACKAGE with several noted caveats and limitations.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Challenge Metadata",
+      "content": "Challenge: A1. Target: human EGFR ECD (UniProt P00533). PDB admitted: 8HGO / chain A. PDB actually run: 1IVO / chain A — flagged as a protocol deviation. Status: computational prediction only; not a KD measurement; not a confirmed measured binder. Spend: $6.05 USD (BIOS staging MCP). OpenLabs project and claim references provided."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Reviewer Verdict",
+      "content": "Verdict: PREDICTION_PACKAGE. The run (ID 8037737a-b7b9-4113-aa40-45b2381acdaf) used construct P00533, stamped with PDB 1IVO (not the admitted 8HGO — a noted discrepancy). Key pass criteria: hotspot truncation declared; scores labelled as predictions; at least two computational engines named (rfd3 + boltzgen); pxdesign configured but absent from inspect top-25; selectivity has no numeric value; novelty is unchecked; 8-way variation shortlist generated. Explicitly excluded language: no binder/KD/signaling/Adaptyv claims."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Caveats (Must Accompany Any Public Body)",
+      "content": "1. Domain IV of EGFR ECD is out (not modeled/included). 2. MD (molecular dynamics) simulations were skipped. 3. Ranking and deduplication are incomplete in the stage dump. 4. Do not invent pxdesign hits. 5. Do not call 4/250 a hit rate."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Allowed Public Object",
+      "content": "Exactly one OpenLabs claim is permitted as a public object, posted as claim ID 15e2549f-96c3-4b16-8a86-1ad1765b02cb. No second public object is allowed from this PASS. No Adaptyv submission permitted."
+    }
+  ],
+  "key_findings": [
+    "Target is human EGFR extracellular domain (ECD), UniProt P00533 — a well-validated oncology target.",
+    "Output is a computational PREDICTION_PACKAGE only; no experimental binding data (KD, IC50, or cell-based assays) were generated.",
+    "Protocol deviation: PDB 1IVO was used instead of the admitted 8HGO (chain A).",
+    "At least two computational design engines were used: rfd3 and boltzgen; pxdesign was configured but did not appear in the top-25 inspect results.",
+    "EGFR Domain IV was excluded from the model, limiting structural coverage of the ECD.",
+    "Molecular dynamics (MD) validation was skipped, reducing confidence in predicted binding poses.",
+    "Ranking and deduplication of the stage dump are incomplete.",
+    "An 8-way variation shortlist was generated, but no hit rate (e.g., 4/250) should be cited.",
+    "Selectivity has no numeric value; novelty is unchecked.",
+    "Total compute/API spend: $6.05 USD, indicating a very early-stage, low-resource computational screen.",
+    "No Adaptyv (experimental validation) submission is permitted under this verdict."
+  ],
+  "milestones": []
+}

@@ -1,0 +1,44 @@
+{
+  "file_path": "/campaigns/A1-EGFR-8HGO/01-campaign-plan.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document describes a computational binder design campaign (Challenge A1) targeting the human EGFR extracellular domain (UniProt P00533). The project uses AI-based protein design engines (pxdesign, boltzgen, rfd3) to generate candidate binders in silico, with no wet-lab experimental data or measured binding affinity (KD). The deliverable is explicitly a computational prediction packet, placing this project at TRL 1–2.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Challenge Metadata & Status",
+      "content": "Challenge: A1. Target: human EGFR ECD (UniProt P00533). PDB admitted: 8HGO / chain A. PDB actually run: 1IVO / chain A (protocol deviation noted). Status: computational prediction only — not a KD measurement, not a confirmed measured binder. Spend: $6.05 USD (BIOS staging MCP). OpenLabs project and discussion IDs are recorded for traceability. This is a pure in silico campaign with no wet-lab validation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Campaign Plan — Steps & Workflow",
+      "content": "Six-step campaign plan: (1) TargetLead lock construct + EGF-competitive DI/DIII hotspot identification on admitted PDB 8HGO. (2) Conductor admit + OpenLabs P0 discussion (budget estimate $8–$25). (3) Solver live BIOS staging MCP using ≥2 of pxdesign / boltzgen / rfd3; prediction stamps generated; 8-way variation shortlist produced. (4) Reviewer gate: PREDICTION_PACKAGE | BLOCKED decision point. (5) Conductor: one OpenLabs claim after PASS; write alpha_run.json + alpha_report.md; stop. (6) Molecule Labs vault stage — Conductor uploads after operator visibility calls."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Engine Parameters & Deliverable Scope",
+      "content": "Engines planned: pxdesign, boltzgen, rfd3. Binder length: 50–80 residues. Budget: $25. Molecular dynamics (MD): off. Deliverable is explicitly a computational prediction packet — not wet-lab binders, not a measured KD. No experimental assays, cell-based studies, or animal models are described or planned in this document."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Protocol Deviation Note",
+      "content": "A protocol deviation is flagged: the PDB structure admitted for the challenge was 8HGO / chain A, but the structure actually run in the computational pipeline was 1IVO / chain A. This discrepancy is noted in the metadata and is relevant to reproducibility and result interpretation."
+    }
+  ],
+  "key_findings": [
+    "Target is human EGFR extracellular domain (ECD), UniProt P00533 — a well-validated oncology target.",
+    "Campaign is purely computational (TRL 1): no wet-lab experiments, no measured binding affinity (KD), no cell or animal data.",
+    "AI design engines used: pxdesign, boltzgen, rfd3; binder length 50–80 residues; MD simulations disabled.",
+    "Protocol deviation: PDB 8HGO (admitted) vs. 1IVO (actually run) — potential reproducibility concern.",
+    "Total compute spend: $6.05 USD on BIOS staging MCP, well within the $25 budget.",
+    "Deliverable is an alpha_run.json + alpha_report.md prediction packet, not validated binders.",
+    "Hotspot targeting strategy focuses on EGF-competitive DI/DIII epitopes on EGFR ECD.",
+    "8-way variation shortlist generated from computational engines, pending reviewer gate (PREDICTION_PACKAGE | BLOCKED)."
+  ],
+  "milestones": []
+}
