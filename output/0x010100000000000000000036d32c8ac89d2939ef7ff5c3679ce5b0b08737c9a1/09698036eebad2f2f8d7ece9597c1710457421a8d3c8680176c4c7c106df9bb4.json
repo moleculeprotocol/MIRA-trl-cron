@@ -1,0 +1,194 @@
+{
+  "file_path": "/cellsurface-lamp1-is-a-senescence-marker-in-aging-and-idiopathic-pulmonary-fibrosis",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "high",
+  "summary": "This peer-reviewed publication in Aging Cell (2025) from the Lifespan Research Institute identifies cell-surface LAMP1 (Lysosomal-Associated Membrane Protein 1) as a membrane-specific biomarker of cellular senescence. The study validates LAMP1 upregulation in senescent cells across multiple human and mouse cell lines and in vivo mouse tissues, demonstrates its increase with aging and in a bleomycin-induced pulmonary fibrosis (IPF) model, and provides proof-of-concept for a LAMP1-targeting antibody-drug conjugate (ADC) to selectively eliminate senescent cells in vitro.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract and Introduction – LAMP1 as Senescence Biomarker",
+      "content": "LAMP1 (Lysosomal-Associated Membrane Protein 1, also known as CD107a) is proposed as a membrane-specific biomarker of cellular senescence. Key claims: (1) LAMP1 is selectively upregulated on the surface of senescent cells (SEN) in human and mouse cells; (2) Lamp1+ cells express high levels of p16, p21, Glb1, and low Lmnb1 compared to Lamp1- cells; (3) Lamp1+ cell percentage increases with age and in bleomycin (BLM)-induced fibrotic mouse lungs; (4) RNA-Seq of Lamp1-enriched populations shows enrichment of senescence-related genes (SenMayo gene set); (5) A dual antibody-drug conjugate (ADC) strategy can eliminate SEN in cell culture. Background: Senescent cells accumulate with aging, secrete SASP, and contribute to inflammaging and age-related diseases. Eliminating SEN delays/reverses aging in animal models. Existing senolytics (dasatinib+quercetin, navitoclax, fisetin) show limited efficacy in human trials. CAR-T approaches targeting uPAR and NKG2D ligands have been explored. ADCs against B2M and ApoD have been tested. A robust, tissue-agnostic, insult-agnostic senescence biomarker is an unmet need. Funding: SENS Research Foundation (SRF) and VitaDAO."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Background on LAMP1 Biology",
+      "content": "LAMP1 is a master orchestrator of lysosomal structural integrity; LAMP1 and LAMP2 together constitute ~50% of all lysosomal membrane proteins. LAMP1 is a type I transmembrane glycoprotein, heavily N-glycosylated, mostly localized in late endosomes and lysosomes. In healthy cells, LAMP1 is only transiently found at the cell surface (due to lysosome-plasma membrane fusion) and is rapidly internalized, making it mostly undetectable on the surface. In immune cells, CD107a is a marker of activation/degranulation but requires transport inhibitors to detect. In disease contexts (melanoma, carcinoma, fibrosarcoma), LAMP1 is abnormally localized on plasma membranes, associated with more malignant/metastatic cancers and drug resistance via increased lysosomal exocytosis. The paper proposes that stable cell-surface LAMP1 in SEN is mechanistically distinct from these transient/pathological contexts."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2.1 – Multi-Omic Screens Identify LAMP1 Upregulation in Senescence",
+      "content": "Analysis of a publicly available proteomic screen of SEN plasma membrane (Marin et al. 2023) across multiple cell types (IMR-90 human fetal lung fibroblasts, SK-MEL-103 melanoma, B16-F10 mouse melanoma, MEFs) with multiple senescence inducers (doxorubicin, palbociclib, nutlin). Pathway analysis (Enrichr) identified GO terms 'Lysosome' (GO:0005764, Padj 5.930e-32), 'Lysosomal Lumen' (GO:0043202, Padj 9.533e-20), and 'Lytic Vacuole' (GO:0000323) among top significantly upregulated pathways on SEN membranes. KEGG Human pathway 'Lysosome' had Padj 1.306e-25. Analysis of human muscle aging atlas (~300,000 cells, young 15-46 years vs. old 74-99 years) showed LAMP1 expression elevated in multiple cell types in aged vs. young cells. Strong correlation of LAMP1 with CDKN1A/p21 (R=0.94 in healthy tissue), p16 (R=0.75), and BAX (R=0.91) in healthy tissue. In cancer tissue, LAMP1 correlated with p21 (R=0.95) and with uPAR (PLAUR), another SEN surface marker."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Figure 1 – Computational Analysis of Lysosomal Proteins in Senescent Cells",
+      "content": "Panel (a): Schematic of proteomic screen – IMR-90, SK-MEL-103, B16-F10, MEF cell lines treated with doxorubicin, palbociclib, or nutlin to induce senescence, collected for proteomic analysis. Panel (b): GO Cellular Component pathway enrichment – Lysosome (GO:0005764) Padj 5.930e-32; Lysosomal Lumen (GO:0043202) Padj 9.533e-20; Lytic Vacuole (GO:0000323) also enriched. Panel (c): KEGG Human – Lysosome Padj 1.306e-25. Panel (d): UMAP of human muscle cells co-expressing high (LogFC >2) LAMP1 and CDKN1A (p21) – distinct cluster identified. Panel (e): Correlation between p21 and LAMP1 in healthy tissue: y = -0.018 + 0.83x, R = 0.94. Panel (f): Correlation between p16 and LAMP1: y = -0.0097 + 0.53x, R = 0.75. Panel (g): Correlation between BAX and LAMP1: y = -0.013 + 1.1x, R = 0.91."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 2.2 – LAMP1 Upregulation on Cell Membrane of Senescent Cells (In Vitro Validation)",
+      "content": "Model: Doxorubicin-induced senescence in IMR-90 human fetal lung fibroblasts (300 nM, 24h treatment, 9 days recovery). Senescence confirmed by SA-β-Gal staining. Results: (1) Immunofluorescence: increased total cytoplasmic and membrane LAMP1 in permeabilized SEN vs. negligible in NS controls. (2) Flow cytometry (unfixed, non-permeabilized): ~1% of NS express surface LAMP1 vs. 20-60%+ of SEN express stable surface LAMP1. SEN showed 5-fold increase in MFI for LAMP1 vs. NS. (3) Kinetics: steady increase in surface LAMP1+ SEN over days 1-8 post-doxorubicin, reaching >60% by days 7-8, stable through day 9. (4) Replicative senescence: progressive increase from ~10% LAMP1+ at PD 30-40, ~25% at PD 42-52, >60% at PD>52, vs. negligible in controls. (5) Etoposide-induced senescence (5 µM, 48h, 8 days recovery): 20% of SEN LAMP1+ vs. 1% NS. (6) Western blot: increased LAMP1 in membrane and lysosomal fractions of SEN vs. NS. (7) LAMP2: only ~10% of SEN were LAMP2+, vs. 1% NS – lower than LAMP1. (8) Mouse cells: MEFs treated with doxorubicin (150 nM, 24h, 9 days) showed 10-fold increase in Lamp1+ SEN vs. NS by flow cytometry; >2-fold increase in MFI. NIH/3T3 cells: 7% Lamp1+ in NS vs. 56% in SEN."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "Figure 2 – LAMP1 Upregulation on Senescent Cell Membrane (In Vitro)",
+      "content": "Panel (a): SA-β-Gal staining images of NS vs. SEN IMR-90 fibroblasts (scale bar 150 µm). Panel (b): % SA-β-Gal+ cells – significant increase in SEN vs. NS (n=3, unpaired t-test, ***p≤0.001). Panel (c): Immunofluorescence images – red=LAMP1, blue=Hoechst; markedly increased LAMP1 in SEN vs. NS (n=3). Panel (d-i): Flow cytometry histograms – ISOTYPE 0.09%, NS 0.99%, SEN 55.35% surface LAMP1 (doxorubicin model). Panel (d-ii): LAMP1+ % – SEN vs. NS (n≥3, ****p≤0.0001). Panel (d-iii): MFI – SEN vs. NS (~5-fold increase, n≥3, *p≤0.05). Panel (e): Kinetics of LAMP1+ % over days 1-8 post-doxorubicin (n=2). Panel (f-i): Replicative senescence – CONTROL 2.90%, PD 30-40 10.63%, PD 42-52 26.82%, PD>52 64.60%. Panel (f-ii): Quantification (n=2). Panel (g): Etoposide model – ISOTYPE 0.98%, NS 1.03%, SEN 24.14% surface LAMP1 (n=3 biological replicates)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 2.3 – Lamp1+ Cells Express Senescence Markers in Multiple Mouse Tissues",
+      "content": "Experiment: Flow cytometry of surface Lamp1 in lung, liver, kidney, and spleen of young (16-week-old) vs. middle-aged (39-63-week-old) C57BL/6J mice. Results (Table 1): Lung – Young 2.75±0.36%, Old 5.12±1.45%; Liver – Young 3.85±1.23%, Old 9.91±0.69%; Spleen – Young 2.08±0.89%, Old 6.92±4.10%; Kidney – Young 1.73±0.01%, Old 4.09±1.05%. Approximately half as many Lamp1+ cells in younger vs. older mice across all organs. Flow cytometry representative data: Lung 6.20%, Liver 10.84%, Kidney 5.44% in middle-aged mice. Liver of 4-month-old mice: 4.94% Lamp1+. Senescence marker validation: Lamp1+ and Lamp1- cells sorted from liver and lungs of middle-aged mice. RT-qPCR of liver Lamp1+ cells: significantly higher p16 (**p≤0.01) and p21 (*p≤0.05) vs. Lamp1- cells; lower Lmnb1 (*p≤0.05); higher Glb1 (*p≤0.05). Unsorted whole tissue intermediate between Lamp1+ and Lamp1-. Lung Lamp1+ cells: significantly higher p16 but not p21 vs. Lamp1-; lower Lmnb1. These numbers align with prior reports estimating senescence burden using other markers (e.g., 8.4%±1.7% hepatocytes senescent by γH2AX foci in similar-aged mice; 6.7% SEN by TAF in lungs of 12-month-old mice)."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Table 1 – Percentage of Lamp1+ Cells in Different Mouse Organs (Young vs. Old)",
+      "content": "Organ | Young Mean (%) | Young SD | Old Mean (%) | Old SD\nLung | 2.75 | 0.36 | 5.12 | 1.45\nLiver | 3.85 | 1.23 | 9.91 | 0.69\nSpleen | 2.08 | 0.89 | 6.92 | 4.10\nKidney | 1.73 | 0.01 | 4.09 | 1.05\nYoung = 16-week-old mice; Old = 39-63-week-old mice. Approximately 2-fold increase in Lamp1+ cells with aging across all organs."
+    },
+    {
+      "page": 6,
+      "type": "figure",
+      "title": "Figure 3 – Lamp1+ Cells Express Senescence Markers in Mouse Tissues",
+      "content": "Panel (a): SA-β-Gal staining in MEFs 9 days post-doxorubicin (scale bar 150 µm). Panel (b-i): Flow cytometry – ISOTYPE 0.83%, NS 3.30%, SEN 31.73% surface Lamp1 in MEFs. Panel (b-ii): Quantification – SEN vs. NS (n≥3, ***p≤0.001). Panel (b-iii): MFI – SEN vs. NS (n≥3, ***p≤0.001, >2-fold increase). Panel (c): Lamp1+ populations in lung (c-i: 6.20%), liver (c-ii: 10.84%), kidney (c-iii: 5.44%) of middle-aged mice. Panel (d): Representative gating strategy for liver of 16-week-old mice (4.94% Lamp1+). Panel (e): % Lamp1+ cells in liver (p=0.0004), lung (p=0.0643), kidney (p=0.0399) – Young vs. Old. Panel (f): Schematic of sorting approach. Panel (g): Gene expression (relative fold change) in liver – p16: Lamp1+ ~2.0 vs. Lamp1- ~0.7 (**p≤0.01); p21: Lamp1+ ~1.0 vs. Lamp1- ~0.8 (*p≤0.05); Lmnb1: Lamp1+ ~0.9 vs. Lamp1- ~1.1 (*p≤0.05); Glb1: Lamp1+ ~1.3 vs. Lamp1- ~0.8 (*p≤0.05). Housekeeping: Gapdh and Actb."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Section 2.4 – Lamp1+ Cells Accumulate in Bleomycin-Induced Pulmonary Fibrosis (IPF Model)",
+      "content": "Disease model: Bleomycin (BLM) sulfate administered oropharyngeally (3 or 3.5-4 mg/kg) to 6-month-old male C57BL/6J mice. Tissue collected 18-24 days post-instillation. Fibrosis validation: (1) Weight loss in BLM-treated mice (normalized to day 0). (2) Picrosirius red staining: significantly increased collagen deposition in BLM vs. sham lungs (**p≤0.01, quantified in pixels). (3) RT-qPCR: 3-fold increase in Tgf-β expression in BLM vs. sham (**p≤0.01). (4) RT-qPCR: increased p21 and p16 in BLM lung tissue vs. sham. Lamp1 results: 1.5- to 3-fold increase in Lamp1+ cells in BLM vs. sham lungs (flow cytometry, *p≤0.05). Representative: ISOTYPE 0.01%, SHAM 6.30%, BLM 23.89% surface Lamp1. Mouse-to-mouse variability: 9%-24% Lamp1+ in BLM mice. Cell type characterization (multicolor flow cytometry panel): In sham mice, majority of Lamp1+ cells were endothelial cells (ECs, Cd45-, Cd31+). In BLM mice, Lamp1+ cells were predominantly ECs, macrophages (Cd45+, Cd11c+, SiglecF+: 15.7% sham vs. 39.7% BLM), and dendritic cells (Cd45+, Cd11c+, SiglecF-: 3.1% sham vs. 14.1% BLM). Small percentage of T cells (Cd45+, Cd11c-low, Cd3e+) expressed surface Lamp1 in BLM mice. Behavioral validation: Rotarod – significant decline in time on rod in BLM vs. sham (*p≤0.05). Open field – significant decline in total distance moved in BLM vs. sham (**p≤0.01)."
+    },
+    {
+      "page": 8,
+      "type": "figure",
+      "title": "Figure 4 – Bleomycin-Induced Pulmonary Fibrosis Model and Lamp1+ Cell Characterization",
+      "content": "Panel (a): Experimental schematic – BLM day 0, tissue collection day 21-24, 6-month-old male mice. Panel (b): Weight loss curve – BLM vs. SHAM (n=6; n=3 sham, n=3 BLM). Panel (c-i): Picrosirius red lung sections (scale bar 500 µm) – SHAM vs. BLM. Panel (c-ii): Collagen-high area quantification (pixels) – BLM significantly higher (**p≤0.01). Panel (d): Tgf-β gene expression – BLM ~3-fold higher than sham (**p≤0.01). Panel (e-i): Fold change Lamp1+ cells in BLM vs. sham lungs (*p≤0.05). Panel (e-ii): Flow cytometry histogram – ISOTYPE 0.01%, SHAM 6.30%, BLM 23.89%. Panel (f): Second experiment schematic – BLM day 0, cell characterization day 18-23, behavior day 17 (n=7; n=3 sham, n=4 BLM). Panel (g): Rotarod time (seconds) – BLM significantly lower (*p≤0.05). Panel (h): Open field distance (cm) – BLM significantly lower (**p≤0.01). Panel (i): % Lamp1+ cells by cell type – Endothelial cells, Macrophages, DCs, Cd11c-low, Cd45-Cd31- in SHAM vs. BLM. Panel (j): Flow cytometry histograms for DCs (ISOTYPE 0.2%, SHAM 3.1%, BLM 14.1%) and Macrophages (ISOTYPE 0.5%, SHAM 15.7%, BLM 39.7%)."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Section 2.4 (continued) – RNA-Seq of Lamp1-Enriched Populations",
+      "content": "Bulk RNA-Sequencing performed on Lamp1-enriched, Lamp1-depleted, and unsorted cell suspensions from whole lung of sham- and BLM-treated mice (21 days post-BLM). Key findings: (1) Significant increase in fibrotic genes in unsorted BLM vs. sham lung cells (GSEA: WP_LUNG_FIBROSIS, NES=1.52, padj=2.3e-02). (2) Overlap of 312 upregulated genes between Lamp1-enriched cells from sham and BLM mice. (3) Sham Lamp1-enriched cells: upregulated pathways include hemostasis, platelet activation, TGF-beta regulation of ECM, cell junction organization, smooth muscle contraction. (4) BLM Lamp1-enriched cells: upregulated pathways include TGF-beta regulation of ECM, ECM-receptor interaction, axon guidance, beta-1 integrin cell surface interactions, BMP signaling, ALK1 pathway, focal adhesion, ECM organization, collagen biosynthesis. (5) Senescence signature: GSEA using SenMayo gene set (SAUL_SEN_MAYO) – Sham Lamp1-depleted vs. Lamp1-enriched: NES=1.79, padj=1.9e-03; BLM Lamp1-depleted vs. Lamp1-enriched: NES=1.52, padj=6e-03. Both confirm senescence enrichment in Lamp1+ populations. RNA-Seq data deposited: accession GSE297723."
+    },
+    {
+      "page": 10,
+      "type": "figure",
+      "title": "Figure 5 – RNA-Seq of Lamp1-Enriched Lung Cells",
+      "content": "Panel (a): Experimental schematic – BLM day 0, lung harvest day 21, sorting and RNA-Seq. Panel (b): GSEA for WP_LUNG_FIBROSIS in sham vs. BLM unsorted cells – NES=1.52, padj=2.3e-02. Panel (c): Venn diagram – Lamp1-enriched DEGs: Sham 414 unique, BLM 239 unique, 312 shared. Panel (d): Upregulated pathways in Lamp1-enriched sham cells (BioPlanet 2019, all padj<0.05): Hemostasis, Platelet activation/signaling/aggregation, TGF-beta regulation of ECM, Response to elevated platelet cytosolic calcium, Cell junction organization, Platelet adhesion to exposed collagen, Smooth muscle contraction, Glycoprotein 1b-IX-V activation signaling, Prothrombin activation intrinsic pathway, Fibrin clot formation. Panel (e): Upregulated pathways in Lamp1-enriched BLM cells (BioPlanet 2019, all padj<0.05): TGF-beta regulation of ECM, ECM-receptor interaction, Axon guidance, Beta-1 integrin cell surface interactions, BMP signaling pathway in stem cells, ALK1 pathway, Focal adhesion, ECM organization, Adherens junction actin cytoskeletal organization, Collagen biosynthesis and modifying enzymes. Panel (f): GSEA SAUL_SEN_MAYO – Sham Lamp1-depleted vs. Lamp1-enriched: NES=1.79, padj=1.9e-03. Panel (g): GSEA SAUL_SEN_MAYO – BLM Lamp1-depleted vs. Lamp1-enriched: NES=1.52, padj=6e-03."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Section 2.5 – LAMP1-Targeting ADC Eliminates Senescent Cells",
+      "content": "Proof-of-concept ADC experiment in IMR-90 SEN and NS cells. LAMP1 stability: surface LAMP1 remains stable and selectively elevated on SEN at both 4°C and 37°C (NS 4°C 3.59%, NS 37°C 6.63%, SEN 4°C 51.90%, SEN 37°C 53.75%). ADC approach: Two-part system – (1) human anti-LAMP1 primary antibody (26 nM, 1h incubation); (2) secondary ADC: Anti-Mouse IgG Fc-Duocarmycin Antibody with Cleavable Linker (MORADEC, AM-102-DD, 50 nM, 2h). Cell viability measured by xCELLigence RTCA-MP (impedance-based, every 15 min for 24-48h). Controls: IgG control + ADC, untreated. Results: Significant decline in normalized cell index (CI) in SEN treated with anti-LAMP1 + ADC vs. IgG control + ADC (*p≤0.05). No effect on NS viability. Cytotoxicity kinetics: increase in SEN cytotoxicity within 10h, steady increase to ~50% by 48h. No increase in NS cytotoxicity within 48h. All experiments in triplicates, at least 3 independent experiments."
+    },
+    {
+      "page": 12,
+      "type": "figure",
+      "title": "Figure 6 – LAMP1-ADC Kills Senescent Cells",
+      "content": "Panel (a): Flow cytometry – LAMP1 surface expression at 4°C and 37°C: NS 4°C 3.59%, NS 37°C 6.63%, SEN 4°C 51.90%, SEN 37°C 53.75% (n≥3 biological replicates). Panel (b): Normalized cell index at 48h – SEN LAMP1+ADC significantly lower than SEN IgG+ADC (*p≤0.05); NS LAMP1+ADC not significantly different from NS IgG+ADC (ns). Panel (c): Real-time cytotoxicity kinetics (% cytotoxicity vs. time in hours, 0-50h) – SEN LAMP1+ADC reaches ~50% cytotoxicity by 48h; SEN IgG+ADC and NS groups remain near 0%. Panel (d): % Cytotoxicity at 48h – SEN LAMP1+ADC ~50% (*p≤0.05); NS LAMP1+ADC ~0% (ns). Panel (e): Schematic of ADC mechanism – healthy cells (low/transient LAMP1, low β-Gal) spared; senescent cells (upregulated stable LAMP1, high β-Gal) targeted by ADC leading to DNA disruption and apoptosis."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Discussion – Key Interpretations and Limitations",
+      "content": "Key discussion points: (1) LAMP1 builds on prior findings that lysosomal dysfunction is characteristic of senescence. (2) No previous studies focused on LAMP1 as a selective/sensitive senescence marker, though it appeared in prior surfaceome screens (top 27 DEPs in Deng et al. 2024; identified in Marin et al. 2023; increased in SK-MEL-103 by Rovira et al. 2022; in membrane fraction of etoposide-treated SEN by Kang et al. 2017). (3) Quantitative alignment: ~10% Lamp1+ in liver of 39-63 week mice aligns with 8.4%±1.7% hepatocytes senescent by γH2AX foci (Wang et al. 2009); ~6% Lamp1+ in lung aligns with 6.7% SEN by TAF (Wang et al. 2009) and 6-7% SA-β-Gal+ in older mice (Biran et al. 2017). (4) BLM model: 9-24% Lamp1+ with high mouse-to-mouse variability. (5) Cell type heterogeneity: sham mice – mostly ECs; BLM mice – ECs, macrophages, DCs. No change in fibroblasts or epithelial cells. (6) Mechanism hypothesis: lysosomal exocytosis as plasma membrane repair mechanism; PIKfyve kinase inhibition (Barkovskaya et al. 2025) leads to senolytic activity. (7) Limitations: LAMP1 also transiently expressed on activated NK/T cells; entire proteome of Lamp1+ SEN uncharacterized; mechanism of stable surface LAMP1 in SEN not fully elucidated; ADC results are in vitro only, need in vivo validation. (8) IP: Patent application filed by SRF/LRI with A.S. as inventor."
+    },
+    {
+      "page": 14,
+      "type": "text",
+      "title": "Materials and Methods – Experimental Details",
+      "content": "Cell culture: IMR-90 (human lung fibroblasts) and MEFs in DMEM + 10% FBS + Pen-Strep, 5% CO2, 3% O2, 37°C. Senescence induction: IMR-90 – 300 nM doxorubicin 24h, 9 days recovery; 5 µM etoposide 48h, 8 days recovery. MEFs – 150 nM doxorubicin 24h, 9 days. Replicative senescence by continuous passaging. SA-β-Gal: Abcam Senescence Detection Kit. Animals: Male C57BL/6J mice (Jackson Laboratory), IACUC-approved. BLM: 3 or 3.5-4 mg/kg oropharyngeal, lungs collected 18-24 days post-instillation. Histology: Picrosirius red staining, quantified by ImageJ. Flow cytometry: 7-AAD + anti-Lamp1 (human: clone H4A3, BioLegend; mouse: REA777, Miltenyi Biotec), 1:100, 30 min 4°C. MACSQuant Analyzer and MACSQuant Tyto Sorter. LAMP2: H4B4 antibody (Invitrogen), 1:50. ADC: 26 nM anti-LAMP1 (1h), then 50 nM Anti-Mouse IgG Fc-Duocarmycin (MORADEC AM-102-DD, 2h). xCELLigence RTCA-MP, every 15 min for 24-48h, triplicates, ≥3 independent experiments. RT-qPCR: Qiagen RNeasy, PrimeScript RT, AzuraQuant Green Fast qPCR, QuantStudio3, 2^-ΔΔCt method. Housekeeping: Actb (mouse tissue), Hprt (BLM lungs). Pathway analysis: Enrichr, Correlation AnalyzeR. scRNA-Seq: Human Muscle Ageing Cell Atlas (HLMA). Statistics: GraphPad Prism 10, unpaired t-test or one-way ANOVA, mean±SEM."
+    },
+    {
+      "page": 16,
+      "type": "text",
+      "title": "IP and Funding Status",
+      "content": "Conflicts of Interest statement: 'A patent application related to the work described in this manuscript has been filed by the SENS Research Foundation (SRF), now operating as the Lifespan Research Institute (LRI), with A.S. listed as an inventor. All authors are or have been employees of SRF or LRI and have received salary support from these organizations.' Funding: SENS Research Foundation (SRF), Lifespan Research Institute, and VitaDAO. Data availability: Bulk RNA-Seq data deposited under accession GSE297723."
+    }
+  ],
+  "key_findings": [
+    "Cell-surface LAMP1 is identified as a membrane-specific biomarker of cellular senescence, validated across multiple human and mouse cell lines and in vivo mouse tissues.",
+    "Flow cytometry: ~1% of non-senescent (NS) IMR-90 cells express surface LAMP1 vs. 20-60%+ of senescent cells (SEN); 5-fold increase in MFI in SEN vs. NS (doxorubicin model, ****p≤0.0001).",
+    "LAMP1 upregulation confirmed across multiple senescence induction modes: doxorubicin (55.35% SEN), etoposide (24.14% SEN), and replicative senescence (64.60% at PD>52).",
+    "In mouse tissues, Lamp1+ cells increase ~2-fold with aging: Lung 2.75% (young) vs. 5.12% (old); Liver 3.85% vs. 9.91%; Spleen 2.08% vs. 6.92%; Kidney 1.73% vs. 4.09%.",
+    "Sorted Lamp1+ cells from mouse liver express significantly higher p16 (**p≤0.01), p21 (*p≤0.05), Glb1 (*p≤0.05), and lower Lmnb1 (*p≤0.05) vs. Lamp1- cells, confirming senescence identity.",
+    "In bleomycin-induced IPF mouse model, Lamp1+ cells increase 1.5-3 fold (6.30% sham vs. 23.89% BLM, *p≤0.05), with mouse-to-mouse variability of 9-24%.",
+    "Cell type analysis in BLM model: Lamp1+ cells are predominantly macrophages (15.7% sham vs. 39.7% BLM) and dendritic cells (3.1% sham vs. 14.1% BLM), with ECs dominant in sham.",
+    "Bulk RNA-Seq confirms senescence signature in Lamp1-enriched populations: SenMayo GSEA – Sham NES=1.79 (padj=1.9e-03); BLM NES=1.52 (padj=6e-03).",
+    "Proof-of-concept ADC (anti-LAMP1 + duocarmycin payload): ~50% cytotoxicity in SEN by 48h with no effect on NS (*p≤0.05); LAMP1 stable on SEN surface at both 4°C and 37°C.",
+    "Strong computational correlations: LAMP1 vs. p21 R=0.94 (healthy tissue), R=0.95 (cancer tissue); vs. p16 R=0.75; vs. BAX R=0.91.",
+    "Patent application filed by Lifespan Research Institute (formerly SENS Research Foundation) with Amit Sharma as inventor.",
+    "Funded by SENS Research Foundation (SRF) and VitaDAO; RNA-Seq data deposited at GSE297723."
+  ],
+  "document_date": "2025-06-06",
+  "milestones": [
+    {
+      "title": "Patent Application Filed – LAMP1 Senescence Biomarker/Target",
+      "description": "A patent application related to cell-surface LAMP1 as a senescence biomarker and therapeutic target was filed by the SENS Research Foundation (SRF), now operating as the Lifespan Research Institute (LRI), with Amit Sharma listed as inventor.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "A patent application related to the work described in this manuscript has been filed by the SENS Research Foundation (SRF), now operating as the Lifespan Research Institute (LRI), with A.S. listed as an inventor.",
+      "page": 16
+    },
+    {
+      "title": "Publication Accepted – Aging Cell",
+      "description": "Manuscript 'Cell-Surface LAMP1 is a Senescence Marker in Aging and Idiopathic Pulmonary Fibrosis' accepted for publication in Aging Cell journal.",
+      "date": "2025-06-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Received: 6 March 2025 | Revised: 24 May 2025 | Accepted: 6 June 2025",
+      "page": 1
+    },
+    {
+      "title": "Manuscript Received",
+      "description": "Manuscript submitted to Aging Cell journal.",
+      "date": "2025-03-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Received: 6 March 2025 | Revised: 24 May 2025 | Accepted: 6 June 2025",
+      "page": 1
+    },
+    {
+      "title": "RNA-Seq Data Deposited – GEO",
+      "description": "Bulk RNA-Sequencing data from Lamp1-enriched/depleted mouse lung cells deposited in GEO under accession GSE297723.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The Bulk RNA-Sequencing data generated in this manuscript has been deposited under the accession GSE297723.",
+      "page": 16
+    },
+    {
+      "title": "In Vivo ADC Validation – Planned Future Work",
+      "description": "The authors indicate that in vitro ADC results are promising and should be tested in vivo in future studies.",
+      "date": "in the future",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "The results from cell culture data were promising and should be tested in vivo in the future.",
+      "page": 13
+    },
+    {
+      "title": "PIKfyve Inhibition Senolytic Study – Related Work Published (preprint)",
+      "description": "A related study from the same laboratory demonstrating that PIKfyve kinase inhibition induces senescent cell death by suppressing lysosomal exocytosis and improves outcomes in a mouse model of IPF was posted as a preprint.",
+      "date": "2025-03-19",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "preclinical",
+      "source_quote": "Barkovskaya, A., K. Kim, A. Shankar, et al. 2025. \"Inhibition of PIKfyve Kinase Induces Senescent Cell Death by Suppressing Lysosomal Exocytosis and Leads to Improved Outcomes in a Mouse Model of Idiopathic Pulmonary Fibrosis.\" bioRxiv, 2025.2003.2019.644224.",
+      "page": 16
+    }
+  ]
+}
