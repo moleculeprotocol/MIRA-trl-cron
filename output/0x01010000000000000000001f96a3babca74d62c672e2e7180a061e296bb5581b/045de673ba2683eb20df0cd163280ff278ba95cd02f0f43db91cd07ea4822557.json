@@ -1,0 +1,121 @@
+{
+  "file_path": "/KISS1R_Pipeline_Update_Gen2.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This document is an internal pipeline update for the KISS1R peptide drug discovery program, describing a design pivot from Generation 1 (C1) to Generation 2 (C2/C3) computational libraries following selectivity learnings at Gate 8. The program is entirely in the computational/early discovery phase (TRL 1–2), with the primary lead (C1-01) staging for first wet-lab validation (Adaptyv Bio G9 BLI assay). No in vitro or in vivo experimental results from physical assays are yet reported.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Program Overview & Generation-1 Selectivity Learning",
+      "content": "The KISS1R program has completed a Generation-1 (C1) computational library and undergone a selectivity assessment at Gate 8 (G8). Key finding: the canonical C-terminal -RF amide motif shared with endogenous NPFF/NPAF ligands creates cross-reactivity liability at NPFFR1 and NPFFR2. Structural root cause identified: KISS1R has Ala287 at BW position 6.59, while NPFFR1/NPFFR2 have Asp at the same position. Two orthogonal selectivity mechanisms were engineered for Generation 2: (1) Trp10 substitution — bulky indole sterically hinders the salt-bridge contact required by NPFFR Asp residues; (2) Cit9 mechanism — replacing Arg9 guanidinium with neutral ureido (Citrulline) eliminates the cationic interaction NPFFRs require. This is purely computational mechanistic reasoning; no wet-lab data are reported for these mechanisms yet."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Generation-1 Selectivity Failures — Quantitative Computational Data",
+      "content": "Selectivity failures identified at G8 (computational selectivity gate):\n- C1-02: NPFFR1 ddG = -0.70 kcal/mol vs KISS1R (negative = selectivity failure; threshold is +1.4 kcal/mol). Result confirmed across multiple Boltz2 runs.\n- C1-05 and C1-06: Also fell below the +1.4 kcal/mol selectivity threshold.\nAll selectivity values are from computational (Boltz2) predictions, not experimental assays. The +1.4 kcal/mol threshold is the internal program criterion for acceptable selectivity."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Generation 2 Active Library Tracks",
+      "content": "| Library | Strategy | Selectivity Approach | Status |\n|---------|----------|---------------------|--------|\n| C2 | Rational redesign of C1 | Trp10, Triazole backbones, N-Me scans | C2-01 cleared G1–G7 |\n| C3 | RFdiffusion discovery | 20% explicit selectivity weighting | C3-04 active; C3-02 dropped |\n\nDesigned between May 2 and May 4, 2026. C2 is a rational redesign stream; C3 uses RFdiffusion (a generative AI/diffusion model) for de novo discovery with explicit selectivity weighting built into the design objective."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Lead Candidate Progress — Computational Gate Results",
+      "content": "C2-01 (C1-01 backbone with Phe10→Trp10 substitution): Cleared G1–G7. Key metrics: G4 dG = -13.10 kcal/mol (predicted binding affinity); G5 peptide RMSD = 2.015 Å (structural stability metric). G8 selectivity testing pending final sequence verification. Highest-confidence C2 entry.\n\nC1-01: Cleared all 8 computational gates. Staging for Adaptyv G9 validation (first wet-lab step). Minor NPFFR2 flag: ddG = +0.86 kcal/mol (above threshold but marginal). Decision: proceed to functional assays to address experimentally.\n\nC1-10: Currently undergoing high-fidelity MD (G5 v2) to test Cit9 hypothesis with explicit parameterization. In progress.\n\nKP-10 (native reference): Fails G6 (stability gate), confirming pipeline identifies only genuine improvements over the natural parent peptide."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Full Candidate Status Summary",
+      "content": "| Candidate | Status | Reason |\n|-----------|--------|--------|\n| C1-01 | STAGING G9 (✅) | Cleared all 8 gates; primary lead for wet-lab |\n| C1-02 | STAGING G9 (✅) | Progressing to wet-lab for selectivity 'truth function' testing |\n| C1-03/04 | DROPPED (❌) | Insufficient predicted affinity (G4) |\n| C1-05/06 | DROPPED (❌) | Failed selectivity criteria (G8) |\n| C1-07/08 | PRE-DROPPED (❌) | Redundant mechanism; insights folded into C2 |\n| C3-02 | DROPPED (❌) | Intrinsically disordered oscillation at G2 |\n\nNote: All gates (G1–G8) are computational. G9 (Adaptyv Bio) is the first physical/wet-lab validation step."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Next Steps — Wet-Lab Validation Plan",
+      "content": "C1-02 will be evaluated against an NPFFR1/NPFFR2 BLI (Bio-Layer Interferometry) panel at Adaptyv Bio alongside the target KISS1R. This is the first planned physical experiment for the program. C1-01 is also staging for G9 Adaptyv validation. Full experimental readouts from Generation 1 leads and first Generation 2 results are expected 'in the coming weeks' (relative timing, no absolute date given). Program philosophy: wet-lab is the truth function for selectivity predictions."
+    }
+  ],
+  "key_findings": [
+    "Program is entirely in computational discovery phase (TRL 1–2); no wet-lab experimental results have been reported yet.",
+    "Primary lead C1-01 has cleared all 8 internal computational gates and is staging for first physical validation (G9 BLI assay at Adaptyv Bio).",
+    "C2-01 shows strong computational metrics: predicted binding affinity (G4 dG) = -13.10 kcal/mol; G5 peptide RMSD = 2.015 Å; cleared G1–G7.",
+    "Selectivity liability identified: -RF amide motif causes NPFFR1/NPFFR2 cross-reactivity. Root cause is Ala287 (KISS1R) vs Asp (NPFFR1/2) at BW position 6.59.",
+    "C1-02 failed G8 selectivity: NPFFR1 ddG = -0.70 kcal/mol (threshold: +1.4 kcal/mol), confirmed across multiple Boltz2 computational runs.",
+    "Two engineered selectivity mechanisms for Gen 2: Trp10 steric clash and Cit9 (Arg→Citrulline) charge elimination — both purely computational hypotheses awaiting wet-lab confirmation.",
+    "Native KP-10 reference peptide fails G6 (stability gate), validating pipeline stringency.",
+    "C1-01 carries a minor NPFFR2 flag (ddG +0.86 kcal/mol, above threshold but marginal); team is proceeding to wet-lab to resolve.",
+    "C3 library uses RFdiffusion generative AI with 20% explicit selectivity weighting in the design objective.",
+    "Computational tools used include Boltz2 (for ddG selectivity predictions) and MD simulations (G5 high-fidelity molecular dynamics).",
+    "No IP, regulatory, funding, team, or CMC information is disclosed in this document."
+  ],
+  "document_date": "2026-05-04",
+  "milestones": [
+    {
+      "title": "Generation 2 Library Design (C2 & C3)",
+      "description": "Design of the Generation 2 computational libraries (C2 rational redesign and C3 RFdiffusion discovery) was carried out between May 2 and May 4, 2026.",
+      "date": "2026-05-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Designed between May 2 and May 4, 2026, the updated library employs these mechanisms across two primary streams",
+      "page": 1
+    },
+    {
+      "title": "C1-01 Clears All 8 Computational Gates",
+      "description": "C1-01 has successfully passed all eight internal computational gates (G1–G8) and is the primary lead candidate advancing to wet-lab validation.",
+      "date": "2026-05-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "C1-01 has cleared all eight computational gates and is staging for Adaptyv G9 validation.",
+      "page": 1
+    },
+    {
+      "title": "C2-01 Clears G1–G7",
+      "description": "C2-01 (C1-01 backbone with Phe10→Trp10 substitution) has cleared computational gates G1 through G7 with strong metrics; G8 selectivity testing is pending.",
+      "date": "2026-05-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "C2-01 cleared G1–G7",
+      "page": 1
+    },
+    {
+      "title": "C1-10 High-Fidelity MD (G5 v2) — Cit9 Hypothesis",
+      "description": "C1-10 is undergoing high-fidelity molecular dynamics simulation (G5 version 2) to test the Cit9 (Arg→Citrulline) selectivity hypothesis with explicit parameterization.",
+      "date": "2026-05-04",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "C1-10 is currently undergoing high-fidelity MD (G5 v2) to test the Cit9 hypothesis with explicit parameterization.",
+      "page": 1
+    },
+    {
+      "title": "C2-01 G8 Selectivity Testing",
+      "description": "G8 selectivity testing for C2-01 is pending final sequence verification before proceeding.",
+      "date": "2026-05-04",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "G8 selectivity testing is pending final sequence verification.",
+      "page": 1
+    },
+    {
+      "title": "C1-01 & C1-02 Adaptyv Bio G9 Wet-Lab Validation",
+      "description": "C1-01 and C1-02 are staging for G9 validation at Adaptyv Bio, which includes BLI (Bio-Layer Interferometry) assays against KISS1R, NPFFR1, and NPFFR2. This is the first physical wet-lab experiment for the program.",
+      "date": "in the coming weeks",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "C1-02 will be evaluated against an NPFFR1/NPFFR2 BLI panel at Adaptyv Bio alongside the target KISS1R... Full experimental readouts from the Generation 1 leads and the first Generation 2 results are expected in the coming weeks.",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "file_path": "/tonsillitis-evidence-summary",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "low",
+  "summary": "This is a first-pass evidence summary on tonsillitis and acute pharyngitis, covering etiology, diagnosis (Centor/McIsaac criteria), antibiotic and steroid treatment, tonsillectomy indications, and complications (peritonsillar abscess, rheumatic fever, PANDAS). It synthesizes 15 published sources retrieved via PubMed and Unpaywall. The document is a clinical literature scan, not a biotech/drug development project document, and has minimal direct relevance to TRL assessment of a novel therapeutic or technology.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Scope",
+      "content": "Status: first-pass literature scan, not a systematic review. Scope: etiology (viral vs. bacterial/GAS), diagnosis (Centor/McIsaac), treatment (antibiotics, rapid testing, steroids), tonsillectomy indications, and complications (peritonsillar abscess, rheumatic fever, PANDAS). Access date: 2026-09-04. Method: paper-lookup skill ('K-Dense' literature-search tool), PubMed E-utilities (esearch/esummary/efetch), cross-checked against Unpaywall for open-access status."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Etiology Summary",
+      "content": "Most acute pharyngitis/tonsillitis is viral. Group A β-hemolytic streptococcus (GAS/GABHS) is the dominant bacterial cause, accounting for roughly 25% of pharyngitis episodes in children (lower in adults), per Pellegrino et al. (2023) multi-guideline comparison. This figure is a single-source approximation from a guideline-comparison paper, not a directly verified primary epidemiological measurement."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Diagnosis — Centor and McIsaac Criteria",
+      "content": "Centor criteria (1981): tonsillar exudate, tender anterior cervical adenopathy, absence of cough, history of fever — derived from logistic regression in adult ER patients. Probability of positive GAS culture: 2.5% with 0 criteria, 56% with all 4. McIsaac et al. (1998) added age adjustment (+1 for ages 3–14, −1 for ≥45), validated against throat culture in 521 patients; score-based management reduced antibiotic prescribing by 48% vs. usual care without increasing culture use. Rapid antigen detection tests (alone or combined with clinical score) cut antibiotic prescription rates by an absolute 25 percentage points (95% CI 18–31) vs. clinical judgment alone across 5 RCTs (Cohen et al., Cochrane 2020), though evidence on dispensed antibiotics or complication rates is low- to very-low-certainty."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Treatment — Antibiotics (Cochrane Review)",
+      "content": "Cochrane review (Spinks, Glasziou & Del Mar, 2021): 29 placebo-controlled trials, 15,337 cases. Antibiotics reduce sore throat at day 3 (RR 0.70) and day 7 (RR 0.50), reduce suppurative complications (otitis media, quinsy/peritonsillar abscess), and reduce acute rheumatic fever risk (Peto OR 0.36). Caveat: most trials predate modern rheumatic-fever epidemiology; 82% of untreated patients were symptom-free within a week. First-line: penicillin/amoxicillin; clindamycin preferred for penicillin-allergic patients (IDSA 2012 guideline, Shulman et al.)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Treatment — Corticosteroids for Symptom Relief",
+      "content": "Corticosteroids added to usual care (antibiotics ± analgesia) roughly doubled the chance of complete pain resolution at 24 hours (RR 2.4) and 1.5x at 48 hours; NNT ≈5 to prevent one person still in pain at 24h. Evidence base: 9 small trials, 1,319 participants, mostly adults, with limited safety reporting (de Cassan et al., Cochrane 2020)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Tonsillectomy Indications — Paradise Criteria and AAO-HNS Guideline",
+      "content": "AAO-HNS pediatric guideline (Mitchell et al., 2019) restates the 'Paradise criteria' frequency threshold: ≥7 episodes in the past year, ≥5/year for 2 years, or ≥3/year for 3 years, each documented with fever >38.3°C, cervical adenopathy, tonsillar exudate, or positive GAS test. Below threshold, watchful waiting is a strong recommendation. Paradise et al. RCTs (1984, severely affected children; 2002, moderately affected children) showed tonsillectomy significantly reduced throat-infection incidence in the first 1–2 postoperative years; 14% of surgical patients had self-limited surgical complications. Cochrane review (Burton et al., 2014): benefit is modest — children average 3.0 vs. 3.6 sore-throat episodes in the first postoperative year; evidence in adults is low-quality."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Complications — Peritonsillar Abscess (PTA)",
+      "content": "2024 systematic review (Galluzzi & Garavello): 12 studies, 2,211 pediatric cases, all retrospective. Incision-and-drainage plus antibiotics is dominant treatment (69% of cases); antibiotics alone in 16.4%; recurrence rate 2–15.8%, generally within 1–2 months."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Complications — Rheumatic Fever",
+      "content": "AHA revised Jones criteria (Gewitz et al., 2015) is the current diagnostic reference — first major revision since 1992. Adds Doppler echocardiography as a tool for diagnosing (including subclinical) carditis and stratifying criteria by population risk."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Complications — PANDAS",
+      "content": "The proposed link between GAS infection and abrupt-onset neuropsychiatric symptoms (OCD, tics) in children is not well supported. Nielsen et al. (2019) systematic review/meta-analysis (3 studies, 82 PANDAS cases vs. 127 controls): no significantly increased rate of GAS infection in PANDAS cases (RR 0.99); no significant temporal association between GAS infection and symptom exacerbation (RR 2.33, 95% CI 0.63–8.70, not significant); PANDAS cases did have more neuropsychiatric exacerbations in general (RR 1.54). Evidence base is small and methodologically heterogeneous. PANDAS should be treated as a contested, evolving hypothesis."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Sources Table — Citations, Types, and Relevance",
+      "content": "15 sources cited:\n1. Centor et al. (1981) — Original derivation study — Centor criteria\n2. McIsaac et al. (1998) CMAJ — Validation study — McIsaac (age-adjusted Centor) score\n3. McIsaac et al. (2004) JAMA — Validation study — Score-guided management outcomes\n4. Cohen et al. (Cochrane 2020) — Cochrane systematic review — Rapid antigen/PCR test-guided prescribing\n5. Spinks et al. (Cochrane 2021) — Cochrane systematic review — Core antibiotics-vs-placebo evidence\n6. de Cassan et al. (Cochrane 2020) — Cochrane systematic review — Symptomatic steroid evidence\n7. Shulman et al. (IDSA 2012) — Clinical guideline — Antibiotic choice/dosing\n8. Pellegrino et al. (2023) — Guideline comparison review — Etiology prevalence, cross-guideline divergence\n9. Paradise et al. (1984) NEJM — RCT — Original 'Paradise criteria' trial\n10. Paradise et al. (2002) Pediatrics — RCT — Extends criteria to moderately affected children\n11. Burton et al. (Cochrane 2014) — Cochrane systematic review — Pools Paradise-criteria RCTs\n12. Mitchell et al. (AAO-HNS 2019) — Clinical guideline — Current numeric surgical-referral threshold\n13. Galluzzi & Garavello (2024) — Systematic review — PTA management and recurrence rates\n14. Gewitz et al. (AHA 2015) — AHA scientific statement — Rheumatic fever diagnostic criteria\n15. Nielsen et al. (2019) — Systematic review + meta-analysis — PANDAS strep-exacerbation link"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Flags — Limitations and Caveats",
+      "content": "Key limitations flagged by the authors:\n- Targeted, not exhaustive: only PubMed queried; Cochrane Library, Europe PMC, Semantic Scholar, OpenAlex not separately cross-checked; NICE guidance not retrieved directly.\n- 'Paradise criteria' is a community label; numeric thresholds sourced from AAO-HNS guideline (source #12), not verified against original 1984/2002 trial full text (abstracts only retrieved).\n- PANDAS evidence is thin (3 studies, 82 cases); finding is mixed, not a clean negative; search cutoff 2017.\n- Rheumatic fever prevention evidence (Cochrane source #5) dominated by 1950s trials; Peto OR 0.36 should not be extrapolated to contemporary low-incidence populations.\n- Rapid-test evidence on complications is very low/low certainty (OR 0.85, 95% CI 0.03–26.65); only 'rapid tests reduce prescribing' is reasonably well supported.\n- '~25% GAS in children' is a single-source figure from a guideline-comparison paper, not a primary epidemiological study.\n- Open-access status: Cochrane reviews (#4, #5, #6), Jones criteria (#14), PTA review (#13), Pellegrino (#8) are OA. IDSA guideline (#7), Paradise trials (#9, #10), AAO-HNS guideline (#12), PANDAS meta-analysis (#15), Centor (#1), McIsaac JAMA (#3) are NOT open access — all claims from those sources are from abstracts only."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Provenance — Retrieval Methods",
+      "content": "Retrieval type: targeted topic scan across 5 subtopics (etiology, diagnosis, treatment, tonsillectomy, complications), not exhaustive/systematic. Databases: PubMed (esearch + esummary + efetch/abstract) for all 15 sources; Unpaywall (DOI lookup) for OA status of 8 sources lacking a PMC ID. No NCBI API key used (rate-limited to 3 req/s). Full text was not retrieved for any source — all synthesis is from structured abstracts via PubMed efetch."
+    }
+  ],
+  "key_findings": [
+    "This is a clinical evidence summary on tonsillitis/acute pharyngitis — NOT a biotech product development document. TRL assessment applicability is minimal.",
+    "GAS accounts for ~25% of pharyngitis episodes in children; most acute pharyngitis is viral.",
+    "Centor criteria: GAS culture probability ranges from 2.5% (0 criteria) to 56% (all 4 criteria); McIsaac age-adjusted score reduced antibiotic prescribing by 48% in 521-patient validation.",
+    "Rapid antigen tests reduce antibiotic prescription rates by 25 percentage points (95% CI 18–31) vs. clinical judgment alone (5 RCTs, Cochrane 2020), but evidence on complications is very low certainty.",
+    "Antibiotics (29 RCTs, 15,337 cases, Cochrane 2021): RR 0.70 for sore throat at day 3, RR 0.50 at day 7; Peto OR 0.36 for rheumatic fever — but 82% of untreated patients symptom-free within a week.",
+    "Corticosteroids: RR 2.4 for complete pain resolution at 24h, NNT ≈5; based on 9 small trials (1,319 participants) with limited safety data.",
+    "Tonsillectomy (Paradise criteria): ≥7/year, ≥5/year×2, or ≥3/year×3 episodes; Cochrane 2014 shows modest benefit (3.0 vs. 3.6 sore-throat episodes/year postoperatively); 14% surgical complication rate.",
+    "Peritonsillar abscess (2024 systematic review, 2,211 pediatric cases): I&D + antibiotics in 69%; antibiotics alone 16.4%; recurrence 2–15.8%.",
+    "PANDAS: No significant GAS-exacerbation temporal link (RR 2.33, 95% CI 0.63–8.70, NS) in meta-analysis of 3 studies (82 cases); evidence base is very thin.",
+    "All source claims are from abstracts only — full text was not retrieved for any source in this scan."
+  ],
+  "document_date": "2026-09-04",
+  "milestones": []
+}
