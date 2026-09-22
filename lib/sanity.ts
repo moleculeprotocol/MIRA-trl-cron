@@ -1,10 +1,7 @@
 import { createClient } from "@sanity/client"
-import {
-  MOLECULE_PROJECT_BASE_URL,
-  SANITY_DATASETS,
-  SANITY_PROJECT_ID,
-} from "./config.js"
+import { SANITY_DATASETS, SANITY_PROJECT_ID } from "./config.js"
 import type { ScoringResult, TodoItem, TrlAnalysis } from "./llm.js"
+import { notifySlack } from "./slack.js"
 
 type Environment = "staging" | "production"
 
@@ -19,13 +16,6 @@ const publishImmediately = process.env.SANITY_PUBLISH_IMMEDIATELY === "true"
 
 const ONCHAIN_LAB_TYPE = "onChainLab"
 
-interface NotifyDiscordParams {
-  oclId: string
-  name: string
-  shortname: string | null
-  trlAnalysis: TrlAnalysis
-}
-
 const client = createClient({
   projectId: SANITY_PROJECT_ID,
   dataset,
@@ -33,91 +23,6 @@ const client = createClient({
   token: process.env.SANITY_API_TOKEN,
   useCdn: false,
 })
-
-async function notifyDiscord({
-  oclId,
-  name,
-  shortname,
-  trlAnalysis,
-}: NotifyDiscordParams) {
-  if (environment !== "production") {
-    console.log("Skipping Discord notification (not production)")
-    return
-  }
-
-  if (!process.env.DISCORD_WEBHOOK_URL) {
-    console.log("DISCORD_WEBHOOK_URL not set, skipping notification")
-    return
-  }
-
-  if (!process.env.SANITY_STUDIO_URL) {
-    console.log("SANITY_STUDIO_URL not set, skipping notification")
-    return
-  }
-
-  const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/onChainLabs;onChainLab;${oclId}`
-
-  const projectUrl = shortname
-    ? `${MOLECULE_PROJECT_BASE_URL}/${shortname}`
-    : null
-
-  if (!projectUrl) {
-    console.log(
-      `No shortname for ${oclId}, omitting Project URL from notification`,
-    )
-  }
-
-  try {
-    const response = await fetch(process.env.DISCORD_WEBHOOK_URL, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        content: publishImmediately
-          ? "✅ New lab TRL published by MIRA!"
-          : "📝 New lab TRL draft by MIRA ready for review!",
-        embeds: [
-          {
-            title: name,
-            url: studioUrl,
-            fields: [
-              {
-                name: "TRL Value",
-                value: String(trlAnalysis.trl_classification),
-                inline: true,
-              },
-              {
-                name: "Confidence",
-                value: String(trlAnalysis.confidence),
-                inline: true,
-              },
-              ...(projectUrl
-                ? [
-                    {
-                      name: "Project URL",
-                      value: projectUrl,
-                      inline: false,
-                    },
-                  ]
-                : []),
-              {
-                name: "Rationale",
-                value: trlAnalysis.rationale,
-                inline: false,
-              },
-            ],
-            color: 0x00ff00,
-          },
-        ],
-      }),
-    })
-
-    if (!response.ok) {
-      console.error(`Discord notification failed: ${response.status}`)
-    }
-  } catch (error) {
-    console.error("Failed to send Discord notification:", error)
-  }
-}
 
 export async function dataroomHashChanged(
   oclId: string,
@@ -261,15 +166,16 @@ export async function updateTrlAndScoringAsDraft(
   )
 
   if (commitHash) {
-    await notifyDiscord({
+    await notifySlack({
       oclId,
       name,
       shortname,
       trlAnalysis,
+      publishImmediately,
     })
   } else {
     console.log(
-      `Skipping Discord notification for ${oclId} (extraction incomplete, will retry next run)`,
+      `Skipping Slack notification for ${oclId} (extraction incomplete, will retry next run)`,
     )
   }
 }
