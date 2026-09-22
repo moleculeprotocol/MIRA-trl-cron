@@ -45,11 +45,13 @@ function buildBlocks({
   shortname,
   trlAnalysis,
   studioUrl,
+  status,
 }: {
   name: string
   shortname: string | null
   trlAnalysis: TrlAnalysis
   studioUrl: string
+  status: string
 }) {
   const trlLabel =
     TRL_LABELS[trlAnalysis.trl_classification] ??
@@ -65,7 +67,7 @@ function buildBlocks({
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `*<${studioUrl}|${escapeMrkdwn(name)}>*`,
+        text: `*<${studioUrl}|${escapeMrkdwn(name)}>*\n${status}`,
       },
     },
     {
@@ -205,24 +207,28 @@ export async function notifySlack({
 
   const studioUrl = `${process.env.SANITY_STUDIO_URL}/structure/onChainLabs;onChainLab;${oclId}`
 
-  const headline = publishImmediately
-    ? "✅ New lab TRL published by MIRA!"
-    : "📝 New lab TRL draft by MIRA ready for review!"
+  // Slack already attributes the message to the MIRA app, so the status line
+  // does not repeat it.
+  const status = publishImmediately
+    ? "✅ TRL published"
+    : "📝 TRL draft ready for review"
 
   await postMessage(token, {
     channel,
-    // Fallback for notifications and screen readers when `blocks` are used.
-    text: `${headline} ${name}`,
+    // No top-level `text`: alongside `attachments` it renders as an extra body
+    // line rather than acting as a silent fallback. `fallback` covers push
+    // notifications and screen readers instead.
     attachments: [
       {
         color: "#00ff00",
-        blocks: [
-          {
-            type: "section",
-            text: { type: "mrkdwn", text: headline },
-          },
-          ...buildBlocks({ name, shortname, trlAnalysis, studioUrl }),
-        ],
+        fallback: `${status}: ${name}`,
+        blocks: buildBlocks({
+          name,
+          shortname,
+          trlAnalysis,
+          studioUrl,
+          status,
+        }),
       },
     ],
   })
