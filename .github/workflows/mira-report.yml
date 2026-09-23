@@ -1,0 +1,103 @@
+name: MIRA Chat Report
+
+on:
+  # Cron can't express "every 14 days". It runs every Monday and the first step
+  # skips odd ISO weeks, so the report goes out on even-week Mondays.
+  schedule:
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+    inputs:
+      days:
+        description: 'Window length in days'
+        required: false
+        default: '14'
+        type: string
+      post_to_slack:
+        description: 'Post to Slack (false = print to the job log)'
+        required: false
+        default: false
+        type: boolean
+      skip_parity_check:
+        description: 'Run even in an odd ISO week'
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: mira-report
+  cancel-in-progress: false
+
+jobs:
+  report:
+    name: Build and deliver report
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    env:
+      LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+      LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+      LANGFUSE_BASE_URL: https://cloud.langfuse.com
+      LANGFUSE_ENVIRONMENT: mira-v1-production
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      INSIGHTS_MODEL: claude-sonnet-4-6
+      SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+      SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+      POST_TO_SLACK: ${{ github.event_name == 'schedule' || inputs.post_to_slack }}
+    steps:
+      - name: Check ISO week parity
+        id: parity
+        env:
+          SKIP_PARITY: ${{ github.event_name == 'workflow_dispatch' && inputs.skip_parity_check }}
+        run: |
+          week=$(date -u +%V)
+          if [ "$SKIP_PARITY" = "true" ]; then
+            echo "Parity check skipped (ISO week $week)"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ $((10#$week % 2)) -eq 0 ]; then
+            echo "Even ISO week $week: running"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Odd ISO week $week: skipping"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.parity.outputs.run == 'true'
+        uses: actions/checkout@v6
+
+      - name: Setup pnpm
+        if: steps.parity.outputs.run == 'true'
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        if: steps.parity.outputs.run == 'true'
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        if: steps.parity.outputs.run == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: Run report
+        if: steps.parity.outputs.run == 'true'
+        env:
+          DAYS: ${{ inputs.days || '14' }}
+        run: |
+          args=(--days "$DAYS")
+          if [ "$POST_TO_SLACK" = "true" ]; then args+=(--slack); fi
+          pnpm tsx src/mira-report/index.ts "${args[@]}"
+
+      - name: Notify Slack of failure
+        if: failure() && steps.parity.outputs.run == 'true' && env.POST_TO_SLACK == 'true'
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          payload=$(jq -n --arg channel "$SLACK_CHANNEL_ID" --arg url "$RUN_URL" \
+            '{channel: $channel, text: ":x: The MIRA chat report failed. See \($url)"}')
+          curl -sS -X POST https://slack.com/api/chat.postMessage \
+            -H "Authorization: Bearer $SLACK_BOT_TOKEN" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$payload"
