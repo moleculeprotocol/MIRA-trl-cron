@@ -147,7 +147,7 @@ export async function getAllProjects(): Promise<ProjectInfo[]> {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "x-api-key": apiKey,
+        Authorization: apiKey,
       },
       body: JSON.stringify({
         query: GET_ALL_PROJECTS_QUERY,
@@ -231,7 +231,7 @@ export async function getProjectDataRoom(
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "x-api-key": apiKey,
+      Authorization: apiKey,
     },
     body: JSON.stringify({
       query: GET_PROJECT_QUERY,
