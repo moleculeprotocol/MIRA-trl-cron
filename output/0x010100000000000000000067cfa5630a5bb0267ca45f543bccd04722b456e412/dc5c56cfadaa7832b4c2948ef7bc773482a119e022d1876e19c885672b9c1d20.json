@@ -1,0 +1,68 @@
+{
+  "file_path": "/reports/2026-09-27/P21.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (P21) proposing an assumption-kill experiment to test whether Selank (tuftsin analogue Thr-Lys-Pro-Arg-Pro-Gly-Pro) retains anxiolytic/adaptive-behavior phenotype under GABA-A/benzodiazepine-matched conditions that abolish GABA-class anxiolysis. The document is a pre-registered research discussion (not yet executed) that frames existing literature (Filatova, Volkova, Kozlovskaya, Medvedeva) as insufficient to answer the residual-under-GABA-match question, and proposes a head-to-head assay with a ≥50% residual threshold as the key prediction. No experimental data has been generated; the project is at TRL 1–2 (concept with literature support only).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis Overview and Claim (P21)",
+      "content": "Selank (tuftsin analogue Thr-Lys-Pro-Arg-Pro-Gly-Pro) is framed through GABAergic gene expression and benzodiazepine-comparable anxiolysis. The central claim (P21) is: on a matched stressor ± Selank ± GABA-A/benzodiazepine-matched condition (e.g., bicuculline GABA-A antagonist, flumazenil BDZ antagonist, or BDZ-occupancy match) titrated so the match abolishes GABA-class anxiolysis, residual Selank anxiolytic/adaptive-behavior remains ≥50% of the Selank without-GABA-A/BDZ-match arm on the same panel. This is labeled an 'assumption-kill / gaba-insufficiency' hypothesis. The experiment has NOT been run (execution_status=NOT_RUN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Rationale and Scientific Context",
+      "content": "The hypothesis asks whether GABA-class attribution is sufficient to explain Selank's adaptive-behavior phenotype. Key literature motivating the question: (1) Filatova maps Selank/GABA GABAergic gene expression in IMR-32 neuroblastoma cells; (2) Volkova shows Selank GABAergic gene expression in rat frontal cortex in vivo; (3) Kozlovskaya maps Selank tuftsin-family adaptive behavior under stress; (4) Medvedeva shows Selank×diazepam synergy under UCMS. None of these studies include a GABA-A/BDZ-match arm that abolishes GABA-class anxiolysis, so the residual-under-GABA-match question remains UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four key literature references are identified as prior art, all classified as insufficient to answer the P21 question:\n1. Filatova (PMID 28293190; DOI 10.3389/fphar.2017.00089; PMC5328971): Selank/GABA/olanzapine alter expression of GABAergic neurotransmission genes in IMR-32 cells — GABA-system gene-expression prior; NOT residual-under-GABA-match H2H.\n2. Volkova (PMID 26924987; DOI 10.3389/fphar.2016.00031; PMC4757669): Selank administration affects GABAergic gene expression in rat frontal cortex in vivo — GABAergic gene prior; NOT residual under GABA-A/BDZ occupancy match abolish.\n3. Kozlovskaya (PMID 14969422; DOI 10.1023/a:1025988519919): Selank and tuftsin-family peptides regulate adaptive behavior under conflict/emotional stress — adaptive-behavior prior; NOT residual under GABA-A/BDZ match.\n4. Medvedeva (PMID 28280289; DOI 10.1155/2017/5091027; PMC5322660): Selank enhances diazepam in reducing anxiety under UCMS (elevated plus maze); combined administration restores anxiety indicators toward pre-stress values — BDZ-class synergy/co-admin prior; NOT residual H2H (no bicuculline/flumazenil abolish arm)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Six prediction variables are defined:\n1. Filatova_Selank_GABA_gene_expression_IMR32 | LITERATURE | IMR-32 cells; qPCR of 84 GABAergic genes | Result: GABA-system gene-expression prior confirmed (PMID 28293190); NOT residual-under-GABA-match H2H.\n2. Volkova_Selank_GABAergic_gene_expression_in_vivo | LITERATURE | Rat frontal cortex; qPCR 84 genes at 1h and 3h | Result: GABAergic gene prior confirmed (PMID 26924987); NOT residual-under-GABA-match H2H.\n3. Kozlovskaya_Selank_tuftsin_adaptive_behavior_stress | LITERATURE | Rats/mice; conflict/emotional-stress adaptive behavior panel | Result: Adaptive-behavior prior confirmed (PMID 14969422); NOT residual-under-GABA-match H2H.\n4. Medvedeva_Selank_diazepam_UCMS_synergy | LITERATURE | Rats; UCMS ± Selank ± diazepam; elevated plus maze | Result: BDZ-class synergy prior confirmed (PMID 28280289); NOT residual H2H under GABA-A/BDZ match abolish.\n5. matched_residual_Selank_under_GABA_A_BDZ_match_H2H | UNKNOWN | Same stressor ± Selank ± GABA-A/BDZ-matched condition (bicuculline/flumazenil/BDZ-occupancy match) abolishing GABA-class anxiolysis | Result: UNKNOWN — dedicated residual Selank anxiolytic/adaptive-behavior phenotype under GABA-A/BDZ match not found.\n6. residual_Selank_anxiolytic_ge50pct_of_Selank_without_GABA_match | PREDICTION | Pre-registered matched stressor ± Selank ± GABA-A/BDZ-matched condition; GABA-A/BDZ-match must abolish GABA-class anxiolysis first | Threshold: residual Selank anxiolytic/adaptive-behavior ≥50% of Selank without-GABA-A/BDZ-match arm; α/N pre-specified; do not invent observed %/KD/dosing.\n7. competing_incomplete_GABA_match_or_GABA_class_not_abolished_inconclusive | PREDICTION | Same design; competing outcomes if incomplete GABA-A/BDZ match, GABA-class anxiolysis not abolished, absent residual, or block-QC failure | Inconclusive outcomes pre-registered as distinct from refutation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Method)",
+      "content": "Method type: propose-assay. Preferred design: named published Selank anxiety/adaptive-behavior panel (elevated plus maze / conflict stress) with GABA-A antagonist (bicuculline) / BDZ antagonist (flumazenil) / BDZ-occupancy match. Filatova IMR-32 GABAergic gene panel may support block-QC before new animal/human experiments. Key gate: GABA-A/BDZ-match condition must first abolish GABA-class anxiolysis, then score residual Selank anxiolytic/adaptive-behavior vs. Selank without-GABA-A/BDZ-match arm under matched stressor. Threshold: ≥50% residual. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation and Inconclusive Criteria",
+      "content": "Refute if: On the pre-registered matched stressor ± Selank ± GABA-A/BDZ-matched condition where GABA-A/BDZ-match abolishes GABA-class anxiolysis, residual Selank anxiolytic/adaptive-behavior is <50% of the Selank without-GABA-A/BDZ-match arm — so GABA-class-attribution framing survives and gaba-insufficiency residual fails — when incomplete GABA-A/BDZ match, GABA-class anxiolysis-not-abolished, absent residual, or block-QC artifacts are ruled out. Inconclusive (not refuted) if: incomplete GABA-A/BDZ match / GABA-class-anxiolysis-not-abolished / no-residual-to-score / block-QC-fail."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Exclusions",
+      "content": "Key limitations: (1) P1–P20 do not prove P21; Filatova/Volkova/Kozlovskaya/Medvedeva GABA gene/adaptive-behavior/BDZ-synergy priors are not a residual-under-GABA-A/BDZ-match H2H; soft-complete empty ≠ demonstrated residual phenotype. (2) Skip-list distinctness: do not collapse to BPC/FBXO22/VEGFR2, LKKTETQ/Tβ4, MOTS-c/folate, SS-31/cardiolipin/MitoTEMPO, ARA290/IRR, Semax/TrkB/BDNF, or theanine/adenosine/caffeine; Selank≠Semax; GABA≠TrkB; NOT FOXO4×LOF. (3) Filatova/Volkova/Kozlovskaya/Medvedeva lack bicuculline/flumazenil/BDZ-occupancy arm that abolishes GABA-class anxiolysis; seed PMID 18661785 lacks DOI (demoted out of public prior art); reviews ≠ experimental anchors. No dosing values to be invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Metadata",
+      "content": "kill_cost_tier=2 · time_to_refute=6 weeks · ip_class=gaba-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. Status labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion. Card SHA256: ceed74a9dff61774969a68ac3014bc781dfc739c3e8f418d1dfd48a5f2c9ca5d. Publication status: PENDING dual-publish."
+    }
+  ],
+  "key_findings": [
+    "P21 is a pre-registered, not-yet-executed hypothesis card proposing an assumption-kill experiment for Selank's GABA-class attribution (TRL 1 — concept stage).",
+    "Four literature priors (Filatova PMID 28293190, Volkova PMID 26924987, Kozlovskaya PMID 14969422, Medvedeva PMID 28280289) confirm Selank's GABAergic gene expression and BDZ-synergy phenotypes but none include a GABA-A/BDZ-match arm that abolishes GABA-class anxiolysis.",
+    "The key experimental gap (matched_residual_Selank_under_GABA_A_BDZ_match_H2H) is explicitly classified as UNKNOWN — no head-to-head residual data exists.",
+    "The prediction threshold is ≥50% residual Selank anxiolytic/adaptive-behavior vs. Selank without-GABA-A/BDZ-match arm under matched stressor, with α/N pre-specified.",
+    "Proposed model systems: elevated plus maze / conflict stress in rats or mice; GABA-A antagonist (bicuculline) or BDZ antagonist (flumazenil) or BDZ-occupancy match as the blocking condition; Filatova IMR-32 GABAergic gene panel for block-QC.",
+    "Estimated time to refute: 6 weeks; kill cost tier: 2; FTO status: UNKNOWN.",
+    "Execution status is NOT_RUN; the document is a research discussion/proposal, not a results report.",
+    "Selank is explicitly distinguished from Semax (P20); GABA mechanism is explicitly distinguished from TrkB/BDNF; the series is isolated from P15–P20 and N18 prior cards."
+  ],
+  "milestones": []
+}

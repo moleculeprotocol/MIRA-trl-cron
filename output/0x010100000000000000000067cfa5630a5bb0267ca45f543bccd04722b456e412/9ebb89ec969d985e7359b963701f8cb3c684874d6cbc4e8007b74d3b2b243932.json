@@ -1,0 +1,86 @@
+{
+  "file_path": "/reports/2026-09-27/N21.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (N21) proposing an assumption-kill experiment to test whether nicotine retains residual working memory (WM) / attention phenotype (≥50% of nicotine-alone) under a mecamylamine or nAChR occupancy-matched condition that abolishes nAChR-class WM rescue. The document is a research discussion (not an executed experiment), cataloguing prior art (necessity literature) and identifying a critical gap: no published head-to-head study has scored residual nicotine WM/attention under a condition that abolishes nAChR-class WM rescue on the same panel. The project is at TRL 1 — concept/hypothesis stage with no experimental data generated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (N21)",
+      "content": "On a pre-registered acute/subacute working memory / attention panel with an nAChR-class positive WM-rescue arm, a mecamylamine or nAChR occupancy-matched condition that abolishes nAChR-class WM rescue, and a nicotine arm: under the same condition that abolishes nAChR-class WM rescue, nicotine retains residual working memory / attention phenotype ≥50% of nicotine-alone (WM / attention units as pre-specified; α/N pre-specified). This is framed as an 'assumption-kill / nachr-insufficiency' test. Status: NOT_RUN (no experimental data generated)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale and Gap Identification",
+      "content": "Nicotine WM/attention phenotypes are commonly framed as nAChR-necessary. Levin (PMID 11224184) showed concurrent mecamylamine eliminates chronic nicotine radial-arm WM improvement (necessity, not residual). Sacco (PMID 15939842) showed mecamylamine blocks smoking-reinstatement VSWM/CPT enhancement in schizophrenia (human necessity, inverse of residual). No published head-to-head study has scored residual nicotine WM/attention under a mecamylamine/nAChR-matched condition that abolishes nAChR-class WM rescue on the same panel. The key gap: necessity ≠ residual; rescue-of-mec-block ≠ residual-under-abolish; reference-vs-WM dissociation ≠ WM-class abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "nAChR-insufficiency assumption-kill: nicotine moves rodent/human WM/attention phenotypes, and mecamylamine/nAChR antagonism can abolish nAChR-class WM rescue. Preferred design: same-panel acute/subacute WM/attention lock (Levin-class rodent radial-arm maze or Sacco-class human VSWM/CPT) with nAChR-class positive WM rescue ± mecamylamine or named nAChR occupancy-matched abolish condition vs nicotine ± same condition. Optional cell/SPR/occupancy overlay only after abolish×residual locks. Competing caveats: abolish condition fails to kill nAChR-class WM rescue / nicotine-alone null / underpowered strata / assay-identity mismatch."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary",
+      "content": "Four prior art references identified:\n1. PMID 11224184 (Levin, Behav Pharmacol 1993): Chronic nicotine improves radial-arm maze WM; improvement eliminated by concurrent mecamylamine. Classification: NECESSITY (inverse of residual); not residual-under-abolish H2H.\n2. PMID 15939842 (Sacco, Arch Gen Psychiatry 2005): Smoking reinstatement reverses abstinence-induced VSWM/CPT impairment in schizophrenia; enhancement blocked by mecamylamine. Classification: Human NECESSITY nAChR for smoking-related WM/attention rescue; inverse of residual.\n3. PMID 12191812 (Behav Brain Res 2002): Post-training nicotine radial-arm maze — mecamylamine blocks nicotine reference-memory enhancement but NOT working-memory enhancement. Classification: WM residual-dissociation under mecamylamine that abolishes reference rescue; WM-class rescue was NOT abolished, so ≠ full residual-under-WM-abolish H2H.\n4. PMID 11927157 (Levin, Neuroscience 2002): Ventral hippocampal mecamylamine/DHβE/MLA impair radial-arm maze WM. Classification: Hippocampal α7/α4β2 WM necessity/phenotype prior; no systemic residual-positive nicotine under abolish of nicotine WM rescue."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Six prediction variables defined:\n1. Levin_chronic_nicotine_mecamylamine_WM_necessity — LITERATURE — Rat radial-arm maze; chronic nicotine ± concurrent mecamylamine — Result: NECESSITY inverse of residual (PMID 11224184).\n2. Sacco_smoking_mecamylamine_VSWM_CPT_necessity — LITERATURE — Human smokers with schizophrenia; VSWM + CPT ± mecamylamine — Result: Human NECESSITY inverse of residual (PMID 15939842).\n3. radial_arm_mec_blocks_reference_not_WM_dissociation — LITERATURE — Rat 8-arm radial maze; post-training nicotine ± mecamylamine — Result: Residual-dissociation; WM-class not abolished (PMID 12191812).\n4. Levin_hippocampal_alpha7_alpha4beta2_WM_necessity — LITERATURE — Rat radial-arm maze; ventral hippocampal nAChR antagonist infusions — Result: Phenotype/necessity prior; no systemic residual-positive (PMID 11927157).\n5. matched_residual_nicotine_under_nAChR_block_abolishing_WM_class_H2H — UNKNOWN — Same acute/subacute WM/attention panel with nAChR-class positive WM rescue ± mecamylamine or nAChR occupancy-matched abolish + nicotine ± same condition — Result: UNKNOWN; residual-under-WM-abolish H2H = 0; missing_search.\n6. residual_nicotine_phenotype_ge_50pct_of_alone_when_nAChR_class_abolished — PREDICTION — Pre-registered acute/subacute WM/attention panel; nAChR-class arm must show abolished WM rescue; nicotine arm scored for residual phenotype vs nicotine-alone — Threshold: ≥50% of nicotine-alone (WM/attention units as pre-specified); α/N pre-specified.\n7. competing_abolish_fail_or_nicotine_null_or_underpowered_inconclusive — PREDICTION — Same design; competing outcomes if abolish fails, nicotine-alone null, underpowered, or assay-identity mismatch — Outcome: inconclusive_if ≠ refute_if."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. N1–N20 do not prove N21 — N15 is residual modafinil PVT under DAT-matched block; N16 is plasma-Cr↑ without ³¹P PCr; N17 is Hericium residual under NGF/TrkA block; N18 is L-theanine residual under caffeine-matched adenosine; N19 is Rhodiola residual under HPA/cortisol-matched challenge; N20 is Bacopa residual under donepezil/AChE occupancy match.\n2. Necessity ≠ residual — Levin 11224184 and Sacco 15939842 show concurrent mecamylamine eliminates/blocks nicotine or smoking-related WM rescue (inverse of residual claim). 12191812 residual-dissociation (WM survives mec that blocks reference) ≠ residual under abolish of WM-class rescue.\n3. Necessity/dissociation priors lack nachr-insufficiency residual-under-WM-abolish arms; lock same-panel acute/subacute WM/attention with nAChR-class positive WM rescue ± mecamylamine or nAChR occupancy-matched challenge vs nicotine ± same condition; no dosing; NOT MB/MAOI."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Execution Status",
+      "content": "Refute if: On the pre-registered acute/subacute WM/attention panel, under mecamylamine or nAChR occupancy-matched condition that abolishes nAChR-class WM rescue, residual nicotine WM/attention phenotype falls below 50% of nicotine-alone — so nAChR-class sufficiency for nicotine phenotype survives and nachr-insufficiency fails — when abolish-gate, nicotine-alone comparator, and power/assay artifacts are ruled out.\nExecution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 2. Time to refute: 6 weeks. IP class: nachr-insufficiency. Vault hold: no. Status label: NEGATIVE (polarity: negative). Related prior: N15–N20 (all distinct from N21)."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis N21 is at TRL 1 — pure concept/discussion stage; execution_status=NOT_RUN, no experimental data generated.",
+    "Core claim: nicotine retains residual WM/attention phenotype ≥50% of nicotine-alone under mecamylamine or nAChR occupancy-matched condition that abolishes nAChR-class WM rescue — currently UNKNOWN with no published H2H data.",
+    "Levin (PMID 11224184): chronic nicotine improves radial-arm maze WM; concurrent mecamylamine eliminates improvement — establishes NECESSITY (inverse of residual), not residual-under-abolish.",
+    "Sacco (PMID 15939842): smoking reinstatement reverses abstinence-induced VSWM/CPT impairment in schizophrenia; mecamylamine blocks enhancement — human NECESSITY, inverse of residual.",
+    "PMID 12191812: mecamylamine blocks nicotine reference-memory enhancement but NOT WM enhancement (residual-dissociation), but WM-class rescue was not abolished, so does not constitute full residual-under-WM-abolish H2H.",
+    "PMID 11927157: ventral hippocampal nAChR antagonism impairs WM — phenotype/necessity prior only; no systemic residual-positive nicotine under abolish of nicotine WM rescue.",
+    "Critical gap: matched residual-nicotine under mecamylamine/nAChR block that abolishes nAChR-class WM rescue H2H = 0 published studies found (soft-complete Q_resid/Q_resid_tight NON-MATCH).",
+    "Necessity ≠ residual is the central logical distinction: prior art proves necessity but cannot be interpreted as evidence for or against residual phenotype under abolish condition.",
+    "Proposed assay design: same-panel acute/subacute WM/attention (Levin-class rodent radial-arm maze or Sacco-class human VSWM/CPT) with nAChR-class positive WM rescue arm ± mecamylamine or nAChR occupancy-matched abolish condition vs nicotine ± same condition.",
+    "Kill cost tier 2; estimated time to refute: 6 weeks; IP class: nachr-insufficiency; NOT MB/MAOI; ip_class=none not to be burned."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "Mol Labs N21 Public Report Published",
+      "description": "Public dual-publication of the N21 hypothesis card on Mol Labs platform, documenting the nachr-insufficiency assumption-kill discussion.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/N21.md",
+      "page": 1
+    },
+    {
+      "title": "N21 Experiment Execution (Proposed)",
+      "description": "Pre-registered acute/subacute WM/attention panel with nAChR-class positive WM rescue arm, mecamylamine or nAChR occupancy-matched abolish condition, and nicotine arm to test residual nicotine phenotype ≥50% of nicotine-alone. Estimated 6 weeks to refute.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=nachr-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

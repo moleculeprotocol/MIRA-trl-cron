@@ -1,0 +1,92 @@
+{
+  "file_path": "/reports/2026-09-27/P24.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (P24) proposing an assumption-kill experiment to test whether Exendin-4 retains neuroprotective or cognitive phenotype (≥50% of the Exendin-4 without-GLP1R-abolish arm) under conditions where GLP1R-class attribution is fully abolished via exendin-9-39 antagonism or Glp1r genetic loss-of-function. The document is a pre-registered hypothesis/assay proposal at TRL 1–2, with no experimental data yet generated (execution_status=NOT_RUN). Existing literature (During, Perry, McClean, Serre, Jia/Gong, Zhang, Basalay) provides prior art that leans against a residual phenotype, and the matched residual H2H result is explicitly UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report (P24) framing Exendin-4 neuroprotection/cognition as potentially exceeding GLP1R-class attribution. The core claim: on a matched rodent cognition/neuroprotection panel (During/Perry/McClean-class) ± Exendin-4 ± GLP1R antagonist (exendin-9-39) or Glp1r genetic LOF titrated to abolish GLP1R-class neuroprotection/cognition attribution, residual Exendin-4 neuroprotective/cognitive phenotype remains ≥50% of the Exendin-4 without-GLP1R-abolish arm. This is labeled an 'assumption-kill / glp1r-insufficiency' experiment. Execution status: NOT_RUN. The result is explicitly UNKNOWN — no experimental data have been generated."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Scientific Rationale",
+      "content": "The rationale draws on four key literature anchors: (1) During (PMID 12925848): Glp1r LOF causes learning deficit and enhanced kainate neuronal injury; agonist benefit is through GLP-1R — argues necessity AGAINST residual. (2) Perry (PMID 12183643): Exendin-4 excitotoxic neuroprotection phenotype established, but no residual-under-abolish arm. (3) McClean (PMID 21525299): liraglutide AD cognition phenotype — class phenotype, not Ex4 residual under abolish. (4) Serre (PMID 9794451): Exendin-(9-39) is a murine GLP-1R inverse agonist — tool prior, not CNS residual H2H. Three promoted (out-of-public-prior-art) references lean AGAINST residual: Jia/Gong (PMID 26546042) — exenatide MCAO neuroprotection completely blocked by exendin(9-39); Zhang (PMID 37595875) — Exendin-4 CA1 excitation completely blocked by exendin(9-39); Basalay (PMID 31721014) — semaglutide neuroprotection abolished by exendin(9-39)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary Table",
+      "content": "| Reference | PMID | Finding | Relevance to P24 |\n|---|---|---|---|\n| During 2003 Nat Med | 12925848 | Glp1r-deficient mice: learning deficit restored by hippocampal Glp1r gene transfer; enhanced kainate seizure/neuronal injury; agonist benefit through GLP-1R | Necessity AGAINST residual; gene-transfer rescue ≠ Ex4 residual under abolish |\n| Perry 2002 JPET | 12183643 | GLP-1 and Exendin-4 protect cultured rat hippocampal neurons vs glutamate apoptosis; reduce ibotenic acid cholinergic depletion in vivo | Exendin-4 neuroprotection phenotype PRIOR; no Ex9-39/Glp1r-/- residual arm |\n| McClean 2011 J Neurosci | 21525299 | Liraglutide prevents memory impairments, synapse loss, plaque pathology in APP/PS1 AD mice | GLP1R-class cognition phenotype PRIOR; liraglutide ≠ Ex4 residual under abolish |\n| Serre 1998 Endocrinology | 9794451 | Exendin-(9-39) inverse agonist at murine GLP-1R; lowers basal cAMP/impairs GSIS in βTC-Tet | Antagonist/inverse-agonist TOOL PRIOR; not CNS residual H2H |\n| Jia/Gong (promoted) | 26546042 | Exenatide MCAO neuroprotection completely blocked by exendin(9-39) | Necessity H2H AGAINST residual |\n| Zhang (promoted) | 37595875 | Exendin-4 CA1 excitation completely blocked by exendin(9-39) | Necessity H2H AGAINST residual |\n| Basalay (promoted) | 31721014 | Semaglutide neuroprotection abolished by exendin(9-39) | Class necessity AGAINST residual |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| During_Glp1r_LOF_learning_neuroprotection_necessity | LITERATURE | Glp1r-deficient mice; hippocampal Glp1r gene transfer; kainate seizure/neuronal injury | Necessity AGAINST residual (PMID 12925848) |\n| Perry_Exendin4_excitotoxic_neuroprotection_phenotype | LITERATURE | Cultured rat hippocampal neurons glutamate apoptosis; ibotenic acid cholinergic depletion ± GLP-1/Exendin-4 | Exendin-4 neuroprotection phenotype PRIOR; no Ex9-39/Glp1r-/- residual arm (PMID 12183643) |\n| McClean_liraglutide_AD_cognition_phenotype | LITERATURE | APP/PS1 AD mice; object recognition/water maze; synapse loss; plaque pathology ± liraglutide | GLP1R-class cognition phenotype PRIOR; liraglutide ≠ Ex4 residual under abolish (PMID 21525299) |\n| Serre_Exendin9_39_murine_GLP1R_inverse_agonist_tool | LITERATURE | Exendin-(9-39) at murine GLP-1R; basal cAMP; GSIS in βTC-Tet | Antagonist/inverse-agonist TOOL PRIOR; not CNS residual H2H (PMID 9794451) |\n| matched_residual_Exendin4_under_GLP1R_abolish_H2H | UNKNOWN | Same cognition/neuroprotection panel ± Exendin-4 ± GLP1R antagonist or Glp1r LOF | UNKNOWN — no matched residual-positive H2H found; do not invent residual |\n| residual_Exendin4_neuroprotection_cognition_ge50pct_of_Exendin4_without_GLP1R_abolish | PREDICTION | Pre-registered matched rodent cognition/neuroprotection panel (During/Perry/McClean-class) ± Exendin-4 ± GLP1R antagonist or Glp1r LOF | ≥50% of Exendin-4 without-GLP1R-abolish arm; author-chosen PREDICTION; not yet observed |\n| competing_abolish_fail_or_Ex4_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Abolish-fail/Ex4-alone-null/underpowered/assay-mismatch = inconclusive, not refuted |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design",
+      "content": "Proposed experimental design: matched rodent cognition/neuroprotection panel (During/Perry/McClean-class) with four arms: (1) vehicle, (2) Exendin-4 alone, (3) GLP1R antagonist (exendin-9-39) or Glp1r genetic LOF alone, (4) Exendin-4 + GLP1R antagonist/LOF. Block must be titrated to abolish GLP1R-class neuroprotection/cognition attribution before scoring residual. Preferred sequence: cell/slice/block-QC with exendin-9-39 or Glp1r ablation first, then in vivo panel (in vivo remains primary kill path). Readout: neuroprotective or cognitive endpoint. Threshold: residual Exendin-4 phenotype ≥50% of Exendin-4 without-GLP1R-abolish arm. α/N pre-specified. Kill cost tier: 1. Estimated time to refute: 4 weeks. IP class: glp1r-insufficiency. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Actionable Limitations",
+      "content": "Refute if: on the pre-registered matched panel, residual Exendin-4 neuroprotective/cognitive phenotype is <50% of the Exendin-4 without-GLP1R-abolish arm, after ruling out abolish-fail, Exendin-4-alone-null, underpowered strata, or assay-mismatch artifacts. Key limitations: (1) Do not treat P1–P23 as proving P24; (2) Do not collapse to skip-list compounds (BPC-157/FBXO22, LKKTETQ, MOTS-c, SS-31, ARA290, Semax/TrkB, Selank/GABA, Dihexa/c-Met, oxytocin/OXTR); (3) Do not misread Glp1r gene-transfer rescue as Exendin-4 residual under GLP1R abolish; (4) Do not invent residual when UNKNOWN; (5) Do not treat necessity as residual-positive; (6) NOT FOXO4×LOF (SERIES_FROZEN); (7) Reviews ≠ experimental anchors; (8) No dosing specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness and Skip-List",
+      "content": "P24 is explicitly distinct from: P15 (BPC residual-FBXO22), P16 (LKKTETQ-Cc), P17 (MOTS-c/folate), P18 (SS-31/ROS-scavenger), P19 (ARA290/IRR), P20 (Semax/TrkB; Exendin-4≠Semax; GLP1R≠TrkB), P21 (Selank/GABA; Exendin-4≠Selank; GLP1R≠GABA), P22 (Dihexa/c-Met; Exendin-4≠Dihexa; GLP1R≠c-Met), P23 (oxytocin/OXTR; Exendin-4≠oxytocin; GLP1R≠OXTR). orthosteric_drift=false. NOT FOXO4×LOF. Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1 (cheap IP). Time to refute: 4 weeks. IP class: glp1r-insufficiency. Vault hold: no. Status label: NEGATIVE. Polarity: negative. Risk class: research-discussion. Dual-publish status: PENDING."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — no experimental data have been generated for P24; the matched residual H2H result is explicitly UNKNOWN.",
+    "The core hypothesis (P24) asks whether Exendin-4 retains ≥50% neuroprotective/cognitive phenotype under GLP1R-abolish conditions (exendin-9-39 or Glp1r LOF) compared to Exendin-4 without-GLP1R-abolish arm on the same panel.",
+    "All existing literature leans AGAINST residual: During (PMID 12925848) shows Glp1r necessity for learning/neuroprotection; Jia/Gong (PMID 26546042) shows exenatide MCAO neuroprotection completely blocked by exendin(9-39); Zhang (PMID 37595875) shows Exendin-4 CA1 excitation completely blocked by exendin(9-39); Basalay (PMID 31721014) shows semaglutide neuroprotection abolished by exendin(9-39).",
+    "Perry (PMID 12183643) establishes Exendin-4 excitotoxic neuroprotection phenotype in cultured rat hippocampal neurons and in vivo, but lacks an Ex9-39/Glp1r-/- residual arm.",
+    "McClean (PMID 21525299) establishes liraglutide AD cognition phenotype in APP/PS1 mice (object recognition, water maze, synapse loss, plaque pathology), but liraglutide ≠ Exendin-4 and no residual-under-abolish arm exists.",
+    "Serre (PMID 9794451) validates Exendin-(9-39) as a murine GLP-1R inverse agonist tool (lowers basal cAMP, impairs GSIS in βTC-Tet), but this is a pancreatic/metabolic context, not CNS residual H2H.",
+    "Proposed assay: cell/slice/block-QC with exendin-9-39 or Glp1r ablation preferred before new animal During/Perry/McClean-class cognition/neuroprotection panels; in vivo panel remains primary kill path.",
+    "Refutation threshold: residual Exendin-4 phenotype <50% of Exendin-4 without-GLP1R-abolish arm (after ruling out abolish-fail, Ex4-alone-null, underpowered, or assay-mismatch artifacts).",
+    "Kill cost tier: 1; estimated time to refute: 4 weeks; IP class: glp1r-insufficiency; vault hold: no.",
+    "Status label: NEGATIVE; polarity: negative — the prior art weight leans against the residual hypothesis."
+  ],
+  "document_date": null,
+  "milestones": [
+    {
+      "title": "P24 Assay Execution (NOT_RUN)",
+      "description": "Matched rodent cognition/neuroprotection panel (During/Perry/McClean-class) ± Exendin-4 ± GLP1R antagonist (exendin-9-39) or Glp1r genetic LOF to test residual Exendin-4 phenotype under GLP1R-abolish conditions. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=glp1r-insufficiency · vault_hold=no",
+      "page": 1
+    },
+    {
+      "title": "Mol Labs Dual-Publish (PENDING)",
+      "description": "Pending dual-publication of the P24 public report.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "other",
+      "source_quote": "Mol Labs public report: PENDING dual-publish",
+      "page": 1
+    }
+  ]
+}

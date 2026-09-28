@@ -1,0 +1,70 @@
+{
+  "file_path": "/reports/2026-09-27/P22.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (P22) proposing an assumption-kill experiment to test whether Dihexa (an AngIV analog) retains ≥50% of its procognitive/synaptogenic phenotype under HGF/c-Met blockade conditions that abolish c-Met-class attribution. The document is a pre-registered research discussion (NOT_RUN) that maps existing literature (McCoy, Sun, Wells, retracted Benoist) and identifies a critical gap: no matched residual-positive H2H experiment exists under HGF/c-Met-block-abolish conditions. TRL is effectively TRL 1–2, as the core experiment is unexecuted and the mechanistic framing relies on literature priors and a retracted necessity study.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (P22)",
+      "content": "On a matched cognition/synaptogenesis panel ± Dihexa (AngIV analog; N-hexanoic-Tyr-Ile-(6) aminohexanoic amide) ± HGF/c-Met blockade (HGF neutralize/antagonist, c-Met inhibitor, or c-Met shRNA) titrated to abolish c-Met-class procognitive attribution: residual Dihexa cognition/synaptogenesis remains ≥50% of the Dihexa without-HGF/c-Met-block arm on the same panel. This is labeled an 'assumption-kill / cmet-insufficiency' hypothesis. Execution status: NOT_RUN. Polarity: NEGATIVE. Status label: NEGATIVE."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Scientific Rationale",
+      "content": "Dihexa is framed as procognitive and synaptogenic through HGF/c-Met-class attribution. The hypothesis asks whether this framing is sufficient to explain the phenotype, or whether residual activity persists under complete HGF/c-Met blockade. McCoy (PMID 23055539) shows Dihexa/AngIV procognitive + hippocampal synaptogenesis. Sun (PMID 34827486) shows Dihexa APP/PS1 cognition rescue via PI3K/AKT. Wells (PMID 38489193) shows Dihexa/PNB-0408 on 3-NP HD-like motor/cognitive symptoms. None of these score residual Dihexa under HGF/c-Met blockade that abolishes c-Met-class procognitive attribution. Benoist 2014 (PMID 25187433, RETRACTED) leaned AGAINST residual (HGF antagonist ICV blocks Dihexa MWM; HGF antagonist + c-Met shRNA block spinogenesis) — but this is retracted and not treated as live experimental proof."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary",
+      "content": "| Variable | Kind | Status/Result |\n|---|---|---|\n| McCoy_Dihexa_AngIV_procognitive_synaptogenesis | LITERATURE | Phenotype prior confirmed (PMID 23055539); NOT residual-under-c-Met-block H2H |\n| Sun_Dihexa_APP_PS1_cognition_PI3K_AKT | LITERATURE | Phenotype prior confirmed (PMID 34827486); PI3K reverse ≠ c-Met abolish residual arm |\n| Wells_Dihexa_PNB0408_3NP_HD_like | LITERATURE | Phenotype prior confirmed (PMID 38489193); NOT residual under HGF/c-Met block |\n| Benoist_Dihexa_HGF_cMet_necessity_RETRACTED | LITERATURE RETRACTED | Necessity AGAINST residual (PMID 25187433); retracted; NOT live proof |\n| matched_residual_Dihexa_under_HGF_cMet_block_H2H | UNKNOWN | No matched residual-positive H2H found; soft-complete NON-MATCH across all queries |\n| residual_Dihexa_cognition_synaptogenesis_ge50pct_of_Dihexa_without_cMet_block | PREDICTION | Author-chosen threshold ≥50% of Dihexa without-block arm; NOT yet observed |\n| competing_incomplete_cMet_block_or_cMet_class_not_abolished_inconclusive | PREDICTION | Incomplete block / block-QC failure = inconclusive, not refutation |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "1. McCoy (PMID 23055539 / DOI 10.1124/jpet.112.199497 / PMC3533412): Metabolically stabilized AngIV analogs including Dihexa reverse scopolamine Morris water maze deficits and augment hippocampal synaptogenesis. Phenotype prior only; no residual-under-c-Met-block H2H.\n2. Sun (PMID 34827486 / DOI 10.3390/brainsci11111487 / PMC8615599): Dihexa rescues APP/PS1 spatial learning/cognition via PI3K/AKT; wortmannin reverses effects. Phenotype prior; PI3K reverse ≠ matched HGF/c-Met abolish residual arm.\n3. Wells (PMID 38489193 / DOI 10.3233/JHD-231507): AngIV analog Dihexa/PNB-0408 on 3-NP HD-like motor/cognitive symptoms in rats. Phenotype prior; no HGF/c-Met block arm.\n4. Benoist RETRACTED (PMID 25187433 / DOI 10.1124/jpet.114.218735 / PMC4201273; EoC 34551987; retraction notice 40312093): Dihexa procognitive/synaptogenic effects dependent on HGF/c-Met. RETRACTED — necessity AGAINST residual; not live experimental proof."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method",
+      "content": "Method type: propose-assay. Preferred approach: hippocampal spinogenesis/synaptogenesis culture or explant with HGF antagonist / c-Met inhibitor / c-Met shRNA for block-QC before new animal Morris water maze / APP/PS1 / 3-NP panels. Design: matched cognition/synaptogenesis panel ± Dihexa ± HGF/c-Met blockade. Block must be titrated to abolish c-Met-class procognitive attribution (block-QC required). Residual Dihexa cognition/synaptogenesis scored vs. Dihexa without-HGF/c-Met-block arm on same panel. Threshold: ≥50% of Dihexa without-block arm. α/N pre-specified. Kill cost tier: 1. Estimated time to refute: 4 weeks."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation and Inconclusive Criteria",
+      "content": "Refute if: On the pre-registered matched panel, residual Dihexa cognition/synaptogenesis is <50% of the Dihexa without-HGF/c-Met-block arm under HGF/c-Met-block-abolish condition — so c-Met-class-attribution framing survives and cmet-insufficiency residual fails — when incomplete block, c-Met-class attribution-not-abolished, absent residual, or block-QC artifacts are ruled out. Inconclusive (not refuted) if: incomplete HGF/c-Met block, c-Met-class attribution not abolished, no residual to score, or block-QC failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Exclusions",
+      "content": "1. P1–P21 do not prove P22; McCoy/Sun/Wells phenotype priors are not residual-under-HGF/c-Met-block H2H; Benoist retracted necessity leans AGAINST residual and is not live proof; do not invent residual when UNKNOWN.\n2. Skip-list distinctness: do not collapse to BPC/FBXO22/VEGFR2, LKKTETQ/Tβ4, MOTS-c/folate, SS-31/cardiolipin/MitoTEMPO, ARA290/IRR, Semax/TrkB/BDNF, Selank/GABA/BDZ; NOT FOXO4×LOF (SERIES_FROZEN); orthosteric_drift=false.\n3. McCoy/Sun/Wells lack HGF neutralize/c-Met inhibitor/c-Met shRNA arm; incomplete block leaves test inconclusive rather than refuted; Benoist 25187433 RETRACTED — flag honesty; reviews ≠ experimental anchors.\n4. Dihexa ≠ Semax (c-Met ≠ TrkB); Dihexa ≠ Selank (c-Met ≠ GABA). Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. IP class: cmet-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. Related prior: McCoy Dihexa/AngIV procognitive + synaptogenesis; Sun Dihexa APP/PS1 cognition rescue; Wells Dihexa/PNB-0408 HD-like; Benoist Dihexa/HGF/c-Met necessity RETRACTED; P15–P21 all distinct from P22."
+    }
+  ],
+  "key_findings": [
+    "P22 is a pre-registered, NOT_RUN hypothesis card proposing an assumption-kill experiment for Dihexa's HGF/c-Met-dependent procognitive/synaptogenic mechanism.",
+    "No matched residual-positive H2H experiment exists testing Dihexa cognition/synaptogenesis under HGF/c-Met blockade that abolishes c-Met-class attribution — this is the core gap (UNKNOWN).",
+    "McCoy (PMID 23055539) confirms Dihexa/AngIV procognitive + hippocampal synaptogenesis phenotype (scopolamine MWM, oral/BBB-permeant design) — phenotype prior only.",
+    "Sun (PMID 34827486) confirms Dihexa rescues APP/PS1 spatial cognition via PI3K/AKT (wortmannin reversal) — phenotype prior; PI3K reverse ≠ HGF/c-Met abolish residual arm.",
+    "Wells (PMID 38489193) confirms Dihexa/PNB-0408 efficacy on 3-NP HD-like motor/cognitive panel in rats — phenotype prior; no HGF/c-Met block arm.",
+    "Benoist 2014 (PMID 25187433) showed HGF/c-Met necessity for Dihexa procognitive/synaptogenic effects but is RETRACTED (EoC 34551987; retraction notice 40312093) — not live experimental proof; leans AGAINST residual.",
+    "Prediction threshold: residual Dihexa cognition/synaptogenesis ≥50% of Dihexa without-HGF/c-Met-block arm under block-abolish condition.",
+    "Preferred assay: hippocampal spinogenesis/synaptogenesis culture or explant with HGF antagonist/c-Met inhibitor/c-Met shRNA for block-QC before animal MWM/APP/PS1/3-NP panels.",
+    "Kill cost tier 1; estimated time to refute: 4 weeks; FTO status UNKNOWN.",
+    "TRL assessment: TRL 1 — concept/hypothesis stage; no experimental data generated; relies entirely on literature priors and a retracted study."
+  ],
+  "milestones": []
+}

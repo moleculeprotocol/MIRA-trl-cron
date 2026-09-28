@@ -1,0 +1,104 @@
+{
+  "file_path": "/reports/2026-09-27/N22.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion report (N22) proposing an experimental design to test whether L-tyrosine's working memory/attention benefits under stress conditions are catecholamine-dependent. The document frames a hypothesis (\"assumption-kill\") that residual L-tyrosine WM/attention phenotype ≥50% of L-tyrosine-alone would survive an AMPT/catecholamine-depletion condition that abolishes catecholamine-class stress-WM rescue. The experiment has NOT been run; the document is a pre-registered proposal with literature priors identified but the key H2H residual test is UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis (N22)",
+      "content": "On a pre-registered acute/subacute working memory / attention panel with a catecholamine-class positive stress-WM-rescue arm, an AMPT or catecholamine-depletion-matched condition that abolishes catecholamine-class stress-WM rescue, and an L-tyrosine arm: under the same condition that abolishes catecholamine-class stress-WM rescue, L-tyrosine retains residual working memory / attention phenotype ≥50% of L-tyrosine-alone (WM / attention units as pre-specified; α/N pre-specified) — assumption-kill / catecholamine-insufficiency. This is a NEGATIVE polarity, assumption-kill novelty tag experiment. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "L-tyrosine stress/cold/combat/flexibility working-memory phenotypes are often framed as catecholamine-precursor replenishment. Key phenotype priors (Mahoney cold Match-to-Sample, Deijen combat/noise stress cognition, Steenbergen task-switching) lack an AMPT abolish arm. N22 asks whether residual L-tyrosine WM/attention phenotype survives an AMPT/catecholamine-depletion-matched condition that kills catecholamine-class stress-WM rescue — testing the catecholamine-insufficiency assumption. Distinct from N15 (modafinil PVT under DAT-matched block), N16 (creatine plasma/PCr), N17 (Hericium×NGF/TrkA), N18 (L-theanine×adenosine), N19 (Rhodiola×HPA/cortisol), N20 (Bacopa×AChE), N21 (nicotine×nAChR)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Catecholamine-insufficiency assumption-kill: L-tyrosine moves human stress/cold/combat/flexibility working memory and attention phenotypes, and AMPT/catecholamine-precursor depletion can frame catecholamine-class WM necessity (TPD→SWM; AMPT×sleep-dep/attentiveness adjacent). No published head-to-head scores residual L-tyrosine WM/attention under an AMPT/catecholamine-depletion-matched condition that abolishes catecholamine-class stress-WM rescue on the same panel. Preferred design: same-panel acute/subacute WM/attention lock (Mahoney/Shurtleff-class cold Match-to-Sample/DMTS or Deijen-class stress/combat cognition panel) with catecholamine-class positive stress-WM rescue ± AMPT or catecholamine-depletion-matched abolish condition vs L-tyrosine ± same condition. Optional cell/SPR/catecholamine-turnover overlay only after abolish×residual locks."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art / Literature Phenotype Priors",
+      "content": "Four key phenotype priors identified, all lacking AMPT abolish arms:\n1. PMID 17585971 (Mahoney, Physiol Behav 2007, DOI 10.1016/j.physbeh.2007.05.003): Tyrosine mitigates Match-to-Sample WM decrements during cold exposure — phenotype prior stress/cold WM; no AMPT/catecholamine-depletion abolish arm.\n2. PMID 10230711 (Deijen, Brain Res Bull 1999, DOI 10.1016/s0361-9230(98)00163-4): Tyrosine improves memory and tracking in cadets after combat training course — phenotype prior combat/stress cognition; no AMPT arm.\n3. PMID 8293316 (Deijen, Brain Res Bull 1994, DOI 10.1016/0361-9230(94)90200-3): Tyrosine improves stress-sensitive cognitive tasks under 90 dB noise — phenotype prior stress cognition; no AMPT arm.\n4. PMID 25598314 (Steenbergen, Neuropsychologia 2015, DOI 10.1016/j.neuropsychologia.2015.01.022): Tyrosine reduces task-switching costs/promotes cognitive flexibility — DA-bridged flexibility phenotype prior; no AMPT/stressor-abolish arm.\nAdjacent TPD/AMPT cognition references: PMID 15107182 (TPD→SWM), PMID 17290373 (TPD no SWM), PMID 1356024 (AMPT×sleep-dep), PMID 12479964 (AMPT attentiveness) — frame abolish-arm design but ≠ tyrosine residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables / Assay Design",
+      "content": "Six prediction variables defined:\n1. Mahoney_cold_Match_to_Sample_tyrosine_WM_phenotype — LITERATURE — status: FOUND (PMID 17585971); no AMPT abolish arm.\n2. Deijen_combat_cadets_tyrosine_memory_tracking_phenotype — LITERATURE — status: FOUND (PMID 10230711); no AMPT arm.\n3. Deijen_noise_stress_tyrosine_cognition_phenotype — LITERATURE — status: FOUND (PMID 8293316); no AMPT arm.\n4. Steenbergen_tyrosine_task_switching_flexibility_phenotype — LITERATURE — status: FOUND (PMID 25598314); no AMPT/stressor-abolish arm.\n5. matched_residual_L_tyrosine_under_AMPT_abolish_of_catecholamine_class_WM_H2H — UNKNOWN — dedicated residual-L-tyrosine under AMPT/catecholamine-depletion that abolishes catecholamine-class stress-WM rescue not found (soft-complete Q_resid/Q_resid_tight NON-MATCH; tyrosine-benefit-abolished-by-AMPT necessity also not found).\n6. residual_L_tyrosine_phenotype_ge_50pct_of_alone_when_catecholamine_class_abolished — PREDICTION — threshold: residual L-tyrosine WM/attention phenotype ≥50% of L-tyrosine-alone while catecholamine-class stress-WM rescue is abolished; α/N pre-specified.\n7. competing_abolish_fail_or_tyrosine_null_or_underpowered_inconclusive — PREDICTION — competing outcomes: abolish-fail-to-kill / L-tyrosine-alone-null / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Knowledge Gap",
+      "content": "Baseline claimed: Mahoney cold Match-to-Sample WM phenotype LITERATURE (PMID 17585971). Deijen combat-course memory/tracking phenotype LITERATURE (PMID 10230711). Deijen noise-stress cognition phenotype LITERATURE (PMID 8293316). Steenbergen task-switching flexibility phenotype LITERATURE (PMID 25598314). Matched residual-L-tyrosine under AMPT/catecholamine-depletion that abolishes catecholamine-class stress-WM rescue: UNKNOWN (soft-complete Q_resid/Q_resid_tight NON-MATCH; residual-positive H2H not found; tyrosine-benefit-abolished-by-AMPT necessity not found; phenotype ≠ residual; TPD/AMPT adjacent ≠ tyrosine residual H2H). Residual L-tyrosine phenotype ≥50% of L-tyrosine-alone when catecholamine-class stress-WM rescue abolished: PREDICTION (not yet tested)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. N1–N21 do not prove N22 — each prior experiment (N15 modafinil/DAT, N16 creatine/PCr, N17 Hericium/NGF-TrkA, N18 theanine/adenosine, N19 Rhodiola/HPA, N20 Bacopa/AChE, N21 nicotine/nAChR) is a distinct mechanism; soft-complete empty ≠ demonstrated residual gain.\n2. Phenotype ≠ residual — Mahoney/Deijen/Steenbergen priors lack AMPT abolish arms; adjacent TPD/AMPT cognition frames design but ≠ tyrosine residual-under-AMPT H2H; tyrosine-benefit-abolished-by-AMPT necessity NOT FOUND — do not invent residual or auto-PARTIAL.\n3. Phenotype priors lack catecholamine-insufficiency residual-under-abolish arms; lock same-panel acute/subacute WM/attention with catecholamine-class positive-rescue abolish gate under AMPT or named catecholamine-depletion match vs L-tyrosine ± same condition; no dosing; NOT MB/MAOI; not N15–N21 clones; do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered acute/subacute WM/attention panel, under AMPT or a catecholamine-depletion-matched condition that abolishes catecholamine-class stress-WM rescue, residual L-tyrosine WM/attention phenotype falls below 50% of L-tyrosine-alone (WM/attention units as pre-specified) — so catecholamine-class sufficiency for the tyrosine phenotype survives and catecholamine-insufficiency fails — when abolish-gate, L-tyrosine-alone comparator, and power/assay artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP / Execution Status",
+      "content": "kill_cost_tier=2 · time_to_refute=6w · ip_class=catecholamine-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. Related priors: N15 (modafinil-DAT residual ≠ tyrosine×catecholamine); N16 (plasma-Cr/PCr ≠ tyrosine×catecholamine); N17 (Hericium×NGF/TrkA ≠ tyrosine×catecholamine); N18 (theanine-adenosine ≠ tyrosine×catecholamine); N19 (Rhodiola-HPA ≠ tyrosine×catecholamine); N20 (Bacopa×AChE ≠ tyrosine×catecholamine); N21 (nicotine×nAChR ≠ tyrosine×catecholamine); N2 holds sole ip_class=none; N1–N21 ≠ proof. Method: propose-assay. Status labels: NEGATIVE."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove same-panel contrast of residual L-tyrosine WM/attention under AMPT/catecholamine-depletion-matched abolish: Without abolish×residual H2H on a Mahoney/Deijen-class WM/attention panel with catecholamine-class positive stress-WM-rescue arm, separate phenotype LITERATURE and adjacent TPD/AMPT cognition cannot show catecholamine-insufficiency.\n2. Remove verified abolish gate (AMPT or catecholamine-depletion match that abolishes catecholamine-class stress-WM rescue) plus L-tyrosine-alone comparator: Without these, residual L-tyrosine is just 'another precursor under nonspecific catecholamine challenge,' not an assumption-kill.\n3. Remove N15≠N22 through N21≠N22 discipline: Treating prior residuals or Mahoney/Deijen/Steenbergen phenotypes as residual-positive under AMPT, or TPD/AMPT cognition as settling residual L-tyrosine under catecholamine-depletion-matched abolish, would invent an H2H result left UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "Experiment N22 has NOT been run (execution_status=NOT_RUN); this is a proposed assay design, not a completed study.",
+    "Four literature phenotype priors for L-tyrosine WM/attention benefits under stress are identified (Mahoney 2007, Deijen 1999, Deijen 1994, Steenbergen 2015), all lacking AMPT/catecholamine-depletion abolish arms.",
+    "The key experimental question — whether residual L-tyrosine WM/attention phenotype ≥50% of L-tyrosine-alone survives AMPT/catecholamine-depletion that abolishes catecholamine-class stress-WM rescue — is classified as UNKNOWN with no published H2H data found.",
+    "Tyrosine-benefit-abolished-by-AMPT necessity is also NOT FOUND in the literature, meaning neither the residual-positive nor the necessity-against-residual result exists.",
+    "Adjacent TPD/AMPT cognition literature (PMIDs 15107182, 17290373, 1356024, 12479964) frames the abolish-arm design concept but does not constitute tyrosine residual H2H evidence.",
+    "IP class is catecholamine-insufficiency (kill_cost_tier=2, time_to_refute=6 weeks, vault_hold=no); FTO status is UNKNOWN.",
+    "Polarity is NEGATIVE (assumption-kill design); the claim would be refuted if residual L-tyrosine phenotype falls below 50% of L-tyrosine-alone under verified catecholamine-class abolish conditions.",
+    "N1–N21 prior experiments in the series do not prove N22; each tests a distinct mechanism and none addresses catecholamine-depletion matched residual L-tyrosine WM/attention.",
+    "Competing inconclusive outcomes pre-registered: abolish-fail-to-kill catecholamine-class rescue, L-tyrosine-alone null, underpowered strata, or assay-identity mismatch.",
+    "Document is classified as a research discussion (openlabs_target: discussion; risk_class: research-discussion; tags: nootropics, brain-longevity)."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "N22 Public Report Published",
+      "description": "Mol Labs public report for hypothesis N22 (L-tyrosine residual WM/attention under AMPT abolish) published as a pending dual-publish report.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/N22.md",
+      "page": 1
+    },
+    {
+      "title": "N22 Experiment Execution",
+      "description": "Pre-registered acute/subacute WM/attention panel with catecholamine-class positive stress-WM-rescue arm, AMPT/catecholamine-depletion-matched abolish condition, and L-tyrosine arm to test residual phenotype ≥50% of L-tyrosine-alone. Estimated time to refute: 6 weeks from initiation.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=catecholamine-insufficiency · vault_hold=no ... execution_status=NOT_RUN",
+      "page": 1
+    }
+  ]
+}

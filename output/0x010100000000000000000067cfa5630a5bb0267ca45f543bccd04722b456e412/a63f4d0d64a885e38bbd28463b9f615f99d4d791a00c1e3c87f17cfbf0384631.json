@@ -1,0 +1,104 @@
+{
+  "file_path": "/reports/2026-09-27/P20.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (P20) proposing an assumption-kill experiment to test whether Semax (ACTH(4-7)-PGP) retains neurotrophin-induction or recovery phenotype when BDNF-class neurotrophin attribution is abolished via TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody. The document frames the claim as a pre-registered prediction (residual ≥50% of Semax without-TrkB-block arm) and identifies four key literature priors (Shadrina, Dmitrieva, Dolotov, Agapova) that establish BDNF/NGF induction by Semax but none of which include the required TrkB-block/BDNF-neutralize H2H arm. The experiment has not been run (execution_status=NOT_RUN), and the key residual variable is classified as UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report P20 (PUBLIC_REPORT_ONLY, private=NONE). Semax (ACTH(4-7)-PGP / Met-Glu-His-Phe-Pro-Gly-Pro) is framed as inducing BDNF/NGF and TrkB-linked neurotrophin transcription. The central claim (assumption-kill / trkb-insufficiency): On a matched insult ± Semax ± TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody panel titrated to abolish BDNF-class neurotrophin attribution, residual Semax neurotrophin-induction or recovery remains ≥50% of the Semax without-TrkB-block / without-BDNF-neutralize arm. This is a pre-registered prediction; the experiment has NOT been run (execution_status=NOT_RUN). Status label: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Four literature anchors establish Semax neurotrophin induction: Shadrina (NGF/BDNF gene-expression dynamics), Dmitrieva (Semax/PGP neurotrophin+receptor transcription after pMCAO), Dolotov (Semax BDNF/trkB hippocampus regulation with cognitive phenotype), and Agapova (Semax neurotrophin gene expression in normal rat brain). None of these studies include a TrkB antagonist / BDNF neutralize arm that abolishes BDNF-class neurotrophin attribution. P20 asks whether residual Semax neurotrophin-induction/recovery under such a block still requires a path beyond BDNF-class attribution (trkb-insufficiency assumption-kill). Explicitly distinct from P15 (BPC residual-FBXO22), P16 (LKKTETQ-Cc), P17 (MOTS-c/folate), P18 (SS-31/ROS-scavenger), P19 (ARA290/IRR), and N17 (Hericium/NGF-TrkA)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "trkb-insufficiency assumption-kill: All four literature priors (Shadrina, Dmitrieva, Dolotov, Agapova) are classified as LITERATURE and none score residual Semax under a TrkB antagonist / BDNF neutralize condition that abolishes BDNF-class neurotrophin attribution on the same panel. BDNF/NGF induction framing is the class PRIOR under kill — PRIOR induction ≠ matched residual H2H under TrkB-block abolish. P20 scores residual neurotrophin-induction / recovery under TrkB antagonist / BDNF neutralize that first abolishes BDNF-class neurotrophin attribution, on the same insult ± Semax ± TrkB-block / BDNF-neutralize panel. Preferred approach: named published Semax neurotrophin panel (hippocampus/cortex/ischemia) with TrkB antagonist / BDNF neutralizing Ab / explant before new animal/human."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary",
+      "content": "Four prior art references identified:\n1. PMID 19662538 / DOI 10.1007/s12031-009-9270-z — Shadrina: Semax alters temporary dynamics of NGF and BDNF gene expression in rat hippocampus, frontal cortex, and retina. Classification: BDNF/NGF induction prior; NOT residual-under-TrkB-block H2H.\n2. PMID 19633950 / DOI 10.1007/s10571-009-9432-0 / PMC11498467 — Dmitrieva: Semax and Pro-Gly-Pro activate transcription of neurotrophins and their receptor genes after permanent MCAO in rat cortex. Classification: neurotrophin+receptor transcription prior; NOT residual under TrkB-block / BDNF-neutralize abolish.\n3. PMID 16996037 / DOI 10.1016/j.brainres.2006.07.108 — Dolotov: Semax regulates BDNF and trkB expression in rat hippocampus; BDNF protein / trkB phosphorylation / exon-III BDNF and trkB mRNA increased; cognitive conditioned-avoidance phenotype. Classification: BDNF/trkB induction prior; NOT residual H2H under TrkB antagonist or BDNF neutralize.\n4. PMID 17353092 / DOI 10.1016/j.neulet.2007.02.042 — Agapova: Semax induces rapid gene- and region-specific NGF/BDNF expression changes in normal rat brain (hippocampus, brainstem, cerebellum, frontal cortex). Classification: neurotrophin-induction prior; NOT TrkB-block residual."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Six prediction variables defined:\n1. Shadrina_Semax_NGF_BDNF_gene_dynamics — KIND: LITERATURE — Assay: Male Wistar rats; Semax; hippocampus/frontal cortex/retina; NGF and BDNF gene expression by real-time PCR; time course 20 min–24 h — Status: BDNF/NGF induction prior confirmed (PMID 19662538); NOT residual-under-TrkB-block H2H.\n2. Dmitrieva_Semax_PGP_ischemia_neurotrophin_receptor_transcription — KIND: LITERATURE — Assay: Rat permanent MCAO; Semax vs PGP; cortex neurotrophin (Bdnf, Ngf, Nt-3) and receptor (TrkA/B/C) transcription at 3/24/72 h — Status: confirmed LITERATURE (PMID 19633950); NOT residual-under-TrkB-block H2H.\n3. Dolotov_Semax_BDNF_trkB_hippocampus — KIND: LITERATURE — Assay: Rat hippocampus; intranasal Semax; BDNF protein; trkB tyrosine phosphorylation; exon III BDNF and trkB mRNA; conditioned avoidance — Status: confirmed LITERATURE (PMID 16996037); NOT residual-under-TrkB-block H2H.\n4. Agapova_Semax_neurotrophin_gene_expression_normal_brain — KIND: LITERATURE — Assay: Male Wistar rats; intranasal Semax; NGF/BDNF gene expression by real-time PCR in hippocampus, brainstem, cerebellum, frontal cortex — Status: confirmed LITERATURE (PMID 17353092); NOT residual-under-TrkB-block H2H.\n5. matched_residual_Semax_under_TrkB_antagonist_BDNF_neutralize_H2H — KIND: UNKNOWN — Assay: Same insult ± Semax ± TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody panel — Status: UNKNOWN + missing_search; dedicated residual not found (QX_ANA12=0 / Q2 residual=0).\n6. residual_Semax_neurotrophin_ge50pct_of_Semax_without_TrkB_block — KIND: PREDICTION — Assay: Pre-registered matched insult ± Semax ± TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody panel; TrkB-block must abolish BDNF-class attribution first — Threshold: residual ≥50% of Semax without-TrkB-block arm; α/N pre-specified; do not invent observed % / KD / dosing.\n7. competing_incomplete_TrkB_block_or_BDNF_attribution_not_abolished_inconclusive — KIND: PREDICTION — Competing outcomes: incomplete TrkB-block, BDNF-class attribution not abolished, absent residual, or block-QC failure → inconclusive (not refute)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed and Measured",
+      "content": "Baseline claimed: Under TrkB antagonist / BDNF neutralize that abolishes BDNF-class neurotrophin attribution, Semax still retains neurotrophin-induction or recovery phenotype on the same panel. Baseline measured: All four literature priors (Shadrina, Dmitrieva, Dolotov, Agapova) confirmed as LITERATURE but scored without TrkB-antagonist / BDNF-neutralize arm that abolishes BDNF-class attribution. Matched residual Semax neurotrophin-induction / recovery under TrkB antagonist / BDNF neutralize: UNKNOWN (soft-complete Q1 NON-MATCH / Q1b PRIOR NON-MATCH / QX_ANA12=0 / Q2 residual=0). Residual ≥50% of Semax without-TrkB-block arm: PREDICTION. Seed PMIDs 22295573 / 18756821 lack DOI — out of public prior_art."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "Three key limitations:\n1. P1–P19 do not prove P20 — Shadrina/Dmitrieva/Dolotov/Agapova BDNF/NGF/TrkB induction priors are not a residual-under-TrkB-antagonist / BDNF-neutralize H2H; soft-complete empty ≠ demonstrated residual phenotype.\n2. Skip-list / series distinctness (critical) — do not collapse to OpenLabs BPC orthosteric dialect, P15 residual-FBXO22, P16 LKKTETQ-Cc, P17 MOTS-c/folate, P18 SS-31/ROS-scavenger, P19 ARA290/IRR, or N17 Hericium/NGF-TrkA; orthosteric_drift=false; NOT FOXO4×LOF.\n3. Shadrina/Dmitrieva/Dolotov/Agapova lack TrkB-antagonist / BDNF-neutralize arm; incomplete TrkB-block / BDNF-class attribution not abolished / no residual to score / block-QC failure leave the test inconclusive rather than refuted; no dosing; seed PMIDs 22295573 / 18756821 lack DOI."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions identified:\n1. Remove matched insult ± Semax ± TrkB antagonist / BDNF neutralizing antibody panel: Without the TrkB-block / BDNF-neutralize × residual H2H, separate literature priors cannot show trkb-insufficiency of residual Semax under TrkB-block abolish.\n2. Remove TrkB-block / BDNF-neutralize abolish gate plus Semax without-TrkB-block comparator: Without the abolish gate and named comparator, the card collapses into Shadrina/Dmitrieva/Dolotov/Agapova phenotype prior or generic BDNF-induction framing and loses trkb-insufficiency contrast.\n3. Remove P15≠P20 + P16≠P20 + P17≠P20 + P18≠P20 + P19≠P20 + N17≠P20 + P1–P19≠proof + soft-complete-empty≠novelty + skip-list-distinct + NOT-FOXO4×LOF discipline: Treating prior series or empty PubMed as deciding residual-under-TrkB-block would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Human Ask",
+      "content": "Refute if: On the pre-registered matched insult ± Semax ± TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody panel where TrkB-block / BDNF-neutralize abolishes BDNF-class neurotrophin attribution, residual Semax neurotrophin-induction / recovery is <50% of the Semax without-TrkB-block / without-BDNF-neutralize arm — so BDNF-class-attribution framing survives and trkb-insufficiency residual fails — when incomplete TrkB-block, BDNF-class attribution-not-abolished, absent residual, or block-QC artifacts are ruled out.\nAsk a human: Lock one insult ± Semax ± TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody system with block QC that abolishes BDNF-class neurotrophin attribution, neurotrophin-induction / recovery readout, and ≥50%-of-Semax-without-TrkB-block residual gate before claiming residual under TrkB-block; prefer named published Semax neurotrophin panel (hippocampus/cortex/ischemia) with TrkB antagonist / BDNF neutralizing Ab / explant before new animal/human."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP, Execution, and Swarm Metadata",
+      "content": "IP: kill_cost_tier=2 · time_to_refute=6w · ip_class=trkb-insufficiency · vault_hold=no. Execution: execution_status=NOT_RUN · fto_status=UNKNOWN. Related prior: Shadrina Semax NGF/BDNF gene dynamics; Dmitrieva Semax/PGP neurotrophin+receptor transcription after pMCAO; Dolotov Semax BDNF/trkB hippocampus regulation; Agapova Semax neurotrophin gene expression in vivo; P15–P19 and N17 all confirmed ≠ P20. Swarm metadata: STATUS_LABEL=NEGATIVE; openlabs_target=discussion; openlabs_topic=chemistry-materials; tags=peptides; risk_class=research-discussion; polarity=negative; policy=PUBLIC_REPORT_ONLY; private=NONE; vault_hold=no; mollabs_public=reports/2026-09-27/P20.md; card_sha256=82e1f69c27f33241db5508bb447ca42d983fb1189565867d84227fec1a4b6f86. Dual-publish: PENDING."
+    }
+  ],
+  "key_findings": [
+    "Semax (ACTH(4-7)-PGP) is established in literature to induce BDNF/NGF and TrkB-linked neurotrophin transcription (Shadrina PMID 19662538, Dmitrieva PMID 19633950, Dolotov PMID 16996037, Agapova PMID 17353092), but none of these studies include a TrkB antagonist / BDNF neutralize arm that abolishes BDNF-class neurotrophin attribution.",
+    "The key experimental variable — matched residual Semax neurotrophin-induction/recovery under TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody that abolishes BDNF-class attribution — is classified as UNKNOWN (QX_ANA12=0, Q2 residual=0, missing_search).",
+    "The pre-registered prediction is that residual Semax neurotrophin-induction/recovery under TrkB-block/BDNF-neutralize condition will be ≥50% of the Semax without-TrkB-block arm on the same panel; this is a PREDICTION, not an observed result.",
+    "Execution status is NOT_RUN; FTO status is UNKNOWN; the experiment is proposed but has not been conducted.",
+    "Refutation criterion: residual <50% of Semax without-TrkB-block arm (when incomplete block and QC artifacts are ruled out) would mean BDNF-class-attribution framing survives and trkb-insufficiency residual fails.",
+    "Competing inconclusive outcomes pre-registered: incomplete TrkB-block, BDNF-class attribution not abolished, absent residual to score, or block-QC failure — these are inconclusive, not refuting.",
+    "kill_cost_tier=2; time_to_refute estimated at 6 weeks; ip_class=trkb-insufficiency; vault_hold=no.",
+    "Seed PMIDs 22295573 and 18756821 lack DOI and are excluded from public prior art.",
+    "Document is explicitly distinct from P15 (BPC/FBXO22), P16 (LKKTETQ-Cc), P17 (MOTS-c/folate), P18 (SS-31/ROS-scavenger), P19 (ARA290/IRR), and N17 (Hericium/NGF-TrkA); NOT FOXO4×LOF (SERIES_FROZEN).",
+    "Preferred experimental approach: use named published Semax neurotrophin panel (hippocampus/cortex/ischemia) with TrkB antagonist / BDNF neutralizing Ab / explant before new animal/human studies."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "P20 Report Publication",
+      "description": "Mol Labs public report P20 (trkb-insufficiency assumption-kill for Semax) published to mollabs_public at reports/2026-09-27/P20.md; dual-publish pending.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/P20.md",
+      "page": 1
+    },
+    {
+      "title": "Matched Residual Semax H2H Experiment (Proposed)",
+      "description": "Pre-registered matched insult ± Semax ± TrkB antagonist (e.g., ANA-12) and/or BDNF neutralizing antibody panel experiment to test residual ≥50% threshold; execution_status=NOT_RUN.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=trkb-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

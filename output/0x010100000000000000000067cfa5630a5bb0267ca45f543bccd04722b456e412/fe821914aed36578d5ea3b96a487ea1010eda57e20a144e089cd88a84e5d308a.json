@@ -1,0 +1,98 @@
+{
+  "file_path": "/reports/2026-09-27/N23.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N23) proposing an assumption-kill experiment to test whether guanfacine retains working memory/attention phenotype when alpha2A-class PFC WM attribution is abolished via genetic LOF or pharmacological antagonism. The document is a research discussion (propose-assay stage), not a completed experiment. It synthesizes existing necessity literature (against residual) and phenotype priors (lacking abolish arms), concluding that the key residual-under-abolish H2H result is currently UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis (N23)",
+      "content": "On a pre-registered acute/subacute PFC working memory/attention panel with an alpha2-class positive WM arm, an alpha2A genetic LOF or alpha2-antagonist-matched condition that abolishes alpha2-class PFC WM attribution, and a guanfacine arm: under the same condition that abolishes alpha2-class PFC WM attribution, guanfacine retains residual working memory/attention phenotype ≥50% of guanfacine-alone (WM/attention units as pre-specified; α/N pre-specified) — assumption-kill / alpha2-insufficiency."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Guanfacine PFC working-memory/attention phenotypes are commonly framed as alpha2A orthosteric agonism. Franowicz young-rhesus and Decamp aged-NHP are phenotype priors without a residual-under-abolish arm. Franowicz alpha2A mutation and Avery idazoxan/MK912 reverse are necessity AGAINST residual. N23 asks whether residual guanfacine WM/attention phenotype survives an alpha2A LOF or alpha2-antagonist match that kills alpha2-class PFC WM attribution — alpha2-insufficiency assumption-kill. Distinct from N15–N22 (modafinil×DAT, creatine, Hericium×NGF/TrkA, L-theanine×adenosine, Rhodiola×HPA/cortisol, Bacopa×AChE, nicotine×nAChR, tyrosine×AMPT)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Alpha2-insufficiency assumption-kill: guanfacine moves PFC delayed-response/delayed-alternation/attention phenotypes, and alpha2A genetic LOF or alpha2 antagonists (idazoxan/MK912) can frame alpha2-class WM necessity (mutation annuls guanfacine enhancement; idazoxan/MK912 reverse guanfacine spatial WM). No published head-to-head scores residual-positive guanfacine WM/attention under an alpha2A LOF or antagonist match that abolishes alpha2-class PFC WM attribution on the same panel as a retained residual. Preferred assay: same-panel acute/subacute PFC WM/attention lock (named published Franowicz/Avery-class rodent delayed-alternation or NHP delayed-response/spatial WM panel) with alpha2-class positive WM ± alpha2A LOF or named alpha2-antagonist-matched abolish condition vs guanfacine ± same condition."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four key prior art references identified:\n1. PMID 12351753 (Franowicz/Arnsten, J Neurosci 2002): alpha2A-AR point-mutation functional KO impairs T-maze delayed-alternation WM and annuls guanfacine cognitive enhancement — necessity AGAINST residual under alpha2A LOF.\n2. PMID 12122489 (Avery/Arnsten, Psychopharmacology 2002): idazoxan and MK912 dose-dependently reverse guanfacine-induced spatial WM improvement in rhesus — pharmacological necessity AGAINST residual under antagonist match.\n3. PMID 9537677 (Franowicz/Arnsten, Psychopharmacology 1998): guanfacine improves delayed-response performance in young adult rhesus — phenotype prior; no alpha2-abolish residual arm.\n4. PMID 21883531 (Decamp, Eur J Neurosci 2011): guanfacine improves attention/WM in aged NHP — phenotype prior; no alpha2-abolish residual arm.\nPRIOR_ART status: PARTIAL — necessity AGAINST residual FOUND; residual-positive under abolish ABSENT."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Franowicz_alpha2A_mutation_annuls_guanfacine_WM_necessity | LITERATURE | Mice with alpha2A-AR point mutation (functional KO) vs WT; T-maze spatial delayed alternation ± guanfacine | Functional loss of alpha2A-AR weakens PFC delayed-alternation and results in loss of beneficial response to guanfacine (PMID 12351753) — necessity AGAINST residual under alpha2A LOF |\n| Avery_idazoxan_MK912_reverse_guanfacine_spatial_WM_necessity | LITERATURE | Rhesus monkeys; guanfacine spatial WM challenged with idazoxan and MK912 | Idazoxan and MK912 dose-dependently reverse guanfacine-induced spatial WM improvement (PMID 12122489) — pharmacological necessity AGAINST residual |\n| Franowicz_young_rhesus_guanfacine_delayed_response_phenotype | LITERATURE | Young adult rhesus monkeys; delayed response ± guanfacine | Guanfacine improves delayed-response performance in young adult rhesus (PMID 9537677) — phenotype prior; no alpha2-abolish residual arm |\n| Decamp_aged_NHP_guanfacine_attention_WM_phenotype | LITERATURE | Aged rhesus monkeys; sustained attention CPT + self-ordered spatial search ± guanfacine | Guanfacine improves attention/WM in aged NHP (PMID 21883531) — phenotype prior; no alpha2-abolish residual arm |\n| matched_residual_guanfacine_under_alpha2_abolish_H2H | UNKNOWN | Same acute/subacute PFC WM/attention panel — alpha2-class positive WM ± alpha2A LOF or alpha2-antagonist-matched abolish + guanfacine ± same condition | Dedicated residual-positive guanfacine under alpha2A LOF or antagonist match NOT FOUND — UNKNOWN + missing_search |\n| residual_guanfacine_phenotype_ge_50pct_of_alone_when_alpha2_class_abolished | PREDICTION | Pre-registered acute/subacute PFC WM/attention panel; alpha2-class arm must show abolished PFC WM attribution | Residual guanfacine WM/attention phenotype ≥50% of guanfacine-alone while alpha2-class PFC WM attribution is abolished — PREDICTION (not yet run) |\n| competing_abolish_fail_or_guanfacine_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish fails, guanfacine-alone null, underpowered, or assay-identity mismatch | Abolish-fail/guanfacine-null/underpowered/assay-mismatch allowed as pre-registered competing outcomes (inconclusive ≠ refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs Baseline Measured",
+      "content": "Baseline claimed: Under alpha2A genetic LOF or alpha2-antagonist match that abolishes alpha2-class PFC WM attribution, guanfacine still retains WM or attention phenotype on the same panel — OR Franowicz 12351753/Avery 12122489 already prove residual under abolish — OR Franowicz/Decamp phenotype already constitutes residual-under-abolish H2H — OR N15–N22 already settle residual guanfacine under alpha2 abolish.\n\nBaseline measured: Franowicz alpha2A mutation annuls guanfacine delayed-alternation enhancement — necessity AGAINST residual (PMID 12351753). Avery idazoxan/MK912 reverse guanfacine spatial-WM — necessity AGAINST residual (PMID 12122489). Franowicz young-rhesus delayed-response phenotype (PMID 9537677). Decamp aged-NHP attention/WM phenotype (PMID 21883531). Matched residual-positive guanfacine under alpha2A LOF or antagonist match — UNKNOWN. Residual guanfacine phenotype ≥50% of guanfacine-alone when alpha2-class PFC WM attribution abolished — PREDICTION."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N1–N22 as proving N23 — each prior experiment (N15 modafinil/DAT, N16 plasma-Cr/PCr, N17 Hericium/NGF/TrkA, N18 theanine-adenosine, N19 Rhodiola-HPA, N20 Bacopa-AChE, N21 nicotine-nAChR, N22 tyrosine-AMPT) is distinct; soft-complete empty ≠ demonstrated residual gain.\n2. Necessity AGAINST residual FOUND (Franowicz 12351753 genetic annul; Avery 12122489 idazoxan/MK912 reverse) — PRIOR_ART PARTIAL OK, not auto-REJECT; do not invent residual-positive H2H from necessity literature. Phenotype ≠ residual — Franowicz 9537677/Decamp 21883531 lack abolish residual arms. Adjacent Nishitomi 29476896 alpha2A-antagonist block of guanfacine impulsive-choice is wrong primary endpoint for WM residual.\n3. Lock same-panel acute/subacute PFC WM/attention assay (prefer named published Franowicz/Avery-class rodent delayed-alternation or NHP delayed-response/spatial WM); optional cell/SPR/alpha2A occupancy overlay only after abolish×residual locks; no dosing; NOT MB/MAOI; not N15–N22 clones; do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition",
+      "content": "On the pre-registered acute/subacute PFC working memory/attention panel, under alpha2A genetic LOF or an alpha2-antagonist-matched condition that abolishes alpha2-class PFC WM attribution, residual guanfacine working memory/attention phenotype falls below 50% of guanfacine-alone (WM/attention units as pre-specified) — so alpha2-class sufficiency for the guanfacine phenotype survives and alpha2-insufficiency fails — when abolish-gate, guanfacine-alone comparator, and power/assay artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution / IP / Cost Metadata",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 2. Time to refute: 6 weeks. IP class: alpha2-insufficiency. Vault hold: no. Status label: NEGATIVE. Polarity: negative. Risk class: research-discussion. Method: propose-assay. Related prior: N15–N22 (all distinct from N23). N2 holds sole ip_class=none. NOT MB/MAOI (SERIES_FROZEN). Soft-claims: matched residual-guanfacine under alpha2 abolish H2H UNKNOWN; PRIOR_ART PARTIAL; soft-complete empty ≠ novelty/≠ failure."
+    }
+  ],
+  "key_findings": [
+    "N23 is a proposed (NOT_RUN) assumption-kill experiment testing whether guanfacine retains ≥50% of its WM/attention phenotype when alpha2A-class PFC WM attribution is abolished via genetic LOF or pharmacological antagonism.",
+    "Necessity AGAINST residual is established in the literature: Franowicz/Arnsten (PMID 12351753) showed alpha2A-AR point-mutation functional KO annuls guanfacine cognitive enhancement in T-maze delayed-alternation; Avery/Arnsten (PMID 12122489) showed idazoxan and MK912 dose-dependently reverse guanfacine-induced spatial WM improvement in rhesus.",
+    "Phenotype priors exist (Franowicz PMID 9537677; Decamp PMID 21883531) but lack abolish residual arms — phenotype ≠ residual.",
+    "The key variable — matched residual-positive guanfacine under alpha2A LOF or antagonist match that abolishes alpha2-class PFC WM attribution — is UNKNOWN; no published H2H result found.",
+    "PRIOR_ART status: PARTIAL — necessity AGAINST residual FOUND; residual-positive under abolish ABSENT.",
+    "Preferred assay design: same-panel acute/subacute PFC WM/attention (Franowicz/Avery-class rodent delayed-alternation or NHP delayed-response/spatial WM) with alpha2-class positive WM arm ± alpha2A LOF or named alpha2-antagonist-matched abolish condition vs guanfacine ± same condition.",
+    "Competing caveats that would render test inconclusive (not refuted): abolish condition fails to kill alpha2-class PFC WM attribution, guanfacine-alone null, underpowered strata, assay-identity mismatch.",
+    "Execution status: NOT_RUN; kill cost tier 2; estimated time to refute: 6 weeks.",
+    "N23 is distinct from N15 (modafinil×DAT), N16 (creatine/PCr), N17 (Hericium×NGF/TrkA), N18 (theanine×adenosine), N19 (Rhodiola×HPA/cortisol), N20 (Bacopa×AChE), N21 (nicotine×nAChR), N22 (tyrosine×AMPT); alpha2 antagonism ≠ AMPT catecholamine depletion.",
+    "Document date: 2026-09-27 (from report path mollabs_public: reports/2026-09-27/N23.md)."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "N23 Report Published",
+      "description": "Mol Labs public report N23 (guanfacine alpha2-insufficiency assumption-kill, propose-assay stage) published to public reports.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/N23.md",
+      "page": 1
+    },
+    {
+      "title": "N23 Experiment Execution",
+      "description": "Pre-registered acute/subacute PFC WM/attention panel with alpha2-class positive WM arm, alpha2A LOF or alpha2-antagonist-matched abolish condition, and guanfacine arm to test residual phenotype ≥50% of guanfacine-alone. Estimated 6 weeks to refute.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · ... kill_cost_tier=2 · time_to_refute=6w",
+      "page": 1
+    }
+  ]
+}

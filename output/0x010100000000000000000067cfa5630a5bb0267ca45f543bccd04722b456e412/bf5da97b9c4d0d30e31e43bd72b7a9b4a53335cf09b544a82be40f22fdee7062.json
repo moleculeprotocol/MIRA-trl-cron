@@ -1,0 +1,144 @@
+{
+  "file_path": "/reports/2026-09-27/N25.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N25) proposing a research hypothesis (\"assumption-kill\") to test whether atomoxetine retains a working memory (WM) / attention phenotype when the norepinephrine transporter (NET/Slc6a2) is genetically knocked out or pharmacologically blocked to abolish NET-class attribution. The document is a structured research discussion — not a completed experiment — framing the claim, prior art, prediction variables, and proposed assay design. No experimental data have been generated; the key residual-under-abolish result is explicitly marked UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement (N25)",
+      "content": "On a pre-registered acute/subacute rodent (or NHP Gamo-class) WM/attention panel with an atomoxetine-alone arm, a NET genetic LOF (Slc6a2) or NET-matched blockade that abolishes NET-class attribution, and an atomoxetine-under-abolish arm: under the same condition that abolishes NET-class attribution, atomoxetine retains residual WM/attention phenotype ≥50% of atomoxetine-alone (WM/attention units as pre-specified; α/N pre-specified). This is framed as an 'assumption-kill / net-insufficiency' test of the standard NET orthosteric blockade framing for atomoxetine's cognitive effects."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Atomoxetine WM/attention phenotypes are commonly attributed to NET orthosteric blockade. The four key prior-art references (Xu, Bymaster, Gamo, Michelson) each provide partial support (KO tool, mechanism attribution, WM phenotype, ADHD RCT) but none includes a residual-positive arm under NET abolish. The question is whether any residual atomoxetine WM/attention phenotype survives Slc6a2 LOF or NET-matched blockade — i.e., whether NET blockade is necessary and sufficient for the atomoxetine cognitive phenotype. Explicitly distinguished from N15 (modafinil/DAT), N22 (tyrosine/AMPT), N23 (guanfacine/α2), and N24 (caffeine/A2A)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Net-insufficiency assumption-kill: Atomoxetine is framed as a selective NET blocker (Bymaster: NET-selective PFC NE/DA elevation). Slc6a2/NET KO is an established genetic tool (Xu). Published WM/ADHD phenotype priors exist (Gamo PFC WM in NHP; Michelson ADHD RCT). No published head-to-head study scores residual-positive atomoxetine WM/attention under Slc6a2 LOF or NET-matched blockade that abolishes NET-class attribution on the same panel. Preferred design: same-panel acute/subacute rodent (or NHP Gamo-class) WM/attention lock with atomoxetine ± Slc6a2 LOF or named NET-matched abolish condition. Optional cell/SPR/NET occupancy overlay only after abolish-verification locks residual."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four prior-art references identified:\n1. PMID 10769386 (Xu, Nat Neurosci 2000, DOI 10.1038/74839): Slc6a2/NET KO mice — prolonged NE clearance, elevated extracellular NE, antidepressant-like behaviour, psychostimulant locomotor supersensitivity. KO tool prior; NO atomoxetine WM/attention residual-under-abolish arm.\n2. PMID 12431845 (Bymaster, Neuropsychopharmacology 2002, DOI 10.1016/S0893-133X(02)00346-9): Atomoxetine is NET-selective; increases extracellular NE and DA in PFC. NET-mechanism attribution prior; NOT residual-under-abolish WM H2H.\n3. PMID 20855046 (Gamo, JAACAP 2010, DOI 10.1016/j.jaac.2010.06.015): Atomoxetine (and MPH) enhance prefrontal WM in monkeys; benefit challenged by idazoxan (α2-antagonist) or SCH23390 (D1-antagonist). WM phenotype prior + α2/D1 downstream mediation. α2 ≠ NET — NOT a NET abolish residual/necessity test.\n4. PMID 12411225 (Michelson, Am J Psychiatry 2002, DOI 10.1176/appi.ajp.159.11.1896): Once-daily atomoxetine ADHD RCT in children/adolescents. Human attention phenotype prior; NO NET-abolish residual arm.\nOverall prior art status: PARTIAL — NET-mechanism attribution FOUND; residual-positive under abolish ABSENT; phenotype/tool priors FOUND."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold / Status |\n|---|---|---|---|\n| Xu_Slc6a2_NET_KO_tool | LITERATURE | Slc6a2/NET KO vs WT; NE clearance, extracellular NE, antidepressant-like, locomotor assays | NET KO prolongs NE clearance, elevates extracellular NE, antidepressant-like + locomotor supersensitivity (PMID 10769386) — KO tool prior; no atomoxetine WM residual-under-abolish arm |\n| Bymaster_atomoxetine_NET_mechanism_PFC_NE_DA | LITERATURE | Atomoxetine NET selectivity; extracellular NE/DA in PFC vs SERT/DAT selectivity | Atomoxetine NET-selective, increases PFC NE/DA (PMID 12431845) — mechanism attribution prior; not residual-under-abolish WM H2H |\n| Gamo_atomoxetine_PFC_WM_phenotype_alpha2_D1_adjacent | LITERATURE | NHP prefrontal WM ± atomoxetine ± idazoxan (α2) or SCH23390 (D1) | Atomoxetine enhances PFC WM; challenged by idazoxan/SCH23390 (PMID 20855046) — WM phenotype prior; α2 ≠ NET |\n| Michelson_once_daily_atomoxetine_ADHD_RCT_phenotype | LITERATURE | Children/adolescents ADHD RCT; once-daily atomoxetine vs placebo | Atomoxetine improves ADHD attention vs placebo (PMID 12411225) — phenotype prior; no NET-abolish residual arm |\n| matched_residual_atomoxetine_under_NET_abolish_H2H | UNKNOWN | Same-panel rodent/NHP WM/attention; atomoxetine ± Slc6a2 LOF or NET-matched abolish | Residual-positive not found; Q_xu_atom=0; DAT-KO NON-MATCH; genetic WM necessity-abolish H2H NOT FOUND — UNKNOWN + missing_search |\n| residual_atomoxetine_phenotype_ge_50pct_of_alone_when_NET_class_abolished | PREDICTION | Pre-registered rodent/NHP WM/attention panel; NET-class arm abolished; atomoxetine scored for residual vs alone | Residual ≥50% of atomoxetine-alone while NET-class attribution abolished — do not invent observed Δ or dosing |\n| competing_abolish_fail_or_atomoxetine_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish fails to kill NET-class attribution, atomoxetine-alone null, underpowered, or assay-identity mismatch | Abolish-fail/null/underpowered/mismatch as pre-registered competing outcomes (inconclusive ≠ refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs Baseline Measured",
+      "content": "Baseline claimed: Under NET genetic LOF (Slc6a2) or NET-matched blockade abolishing NET-class attribution, atomoxetine retains WM/attention phenotype on the same panel — OR Bymaster already proves residual under NET abolish — OR Xu/Gamo/Michelson phenotype already constitutes residual-under-abolish or genetic WM necessity-abolish H2H — OR Gamo idazoxan×ATM already is NET abolish — OR N1–N24 already settle residual atomoxetine under NET abolish.\nBaseline measured: Xu (PMID 10769386) — KO tool LITERATURE without atomoxetine WM residual arm. Bymaster (PMID 12431845) — NET-mechanism attribution LITERATURE, not residual-under-abolish WM H2H. Gamo (PMID 20855046) — WM phenotype prior; α2 ≠ NET. Michelson (PMID 12411225) — phenotype prior without residual-under-abolish arm. Matched residual-positive atomoxetine under Slc6a2 LOF or NET-matched block: UNKNOWN (soft-complete Q_resid_tight NON-MATCH; Q_xu_atom=0; Q_atom_net_ko=DAT-KO NON-MATCH PMID 36291693; genetic WM necessity-abolish H2H NOT FOUND). Residual ≥50% of atomoxetine-alone: PREDICTION."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. N1–N24 do not prove N25: N15 (DAT ≠ NET; Ptukha 36291693 is DAT-KO×atomoxetine NON-MATCH); N22 (AMPT catecholamine-depletion ≠ NET LOF); N23 (α2 ≠ NET; Gamo idazoxan×ATM is α2-downstream adjacent, not NET abolish); N16–N21, N24 are distinct mechanisms. Soft-complete empty ≠ demonstrated residual gain.\n2. NET-mechanism attribution FOUND (Bymaster 12431845) — PRIOR_ART PARTIAL OK, not auto-REJECT. Do not invent residual-positive H2H from mechanism literature. Xu/Gamo/Michelson phenotype ≠ residual H2H. Adjacent Yang 19387424 (Slc6a2 haplotype↔response) is pharmacogenetics not LOF residual/necessity.\n3. Lock same-panel acute/subacute rodent (or NHP Gamo-class) WM/attention with atomoxetine ± Slc6a2 LOF or NET-matched challenge; no dosing; NOT MB/MAOI; orthosteric_drift=false; do not burn ip_class=none; do not treat α2-downstream as NET abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove same-panel contrast of residual atomoxetine WM/attention under Slc6a2 LOF or NET-matched blockade: Without abolish×residual H2H on a Gamo-class WM/attention panel with an atomoxetine arm, separate NET-mechanism LITERATURE and phenotype/tool LITERATURE cannot show net-insufficiency as a residual-positive kill.\n2. Remove verified abolish gate (Slc6a2 LOF or NET-matched blockade abolishing NET-class attribution) plus atomoxetine-alone comparator: Without verified NET-class abolish and atomoxetine-alone comparator under the same condition, residual atomoxetine is just 'another catecholamine agent under nonspecific challenge,' not an assumption-kill of NET-class sufficiency.\n3. Remove N15≠N25 through N24≠N25 discipline and related constraints: Treating N15–N24 residuals as NET abolish, Bymaster mechanism as residual-under-abolish, Xu/Gamo/Michelson phenotype as residual H2H, or Gamo idazoxan as NET abolish would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition and Ask-a-Human",
+      "content": "Refute if: On the pre-registered acute/subacute rodent (or NHP Gamo-class) WM/attention panel, under Slc6a2 genetic LOF or NET-matched blockade that abolishes NET-class attribution, residual atomoxetine WM/attention phenotype falls below 50% of atomoxetine-alone — so NET-class sufficiency for the atomoxetine phenotype survives and net-insufficiency fails — when abolish-gate, atomoxetine-alone comparator, and power/assay artifacts are ruled out.\nAsk a human: Lock acute/subacute rodent (or NHP Gamo-class) WM/attention assay identity, NET-class attribution abolish gate under Slc6a2 LOF or named NET-matched blockade, atomoxetine-alone comparator, and optional cell/SPR/NET occupancy overlay only after abolish×residual locks. Do not treat N15–N24 as proof. No dosing. NOT MB/MAOI. orthosteric_drift=false. Do not invent residual or genetic necessity kill."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Metadata",
+      "content": "IP class: net-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related priors: N15 (modafinil-DAT), N16 (plasma-Cr/PCr), N17 (Hericium×NGF/TrkA), N18 (theanine-adenosine), N19 (Rhodiola-HPA), N20 (Bacopa×AChE), N21 (nicotine×nAChR), N22 (tyrosine/AMPT), N23 (guanfacine×alpha2), N24 (caffeine×A2A) — all ≠ N25. N2 holds sole ip_class=none. Status label: NEGATIVE. Polarity: negative. Risk class: research-discussion. Tags: nootropics, brain-longevity. Card SHA256: 8840c5727d1e9bc70aa777f88224d6f73b87b17cb05855a54156f230171afa91."
+    }
+  ],
+  "key_findings": [
+    "N25 is a proposed (NOT_RUN) assumption-kill experiment testing whether atomoxetine retains ≥50% of its WM/attention phenotype when NET (Slc6a2) is genetically knocked out or pharmacologically blocked to abolish NET-class attribution.",
+    "No published head-to-head study has scored residual-positive atomoxetine WM/attention under Slc6a2 LOF or NET-matched blockade that abolishes NET-class attribution — the key variable is UNKNOWN.",
+    "Four prior-art references provide PARTIAL support: Xu (PMID 10769386) — Slc6a2/NET KO tool; Bymaster (PMID 12431845) — NET-selective mechanism attribution; Gamo (PMID 20855046) — NHP PFC WM phenotype with α2/D1 downstream challenge (α2 ≠ NET); Michelson (PMID 12411225) — ADHD RCT phenotype. None includes a residual-under-NET-abolish arm.",
+    "Gamo idazoxan×atomoxetine is α2-downstream adjacent, NOT a NET abolish condition — explicitly flagged as a non-match for N25.",
+    "DAT-KO×atomoxetine (Ptukha, PMID 36291693) is a NON-MATCH for N25 (DAT ≠ NET).",
+    "AMPT catecholamine depletion (N22) ≠ NET LOF; α2-antagonism (N23) ≠ NET abolish — these prior series experiments do not settle N25.",
+    "Competing caveats: abolish condition may fail to kill NET-class attribution; atomoxetine-alone may be null; study may be underpowered; assay-identity mismatch — all leave the test inconclusive rather than refuted.",
+    "Estimated kill cost tier: 1; time to refute: 4 weeks; execution status: NOT_RUN.",
+    "Refute condition: residual atomoxetine WM/attention phenotype <50% of atomoxetine-alone under verified NET-class abolish, ruling out abolish-gate failure, null atomoxetine-alone, underpowering, and assay mismatch.",
+    "IP class: net-insufficiency; vault hold: no; FTO status: UNKNOWN."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "Xu Slc6a2/NET KO Publication",
+      "description": "Publication of Slc6a2/NET KO mouse characterization showing prolonged NE clearance, elevated extracellular NE, antidepressant-like behaviour, and psychostimulant locomotor supersensitivity — established as KO tool prior for N25.",
+      "date": "2000",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 10769386 / DOI 10.1038/74839 — Xu: mice lacking the norepinephrine transporter (Slc6a2/NET KO) — prolonged NE clearance, elevated extracellular NE, antidepressant-like behaviour, psychostimulant locomotor supersensitivity (Nat Neurosci 2000)",
+      "page": 1
+    },
+    {
+      "title": "Bymaster Atomoxetine NET Mechanism Publication",
+      "description": "Publication establishing atomoxetine as a selective NET inhibitor that increases extracellular NE and DA in PFC — NET-mechanism attribution prior for N25.",
+      "date": "2002",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 12431845 / DOI 10.1016/S0893-133X(02)00346-9 — Bymaster: atomoxetine selective NET inhibitor; increases extracellular NE and DA in PFC (Neuropsychopharmacology 2002)",
+      "page": 1
+    },
+    {
+      "title": "Michelson Atomoxetine ADHD RCT Publication",
+      "description": "Publication of once-daily atomoxetine ADHD RCT in children/adolescents — human attention phenotype prior for N25.",
+      "date": "2002",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "PMID 12411225 / DOI 10.1176/appi.ajp.159.11.1896 — Michelson: once-daily atomoxetine ADHD RCT in children/adolescents (Am J Psychiatry 2002)",
+      "page": 1
+    },
+    {
+      "title": "Gamo Atomoxetine NHP PFC WM Publication",
+      "description": "Publication showing atomoxetine (and MPH) enhance prefrontal WM in monkeys, with benefit challenged by idazoxan (α2) or SCH23390 (D1) — WM phenotype prior for N25.",
+      "date": "2010",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 20855046 / DOI 10.1016/j.jaac.2010.06.015 — Gamo: atomoxetine (and MPH) enhance prefrontal WM in monkeys; benefit challenged by idazoxan (α2) or SCH23390 (D1) (JAACAP 2010)",
+      "page": 1
+    },
+    {
+      "title": "N25 Mol Labs Public Report Published",
+      "description": "Mol Labs public report for hypothesis N25 (atomoxetine residual WM/attention under NET abolish) published/dated.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/N25.md",
+      "page": 1
+    },
+    {
+      "title": "N25 Experiment Execution (Proposed)",
+      "description": "Proposed acute/subacute rodent (or NHP Gamo-class) WM/attention panel with atomoxetine ± Slc6a2 LOF or NET-matched blockade to test residual atomoxetine phenotype under NET-class abolish. Estimated 4 weeks to refute. Currently NOT_RUN.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=net-insufficiency · vault_hold=no ... execution_status=NOT_RUN",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "file_path": "/reports/2026-09-28/L27.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (L27) proposing an assumption-kill experiment to test whether FGF21 longevity/metabolic-healthspan benefits are entirely dependent on β-klotho (Klb)/FGFR1 signaling, or whether a residual benefit persists under Klb LOF or FGFR1-block conditions. The document synthesizes existing literature (Zhang 2012, Kharitonenkov 2005, Ding 2012, Ogawa 2007) establishing FGF21 phenotype and Klb/FGFR1 metabolic necessity, while noting that a matched residual-positive FGF21 lifespan/healthspan head-to-head under Klb/FGFR1 abolish remains UNKNOWN. The proposed experiment is NOT YET RUN (execution_status=NOT_RUN), placing this at TRL 1–2 (conceptual/early experimental design stage).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "The core claim (L27) is: On a pre-registered rodent metabolic/healthspan panel (Zhang/Kharitonenkov-class) with FGF21 (transgenic overexpression or exogenous FGF21-class ligand) vs vehicle under Klb (β-klotho) genetic LOF or FGFR1-block that abolishes FGF21-class longevity/metabolic-healthspan attribution, same-panel early healthspan/metabolic improvement (FGF21 vs vehicle under abolish) retains ≥50% of the FGF21 vs vehicle early healthspan/metabolic improvement on Klb/FGFR1-intact concurrent controls. This is framed as an 'assumption-kill' / 'klb-insufficiency' test. Polarity is NEGATIVE (status_labels: NEGATIVE). Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "FGF21 longevity and metabolic-healthspan benefits are often framed as β-klotho/FGFR1-necessary. Zhang (2012) grounds FGF21-tg lifespan extension in WT Klb mice (no Klb-LOF residual arm). Kharitonenkov (2005) grounds metabolic regulation without Klb-abolish residual arm. Ding (2012) shows all FGF21 growth/metabolism effects lost in Klb-/- (metabolic necessity AGAINST residual, not organismal residual-positive longevity H2H). Ogawa (2007) shows BetaKlotho required for FGF21 metabolic activity. Foltz (2012) shows adipose FGFR1 KO refractory to FGF21 metabolic benefit. Bookout (2013) shows CNS Klb required for metabolic/growth/circadian effects. A matched residual-positive FGF21 lifespan/healthspan H2H under Klb LOF or FGFR1-block abolish remains UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Zhang eLife (PMID 23066506): FGF21 transgenic overexpression extends lifespan in mice; blunts hepatic GH/IGF-1; AMPK/mTOR/NAD markers unaffected; WT Klb context — no Klb-LOF/FGFR1 residual arm. Kharitonenkov JCI (PMID 15902306): FGF-21 as metabolic regulator (adipocyte glucose uptake; DIO-resistant TG; lowers glucose/TG in ob/ob, db/db) — no Klb-abolish residual arm. Ding Cell Metab (PMID 22958921): whole-body βKlotho KO — all FGF21 growth/metabolism effects lost; adipose-selective Klb KO blocks acute insulin-sensitizing effects — NECESSITY AGAINST residual for metabolic/growth. Ogawa PNAS (PMID 17452648): BetaKlotho required for FGF21 metabolic activity (FGFR1c/4 cofactor; siRNA knockdown diminishes adipocyte glucose uptake; in vivo MAPK in WAT). Preferred approach: cell/tissue/block-QC (adipocyte glucose-uptake / MAPK QC confirming abolish) before new animal longevity runs."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary Table",
+      "content": "| PMID | Reference | Finding | Role in L27 |\n|------|-----------|---------|-------------|\n| 23066506 | Zhang eLife 2012 | FGF21-tg markedly extends lifespan; blunts hepatic GH/IGF-1; NAD+/AMPK/mTOR unaffected; WT Klb | Phenotype founding; WT Klb ≠ residual H2H |\n| 15902306 | Kharitonenkov JCI 2005 | FGF-21 regulates glucose uptake; DIO-resistant TG; lowers glucose/TG in ob/ob, db/db | Metabolic phenotype founding; no Klb-abolish residual arm |\n| 22958921 | Ding Cell Metab 2012 | All FGF21 growth/metabolism effects lost in whole-body Klb-/-; adipose Klb KO blocks insulin-sensitizing effects | NECESSITY AGAINST residual for metabolic/growth; ≠ organismal longevity residual H2H |\n| 17452648 | Ogawa PNAS 2007 | BetaKlotho required for FGF21 metabolic activity; siRNA diminishes adipocyte glucose uptake; in vivo MAPK in WAT | NECESSITY metabolic cofactor; ≠ residual-positive longevity H2H |\n| 23197570 | Foltz Sci Transl Med 2012 | Adipose FGFR1 KO refractory to FGF21-induced glucose metabolism and body-weight improvements | FGFR1 necessity metabolic; OUT of public prior_art ≤4 |\n| 23933984 | Bookout Nat Med 2013 | FGF21 metabolic/growth/circadian effects require β-Klotho in SCN/DVC | CNS Klb necessity; OUT of public prior_art ≤4 |\n| 40527315 | Gliniak 2025 | DIO longevity still WT Klb | Adjacent phenotype; EXCLUDED as residual anchor |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable Name | Kind | Assay | Threshold/Outcome |\n|--------------|------|-------|-------------------|\n| Zhang_FGF21_tg_lifespan_phenotype_WT_Klb | LITERATURE | FGF21-tg mice; lifespan; hepatic GH/IGF-1; food intake; NAD+/AMPK/mTOR markers | FGF21-tg markedly extends lifespan without reducing food intake; blunts hepatic GH/IGF-1; NAD+/AMPK/mTOR unaffected; WT Klb ≠ residual H2H |\n| Kharitonenkov_FGF21_metabolic_phenotype | LITERATURE | 3T3-L1 and primary human adipocytes; FGF-21-tg mice; ob/ob and db/db therapeutic FGF-21 | FGF-21 regulates glucose uptake; TG mice DIO-resistant; lowers plasma glucose and triglycerides; no Klb-abolish residual arm |\n| Ding_betaKlotho_KO_necessity_against_residual_metabolic_growth | LITERATURE | Whole-body and adipose-selective βKlotho KO mice; pharmacologic FGF21 | All FGF21 effects on growth and metabolism lost in Klb-/-; adipose Klb KO blocks acute insulin-sensitizing effects; NECESSITY AGAINST residual |\n| Ogawa_BetaKlotho_required_metabolic_cofactor | LITERATURE | Adipocytes (siRNA βKlotho knockdown); FGF21 administration mice; FGFR1c/4 binding; MAPK | BetaKlotho required for FGF21 metabolic activity; siRNA diminishes adipocyte glucose uptake; NECESSITY metabolic cofactor |\n| Foltz_FGFR1_necessity_out_of_public_prior_art | LITERATURE | Adipose-selective FGFR1 KO mice + FGF21; mimAb1 βKlotho/FGFR1c-activating mAb | Adipose FGFR1 KO refractory to FGF21-induced glucose metabolism and body-weight improvements; OUT of public prior_art ≤4 |\n| Bookout_CNS_Klb_necessity_out_of_public_prior_art | LITERATURE | Mice lacking Klb in SCN/dorsal vagal complex; FGF21 metabolic/growth/circadian | FGF21 metabolic/growth/circadian effects require β-Klotho in SCN/DVC; OUT of public prior_art ≤4 |\n| matched_FGF21_under_Klb_or_FGFR1_block_residual_lifespan_healthspan_H2H | UNKNOWN | Rodent ± FGF21 (tg or exogenous) ± Klb LOF (or FGFR1-block) with same-panel lifespan/healthspan residual | Residual-positive FGF21 lifespan or healthspan H2H under Klb LOF or FGFR1-block NOT FOUND; UNKNOWN + missing_search |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_FGF21_vs_vehicle | PREDICTION | Pre-registered rodent metabolic/healthspan panel; Klb LOF or FGFR1-block abolish lock; early healthspan/metabolic Δ scored against intact-arm FGF21 vs vehicle | Under abolish lock, same-panel early healthspan/metabolic improvement retains ≥50% of FGF21 vs vehicle improvement on Klb/FGFR1-intact concurrent controls |\n| competing_abolish_fail_or_FGF21_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Abolish-fail / FGF21-alone-null / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive, not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Proposed assay (propose-assay method): Pre-registered rodent metabolic/healthspan panel (Zhang/Kharitonenkov-class). Arms: FGF21 (transgenic overexpression or exogenous FGF21-class ligand) vs vehicle, crossed with Klb (β-klotho) genetic LOF or FGFR1-block vs Klb/FGFR1-intact concurrent controls. Primary endpoint: early healthspan/metabolic endpoint within the refute window (6 weeks). Secondary endpoint: full lifespan (not a gate). Preferred pre-step: cell/tissue/block-QC (adipocyte glucose-uptake / MAPK QC confirming abolish of FGF21-class control benefit) before new animal longevity runs. Kill cost tier: 2. Time to refute: 6 weeks. IP class: klb-insufficiency. Vault hold: no. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered rodent metabolic/healthspan panel where Klb LOF or FGFR1-block locks FGF21-class control benefit abolished, same-panel early healthspan/metabolic improvement (FGF21 vs vehicle under abolish) is <50% of the FGF21 vs vehicle early healthspan/metabolic improvement on Klb/FGFR1-intact concurrent controls — so FGF21 longevity/metabolic-healthspan DOES reduce to mere β-klotho/FGFR1-necessary bridge — when abolish-fail, FGF21-alone-null, underpowered-strata, or assay-mismatch artifacts are ruled out. Inconclusive (not refuted) if competing artifacts cannot be ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Exclusions",
+      "content": "Key limitations: (1) L1–L26 do not prove L27; Zhang/Kharitonenkov/Ding/Ogawa are phenotype or metabolic necessity, not residual-positive H2H under Klb/FGFR1 abolish. (2) 23066506 is WT Klb phenotype ≠ residual; 15902306 lacks Klb-abolish residual arm; 22958921/17452648 are NECESSITY AGAINST residual for metabolic/growth (not residual-positive); matched residual-positive FGF21 lifespan/healthspan H2H UNKNOWN; PRIOR_ART PARTIAL. (3) Explicit exclusions: FGF21/Klb ≠ bulk ATG (L20); FGF21/Klb ≠ mitophagy (L21); FGF21/Klb ≠ AMPK primary (L22); FGF21/Klb ≠ GSK3 (L23); FGF21/Klb ≠ SGLT2 (L24); FGF21/Klb ≠ SIRT1 (L25); FGF21/Klb ≠ MT/melatonin; MT ≠ Klb CRITICAL (L26); NOT NAD-after-senolysis (SERIES_FROZEN). Do not invent residual effect sizes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=2 · time_to_refute=6w · ip_class=klb-insufficiency · vault_hold=no · execution_status=NOT_RUN · fto_status=UNKNOWN · ip_class ≠ none · orthosteric_drift=false. Card SHA256: 1c3dcebc2dfdc97c8e405eeaeacdc20081bf82f2d6c8cef875ac1320bd0d18c2. Status: PENDING dual-publish."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — the proposed experiment has not been conducted; this is a TRL 1 conceptual/design-stage document.",
+    "Zhang (PMID 23066506): FGF21 transgenic overexpression markedly extends lifespan in mice (blunts hepatic GH/IGF-1; NAD+/AMPK/mTOR markers unaffected) in WT Klb context — no Klb-LOF or FGFR1-block residual lifespan H2H performed.",
+    "Kharitonenkov (PMID 15902306): FGF-21 regulates glucose uptake in adipocytes; TG mice DIO-resistant; therapeutic FGF-21 lowers glucose/TG in ob/ob, db/db — no Klb-abolish residual arm.",
+    "Ding (PMID 22958921): All FGF21 effects on growth and metabolism lost in whole-body βKlotho KO mice; adipose-selective Klb KO blocks acute insulin-sensitizing effects — NECESSITY AGAINST residual for metabolic/growth endpoints, NOT organismal longevity residual H2H.",
+    "Ogawa (PMID 17452648): BetaKlotho required for FGF21 metabolic activity (FGFR1c/4 cofactor); siRNA knockdown diminishes adipocyte glucose uptake; in vivo MAPK in WAT — NECESSITY metabolic cofactor, not residual-positive longevity H2H.",
+    "Foltz (PMID 23197570): Adipose FGFR1 KO mice refractory to FGF21-induced glucose metabolism and body-weight improvements — FGFR1 necessity metabolic; outside public prior_art ≤4.",
+    "Bookout (PMID 23933984): FGF21 metabolic/growth/circadian effects require β-Klotho in SCN/DVC — CNS Klb necessity; outside public prior_art ≤4.",
+    "Residual-positive FGF21 lifespan or healthspan H2H under Klb LOF or FGFR1-block abolish is UNKNOWN (soft-complete Q_resid/Q_resid_strict/Q_resid_life_h2h NON-MATCH/EMPTY/OFF-PANEL; Q_necess_life organismal longevity EMPTY).",
+    "PRIOR_ART PARTIAL: phenotype + metabolic Klb/FGFR1 necessity FOUND; residual-positive longevity absent; organismal longevity necessity EMPTY.",
+    "Proposed prediction gate: block-arm early healthspan/metabolic improvement retains ≥50% of Klb/FGFR1-intact FGF21 vs vehicle early healthspan/metabolic improvement on the same panel.",
+    "Preferred pre-step: cell/tissue/block-QC (adipocyte glucose-uptake / MAPK QC confirming abolish) before new animal longevity runs; time_to_refute=6 weeks.",
+    "Competing inconclusive outcomes pre-registered: abolish-fail, FGF21-alone-null on intact arm, underpowered strata, or referee-assay mismatch vs Zhang/Kharitonenkov-class lock.",
+    "FTO status: UNKNOWN. IP class: klb-insufficiency. Kill cost tier: 2. Vault hold: no."
+  ],
+  "milestones": [
+    {
+      "title": "Cell/Tissue Block-QC (Adipocyte Glucose-Uptake / MAPK) Before Animal Longevity",
+      "description": "Preferred pre-step: conduct cell/tissue/block-QC confirming abolish of FGF21-class control benefit (adipocyte glucose-uptake / MAPK assays) before initiating new animal longevity runs.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Prefer cell/tissue/block-QC (adipocyte glucose-uptake / MAPK QC confirming abolish) before new animal longevity; in vivo healthspan panel remains primary kill path within 6w.",
+      "page": 1
+    },
+    {
+      "title": "In Vivo Early Healthspan/Metabolic Panel Readout (Primary Kill Path)",
+      "description": "Pre-registered rodent metabolic/healthspan panel (Zhang/Kharitonenkov-class) with FGF21 vs vehicle under Klb LOF or FGFR1-block; primary early healthspan/metabolic endpoint within the refute window of 6 weeks.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "time_to_refute=6w · ip_class=klb-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

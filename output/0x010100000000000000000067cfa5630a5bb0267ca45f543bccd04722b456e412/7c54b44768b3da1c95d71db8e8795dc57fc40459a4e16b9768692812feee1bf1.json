@@ -1,0 +1,105 @@
+{
+  "file_path": "/reports/2026-09-28/L30.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (L30) proposing an assumption-kill experiment to test whether β-hydroxybutyrate (BHB) retains longevity/healthspan/metabolic phenotype independent of HCAR2/GPR109A/PUMA-G signaling. The document frames a pre-registered rodent panel design with exogenous BHB vs. vehicle under Hcar2 genetic loss-of-function or HCAR2-matched blockade, with a ≥50% retention threshold for early healthspan/metabolic endpoints. No experiments have been run (execution_status=NOT_RUN); the document is a proposal/discussion grounded in four prior-art literature sources.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Status",
+      "content": "Mol Labs public report card L30 (PUBLIC_REPORT_ONLY). Status: NEGATIVE (status_labels). Execution status: NOT_RUN. FTO status: UNKNOWN. Risk class: research-discussion. Polarity: negative. Novelty tag: assumption-kill. IP class: hcar2-insufficiency. Kill cost tier: 2. Time to refute: 6 weeks. Vault hold: no. The document is a research discussion/proposal, not a completed experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim / Hypothesis",
+      "content": "On a pre-registered rodent metabolic/healthspan panel (Roberts/Edwards-class) with exogenous BHB vs. vehicle under Hcar2 (HCAR2/GPR109A/PUMA-G) genetic LOF or HCAR2-matched blockade that abolishes HCAR2-class metabolic/healthspan attribution vs. HCAR2-intact concurrent controls: under the abolish lock, same-panel early healthspan/metabolic improvement (BHB vs. vehicle under abolish) retains ≥50% of the BHB vs. vehicle early healthspan/metabolic improvement on HCAR2-intact concurrent controls on the same panel. Primary referee = pre-specified early healthspan/metabolic endpoint within the refute window (6 weeks). Full lifespan is only secondary, not a gate. This is an 'assumption-kill' of the hypothesis that BHB longevity/healthspan = mere HCAR2-necessary bridge."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "BHB longevity and metabolic-healthspan benefits are often framed as HCAR2/GPR109A-necessary because BHB is an endogenous HCAR2 ligand. Key prior art: (1) Taggart 2005 — BHB inhibits adipocyte lipolysis via PUMA-G (HCAR2/GPR109A); (2) Tunaru 2003 — PUMA-G/HM74 are receptors for nicotinic acid mediating antilipolytic effect; (3) Rahman 2014 — HCA2 REQUIRED for neuroprotective effect of BHB/KD in stroke (lost in Hca2-/-); (4) Roberts 2017 — KD extends murine longevity/healthspan with elevated circulating BHB but NO Hcar2 residual arm; (5) Edwards 2014 — D-BHB extends C. elegans lifespan ~20% via HDAC/DAF-16/SKN-1/SIR-2.1/AAK-2 but no mammalian HCAR2. A matched residual-positive BHB lifespan/healthspan H2H under mammalian Hcar2/HCAR2 abolish remains UNKNOWN/EMPTY."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "hcar2-insufficiency assumption-kill design: Roberts Cell Metab 2017 grounds adult-onset KD murine longevity/healthspan (circulating BHB elevated; protein acetylation/mTORC1 tissue-dependent) — phenotype founding; PMC HCAR2=0 GPR109A=0 PUMA-G=0 — NO Hcar2 residual arm; KD≠exogenous BHB alone. Edwards Aging 2014 grounds D-BHB C. elegans lifespan (~20% mean) via HDAC hda-2/hda-3, DAF-16/FOXO, SKN-1/Nrf, SIR-2.1, AAK-2/AMPK — phenotype founding; PMC HCAR2=0 (no mammalian HCAR2). Taggart JBC 2005 grounds D-BHB inhibits adipocyte lipolysis via PUMA-G (HCAR2/GPR109A) — lipolysis-class HCAR2 necessity ≠ residual-positive longevity. Tunaru Nat Med 2003 grounds PUMA-G/HM74 as nicotinic acid receptors mediating antilipolytic effect — HCAR2 genetic/tool foundation ≠ residual-positive longevity. Youm Nat Med 2015 — BHB blocks NLRP3 inflammasome independently of GPR109A/HCAR2 (Gpr109a-deficient BMDMs unaltered) — non-HCAR2 BHB path supporting possible residual for inflammasome phenotype; do not invent longevity residual. Preferred workflow: cell/tissue/block-QC (HCAR2-class antilipolytic/niacin-class or HCAR2-agonist response abolished) before new animal longevity runs."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary Table",
+      "content": "4 public prior art references cited:\n1. PMID 28877457 / DOI 10.1016/j.cmet.2017.08.005 / PMC5609489 — Roberts 2017 (Cell Metab): Ketogenic diet extends longevity and healthspan in adult mice (circulating BHB elevated); PMC HCAR2=0 GPR109A=0 PUMA-G=0 — no Hcar2 residual arm; KD≠exogenous BHB alone. Role: founding ketone/BHB-class murine longevity/healthspan phenotype.\n2. PMID 25127866 / DOI 10.18632/aging.100683 / PMC4169858 — Edwards 2014 (Aging): D-BHB extends C. elegans lifespan (~20% mean) via HDAC hda-2/hda-3, DAF-16, SKN-1, SIR-2.1, AAK-2; PMC HCAR2=0. Role: founding exogenous BHB longevity phenotype; non-HCAR2 bridges ≠ mammalian Hcar2 residual.\n3. PMID 15929991 / DOI 10.1074/jbc.C500213200 — Taggart 2005 (JBC): D-BHB inhibits adipocyte lipolysis via nicotinic acid receptor PUMA-G (HCAR2/GPR109A). Role: lipolysis-class HCAR2 necessity / BHB→HCAR2 signaling; ≠ residual-positive longevity.\n4. PMID 12563315 / DOI 10.1038/nm824 — Tunaru 2003 (Nat Med): PUMA-G and HM74 are receptors for nicotinic acid mediating anti-lipolytic effect. Role: HCAR2 genetic/tool foundation; ≠ residual-positive longevity.\nOut of public prior art (≤4): PMID 24845831 — Rahman 2014 (Nat Commun): HCA2 REQUIRED for BHB/KD stroke neuroprotection (lost in Hca2-/-); ≠ organismal longevity residual.\nAdditional caveat: PMID 25686106 — Youm 2015 (Nat Med): BHB blocks NLRP3 independently of GPR109A/HCAR2."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Status |\n|---|---|---|\n| Roberts_KD_murine_longevity_healthspan_phenotype | LITERATURE | FOUND — adult-onset KD extends murine longevity/healthspan; PMC HCAR2=0; no Hcar2 residual arm |\n| Edwards_D_BHB_worm_lifespan_HDAC_bridges | LITERATURE | FOUND — D-BHB extends C. elegans lifespan ~20% via HDAC/DAF-16/SKN-1/SIR-2.1/AAK-2; PMC HCAR2=0 |\n| Taggart_BHB_PUMA_G_lipolysis_HCAR2_necessity | LITERATURE | FOUND — D-BHB inhibits adipocyte lipolysis via PUMA-G (HCAR2/GPR109A) |\n| Tunaru_PUMA_G_HM74_HCAR2_receptor_tool | LITERATURE | FOUND — PUMA-G/HM74 are receptors for nicotinic acid mediating anti-lipolytic effect |\n| Rahman_HCA2_BHB_KD_neuroprotection_necessity_out_of_public_prior_art | LITERATURE | FOUND (out of public prior art ≤4) — HCA2 REQUIRED for BHB/KD stroke neuroprotection; ≠ organismal longevity residual |\n| Youm_NLRP3_HCAR2_independent_caveat | LITERATURE | FOUND — BHB blocks NLRP3 independently of GPR109A/HCAR2 in Gpr109a-deficient BMDMs |\n| matched_BHB_under_mammalian_Hcar2_HCAR2_LOF_or_block_residual_lifespan_healthspan_H2H | UNKNOWN | EMPTY — residual-positive BHB lifespan/healthspan H2H under mammalian Hcar2/HCAR2 abolish not found; do not invent |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_BHB_vs_vehicle | PREDICTION | NOT RUN — ≥50% retention of BHB vs vehicle early healthspan/metabolic improvement under abolish lock vs HCAR2-intact arm |\n| competing_abolish_fail_or_BHB_alone_null_or_underpowered_or_assay_mismatch_or_KD_confound_inconclusive | PREDICTION | NOT RUN — competing outcomes pre-registered as inconclusive (not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Method: propose-assay. Design: Pre-registered rodent metabolic/healthspan panel (Roberts/Edwards-class). Arms: exogenous BHB vs. vehicle × Hcar2/HCAR2 genetic LOF or HCAR2-matched blockade (abolish arm) vs. HCAR2-intact concurrent controls. Primary endpoint: early healthspan/metabolic improvement within 6-week refute window. Secondary endpoint: full lifespan (not a gate). Preferred workflow: (1) cell/tissue/block-QC confirming abolish of HCAR2-class control (antilipolytic/niacin-class or HCAR2-agonist response abolished) before new animal longevity runs; (2) in vivo healthspan panel as primary kill path within 6 weeks. Threshold: block-arm early healthspan/metabolic improvement (BHB vs. vehicle under abolish) retains ≥50% of BHB vs. vehicle early healthspan/metabolic improvement on HCAR2-intact concurrent controls. α/N pre-specified. No human dosing language. No invented residual effect sizes or KD/IC50."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered rodent metabolic/healthspan panel where Hcar2/HCAR2 LOF or HCAR2-matched blockade locks HCAR2-class control benefit abolished, same-panel early healthspan/metabolic improvement (BHB vs. vehicle under abolish) is <50% of the BHB vs. vehicle early healthspan/metabolic improvement on HCAR2-intact concurrent controls — so BHB longevity/healthspan DOES reduce to mere HCAR2-necessary bridge — when abolish-fail, BHB-alone-null, underpowered-strata, assay-mismatch, or KD-vs-exogenous-BHB-confound artifacts are ruled out. Inconclusive (not refute) if: abolish-fail / BHB-alone-null on HCAR2-intact arm / underpowered strata / referee-assay mismatch / KD-vs-exogenous-BHB confound."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Known State",
+      "content": "Soft-claims summary: Q_resid_life_h2h = EMPTY (residual-positive BHB lifespan/healthspan H2H under Hcar2 abolish UNKNOWN); Q_necess_healthspan longevity-class = EMPTY; lipolysis necessity = FOUND (Taggart); NP necessity = FOUND (Rahman, out of public prior art); PRIOR_ART PARTIAL (phenotype FOUND; HCAR2 lipolysis tools FOUND; residual longevity EMPTY; longevity necessity EMPTY). Soft-complete empty ≠ novelty / ≠ failure. L1–L29 ≠ proof of L30. Key distinctions: HCAR2 ≠ PHD2 (L29); HCAR2 ≠ TauT (L28); HCAR2 ≠ Klb/FGFR1 (L27); HCAR2 ≠ MT/melatonin (L26); HCAR2 ≠ SIRT1 (L25); HCAR2 ≠ SGLT2 (L24); HCAR2 ≠ GSK3 (L23); HCAR2 ≠ AMPK primary (L22); HCAR2 ≠ mitophagy (L21); HCAR2 ≠ bulk ATG (L20); BHB ≠ αKG; BHB ≠ metformin; KD ≠ exogenous BHB alone."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Competing Caveats / Actionable Limitations",
+      "content": "1. Do not treat L1–L29 as proving L30 — new parent area bhb-hcar2-insufficiency. 2. Roberts 2017 is KD murine phenotype with no HCAR2 arm ≠ residual (KD≠exogenous BHB); Edwards 2014 is worm phenotype ≠ mammalian residual; Taggart/Tunaru are lipolysis necessity/receptor tools ≠ residual-positive longevity; Rahman NP HCAR2 necessity OUT of public prior art (≠ organismal longevity residual); matched residual-positive BHB lifespan/healthspan H2H UNKNOWN/EMPTY. 3. Competing outcomes that render test inconclusive (not refute): abolish-fail (block not actually abolishing HCAR2-class control benefit), BHB-alone-null on HCAR2-intact arm, underpowered strata, referee-assay mismatch vs Roberts/Edwards-class lock, KD-vs-exogenous-BHB confound. 4. NOT NAD-after-senolysis (SERIES_FROZEN). 5. Do not invent residual effect sizes or KD/IC50."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — this is a proposed experiment/discussion card, not a completed study.",
+    "Central prediction: under Hcar2/HCAR2 LOF or HCAR2-matched blockade abolishing HCAR2-class control, BHB vs. vehicle early healthspan/metabolic improvement retains ≥50% of the improvement seen on HCAR2-intact concurrent controls (threshold for assumption-kill).",
+    "Residual-positive BHB lifespan/healthspan H2H under mammalian Hcar2/HCAR2 abolish is UNKNOWN/EMPTY — not invented.",
+    "Roberts 2017 (PMID 28877457): Adult-onset ketogenic diet extends murine longevity/healthspan with elevated circulating BHB; PMC HCAR2=0 — no Hcar2 residual arm; KD≠exogenous BHB alone.",
+    "Edwards 2014 (PMID 25127866): D-BHB extends C. elegans lifespan ~20% mean via HDAC hda-2/hda-3, DAF-16/FOXO, SKN-1/Nrf, SIR-2.1, AAK-2/AMPK; PMC HCAR2=0 — non-HCAR2 bridges ≠ mammalian Hcar2 residual.",
+    "Taggart 2005 (PMID 15929991): D-BHB inhibits adipocyte lipolysis via PUMA-G (HCAR2/GPR109A) — lipolysis-class HCAR2 necessity established; ≠ residual-positive longevity under Hcar2 abolish.",
+    "Tunaru 2003 (PMID 12563315): PUMA-G and HM74 are receptors for nicotinic acid mediating anti-lipolytic effect — HCAR2 genetic/tool foundation; ≠ residual-positive longevity.",
+    "Rahman 2014 (PMID 24845831, out of public prior art): HCA2 REQUIRED for neuroprotective effect of BHB/KD in stroke — effect LOST in Hca2-/- mice; ≠ organismal longevity residual.",
+    "Youm 2015 (PMID 25686106): BHB blocks NLRP3 inflammasome independently of GPR109A/HCAR2 in Gpr109a-deficient BMDMs — non-HCAR2 BHB path supporting possible residual for inflammasome phenotype; do not invent longevity residual.",
+    "Preferred workflow: cell/tissue/block-QC confirming HCAR2-class control abolish (antilipolytic/niacin-class or HCAR2-agonist response) before new animal longevity runs; primary kill path = in vivo healthspan panel within 6-week refute window.",
+    "Kill cost tier: 2; time to refute: 6 weeks; IP class: hcar2-insufficiency.",
+    "PRIOR_ART PARTIAL: phenotype FOUND; HCAR2 lipolysis tools FOUND; residual longevity EMPTY; longevity necessity EMPTY."
+  ],
+  "milestones": [
+    {
+      "title": "In vivo healthspan panel refute window",
+      "description": "Primary kill path: pre-registered rodent metabolic/healthspan panel (Roberts/Edwards-class) with exogenous BHB vs. vehicle under Hcar2/HCAR2 LOF or HCAR2-matched blockade, with early healthspan/metabolic endpoint scored within the refute window.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "primary kill path remains a matched rodent ± exogenous BHB ± Hcar2/HCAR2 LOF or HCAR2-matched inhibitor at abolish early healthspan/metabolic panel within the refute window",
+      "page": 1
+    },
+    {
+      "title": "Cell/tissue/block-QC before animal longevity",
+      "description": "Preferred pre-step: cell/tissue/block-QC confirming abolish of HCAR2-class control (antilipolytic/niacin-class or HCAR2-agonist response abolished) before initiating new animal longevity runs.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Prefer cell/tissue/block-QC (HCAR2-class control response abolish, e.g. antilipolytic/niacin-class or HCAR2-agonist QC) before new animal longevity; in vivo healthspan panel remains primary kill path within 6w.",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "file_path": "/reports/2026-09-27/N18.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs hypothesis card (N18) proposing a pre-registered acute human crossover study to test whether L-theanine's attention/alpha-EEG/stress-attenuation phenotype persists under a caffeine-matched adenosine condition that abolishes caffeine-class alertness gain — an \"adenosine-insufficiency assumption-kill.\" The document is a research discussion/proposal at TRL 1 (concept stage), with no experimental data generated; it maps existing literature baselines and identifies a specific gap (no published head-to-head abolish×residual design). Execution status is explicitly NOT_RUN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis Overview and Claim (N18)",
+      "content": "Hypothesis N18 proposes a pre-registered acute human crossover study on attention / alpha-EEG / PVT / stress endpoints. The core claim: under a caffeine abstinence or adenosine A2A agonist / caffeine-matched condition that abolishes caffeine-class alertness/PVT/attention gain, L-theanine retains residual attention / alpha-EEG / stress-attenuation phenotype ≥50% of L-theanine-alone (attention / PVT / alpha-band / stress-index units as pre-specified). This is framed as an 'adenosine-insufficiency assumption-kill.' The study has NOT been run (execution_status=NOT_RUN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Gap",
+      "content": "L-theanine is commonly studied alongside caffeine in factorial combo designs (cognition/mood, alpha-EEG, stress phenotypes), but no published study abolishes caffeine-class alertness with caffeine abstinence or an A2A agonist and then scores residual theanine phenotype on the same panel. N18 specifically asks whether residual L-theanine attention/alpha-EEG/stress phenotype survives a caffeine-matched adenosine condition that kills caffeine-class alertness gain. Explicitly distinguished from N15 (modafinil/DAT residual PVT), N16 (creatine plasma/PCr), and N17 (Hericium×NGF/TrkA)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Adenosine-insufficiency assumption-kill: L-theanine moves alpha-EEG/mental-state, attention/EEG, and acute stress-attenuation phenotypes. Factorial theanine×caffeine designs move alertness-class endpoints in alone/combo arms. No published head-to-head abolishes caffeine-class alertness/PVT/attention gain with caffeine abstinence or an adenosine A2A agonist and scores residual L-theanine attention/alpha-EEG/stress phenotype on the same panel. Preferred design: same-panel acute human crossover with caffeine-class positive control ± caffeine abstinence or named A2A agonist vs L-theanine ± same condition. Optional rodent attention overlay only after human abolish×residual locks. Competing caveats: abolish condition fails to kill caffeine-class gain / L-theanine-alone null / underpowered strata / assay-identity mismatch leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baselines",
+      "content": "Four literature anchors identified:\n1. PMID 18296328 (Nobre/Rao/Owen 2008, Asia Pac J Clin Nutr Suppl): L-theanine increases alpha-band activity associated with relaxed alertness/mental state — human alpha-EEG/mental-state phenotype; no caffeine-abstinence/A2A-agonist abolish arm; not residual-under-block H2H.\n2. PMID 18006208 / DOI 10.1016/j.biopsycho.2007.09.008 (Haskell 2008): L-theanine alone, caffeine alone, and combination on cognition/mood — factorial combo prior; caffeine/combo arms move alertness-class endpoints; not caffeine-class gain abolished by abstinence/A2A agonist with theanine residual on same panel.\n3. PMID 16930802 / DOI 10.1016/j.biopsycho.2006.06.006 (Kimura 2007): L-theanine reduces HR and salivary IgA responses to acute mental-arithmetic stress — stress-attenuation phenotype prior; no caffeine positive-control abolish arm / no A2A agonist / no residual H2H.\n4. PMID 18841456 / DOI 10.1007/s10548-008-0068-z (Gomez-Ramirez/Foxe 2009): L-theanine modulates alpha-band oscillatory activity during visuo-spatial attention — human alpha-EEG attention phenotype prior; no caffeine-matched adenosine abolish arm; not residual-under-block H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Nobre_L_theanine_alpha_EEG_mental_state | LITERATURE | Human EEG mental-state; oral L-theanine; alpha-band activity | L-theanine increases alpha-band activity (PMID 18296328); no caffeine-abstinence/A2A abolish arm |\n| Haskell_theanine_caffeine_factorial_cognition_mood | LITERATURE | Human RCT crossover; L-theanine alone/caffeine alone/combination/placebo; cognition and mood | Factorial theanine×caffeine; combo/caffeine arms move vigilance-class measures (PMID 18006208); not residual-under-block H2H |\n| Kimura_L_theanine_acute_stress_attenuation | LITERATURE | Human double-blind crossover; acute mental-arithmetic stressor; L-theanine vs placebo | L-theanine reduces HR and salivary IgA to acute stress (PMID 16930802); no caffeine abolish arm |\n| Gomez_Ramirez_L_theanine_alpha_visuospatial_attention | LITERATURE | Human EEG; visuo-spatial attention task; oral L-theanine | L-theanine modulates alpha-band oscillatory activity during visuo-spatial attention (PMID 18841456); no caffeine-matched adenosine abolish arm |\n| matched_residual_theanine_under_caffeine_matched_adenosine_H2H | UNKNOWN | Same acute human attention/alpha-EEG/PVT/stress panel with caffeine-class positive control ± caffeine abstinence or A2A agonist | Dedicated residual-theanine under caffeine abstinence/A2A agonist not found; soft-complete 0 true co-panel; UNKNOWN + missing_search |\n| residual_theanine_phenotype_ge_50pct_of_alone_when_caffeine_class_abolished | PREDICTION | Pre-registered acute human crossover; caffeine-class arm must show abolished alertness/PVT/attention gain; L-theanine arm scored for residual phenotype | Residual L-theanine phenotype ≥50% of L-theanine-alone while caffeine-class gain is abolished; α/N pre-specified; do not invent observed Δ or dosing |\n| competing_abolish_fail_or_theanine_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish condition fails, L-theanine-alone null, underpowered strata, or assay-identity mismatch | Abolish-fail-to-kill / L-theanine-alone-null / underpowered-strata / assay-mismatch as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Gap",
+      "content": "Baseline measured from literature: Human alpha-EEG/mental-state (PMID 18296328); theanine×caffeine factorial cognition/mood (PMID 18006208); stress-attenuation (PMID 16930802); alpha-EEG attention (PMID 18841456). Gap: Matched residual-theanine under caffeine abstinence/A2A agonist that abolishes caffeine-class alertness/PVT/attention gain = UNKNOWN. Soft-complete search: Q1 = reviews only; A2A-agonist ∩ theanine ∩ attention/EEG/PVT = 0; abstinence ∩ theanine ∩ attention/EEG/PVT = 0; adenosine-receptor block ∩ theanine = 0; Nobre/Haskell/Kimura ∩ A2A/residual = 0."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N1–N17 as proving N18 — N15 is residual modafinil PVT under DAT-matched block; N16 is plasma-Cr↑ without ³¹P PCr fails SD WM; N17 is Hericium residual under NGF/TrkA block; soft-complete empty ≠ demonstrated residual gain.\n2. Factorial theanine×caffeine ≠ residual-under-block H2H — Haskell/Kahathuduwa/Foxe/Kelly compare alone vs combo arms; they do not abolish caffeine-class gain with abstinence or A2A agonist and score residual theanine on the same panel.\n3. Alpha-EEG/stress phenotype priors lack adenosine-insufficiency arms; lock same-panel acute human crossover with caffeine-class positive control ± caffeine abstinence or A2A agonist vs L-theanine ± same condition; no dosing; NOT MB/MAOI; not N15/N16/N17 clones; do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions identified:\n1. Remove same-panel contrast of residual L-theanine attention/alpha-EEG/stress phenotype under caffeine abstinence or A2A agonist: Without the abolish×residual H2H on a Nobre/Haskell/Kimura/Gomez-Ramirez-class panel with caffeine-class positive control, separate alpha-EEG LITERATURE, factorial combo LITERATURE, and stress-attenuation LITERATURE cannot show adenosine-insufficiency.\n2. Remove verified abolish gate plus L-theanine-alone comparator: Without verified caffeine-class abolish and L-theanine-alone comparator under the same condition, residual theanine is just 'another nootropic under nonspecific adenosine challenge,' not an assumption-kill.\n3. Remove N15≠N18 + N16≠N18 + N17≠N18 + N1–N17≠proof + soft-complete-empty≠novelty + factorial≠residual-H2H + NOT-MB/MAOI + ip_class≠none discipline: Treating adjacent results as already deciding residual theanine under caffeine-matched adenosine block would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered acute human crossover attention/alpha-EEG/PVT/stress panel, under caffeine abstinence or an adenosine A2A agonist/caffeine-matched condition that abolishes caffeine-class alertness/PVT/attention gain, residual L-theanine attention/alpha-EEG/stress-attenuation phenotype falls below 50% of L-theanine-alone (attention/PVT/alpha-band/stress-index units as pre-specified) — so adenosine/caffeine-class sufficiency for theanine phenotype survives and adenosine-insufficiency fails — when abolish-gate, L-theanine-alone comparator, and power/assay artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP, Execution, and Project Metadata",
+      "content": "kill_cost_tier=1 · time_to_refute=4w · ip_class=adenosine-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. Related prior: N15 (modafinil-DAT residual ≠ theanine×adenosine); N16 (plasma-Cr/PCr ≠ theanine×adenosine); N17 (Hericium×NGF/TrkA ≠ theanine×adenosine); N2 holds sole ip_class=none; N1–N17 ≠ proof. Status labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion. Card SHA256: 7ec196e828a7e74c6af60c8417d0fe8024892b70409cef18c38814c5b9b9c504. Dual-publish status: PENDING."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis N18 is at TRL 1 (concept/proposal stage only); execution_status=NOT_RUN — no experimental data has been generated.",
+    "Core scientific gap: No published study has abolished caffeine-class alertness/PVT/attention gain (via caffeine abstinence or adenosine A2A agonist) and scored residual L-theanine attention/alpha-EEG/stress phenotype on the same panel.",
+    "Four literature baselines established: Nobre/Rao/Owen 2008 (alpha-EEG, PMID 18296328), Haskell 2008 (factorial cognition/mood, PMID 18006208), Kimura 2007 (stress-attenuation, PMID 16930802), Gomez-Ramirez/Foxe 2009 (alpha-EEG attention, PMID 18841456) — none include an adenosine abolish arm.",
+    "Soft-complete literature search found zero co-panel studies: A2A-agonist ∩ theanine ∩ attention/EEG/PVT = 0; abstinence ∩ theanine ∩ attention/EEG/PVT = 0; adenosine-receptor block ∩ theanine = 0.",
+    "Prediction threshold: residual L-theanine phenotype ≥50% of L-theanine-alone while caffeine-class alertness/PVT/attention gain is abolished under the same caffeine-matched adenosine condition.",
+    "Competing inconclusive outcomes pre-specified: abolish-fail-to-kill, L-theanine-alone null, underpowered strata, assay-identity mismatch (factorial combo ≠ residual-under-block).",
+    "IP class: adenosine-insufficiency; kill_cost_tier=1; time_to_refute=4 weeks; FTO status UNKNOWN.",
+    "Explicitly not a clone of N15 (modafinil/DAT), N16 (creatine/PCr), or N17 (Hericium/NGF/TrkA); N1–N17 do not prove N18.",
+    "Proposed method: propose-assay (acute human crossover with caffeine-class positive control ± caffeine abstinence or named A2A agonist vs L-theanine ± same condition; optional rodent overlay only after human lock).",
+    "Status label: NEGATIVE; polarity: negative — framed as an assumption-kill of adenosine/caffeine-class sufficiency for theanine phenotype."
+  ],
+  "milestones": []
+}

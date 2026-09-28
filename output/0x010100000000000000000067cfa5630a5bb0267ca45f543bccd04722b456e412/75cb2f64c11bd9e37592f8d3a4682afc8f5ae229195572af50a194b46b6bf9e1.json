@@ -1,0 +1,110 @@
+{
+  "file_path": "/reports/2026-09-27/N24.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This Mol Labs public report (N24) is a research discussion document proposing an assumption-kill experiment to test whether caffeine retains residual wake/attention/working memory (WM) phenotype (≥50% of caffeine-alone) under conditions that abolish A2A-class caffeine attribution (via Adora2a genetic LOF or A2A-antagonist match). The document synthesizes existing necessity literature (Huang, Lazarus, Ledent, Chen) which collectively argues AGAINST a residual-positive outcome, and identifies the matched residual-caffeine-under-A2A-abolish head-to-head experiment as UNKNOWN and not yet run. The project is at TRL 1–2: purely conceptual/literature-based with no experimental data generated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "On a pre-registered acute/subacute rodent wake/attention/WM panel (Huang wake / Higgins 5-CSRTT class) with a caffeine-alone arm, an Adora2a genetic LOF or A2A-antagonist-matched condition that abolishes A2A-class caffeine attribution, and a caffeine-under-abolish arm: under the same condition that abolishes A2A-class caffeine attribution, caffeine retains residual wake/attention/WM phenotype ≥50% of caffeine-alone (wake/attention/WM units as pre-specified; α/N pre-specified) — assumption-kill / a2a-insufficiency. This is a NEGATIVE polarity hypothesis (status_labels: NEGATIVE)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale and Context",
+      "content": "Caffeine wake/attention/WM phenotypes are commonly framed as A2A orthosteric antagonism. Key necessity literature (Huang A2A KO abolishes wake; Lazarus NAc-shell A2A required) constrains residual-positive outcomes under abolish conditions. No published head-to-head experiment scores residual-positive caffeine wake/attention/WM under an Adora2a LOF or A2A-antagonist match that abolishes A2A-class caffeine attribution on the same panel. The experiment is designed to test whether A2A orthosteric antagonism is the sole-necessary mechanism for caffeine's cognitive/arousal phenotype."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Huang 2005 (PMID 15965471)",
+      "content": "Huang et al. (Nat Neurosci 2005; PMID 15965471; DOI 10.1038/nn1491): Caffeine increased wakefulness in WT and A1 KO mice but NOT in A2A KO mice. This constitutes necessity AGAINST residual wake under Adora2a LOF. This is the primary prior art constraining the hypothesis toward a negative outcome."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Lazarus 2011 (PMID 21734299)",
+      "content": "Lazarus et al. (J Neurosci 2011; PMID 21734299; DOI 10.1523/JNEUROSCI.6730-10.2011; PMC3153505): Caffeine-induced arousal depends on A2A receptors in the NAc shell. Cre/lox A2A deletion and focal AAV-shRNA A2A knockdown in NAc shell vs core/basal ganglia used. Removal from NAc core or other A2A-positive basal-ganglia areas spared arousal. This constitutes site necessity AGAINST residual arousal under A2A abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Ledent 1997 (PMID 9262401)",
+      "content": "Ledent et al. (Nature 1997; PMID 9262401; DOI 10.1038/41771): Adora2a KO mouse tool; caffeine exploratory stimulation became a depressant of exploratory activity in A2aR−/− mice. This is a KO tool + exploratory invert AGAINST residual stimulation. Note: exploratory activity is not the same endpoint as wake/attention/WM."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Chen 2001 (PMID 11319241)",
+      "content": "Chen et al. (J Neurosci 2001; PMID 11319241; DOI 10.1523/JNEUROSCI.21-10-j0001.2001; PMC6762498): Caffeine and A2A antagonists/genetic A2A inactivation attenuate MPTP dopaminergic toxicity in a mouse PD model. This is a phenotype prior (neuroprotection) without a wake/attention/WM residual-under-abolish arm. Does not constitute residual-under-abolish evidence."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Proposed assay: Pre-registered acute/subacute rodent wake/attention/WM panel using named published Huang-class wake assay or Higgins-class 5-CSRTT panel. Arms: (1) caffeine-alone, (2) Adora2a genetic LOF or A2A-antagonist-matched abolish condition, (3) caffeine-under-abolish. Primary endpoint: residual caffeine wake/attention/WM phenotype ≥50% of caffeine-alone while A2A-class caffeine attribution is abolished. Optional: cell/SPR/A2A occupancy overlay only after abolish×residual locks. Execution status: NOT_RUN. Kill cost tier: 1. Time to refute: 4 weeks."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary",
+      "content": "| Variable | Kind | Status/Result |\n|---|---|---|\n| Huang_A2A_KO_abolishes_caffeine_wake_necessity | LITERATURE | Caffeine wake abolished in A2A KO — necessity AGAINST residual (PMID 15965471) |\n| Lazarus_NAc_shell_A2A_required_for_caffeine_arousal_necessity | LITERATURE | NAc-shell A2A required for caffeine arousal — site necessity AGAINST residual (PMID 21734299) |\n| Ledent_Adora2a_KO_caffeine_exploratory_invert | LITERATURE | Caffeine exploratory stimulation inverted in A2aR−/− — KO tool + invert AGAINST residual (PMID 9262401) |\n| Chen_caffeine_A2A_inactivation_PD_neuroprotection_phenotype | LITERATURE | PD neuroprotection phenotype prior; no wake/attention/WM residual-under-abolish arm (PMID 11319241) |\n| matched_residual_caffeine_under_A2A_abolish_H2H | UNKNOWN | Not found; Q_caff_adora2a_wm=0; Q_resid_antag_wm=0; soft-complete NON-MATCH residual-positive |\n| residual_caffeine_phenotype_ge_50pct_of_alone_when_A2A_class_abolished | PREDICTION | Not yet tested; experiment NOT_RUN |\n| competing_abolish_fail_or_caffeine_null_or_underpowered_inconclusive | PREDICTION | Pre-registered competing outcomes (inconclusive, not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered acute/subacute rodent wake/attention/WM panel (Huang wake / Higgins 5-CSRTT class), under Adora2a genetic LOF or A2A-antagonist-matched condition that abolishes A2A-class caffeine attribution, residual caffeine wake/attention/WM phenotype falls below 50% of caffeine-alone — so A2A-class sufficiency for the caffeine phenotype survives and a2a-insufficiency fails — when abolish-gate, caffeine-alone comparator, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Caveats",
+      "content": "1. N1–N23 do not prove N24; especially N18 (theanine under caffeine-matched adenosine ≠ caffeine under A2A abolish). 2. Necessity AGAINST residual wake is found (Huang, Lazarus) — PRIOR_ART PARTIAL, not auto-REJECT; do not invent residual-positive H2H from necessity literature. 3. Adjacent assays (Higgins A2A-antagonist mimic of caffeine 5-CSRTT = mechanism attribution, not residual under abolish; Halldner locomotor necessity = wrong primary endpoint). 4. Competing caveats: abolish condition fails to kill A2A-class caffeine attribution / caffeine-alone null / underpowered strata / assay-identity mismatch leave test inconclusive rather than refuted. 5. FTO status: UNKNOWN. IP class: a2a-insufficiency. NOT MB/MAOI. orthosteric_drift=false."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified: (1) Removing same-panel contrast of residual caffeine wake/attention/WM under Adora2a LOF or A2A-antagonist-matched abolish condition eliminates the ability to show a2a-insufficiency as residual-positive kill. (2) Removing verified abolish gate plus caffeine-alone comparator means residual caffeine is just 'another stimulant under nonspecific challenge,' not an assumption-kill. (3) Removing the N15–N23 ≠ N24 discipline risks treating adjacent residuals or necessity literature as already deciding residual caffeine under A2A abolish, which would invent an H2H result left UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "Experiment NOT_RUN: No published head-to-head data exists scoring residual-positive caffeine wake/attention/WM under Adora2a LOF or A2A-antagonist match that abolishes A2A-class caffeine attribution (Q_caff_adora2a_wm=0; Q_resid_antag_wm=0).",
+    "Huang 2005 (PMID 15965471): Caffeine wake abolished in A2A KO mice — necessity AGAINST residual wake under Adora2a LOF.",
+    "Lazarus 2011 (PMID 21734299): NAc-shell A2A receptors required for caffeine-induced arousal — site necessity AGAINST residual arousal under A2A abolish.",
+    "Ledent 1997 (PMID 9262401): Caffeine exploratory stimulation inverted to depressant in A2aR−/− mice — KO tool + invert AGAINST residual stimulation.",
+    "Chen 2001 (PMID 11319241): Caffeine/A2A inactivation attenuates MPTP dopaminergic toxicity — phenotype prior without wake/attention/WM residual-under-abolish arm.",
+    "PRIOR_ART PARTIAL: Necessity literature is AGAINST residual-positive outcome; no residual-positive H2H found; soft-complete empty ≠ novelty / ≠ residual-gain proof.",
+    "Proposed threshold: residual caffeine wake/attention/WM phenotype ≥50% of caffeine-alone while A2A-class caffeine attribution is abolished.",
+    "Status: NEGATIVE polarity hypothesis; assumption-kill / a2a-insufficiency; kill_cost_tier=1; time_to_refute=4 weeks; FTO_status=UNKNOWN.",
+    "Execution status: NOT_RUN — project is at TRL 1 (concept/literature synthesis only).",
+    "Competing inconclusive outcomes pre-registered: abolish-fail-to-kill, caffeine-alone-null, underpowered strata, assay-identity mismatch."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "Mol Labs N24 Public Report Published",
+      "description": "Public report for hypothesis N24 (caffeine residual wake/attention/WM under A2A abolish) published to Mol Labs public reports.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/N24.md",
+      "page": 1
+    },
+    {
+      "title": "N24 Experiment Execution (NOT_RUN)",
+      "description": "Pre-registered acute/subacute rodent wake/attention/WM panel (Huang-class wake or Higgins-class 5-CSRTT) with caffeine ± Adora2a LOF or A2A-antagonist-matched abolish condition. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=N15 ... kill_cost_tier=1 · time_to_refute=4w",
+      "page": 1
+    }
+  ]
+}

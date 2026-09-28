@@ -1,0 +1,76 @@
+{
+  "file_path": "/reports/2026-09-27/N19.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (N19) proposing a research design to test whether Rhodiola rosea SHR-5's fatigue/cognition phenotype is independent of HPA/cortisol-class mediation. The document is a pre-registered research discussion (not yet executed) that identifies a gap in existing literature: no published study has abolished cortisol-class fatigue attribution with hydrocortisone or a cortisol-matched challenge and then scored residual SHR-5 phenotype on the same panel. The project is at TRL 1–2, as it is a conceptual hypothesis with supporting literature priors but no experimental execution.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (N19)",
+      "content": "On a pre-registered acute/subacute human fatigue/attention/cognition panel with a cortisol-class positive attribution arm, a hydrocortisone or stressor cortisol-matched challenge that abolishes cortisol-class fatigue/cognition attribution, and a Rhodiola rosea SHR-5 arm: under the same condition that abolishes cortisol-class fatigue/cognition attribution, SHR-5 retains residual fatigue reduction/cognitive phenotype ≥50% of SHR-5-alone (fatigue/attention/cognition units as pre-specified; α/N pre-specified). Novelty tag: assumption-kill / hpa-insufficiency. Polarity: negative. Status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Rhodiola SHR-5 is framed via stress-fatigue/attention phenotypes with salivary cortisol as an outcome, but existing trial arms do not abolish cortisol-class fatigue attribution with hydrocortisone or a cortisol-matched challenge. N19 asks whether residual SHR-5 fatigue/cognition phenotype survives an HPA/cortisol-matched challenge that kills cortisol-class fatigue attribution — an 'hpa-insufficiency assumption-kill.' Distinct from N15 (modafinil PVT under DAT-matched block), N16 (creatine plasma/PCr), N17 (Hericium×NGF/TrkA), N18 (L-theanine×adenosine)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Standardised Rhodiola rosea SHR-5 moves human fatigue/attention/mental-work phenotypes under stress; some trials measure salivary cortisol as a biomarker/outcome. No published head-to-head abolishes cortisol-class fatigue/cognition attribution with hydrocortisone or a stressor cortisol-matched challenge and scores residual SHR-5 fatigue reduction/cognitive phenotype on the same panel. Preferred design: same-panel acute/subacute human fatigue/attention/cognition lock with cortisol-class positive attribution ± hydrocortisone or named stressor cortisol-matched abolish condition vs SHR-5 ± same condition. Optional cell/SPR overlay only if a named published HPA-challenge system locks residual first."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baseline",
+      "content": "Four key prior art references identified, all showing SHR-5 phenotype without HPA-abolish arm:\n1. PMID 19016404 (Olsson 2009, Planta Med): SHR-5 improves fatigue/QoL/attention and decreases saliva cortisol response to awakening in stress-related fatigue — cortisol is outcome, not matched abolish arm; not residual-under-block H2H.\n2. PMID 10839209 (Spasov 2000, Phytomedicine): SHR-5 vs placebo during examination stress — physical fitness/mental fatigue/neuro-motoric endpoints; no hydrocortisone abolish arm.\n3. PMID 11081987 (Darbinyan 2000, Phytomedicine): Repeated low-dose SHR-5 on Fatigue Index/mental performance in physicians during night duty; no cortisol-matched abolish arm.\n4. PMID 12725561 (Shevtsov 2003, Phytomedicine): Two SHR-5 doses vs placebo on antifatigue index/capacity for mental work; no hydrocortisone/HPA-matched abolish arm."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Olsson_SHR5_burnout_fatigue_attention_cortisol_outcome | LITERATURE | Human Phase III RCT parallel; stress-related fatigue/burnout; SHR-5 vs placebo; SF-36/Pines/MADRS/CCPT II/saliva cortisol awakening | SHR-5 improves fatigue/QoL/attention and decreases saliva cortisol (PMID 19016404) — cortisol is outcome, not matched abolish arm |\n| Spasov_SHR5_exam_stress_fatigue | LITERATURE | Human double-blind placebo-controlled pilot RCT; examination-period stress; SHR-5 vs placebo | SHR-5 improves physical fitness/mental fatigue/neuro-motoric endpoints (PMID 10839209) — no hydrocortisone abolish arm |\n| Darbinyan_SHR5_night_duty_fatigue_cognition | LITERATURE | Human double-blind crossover RCT; physicians night duty; repeated low-dose SHR-5 vs placebo; Fatigue Index/mental performance | SHR-5 improves Fatigue Index/cognitive tests during night duty (PMID 11081987) — no cortisol-matched abolish arm |\n| Shevtsov_SHR5_mental_work_antifatigue | LITERATURE | Human randomized double-blind placebo-controlled parallel-group + non-treatment control; single-dose SHR-5 two levels vs placebo; antifatigue index/mental-work capacity | SHR-5 shows antifatigue effect on mental work capacity (PMID 12725561) — no HPA-matched abolish arm |\n| matched_residual_SHR5_under_HPA_cortisol_matched_H2H | UNKNOWN | Same acute/subacute human fatigue/attention/cognition panel — cortisol-class positive attribution ± hydrocortisone or stressor cortisol-matched abolish condition + SHR-5 ± same condition | UNKNOWN — dedicated residual-SHR-5 under hydrocortisone/cortisol-matched challenge not found; soft-complete 0 true co-panel |\n| residual_SHR5_phenotype_ge_50pct_of_alone_when_cortisol_class_abolished | PREDICTION | Pre-registered acute/subacute human fatigue/attention/cognition panel; cortisol-class arm must show abolished attribution under hydrocortisone or stressor cortisol-matched challenge | Residual SHR-5 fatigue reduction/cognitive phenotype ≥50% of SHR-5-alone while cortisol-class attribution is abolished — PREDICTION, not yet tested |\n| competing_abolish_fail_or_SHR5_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish condition fails, SHR-5-alone null, underpowered strata, or assay-identity mismatch | Abolish-fail/SHR-5-null/underpowered-strata/assay-mismatch as pre-registered competing outcomes — inconclusive_if ≠ refute_if |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N1–N18 as proving N19 — N15 is residual modafinil PVT under DAT-matched block; N16 is plasma-Cr↑ without ³¹P PCr; N17 is Hericium residual under NGF/TrkA block; N18 is L-theanine residual under caffeine-matched adenosine; soft-complete empty ≠ demonstrated residual gain.\n2. Cortisol-as-outcome ≠ residual-under-block H2H — Olsson/Noreen measure salivary cortisol as biomarker/outcome; they do not abolish cortisol-class attribution with hydrocortisone or matched cortisol challenge and score residual SHR-5 on the same panel.\n3. Phenotype priors lack HPA-insufficiency arms; lock same-panel acute/subacute human fatigue/attention/cognition with cortisol-class positive attribution ± hydrocortisone or stressor cortisol-matched challenge vs SHR-5 ± same condition; no dosing; NOT MB/MAOI; not N15/N16/N17/N18 clones; do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered acute/subacute human fatigue/attention/cognition panel, under hydrocortisone or a stressor cortisol-matched challenge that abolishes cortisol-class fatigue/cognition attribution, residual SHR-5 fatigue reduction/cognitive phenotype falls below 50% of SHR-5-alone (fatigue/attention/cognition units as pre-specified) — so HPA/cortisol-class sufficiency for SHR-5 phenotype survives and hpa-insufficiency fails — when abolish-gate, SHR-5-alone comparator, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution & IP Status",
+      "content": "execution_status=NOT_RUN · fto_status=UNKNOWN · kill_cost_tier=2 · time_to_refute=6w · ip_class=hpa-insufficiency · vault_hold=no. Related prior: N15 (modafinil-DAT residual ≠ Rhodiola×HPA); N16 (plasma-Cr/PCr ≠ Rhodiola×HPA); N17 (Hericium×NGF/TrkA ≠ Rhodiola×HPA); N18 (theanine-adenosine ≠ Rhodiola×HPA); N2 holds sole ip_class=none; N1–N18 ≠ proof. STATUS_LABEL: NEGATIVE. Dual-publish: PENDING."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions identified:\n1. Remove same-panel contrast of residual SHR-5 under hydrocortisone/cortisol-matched challenge: Without the abolish×residual H2H on an Olsson/Spasov/Darbinyan/Shevtsov-class panel with cortisol-class positive attribution, separate fatigue LITERATURE and cortisol-as-outcome LITERATURE cannot show hpa-insufficiency.\n2. Remove verified abolish gate plus SHR-5-alone comparator: Without verified cortisol-class abolish and SHR-5-alone comparator under the same condition, residual SHR-5 is just 'another adaptogen under nonspecific HPA challenge,' not an assumption-kill.\n3. Remove N15≠N19 + N16≠N19 + N17≠N19 + N18≠N19 + soft-complete-empty≠novelty discipline: Treating adjacent results as already deciding residual SHR-5 under HPA/cortisol-matched block would invent an H2H result left UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "N19 is a pre-registered, NOT_RUN hypothesis card proposing an HPA/cortisol-class assumption-kill experiment for Rhodiola rosea SHR-5 — TRL 1 (conceptual stage).",
+    "Four published RCTs (Olsson 2009, Spasov 2000, Darbinyan 2000, Shevtsov 2003) establish SHR-5 fatigue/cognition phenotype priors but none include a hydrocortisone or cortisol-matched abolish arm — the key experimental gap.",
+    "The critical unknown (matched_residual_SHR5_under_HPA_cortisol_matched_H2H) is explicitly UNKNOWN with soft-complete 0 true co-panel found in literature search.",
+    "Prediction threshold: residual SHR-5 fatigue reduction/cognitive phenotype ≥50% of SHR-5-alone while cortisol-class attribution is abolished under the same HPA/cortisol-matched challenge.",
+    "Refutation criterion: residual SHR-5 phenotype <50% of SHR-5-alone under the abolish condition (with abolish-gate, SHR-5-alone comparator, and power/assay artifacts ruled out).",
+    "IP class: hpa-insufficiency; kill_cost_tier=2; estimated time_to_refute=6 weeks; vault_hold=no.",
+    "FTO status is UNKNOWN; execution has not started.",
+    "Competing caveats include: abolish condition fails to kill cortisol-class attribution, SHR-5-alone null, underpowered strata, or assay-identity mismatch — all pre-registered as inconclusive rather than refutation outcomes.",
+    "N15 (modafinil-DAT), N16 (creatine/PCr), N17 (Hericium/NGF/TrkA), N18 (L-theanine/adenosine) are explicitly distinguished as non-proof of N19.",
+    "Status label: NEGATIVE; polarity: negative; openlabs_topic: neuroscience-brain; tags: nootropics, brain-longevity."
+  ],
+  "milestones": []
+}

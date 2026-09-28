@@ -1,0 +1,85 @@
+{
+  "file_path": "/reports/2026-09-27/P16.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This Mol Labs public report (P16) is a research discussion card proposing an assay to test whether the LKKTETQ actin-binding heptapeptide (derived from thymosin β4) retains HUVEC migration/sprouting activity under a G-actin critical-concentration (Cc) / sequestration condition matched to full-length Tβ4 that abolishes a sequestration-dependent parent readout. The document synthesizes prior literature (Philp, Safer, Van Troys) to frame the gap and defines a pre-registered prediction: LKKTETQ ≥50% of equimolar intact Tβ4 on the same panel under Cc-match. The experiment has NOT been run; the key matched residual H2H result is explicitly UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "On a matched equimolar LKKTETQ vs intact Tβ4 panel with HUVEC migration/sprouting plus pyrene/Cc (or stoichiometric G-actin sequestration): under a G-actin sequestration/Cc condition matched to full-length Tβ4 that abolishes a sequestration-dependent readout for parent Tβ4, LKKTETQ still drives HUVEC migration/sprouting ≥50% of the equimolar intact Tβ4 arm on the same panel. This is framed as a 'sequestration-insufficiency assumption-kill.' Status: NEGATIVE (not yet run). Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Full-length Tβ4 is a stoichiometric G-actin sequesterer (Safer 1991). Van Troys (1996) showed that both the N-terminal helix (≈residues 1–16) and the LKKTET motif (17–22) are required for sequestering competence — the motif alone is not the whole sequestering machine. Philp (2003 FASEB) showed synthetic LKKTETQ ≈ parent Tβ4 on HUVEC migration and chick aortic-arch sprouting at ~50 nM, with soluble actin modulating Tβ4 adhesion/sprouting — but without an equimolar LKKTETQ vs Tβ4 pyrene/Cc co-assay on that panel. P16 proposes to score residual LKKTETQ HUVEC migration/sprouting under a G-actin sequestration/Cc condition matched to parent Tβ4 that first abolishes a sequestration-dependent parent readout, on the same equimolar panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "1. PMID 14500546 (Philp 2003 FASEB J): Synthetic LKKTETQ ≈ full-length Tβ4 HUVEC migration and chick aortic-arch sprouting at ~50 nM; motif-truncated peptides inactive; heptapeptide blocks adhesion to Tβ4; soluble actin 5–50 nM inhibits Tβ4 adhesion/sprouting. NOT equimolar Cc/pyrene residual H2H.\n2. PMID 12581423 (Philp 2003 Wound Repair Regen): LKKTETQ promotes aged/db/db dermal repair comparable to parent Tβ4. Phenotype ≠ sequestration proof; ≠ residual-under-Cc H2H.\n3. PMID 1999398 (Safer 1991): Full-length Tβ4 indistinguishable from platelet Fx as stoichiometric G-actin sequesterer inhibiting polymerization. Parent sequestration prior for Cc-matched condition; no LKKTETQ arm.\n4. PMID 8617195 / PMC449934 (Van Troys 1996): N-terminal helix (≈1–16) and LKKTET motif (17–22) both required for actin contact/sequestering competence; motif alone is not the whole sequestering machine. Two-site prior predicting sequestration insufficiency; no HUVEC migration/sprouting panel under Cc match."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Philp_LKKTETQ_HUVEC_migration_sprouting_match | LITERATURE | Synthetic LKKTETQ vs full-length Tβ4; HUVEC migration/adhesion; chick aortic-arch sprouting; soluble actin modulation | LKKTETQ ≈ Tβ4 at ~50 nM (PMID 14500546); NOT equimolar Cc/pyrene residual H2H |\n| Philp_LKKTETQ_dermal_repair_match | LITERATURE | LKKTETQ vs Tβ4 in aged/db/db full-thickness dermal wounds | LKKTETQ ≈ Tβ4 dermal repair (PMID 12581423); phenotype ≠ sequestration proof |\n| Safer_Tbeta4_stoichiometric_G_actin_sequestration | LITERATURE | Full-length Tβ4 vs platelet Fx; muscle G-actin; stoichiometric sequestration | Tβ4 indistinguishable from Fx as stoichiometric G-actin sequesterer (PMID 1999398); no LKKTETQ arm |\n| Van_Troys_two_site_actin_contact_sequestering_map | LITERATURE | Chemically synthesized Tβ4 variants; actin-binding/sequestering biochemistry | N-helix + LKKTET motif both required; motif alone insufficient (PMID 8617195); no HUVEC residual-under-Cc arm |\n| matched_residual_LKKTETQ_under_Cc_sequestration_H2H | UNKNOWN | Equimolar LKKTETQ vs intact Tβ4 HUVEC migration/sprouting + pyrene/Cc; parent sequestration-dependent readout abolished first | UNKNOWN — dedicated residual H2H not found in literature |\n| residual_LKKTETQ_migration_ge50pct_of_equimolar_Tbeta4_under_Cc_match | PREDICTION | Pre-registered matched equimolar panel; Cc condition abolishes parent readout first | LKKTETQ HUVEC migration/sprouting ≥50% of equimolar Tβ4 arm under Cc match — PREDICTION only |\n| competing_incomplete_Cc_gate_or_parent_readout_not_abolished_inconclusive | PREDICTION | Same design; competing outcomes | Incomplete Cc match / parent readout not abolished / no residual / pyrene-QC fail = inconclusive (not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured vs Unknown",
+      "content": "KNOWN (literature): Philp LKKTETQ ≈ Tβ4 HUVEC migration/sprouting (PMID 14500546); Philp dermal repair match (PMID 12581423); Safer full-Tβ4 stoichiometric sequestration (PMID 1999398); Van Troys two-site sequestering map (PMID 8617195).\nUNKNOWN: Matched residual-LKKTETQ under parent-matched Cc/sequestration abolishing parent sequestration readout on same HUVEC panel. Soft-complete review: LKKTETQ∩(Cc|pyrene|sequester*)∩Tβ4 = NON-MATCH; LKKTETQ∩HUVEC∩(migration|sprouting)∩(actin|sequester*) = 0; Safer∩LKKTETQ = 0; Van Troys∩HUVEC = 0; pyrene∩LKKTETQ = 0.\nPREDICTION: Residual LKKTETQ ≥50% of equimolar Tβ4 arm under Cc match."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design and Actionable Limitations",
+      "content": "Proposed method: propose-assay. Preferred readouts: cell migration/sprouting + pyrene/Cc before animal/human. Optional N-helix+motif variant control. Pre-specified α/N required.\nKey limitations:\n1. P1–P15 do not prove P16 — P3 left Philp migration match vs Safer/Van Troys sequestration unbridged (no paired Cc co-assay); soft-complete empty ≠ demonstrated residual phenotype.\n2. Skip-list distinctness: do not collapse to OpenLabs 8e5ba06c/7db12286 BPC orthosteric dialect or P15 residual-FBXO22; NOT FOXO4×LOF (SERIES_FROZEN).\n3. Philp soluble-actin block ≠ Cc-matched residual panel; Safer/Van Troys lack HUVEC residual-under-Cc arm; incomplete Cc match / parent sequestration readout not abolished / incomplete pyrene QC leave the test inconclusive rather than refuted.\nRefute condition: LKKTETQ migration/sprouting <50% of equimolar Tβ4 arm under Cc-matched condition where parent sequestration-dependent readout is abolished and pyrene/stoichiometry QC passes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4w · ip_class=sequestration-insufficiency · vault_hold=no\nexecution_status=NOT_RUN · fto_status=UNKNOWN\nRelated prior: P3 (unbridged Philp vs Safer/Van Troys ≠ residual-under-Cc; P3 ≠ P16); P15 (BPC residual-FBXO22 ≠ LKKTETQ under G-actin match; P15 ≠ P16); P1–P15 ≠ proof.\nStatus labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion."
+    }
+  ],
+  "key_findings": [
+    "The matched residual LKKTETQ under parent-matched Cc/sequestration H2H experiment has NOT been run (execution_status=NOT_RUN); the key result is explicitly UNKNOWN.",
+    "Philp (PMID 14500546) established that synthetic LKKTETQ ≈ full-length Tβ4 on HUVEC migration and chick aortic-arch sprouting at ~50 nM, but without a paired equimolar Cc/pyrene co-assay.",
+    "Van Troys (PMID 8617195) showed both the N-terminal helix (≈1–16) and LKKTET motif (17–22) are required for sequestering competence — motif alone is not the whole sequestering machine — predicting sequestration insufficiency of LKKTETQ.",
+    "Safer (PMID 1999398) established full-length Tβ4 as a stoichiometric G-actin sequesterer indistinguishable from platelet Fx, but with no LKKTETQ arm.",
+    "Philp (PMID 12581423) showed LKKTETQ promotes aged/db/db dermal repair comparable to parent Tβ4, but this is a phenotypic match, not a sequestration proof.",
+    "The pre-registered prediction is: under G-actin Cc matched to Tβ4 that abolishes parent sequestration readout, LKKTETQ HUVEC migration/sprouting ≥50% of equimolar intact Tβ4 arm (sequestration-insufficiency assumption-kill).",
+    "Soft-complete literature review found zero hits for LKKTETQ∩HUVEC∩(migration|sprouting)∩(actin|sequester*), Safer∩LKKTETQ, Van Troys∩HUVEC, and pyrene∩LKKTETQ.",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost); vault hold: no.",
+    "The document explicitly excludes FOXO4×LOF (SERIES_FROZEN), BPC-157/FBXO22/VEGFR2 orthosteric dialect, and P15 residual-FBXO22 framing as out-of-scope."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "Mol Labs P16 Public Report Published",
+      "description": "Publication of the P16 research discussion card proposing the LKKTETQ vs Tβ4 matched residual H2H assay as a Mol Labs public report.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/P16.md",
+      "page": 1
+    },
+    {
+      "title": "Matched Residual LKKTETQ H2H Assay Execution",
+      "description": "Run the pre-registered matched equimolar LKKTETQ vs intact Tβ4 HUVEC migration/sprouting panel under G-actin Cc/sequestration condition that abolishes parent sequestration-dependent readout, with pyrene/Cc QC. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=sequestration-insufficiency · vault_hold=no\nexecution_status=NOT_RUN",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "file_path": "/reports/2026-09-27/P18.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (P18) proposing an assay to test whether SS-31 (elamipretide) retains cardiolipin-pathway mitochondrial phenotype under a matched ROS-scavenger condition that abolishes antioxidant-class OCR rescue. The document is a hypothesis/discussion card at TRL 1–2, framing a pre-registered experimental design to distinguish cardiolipin-specific from generic antioxidant mechanisms of SS-31. No experimental data have been generated; all supporting evidence is from published literature (Birk, Chatfield, Chavez), and the key matched residual H2H experiment is explicitly UNKNOWN/NOT_RUN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "P18 claims: On a matched insult ± SS-31 ± MitoTEMPO (or other mito ROS-scavenger) cell/mito panel with scavenger-alone OCR-abolish QC plus OCR / ETC-coupling / supercomplex readouts, under a matched ROS-scavenger that abolishes antioxidant-class OCR rescue, residual SS-31 cardiolipin-path OCR (or ETC-coupling / supercomplex) remains ≥50% of the SS-31 without-matched-scavenger arm on the same panel. This is framed as an 'assumption-kill' / cardiolipin-insufficiency test. The named comparator is the SS-31 without-matched-scavenger arm under matched insult."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Birk/Szeto frame SS-31 as a cardiolipin binder that protects cytochrome c electron-carrier function and re-energizes ischemic mitochondria. Chatfield shows elamipretide improves OCR/supercomplex in failing human heart explants. Chavez maps an SS-31–cardiolipin protein interactome. P18 asks whether residual cardiolipin-path mito phenotype under a matched ROS-scavenger that abolishes antioxidant-class OCR rescue still requires the cardiolipin path rather than generic antioxidant attribution — framed as a cardiolipin-insufficiency assumption-kill. Distinct from P15 (BPC residual-FBXO22), P16 (LKKTETQ-Cc), and P17 (MOTS-c/folate)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Cardiolipin-insufficiency assumption-kill: Birk shows SS-31 binds cardiolipin on IMM, inhibits cyt-c peroxidase, and re-energizes ischemic mitochondria / promotes ETC via cardiolipin–cyt c (LITERATURE). Chatfield improves failing-heart OCR/supercomplex (LITERATURE). Chavez interactome supports cardiolipin binders (LITERATURE). None of these score residual SS-31 under a ROS-scavenger condition that abolishes antioxidant-class OCR rescue on the same panel. Marketed antioxidant framing and adjacent MitoQ-vs-SS-31 comparative / MitoTEMPO tool co-use are the assumption under kill — parallel arms ≠ matched residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "1. PMID 23813215 (Birk 2013 JASN): SS-31 binds cardiolipin on IMM; SS-31/cardiolipin inhibits cytochrome c peroxidase; re-energizes ischemic mitochondria / accelerates ATP recovery — cardiolipin-path / ischemic re-energization prior; NOT residual-under-scavenger H2H.\n2. PMID 24134698 (Birk 2014 Br J Pharmacol): SS-31 selectively binds cardiolipin; protects electron-carrier function of cyt c; promotes ETC / optimizes mitochondrial ATP synthesis via cardiolipin–cyt c — ETC-coupling prior; NOT residual-under-scavenger H2H.\n3. PMID 31061916 (Chatfield 2019 JACC Basic Transl Sci): elamipretide improves mitochondrial oxygen flux, CI/CIV activities, and supercomplex-associated CIV in freshly explanted failing human heart tissue — failing-heart OCR/supercomplex prior; NOT residual under matched MitoTEMPO/ROS-scavenger that abolishes antioxidant-class OCR.\n4. PMID 32554501 (Chavez 2020 PNAS): SS-31 protein interaction landscape via XL-MS; interactors are known cardiolipin binders (OXPHOS / 2-oxoglutarate metabolism) — interactome prior supporting cardiolipin-path; NOT residual-under-scavenger H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Birk_SS31_cardiolipin_cytc_ischemic_reenergization | LITERATURE | Ischemic kidney/mito; cardiolipin binding; cyt-c peroxidase; ATP recovery (Birk 2013 JASN) | SS-31 binds cardiolipin on IMM; inhibits cyt-c peroxidase; re-energizes ischemic mito — LITERATURE (PMID 23813215); NOT residual-under-scavenger H2H |\n| Birk_SS31_cardiolipin_ETC_coupling | LITERATURE | Cardiolipin liposomes/bicelles; cyt c electron carrier vs peroxidase; ETC/ATP synthesis (Birk 2014 Br J Pharmacol) | SS-31 selectively binds cardiolipin; protects cyt c electron-carrier function; promotes ETC — LITERATURE (PMID 24134698); NOT residual-under-scavenger H2H |\n| Chatfield_elamipretide_failing_heart_OCR_supercomplex | LITERATURE | Freshly explanted failing/nonfailing human ventricular tissue ex vivo; mito oxygen flux; CI/CIV; supercomplex in-gel activity (Chatfield 2019 JACC BTS) | elamipretide improves mito oxygen flux, CI/CIV, supercomplex-associated CIV in failing human heart — LITERATURE (PMID 31061916); NOT residual-under-scavenger H2H |\n| Chavez_SS31_cardiolipin_protein_interactome | LITERATURE | Chemical cross-linking MS; mito SS-31 protein interactors; cardiolipin binders/OXPHOS (Chavez 2020 PNAS) | SS-31 interactors are known cardiolipin binders (OXPHOS / 2-oxoglutarate metabolism) — LITERATURE (PMID 32554501); NOT residual-under-scavenger H2H |\n| matched_residual_SS31_under_ROS_scavenger_H2H | UNKNOWN | Same insult ± SS-31 ± MitoTEMPO cell/mito panel; scavenger-alone OCR-abolish QC; OCR/ETC-coupling/supercomplex; optional cyt-c peroxidase/cardiolipin competition | NOT FOUND — soft-complete Q1 NON-MATCH / matched residual Q2=0 — UNKNOWN + missing_search |\n| residual_SS31_OCR_ge50pct_of_SS31_without_matched_scavenger | PREDICTION | Pre-registered matched insult ± SS-31 ± MitoTEMPO panel; scavenger must abolish scavenger-alone antioxidant-class OCR rescue first; score residual SS-31 OCR/ETC-coupling/supercomplex vs SS-31 without-matched-scavenger arm | Residual SS-31 cardiolipin-path OCR ≥50% of SS-31 without-matched-scavenger arm — PREDICTION; α/N pre-specified; do not invent observed %/KD/dosing |\n| competing_incomplete_scavenger_match_or_OCR_not_abolished_inconclusive | PREDICTION | Same design; competing outcomes if apparent residual is only incomplete scavenger match, scavenger-alone OCR not abolished, absent residual, or ROS-match QC failure | Inconclusive outcomes pre-registered as competing (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method Design",
+      "content": "Method: propose-assay. Design: matched insult ± SS-31 ± MitoTEMPO (or other mito ROS-scavenger) cell/mito panel. Required QC: scavenger-alone OCR-abolish gate must be passed first. Readouts: OCR, ETC-coupling, supercomplex (optional: cyt-c peroxidase, cardiolipin competition). Named comparator: SS-31 without-matched-scavenger arm under matched insult. Threshold: residual SS-31 cardiolipin-path OCR ≥50% of SS-31 without-matched-scavenger arm. Preference: cell/mito before explant/animal/human. No dosing values specified. α/N to be pre-specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P1–P17 as proving P18 — Birk/Chatfield/Chavez cardiolipin/OCR/interactome priors are not a residual-under-matched-ROS-scavenger H2H; soft-complete empty ≠ demonstrated residual phenotype.\n2. Skip-list / series distinctness (critical) — do not freeze or collapse to OpenLabs 8e5ba06c / 7db12286 BPC orthosteric dialect, P15 residual-FBXO22, P16 LKKTETQ-Cc, or P17 MOTS-c/folate; orthosteric_drift=false; REJECT if claim drifts to BPC/FBXO22/VEGFR2 or LKKTETQ/Tβ4 sequestration or MOTS-c/folate; NOT FOXO4×LOF (SERIES_FROZEN).\n3. Birk/Chatfield/Chavez lack matched ROS-scavenger arm that abolishes antioxidant-class OCR; incomplete scavenger match / scavenger-alone OCR not abolished / no residual to score / ROS-match QC failure leave the test inconclusive rather than refuted; no dosing; review 25188726 ≠ experimental anchor."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched insult ± SS-31 ± MitoTEMPO (or other mito ROS-scavenger) cell/mito panel where matched scavenger abolishes scavenger-alone antioxidant-class OCR rescue, residual SS-31 cardiolipin-path OCR (or ETC-coupling / supercomplex) is <50% of the SS-31 without-matched-scavenger arm under that same condition — so antioxidant-class framing survives and cardiolipin-insufficiency residual fails — when incomplete scavenger match, scavenger-alone OCR-not-abolished, absent residual, or ROS-match QC artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove matched insult ± SS-31 ± MitoTEMPO cell/mito panel under scavenger-abolish condition: Without the scavenger-match × residual H2H, separate Birk/Chatfield/Chavez LITERATURE cannot show cardiolipin-insufficiency of residual SS-31 mito phenotype.\n2. Remove scavenger-alone OCR-abolish gate plus SS-31 without-matched-scavenger arm as named residual comparator: Without the OCR-abolish gate and named comparator, the card collapses into Birk/Chatfield phenotype prior or generic antioxidant framing.\n3. Remove P15≠P18 + P16≠P18 + P17≠P18 + P1–P17≠proof + soft-complete-empty≠novelty + skip-list-distinct + NOT-FOXO4×LOF discipline: Treating prior series as already deciding residual-under-scavenger would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN · fto_status=UNKNOWN · kill_cost_tier=1 · time_to_refute=4w · ip_class=cardiolipin-insufficiency · vault_hold=no. STATUS_LABEL: NEGATIVE. polarity: negative. risk_class: research-discussion. novelty_tag: assumption-kill. openlabs_target: discussion. openlabs_topic: chemistry-materials. tags: peptides."
+    }
+  ],
+  "key_findings": [
+    "P18 is a hypothesis/discussion card at TRL 1 — no experiments have been run (execution_status=NOT_RUN).",
+    "The core scientific question is whether SS-31 (elamipretide) retains cardiolipin-pathway mitochondrial phenotype (OCR, ETC-coupling, supercomplex) under a matched ROS-scavenger (e.g., MitoTEMPO) that abolishes antioxidant-class OCR rescue.",
+    "All supporting evidence is from published literature: Birk 2013 (PMID 23813215) — SS-31 binds cardiolipin on IMM, inhibits cyt-c peroxidase, re-energizes ischemic mitochondria; Birk 2014 (PMID 24134698) — SS-31 protects cyt c electron-carrier function, promotes ETC; Chatfield 2019 (PMID 31061916) — elamipretide improves OCR/supercomplex in failing human heart explants; Chavez 2020 (PMID 32554501) — SS-31 interactors are known cardiolipin binders (OXPHOS/2-oxoglutarate metabolism).",
+    "The key matched residual H2H experiment (SS-31 ± MitoTEMPO under scavenger-abolish QC) is explicitly UNKNOWN — not found in literature search (soft-complete Q1 NON-MATCH / matched residual Q2=0).",
+    "Proposed threshold: residual SS-31 cardiolipin-path OCR ≥50% of SS-31 without-matched-scavenger arm under matched insult.",
+    "Refutation criterion: residual SS-31 OCR <50% of SS-31 without-matched-scavenger arm when QC artifacts are ruled out.",
+    "Competing inconclusive outcomes pre-registered: incomplete scavenger match, scavenger-alone OCR not abolished, absent residual to score, or ROS-match QC failure.",
+    "FTO status is UNKNOWN; IP class is cardiolipin-insufficiency; kill cost tier = 1; estimated time to refute = 4 weeks.",
+    "Document is labeled NEGATIVE polarity (assumption-kill) and is a research discussion, not a completed experiment.",
+    "Series distinctness enforced: P18 is explicitly NOT P15 (BPC/FBXO22), NOT P16 (LKKTETQ-Cc), NOT P17 (MOTS-c/folate), NOT FOXO4×LOF."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "Mol Labs P18 Public Report Published",
+      "description": "Publication of the P18 hypothesis/discussion card as a Mol Labs public report on the dual-publish platform.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/P18.md",
+      "page": 1
+    },
+    {
+      "title": "Matched Residual SS-31 H2H Experiment (NOT_RUN)",
+      "description": "Pre-registered matched insult ± SS-31 ± MitoTEMPO (or other mito ROS-scavenger) cell/mito panel with scavenger-alone OCR-abolish QC and OCR/ETC-coupling/supercomplex readouts. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=Birk/Szeto cardiolipin–cyt c / ischemic re-energization; ... kill_cost_tier=1 · time_to_refute=4w",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "file_path": "/reports/2026-09-28/L28.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card L28) proposing a hypothesis-testing experiment to determine whether taurine's longevity/healthspan benefits are solely dependent on the TauT/Slc6a6 transporter, or whether residual benefits persist under TauT loss-of-function or pharmacological block. The document is a research discussion/proposal at TRL 1–2, framing a pre-registered rodent metabolic/healthspan panel as the primary kill path, with all key experimental outcomes currently UNKNOWN or NOT_RUN. It synthesizes existing literature (Singh 2023, Heller-Stilb 2002, Ito 2008, Tsuboyama 2006, Ansar 2020, GES 2025) to establish that no residual-positive taurine lifespan/healthspan H2H under TauT abolish has been demonstrated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report for hypothesis card L28 (taut-insufficiency assumption-kill). The central claim: on a pre-registered rodent metabolic/healthspan panel (Singh/Tsuboyama-class) with exogenous taurine vs vehicle under Slc6a6 (TauT) genetic LOF or TauT-matched transport block (e.g. GES-class) that abolishes TauT-class taurine longevity/healthspan attribution, taurine still retains ≥50% of the early healthspan/metabolic improvement seen on TauT-intact concurrent controls. This is framed as an 'assumption-kill' / 'taut-insufficiency' test. Execution status: NOT_RUN. FTO status: UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Background and Rationale",
+      "content": "Taurine longevity and metabolic-healthspan benefits are often attributed to TauT/Slc6a6 necessity. Singh (PMID 37289866) grounds WT taurine-supplementation lifespan/healthspan in mice and monkeys. Tsuboyama-Kasaoka (PMID 16627576) grounds metabolic regulation. Heller-Stilb (PMID 11772953) and Ito (PMID 18407290) establish TauT KO necessity tools for retina and heart respectively. However, no matched residual-positive taurine lifespan/healthspan H2H under TauT LOF or TauT-matched block abolish has been demonstrated. The document asks whether taurine retains longevity/healthspan/metabolic phenotype once TauT-class attribution is abolished."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four primary literature references are cited as public prior art (≤4):\n1. Singh et al. (PMID 37289866, Science 2023): Circulating taurine declines with aging; taurine supplementation increased healthspan/lifespan in mice and healthspan in monkeys. Slc6a6-/- used as congenital deficiency model treated with D+Q/rapa — NOT an exogenous taurine residual-under-TauT-KO longevity arm. WT TauT context only.\n2. Heller-Stilb et al. (PMID 11772953, FASEB J 2002): taut gene disruption → retinal degeneration, depleted tissue taurine. TauT KO retinal necessity tool; ≠ residual-positive longevity.\n3. Ito et al. (PMID 18407290, J Mol Cell Cardiol 2008): TauTKO → cardiomyopathy with cardiac atrophy, depleted myocardial taurine. TauT KO cardiac necessity tool; ≠ residual-positive longevity.\n4. Tsuboyama-Kasaoka et al. (PMID 16627576, Endocrinology 2006): Taurine deficiency promotes obesity; dietary taurine prevents HFD obesity (increased REE). Metabolic phenotype founding in WT context; no TauT-abolish residual arm.\n\nTwo additional references are noted as OUTSIDE public prior art (≤4):\n- Ansar et al. (PMID 31903486, Hum Mol Genet 2020): Human SLC6A6 Gly399Val hypomorph (~15% transport); oral taurine corrected cardiomyopathy and arrested retinal degeneration at 24 months. Tissue residual under partial TauT deficiency; ≠ full abolish; ≠ organismal longevity residual H2H.\n- GES study (PMID 40478558, IOVS 2025): GES (pharmacological TauT block) + topical taurine reversed corneal wound healing delay and LSPC senescence. Tissue/corneal residual under TauT-matched block; ≠ organismal longevity residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Singh_taurine_supp_lifespan_phenotype_WT_TauT | LITERATURE | Mice/monkeys; circulating taurine; taurine supplementation; lifespan/healthspan; Slc6a6-/- + D+Q/rapa | Phenotype founding in WT TauT; WT TauT ≠ residual H2H (PMID 37289866) |\n| HellerStilb_taut_KO_retinal_necessity | LITERATURE | taut gene-disrupted mice; retinal degeneration; tissue taurine | TauT KO retinal necessity tool; ≠ residual-positive longevity (PMID 11772953) |\n| Ito_TauTKO_cardiac_necessity | LITERATURE | TauTKO mice; cardiomyopathy; cardiac atrophy; myocardial taurine | TauT KO cardiac necessity tool; ≠ residual-positive longevity (PMID 18407290) |\n| Tsuboyama_taurine_metabolic_phenotype | LITERATURE | Taurine deficiency; dietary taurine; HFD obesity; REE | Metabolic phenotype founding; WT context; no TauT-abolish residual arm (PMID 16627576) |\n| Ansar_SLC6A6_hypomorph_tissue_residual | LITERATURE (OUT of public prior_art ≤4) | Human SLC6A6 Gly399Val hypomorph (~15% transport); oral taurine; cardiomyopathy; retinal degeneration | Tissue residual under partial TauT deficiency; ≠ organismal longevity residual H2H (PMID 31903486) |\n| GES_TauT_block_corneal_residual | LITERATURE (OUT of public prior_art ≤4) | GES pharmacological TauT block; topical taurine; corneal wound healing; LSPC senescence | Corneal/LSPC residual under TauT-matched block; ≠ organismal longevity residual H2H (PMID 40478558) |\n| matched_taurine_under_TauT_LOF_or_block_residual_lifespan_healthspan_H2H | UNKNOWN | Rodent ± exogenous taurine ± TauT LOF or TauT-matched transport block; same-panel lifespan/healthspan residual | UNKNOWN — residual-positive organismal longevity H2H not found; do not invent residual |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_taurine_vs_vehicle | PREDICTION | Pre-registered rodent metabolic/healthspan panel; TauT LOF or TauT-matched block; early healthspan/metabolic Δ scored against TauT-intact arm | ≥50% retention of taurine vs vehicle early healthspan/metabolic improvement on TauT-intact concurrent controls — PREDICTION gate |\n| competing_abolish_fail_or_taurine_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Abolish-fail / taurine-alone-null / underpowered-strata / assay-mismatch = inconclusive (not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design (Assay Proposal)",
+      "content": "Method: propose-assay. Primary kill path: pre-registered rodent metabolic/healthspan panel (Singh/Tsuboyama-class) with taurine vs vehicle under TauT LOF (Slc6a6-/-) or TauT-matched transport block (e.g. GES-class), with TauT-intact concurrent controls on the same panel. Primary endpoint: early healthspan/metabolic improvement within a 6-week refute window. Full lifespan is secondary only (not a gate). Preferred sequence: cell/tissue/block-QC (confirming TauT transport / tissue-taurine uptake abolish) before new animal longevity runs. Threshold: block-arm early healthspan/metabolic improvement (taurine vs vehicle under abolish) retains ≥50% of the taurine vs vehicle early healthspan/metabolic improvement on TauT-intact concurrent controls. α/N pre-specified. No human dosing. No invented residual effect sizes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Criteria and Competing Outcomes",
+      "content": "Refute if: On the pre-registered rodent metabolic/healthspan panel where TauT LOF or TauT-matched transport block locks TauT-class control benefit abolished, same-panel early healthspan/metabolic improvement (taurine vs vehicle under abolish) is <50% of the taurine vs vehicle early healthspan/metabolic improvement on TauT-intact concurrent controls — meaning taurine longevity/healthspan reduces to a mere TauT-necessary bridge and the taut-insufficiency assumption-kill fails — when abolish-fail, taurine-alone-null, underpowered-strata, or assay-mismatch artifacts are ruled out.\n\nInconclusive (not refute) if: abolish-fail (block not actually abolishing TauT-class control benefit), taurine-alone-null on TauT-intact arm, underpowered strata, or referee-assay mismatch vs Singh/Tsuboyama-class lock."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Critical Design Elements)",
+      "content": "Three critical design elements identified via ablation:\n1. Abolish-lock × residual healthspan/metabolic H2H on the same panel: Without this, separate Singh/Tsuboyama phenotype LITERATURE and Heller-Stilb/Ito TauT-KO necessity LITERATURE cannot show longevity/healthspan ≠ mere TauT-sole-necessity bridge.\n2. Block-arm early healthspan/metabolic improvement scored against TauT-intact taurine vs vehicle early healthspan/metabolic improvement as named comparator under the abolished-control lock: Without this, the card collapses into unmatched phenotype framing and loses the taut-insufficiency assumption-kill.\n3. Discipline of L15≠L28 through L27≠L28 and soft-complete-empty≠novelty: Treating prior series (L15–L27), Singh WT TauT phenotype, Heller-Stilb/Ito necessity, Ansar/GES tissue residual, or empty PubMed as deciding residual-positive under TauT abolish would invent a result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=2 · time_to_refute=6w · ip_class=taut-insufficiency · vault_hold=no\nexecution_status=NOT_RUN · fto_status=UNKNOWN\nStatus labels: NEGATIVE\nNovelty tag: assumption-kill\nPolarity: negative\nRisk class: research-discussion\nCard SHA256: fc09b005f21df284585731a1b5823cb122499df4df836db8725c3d878e2fc69a\nPublication status: PENDING dual-publish"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Differentiation from Prior Series (L15–L27)",
+      "content": "Explicit differentiation from prior series:\n- L20 ≠ L28: TauT ≠ bulk autophagy (ATG5/7)\n- L21 ≠ L28: TauT ≠ mitophagy (PINK1/Parkin)\n- L22 ≠ L28: TauT ≠ AMPK primary; taurine ≠ metformin\n- L23 ≠ L28: TauT ≠ GSK3\n- L24 ≠ L28: TauT ≠ SGLT2\n- L25 ≠ L28: TauT ≠ SIRT1\n- L26 ≠ L28: TauT ≠ MT/melatonin (luzindole/Mtnr1a/b)\n- L27 ≠ L28: TauT ≠ Klb/FGFR1 (CRITICAL)\n- NOT NAD-after-senolysis (SERIES_FROZEN)\n- L1–L27 ≠ proof of L28 residual"
+    }
+  ],
+  "key_findings": [
+    "Residual-positive taurine lifespan or healthspan H2H under TauT LOF or TauT-matched transport block that abolishes TauT-class control is UNKNOWN — no such experiment has been published.",
+    "Singh 2023 (PMID 37289866) establishes taurine supplementation lifespan/healthspan phenotype in WT TauT mice and monkeys; Slc6a6-/- arms used D+Q/rapa, NOT exogenous taurine residual-under-TauT-KO — WT TauT ≠ residual H2H.",
+    "Heller-Stilb 2002 (PMID 11772953) and Ito 2008 (PMID 18407290) are TauT KO necessity tools for retina and heart respectively — necessity-leaning phenocopy, NOT residual-positive longevity under TauT abolish.",
+    "Tsuboyama-Kasaoka 2006 (PMID 16627576) establishes metabolic phenotype (taurine deficiency promotes obesity; dietary taurine prevents HFD obesity with increased REE) in WT context — no TauT-abolish residual arm.",
+    "Ansar 2020 (PMID 31903486): SLC6A6 Gly399Val hypomorph (~15% residual transport) + oral taurine corrected cardiomyopathy and arrested retinal degeneration at 24 months — tissue residual under partial TauT deficiency, NOT full abolish, NOT organismal longevity residual H2H.",
+    "GES 2025 (PMID 40478558): Pharmacological TauT block (GES) + topical taurine reversed corneal wound healing delay and LSPC senescence/pluripotency suppression — tissue/corneal residual under TauT-matched block, NOT organismal longevity residual H2H.",
+    "Proposed prediction: under TauT LOF or TauT-matched block abolishing TauT-class control, taurine vs vehicle early healthspan/metabolic improvement retains ≥50% of the improvement seen on TauT-intact concurrent controls — PREDICTION gate, not yet tested.",
+    "Execution status: NOT_RUN. Time to refute: 6 weeks (early healthspan/metabolic panel). Full lifespan is secondary only.",
+    "Preferred experimental sequence: cell/tissue/block-QC confirming TauT transport/tissue-taurine uptake abolish BEFORE new animal longevity runs.",
+    "Prior art status: PARTIAL — phenotype founding and TauT KO necessity FOUND; tissue residual FOUND (outside public prior art ≤4); residual-positive organismal longevity H2H ABSENT/EMPTY."
+  ],
+  "document_date": "2025",
+  "milestones": [
+    {
+      "title": "Cell/Tissue/Block-QC Before Animal Longevity",
+      "description": "Preferred pre-step: confirm TauT transport / tissue-taurine uptake abolish via cell or tissue QC assay before initiating new animal longevity runs.",
+      "date": "within 6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Prefer cell/tissue/block-QC (TauT transport / tissue-taurine uptake QC confirming abolish) before new animal longevity; in vivo healthspan panel remains primary kill path within 6w.",
+      "page": 1
+    },
+    {
+      "title": "Primary Early Healthspan/Metabolic Panel Readout",
+      "description": "Pre-registered rodent metabolic/healthspan panel (Singh/Tsuboyama-class) with taurine vs vehicle under TauT LOF or TauT-matched transport block, with TauT-intact concurrent controls. Primary endpoint: early healthspan/metabolic improvement within the refute window. Threshold: ≥50% retention of TauT-intact taurine vs vehicle improvement.",
+      "date": "within 6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "in vivo healthspan panel remains primary kill path within 6w.",
+      "page": 1
+    },
+    {
+      "title": "Full Lifespan Co-Readout (Secondary)",
+      "description": "Optional full-lifespan co-readout on the same rodent panel, secondary to the early healthspan/metabolic primary endpoint. Not a gate for the primary claim.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "full lifespan only as secondary, not gate",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "file_path": "/reports/2026-09-28/L29.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (L29) proposing a research discussion and experimental design to test whether α-ketoglutarate (αKG) retains lifespan/healthspan/metabolic benefits independent of PHD2/Egln1 (the \"phd-insufficiency assumption-kill\"). The document is a hypothesis card, not a completed experiment: it frames the scientific question, catalogs prior art (Asadi 2020, Chin 2014, Takeda 2006, Berra 2003, Shrimali 2021), and proposes a pre-registered rodent panel with a ≥50% retention threshold as the primary kill criterion. Execution status is explicitly NOT_RUN, placing this at TRL 1–2 (concept with literature grounding, no new experimental data).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Framing",
+      "content": "Mol Labs public report labeled L29, status NEGATIVE, execution_status=NOT_RUN. The document is a hypothesis/discussion card proposing an 'assumption-kill' experiment to determine whether αKG longevity and metabolic-healthspan benefits are PHD/Egln-necessary or retain residual activity under mammalian Egln1/PHD2 loss-of-function (LOF) or PHD-matched blockade. The core scientific question: does αKG retain ≥50% of its early healthspan/metabolic improvement on a PHD2-intact arm when PHD-class control benefit is abolished? No new experimental data are presented; all evidence cited is from published literature."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim / Experimental Design",
+      "content": "Proposed experiment: Pre-registered rodent metabolic/healthspan panel (Asadi/Chin-class) with exogenous αKG (or cell-permeable ester) vs vehicle under Egln1 (PHD2) genetic LOF (conditional/tissue-restricted, given germline Phd2-/- embryonic lethality per Takeda) or PHD-matched blockade. Primary endpoint: early healthspan/metabolic improvement within a 6-week refute window. Full lifespan is secondary only. Threshold: block-arm αKG vs vehicle early healthspan/metabolic Δ retains ≥50% of the αKG vs vehicle early healthspan/metabolic Δ on PHD2-intact concurrent controls. Cell/tissue/block-QC (PHD catalytic activity / HIF-α stability under normoxia) preferred before new animal longevity runs. No human dosing language. kill_cost_tier=2, time_to_refute=6w."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Asadi 2020 (PMID 32877690)",
+      "content": "Asadi Shahmirzadi et al., Cell Metabolism 2020 (PMID 32877690, DOI 10.1016/j.cmet.2020.08.004, PMC8508957): CaAKG (calcium alpha-ketoglutarate) extends murine lifespan and compresses morbidity in C57BL/6 mice; decreased systemic inflammatory cytokines including IL-10. Model: C57BL/6 mice, CaAKG dietary supplementation. Key limitation for L29: PMC PHD=0, Egln=0 — no Egln1/PHD residual arm. WT murine phenotype ≠ residual H2H. Classified as: phenotype founding prior in WT PHD2 context; does not address PHD-independent residual."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Chin 2014 (PMID 24828042)",
+      "content": "Chin et al., Nature 2014 (PMID 24828042, DOI 10.1038/nature13264, PMC4263271): αKG extends C. elegans lifespan via ATP synthase/TOR pathway. PMC residual FOUND — αKG still extends lifespan under egl-9(sa307)/hif-1/vhl-1 LOF (pathway does not play a major role). DARTS confirms αKG binds PHD-2/Egln1 as cosubstrate. Primary mechanism is PHD-independent in worm. Key limitation: LITERATURE worm PHD-class residual ≠ mammalian Egln1 isoform residual. Explicitly noted: ≠ L17 rapa/FKBP (Chin PMC FKBP=0). This is the strongest existing evidence against PHD-sole-bridge, but only in C. elegans."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Takeda 2006 (PMID 16966370)",
+      "content": "Takeda et al., Mol Cell Biol 2006 (PMID 16966370, DOI 10.1128/MCB.00425-06, PMC1636770): Phd2-/- mouse embryos die E12.5–14.5 with placental and heart defects; HIF-α elevated; PHD2 uniquely essential among PHDs in embryogenesis. Role in L29: establishes that germline Phd2-/- is embryonic lethal, necessitating conditional/tissue-restricted LOF for any adult longevity study. Classified as: Egln1/PHD2 genetic LOF tool / embryonic necessity ≠ residual-positive αKG longevity under PHD abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Berra 2003 (PMID 12912907)",
+      "content": "Berra et al., EMBO J 2003 (PMID 12912907, DOI 10.1093/emboj/cdg392, PMC175782): PHD2 siRNA silencing in human cells stabilizes HIF-1α in normoxia; PHD2 identified as the key oxygen sensor. Role in L29: provides PHD-matched blockade tool (siRNA/knockdown approach). Classified as: PHD2 oxygen sensor / blockade tool ≠ residual-positive longevity."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Shrimali 2021 (PMID 34740102) — OUT of public prior art",
+      "content": "Shrimali et al., EBioMedicine 2021 (PMID 34740102, DOI 10.1016/j.ebiom.2021.103672, PMC8579134): αKG promotes PHD2 activity, suppresses pAkt1, reduces platelet/monocyte activation; PHD2 inhibitors increase pAkt1. Model: human platelets/monocytes; dietary/octyl αKG mice; carrageenan thrombosis model. Establishes mammalian PHD2×αKG necessity for thromboinflammatory phenotype. Key limitation: ≠ organismal longevity residual H2H. Classified as OUT of public prior_art (≤4 limit); thromboinflammatory PHD2 necessity ≠ organismal longevity residual."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prediction Variables / Experimental Endpoints",
+      "content": "Seven prediction variables defined:\n1. Asadi_CaAKG_murine_lifespan_phenotype_WT_PHD2 — LITERATURE; threshold: CaAKG promotes longer healthier life with decreased systemic inflammatory cytokines and morbidity compression; no PHD residual arm.\n2. Chin_aKG_worm_lifespan_plus_egl9_residual — LITERATURE; threshold: αKG extends C. elegans lifespan via ATP synthase/TOR; residual FOUND under egl-9/hif-1/vhl-1 LOF; ≠ mammalian residual.\n3. Takeda_Phd2_KO_embryonic_LOF_tool — LITERATURE; threshold: Phd2-/- embryonic lethal E12.5–14.5; LOF tool only.\n4. Berra_PHD2_oxygen_sensor_blockade_tool — LITERATURE; threshold: PHD2 siRNA stabilizes HIF-1α in normoxia; blockade tool only.\n5. Shrimali_PHD2_aKG_thromboinflammatory_necessity — LITERATURE (OUT of public prior_art ≤4); thromboinflammatory necessity ≠ longevity residual.\n6. matched_aKG_under_mammalian_Egln1_PHD2_LOF_or_block_residual_lifespan_healthspan_H2H — UNKNOWN; residual-positive αKG lifespan/healthspan H2H under mammalian Egln1/PHD2 abolish = EMPTY (not found).\n7. block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_aKG_vs_vehicle — PREDICTION; threshold: ≥50% retention of αKG vs vehicle early healthspan/metabolic Δ on PHD2-intact arm under abolish lock."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered rodent metabolic/healthspan panel (Asadi/Chin-class) where Egln1/PHD2 LOF or PHD-matched blockade locks PHD-class control benefit abolished, same-panel early healthspan/metabolic improvement (αKG vs vehicle under abolish) is <50% of the αKG vs vehicle early healthspan/metabolic improvement on PHD2-intact concurrent controls — so αKG longevity/healthspan DOES reduce to mere PHD-necessary bridge — when abolish-fail, αKG-alone-null, underpowered-strata, or assay-mismatch artifacts are ruled out. Competing inconclusive outcomes: abolish-fail (block not actually abolishing PHD-class control benefit), αKG-alone-null on PHD2-intact arm, underpowered strata, referee-assay mismatch."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "PHD-insufficiency assumption-kill mechanism: αKG is a PHD cofactor/cosubstrate (Berra PHD2 sensor; Chin DARTS αKG–PHD2 binding). Asadi grounds CaAKG murine lifespan extension and morbidity compression (IL-10/inflammation) in WT PHD2 — no exogenous αKG residual-under-Egln1-abolish longevity arm. Chin grounds αKG C. elegans lifespan via ATP synthase/TOR — residual under egl-9/hif-1/vhl-1 LOF found in worm (pathway does not play a major role; AGAINST PHD-sole-bridge in worm). Worm egl-9 residual ≠ mammalian Egln1 isoform residual. Takeda: Phd2-/- embryonic lethal — LOF tool / embryonic necessity ≠ residual-positive longevity. Berra: PHD2 siRNA stabilizes HIF-1α — oxygen sensor / blockade tool ≠ residual-positive longevity. Preferred workflow: cell/tissue/block-QC (PHD catalytic activity / HIF-α stability) confirming abolish of PHD-class control before new animal longevity runs."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Differentiation (L15–L28 ≠ L29)",
+      "content": "Explicit differentiation from prior series entries: L15 (organ-age/DunedinPACE) ≠ L29; L16 (tissue SA-β-gal/p16 vs blood under D+Q) ≠ L29; L17 (intermittent-rapa FKBP — Chin TOR adjacent ≠ rapa/FKBP) ≠ L29; L18 (17α-E2 caloric-match) ≠ L29; L19 (acarbose glycemic-match) ≠ L29; L20 (SPD/ATG bulk autophagy — PHD2 ≠ bulk ATG) ≠ L29; L21 (UA/mitophagy — PHD2 ≠ mitophagy) ≠ L29; L22 (metformin/AMPK — PHD2 ≠ AMPK primary; αKG ≠ metformin) ≠ L29; L23 (lithium/GSK3 — PHD2 ≠ GSK3) ≠ L29; L24 (canagliflozin/SGLT2 — PHD2 ≠ SGLT2) ≠ L29; L25 (resveratrol/SIRT1 — PHD2 ≠ SIRT1) ≠ L29; L26 (melatonin/MT — PHD2 ≠ MT) ≠ L29; L27 (FGF21/Klb — PHD2 ≠ Klb/FGFR1 CRITICAL) ≠ L29; L28 (taurine/TauT — PHD2 ≠ TauT CRITICAL) ≠ L29. NOT NAD-after-senolysis (SERIES_FROZEN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=2. time_to_refute=6w (6 weeks). ip_class=phd-insufficiency. vault_hold=no. No dosing language. No human studies. No manufacturing or CMC information. Status label: NEGATIVE. Polarity: negative. Risk class: research-discussion. Novelty tag: assumption-kill. openlabs_target: discussion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis — Critical Design Elements",
+      "content": "Three critical design elements identified whose removal collapses the experiment:\n1. Removing matched αKG ± Egln1/PHD2 LOF (or PHD-matched blockade) vs PHD2-intact concurrent controls with same-panel early healthspan/metabolic residual co-readout: without abolish-lock × residual H2H, separate Asadi/Chin phenotype and Takeda/Berra PHD2-tool literature cannot show longevity/healthspan ≠ mere PHD-sole-necessity bridge.\n2. Removing block-arm early healthspan/metabolic improvement scored against PHD2-intact αKG vs vehicle as named comparator under abolished-control lock: without intact-arm comparator, card collapses into unmatched phenotype framing.\n3. Removing the full series of ≠ statements and discipline constraints: would risk collapsing L29 into prior series entries or inventing mammalian residual from worm data or tool papers."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Classification Table",
+      "content": "| PMID | Reference | Model | Finding | Role in L29 | Classification |\n|------|-----------|-------|---------|-------------|----------------|\n| 32877690 | Asadi 2020 Cell Metab | C57BL/6 mice, CaAKG dietary | Lifespan extension, morbidity compression, IL-10/inflammation reduction | Phenotype founding in WT PHD2; no PHD residual arm | LITERATURE phenotype; WT murine ≠ residual H2H |\n| 24828042 | Chin 2014 Nature | C. elegans, αKG supplementation | Lifespan via ATP synthase/TOR; residual under egl-9/hif-1/vhl-1 LOF; DARTS αKG–PHD2 binding | Worm PHD-class residual FOUND; primary mechanism PHD-independent | LITERATURE worm residual; ≠ mammalian Egln1 residual |\n| 16966370 | Takeda 2006 Mol Cell Biol | Phd2-/- mouse embryos | Embryonic lethal E12.5–14.5; placenta/heart defects; HIF-α elevated | Establishes germline lethality → need conditional LOF | LOF tool / embryonic necessity; ≠ residual-positive longevity |\n| 12912907 | Berra 2003 EMBO J | Human cells, PHD2 siRNA | PHD2 siRNA stabilizes HIF-1α in normoxia | PHD-matched blockade tool | Oxygen sensor / blockade tool; ≠ residual-positive longevity |\n| 34740102 | Shrimali 2021 EBioMedicine | Human platelets/monocytes; mice | αKG→PHD2→pAkt1 suppression; anti-thrombotic/inflammatory | Mammalian PHD2×αKG necessity for thromboinflammation | OUT of public prior_art ≤4; ≠ organismal longevity residual |"
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — this is a hypothesis/discussion card with no new experimental data; TRL 1.",
+    "Central unknown: residual-positive αKG lifespan or healthspan H2H under mammalian Egln1/PHD2 LOF or PHD-matched blockade that abolishes PHD-class control is EMPTY (not found in literature).",
+    "Chin 2014 (Nature, PMID 24828042) provides LITERATURE worm PHD-class residual: αKG extends C. elegans lifespan under egl-9/hif-1/vhl-1 LOF via ATP synthase/TOR — explicitly classified as ≠ mammalian Egln1 isoform residual.",
+    "Asadi 2020 (Cell Metab, PMID 32877690) establishes CaAKG murine lifespan/healthspan phenotype in WT PHD2 context with no PHD/Egln residual arm — founding phenotype only, not residual H2H.",
+    "Takeda 2006 (PMID 16966370): germline Phd2-/- is embryonic lethal (E12.5–14.5), requiring conditional/tissue-restricted LOF for any adult longevity study.",
+    "Berra 2003 (PMID 12912907): PHD2 siRNA stabilizes HIF-1α in normoxia — provides PHD-matched blockade tool but not residual-positive longevity evidence.",
+    "Shrimali 2021 (PMID 34740102): mammalian PHD2×αKG necessity established for thromboinflammatory phenotype (pAkt1 suppression in platelets/monocytes) — explicitly classified as ≠ organismal longevity residual.",
+    "Proposed experimental threshold: block-arm αKG vs vehicle early healthspan/metabolic Δ must retain ≥50% of PHD2-intact arm αKG vs vehicle Δ to support phd-insufficiency assumption-kill.",
+    "Preferred workflow: cell/tissue/block-QC (PHD catalytic activity / HIF-α stability) confirming PHD-class abolish before new animal longevity runs; primary endpoint within 6-week refute window.",
+    "PRIOR_ART classified as PARTIAL: phenotype FOUND (Asadi), worm residual FOUND (Chin), PHD2 tools FOUND (Takeda/Berra), mammalian residual longevity EMPTY, longevity necessity EMPTY.",
+    "kill_cost_tier=2, time_to_refute=6w, ip_class=phd-insufficiency, vault_hold=no, fto_status=UNKNOWN."
+  ],
+  "document_date": null,
+  "milestones": [
+    {
+      "title": "Primary healthspan/metabolic endpoint readout",
+      "description": "Pre-registered rodent metabolic/healthspan panel (Asadi/Chin-class) with αKG vs vehicle under Egln1/PHD2 LOF or PHD-matched blockade; primary early healthspan/metabolic referee within the refute window; cell/tissue/block-QC preferred before animal longevity runs.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "primary kill path remains a matched rodent ± αKG (or cell-permeable ester) ± Egln1/PHD2 LOF (conditional/tissue-restricted given germline lethality) or PHD-matched inhibitor at abolish early healthspan/metabolic panel within the refute window",
+      "page": 1
+    },
+    {
+      "title": "Cell/tissue/block-QC (PHD activity / HIF-α stability) before animal longevity",
+      "description": "Confirm abolish of PHD-class control benefit via PHD catalytic activity assay and HIF-α stability under normoxia before initiating new animal longevity runs.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Prefer cell/tissue/block-QC (PHD activity / HIF-α stability QC confirming abolish) before new animal longevity; in vivo healthspan panel remains primary kill path within 6w.",
+      "page": 1
+    }
+  ]
+}

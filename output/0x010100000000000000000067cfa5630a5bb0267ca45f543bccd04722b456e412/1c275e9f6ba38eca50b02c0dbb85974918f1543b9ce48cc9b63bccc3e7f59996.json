@@ -1,0 +1,98 @@
+{
+  "file_path": "/reports/2026-09-27/N20.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N20) proposing a research discussion/hypothesis around whether Bacopa monnieri's working memory and attention phenotype is mediated by AChE inhibition. The document frames an \"assumption-kill\" experiment: testing whether Bacopa retains ≥50% of its WM/attention effect under a donepezil or AChE occupancy-matched condition that abolishes AChE-class memory rescue. No experiments have been run; the design is at the conceptual/proposal stage (execution_status=NOT_RUN).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis (N20)",
+      "content": "On a pre-registered acute/subacute working memory / attention panel with an AChE-class positive memory-rescue arm, a donepezil or AChE occupancy-matched condition that abolishes AChE-class memory rescue, and a Bacopa monnieri arm: under the same condition that abolishes AChE-class memory rescue, Bacopa retains residual working memory / attention phenotype ≥50% of Bacopa-alone (WM / attention units as pre-specified; α/N pre-specified) — assumption-kill / ache-insufficiency."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Rationale / Why It Matters",
+      "content": "Bacopa monnieri is commonly framed via WM/attention phenotypes with AChE activity as an outcome biomarker, but no published study abolishes AChE-class memory rescue with donepezil or an AChE occupancy match and then scores residual Bacopa phenotype on the same panel. N20 asks whether residual Bacopa WM/attention phenotype survives a donepezil/AChE occupancy-matched condition that kills AChE-class memory rescue (ache-insufficiency assumption-kill). Explicitly distinguished from N15 (modafinil-DAT residual), N16 (creatine plasma/PCr), N17 (Hericium×NGF/TrkA), N18 (L-theanine×adenosine), N19 (Rhodiola×HPA/cortisol)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "AChE-insufficiency assumption-kill: standardised Bacopa monnieri moves human/rodent WM/attention/cognition phenotypes, and some trials measure AChE activity as a biomarker/outcome; no published head-to-head abolishes AChE-class memory rescue with donepezil or an AChE occupancy-matched condition and scores residual Bacopa WM/attention phenotype on the same panel. Preferred design: same-panel acute/subacute WM/attention lock (Peth-Nui/Calabrese/Stough-class human cognition, or Saraf-class scopolamine spatial memory) with AChE-class positive memory rescue ± donepezil or named AChE occupancy-matched abolish condition vs Bacopa ± same condition. Optional cell/SPR overlay only if a named published AChE-occupancy system locks residual first."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Literature Evidence",
+      "content": "1. PMID 23320031 / DOI 10.1155/2012/606424 — Peth-Nui (2012): 12-week standardised Bacopa monnieri improves attention/cognitive processing/WM and decreases AChE (and MAO) activity in healthy elderly (Evid Based Complement Alternat Med). AChE is an outcome, not a matched abolish arm; not residual-under-block H2H.\n2. PMID 21607013 / DOI 10.1093/ecam/neq038 — Saraf (2011): Bacopa monniera attenuates scopolamine-induced impairment of spatial memory in mice (Morris water maze). No donepezil/AChE-occupancy matched abolish arm; no residual H2H.\n3. PMID 18611150 / DOI 10.1089/acm.2008.0018 — Calabrese (2008): standardised Bacopa monnieri improves cognitive performance/anxiety/depression vs placebo in elderly (J Altern Complement Med). No donepezil/AChE-matched abolish arm; no residual H2H.\n4. PMID 11498727 / DOI 10.1007/s002130100815 — Stough (2001): chronic Bacopa monniera (Keenmind) improves visual information processing/AVLT learning-memory consolidation/state anxiety over 12 weeks (Psychopharmacology). No donepezil/AChE-matched abolish arm; no residual H2H.\n5. PMID 33688125 — Prabhakar: Bacopa-vs-donepezil parallel Phase 2b — classified as NON-MATCH (parallel efficacy ≠ residual under occupancy match)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| PethNui_Bacopa_elderly_WM_attention_AChE_outcome | LITERATURE | Human double-blind placebo-controlled RCT; healthy elderly; standardised Bacopa 12 weeks; attention/cognitive processing/WM + AChE and MAO activity | Bacopa improves WM/attention and decreases AChE/MAO activity (PMID 23320031); AChE is outcome, not matched abolish arm; not residual H2H |\n| Saraf_Bacopa_scopolamine_spatial_memory | LITERATURE | Mouse Morris water maze; scopolamine-induced spatial memory impairment; Bacopa monniera | Bacopa attenuates scopolamine-induced spatial memory impairment (PMID 21607013); no donepezil/AChE-occupancy abolish arm; not residual H2H |\n| Calabrese_Bacopa_elderly_cognition | LITERATURE | Human double-blind placebo-controlled RCT; elderly ≥65 without clinical dementia; standardised Bacopa 12 weeks; Rey AVLT delayed recall primary | Bacopa improves cognitive performance/anxiety/depression vs placebo (PMID 18611150); no donepezil/AChE-matched abolish arm; not residual H2H |\n| Stough_Bacopa_chronic_cognition | LITERATURE | Human double-blind placebo-controlled; healthy subjects; Bacopa monniera (Keenmind); neuropsychological battery at 5 and 12 weeks | Bacopa improves IT visual information processing/AVLT learning-memory consolidation/state anxiety at 12 weeks (PMID 11498727); no donepezil/AChE-matched abolish arm; not residual H2H |\n| matched_residual_Bacopa_under_AChE_occupancy_matched_H2H | UNKNOWN | Same acute/subacute WM/attention panel — AChE-class positive memory rescue ± donepezil or AChE occupancy-matched abolish condition + Bacopa ± same condition | Dedicated residual-Bacopa under donepezil/AChE occupancy match that abolishes AChE-class memory rescue NOT FOUND; soft-complete 0 true co-panel; UNKNOWN + missing_search |\n| residual_Bacopa_phenotype_ge_50pct_of_alone_when_AChE_class_abolished | PREDICTION | Pre-registered acute/subacute WM/attention panel; AChE-class arm must show abolished memory rescue; Bacopa arm scored for residual phenotype vs Bacopa-alone | Residual Bacopa WM/attention phenotype ≥50% of Bacopa-alone while AChE-class memory rescue is abolished; α/N pre-specified; do not invent observed Δ or dosing |\n| competing_abolish_fail_or_Bacopa_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish condition fails to kill AChE-class memory rescue, Bacopa-alone null, underpowered strata, or assay-identity mismatch | Abolish-fail-to-kill/Bacopa-alone-null/underpowered-strata/assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. N1–N19 do not prove N20 — N15 is residual modafinil PVT under DAT-matched block; N16 is plasma-Cr↑ without ³¹P PCr fails SD WM; N17 is Hericium residual under NGF/TrkA block; N18 is L-theanine residual under caffeine-matched adenosine; N19 is Rhodiola residual under HPA/cortisol-matched challenge; soft-complete empty ≠ demonstrated residual gain.\n2. AChE-as-outcome ≠ residual-under-block H2H — Peth-Nui measures AChE/MAO activity as biomarker/outcome; it does not abolish AChE-class memory rescue with donepezil occupancy match and score residual Bacopa on the same panel. Bacopa-vs-donepezil parallel (Prabhakar) is parallel efficacy ≠ residual under occupancy match.\n3. Phenotype priors lack ache-insufficiency arms; lock same-panel acute/subacute WM/attention (prefer named published human or rodent panel; optional cell/SPR after abolish×residual locks) with AChE-class positive memory rescue ± donepezil or AChE occupancy-matched challenge vs Bacopa ± same condition; no dosing; NOT MB/MAOI; not N15/N16/N17/N18/N19 clones; do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "On the pre-registered acute/subacute WM/attention panel, under donepezil or an AChE occupancy-matched condition that abolishes AChE-class memory rescue, residual Bacopa WM/attention phenotype falls below 50% of Bacopa-alone (WM/attention units as pre-specified) — so AChE-class sufficiency for Bacopa phenotype survives and ache-insufficiency fails — when abolish-gate, Bacopa-alone comparator, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution & IP Status",
+      "content": "execution_status=NOT_RUN · fto_status=UNKNOWN · kill_cost_tier=2 · time_to_refute=6w · ip_class=ache-insufficiency · vault_hold=no. Related prior: N15 (modafinil-DAT residual ≠ Bacopa×AChE); N16 (plasma-Cr/PCr ≠ Bacopa×AChE); N17 (Hericium×NGF/TrkA ≠ Bacopa×AChE); N18 (theanine-adenosine ≠ Bacopa×AChE); N19 (Rhodiola-HPA ≠ Bacopa×AChE); N2 holds sole ip_class=none; N1–N19 ≠ proof. Status labels: NEGATIVE. Polarity: negative. Risk class: research-discussion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions identified:\n1. Remove same-panel contrast of residual Bacopa WM/attention phenotype under donepezil or AChE occupancy-matched condition: Without the abolish×residual H2H on a Peth-Nui/Saraf/Calabrese/Stough-class WM/attention panel with an AChE-class positive memory-rescue arm, separate cognition LITERATURE and AChE-as-outcome LITERATURE cannot show ache-insufficiency.\n2. Remove verified abolish gate (donepezil or AChE occupancy match that abolishes AChE-class memory rescue) plus Bacopa-alone comparator: Without verified AChE-class abolish and Bacopa-alone comparator under the same condition, residual Bacopa is just 'another nootropic under nonspecific cholinergic challenge,' not an assumption-kill of AChE-class sufficiency for Bacopa phenotype.\n3. Remove N15≠N20 + N16≠N20 + N17≠N20 + N18≠N20 + N19≠N20 + N1–N19≠proof + soft-complete-empty≠novelty + AChE-as-outcome≠residual-H2H + parallel≠residual discipline: Treating adjacent studies or empty PubMed as already deciding residual Bacopa under AChE-matched block would invent an H2H result left UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — no experiments have been conducted; this is a conceptual research proposal at TRL 1.",
+    "The core hypothesis (N20): Bacopa monnieri retains ≥50% of its WM/attention phenotype under a donepezil or AChE occupancy-matched condition that abolishes AChE-class memory rescue.",
+    "Key gap identified: No published study has performed a head-to-head abolish×residual design (donepezil or AChE occupancy match abolishing AChE-class memory rescue while scoring residual Bacopa WM/attention on the same panel).",
+    "Four adjacent literature priors identified (Peth-Nui 2012, Saraf 2011, Calabrese 2008, Stough 2001) — all show Bacopa cognition/WM/attention phenotypes but none include an AChE-class abolish arm; classified as NON-MATCH for the residual H2H design.",
+    "Prabhakar (PMID 33688125) Bacopa-vs-donepezil parallel Phase 2b is explicitly classified as NON-MATCH (parallel efficacy ≠ residual under occupancy match).",
+    "Matched residual-Bacopa under donepezil/AChE occupancy match that abolishes AChE-class memory rescue is UNKNOWN (soft-complete Q1b/Q2/Q3 empty).",
+    "Competing caveats pre-registered: abolish condition fails to kill AChE-class memory rescue / Bacopa-alone null / underpowered strata / assay-identity mismatch — all leave the test inconclusive rather than refuted.",
+    "IP class: ache-insufficiency; kill_cost_tier=2; time_to_refute=6 weeks; vault_hold=no.",
+    "Status labels: NEGATIVE; polarity: negative; risk_class: research-discussion.",
+    "FTO status: UNKNOWN."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "N20 Public Report Published",
+      "description": "Mol Labs public report N20 on Bacopa monnieri AChE-insufficiency assumption-kill hypothesis published/pending dual-publish.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/N20.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed Residual Bacopa Experiment (time_to_refute)",
+      "description": "Proposed acute/subacute WM/attention panel experiment with AChE-class abolish arm and Bacopa residual scoring; estimated 6 weeks to refute if executed.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=ache-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "file_path": "/reports/2026-09-27/P19.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This Mol Labs public report (P19) is a research discussion card proposing an assay to test whether ARA-290 (cibinetide), a non-hematopoietic IRR/CD131 tissue-protective EPO-derived peptide, retains ≥50% of its IRR/CD131 tissue-protection under a hematopoietic-matched EPO condition that abolishes EPO-class tissue-protection attribution via hematopoiesis. The document frames this as an \"irr-insufficiency assumption-kill\" hypothesis, cataloguing four supporting literature priors (Wang, Winicki, Dennhardt, Ghassemi-Barghi) while noting that none of them constitute the required residual-under-hematopoietic-match head-to-head experiment. The key experimental result (matched residual ARA-290 IRR/CD131 phenotype under hematopoietic match) is explicitly UNKNOWN and not yet run.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis (P19)",
+      "content": "On a matched insult ± ARA-290 (cibinetide) ± EPO (or EPO-R agonist) panel with hematocrit/reticulocyte-match QC that abolishes EPO-alone tissue-protection attribution via hematopoiesis, plus IRR/CD131 tissue-protection endpoint (optional βCR/CD131 block): under that hematopoietic match, residual ARA-290 IRR/CD131 tissue-protection remains ≥50% of the ARA-290 without-matched-EPO arm on the same panel. Named comparator = ARA-290 without-matched-EPO arm under matched insult. This is an assumption-kill / irr-insufficiency test."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Wang frames ARA290 neuroprotection via β-common/IRR without erythropoiesis; Winicki shows non-hematopoietic ARA290 cardiac/healthspan benefit; Dennhardt separates EPO vs pHBSP IRR from EPO-R erythropoiesis in HUS; Ghassemi-Barghi maps ARA290 as EPO/CD131 heteroreceptor ligand in nephrotoxicity. P19 asks whether residual IRR/CD131 tissue-protection under a hematopoietic match that abolishes EPO-class tissue-protection attribution via hematopoiesis still requires the IRR path rather than hematopoietic attribution — irr-insufficiency assumption-kill."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "irr-insufficiency assumption-kill: Wang shows ARA290 βCR/IRR neuroprotection without erythropoiesis (LITERATURE); Winicki shows non-hematopoietic ARA290 cardiac/healthspan (LITERATURE); Dennhardt shows EPO vs pHBSP IRR distinct from EPO-R erythropoiesis (LITERATURE); Ghassemi-Barghi maps ARA290 EPO/CD131 IRR nephrotoxicity mechanistics (LITERATURE). None score residual ARA-290 under a hematocrit/reticulocyte-matched EPO condition that abolishes EPO-class tissue-protection attribution on the same panel. Non-hematopoietic / without-erythropoiesis / did-not-alter-hematocrit framing is the class PRIOR under kill — PRIOR lack-of-hematopoiesis ≠ matched residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "1. Wang (PMID 38488446 / DOI 10.1111/cns.14676 / PMC10941562): ARA290 neuroprotection via β-common receptor (βCR/IRR) in MCAO mice; βCR siRNA suppresses effect; without causing erythropoiesis — IRR/β-common tissue-protection prior; NOT residual-under-hematopoietic-match H2H.\n2. Winicki (PMID 36741836 / DOI 10.3389/fcvm.2022.1096887 / PMC9889362): ARA290 (cibinetide) non-hematopoietic EPO-derived peptide reduces cardiac inflammation, attenuates age-associated heart-function decline, prolongs healthspan — non-hematopoietic cardiac prior; NOT residual under hematocrit-matched EPO abolish.\n3. Dennhardt (PMID 36211426 / DOI 10.3389/fimmu.2022.1010882 / PMC9537456): EPO or pHBSP targeting IRR axis attenuates HUS in mice; IRR pharmacologically distinct from EPO-R erythropoiesis — EPO vs pHBSP IRR prior; NOT hematocrit-matched residual H2H co-panel.\n4. Ghassemi-Barghi (PMID 36085231 / DOI 10.1007/s10753-022-01737-7): ARA290 specific ligand for EPO/CD131 heteroreceptor; protective vs cisplatin nephrotoxicity — CD131/IRR mechanistics prior; NOT residual under hematocrit-matched EPO abolish."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Wang_ARA290_betaCR_IRR_stroke_neuroprotection | LITERATURE | Mouse MCAO/reperfusion; ARA290; βCR siRNA; TTC infarct; neuronal apoptosis; automated hematology blood parameters | ARA290 neuroprotection via βCR/IRR in MCAO mice; βCR siRNA suppresses effect; without causing erythropoiesis (PMID 38488446) — IRR/β-common tissue-protection prior; NOT residual-under-hematopoietic-match H2H |\n| Winicki_ARA290_nonhematopoietic_cardiac_healthspan | LITERATURE | Aged Fischer 344 × Brown Norway rats; ARA290 (cibinetide); cardiac inflammation/fibrosis; LV function; frailty/healthspan | ARA290 non-hematopoietic EPO-derived peptide reduces cardiac inflammation, attenuates age-associated heart-function decline, prolongs healthspan (PMID 36741836) — non-hematopoietic cardiac prior; NOT residual-under-hematopoietic-match H2H |\n| Dennhardt_EPO_vs_pHBSP_IRR_HUS | LITERATURE | Murine HUS model; EPO vs pHBSP; IRR vs EPO-R; renal oxidative/nitrosative stress; survival | EPO or pHBSP targeting IRR axis attenuates HUS; IRR pharmacologically distinct from EPO-R erythropoiesis (PMID 36211426) — EPO vs pHBSP IRR prior; NOT residual-under-hematopoietic-match H2H |\n| GhassemiBarghi_ARA290_EPO_CD131_nephrotoxicity | LITERATURE | HEK-293 / ACHN cells; cisplatin nephrotoxicity; ARA290 EPO/CD131 heteroreceptor (IRR); cytotoxicity; inflammation markers | ARA290 as EPO/CD131 IRR ligand protects vs cisplatin nephrotoxicity (PMID 36085231) — CD131/IRR mechanistics prior; NOT residual-under-hematopoietic-match H2H |\n| matched_residual_ARA290_under_EPO_hematopoietic_match_H2H | UNKNOWN | Same insult ± ARA-290 ± EPO (or EPO-R agonist) panel — hematocrit/reticulocyte-match QC that abolishes EPO-alone tissue-protection attribution via hematopoiesis, plus IRR/CD131 tissue-protection endpoint; optional βCR/CD131 block | Dedicated residual ARA-290 IRR/CD131 phenotype under hematopoietic match NOT FOUND — UNKNOWN + missing_search |\n| residual_ARA290_IRR_ge50pct_of_ARA290_without_matched_EPO | PREDICTION | Pre-registered matched insult ± ARA-290 ± EPO panel; hematopoietic-match condition must abolish EPO-alone tissue-protection attribution first (hematocrit/reticulocyte match QC), then score residual ARA-290 IRR/CD131 tissue-protection vs ARA-290 without-matched-EPO arm | Residual ARA-290 IRR/CD131 tissue-protection ≥50% of the ARA-290 without-matched-EPO arm on the same panel; α/N pre-specified — do not invent observed % / KD / dosing |\n| competing_incomplete_hematopoietic_match_or_EPO_not_abolished_inconclusive | PREDICTION | Same design; competing outcomes if apparent residual is only incomplete hematopoietic match, EPO-alone tissue-protection not abolished, absent residual to score, or hematocrit-match QC failure | Incomplete-hematopoietic-match / EPO-alone-tissue-protection-not-abolished / no-residual-to-score / hematocrit-match-QC-fail allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Experimental Status",
+      "content": "Wang βCR/IRR stroke LITERATURE (PMID 38488446; phenotype ≠ residual-under-hematopoietic-match H2H). Winicki non-hematopoietic cardiac LITERATURE (PMID 36741836; adjacent ≠ residual H2H). Dennhardt EPO vs pHBSP IRR HUS LITERATURE (PMID 36211426; scored without hematocrit/reticulocyte-matched EPO arm that abolishes EPO-class tissue-protection). Ghassemi-Barghi CD131 nephrotoxicity LITERATURE (PMID 36085231; adjacent ≠ residual H2H). Matched residual ARA-290 IRR/CD131 phenotype under hematopoietic match that abolishes EPO-class tissue-protection on same panel: UNKNOWN (soft-complete Q1 NON-MATCH / matched residual Q1b=0). Residual ≥50% of ARA-290 without-matched-EPO arm under hematopoietic-match-abolish condition: PREDICTION. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Method)",
+      "content": "Method: propose-assay. Lock one insult ± ARA-290 ± EPO (or EPO-R agonist) system with hematocrit/reticulocyte-match QC that abolishes EPO-alone tissue-protection attribution, IRR/CD131 tissue-protection readout (optional βCR/CD131 block), and ≥50%-of-ARA-290-without-matched-EPO residual gate before claiming residual under hematopoietic match. Prefer named published tissue-protection panel with hematology match QC / explant+hematology before new animal/human. No dosing. NOT FOXO4×LOF."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched insult ± ARA-290 ± EPO (or EPO-R agonist) panel where hematopoietic match abolishes EPO-alone tissue-protection attribution via hematopoiesis, residual ARA-290 IRR/CD131 tissue-protection is <50% of the ARA-290 without-matched-EPO arm under that same condition — so hematopoietic-attribution framing survives and irr-insufficiency residual fails — when incomplete hematopoietic match, EPO-alone tissue-protection-not-abolished, absent residual, or hematocrit-match QC artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P1–P18 as proving P19 — Wang/Winicki/Dennhardt/Ghassemi-Barghi IRR/non-hematopoietic priors are not a residual-under-hematopoietic-matched-EPO H2H; soft-complete empty ≠ demonstrated residual phenotype.\n2. Skip-list / series distinctness (critical) — do not freeze or collapse to OpenLabs 8e5ba06c / 7db12286 BPC orthosteric dialect, P15 residual-FBXO22, P16 LKKTETQ-Cc, P17 MOTS-c/folate, or P18 SS-31/ROS-scavenger; orthosteric_drift=false.\n3. Wang/Winicki/Dennhardt/Ghassemi-Barghi lack hematocrit/reticulocyte-matched EPO arm that abolishes EPO-class tissue-protection; incomplete hematopoietic match / EPO-alone tissue-protection not abolished / no residual to score / hematocrit-match QC failure leave the test inconclusive rather than refuted; no dosing; reviews 25728128 / 31580542 ≠ experimental anchors."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP / Execution Metadata",
+      "content": "kill_cost_tier=2 · time_to_refute=6w · ip_class=irr-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. STATUS_LABEL: NEGATIVE. novelty_tag: assumption-kill. polarity: negative. risk_class: research-discussion. policy: PUBLIC_REPORT_ONLY. private: NONE. mollabs_public: reports/2026-09-27/P19.md. card_sha256: 19c07302d0bd6d65c07e0165af5e708359645c93e72d67ec9031a7e43583b606."
+    }
+  ],
+  "key_findings": [
+    "ARA-290 (cibinetide) is a non-hematopoietic IRR/CD131 tissue-protective EPO-derived peptide; P19 proposes an irr-insufficiency assumption-kill assay to test whether its tissue-protection is truly IRR-dependent rather than hematopoietic.",
+    "Four literature priors support IRR/non-hematopoietic framing: Wang (PMID 38488446, βCR/IRR neuroprotection in MCAO without erythropoiesis), Winicki (PMID 36741836, non-hematopoietic cardiac/healthspan benefit), Dennhardt (PMID 36211426, EPO vs pHBSP IRR distinct from EPO-R erythropoiesis in HUS), Ghassemi-Barghi (PMID 36085231, ARA290 as EPO/CD131 heteroreceptor ligand in nephrotoxicity).",
+    "None of the four literature priors constitute the required residual-under-hematopoietic-match head-to-head experiment; matched residual ARA-290 IRR/CD131 phenotype under hematopoietic match is explicitly UNKNOWN.",
+    "The key prediction: under EPO (or EPO-R agonist) hematopoietic match that abolishes EPO-class tissue-protection attribution via hematopoiesis, residual ARA-290 IRR/CD131 tissue-protection ≥50% of the ARA-290 without-matched-EPO arm on the same panel.",
+    "Execution status is NOT_RUN; FTO status is UNKNOWN; estimated time to refute is 6 weeks; kill cost tier = 2.",
+    "Refutation criterion: residual ARA-290 IRR/CD131 tissue-protection <50% of the ARA-290 without-matched-EPO arm (when confounds such as incomplete hematopoietic match are ruled out).",
+    "Model systems referenced in prior art: Mouse MCAO/reperfusion (Wang), aged Fischer 344 × Brown Norway rats (Winicki), murine HUS model (Dennhardt), HEK-293/ACHN cells with cisplatin nephrotoxicity (Ghassemi-Barghi).",
+    "Proposed assay requires: matched insult ± ARA-290 ± EPO panel, hematocrit/reticulocyte-match QC, IRR/CD131 tissue-protection endpoint, optional βCR/CD131 block, and ≥50% residual gate; prefer named published tissue-protection panel with hematology match QC before new animal/human studies."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "P19 Public Report Publication",
+      "description": "Mol Labs public report P19 (ARA-290 irr-insufficiency assumption-kill discussion) published to mollabs_public reports directory.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/P19.md",
+      "page": 1
+    },
+    {
+      "title": "Matched Residual ARA-290 H2H Assay (Proposed)",
+      "description": "Pre-registered matched insult ± ARA-290 ± EPO (or EPO-R agonist) panel with hematocrit/reticulocyte-match QC to abolish EPO-alone tissue-protection attribution and score residual ARA-290 IRR/CD131 tissue-protection vs ARA-290 without-matched-EPO arm. Estimated 6 weeks to refute.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=irr-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

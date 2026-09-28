@@ -1,0 +1,91 @@
+{
+  "file_path": "/reports/2026-09-27/P17.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (P17) proposing an assay to test whether residual pAMPK/pACC (or AICAR) persists under folate-repletion conditions that abolish MOTS-c-enhanced glycolysis, framed as an \"assumption-kill\" for the one-carbon/de novo purine pathway hypothesis. The experiment has NOT been run; all key readouts are UNKNOWN or PREDICTION. The document synthesizes prior literature (Lee 2015, Cabreiro 2013, Corominas-Faja 2012, Pirkmajer 2015) as class priors but identifies a gap: no matched residual H2H panel exists.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (P17)",
+      "content": "On a matched MOTS-c ± folate-repletion panel in MOTS-c-ST cells (or exogenous MOTS-c) with glycolysis QC plus pAMPK Thr172 / pACC Ser79 (or AICAR) and AMP/ATP: under folate repletion that abolishes MOTS-c-enhanced glycolysis, residual pAMPK/pACC (or AICAR) remains ≥50% of the MOTS-c without-folate-repletion arm on the same panel (named comparator = MOTS-c unrepleted arm under matched AMP/ATP). This is framed as an 'assumption-kill / one-carbon-insufficiency' test."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "MOTS-c is proposed to inhibit the folate cycle and de novo purine biosynthesis, causing AICAR accumulation and AMPK/pACC activation even while AMP falls and ATP rises. Folate media supplementation reverses the MOTS-c-enhanced glycolytic response (Lee 2015). P17 asks whether residual pAMPK/pACC/AICAR under folate repletion (which abolishes glycolysis enhancement) still requires the one-carbon/de novo purine path rather than AMP/ATP energy-charge AMPK. Adjacent class priors: Cabreiro (metformin–microbial folate–host one-carbon), Corominas-Faja (metformin antifolate-class fingerprint, thymidine+hypoxanthine blocks ATM/AMPK), Pirkmajer (MTX/ATIC slows ZMP metabolism, lowers AICAR–AMPK threshold). None score MOTS-c residual under folate repletion that abolishes glycolysis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "1. Lee 2015 (PMID 25738459, Cell Metab): MOTS-c inhibits folate cycle and tethered de novo purine → AICAR → AMPK/pACC despite AMP↓ATP↑; folate media supplementation reverses MOTS-c-enhanced glycolysis. NOT a residual-under-repletion H2H.\n2. Cabreiro 2013 (PMID 23540700, Cell): Metformin alters microbial folate and methionine metabolism → host one-carbon/methionine restriction. Adjacent one-carbon prior; NOT MOTS-c residual H2H.\n3. Corominas-Faja 2012 (PMID 22837425, Aging): Metformin impairs one-carbon/folate flow similar to antifolates; AMPK secondary to one-carbon alteration; thymidine+hypoxanthine blocks metformin ATM/AMPK. Adjacent antifolate-class prior; NOT MOTS-c residual H2H.\n4. Pirkmajer 2015 (PMID 25338814, Diabetes): MTX inhibits ATIC → slows ZMP/AICAR metabolism → lowers threshold for AICAR-induced AMPK in skeletal muscle/myotubes. Antifolate/de novo purine → AICAR → AMPK class prior; NOT MOTS-c × folate-repletion residual panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Lee_MOTSc_folate_AICAR_AMPK_glycolysis_rescue | LITERATURE | MOTS-c-ST cells / exogenous MOTS-c; folate cycle / de novo purine; AICAR; pAMPK/pACC; AMP/ATP; folate media supplementation vs MOTS-c-enhanced glycolysis | MOTS-c → AICAR → AMPK/pACC despite AMP↓ATP↑; folate supplement reverses enhanced glycolysis (PMID 25738459) — NOT residual-under-repletion H2H |\n| Cabreiro_metformin_microbial_folate_one_carbon | LITERATURE | C. elegans + microbial folate/methionine; metformin longevity | Metformin alters microbial folate/methionine → host one-carbon restriction (PMID 23540700) — adjacent prior; NOT MOTS-c residual H2H |\n| Corominas_Faja_metformin_antifolate_one_carbon_AMPK | LITERATURE | Breast cancer cells; metformin metabolomics; one-carbon/antifolate-class; ATM/AMPK | Metformin impairs folate-related one-carbon flow; AMPK secondary; thymidine+hypoxanthine blocks ATM/AMPK (PMID 22837425) — adjacent; NOT MOTS-c residual H2H |\n| Pirkmajer_MTX_ATIC_AICAR_ZMP_AMPK | LITERATURE | Cultured myotubes; isolated skeletal muscle; HEK-293; MTX/ATIC/AICAR-ZMP/AMPK-γ3 | MTX inhibits ATIC → slows ZMP/AICAR metabolism → lowers AICAR-induced AMPK threshold (PMID 25338814) — class prior; NOT MOTS-c residual panel |\n| matched_residual_pAMPK_pACC_under_folate_repletion_H2H | UNKNOWN | Same MOTS-c ± folate-repletion panel; glycolysis QC; pAMPK Thr172 / pACC Ser79 (or AICAR); AMP/ATP; optional AMPK KD / compound C / AICAR-path control | Dedicated residual H2H NOT FOUND (soft-complete Q1 NON-MATCH; matched residual Q2=0) — UNKNOWN + missing_search |\n| residual_pAMPK_pACC_ge50pct_of_MOTSc_unrepleted_under_folate_repletion | PREDICTION | Pre-registered matched MOTS-c ± folate-repletion MOTS-c-ST / exogenous MOTS-c cell panel; folate repletion must abolish MOTS-c-enhanced glycolysis first | Residual pAMPK/pACC (or AICAR) ≥50% of MOTS-c without-folate-repletion arm under matched AMP/ATP — NOT YET RUN |\n| competing_incomplete_folate_repletion_or_glycolysis_not_abolished_inconclusive | PREDICTION | Same design; competing outcomes | Incomplete folate repletion / glycolysis-not-abolished / no-residual-to-score / AMP-ATP-QC-fail = inconclusive (not refute) — NOT YET RUN |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method",
+      "content": "Method type: propose-assay. Preferred system: MOTS-c-ST cells or exogenous MOTS-c cell panel (cell panel preferred before animal/human). Required readouts: pAMPK Thr172, pACC Ser79 (or AICAR), AMP/ATP ratio, glycolysis QC (must confirm folate repletion abolishes MOTS-c-enhanced glycolysis). Optional controls: AMPK KD / compound C / AICAR-path control. Threshold: residual pAMPK/pACC (or AICAR) ≥50% of MOTS-c unrepleted arm under matched AMP/ATP. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched MOTS-c ± folate-repletion panel where folate repletion abolishes MOTS-c-enhanced glycolysis, residual pAMPK/pACC (or AICAR) is <50% of the MOTS-c without-folate-repletion arm under that same condition — so energy-charge / glycolysis-coupled AMPK framing survives and one-carbon-insufficiency residual fails — when incomplete folate repletion, glycolysis-not-abolished, absent residual, or AMP/ATP QC artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. P1–P16 do not prove P17; P2 left host folate-status × ΔpACC UNKNOWN as biomarker-bridge; that emptiness is not a residual-under-folate-repletion H2H.\n2. Skip-list / series distinctness: do not collapse to OpenLabs BPC orthosteric dialect, P15 residual-FBXO22, or P16 LKKTETQ-Cc; NOT FOXO4×LOF (SERIES_FROZEN).\n3. Lee glycolysis rescue ≠ residual pAMPK/pACC panel; Cabreiro/Corominas-Faja/Pirkmajer lack MOTS-c residual-under-repletion arm; incomplete folate repletion / glycolysis-not-abolished / no residual to score / AMP-ATP QC failure leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP / Execution Metadata",
+      "content": "kill_cost_tier=1 · time_to_refute=4 weeks · ip_class=one-carbon-insufficiency · vault_hold=no · execution_status=NOT_RUN · fto_status=UNKNOWN · STATUS_LABEL: NEGATIVE · novelty_tag: assumption-kill · polarity: negative · risk_class: research-discussion · policy: PUBLIC_REPORT_ONLY · private: NONE"
+    }
+  ],
+  "key_findings": [
+    "Experiment has NOT been run (execution_status=NOT_RUN); all key experimental readouts are UNKNOWN or PREDICTION.",
+    "Core hypothesis: MOTS-c blocks folate cycle and de novo purine biosynthesis → AICAR accumulation → AMPK/pACC activation despite AMP↓ATP↑; folate media supplementation reverses MOTS-c-enhanced glycolysis (Lee 2015, PMID 25738459).",
+    "No matched residual pAMPK/pACC/AICAR H2H panel under folate repletion that abolishes MOTS-c glycolysis has been found in the literature (soft-complete Q1 NON-MATCH; matched residual Q2=0).",
+    "Four adjacent class priors identified (Lee 2015, Cabreiro 2013, Corominas-Faja 2012, Pirkmajer 2015) but none score MOTS-c residual under folate repletion that abolishes glycolysis.",
+    "Proposed threshold: residual pAMPK Thr172 / pACC Ser79 (or AICAR) ≥50% of MOTS-c unrepleted arm under matched AMP/ATP constitutes a positive result for one-carbon-insufficiency.",
+    "Refutation criterion: residual <50% of MOTS-c unrepleted arm (with QC artifacts ruled out) would support energy-charge/glycolysis-coupled AMPK framing over one-carbon-insufficiency.",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost); FTO status: UNKNOWN.",
+    "Status label is NEGATIVE (assumption-kill framing); the card is a research-discussion proposal, not a completed experiment.",
+    "Preferred model system: MOTS-c-ST cells or exogenous MOTS-c cell panel (cell panel before animal/human); optional AMPK KD / compound C / AICAR-path controls."
+  ],
+  "document_date": "2026-09-27",
+  "milestones": [
+    {
+      "title": "Mol Labs P17 Public Report Published",
+      "description": "Public report for hypothesis card P17 (MOTS-c one-carbon-insufficiency assumption-kill) published to Mol Labs public reports.",
+      "date": "2026-09-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-27/P17.md",
+      "page": 1
+    },
+    {
+      "title": "P17 Assay Execution (NOT_RUN)",
+      "description": "Proposed matched MOTS-c ± folate-repletion cell panel assay measuring residual pAMPK Thr172 / pACC Ser79 (or AICAR) and AMP/ATP under folate repletion that abolishes MOTS-c-enhanced glycolysis. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=one-carbon-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "file_path": "/reports/2026-09-27/N17.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (N17) proposing a PC12 neurite-outgrowth assay to test whether Hericium erinaceus extract retains residual neurite phenotype under NGF neutralization or TrkA blockade that abolishes an NGF-class positive control. The document is a hypothesis/proposal (execution_status=NOT_RUN), cataloguing existing literature as baselines and identifying a key experimental gap: no published head-to-head study has co-designed an NGF-class abolish gate with a residual Hericium arm on the same panel. The project is at TRL 1–2 (concept with literature framing, no experimental data generated).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Status",
+      "content": "Mol Labs public report card N17. Status: NEGATIVE (status_labels), execution_status=NOT_RUN. The document is a research discussion / hypothesis proposal (openlabs_target=discussion, openlabs_topic=neuroscience-brain, risk_class=research-discussion). It is tagged as nootropics, brain-longevity. No experiments have been run; this is a pre-registered assay proposal."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim / Hypothesis",
+      "content": "On a pre-registered PC12 neurite-outgrowth panel with an NGF-class positive control, NGF neutralization or TrkA blockade that abolishes NGF-class neurite gain, and a Hericium erinaceus extract (or named hericenone/erinacine prep) arm: under the same block that abolishes NGF-class neurite gain, Hericium retains residual neurite phenotype ≥50% of Hericium-alone (neurite-bearing % or neurite length units as pre-specified; α/N pre-specified). This is framed as an 'assumption-kill / ngf-insufficiency' test."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Hericium erinaceus is commonly framed via NGF induction (in 1321N1 astrocytes and mouse hippocampus) or NGF-mediated neurite potentiation in PC12 cells. Human cognition arms in published RCTs lack NGF/TrkA pharmacodynamics. No published study co-designs an abolish-NGF-class / residual-Hericium panel. The proposed experiment asks whether residual Hericium neurite phenotype on PC12 survives NGF neutralization or TrkA blockade that abolishes an NGF-class positive-control gain — i.e., whether NGF/TrkA is necessary for Hericium's neurite phenotype."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baseline",
+      "content": "Four key prior art references are catalogued:\n1. PMID 18844328 (Mori 2009, DOI 10.1002/ptr.2634): Yamabushitake MCI RCT; HDS-R improved vs placebo over 16 weeks, fell after washout. Human cognition without NGF PD / no TrkA-block arm; not residual-under-block H2H.\n2. PMID 18758067 (Mori/Kawagishi 2008, DOI 10.1248/bpb.31.1727): H. erinaceus extract ↑ NGF mRNA/protein in 1321N1 astrocytes; hippocampal NGF mRNA ↑ in mice; conditioned medium enhanced PC12 neurites; hericenones C/D/E failed NGF gene induction. Cell/animal NGF induction prior; not residual-under-block H2H.\n3. PMID 32581767 (Li 2020, DOI 10.3389/fnagi.2020.00155): Erinacine A–enriched Hericium mycelia mild-AD RCT 49 weeks; MMSE/IADL/neuroimaging; biomarkers include BDNF, Aβ1-40, apoE4, ACT — NGF not listed; no TrkA/NGF-block residual arm. BDNF pathway ≠ NGF mediation.\n4. PMID 26481911 (Zhang 2015, DOI 10.1016/j.bmcl.2015.10.016): Hericium constituents stimulate/potentiate NGF-mediated neurite outgrowth on PC12 (in presence of NGF). Potentiation context prior; not residual under block that abolishes NGF-class gain.\nAdditional adjacent references noted but not matching: PMID 28758954, PMID 25288148, PMID 33066380 (TrkA/Erk potentiation, partial K252a on hericenone+low-NGF, TrkA-dependent erinacine C) — none co-design NGF-class positive control abolished by the same block while scoring residual Hericium phenotype."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Mori_Yamabushitake_MCI_cognition_without_NGF_PD | LITERATURE | Human MCI RCT; oral Yamabushitake; HDS-R (Mori 2009) | HDS-R improved vs placebo 16 wk; fell after washout (PMID 18844328) — no NGF PD / no TrkA-block arm |\n| Mori_Hericium_NGF_induction_1321N1_PC12 | LITERATURE | 1321N1 + mouse hippocampus NGF induction; PC12 neurite via conditioned medium (Mori/Kawagishi 2008) | H. erinaceus ↑ NGF mRNA/protein in 1321N1; hippocampal NGF mRNA ↑ in mice; CM enhanced PC12 neurites; hericenones C/D/E failed NGF gene induction (PMID 18758067) |\n| Li_erinacine_mild_AD_BDNF_not_NGF | LITERATURE | Human mild AD; erinacine A–enriched Hericium mycelia RCT 49 wk (Li 2020) | MMSE/IADL/neuroimaging signals; BDNF, Aβ1-40, apoE4, ACT — NGF not listed; no TrkA/NGF-block arm (PMID 32581767) |\n| Zhang_PC12_NGF_potentiation | LITERATURE | PC12; Hericium constituents ± NGF; neurite-bearing cells (Zhang 2015) | Named constituents in presence of NGF increase neurite-bearing cells (PMID 26481911) — potentiation context |\n| matched_residual_Hericium_under_NGF_TrkA_block_H2H | UNKNOWN | Same PC12 neurite panel — NGF-class positive control ± TrkA inhibitor / neutralizing NGF Ab + Hericium ± same block | Dedicated residual-Hericium under NGF/TrkA block not found; soft-complete 0 true co-panel; anti-NGF ∩ Hericium = 0 — UNKNOWN + missing_search |\n| residual_Hericium_neurite_ge_50pct_of_alone_when_NGF_class_abolished | PREDICTION | Pre-registered PC12 neurite-outgrowth panel; NGF-class arm must show abolished neurite gain under NGF neutralization or TrkA blockade | Residual Hericium neurite phenotype ≥50% of Hericium-alone (neurite-bearing % or neurite length units as pre-specified) while NGF-class gain is abolished — PREDICTION (not yet run) |\n| competing_block_fail_or_Hericium_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if block fails to abolish NGF-class gain, Hericium-alone null, underpowered strata, or assay-identity mismatch | Block-fail-to-abolish / Hericium-alone-null / underpowered-strata / assay-mismatch as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Preferred design: Same-panel PC12 neurite-outgrowth assay locking NGF-class positive control ± named TrkA inhibitor (e.g., K252a, GW441756) or neutralizing NGF antibody vs Hericium extract (or named hericenone/erinacine prep) ± same block, before treating NGF/TrkA as necessary for Hericium phenotype. Assay identity pre-specified as neurite-bearing % or neurite length class. α/N pre-specified. Optional rodent cognitive overlay only after cell abolish×residual locks. Optional BDNF overlay (Li) is adjacent only. Estimated kill_cost_tier=1, time_to_refute=4 weeks, ip_class=ngf-insufficiency, vault_hold=no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered PC12 neurite-outgrowth panel, under NGF neutralization or TrkA blockade that abolishes NGF-class neurite gain, residual Hericium neurite phenotype falls below 50% of Hericium-alone (neurite-bearing % or neurite length units as pre-specified) — so NGF/TrkA-sufficiency for Hericium neurite phenotype survives and ngf-insufficiency fails — when block-abolish, Hericium-alone comparator, and power/assay artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Caveats",
+      "content": "1. N1–N16 do not prove N17. N2 mapped cognition without NGF PD + cell NGF + BDNF≠NGF and left 'block NGF/TrkA → lose benefit?' as open UNKNOWN — not a matched residual-under-block H2H. N15 is residual modafinil PVT under DAT-matched block. N16 is plasma-Cr↑ without ³¹P PCr fails SD WM.\n2. Potentiation / TrkA-pathway ≠ residual-under-block H2H. Zhang 26481911 potentiates NGF-mediated outgrowth; adjacent Zhang 28758954 / Phan 25288148 / Rupcic 33066380 are TrkA/Erk potentiation, partial K252a on hericenone+low-NGF, or TrkA-dependent erinacine C — none co-design NGF-class positive control abolished by the same block while scoring residual Hericium phenotype.\n3. Human Mori/Li/Saitsu cognition arms lack NGF/TrkA PD and lack block arms.\n4. Competing caveats: block fails to abolish NGF-class gain / Hericium-alone null / underpowered strata / assay-identity mismatch leave the test inconclusive rather than refuted.\n5. NOT MB/MAOI (SERIES_FROZEN). Do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "ip_class=ngf-insufficiency. kill_cost_tier=1. time_to_refute=4 weeks. vault_hold=no. execution_status=NOT_RUN. fto_status=UNKNOWN. Related prior: N2 (open Q ≠ matched residual H2H; holds sole ip_class=none); N15 (modafinil-DAT residual ≠ Hericium×NGF/TrkA); N16 (plasma-Cr/PCr ≠ Hericium×NGF/TrkA); N1–N16 ≠ proof."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — no experimental data has been generated; this is a hypothesis/assay proposal at TRL 1.",
+    "Central hypothesis: Hericium erinaceus extract retains residual PC12 neurite phenotype ≥50% of Hericium-alone under NGF neutralization or TrkA blockade that abolishes an NGF-class positive control.",
+    "Literature baseline confirms: (1) human MCI RCT cognition benefit without NGF PD (PMID 18844328); (2) cell/animal NGF induction by H. erinaceus (PMID 18758067); (3) mild-AD RCT with BDNF (not NGF) biomarkers (PMID 32581767); (4) PC12 NGF-potentiation by Hericium constituents (PMID 26481911).",
+    "Key gap identified: matched residual-Hericium under NGF/TrkA block that abolishes NGF-class neurite gain = UNKNOWN; soft-complete search found 0 true co-panel studies; anti-NGF ∩ Hericium = 0 in literature.",
+    "Proposed assay: same-panel PC12 neurite-outgrowth with NGF-class positive control ± TrkA inhibitor (K252a/GW441756) or neutralizing NGF Ab vs Hericium extract ± same block; assay identity pre-specified (neurite-bearing % or neurite length); α/N pre-specified.",
+    "Refutation threshold: residual Hericium neurite <50% of Hericium-alone under block that abolishes NGF-class gain would support NGF/TrkA-sufficiency and refute ngf-insufficiency hypothesis.",
+    "Estimated time to refute: 4 weeks; kill_cost_tier=1; ip_class=ngf-insufficiency.",
+    "Adjacent potentiation studies (Zhang 28758954, Phan 25288148, Rupcic 33066380) do not satisfy the co-design requirement of abolishing NGF-class gain while scoring residual Hericium phenotype.",
+    "Status label: NEGATIVE (polarity: negative) — indicating the hypothesis is framed as an assumption-kill with no current positive evidence for the residual phenotype claim."
+  ],
+  "milestones": []
+}

@@ -1,0 +1,73 @@
+{
+  "file_path": "/reports/2026-09-27/P23.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (P23) framing a research hypothesis (\"assumption-kill\") about whether exogenous oxytocin retains social-memory or anxiolytic phenotype under conditions where OXTR-class attribution is fully abolished (via OXTR antagonist or Oxtr genetic LOF). The document is a pre-registered discussion/proposal card, not a completed experiment, with execution status listed as NOT_RUN. It reviews prior literature (Ferguson, Takayanagi, Hung, Matsumoto, Tsai) that collectively argues AGAINST residual oxytocin activity under OXTR abolish, and identifies the matched residual H2H experiment as UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis (P23)",
+      "content": "On a matched social-recognition / anxiolysis panel ± exogenous oxytocin ± OXTR antagonist or Oxtr genetic LOF (e.g. L-368,899, site-specific OXTR antagonist, or Oxtr-/- / cell-type Oxtr ablation) titrated so the block abolishes OXTR-class social-recognition / anxiolysis attribution, residual oxytocin social-memory / anxiolytic phenotype remains ≥50% of the oxytocin without-OXTR-abolish arm on the same panel. This is labeled an 'assumption-kill' / oxtr-insufficiency hypothesis. Status: NEGATIVE polarity; execution_status=NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Ferguson maps OXTR activation in medial amygdala as necessary and sufficient for mouse social recognition. Takayanagi / Hung / Matsumoto map Oxtr LOF social-discrimination and allogrooming deficits. P23 asks whether residual exogenous oxytocin social-memory / anxiolysis under an OXTR antagonist or Oxtr LOF that abolishes OXTR-class attribution still requires a path beyond OXTR-class attribution (oxtr-insufficiency assumption-kill). The document explicitly distinguishes P23 from P15–P22 (different peptides/targets)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "The oxtr-insufficiency assumption-kill is grounded in: (1) Ferguson OXTR MeA necessary and sufficient for social recognition (OT antagonist; OT peptide-KO rescue requires intact OXTR — necessity AGAINST residual); (2) Takayanagi Oxtr(-/-) social discrimination deficits; (3) Hung Oxtr mossy-cell social discrimination (cell-type necessity); (4) Matsumoto Oxtr indispensable allogrooming; (5) Promoted Tsai (PMID 35811321) showing PVH OXT-neuron SRM enhancement BLOCKED by L-368,899 into dCA2 — stronger necessity H2H AGAINST residual. None of these score residual exogenous oxytocin under an OXTR antagonist / Oxtr LOF that abolishes OXTR-class attribution on the same panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary",
+      "content": "| PMID | Reference | Finding | Relevance to P23 |\n|------|-----------|---------|------------------|\n| 11588199 | Ferguson 2001 J Neurosci (DOI 10.1523/JNEUROSCI.21-20-08278.2001; PMC6763861) | OT in medial amygdala essential for mouse social recognition; site-specific OT antagonist shows OXTR activation necessary and sufficient | Necessity AGAINST residual; OT peptide-KO rescue requires intact OXTR ≠ Oxtr-LOF residual H2H |\n| 16249339 | Takayanagi 2005 PNAS (DOI 10.1073/pnas.0505312102; PMC1276060) | Oxtr(-/-) mice show pervasive social deficits including social discrimination | Necessity/phenotype prior; exogenous-OT residual arm under Oxtr LOF not scored |\n| 37769745 | Hung 2023 Neurobiol Dis (DOI 10.1016/j.nbd.2023.106311) | Oxtr ablation from hilar mossy cells impairs social (not object) discrimination | Cell-type necessity; NOT residual-positive exogenous OT under OXTR abolish |\n| 34057769 | Matsumoto 2021 J Neuroendocrinol (DOI 10.1111/jne.12980; PMC8243938) | Allogrooming toward distressed cage mates markedly reduced in Oxtr-deficient female mice | Necessity prior; NOT residual-positive H2H |\n| 35811321 | Tsai (promoted) | PVH OXT-neuron SRM enhancement BLOCKED by L-368,899 into dCA2 | Stronger necessity H2H AGAINST residual; not residual-positive |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|----------|------|-------|------------------|\n| Ferguson_OXTR_MeA_social_recognition_necessity | LITERATURE | OT knockout mice; site-specific OT and OT antagonist into medial amygdala; social recognition / Fos-IR | OT KO fail social recognition; OT into MeA restores recognition; OXTR activation in MeA necessary and sufficient — necessity AGAINST residual |\n| Takayanagi_Oxtr_deficient_social_discrimination | LITERATURE | Oxtr(-/-) mice vs Oxt(-/-); social discrimination; maternal nurturing; aggression; USV | Oxtr(-/-) mice show deficits in social discrimination — necessity/phenotype prior; exogenous-OT residual arm under Oxtr LOF not scored |\n| Hung_Oxtr_mossy_cell_social_discrimination | LITERATURE | Cre-loxP Oxtr ablation from dentate gyrus hilar mossy cells; social vs object discrimination; OXTR agonist on slices; optogenetic MC-to-GC rescue | Ablation of Oxtr from hilar mossy cells impairs social (not object) discrimination — cell-type necessity; NOT residual-positive |\n| Matsumoto_Oxtr_allogrooming_necessity | LITERATURE | Female mice social-defeat allogrooming; Oxtr-deficient mice; c-Fos in OXTR-expressing neurons | Allogrooming markedly reduced in Oxtr-deficient female mice — necessity prior; NOT residual-positive H2H |\n| matched_residual_oxytocin_under_OXTR_abolish_H2H | UNKNOWN | Same social-recognition / anxiolysis panel ± exogenous oxytocin ± OXTR antagonist or Oxtr genetic LOF | Dedicated residual-positive exogenous oxytocin social-memory / anxiolytic phenotype under OXTR antagonist / Oxtr LOF not found — UNKNOWN + missing_search |\n| residual_oxytocin_social_memory_anxiolysis_ge50pct_of_oxytocin_without_OXTR_abolish | PREDICTION | Pre-registered matched social-recognition / anxiolysis panel ± exogenous oxytocin ± OXTR antagonist or Oxtr genetic LOF | Residual oxytocin social-memory / anxiolytic phenotype ≥50% of the oxytocin without-OXTR-abolish arm — author-chosen PREDICTION; not yet observed |\n| competing_incomplete_OXTR_block_or_OXTR_class_not_abolished_inconclusive | PREDICTION | Same design; competing outcomes if apparent residual is only incomplete OXTR block | Incomplete-OXTR-block / OXTR-class-attribution-not-abolished / no-residual-to-score / block-QC-fail allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Status",
+      "content": "Ferguson OXTR MeA necessary and sufficient: LITERATURE (PMID 11588199; necessity AGAINST residual). Takayanagi Oxtr(-/-) social discrimination: LITERATURE (PMID 16249339; phenotype without exogenous-OT residual arm). Hung Oxtr mossy-cell social discrimination: LITERATURE (PMID 37769745; cell-type necessity ≠ residual H2H). Matsumoto Oxtr indispensable allogrooming: LITERATURE (PMID 34057769; necessity ≠ residual H2H). Tsai PVH OXT-neuron SRM enhance BLOCKED by L-368,899 into dCA2: LITERATURE (PMID 35811321; necessity H2H AGAINST residual). Matched residual-positive exogenous oxytocin social-memory / anxiolysis under OXTR antagonist / Oxtr LOF: UNKNOWN. Residual ≥50% of oxytocin without-OXTR-abolish arm: PREDICTION (not yet observed)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method",
+      "content": "Method type: propose-assay. Preferred approach: MeA / mossy-cell / dCA2 circuit or slice block-QC with OXTR antagonist / Oxtr ablation before new animal social-recognition / anxiolysis panels. Key design elements: (1) Lock one social-recognition / anxiolysis panel; (2) ± exogenous oxytocin; (3) ± OXTR antagonist or Oxtr genetic LOF (e.g. L-368,899, site-specific OXTR antagonist, or Oxtr-/- / cell-type Oxtr ablation); (4) Block QC must abolish OXTR-class social-recognition / anxiolysis attribution; (5) Social-memory / anxiolytic readout; (6) ≥50%-of-oxytocin-without-OXTR-abolish residual gate. Refute condition: residual <50% of oxytocin without-OXTR-abolish arm when incomplete block and QC artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P1–P22 as proving P23 — Ferguson/Takayanagi/Hung/Matsumoto necessity priors are not a residual-under-OXTR-abolish H2H; Tsai L-368899 block leans AGAINST residual; soft-complete empty ≠ demonstrated residual phenotype; do not invent residual when UNKNOWN. 2. Skip-list / series distinctness — do not freeze or collapse to OpenLabs BPC orthosteric dialect, P15–P22 series, or FOXO4×LOF (SERIES_FROZEN). 3. Ferguson/Takayanagi/Hung/Matsumoto lack an exogenous-OT residual arm under OXTR-abolish on the same panel; incomplete OXTR block / OXTR-class attribution not abolished / no residual to score / block-QC failure leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP / Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4w · ip_class=oxtr-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. STATUS_LABEL: NEGATIVE. risk_class: research-discussion. Mol Labs public report: PENDING dual-publish."
+    }
+  ],
+  "key_findings": [
+    "P23 is a pre-registered hypothesis (NOT_RUN) asking whether exogenous oxytocin retains ≥50% social-memory or anxiolytic phenotype under OXTR antagonist or Oxtr genetic LOF that abolishes OXTR-class attribution — the matched residual H2H result is UNKNOWN.",
+    "All four key prior-art studies (Ferguson PMID 11588199, Takayanagi PMID 16249339, Hung PMID 37769745, Matsumoto PMID 34057769) provide necessity evidence AGAINST residual oxytocin activity under OXTR abolish, but none include an exogenous-OT residual arm under OXTR-abolish on the same panel.",
+    "Promoted Tsai (PMID 35811321) shows PVH OXT-neuron social recognition memory enhancement is BLOCKED by L-368,899 into dCA2 — the strongest H2H evidence AGAINST residual, but still not a matched residual-positive result.",
+    "The ≥50% residual threshold is an author-chosen PREDICTION, not an observed effect; no dosing data, no quantitative experimental results are present in this document.",
+    "Execution status is NOT_RUN; FTO status is UNKNOWN; the document is a research-discussion proposal card with negative polarity and kill_cost_tier=1 (estimated 4 weeks to refute).",
+    "The document explicitly distinguishes P23 from P15–P22 (BPC/FBXO22, LKKTETQ, MOTS-c, SS-31, ARA290, Semax, Selank, Dihexa) and from FOXO4×LOF (SERIES_FROZEN), emphasizing that none of those prior series constitute proof for P23.",
+    "Proposed assay prefers MeA / mossy-cell / dCA2 circuit or slice block-QC with OXTR antagonist / Oxtr ablation before new animal social-recognition / anxiolysis panels."
+  ],
+  "milestones": []
+}

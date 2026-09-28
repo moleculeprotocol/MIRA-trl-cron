@@ -1,0 +1,87 @@
+{
+  "file_path": "/reports/2026-09-28/L26.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (L26) proposing an assumption-kill experiment to test whether melatonin's lifespan/healthspan benefits are solely MT1/MT2 receptor-dependent. The document frames a pre-registered rodent metabolic/healthspan panel design where melatonin vs. vehicle is tested under luzindole or Mtnr1a/Mtnr1b LOF (loss-of-function) conditions that abolish melatonin-class longevity attribution, with the primary prediction that residual early healthspan/metabolic improvement under the block arm retains ≥50% of the MT-intact melatonin vs. vehicle effect. The experiment has NOT been run; the document is a research discussion/proposal at TRL 1–2.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report L26 (PUBLIC_REPORT_ONLY). The central claim: On a pre-registered rodent metabolic/healthspan panel (Pierpaoli/Anisimov-class) with melatonin vs vehicle under luzindole or Mtnr1a/Mtnr1b (MT1/MT2) LOF that abolishes melatonin-class longevity attribution, same-panel early healthspan/metabolic improvement (melatonin vs vehicle under abolish) retains ≥50% of the melatonin vs vehicle early healthspan/metabolic improvement on MT-intact concurrent controls. This is framed as an 'assumption-kill' / mt-receptor-insufficiency test. Residual-positive melatonin lifespan or healthspan H2H under luzindole/Mtnr1a/Mtnr1b abolish is explicitly stated as UNKNOWN. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale and Mechanism Sketch",
+      "content": "Melatonin longevity/healthspan benefits are often attributed to MT1/MT2 receptor necessity. Key literature grounding: (1) Pierpaoli PNAS 1994 (PMID 8290600) — melatonin night administration and pineal grafting prolong survival/postpone aging in mice; no luzindole or Mtnr1a/b residual lifespan H2H; pineal-grafting ≠ MT-receptor residual H2H. (2) Anisimov J Gerontol 2001 (PMID 11445596) — melatonin increases life span in female CBA mice (also increases spontaneous tumor incidence); no MT-abolish residual arm. (3) Jin Mol Cell Biol 2003 (PMID 12529409) — Mel1b/MT2 targeted disruption as genetic LOF tool (circadian/SCN); no aging/lifespan/healthspan endpoints. (4) Dubocovich Eur J Pharmacol 1990 (PMID 2168835) — luzindole (N-0774) as melatonin-receptor antagonist with antidepressant-like activity; NOT a melatonin × luzindole longevity residual arm. (5) Zhang/Heliyon 2024 (PMID 39347399) — melatonin ameliorates aging cardiac dysfunction but cannot improve cardiac function without MT1/2; cardiac necessity AGAINST residual for that endpoint; ≠ organismal residual-positive H2H. The document concludes that a matched residual-positive melatonin lifespan/healthspan H2H under luzindole/Mtnr1a/Mtnr1b abolish remains UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Outcome |\n|---|---|---|---|\n| Pierpaoli_melatonin_pineal_grafting_survival_phenotype | LITERATURE | Aging mice; melatonin night administration; young-to-old pineal grafting; survival/postponed aging | Phenotype founding prior; no luzindole or Mtnr1a/b residual lifespan H2H; pineal-grafting ≠ MT-receptor residual H2H (PMID 8290600) |\n| Anisimov_melatonin_female_CBA_lifespan_phenotype | LITERATURE | Female CBA mice; melatonin; life span; spontaneous tumor incidence | Melatonin increases life span and tumor incidence; no luzindole/MT-LOF residual arm; tumor caveat noted (PMID 11445596) |\n| Jin_Mel1b_MT2_KO_tool_no_aging_endpoints | LITERATURE | Mouse Mel1b/MT2 targeted disruption; SCN multiunit activity; circadian phenotype | Genetic LOF TOOL; aging/lifespan/healthspan endpoints absent; ≠ residual melatonin longevity under MT2 abolish (PMID 12529409) |\n| Dubocovich_luzindole_antagonist_tool_not_longevity_residual | LITERATURE | Mouse behavioral despair; luzindole (N-0774); melatonin-receptor antagonist in vivo | Chemical TOOL; NOT a melatonin × luzindole longevity residual arm (PMID 2168835) |\n| Zhang_cardiac_MT12_necessity_out_of_public_prior_art | LITERATURE | Aging mice; MT1 and MT2 knockout; melatonin; cardiac function/fibrosis/inflammation | Cardiac necessity AGAINST residual for that endpoint; ≠ organismal residual-positive H2H; OUT of public prior_art ≤4 (PMID 39347399) |\n| matched_melatonin_under_MT_block_residual_lifespan_healthspan_H2H | UNKNOWN | Rodent ± melatonin ± luzindole (or Mtnr1a/Mtnr1b LOF) with same-panel lifespan/healthspan residual | Residual-positive melatonin lifespan or healthspan H2H UNKNOWN; do not invent residual |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_melatonin_vs_vehicle | PREDICTION | Pre-registered rodent metabolic/healthspan panel; abolish lock; early healthspan/metabolic Δ scored against MT-intact arm | Under abolish lock, same-panel early healthspan/metabolic improvement retains ≥50% of MT-intact melatonin vs vehicle improvement; α/N pre-specified |\n| competing_abolish_fail_or_melatonin_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Abolish-fail / melatonin-alone-null / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Prior art status: PARTIAL. Phenotype founding (Pierpaoli, Anisimov) and LOF tools (Jin MT2 KO, Dubocovich luzindole) are found in literature. Organismal residual-positive melatonin lifespan/healthspan H2H under luzindole or Mtnr1a/Mtnr1b abolish is ABSENT from public prior art. Zhang 2024 cardiac MT1/2 necessity is noted as outside public prior_art (≤4 references). Liu Mel1a/MT1 KO (PMID 9247266) — optional MT1 tool, no aging endpoints, OUT of public prior_art. Chern luzindole∩lifespan (PMID 22330064) — ischemic-stroke OFF-PANEL, excluded as longevity residual anchor. Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design and Refutation Criteria",
+      "content": "Proposed assay: Pre-registered rodent metabolic/healthspan panel (Pierpaoli/Anisimov-class). Design: melatonin vs vehicle × luzindole (or Mtnr1a/Mtnr1b LOF) with abolished melatonin-class-control-benefit definition. Prefer cell/tissue/block-QC before new animal longevity. Primary endpoint: early healthspan/metabolic referee within the refute window (6 weeks). Optional full-lifespan co-readout only as secondary. Threshold: ≥50% retention of MT-intact melatonin vs vehicle early healthspan/metabolic improvement under abolish lock. Refute if: same-panel early healthspan/metabolic improvement (melatonin vs vehicle under abolish) is <50% of the melatonin vs vehicle early healthspan/metabolic improvement on MT-intact concurrent controls — when abolish-fail, melatonin-alone-null, underpowered-strata, or assay-mismatch artifacts are ruled out. Kill cost tier: 2. Time to refute: 6 weeks. IP class: mt-receptor-insufficiency. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Differentiation from Other Series (L15–L25)",
+      "content": "Explicit differentiation from prior series: L15 (DunedinPACE/Oh organ-age) ≠ L26; L16 (tissue SA-β-gal/p16 vs blood under D+Q) ≠ L26; L17 (intermittent-rapa FKBP-high tissue mTORC2) ≠ L26; L18 (17α-E2 × caloric-match residual) ≠ L26; L19 (acarbose × glycemic-match residual) ≠ L26; L20 (SPD residual under ATG5/7/autophagy-insufficiency; MT ≠ bulk ATG) ≠ L26; L21 (UA residual under PINK1/Parkin/mitophagy-insufficiency; MT ≠ mitophagy) ≠ L26; L22 (metformin residual under AMPK LOF; MT ≠ AMPK primary; melatonin ≠ metformin) ≠ L26; L23 (lithium residual under GSK3 LOF; MT ≠ GSK3) ≠ L26; L24 (canagliflozin residual under SGLT2 LOF; MT ≠ SGLT2) ≠ L26; L25 (resveratrol residual under SIRT1 LOF/EX527; Melatonin/MT ≠ SIRT1; melatonin ≠ resveratrol; do not collapse via PMID 25975679) ≠ L26. NOT NAD-after-senolysis (SERIES_FROZEN). L1–L25 ≠ proof of L26."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. IP class: mt-receptor-insufficiency. Vault hold: no. Kill cost tier: 2. Time to refute: 6 weeks. Status labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion. Related prior: Pierpaoli 1994 melatonin/pineal grafting survival + Anisimov 2001 female CBA life span + Jin 2003 Mel1b/MT2 KO tool (no aging endpoints) + Dubocovich 1990 luzindole antagonist tool (≠ longevity residual); Zhang 2024 cardiac MT1/2 necessity OUT of public prior_art. Dual-publish status: PENDING."
+    }
+  ],
+  "key_findings": [
+    "Experiment has NOT been run (execution_status=NOT_RUN); this is a research discussion/proposal at TRL 1.",
+    "Central claim: melatonin lifespan/healthspan benefits may not be solely MT1/MT2 receptor-dependent; residual-positive melatonin healthspan H2H under luzindole or Mtnr1a/Mtnr1b LOF abolish is explicitly UNKNOWN.",
+    "Pierpaoli 1994 (PMID 8290600) establishes melatonin/pineal grafting survival phenotype but lacks luzindole or Mtnr1a/b residual lifespan H2H; pineal-grafting ≠ MT-receptor residual H2H.",
+    "Anisimov 2001 (PMID 11445596) establishes melatonin life span increase in female CBA mice (with tumor incidence caveat) but lacks MT-abolish residual arm.",
+    "Jin 2003 (PMID 12529409) provides Mel1b/MT2 KO as a genetic LOF tool for circadian/SCN studies; aging/lifespan/healthspan endpoints are absent.",
+    "Dubocovich 1990 (PMID 2168835) establishes luzindole as a melatonin-receptor antagonist tool; NOT a melatonin × luzindole longevity residual arm.",
+    "Zhang 2024 (PMID 39347399) shows melatonin cannot improve aging cardiac function without MT1/2 — cardiac necessity AGAINST residual for that endpoint, not organismal residual-positive H2H.",
+    "Prior art status: PARTIAL — phenotype and LOF tools found; organismal residual-positive melatonin lifespan/healthspan H2H under MT abolish is absent from public prior art.",
+    "Proposed primary endpoint: early healthspan/metabolic improvement within 6-week refute window; full lifespan only secondary.",
+    "Refutation threshold: block-arm early healthspan/metabolic improvement <50% of MT-intact melatonin vs vehicle improvement (when confounds ruled out) = melatonin reduces to mere MT-receptor-necessary bridge.",
+    "Competing inconclusive outcomes pre-registered: abolish-fail, melatonin-alone-null, underpowered strata, assay-mismatch.",
+    "Explicit differentiation from L15–L25 series; MT ≠ SIRT1, MT ≠ AMPK, MT ≠ bulk ATG, MT ≠ mitophagy, MT ≠ GSK3, MT ≠ SGLT2; melatonin ≠ resveratrol; NOT NAD-after-senolysis."
+  ],
+  "milestones": [
+    {
+      "title": "Proposed In Vivo Healthspan Panel Refute Window",
+      "description": "Pre-registered rodent metabolic/healthspan panel (Pierpaoli/Anisimov-class) with melatonin vs vehicle under luzindole or Mtnr1a/Mtnr1b LOF; primary early healthspan/metabolic endpoint to be read within a 6-week refute window.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "primary kill path remains a matched rodent ± melatonin ± luzindole (or Mtnr1a/Mtnr1b LOF) early healthspan/metabolic panel within the refute window; full lifespan only secondary",
+      "page": 1
+    },
+    {
+      "title": "Cell/Tissue/Block-QC Before Animal Longevity",
+      "description": "Preferred pre-step: cell/tissue/block-QC confirming abolish of melatonin-class control before new animal longevity runs.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Prefer cell/tissue/block-QC confirming abolish of melatonin-class control before new animal longevity runs",
+      "page": 1
+    }
+  ]
+}
