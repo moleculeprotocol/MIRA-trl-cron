@@ -1,0 +1,93 @@
+{
+  "file_path": "/reports/2026-09-26/N15.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (N15) proposing a pre-registered sleep-deprivation psychomotor vigilance (PVT) experiment to test whether modafinil's alertness benefit survives a selective DAT-inhibitor arm occupancy-matched to published PET figures (~50% striatal DAT occupancy). The document is a research discussion/proposal at TRL 1, with no experiments run, framing an \"assumption-kill\" of the DAT-sufficiency hypothesis for modafinil's PVT effect. All experimental evidence cited is from existing literature (Volkow, Kim, Wesensten), and the key matched residual-PVT panel is explicitly marked UNKNOWN and NOT_RUN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement (N15)",
+      "content": "On a pre-registered sleep-deprivation psychomotor vigilance (PVT) panel with three arms — (1) a selective DAT inhibitor occupancy-matched to Volkow/Kim modafinil striatal DAT (~50% caudate/putamen), (2) a methylphenidate-class positive-control arm, and (3) a modafinil arm — the prediction is that under the DAT-matched selective DAT-i condition that abolishes methylphenidate-class ΔPVT, modafinil retains residual ΔPVT ≥50% of modafinil-alone ΔPVT (ms mean RT or lapses/trial; α/N pre-specified). This is labeled an 'assumption-kill / dat-insufficiency' hypothesis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Popular and PET framing treat ~50% striatal DAT occupancy as sufficient to explain modafinil alertness/PVT. N15 asks whether residual modafinil ΔPVT survives a DAT-matched block that kills a DAT-primary stimulant PVT arm. Distinct from N1 (DAT-alone vs H3/orexin variance wording; 0 DAT×PVT mediation) — N15 is specifically about residual modafinil ΔPVT under occupancy-matched selective DAT-i that abolishes methylphenidate-class PVT. Occupancy PET (Volkow/Kim) and modafinil PVT (Wesensten) are separate literature; no co-designed abolish×residual panel exists."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "DAT-insufficiency assumption-kill: Human PET shows modafinil occupies striatal DAT (~40–57%; Volkow [11C]cocaine; Kim [18F]FE-PE2I). Separate sleep-deprivation panels show modafinil PVT/alertness gain (Wesensten). No published head-to-head scores residual modafinil ΔPVT under a selective DAT-i arm occupancy-matched to those PET figures that abolishes methylphenidate-class PVT. Optional H3 inverse-agonist parallel arm is adjacent only (Parmentier/Lin; discard H3 'block' identity). Competing caveats: occupancy mismatch / MPH positive-control failure for PK reasons / underpowered sleep-debt strata leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "1. PMID 19293415 (Volkow et al., JAMA 2009): Human PET [11C]cocaine DAT occupancy after oral modafinil — caudate ~53.8%, putamen ~47.2%, NAcc ~39.3%. Defines occupancy match target; not residual-PVT under DAT-matched block H2H.\n2. PMID 24451483 (Kim et al.): Human PET DAT-selective [18F]FE-PE2I striatal occupancy ~51.4% (200 mg) / ~56.9% (300 mg). Independent match point; not residual-PVT H2H.\n3. PMID 16120100 (Wesensten 2005, DOI 10.1111/j.1365-2869.2005.00468.x): Sleep-deprivation PVT/alertness panel — modafinil restores performance vs placebo (vs caffeine / d-amphetamine). Modafinil PVT prior; not DAT-matched block residual-PVT H2H.\n4. PMID 17288995 (Parmentier/Lin 2007): H3 inverse-agonist class vs modafinil / HDC KO wake persistence; tiprolisant+modafinil synergy implies parallel not identity — optional adjacent arm only; not DAT-matched residual-PVT H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| modafinil_striatal_DAT_occupancy_PET | LITERATURE | Human PET DAT occupancy after oral modafinil (Volkow [11C]cocaine; Kim [18F]FE-PE2I) | Caudate ~53.8% / putamen ~47.2% / NAcc ~39.3% (PMID 19293415); striatum ~51.4% at 200 mg / ~56.9% at 300 mg (PMID 24451483) |\n| modafinil_PVT_sleep_deprivation | LITERATURE | PVT/alertness under total sleep deprivation vs placebo/comparators (Wesensten 2005) | Modafinil restores performance/alertness under sleep deprivation (PMID 16120100) |\n| H3_inverse_agonist_adjacent_wake_class | LITERATURE | H3 inverse agonists promote wake; tiprolisant+modafinil synergy (Parmentier/Lin 2007) | Parallel not identity — optional adjacent arm only (PMID 17288995) |\n| matched_residual_modafinil_PVT_under_DAT_matched_block_H2H | UNKNOWN | Same sleep-deprivation PVT panel — selective DAT-i occupancy-matched + MPH positive control + modafinil | Dedicated residual-modafinil-PVT under DAT-matched block not found (soft-complete 0) — UNKNOWN + missing_search |\n| residual_modafinil_PVT_ge_50pct_of_alone_when_MPH_abolished | PREDICTION | Pre-registered sleep-deprivation PVT panel; selective DAT-i occupancy-matched; MPH-class arm must show abolished ΔPVT | Residual modafinil ΔPVT ≥50% of modafinil-alone ΔPVT (ms mean RT or lapses/trial) while MPH-class ΔPVT ≤0 |\n| competing_occupancy_mismatch_or_PK_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if residual failure/success is only occupancy mismatch, MPH PK failure, or underpowered strata | Occupancy-mismatch / MPH-PK-failure / underpowered-strata allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured vs. Unknown",
+      "content": "MEASURED (literature): Modafinil striatal DAT occupancy (PMID 19293415; 24451483). Modafinil PVT/alertness under sleep deprivation (PMID 16120100). H3 class adjacent literature (PMID 17288995).\nUNKNOWN: Matched residual-modafinil-ΔPVT under selective DAT-i occupancy-matched to Volkow/Kim that abolishes methylphenidate-class PVT. Soft-complete modafinil∩DAT∩PVT∩(MPH|occupancy) = 0; MPH∩PVT∩(occupancy|DAT) = 0. Token NON-MATCHes: ICSS 28125506, review 28740389, fatigue 22776872.\nPREDICTION: Residual modafinil ΔPVT ≥50% of modafinil-alone when MPH ΔPVT abolished."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N1–N14 as proving N15 — N1 is DAT-alone vs H3/orexin variance wording with 0 DAT×PVT mediation hits; that emptiness is not a DAT-matched block residual-PVT panel; soft-complete empty ≠ demonstrated residual gain.\n2. Occupancy PET ≠ PVT abolish panel — Volkow/Kim measure DAT occupancy; Wesensten measures modafinil PVT under sleep deprivation; none co-designs selective DAT-i occupancy-matched abolish of MPH PVT with residual modafinil readout.\n3. H3 adjacent ≠ DAT-matched design; discard H3 'block' identity; positive-control MPH∩PVT∩occupancy literature sparse (tight = 0); include MPH-class PVT positive control under same DAT condition; no dosing; NOT MB/MAOI."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "On the pre-registered sleep-deprivation PVT panel, under the selective DAT-i arm occupancy-matched to Volkow/Kim that abolishes methylphenidate-class ΔPVT, residual modafinil ΔPVT falls below 50% of modafinil-alone ΔPVT (ms mean RT or lapses/trial) — so DAT-sufficiency / DAT-primary framing for modafinil PVT survives and dat-insufficiency fails — when occupancy-match, MPH abolish-gate, and power artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution / IP / Cost Status",
+      "content": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=N1 (DAT×PVT mediation emptiness / discarded H3-block identity ≠ residual modafinil PVT under DAT-matched block that abolishes MPH PVT; N1–N14 ≠ proof). kill_cost_tier=1 · time_to_refute=4w · ip_class=dat-insufficiency · vault_hold=no. STATUS_LABEL: NEGATIVE. risk_class: research-discussion. Mol Labs public report: PENDING dual-publish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical components identified whose removal would invalidate the hypothesis test:\n1. Remove same sleep-deprivation PVT contrast of residual modafinil ΔPVT under selective DAT-i occupancy-matched to Volkow/Kim that abolishes methylphenidate-class ΔPVT → separate DAT-occupancy LITERATURE and modafinil-PVT LITERATURE cannot show dat-insufficiency.\n2. Remove occupancy-matched selective DAT-i identity (Volkow/Kim striatal DAT match) plus MPH-class abolish gate → residual modafinil PVT is just 'another wake drug under nonspecific block,' not an assumption-kill of DAT-sufficiency.\n3. Remove N1≠this + N1–N14≠proof + soft-complete-empty≠novelty + H3-identity-discarded + occupancy-PET≠PVT-abolish-panel discipline → treating N1 mediation emptiness, H3 adjacent priors, or Volkow/Kim/Wesensten alone as already deciding residual modafinil PVT would invent an H2H result left UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis N15 is at TRL 1 (concept/proposal only): execution_status=NOT_RUN, no experiments performed.",
+    "Modafinil occupies striatal DAT at ~40–57% (caudate ~53.8%, putamen ~47.2%, NAcc ~39.3% per Volkow PMID 19293415; striatum ~51.4–56.9% per Kim PMID 24451483) — these are the occupancy match targets for the proposed experiment.",
+    "Modafinil restores PVT performance under sleep deprivation vs placebo (Wesensten 2005, PMID 16120100) — established literature baseline, not a new experiment.",
+    "The key experimental variable — matched residual modafinil ΔPVT under selective DAT-i occupancy-matched to Volkow/Kim that abolishes methylphenidate-class PVT — is explicitly UNKNOWN (soft-complete search = 0 hits).",
+    "Prediction: residual modafinil ΔPVT ≥50% of modafinil-alone ΔPVT (ms mean RT or lapses/trial) while MPH-class ΔPVT ≤0 under the same DAT-matched selective DAT-i.",
+    "Refutation criterion: residual modafinil ΔPVT <50% of modafinil-alone ΔPVT under the same conditions would support DAT-sufficiency framing.",
+    "Estimated time to refute: 4 weeks; kill_cost_tier=1; ip_class=dat-insufficiency; vault_hold=no.",
+    "H3 inverse-agonist arm (tiprolisant+modafinil synergy, PMID 17288995) is adjacent/optional only — H3 'block' identity explicitly discarded.",
+    "No dosing specified; NOT MB/MAOI; FTO status UNKNOWN.",
+    "Status label: NEGATIVE (polarity: negative); novelty_tag: assumption-kill; no prior art found for the specific H2H abolish×residual panel design."
+  ],
+  "milestones": [
+    {
+      "title": "Estimated Time to Refute (Proposed Experiment)",
+      "description": "The document estimates the proposed DAT-matched abolish×residual PVT panel could be refuted within 4 weeks if run, reflecting a low-cost kill experiment design.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=dat-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

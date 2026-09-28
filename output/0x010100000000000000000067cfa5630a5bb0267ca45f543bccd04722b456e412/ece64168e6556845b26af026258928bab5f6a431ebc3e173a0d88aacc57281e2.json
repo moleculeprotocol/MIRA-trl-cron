@@ -1,0 +1,109 @@
+{
+  "file_path": "/reports/2026-09-25/L10.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a hypothesis card (L10) proposing a pre-registered experiment to test whether senescent-cell/SASP clearance causes absolute residual tissue ΔNAD (from a matched NAD-precursor pulse) to shrink while fractional residual ΔNAD (normalized to post-clearance baseline) does not. The claim is currently UNKNOWN/PREDICTION status — no dedicated experiment has been run. Supporting mechanistic literature exists (CD38 gating of NAD, SASP-driven CD38+ macrophage NAD drain, senolysis-mediated CD38 drop and partial NAD rebound), but the dual absolute-vs-fractional residual panel after documented senolysis has not been executed.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "After documented senescent-cell/SASP clearance, absolute residual tissue ΔNAD from a matched NAD-precursor pulse shrinks versus the same pulse without clearance run-in, while fractional residual ΔNAD (normalized to the post-clearance baseline NAD) does not shrink. Pre-registered dual readout: absolute_residual_after < absolute_residual_control outside a no-shrink band AND fractional_residual_after within a hold band of fractional_residual_control. No CD38i arm required. Status: PREDICTION — not yet measured."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Subtract-before-add logic: clear SASP-driven CD38+ macrophage load first, then pulse a matched NAD precursor and score both absolute and fractional residual ΔNAD vs post-clearance baseline. Key mechanistic chain: (1) CD38 gates age-related NAD decline and NMN fate; (2) SASP induces CD38-high macrophages that drain tissue NAD; (3) senescent/SASP ablation lowers CD38 and partially restores NAD; (4) ecto-CD38 block raises NAD via an NMN-dependent route. Rebound artifact is the competing story: after clearance, baseline NAD already rises, so absolute ΔNAD from a fixed pulse can shrink while fractional salvage holds — this dissociation is the claim and is not yet measured."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Context",
+      "content": "Longevity stacks often read absolute NAD gain from NMN/NR after senolysis and treat a smaller absolute Δ as true diminishing returns. This card is distinct from L8 (absolute-shrink alone) and L7/L9 (rebound-definition/stack-surplus cards) — it focuses on dual absolute vs fractional residual on one precursor ± senolysis run-in. Soft-claims: (NMN|NR)∩senolytic∩(absolute|fractional)∩NAD soft-complete = 0; dual residual panel remains UNKNOWN. L5–L9 are explicitly stated to not be proof of this dissociation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Supporting Literature",
+      "content": "Four key references cited:\n1. PMID 27304511 (Camacho-Pereira 2016, Cell Metab, DOI 10.1016/j.cmet.2016.05.006, PMC4911708): Age-related NAD↓ requires CD38; CD38 is the major in vivo NMN-degrading activity. Status: LITERATURE (confirmed).\n2. PMID 33199924 (Covarrubias 2020, Nat Metab, DOI 10.1038/s42255-020-00305-3, PMC7908681): SASP induces CD38-high macrophages that reduce tissue NAD. Status: LITERATURE (confirmed).\n3. PMID 33199925 (Chini 2020, Nat Metab, DOI 10.1038/s42255-020-00298-z, PMC8752031): Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD NMN-dependently. Noted as rebound-definition prior, NOT a dual residual panel.\n4. PMID 35263032 (Tarragó 2022, Aging Cell, DOI 10.1111/acel.13589, PMC9009115): CD38i 78c improves median survival/healthspan in aged mice (~10% median survival increase); monotherapy only — not an absolute-vs-fractional precursor ± senolysis panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN degradation (Camacho-Pereira 2016) | Age NAD↓ requires CD38; major in vivo NMN-degrading activity (PMID 27304511) |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) — rebound prior, not dual residual panel |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | ~10% median survival ↑ class effect as monotherapy — not absolute-vs-fractional precursor ± senolysis panel (PMID 35263032) |\n| dual_absolute_fractional_residual_precursor_panel | UNKNOWN | Matched precursor pulse ± senolytic/SASP-ablation run-in; report absolute and fractional residual ΔNAD vs post-clearance baseline; tissue NAD ± CD38 activity | Dedicated dual absolute/fractional residual panel not found (soft-complete = 0) — UNKNOWN |\n| absolute_shrink_with_fractional_hold | PREDICTION | Pre-registered aged tissue or SASP-conditioned system; vehicle vs senolytic/SASP run-in → matched NAD-precursor pulse; dual residual readout | absolute_residual_after < absolute_residual_control outside no-shrink band AND fractional_residual_after within hold band of fractional_residual_control (α/N pre-specified) |\n| competing_both_shrink_or_neither_or_incomplete_clearance | PREDICTION | Same design; falsifier outcomes | Both-shrink / neither-shrink / reverse dissociation / incomplete-clearance / assay-definition failure allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Status Summary",
+      "content": "Measured/confirmed from literature: CD38 gates age NAD/NMN fate; SASP→CD38+ macrophages→tissue NAD↓; clearance ↓CD38 + partial NAD rebound; ecto-block NMN-dependent; 78c aged-mouse benefit as monotherapy. NOT measured: Dual absolute + fractional residual precursor panel after senolysis (soft-complete (NMN|NR)∩senolytic∩(absolute|fractional)∩NAD = 0; adjacent SRN-901/regimen/wood-smoke non-matches). Absolute shrink + fractional hold = PREDICTION only. L5–L9 do not prove this — ranking, single-arm shrink, and stack-surplus cards left absolute vs fractional unmeasured together."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L5–L9 as proving L10 — ranking/shrink/stack cards never scored absolute and fractional residual together; soft-complete empty ≠ demonstrated dual pattern.\n2. Rebound artifact is the competing story — after clearance baseline NAD already rises; absolute Δ can shrink while fractional salvage holds; that dissociation must be measured, not inferred from absolute-only shrink.\n3. Incomplete clearance (residual CD38+ macrophages) and Chini clearance/78c monotherapy are not dual residual panels — both absolute and fractional may move for CD38 reasons, not baseline math alone."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Method / Assay Design",
+      "content": "Method type: propose-assay. Design: Aged tissue or SASP-conditioned system; vehicle vs senolytic/SASP run-in → matched NAD-precursor pulse (NMN or NR); dual residual readout (absolute ΔNAD and fractional ΔNAD normalized to post-clearance baseline). Clearance verification required: CD38 activity + SC/SASP marker confirmation. Tissue targets to lock: WAT/liver. Pre-registration of no-shrink band and hold band thresholds required before execution. No dosing values to be invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered dual residual panel after verified clearance, absolute residual does not shrink outside the no-shrink band, OR fractional residual shrinks outside the hold band (both shrink, neither shrinks, or reverse dissociation), when CD38↓ is verified — especially under incomplete clearance or when apparent dissociation is only an assay-definition artifact under the pre-registered absolute/fractional definitions."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation / Critical Dependencies",
+      "content": "Three critical dependencies identified:\n1. Dual absolute + fractional residual precursor panel after documented senolysis/SASP clearance on matched timing — without this, solo-lever LITERATURE cannot show absolute shrink with fractional hold.\n2. Documented clearance run-in with CD38↓/partial NAD rebound verification plus post-clearance baseline for fractional normalization — without subtract-first confirmation and a defined post-clearance baseline, the card collapses into absolute-only shrink (L8) or undefined rebound math.\n3. L5–L9≠proof + soft-complete-empty≠dual-pattern + rebound-artifact discipline — treating L5–L9 or empty PubMed as already deciding absolute-vs-fractional dissociation would invent a dual residual result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution & IP Status",
+      "content": "execution_status = NOT_RUN. fto_status = UNKNOWN. ip_class = subtract-before-add. kill_cost_tier = 2. time_to_refute = 6 weeks. vault_hold = no. related_prior = L5–L9 (ranking/shrink/stack ≠ absolute-vs-fractional dual residual proof). policy = PUBLIC_REPORT_ONLY."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis L10 is a PREDICTION only — the dual absolute + fractional residual NAD panel after documented senolysis has NOT been experimentally run (execution_status = NOT_RUN).",
+    "Soft-complete literature search returned 0 results for (NMN|NR)∩senolytic∩(absolute|fractional)∩NAD — the specific dual readout experiment does not exist in the published literature.",
+    "Four supporting mechanistic literature findings confirmed: (1) CD38 gates age NAD decline and NMN fate (PMID 27304511); (2) SASP induces CD38-high macrophages that drain tissue NAD (PMID 33199924); (3) Senolysis/SASP ablation lowers CD38 and partially restores NAD; ecto-CD38 block raises NAD NMN-dependently (PMID 33199925); (4) CD38i 78c improves aged-mouse median survival ~10% as monotherapy (PMID 35263032).",
+    "None of the four cited literature references constitute a dual absolute-vs-fractional residual precursor panel — all are mechanistic or single-arm studies.",
+    "L5–L9 hypothesis cards (ranking, single-arm shrink, stack-surplus) explicitly do not prove L10's dual absolute-vs-fractional dissociation.",
+    "Rebound artifact is the primary competing explanation: post-clearance baseline NAD rise means absolute ΔNAD from a fixed pulse can shrink while fractional salvage holds — this dissociation must be measured, not inferred.",
+    "Proposed assay requires: aged tissue or SASP-conditioned system, vehicle vs senolytic/SASP run-in, matched NAD-precursor pulse (NMN/NR), dual residual readout, CD38 activity verification, and pre-registered band thresholds.",
+    "Estimated time to refute: 6 weeks. Kill cost tier: 2 (low cost). IP class: subtract-before-add. FTO status: UNKNOWN.",
+    "Document tagged NEGATIVE status, indicating the hypothesis is not yet supported by direct experimental evidence."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "Hypothesis Card L10 Published",
+      "description": "The L10 hypothesis card proposing the dual absolute/fractional residual NAD panel after senolysis was published as a public report.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-25/L10.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed Assay Execution (NOT_RUN)",
+      "description": "Execution of the pre-registered dual absolute/fractional residual NAD precursor panel after documented senolysis/SASP clearance. Estimated 6 weeks to refute. Currently not run.",
+      "date": "6 weeks",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=L5–L9 (ranking / shrink / stack ≠ absolute-vs-fractional dual residual proof)",
+      "page": 1
+    }
+  ]
+}

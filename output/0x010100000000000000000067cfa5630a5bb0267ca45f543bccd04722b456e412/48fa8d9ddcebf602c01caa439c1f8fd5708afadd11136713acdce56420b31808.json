@@ -1,0 +1,69 @@
+{
+  "file_path": "/reports/2026-09-25/L9.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (L9) evaluating whether, after senescent-cell/SASP clearance lowers CD38 load, combining an NAD precursor with a CD38 inhibitor yields residual tissue ΔNAD exceeding the better single-arm alone (a \"stack surplus\"). The document concludes the claim is NEGATIVE/PREDICTION: no dedicated post-senolysis 3-arm residual panel exists in the literature (UNKNOWN), and the hypothesis predicts no stack surplus (combo residual ≤ max single residual). All supporting evidence is literature-derived; no original experiments have been run.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim and Hypothesis (L9)",
+      "content": "The core claim (STATUS: NEGATIVE) is that after documented senescent-cell/SASP clearance lowers CD38 load, residual tissue ΔNAD from a matched NAD-precursor + CD38i pulse does NOT exceed the better single residual arm at a matched timepoint. Pre-registered kill condition: residual_combo ≤ max(residual_precursor, residual_CD38i). This is distinct from L5/L6 residual ranking and L7/L8 single-arm shrink vs alone. The 3-arm residual stack panel remains UNKNOWN in the literature."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Subtract-before-add framework: (1) Clear SASP-driven CD38+ macrophage load first (senolysis/SASP ablation). (2) Pulse three matched residual arms: precursor alone, CD38i alone, precursor+CD38i. CD38 gates age-related NAD decline and NMN fate; SASP induces CD38-high macrophages that drain tissue NAD; senescent/SASP ablation lowers CD38 and partially restores NAD; ecto-CD38 block raises NAD via an NMN-dependent route; 78c-class CD38i improves aged-mouse healthspan as monotherapy. After subtract, residual levers may be redundant — combo residual ΔNAD need not beat max(single residual)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key literature references underpin the mechanistic basis:\n1. PMID 27304511 (Camacho-Pereira 2016, Cell Metab, DOI 10.1016/j.cmet.2016.05.006, PMC4911708): Age-related NAD decline requires CD38; CD38 is the major in vivo NMN-degrading activity.\n2. PMID 33199924 (Covarrubias 2020, Nat Metab, DOI 10.1038/s42255-020-00305-3, PMC7908681): SASP induces CD38-high macrophages that reduce tissue NAD.\n3. PMID 33199925 (Chini 2020, Nat Metab, DOI 10.1038/s42255-020-00298-z, PMC8752031): Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD NMN-dependently.\n4. PMID 35263032 (Tarragó 2022, Aging Cell, DOI 10.1111/acel.13589, PMC9009115): CD38i 78c improves ~10% median survival/healthspan in aged mice as monotherapy — NOT a post-senolysis precursor+CD38i residual stack panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN degradation (Camacho-Pereira 2016) | Age NAD↓ requires CD38; major in vivo NMN-degrading activity (PMID 27304511) |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | ~10% median survival ↑ class effect as monotherapy — not post-senolysis precursor+CD38i residual stack (PMID 35263032) |\n| post_senolysis_3arm_residual_stack_panel | UNKNOWN | Matched timepoint after senolytic/SASP-ablation run-in — residual precursor alone, CD38i alone, precursor+CD38i; tissue NAD ± CD38 activity | Dedicated 3-arm residual stack panel not found (soft-complete 0; review/non-match only) — UNKNOWN |\n| no_stack_surplus_combo_le_max_single_residual | PREDICTION | Pre-registered aged tissue or SASP-conditioned system; senolytic/SASP run-in → three matched residual pulses | residual_combo ≤ max(residual_precursor, residual_CD38i); surplus < 20% of max single; α/N pre-specified |\n| competing_true_surplus_or_incomplete_clearance_or_absolute_artifact | PREDICTION | Same design; falsifier if residual_combo exceeds max(single) outside no-surplus band when clearance verified | True surplus / incomplete-clearance / assay-definition failure allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs Baseline Measured",
+      "content": "Baseline claimed: After senolysis, stacking NAD precursor + CD38i yields residual ΔNAD above the better single residual arm (stack surplus), OR L5–L8 ranking/shrink already settles surplus vs max(single).\nBaseline measured: CD38 gates age NAD/NMN fate — LITERATURE (PMID 27304511). SASP→CD38+ macrophages→tissue NAD↓ — LITERATURE (PMID 33199924). Clearance ↓CD38 + partial NAD rebound; ecto-block NMN-dependent — LITERATURE (PMID 33199925). 78c aged-mouse benefit — LITERATURE monotherapy (PMID 35263032). Post-senolysis 3-arm residual panel — UNKNOWN (soft-complete 0). No stack surplus (residual_combo ≤ max single residual) — PREDICTION. L5–L8 do NOT prove this."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L5–L8 as proving L9 — L5/L6 ranked residual arms; L7/L8 measured single-arm shrink vs alone; combo ≤ max(single) was never the measured claim; soft-complete empty ≠ demonstrated no surplus.\n2. Reviews ≠ kill assay — PMID 36678315 argues potential synergy stacks; it is not a post-senolysis residual 3-arm metabolome.\n3. Baseline NAD rebound after clearance and incomplete clearance (residual CD38+ macrophages) can flatten absolute combo ΔNAD or still allow true surplus — assay must pre-register residual vs absolute Δ and clearance verification; 78c monotherapy ≠ stack after subtract."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ablate / Refute / Ask a Human)",
+      "content": "Ablate conditions: (1) Remove post-senolysis 3-arm residual panel (precursor/CD38i/combo) with matched timing — without residual factorial vs max(single), solo-lever LITERATURE and reviews cannot show combo lacks stack surplus after subtract. (2) Remove documented clearance run-in with CD38↓/partial NAD rebound verification — without subtract-first confirmation, card collapses into generic precursor+CD38i stacking. (3) Remove L5–L8≠proof + soft-complete-empty≠no-surplus + review≠factorial + residual-vs-absolute discipline.\nRefute if: On pre-registered post-senolysis 3-arm residual panel, residual_combo exceeds max(residual_precursor, residual_CD38i) outside no-surplus band (e.g. surplus ≥ 20% of max single, or combo wins pre-registered surplus test) when CD38↓ is verified.\nAsk a human: Lock tissue (WAT/liver), clearance verification (CD38 activity + SC/SASP marker), three matched residual pulses (precursor/CD38i/combo), and residual vs absolute ΔNAD definition before claiming no stack surplus; do not treat L5–L8 as proof; no dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=L5–L8 (ranking / single-arm shrink ≠ combo ≤ max(single) proof). kill_cost_tier=2 · time_to_refute=6 weeks · ip_class=subtract-before-add · vault_hold=no. Method: propose-assay. Risk class: research-discussion. Polarity: negative."
+    }
+  ],
+  "key_findings": [
+    "The hypothesis (L9) is classified NEGATIVE/PREDICTION: no post-senolysis 3-arm residual stack panel (precursor / CD38i / combo) has been found in the literature (soft-complete 0; UNKNOWN status).",
+    "All mechanistic support is literature-derived, not from original experiments: CD38 gates age NAD decline (PMID 27304511), SASP induces CD38-high macrophages that drain tissue NAD (PMID 33199924), senolytic clearance ↓CD38 and partially restores NAD (PMID 33199925), 78c CD38i improves aged-mouse healthspan as monotherapy ~10% median survival increase (PMID 35263032).",
+    "Execution status is NOT_RUN — no original experimental data exists for this specific hypothesis.",
+    "The pre-registered kill condition is: residual_combo ≤ max(residual_precursor, residual_CD38i), i.e., no stack surplus after senolysis; surplus threshold set at <20% of max single arm.",
+    "L5–L8 results (residual ranking and single-arm shrink) are explicitly stated to NOT constitute proof of the L9 no-surplus claim.",
+    "FTO status is UNKNOWN; IP class is 'subtract-before-add'; vault_hold=no.",
+    "Estimated time to refute: 6 weeks; kill_cost_tier=2.",
+    "Proposed assay requires: tissue lock (WAT/liver), clearance verification (CD38 activity + SC/SASP markers), three matched residual pulses, and pre-registered residual vs absolute ΔNAD definition."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": []
+}

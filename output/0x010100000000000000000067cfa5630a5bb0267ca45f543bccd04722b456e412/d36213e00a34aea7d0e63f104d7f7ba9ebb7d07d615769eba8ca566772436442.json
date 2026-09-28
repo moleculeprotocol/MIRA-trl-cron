@@ -1,0 +1,78 @@
+{
+  "file_path": "/reports/2026-09-27/L17.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card L17) proposing a research hypothesis/assay design to test whether intermittent/weekly rapamycin that spares bulk muscle mTORC2 (p-Akt S473) still suppresses mTORC2 in FKBP12-high tissues (heart or pancreas) on the same harvest. The document is a structured hypothesis card at TRL 1 — concept/discussion stage — with no new experimental data, relying entirely on literature (Arriola, Schreiber, Lamming, PEARL) and identifying a key gap (matched intermittent × FKBP-high tissue co-panel) as UNKNOWN. The project is classified as NEGATIVE/not yet run.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Classification",
+      "content": "Mol Labs public report card L17. Status: NEGATIVE, execution_status=NOT_RUN. Risk class: research-discussion. Polarity: negative. Novelty tag: assumption-kill. Topic: biology-life-sciences (aging, longevity). The card proposes an assay to test whether bulk-muscle mTORC2 sparing under intermittent rapamycin implies universal mTORC2 sparing across FKBP12-high tissue subsets (heart, pancreas). No new experimental data are presented; the key matched co-panel result is explicitly UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis",
+      "content": "On a pre-registered intermittent/weekly vs daily (or vehicle) rapamycin panel locking group-mean muscle p-Akt S473 inside the spare window vs daily (Arriola-class), with same-harvest FKBP12-high tissue (heart or pancreas per Schreiber FKBP12/FKBP51) p-Akt S473 readout: under that intermittent schedule, same-harvest FKBP12-high tissue p-Akt S473 depression is ≥50% of the same-tissue daily-arm depression on the same panel. This is framed as an assumption-kill of 'bulk-muscle-spare = universal mTORC2 spare.'"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Arriola-class intermittent/weekly rapamycin spares group-mean muscle p-Akt S473 vs daily while still suppressing p-S6 (mTORC1). Schreiber shows mTORC2 (p-Akt S473) inhibition only in a tissue subset correlating with FKBP12/FKBP51 (heart, soleus/gastrocnemius, pancreas most responsive under chronic/alternate harvests). Lamming grounds why subset mTORC2 loss matters for insulin resistance under chronic exposure. PEARL weekly human safety/healthspan lacks reported p-Akt S473 / mTORC2 PD. The hypothesis is that FKBP12-high tissues may still show mTORC2 depression even when bulk muscle is spared."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Anchors",
+      "content": "1. Arriola Apelo 2016 (PMID 26463117, DOI 10.1111/acel.12405, PMC4717280): Intermittent vs daily rapamycin mitigates glucose/immune hit; group-mean muscle p-Akt S473 often spared vs daily at D1/D5; D3 weekly mean AKT ↓ ~29% NS; p-S6 still suppressed. Grounds intermittent muscle-spare window; NOT FKBP-high tissue co-panel on same harvest.\n2. Schreiber 2015 (PMID 25652038, DOI 10.1111/acel.12313, PMC4364838): Rapamycin-mediated mTORC2 (p-Akt S473) inhibition only in tissue subset correlating with FKBP12/FKBP51; heart, soleus/gastrocnemius, pancreas most responsive. Defines FKBP12-high tissue-subset mTORC2 susceptibility; NOT intermittent schedule that spares muscle mean.\n3. Lamming 2012 (PMID 22461615, DOI 10.1126/science.1215135, PMC3324089): Chronic rapamycin disrupts mTORC2 in vivo; mTORC2 loss mediates insulin resistance; longevity separable from mTORC2-mediated insulin resistance. Grounds why subset mTORC2 hit matters; NOT intermittent×FKBP H2H.\n4. PEARL 2025 (PMID 40188830, DOI 10.18632/aging.206235, PMC12074816, NCT04488601): Human weekly compounded rapamycin vs placebo; 48 weeks safety/healthspan; DXA visceral adiposity primary; lean tissue/surveys secondary; no p-Akt S473 / mTORC2 PD reported. Human weekly without mTORC2 marker; NOT matched FKBP-high tissue H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Arriola_intermittent_muscle_pAkt_spare_vs_daily | LITERATURE | Mouse intermittent vs daily rapamycin; muscle p-Akt S473 and p-S6 | Intermittent mitigates glucose/immune hit; muscle p-Akt S473 often spared at D1/D5; D3 weekly AKT ↓ ~29% NS; p-S6 still suppressed (PMID 26463117) |\n| Schreiber_FKBP_tissue_subset_mTORC2 | LITERATURE | Cell lines + mouse tissues; FKBP12/FKBP51 ratio vs p-Akt S473 | mTORC2 inhibition only in tissue subset with high FKBP12/FKBP51; heart, soleus/gastrocnemius, pancreas most responsive (PMID 25652038) |\n| Lamming_chronic_mTORC2_insulin_resistance | LITERATURE | Mouse chronic rapamycin; mTOR/mLST8 heterozygotes | Chronic rapamycin disrupts mTORC2; mTORC2 required for insulin-mediated suppression of hepatic gluconeogenesis (PMID 22461615) |\n| PEARL_weekly_human_without_pAkt_PD | LITERATURE | Human RCT; weekly rapamycin; 48 weeks | Safety AE similar; visceral adiposity NS; no p-Akt S473 / mTORC2 PD reported (PMID 40188830) |\n| matched_intermittent_FKBP_high_tissue_H2H_under_muscle_spare | UNKNOWN | Intermittent/weekly vs daily; muscle p-Akt S473 spare window + same-harvest FKBP12-high tissue (heart/pancreas) p-Akt S473 | Dedicated co-panel not found; soft-complete = 0; UNKNOWN + missing_search |\n| FKBP_high_tissue_mTORC2_hit_ge50pct_of_daily_under_muscle_spare | PREDICTION | Pre-registered intermittent/weekly vs daily panel; FKBP12-high tissue p-Akt S473 depression vs same-tissue daily arm | FKBP12-high tissue p-Akt S473 depression ≥50% of same-tissue daily-arm depression under muscle-spare lock |\n| competing_muscle_not_spared_or_FKBP_misassign_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes | Muscle-not-spared / FKBP-misassign / underpowered-strata / harvest-window-mismatch as pre-registered competing outcomes (inconclusive ≠ refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Gap",
+      "content": "Known from literature: Arriola intermittent muscle p-Akt spare vs daily (PMID 26463117); Schreiber FKBP12/51-correlated tissue-subset mTORC2 (PMID 25652038); Lamming chronic mTORC2 loss / insulin resistance (PMID 22461615); PEARL weekly human without p-Akt S473 PD (PMID 40188830). UNKNOWN: Matched intermittent×FKBP-high tissue (heart/pancreas) p-Akt S473 depression under muscle-spare window. Soft-complete search result: intermittent∩FKBP∩pAkt/mTORC2 = 0; Arriola∩FKBP/heart/islet = 0; Schreiber∩intermittent/weekly = 0; PEARL∩Akt/mTORC2/PD = 0. Adjacent hits (weekly-HFD, exercise-intermittent, RAPA-EX-01, sperm-epigenetic, senolytics-review, NAD-token) = NON-MATCH."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method",
+      "content": "Method type: propose-assay. Preferred approach: secondary analysis of a published intermittent vs daily (or vehicle) regimen with paired muscle (bulk-spare window) + ≥1 FKBP12-high tissue (heart/pancreas) p-Akt S473 on the same harvest, OR Schreiber-class FKBP12-high vs FKBP12-low cell lines under an intermittent-mimic pulse schedule scoring p-Akt S473, before new animal/human dosing. Optional co-readouts: FKBP12/51 ratio, Rictor–mTOR IP, p-S6 as mTORC1 co-readout. Pre-registration requirements: α/N pre-specified; named comparator = same-tissue daily-arm p-Akt S473 depression; ≥50% depression gate."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Refutation Criteria",
+      "content": "Actionable limitations: (1) L1–L16 do not prove L17; (2) Arriola muscle spare ≠ FKBP/heart/pancreas co-panel; Schreiber FKBP subset ≠ intermittent muscle-spare schedule; Lamming chronic ≠ intermittent H2H; PEARL weekly ≠ p-Akt PD — all four PMIDs leave schedule and subset layers unbridged on the same harvest; (3) L1 ≠ L17; L15 ≠ L17; L16 ≠ L17; NOT NAD-after-senolysis.\n\nRefute if: On the pre-registered intermittent/weekly vs daily panel where group-mean muscle p-Akt S473 is locked inside the spare window vs daily, same-harvest FKBP12-high tissue (heart or pancreas) p-Akt S473 depression is <50% of the same-tissue daily-arm depression — when muscle-not-spared, FKBP-misassign, underpowered-strata, or harvest-window-mismatch artifacts are ruled out.\n\nCompeting caveats: muscle not actually spared / FKBP-high tissue mis-assigned / underpowered strata / harvest-window mismatch leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4w · ip_class=fkbp-tissue-subset · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. Related prior: L1 (layer map ≠ intermittent×FKBP-high tissue H2H under muscle-spare); L15 (Oh organ-age ≠ this); L16 (tissue-vs-blood under D+Q ≠ this); L1–L16 ≠ proof. Card SHA256: f18acca08d6a678c45d18ab892a2570881319bca1dd75a3b6ea00054c0b04cf9."
+    }
+  ],
+  "key_findings": [
+    "This is a TRL 1 concept-stage hypothesis card (L17) with NO new experimental data — execution_status=NOT_RUN.",
+    "The core scientific gap is UNKNOWN: no published study has performed a matched intermittent/weekly vs daily rapamycin panel with group-mean muscle p-Akt S473 spare window AND same-harvest FKBP12-high tissue (heart/pancreas) p-Akt S473 co-readout.",
+    "Literature anchor 1 (Arriola 2016, PMID 26463117): Intermittent rapamycin spares group-mean muscle p-Akt S473 vs daily at D1/D5; D3 weekly AKT ↓ ~29% NS; p-S6 still suppressed — but no FKBP-high tissue co-panel.",
+    "Literature anchor 2 (Schreiber 2015, PMID 25652038): mTORC2 (p-Akt S473) inhibition only in FKBP12/FKBP51-high tissue subset (heart, soleus/gastrocnemius, pancreas) under chronic/alternate rapamycin — but not under intermittent muscle-spare schedule.",
+    "Literature anchor 3 (Lamming 2012, PMID 22461615): Chronic rapamycin disrupts mTORC2 in vivo; mTORC2 loss mediates insulin resistance; longevity separable from mTORC2-mediated insulin resistance.",
+    "Literature anchor 4 (PEARL 2025, PMID 40188830, NCT04488601): Human weekly rapamycin RCT (48 weeks); no p-Akt S473 / mTORC2 PD reported; visceral adiposity NS; safety AE similar.",
+    "Prediction threshold: FKBP12-high tissue p-Akt S473 depression ≥50% of same-tissue daily-arm depression under intermittent muscle-spare lock would support the assumption-kill hypothesis.",
+    "Refutation criterion: <50% depression in FKBP12-high tissue (heart/pancreas) vs same-tissue daily arm, with confounds ruled out, would refute the hypothesis.",
+    "Soft-complete search: intermittent∩FKBP∩pAkt/mTORC2 = 0; Arriola∩FKBP/heart/islet = 0; Schreiber∩intermittent/weekly = 0; PEARL∩Akt/mTORC2/PD = 0.",
+    "Estimated time to refute: 4 weeks; kill_cost_tier=1; FTO status UNKNOWN; vault_hold=no.",
+    "Preferred experimental approach: secondary analysis of published intermittent panel OR Schreiber-class FKBP12-high vs low cell lines under intermittent-mimic pulse, before new animal/human dosing."
+  ],
+  "document_date": null,
+  "milestones": []
+}

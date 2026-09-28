@@ -1,0 +1,88 @@
+{
+  "file_path": "/reports/2026-09-27/L16.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This Mol Labs public report (card L16) is a research discussion document proposing that flat blood p16INK4a and/or flat DunedinPACE cannot serve as proof of senolytic clearance failure when tissue-level biomarkers (adipose/skin SA-β-gal or tissue p16+) show clearance under D+Q (dasatinib + quercetin) treatment. The document synthesizes four published literature anchors (Zhu 2015, Hickson 2019, Lee 2024, Liu 2009) and identifies a critical gap: no matched same-subject tissue × circulating biomarker co-panel exists under D+Q. The project is at TRL 1–2, consisting of a hypothesis/discussion with literature-grounded rationale but no original experimental data.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Core Hypothesis (L16)",
+      "content": "On a named D+Q (dasatinib + quercetin) or named-senolytic arm with adipose/skin SA-β-gal or tissue p16+ IHC on-arm and same-subject blood p16INK4a (PBTL) and/or DunedinPACE as co-measures, flat blood p16INK4a and/or flat DunedinPACE fails as clearance proof unless the tissue referee is retained on the same subject. Among tissue clearers with blood p16 and/or DunedinPACE Δ inside a pre-registered flat band, the blood/clock-only rule does not discard tissue-positive clearance. This is framed as an 'assumption-kill' of the claim that 'flat blood p16 / flat DunedinPACE = senolysis failed when tissue referee is positive.'"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Motivation",
+      "content": "Senolytic trial and consumer framing often treat flat blood p16INK4a or flat DunedinPACE as proof that clearance failed even when adipose/skin SA-β-gal or tissue p16 fell. L16 is distinct from L2 (cell-type selectivity + blood p16/clock as wrong primary biomarker) and L15 (DunedinPACE-without-GrimAge × Oh brain+immune organ-age). The adjudication here is tissue SA-β-gal/p16 vs blood p16/DunedinPACE under D+Q, not Oh organ-age. Hickson shows tissue SC↓ without PBTL p16/DunedinPACE primary; Lee shows circulating clocks without tissue IHC — layers are unbridged."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch: Tissue-vs-Circulating Discordance",
+      "content": "On a named D+Q (or named senolytic) arm, the proposed approach locks adipose/skin SA-β-gal or tissue p16+ as the clearance referee and same-subject blood p16INK4a (PBTL) and/or DunedinPACE as circulating co-measures. Preferred approach is secondary analysis of an existing public D+Q arm (Hickson-class DKD tissue on-arm; Lee-class blood clocks as circulating layer; add missing co-measure as overlay) before new wet assay or animal/human dosing. Zhu grounds the tissue referee under a named senolytic arm. Liu defines PBTL p16INK4a as leukocyte molecular-age, not a validated adipose/skin SC clearance assay. Hickson reports human adipose/skin SC↓ + SASP↓ under D+Q without PBTL p16 or DunedinPACE as clearance proof. Lee reports first-generation EAA↑ / DunedinPACE-class flat after DQ without tissue IHC/SA-β-gal on the same subjects."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Anchors",
+      "content": "Four key literature anchors are cited:\n1. Zhu 2015 (PMID 25754370, DOI 10.1111/acel.12344, PMC4531078): D preferential senolysis of senescent human preadipocytes; Q more effective on senescent HUVECs; combo broadens; in vivo fat SA-β-gal/p16 and liver p16+ reduced but incomplete. Establishes cell-type preferential D+Q and tissue referee prior.\n2. Hickson 2019 (PMID 31542391, DOI 10.1016/j.ebiom.2019.08.069, PMC6796530): Human DKD open-label D+Q; adipose/skin p16INK4A / p21CIP1 / SA-β-gal↓; circulating SASP↓; tissue primary — not PBTL p16 or DunedinPACE as clearance assay.\n3. Lee 2024 (PMID 38393697, DOI 10.18632/aging.205581, PMC10929829): Longitudinal DQ blood DNAm (n=19); first-generation EAA↑; second/third-generation clocks (GrimAge/DunedinPACE class) no significant change; no tissue IHC/SA-β-gal. Demonstrates circulating discordance without tissue referee.\n4. Liu 2009 (PMID 19485966, DOI 10.1111/j.1474-9726.2009.00489.x, PMC2752333): PBTL p16INK4a rises with chronologic age and lifestyle covariates — leukocyte molecular-age biomarker, not adipose/skin SC proxy under senolytics."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Zhu_DQ_cell_type_preferential_tissue_referee | LITERATURE | D vs Q vs D+Q senolysis on senescent human preadipocytes/HUVECs; old-mouse fat SA-β-gal/p16 and liver p16+ (Zhu 2015) | Cell-type preferential senolysis; in vivo tissue SA-β-gal/p16↓ incomplete (PMID 25754370) — grounds tissue referee under named senolytic arm |\n| Hickson_DQ_human_tissue_SC_clearance | LITERATURE | Human DKD open-label D+Q adipose/skin biopsies + circulating SASP (Hickson 2019) | Adipose/skin p16INK4A / p21CIP1 / SA-β-gal↓; SASP↓; tissue primary not PBTL p16 or DunedinPACE clearance proof (PMID 31542391) |\n| Lee_DQ_blood_DNAm_clocks_without_tissue | LITERATURE | Longitudinal human DQ (then DQF) blood DNAm clocks (Lee 2024) | First-generation EAA↑; GrimAge/DunedinPACE-class no significant change; no tissue IHC/SA-β-gal (PMID 38393697) — circulating discordance without tissue referee |\n| Liu_PBTL_p16_leukocyte_molecular_age | LITERATURE | Human peripheral blood T-lymphocyte p16INK4a vs chronologic age (Liu 2009) | PBTL p16INK4a rises with age/lifestyle — leukocyte molecular-age, not validated adipose/skin SC clearance assay (PMID 19485966) |\n| matched_tissue_vs_blood_clock_H2H_panel_under_DQ | UNKNOWN | Named D+Q arm with adipose/skin SA-β-gal or tissue p16 IHC + same-subject blood p16INK4a (PBTL) and/or DunedinPACE; stratify tissue clearers by blood/clock co-movement | Dedicated tissue-clearance × blood-flat co-panel under D+Q not found (soft-complete DQ∩DunedinPACE∩tissue = 0; Lee∩tissue = 0; Hickson∩DunedinPACE/PBTL-p16 primary = self tissue+SASP only) — UNKNOWN |\n| blood_flat_fails_as_clearance_proof_without_tissue_referee | PREDICTION | Pre-registered D+Q arm; verified adipose/skin SA-β-gal or tissue p16↓; blood p16INK4a (PBTL qPCR fold or ΔCt) and/or DunedinPACE (pace units/year) flat vs co-mover strata; optional SASP overlay | Among tissue clearers with blood p16INK4a Δ and/or DunedinPACE Δ inside pre-registered flat band, blood/clock-only clearance-failure call rate falls inside pre-registered false-reject band |\n| competing_blood_falsifies_tissue_or_assay_definition_artifact | PREDICTION | Same design; competing outcomes if tissue-positive/blood-flat subjects are correctly classified as clearance failures by blood/clock-only rule outside false-reject band | Blood-falsifies-tissue / incomplete-tissue-sampling / underpowered-strata / construct-mismatch artifact allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed and Measured",
+      "content": "Baseline claimed: Under D+Q that reduces adipose/skin SA-β-gal or tissue p16+, flat blood p16INK4a and/or flat DunedinPACE fails as clearance proof unless the tissue referee is retained on the same subject.\nBaseline measured (all LITERATURE):\n- Zhu cell-type preferential D+Q + incomplete tissue SA-β-gal/p16 clearance (PMID 25754370)\n- Hickson human adipose/skin SC↓ + SASP↓ under D+Q without PBTL p16/DunedinPACE primary (PMID 31542391)\n- Lee DQ blood clocks (first-gen↑ / DunedinPACE-class flat) without tissue IHC (PMID 38393697)\n- Liu PBTL p16 as leukocyte molecular-age (PMID 19485966)\nMatched H2H tissue SA-β-gal/p16 clearance × same-subject blood p16/DunedinPACE co-movement under D+Q: UNKNOWN (soft-complete DQ∩DunedinPACE∩tissue = 0)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L1–L15 as proving L16 — L2 mapped unbridged tissue vs blood-p16 vs clock PD layers as wrong-primary; that map is prior, not matched same-subject tissue-clearance × blood-flat adjudication; soft-complete empty ≠ demonstrated prediction-failure.\n2. Hickson tissue↓ ≠ blood-p16/clock co-panel; Lee clocks-only ≠ tissue referee — PMID 31542391 and 38393697 leave tissue and circulating layers unbridged on the same subjects.\n3. L2 ≠ L16; L15 ≠ L16; Liu blood p16 ≠ tissue SC proxy; NAD/CD38 soft-complete hits are adjacent/reviews — NOT SERIES_FROZEN NAD-after-senolysis; reviews ≠ anchors; no dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove matched same-subject adipose/skin SA-β-gal or tissue p16 × blood p16INK4a (PBTL) and/or DunedinPACE co-panel under D+Q: Without the tissue × circulating residual readout, solo tissue LITERATURE and clocks-only LITERATURE cannot show blood-flat fails as clearance proof when the tissue referee is positive.\n2. Remove tissue SA-β-gal/p16 as the adjudication referee retained when blood p16 and/or DunedinPACE are flat: Without retaining the tissue referee, the card collapses into L2-style wrong-primary or Lee clocks-only framing and loses the tissue-vs-circulating discordance H2H.\n3. Remove L2≠L16 + L15≠L16 + Hickson≠co-panel + Lee≠tissue + soft-complete-empty≠failure + NOT-NAD-after-senolysis discipline: Treating L2, L15 Oh organ-age, Hickson tissue alone, Lee clocks alone, empty PubMed, or NAD/CD38 adjacent hits as already deciding tissue-vs-blood clearance would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered same-subject tissue × blood/clock panel under D+Q (or named senolytic), tissue clearers with blood p16INK4a and/or DunedinPACE inside the flat band are correctly classified as clearance failures by the blood/clock-only rule outside the pre-registered false-reject band (flat blood/clock DOES falsify tissue-positive clearance / tissue referee disposable) when sample and assay-definition artifacts are ruled out — especially under incomplete tissue sampling, underpowered strata, or leukocyte-vs-tissue construct-mismatch that would otherwise leave the test inconclusive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN\nFTO status: UNKNOWN\nKill cost tier: 1\nTime to refute: 4 weeks\nIP class: tissue-vs-circulating-discordance\nVault hold: no\nMethod: propose-assay\nStatus labels: NEGATIVE\nNovelty tag: assumption-kill\nPolarity: negative\nRisk class: research-discussion\nRelated prior: L2 (wrong-primary ≠ tissue-clearance × blood-flat H2H); L15 (Oh organ-age ≠ tissue-vs-blood under D+Q); L1–L15 ≠ proof"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ask a Human / Recommended Next Steps",
+      "content": "Lock the named D+Q (or named senolytic) arm (prefer secondary analysis of Hickson-class DKD adipose/skin SA-β-gal or tissue p16 on-arm with same-subject blood p16INK4a PBTL and/or DunedinPACE as overlay before new wet assay), tissue clearer definition (percent positive or fold vs baseline), blood p16 / DunedinPACE flat vs co-mover band, optional SASP overlay, and false-reject band before claiming flat blood/clock fails as clearance proof without the tissue referee. Do not treat L2 or L15 or L1–L15 as proof; Hickson ≠ co-panel; Lee ≠ tissue referee; not Oh organ-age clone; NOT NAD-after-senolysis; no dosing."
+    }
+  ],
+  "key_findings": [
+    "Core hypothesis (L16): Flat blood p16INK4a and/or flat DunedinPACE fails as proof of senolytic clearance failure when tissue-level biomarkers (adipose/skin SA-β-gal or tissue p16+) show clearance under D+Q treatment.",
+    "Zhu 2015 (PMID 25754370): D+Q shows cell-type preferential senolysis; in vivo fat SA-β-gal/p16 and liver p16+ reduced but incomplete — grounds tissue referee under named senolytic arm.",
+    "Hickson 2019 (PMID 31542391): Human DKD open-label D+Q shows adipose/skin p16INK4A / p21CIP1 / SA-β-gal↓ and SASP↓, but PBTL p16 and DunedinPACE were NOT used as clearance proof — tissue and circulating layers unbridged.",
+    "Lee 2024 (PMID 38393697, n=19): Longitudinal DQ blood DNAm clocks show first-generation EAA↑ but GrimAge/DunedinPACE-class no significant change; no tissue IHC/SA-β-gal on same subjects — circulating discordance without tissue referee.",
+    "Liu 2009 (PMID 19485966): PBTL p16INK4a is a leukocyte molecular-age biomarker that rises with chronologic age and lifestyle covariates — it is NOT a validated adipose/skin senescent cell clearance assay.",
+    "Critical gap identified: No matched same-subject tissue SA-β-gal/p16 × blood p16INK4a/DunedinPACE co-panel exists under D+Q (soft-complete DQ∩DunedinPACE∩tissue = 0) — this H2H comparison is UNKNOWN.",
+    "Execution status is NOT_RUN — this is a proposed assay/discussion document with no original experimental data generated.",
+    "Preferred approach is secondary analysis of existing public trial data (Hickson-class tissue data + Lee-class clock data as overlay) before new wet assay or animal/human dosing.",
+    "Kill cost tier 1, estimated 4 weeks to refute, IP class: tissue-vs-circulating-discordance.",
+    "Status labeled NEGATIVE (assumption-kill, polarity negative) — the document argues against a common but potentially flawed interpretive practice in senolytic trials."
+  ],
+  "milestones": []
+}

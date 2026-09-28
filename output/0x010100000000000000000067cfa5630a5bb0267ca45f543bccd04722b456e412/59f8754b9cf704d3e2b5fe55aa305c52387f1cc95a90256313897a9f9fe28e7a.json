@@ -1,0 +1,71 @@
+{
+  "file_path": "/reports/2026-09-25/N9.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis report (N9) proposing a pre-registered assay to test whether a redox-disabled methylene blue (MB) analogue (N-acetyl/Wen 2011 class) fails to rescue memory on a cytochrome oxidase (COX)-inhibitor amnestic retention panel where parent MB restores retention. The claim is currently NEGATIVE/PREDICTION status — the key head-to-head experiment has NOT been run. The document synthesizes prior literature (PMID 12384216, 21087672, 21454572, 23118969) to frame the hypothesis but explicitly states the critical redox-dead vs. MB COX-amnestic comparison is UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Report ID: N9. Status: NEGATIVE (prediction, not yet run). Policy: PUBLIC_REPORT_ONLY. Tags: nootropics, brain-longevity. Risk class: research-discussion. Polarity: negative. Target: discussion. Topic: neuroscience-brain. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Dated: 2026-09-25."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim",
+      "content": "On a pre-registered cytochrome-oxidase (COX)-inhibitor amnestic retention assay where parent methylene blue (MB) restores memory, a redox-disabled MB analogue (primary: N-acetyl/Wen 2011 class; optional confirmatory: 10-N SAR) fails to match that rescue — retention Δ ≤70% of MB (or outside a pre-registered MB-equivalence band). This is a PREDICTION; the experiment has NOT been run."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Parent MB accepts electrons from NADH → cytochrome c and restores retention after COX inhibition. N-acetyl/redox-disabled MB loses mitochondrial electron transfer (mito ET) and neuroprotection (Wen 2011). 10-N SAR drops protective potency and mito ET (Wen 2012). If rescue tracks parent redox/COX-facing structure, the redox-dead analogue should underperform on the same retention panel. Competing hypothesis: if rescue is MAO-driven or structure-promiscuous, the analogue may still match MB. Key confound: a redox-dead analogue that retains MAO activity dissociates redox from MAO; one that also loses MAO confounds the kill."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baseline",
+      "content": "1. PMID 12384216 (DOI 10.1016/s0304-3940(02)00827-3): Low-dose MB restores spatial memory retention impaired by a cytochrome oxidase inhibitor (Callaway/Gonzalez-Lima class) — no redox-dead arm.\n2. PMID 21087672 (DOI 10.1016/j.neuroimage.2010.11.023; PMC3026638): MB beneficial network effects in an amnestic model (metabolic/network framing) — no redox-dead arm.\n3. PMID 21454572 (DOI 10.1074/jbc.M110.208447; PMC3091255): MB alternative mitochondrial ET; N-acetyl/redox-disabled MB loses mito ET/neuroprotection (Wen 2011) — OCR/complexes/neuroprotection endpoints, NOT COX-amnestic retention.\n4. PMID 23118969 (DOI 10.1371/journal.pone.0048279; PMC3485214): MB derivative SAR; 10-N/side-chain substitution drops protective potency and mito ET (Wen 2012) — neuroprotection/ROS endpoints, NOT COX-amnestic H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| MB_COX_amnestic_spatial_retention_rescue | LITERATURE | Low-dose MB restores spatial memory retention after COX inhibitor (Callaway 2002) | MB restores retention (PMID 12384216) — no redox-dead comparator |\n| MB_amnestic_network_effects | LITERATURE | MB beneficial network effects in amnestic model (Rojas/Gonzalez-Lima 2011) | Metabolic/network framing (PMID 21087672) — no redox-dead arm |\n| N_acetyl_redox_disabled_MB_loses_mito_ET | LITERATURE | N-acetylated/redox-disabled MB loses mito ET/neuroprotection (Wen 2011) | OCR/complexes/neuroprotection drop vs parent MB (PMID 21454572) — not COX-amnestic retention |\n| MB_10N_SAR_drops_protective_potency | LITERATURE | 10-N/side-chain SAR drops protective potency and mito ET (Wen 2012) | Large drop in protective potency; compounds lacking 3/7 side chains fail to enhance mito ET (PMID 23118969) — neuroprotection/ROS, not COX-amnestic H2H |\n| same_COX_amnestic_redox_dead_vs_MB_panel | UNKNOWN | Same COX-inhibitor amnestic/retention panel — redox-disabled analogue vs parent MB | Dedicated redox-dead vs MB COX-amnestic rescue panel not found (soft-complete 0/non-matches only) — UNKNOWN |\n| redox_dead_fails_MB_equivalence_on_COX_amnestic_rescue | PREDICTION | Pre-registered COX-inhibitor amnestic spatial or discrimination retention; N-acetyl (primary) vs parent MB | Redox-dead retention Δ ≤70% of MB (or outside pre-registered MB-equivalence band); α/N pre-specified |\n| competing_MAO_retention_or_PK_explains_underperformance | PREDICTION | Same design; falsifier path | MAO-matched equivalence/dual-loss confound/PK-matched equivalence allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. N5–N8 do NOT prove N9: N7 left Wen endpoints ≠ WM and soft-completed N-acetyl-MB∩memory; N8 ran Azure B, not redox-dead; empty soft-complete ≠ demonstrated redox-dead failure on COX-amnestic.\n2. Endpoint bridge gap: Wen redox-dead kill is mito/neuroprotection; Gonzalez-Lima is metabolic memory without a redox-dead arm; bridging both on one COX-amnestic panel is the untested claim.\n3. Analogue identity + MAO confound: Pick N-acetyl as primary (10-N optional confirmatory); MAO occupancy of chosen analogue not re-measured here. Soft-complete empty ≠ negative result. No dosing specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "The hypothesis is refuted if: on the pre-registered COX-inhibitor amnestic retention assay, the redox-disabled analogue matches parent MB within the MB-equivalence band (retention Δ >70% of MB or inside band) — especially under exposure/MAO-occupancy-matched conditions — so redox-necessity for metabolic-memory rescue fails and MAO/structure-promiscuous rescue survives."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "Kill cost tier: 1. Time to refute: 4 weeks. IP class: redox-vs-MAO. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: N5–N8 (not proof redox-dead fails COX-amnestic rescue). Method: propose-assay."
+    }
+  ],
+  "key_findings": [
+    "The critical experiment (redox-disabled MB analogue vs. parent MB on a COX-inhibitor amnestic retention panel) has NOT been run — execution_status=NOT_RUN; this is a proposed assay, not a completed study.",
+    "TRL is effectively TRL 1–2: the hypothesis is grounded in literature but no in-house experimental data exists for the core claim.",
+    "Literature confirms parent MB restores spatial memory retention after COX inhibition (PMID 12384216) and shows beneficial network effects in amnestic models (PMID 21087672), but neither study included a redox-dead comparator arm.",
+    "Literature confirms N-acetyl/redox-disabled MB loses mitochondrial electron transfer and neuroprotection (Wen 2011, PMID 21454572) and 10-N SAR drops protective potency and mito ET (Wen 2012, PMID 23118969), but these endpoints are mito/neuroprotection — NOT COX-amnestic behavioral retention.",
+    "The key gap (same_COX_amnestic_redox_dead_vs_MB_panel) is explicitly labeled UNKNOWN with soft-complete count of 0.",
+    "Prediction threshold: redox-dead analogue retention Δ ≤70% of MB (or outside pre-registered MB-equivalence band) on the COX-amnestic panel.",
+    "Major confounds identified: MAO occupancy of the chosen analogue, PK/brain exposure, and whether the analogue loses both redox and MAO activity (confounding the kill).",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost).",
+    "FTO status is UNKNOWN; no patents filed or granted are mentioned.",
+    "Prior hypotheses N5–N8 are explicitly stated to NOT prove N9's claim."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": []
+}

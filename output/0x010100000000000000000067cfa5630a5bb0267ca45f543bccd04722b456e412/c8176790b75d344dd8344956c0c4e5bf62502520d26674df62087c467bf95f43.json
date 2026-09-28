@@ -1,0 +1,74 @@
+{
+  "file_path": "/reports/2026-09-26/L12.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (L12) proposing a pre-registered experiment to test whether the sequential order of CD38 inhibitor (CD38i) and NAD precursor administration produces asymmetric residual tissue ΔNAD after documented senescent-cell/SASP clearance. The claim is currently NEGATIVE/UNKNOWN — no matched head-to-head (H2H) sequential order experiment has been performed. The document is a research-discussion proposal, not a report of completed experiments.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Mol Labs public report (L12). STATUS_LABEL: NEGATIVE. Topic: biology-life-sciences. Tags: aging, longevity. Risk class: research-discussion. Polarity: negative. Policy: PUBLIC_REPORT_ONLY. Dated: 2026-09-26. Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 2. Time to refute: 6 weeks. IP class: subtract-before-add. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim (Hypothesis L12)",
+      "content": "After documented senescent-cell/SASP clearance, residual tissue ΔNAD from a matched CD38-inhibitor-then-NAD-precursor sequence differs from residual tissue ΔNAD from the reverse precursor-then-CD38-inhibitor sequence at matched total exposure. This is a pre-registered order-asymmetry H2H hypothesis after matched senolytic/SASP run-in. The claim is explicitly UNKNOWN — no experiment has been run to confirm or refute it."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Subtract-before-add framework: clear SASP-driven CD38+ macrophage load first, then run two sequential arms (CD38i→precursor vs precursor→CD38i) at matched total exposure and score residual tissue ΔNAD. Key mechanistic priors: (1) CD38 gates age-related NAD decline and NMN fate in vivo; (2) SASP induces CD38-high macrophages that drain tissue NAD; (3) senescent/SASP ablation lowers CD38 and partially restores NAD via an NMN-dependent ecto-block route; (4) 78c-class CD38i improves aged-mouse healthspan as monotherapy. Incomplete clearance/residual CD38+ load can interact with which lever hits first — this interaction is predicted, not measured."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key literature references cited as mechanistic priors (none constitute the proposed order H2H experiment):\n1. PMID 27304511 (Camacho-Pereira 2016, Cell Metab): Age NAD↓ requires CD38; CD38 gates NMN fate in vivo. Role: CD38–NAD/NMN-gating prior for residual assays.\n2. PMID 33199924 (Covarrubias 2020, Nat Metab): SASP induces CD38-high macrophages that reduce tissue NAD. Role: subtract-before-add / incomplete-clearance motivation; not an order panel.\n3. PMID 33199925 (Chini 2020, Nat Metab): Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD via NMN-dependent process. Role: post-clearance baseline prior, not CD38i↔precursor order H2H.\n4. PMID 35263032 (Tarragó 2022, Aging Cell): CD38i 78c increases lifespan/healthspan in chronological aging. Role: monotherapy tool prior, not order panel after senolysis."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN fate (Camacho-Pereira 2016) | Age NAD↓ requires CD38; gates NMN fate (PMID 27304511) — CONFIRMED in literature |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) — CONFIRMED in literature |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) — clearance prior, not order panel |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | Lifespan/healthspan class effect as monotherapy — not CD38i↔precursor order panel after senolysis (PMID 35263032) |\n| matched_order_H2H_residual_panel | UNKNOWN | Matched senolytic/SASP run-in → arm A: CD38i then NAD-precursor vs arm B: precursor then CD38i at matched total exposure; residual tissue ΔNAD ± CD38 activity | NOT FOUND — soft-complete order∩CD38i∩precursor∩senolytic = 0; adjacent co-treatment/review/clearance non-matches — UNKNOWN |\n| order_asymmetry_residual_deltaNAD | PREDICTION | Pre-registered aged tissue or SASP-conditioned system; verified clearance → CD38i→precursor vs precursor→CD38i at matched total exposure; residual ΔNAD readout | Residual_CD38i_then_precursor outside pre-registered equivalence band of residual_precursor_then_CD38i (α/N pre-specified) — NOT YET MEASURED |\n| competing_order_equivalence_or_incomplete_clearance | PREDICTION | Same design; falsifier if residuals fall inside equivalence band when clearance is verified | Order-equivalence / incomplete-clearance / exposure-mismatch / assay-definition failure allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Disciplinary Constraints",
+      "content": "1. L5–L11 cards (ranking/stack surplus/absolute-vs-fractional duals) do NOT prove L12 — they never ran matched CD38i→precursor vs precursor→CD38i residual ΔNAD after clearance; soft-complete empty ≠ demonstrated order asymmetry.\n2. Co-treatment ≠ order — concurrent CD38i + NR (e.g. PMID 33871064) or synergistic-stack reviews do not report sequential residual arms after matched senolytic/SASP run-in.\n3. Incomplete clearance/target-load can interact with order; Chini clearance/ecto-block and 78c monotherapy are not order panels; L9 stack surplus ≠ temporal-order H2H; no dosing specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "The hypothesis is refuted if: on the pre-registered order H2H residual panel after verified clearance, residual_CD38i_then_precursor falls inside the equivalence band of residual_precursor_then_CD38i (order equivalence), when CD38↓ is verified — especially under incomplete clearance, exposure mismatch, or when apparent asymmetry is only an assay-definition artifact under the pre-registered residual definitions."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Method)",
+      "content": "Method type: propose-assay (NOT YET EXECUTED). Design: (1) Senolytic/SASP run-in with documented clearance verified by CD38 activity + SC/SASP markers; (2) Arm A: CD38i (78c-class) then NAD precursor (NMN/NR-class) at matched total exposure; (3) Arm B: NAD precursor then CD38i at matched total exposure; (4) Readout: residual tissue ΔNAD ± CD38 activity. Tissue targets to be locked (WAT/liver suggested). Pre-registration of α/N required before claiming order asymmetry. No dosing specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "Kill cost tier: 2. Time to refute: 6 weeks. IP class: subtract-before-add. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior cards: L5–L11 (ranking/duals/stack surplus ≠ CD38i↔precursor order H2H residual proof)."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis L12 is NEGATIVE/UNKNOWN — no matched sequential order H2H experiment (CD38i→precursor vs precursor→CD38i after senolytic/SASP clearance) has been performed; execution_status=NOT_RUN.",
+    "Soft-complete literature search found zero papers matching the intersection of order∩CD38i∩precursor∩senolytic for a sequential residual ΔNAD panel.",
+    "Four mechanistic literature priors support the biological plausibility: CD38 gates age NAD/NMN fate (PMID 27304511), SASP induces CD38-high macrophages draining tissue NAD (PMID 33199924), clearance reduces CD38 and partially restores NAD via NMN-dependent ecto-block (PMID 33199925), and 78c CD38i improves aged-mouse healthspan as monotherapy (PMID 35263032).",
+    "Critical disciplinary constraint: co-treatment (concurrent CD38i + NR) is explicitly NOT equivalent to sequential order H2H; L5–L11 ranking/dual/stack-surplus cards do not prove order asymmetry.",
+    "Proposed assay requires: verified senolytic/SASP run-in, matched total exposure for both arms, pre-registered equivalence band and α/N, and locked tissue (WAT/liver) before any order-asymmetry claim.",
+    "Estimated time to refute: 6 weeks at kill cost tier 2; IP class is subtract-before-add; FTO status unknown.",
+    "The project is at TRL 1 — concept/hypothesis only, with no experimental data generated; all supporting evidence is from third-party literature."
+  ],
+  "document_date": "2026-09-26",
+  "milestones": []
+}

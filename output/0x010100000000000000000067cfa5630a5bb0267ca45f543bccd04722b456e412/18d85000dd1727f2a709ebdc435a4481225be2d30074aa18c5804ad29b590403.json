@@ -1,0 +1,83 @@
+{
+  "file_path": "/reports/2026-09-25/N7.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (N7) proposing a pre-registered rodent working-memory (WM) experiment to test whether a redox-disabled methylene blue (MB) analogue (N-acetyl-MB) fails to match parent MB on WM performance. The document is a research-discussion/propose-assay record at TRL 1–2: no behavioral experiment has been run, and the key WM contrast (redox-dead vs. parent MB) is explicitly UNKNOWN. Supporting literature (Wen 2011/2012, Gonzalez-Lima, Ramsay 2007) establishes mechanistic context but does not include a WM endpoint with a redox-dead arm.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata & Status",
+      "content": "Report ID: N7. Status label: NEGATIVE (predicted outcome). Policy: PUBLIC_REPORT_ONLY. Tags: nootropics, brain-longevity. Risk class: research-discussion. Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: redox-vs-MAO. Vault hold: no. Document date: 2026-09-25."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (N7)",
+      "content": "On a pre-registered rodent working-memory task, a redox-disabled methylene blue analogue (primary: N-acetyl-MB per Wen 2011; optional confirmatory: 10-N SAR analogue per Wen 2012) fails to match parent MB — WM Δ ≤70% of MB (or outside a pre-registered MB-equivalence band). The core logic: if MB working memory tracks mitochondrial redox cycling, killing the redox center should abolish the WM signal even when related phenothiazine chemistry remains."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch & Competing Hypotheses",
+      "content": "Two competing mechanistic paths are articulated:\n1. Redox-vs-MAO assumption-kill: if WM tracks mitochondrial redox, redox-disabled N-acetyl / 10-N analogues underperform parent MB on the same WM task.\n2. MAO-A / non-redox phenothiazine path: if WM tracks MAO-A inhibition or other non-redox phenothiazine features, a redox-dead analogue that retains MAO activity may still match parent MB.\nKey mechanistic references: Wen 2011 (N-acetyl-MB loses mitochondrial ET/OCR/neuroprotection, not WM); Wen 2012 (10-N/side-chain SAR drops protective potency and mito ET, not WM); Gonzalez-Lima (low-dose MB improves discrimination/metabolic memory, no redox-dead arm); Ramsay 2007 (MB is a potent reversible MAO-A inhibitor)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Supporting Literature",
+      "content": "Four key literature references cited:\n1. PMID 21454572 / DOI 10.1074/jbc.M110.208447 / PMC3091255 (Wen 2011): N-acetyl-MB (redox-dead) loses mitochondrial complex activity, OCR, and neuroprotection vs. parent MB. Endpoint: mitochondrial ET/neuroprotection — NOT working memory.\n2. PMID 23118969 / DOI 10.1371/journal.pone.0048279 / PMC3485214 (Wen 2012): 10-N / side-chain substituted MB analogues show large drop in protective potency and mitochondrial ET enhancement vs. glutamate challenge. Endpoint: neuroprotection/ROS — NOT working memory.\n3. PMID 17428524 / PMC2040387 (Gonzalez-Lima class): Low-dose MB improves discrimination learning / metabolic memory with COX framing. No redox-disabled comparator arm included.\n4. PMID 17721552 / DOI 10.1038/sj.bjp.0707430 / PMC2078225 (Ramsay 2007): MB is a potent reversible MAO-A inhibitor; serotonin-toxicity prediction flagged."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Claimed baseline: MB working-memory benefit is explained by mitochondrial redox cycling, so a redox-disabled analogue should fail to match parent MB on the same WM task.\nMeasured baselines (all from literature, no new experiments run):\n- Wen redox-dead kills mito ET/neuroprotection: LITERATURE (PMID 21454572)\n- Wen 10-N SAR drops protective potency/mito ET: LITERATURE (PMID 23118969)\n- Gonzalez-Lima discrimination/metabolic memory without redox-dead arm: LITERATURE (PMID 17428524)\n- MB MAO-A potency: LITERATURE (PMID 17721552)\n- Head-to-head same-WM (parent MB vs. redox-disabled analogue): UNKNOWN (soft-complete N-acetyl-MB ∩ memory/cognition/WM = 0)\n- ≤70% MB-equivalence fail: PREDICTION only\n- N5/N6 do not prove this failure — Wen bridge and soft-complete empties only."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Wen_redox_dead_mitochondrial_not_WM | LITERATURE | N-acetyl-MB vs MB on mitochondrial complex activities / OCR / neuroprotection (Wen 2011) | Redox center disabled → loses mitochondrial ET signal (PMID 21454572) — NOT a WM endpoint |\n| Wen_10N_SAR_neuroprotection_not_WM | LITERATURE | 10-N / side-chain substituted MB analogues vs parent on glutamate neuroprotection / mitochondrial ET (Wen 2012) | Large drop in protective potency and mito ET enhancement (PMID 23118969) — NOT a WM endpoint |\n| GonzalezLima_MB_discrimination_memory_no_redox_dead_arm | LITERATURE | Low-dose MB discrimination / metabolic memory + COX framing | Memory improve with metabolic enhancement; no redox-disabled comparator (PMID 17428524) |\n| MB_MAO_A_potency | LITERATURE | Reversible MAO-A inhibition (Ramsay 2007) | Potent MAO-A block; serotonin-toxicity class warning (PMID 17721552) |\n| same_WM_redox_dead_vs_MB_panel | UNKNOWN | Same WM task — parent MB vs redox-disabled analogue (N-acetyl primary; optional 10-N confirmatory) ± MAO occupancy / exposure readout | Dedicated redox-dead vs MB same-WM panel not found (soft-complete 0) — UNKNOWN |\n| redox_dead_fails_MB_equivalence_on_WM | PREDICTION | Pre-registered delayed alternation / Gonzalez-Lima-style discrimination; redox-disabled analogue vs parent MB | Redox-dead WM Δ ≤70% of MB (or outside pre-registered MB-equivalence band); α/N pre-specified |\n| competing_MAO_retention_explains_match | PREDICTION | Same design; falsifier path if redox-dead matches MB with comparable MAO-A occupancy | MAO-matched equivalence allowed as pre-registered competing outcome |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N5/N6 as proving N7 — N5 asked selective MAO-A-i ≠ MB; N6 asked Azure B ≠ MB; neither measured redox-dead vs parent on WM.\n2. Endpoint bridge — Wen ≠ WM; Gonzalez-Lima lacks a redox-dead arm; bridging both to one WM panel is inference only.\n3. Analogue identity + MAO confound — pick one primary analogue (prefer N-acetyl); MAO IC50/occupancy of that analogue is not re-measured here; soft-complete empty ≠ negative result."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Critical Path)",
+      "content": "Three critical dependencies identified:\n1. Remove same-task WM contrast of redox-disabled analogue vs parent MB: Without the behavioral head-to-head, Wen mito/neuroprotection LITERATURE and Gonzalez-Lima memory LITERATURE cannot show redox-dead fails to match MB on WM.\n2. Remove redox-disabled identity (N-acetyl primary or locked 10-N confirmatory) vs parent: Without a defined redox-dead tool, underperformance is just 'some analogue weak,' not an assumption-kill of redox-explains-WM.\n3. Remove N5/N6≠proof + soft-complete-empty≠failure + Wen≠WM endpoint discipline: Treating N5/N6 or empty PubMed as already deciding redox-dead WM failure would invent a negative result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "The hypothesis is refuted if: on the pre-registered WM task, the locked redox-disabled analogue matches parent MB within the MB-equivalence band (WM Δ >70% of MB or inside band) — especially if MAO occupancy is comparable — so redox-necessity for WM fails and mild-MAO / non-redox phenothiazine stories remain live."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design & Human Decision Points",
+      "content": "Method: propose-assay (NOT_RUN). Required decisions before execution:\n- Lock WM task: delayed alternation vs. discrimination vs. object recognition (OR)\n- Lock primary redox-dead tool: prefer N-acetyl-MB; optional 10-N confirmatory\n- Include MAO occupancy / exposure readout\n- Do not treat N5/N6 as already proving redox-dead WM failure\n- No dosing specified (pre-registration required before dosing is set)\nEstimated time to refute: 4 weeks. Kill cost tier: 1 (low cost)."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis N7 is a proposed (NOT_RUN) pre-registered rodent working-memory experiment; no behavioral data exist yet.",
+    "The critical experimental variable — head-to-head WM performance of redox-disabled N-acetyl-MB vs. parent MB — is explicitly UNKNOWN (soft-complete = 0).",
+    "Wen 2011 (PMID 21454572) confirms N-acetyl-MB loses mitochondrial ET/OCR/neuroprotection vs. parent MB, but this is a mitochondrial endpoint, NOT a working-memory endpoint.",
+    "Wen 2012 (PMID 23118969) confirms 10-N/side-chain SAR analogues show large drops in protective potency and mito ET, but again NOT a WM endpoint.",
+    "Gonzalez-Lima literature (PMID 17428524) shows low-dose MB improves discrimination/metabolic memory but lacks a redox-disabled comparator arm.",
+    "Ramsay 2007 (PMID 17721552) establishes MB as a potent reversible MAO-A inhibitor, creating a competing non-redox mechanistic explanation for MB cognitive effects.",
+    "Prior cards N5 and N6 (selective MAO-A-i ≠ MB; Azure B ≠ MB) do NOT constitute proof of redox-dead WM failure and must not be treated as such.",
+    "Predicted outcome: redox-dead analogue WM Δ ≤70% of MB (or outside pre-registered equivalence band); competing outcome: MAO-matched equivalence if MAO occupancy is comparable.",
+    "TRL assessment: TRL 1 — concept/hypothesis stage; no in vivo WM experiments have been conducted; all supporting evidence is literature-derived and endpoint-mismatched.",
+    "Kill cost is low (tier 1, ~4 weeks to refute), suggesting this is an early-stage, cheap assumption-kill experiment."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": []
+}

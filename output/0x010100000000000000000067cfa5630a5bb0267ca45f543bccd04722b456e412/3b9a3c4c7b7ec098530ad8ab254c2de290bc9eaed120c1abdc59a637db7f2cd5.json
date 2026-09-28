@@ -1,0 +1,90 @@
+{
+  "file_path": "/reports/2026-09-25/P8.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research report (card P8) proposing an assay to test whether FOXO4-DRI retains measurable senescent-cell (SC) kill under Bax/Bak loss-of-function (LOF) conditions that abolish navitoclax-mediated SC kill. The document is a hypothesis/prediction card with a negative status label, indicating the key experiment (matched Bax/Bak LOF residual FOXO4-DRI panel) has NOT been run. All critical experimental variables are either LITERATURE-sourced or classified as UNKNOWN/PREDICTION.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis (P8)",
+      "content": "On a matched senescent culture where Bax/Bak loss-of-function (or BAX-channel blockade) abolishes navitoclax senescent-cell kill (pre-registered navitoclax residual kill under LOF ≤20% of control-genotype navitoclax kill), FOXO4-DRI retains measurable residual SC kill — FOXO4-DRI kill under the same LOF ≥20% of its control-genotype FOXO4-DRI kill. This is a proposed assay (method: propose-assay), not a completed experiment. STATUS: NEGATIVE (not yet run)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "FOXO4-DRI enters via FOXO4–p53 axis; navitoclax acts via Bcl-2/Bcl-xL/Bcl-w. Both may require Bax/Bak MOMP for execution, OR FOXO4-DRI may retain partial Bax-independent death routes when navitoclax is fully gated. The hypothesis tests whether distinct upstream entry (FOXO4–p53 vs. Bcl-2 family) translates to distinct downstream execution (Bax-independent vs. Bax-dependent MOMP). Endothelial FOXO4-DRI work frames a p53/BCL-2/Caspase-3 cascade but lacks a Bax/Bak LOF residual-kill panel. Humanin–Bax MOMP block is cited as mechanism prior for BAX-channel tools, not as a FOXO4-DRI residual result."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "1. PMID 28340339 (Baar 2017, Cell, DOI 10.1016/j.cell.2017.02.031, PMC5556182): FOXO4-DRI perturbs FOXO4–p53 interaction → senescent-cell apoptosis. No Bax/Bak LOF residual arm.\n2. PMID 41625068 (2025, Front. Bioeng. Biotechnol., DOI 10.3389/fbioe.2025.1729166, PMC12852416): Endothelial FOXO4-DRI framed via p53/BCL-2/Caspase-3 cascade. BCL-2/caspase cascade ≠ Bax/Bak LOF residual panel.\n3. PMID 26711051 (Zhu 2016, DOI 10.1111/acel.12445, PMC4854923): Navitoclax (ABT-263) senolytic via Bcl-2/Bcl-xL/Bcl-w; cell-type restricted.\n4. PMID 12732850 (Guo 2003, Nature, DOI 10.1038/nature01627): Humanin binds Bax; blocks mitochondrial translocation/cytochrome c release — MOMP-block prior, not FOXO4-DRI residual under LOF."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay Description | Threshold/Notes |\n|---|---|---|---|\n| FOXO4_DRI_p53_entry | LITERATURE | FOXO4 peptide disrupts FOXO4–p53 in senescent cells → apoptosis (Baar 2017) | FOXO4–p53 axis entry, not Bcl-xL occupancy (PMID 28340339) |\n| FOXO4_DRI_p53_BCL2_Caspase3_framing | LITERATURE | Senescent endothelium FOXO4-DRI via p53/BCL-2/Caspase-3 (2025) | Mitochondrial Bcl-2-family nodes may sit downstream (PMID 41625068) — not Bax/Bak LOF residual |\n| navitoclax_Bcl2_family_senolytic | LITERATURE | ABT-263 senolysis in restricted SC panels (Zhu 2016) | Bcl-2/Bcl-xL/Bcl-w dependent; cell-type restricted (PMID 26711051) |\n| HN_Bax_MOMP_block_mechanism_prior | LITERATURE | HN–Bax binding; blocks Bax translocation/cytochrome c (Guo 2003) | MOMP/cytochrome c suppression (PMID 12732850) — prior for BAX tools; not FOXO4-DRI residual; no KD invented |\n| matched_BaxBak_LOF_residual_FOXO4_panel | UNKNOWN | Same culture — Bax/Bak LOF or BAX-channel block × FOXO4-DRI vs navitoclax; require navitoclax abolish, then score FOXO4-DRI residual | Dedicated residual LOF panel not found (soft-complete 0) — UNKNOWN |\n| FOXO4_residual_under_LOF_that_abolishes_navitoclax | PREDICTION | Pre-registered matched culture; LOF abolishes navitoclax first, then score FOXO4-DRI residual | Navitoclax under LOF ≤20% of control-genotype AND FOXO4-DRI under LOF ≥20% of control-genotype; α/N pre-specified — no invented % or dosing |\n| competing_partial_navitoclax_gate_misread | PREDICTION | Same design; falsifier if apparent residual coincides with incomplete navitoclax abolish | Incomplete navitoclax gate = pre-registered competing/QC fail |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Status",
+      "content": "- FOXO4–p53 entry: LITERATURE (PMID 28340339)\n- Downstream BCL-2/caspase framing: LITERATURE without Bax/Bak LOF residual (PMID 41625068)\n- Navitoclax Bcl-2-family senolytic: LITERATURE (PMID 26711051)\n- HN–Bax MOMP block: LITERATURE as mechanism prior (PMID 12732850)\n- Matched Bax/Bak LOF (abolishing navitoclax) × residual FOXO4-DRI SC kill: UNKNOWN (soft-complete 0)\n- Residual ≥20% of control-genotype FOXO4-DRI kill under LOF that abolishes navitoclax: PREDICTION\n- P5–P7 do NOT already prove this residual."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P5/P6/P7 as proving P8 — P7 left matched epistasis UNKNOWN and only flagged residual Bax-independence as a limitation; empty soft-complete ≠ demonstrated residual kill.\n2. Gating condition is strong — assay requires LOF that abolishes the navitoclax arm first; partial navitoclax resistance misreads as FOXO4-DRI residual.\n3. BCL-2 cascade ≠ Bax residual — PMID 41625068 implicates BCL-2/caspase nodes without genetic Bax/Bak necessity or residual measurement; alternate death routes remain PREDICTION until scored under the same LOF."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "On the pre-registered matched panel where Bax/Bak LOF/BAX-channel block abolishes navitoclax kill, if FOXO4-DRI residual kill also falls inside the null-residual band (FOXO4-DRI kill under LOF <20% of control-genotype, or inside band) — full MOMP-execution identity/≥ equal abolish survives and residual Bax-independence fails."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution & IP Status",
+      "content": "- Execution status: NOT_RUN\n- FTO status: UNKNOWN\n- Related prior: P7 (not proof of residual FOXO4-DRI under LOF)\n- Kill cost tier: 1 (low cost)\n- Time to refute: 4 weeks\n- IP class: momp-execution-gate\n- Vault hold: no\n- Policy: PUBLIC_REPORT_ONLY\n- Risk class: research-discussion\n- Polarity: negative"
+    }
+  ],
+  "key_findings": [
+    "P8 is a proposed assay (NOT_RUN) — no experimental data exists for the core claim; the matched Bax/Bak LOF × FOXO4-DRI residual SC kill panel has soft-complete score of 0 (UNKNOWN).",
+    "The hypothesis tests whether FOXO4-DRI retains ≥20% residual senescent-cell kill (relative to control-genotype) under Bax/Bak LOF conditions that abolish navitoclax kill (≤20% of control-genotype).",
+    "All supporting evidence is LITERATURE-derived: FOXO4–p53 entry (Baar 2017, PMID 28340339), BCL-2/caspase framing (PMID 41625068), navitoclax Bcl-2-family senolytic activity (Zhu 2016, PMID 26711051), and humanin–Bax MOMP block as mechanism prior (Guo 2003, PMID 12732850).",
+    "Critical epistasis experiment (matched Bax/Bak LOF abolishing navitoclax, then scoring FOXO4-DRI residual) is explicitly classified as UNKNOWN — no published or internal data found.",
+    "P5–P7 cards do not prove P8; P7 only flagged residual Bax-independence as a limitation without resolving it.",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost); FTO status: UNKNOWN.",
+    "Key methodological requirement: navitoclax abolish must be confirmed (≤20% of control-genotype kill) as a QC gate before FOXO4-DRI residual is scored; partial navitoclax resistance would confound results.",
+    "Document status is NEGATIVE — the claim is unproven and the experiment has not been run."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "P8 Report Publication",
+      "description": "Mol Labs public report for hypothesis card P8 (FOXO4-DRI residual kill under Bax/Bak LOF) published as a public document.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-25/P8.md",
+      "page": 1
+    },
+    {
+      "title": "Matched Bax/Bak LOF × FOXO4-DRI Residual Panel (Proposed)",
+      "description": "Proposed assay: run matched senescent culture with Bax/Bak LOF or BAX-channel block, confirm navitoclax abolish (≤20% of control-genotype kill), then score FOXO4-DRI residual SC kill. Estimated 4 weeks to refute. NOT yet run.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=P7 (not proof of residual FOXO4-DRI under LOF)",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "file_path": "/reports/2026-09-25/P10.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This document is a pre-registered hypothesis card (P10) proposing that caspase-8 loss-of-function (or pharmacologic block) abolishes FOXO4-DRI senolytic kill at least as completely as it abolishes navitoclax kill in matched senescent cultures. The claim is currently UNKNOWN/PREDICTION status — no matched head-to-head experiment has been run. The document situates this within a series (P5–P9) exploring MOMP-execution nodes in senolytic mechanisms, and explicitly flags that prior literature does not resolve this caspase-8 extrinsic-gate question.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "On a matched senescent culture, caspase-8 loss-of-function (or pharmacologic caspase-8/death-receptor-pathway block) abolishes FOXO4-DRI senescent-cell kill at least as completely as it abolishes navitoclax kill. Pre-registered threshold: relative kill loss_FOXO4 ≥ relative kill loss_navitoclax, with each arm showing ≥20% relative kill loss vs the same senolytic on control genotype/vehicle. Execution status: NOT_RUN. This is a PREDICTION, not an observed result."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "This is the next open MOMP-execution node after Bax (P7/P8) and apoptosome (P9). If caspase-8 block abolishes FOXO4-DRI ≥ navitoclax, execution is not exclusively intrinsic-MOMP. Soft-claims: FOXO4-DRI∩(caspase-8|Fas|extrinsic|RIPK|TRAIL) soft-complete = 0; matched caspase-8 LOF H2H remains UNKNOWN. P5–P9 are explicitly stated to NOT prove this extrinsic gate."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "FOXO4-DRI enters via FOXO4–p53 axis; navitoclax via Bcl-2/Bcl-xL/Bcl-w. Both may still require caspase-8/extrinsic execution — or FOXO4-DRI may stay largely caspase-8-independent while navitoclax is abolished (or the reverse). Endothelial FOXO4-DRI work frames a p53/BCL-2/Caspase-3 cascade without a caspase-8 LOF vs navitoclax matched abolish panel. Caspase-8 knockout ablates TNF-R/Fas/DR3-induced death (Varfolomeev) as an extrinsic execution prior, not a FOXO4-DRI SC H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baseline",
+      "content": "Four key references cited:\n1. PMID 28340339 (Baar 2017, Cell): FOXO4-DRI perturbs FOXO4–p53 → senescent-cell apoptosis; no caspase-8 LOF arm.\n2. PMID 41625068 (2025, Front Bioeng): Endothelial FOXO4-DRI framed via p53/BCL-2/Caspase-3; caspase-3 cascade ≠ caspase-8 LOF vs navitoclax H2H.\n3. PMID 26711051 (Zhu 2016, Aging Cell): Navitoclax senolytic via Bcl-2/Bcl-xL/Bcl-w; cell-type restricted.\n4. PMID 9729047 (Varfolomeev 1998): Caspase-8 KO ablates TNF-receptor/Fas/DR3-induced cell death — extrinsic execution prior, not a FOXO4-DRI SC matched panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| FOXO4_DRI_p53_entry | LITERATURE | FOXO4 peptide disrupts FOXO4–p53 in senescent cells → apoptosis (Baar 2017) | FOXO4–p53 axis entry, not Bcl-xL occupancy (PMID 28340339) |\n| FOXO4_DRI_p53_BCL2_Caspase3_framing | LITERATURE | Senescent endothelium FOXO4-DRI via p53/BCL-2/Caspase-3 (2025) | caspase-3 framing downstream — not caspase-8 LOF vs navitoclax H2H (PMID 41625068) |\n| navitoclax_Bcl2_family_senolytic | LITERATURE | ABT-263 senolysis in restricted SC panels (Zhu 2016) | Bcl-2/Bcl-xL/Bcl-w dependent; cell-type restricted (PMID 26711051) |\n| caspase8_KO_death_receptor_execution_prior | LITERATURE | Caspase-8 KO ablates TNF-R/Fas/DR3-induced cell death (Varfolomeev 1998) | Extrinsic execution prior (PMID 9729047) — not FOXO4-DRI SC matched panel |\n| matched_caspase8_LOF_FOXO4_vs_navitoclax_panel | UNKNOWN | Same senescent culture — FOXO4-DRI vs navitoclax under caspase-8 LOF or pharmacologic block; viability + caspase readout | Dedicated matched abolish panel NOT FOUND (soft-complete = 0) — UNKNOWN |\n| FOXO4_abolish_ge_navitoclax_under_caspase8_LOF | PREDICTION | Pre-registered matched culture; relative kill loss under caspase-8 LOF for each senolytic vs control | loss_FOXO4 ≥ loss_navitoclax AND each arm ≥20% relative kill loss — PREDICTION only |\n| competing_partial_caspase8_independence | PREDICTION | Same design; falsifier path if FOXO4-DRI kill largely survives caspase-8 LOF while navitoclax is abolished | loss_FOXO4 below loss_navitoclax outside pre-registered ≥ equal band — competing outcome |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Status",
+      "content": "FOXO4–p53 entry: LITERATURE (PMID 28340339). Downstream BCL-2/caspase-3 framing: LITERATURE without caspase-8 LOF H2H (PMID 41625068). Navitoclax Bcl-2-family senolytic: LITERATURE (PMID 26711051). Caspase-8 KO ablates death-receptor–induced death: LITERATURE as extrinsic prior (PMID 9729047). Matched caspase-8 LOF × FOXO4-DRI vs navitoclax % kill abolish: UNKNOWN. ≥ equal abolish (loss_FOXO4 ≥ loss_nav; each ≥20% relative): PREDICTION. P5–P9 do not already prove this epistasis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P5–P9 as proving P10 — Bax/residual/apoptosome cards did not run caspase-8 LOF; empty soft-complete ≠ demonstrated ≥ equal abolish.\n2. Caspase-3 cascade ≠ caspase-8 necessity — PMID 41625068 implicates caspase-3 without genetic extrinsic requirement or navitoclax-matched abolish.\n3. Varfolomeev ≠ FOXO4-DRI panel — classical extrinsic prior is not a senolytic H2H; ≥ equal abolish is stronger than shared death-receptor language; navitoclax-insensitive SC types confound matched culture choice."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Method / Assay Design",
+      "content": "Method type: propose-assay. Lock one senescent system sensitive to both senolytics, apply caspase-8 LOF vs pharmacologic caspase-8/death-receptor-block tool, measure viability + caspase readout. Compare FOXO4-DRI vs navitoclax under caspase-8 LOF vs control genotype/vehicle. Pre-register α/N before claiming ≥ equal abolish. Do not treat P5–P9 as proof; no dosing invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched panel, FOXO4-DRI kill largely survives caspase-8 LOF/block while navitoclax kill is abolished, OR relative kill loss_FOXO4 is below relative kill loss_navitoclax outside the pre-registered ≥ equal band — indicating pathway-sparing/caspase-8-independent FOXO4-DRI execution."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution & IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=1. time_to_refute=4 weeks. ip_class=momp-execution-gate. vault_hold=no. Related prior: P5–P9 (Bax/residual/apoptosome ≠ caspase-8 extrinsic gate proof). Policy: PUBLIC_REPORT_ONLY."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis P10 is a PREDICTION with execution_status=NOT_RUN — no matched caspase-8 LOF × FOXO4-DRI vs navitoclax experiment has been performed.",
+    "Soft-complete for FOXO4-DRI∩(caspase-8|Fas|extrinsic|RIPK|TRAIL) = 0; the matched caspase-8 LOF H2H remains UNKNOWN in the literature.",
+    "FOXO4-DRI mechanism enters via FOXO4–p53 axis (PMID 28340339); navitoclax via Bcl-2/Bcl-xL/Bcl-w (PMID 26711051) — distinct upstream entry points but shared downstream execution may or may not require caspase-8.",
+    "Endothelial FOXO4-DRI work (PMID 41625068) implicates caspase-3 cascade but does NOT constitute a caspase-8 LOF vs navitoclax head-to-head abolish panel.",
+    "Varfolomeev 1998 (PMID 9729047) establishes caspase-8 KO ablates death-receptor-induced death as an extrinsic execution prior — not a FOXO4-DRI senolytic matched panel.",
+    "Pre-registered threshold: relative kill loss_FOXO4 ≥ relative kill loss_navitoclax, each arm ≥20% relative kill loss vs control — neither threshold has been measured.",
+    "P5–P9 (Bax/residual/apoptosome cards) explicitly do NOT prove caspase-8 extrinsic gate epistasis for P10.",
+    "Estimated time to refute: 4 weeks; kill_cost_tier=1 (low cost experiment).",
+    "TRL assessment: This is TRL 1 — pure conceptual hypothesis with literature-only support; no experimental data generated for this specific claim."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "P10 Hypothesis Card Published",
+      "description": "Pre-registered hypothesis card P10 proposing caspase-8 LOF abolishes FOXO4-DRI senolytic kill ≥ navitoclax on matched senescent cultures was authored and published to public report.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-25/P10.md",
+      "page": 1
+    },
+    {
+      "title": "Matched Caspase-8 LOF × FOXO4-DRI vs Navitoclax Experiment",
+      "description": "Proposed assay: matched senescent culture with caspase-8 LOF or pharmacologic caspase-8/death-receptor block, comparing FOXO4-DRI vs navitoclax kill abolish with viability + caspase readout. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=momp-execution-gate · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

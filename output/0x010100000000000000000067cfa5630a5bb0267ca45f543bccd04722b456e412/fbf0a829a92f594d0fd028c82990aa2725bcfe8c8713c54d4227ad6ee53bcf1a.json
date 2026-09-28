@@ -1,0 +1,96 @@
+{
+  "file_path": "/reports/2026-09-26/L13.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (L13) proposing an experiment to test whether concurrent CD38-inhibitor + NAD-precursor dosing after senescent-cell/SASP clearance fails to exceed the better of two sequential dosing orders in terms of residual tissue ΔNAD. The card is classified as a research discussion with a negative status label, meaning the concurrent-vs-sequential-best head-to-head result is currently UNKNOWN and the experiment has NOT been run. All supporting evidence is drawn from published literature (TRL 1–2 level), with no original experimental data generated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "After documented senescent-cell / SASP clearance, residual tissue ΔNAD from concurrent CD38-inhibitor + NAD-precursor at matched total exposure fails to exceed residual tissue ΔNAD from the better of the two sequential order arms (CD38i→precursor vs precursor→CD38i). Pre-registered as: residual_concurrent ≤ sequential_best + surplus_margin. This is framed as an 'assumption-kill' of the common longevity-stack practice of always co-dosing both agents simultaneously after senolysis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "The 'subtract-before-add' framework: (1) Clear SASP-driven CD38+ macrophage load first via senolysis; (2) Run three matched-exposure arms — concurrent CD38i+precursor, sequential A (CD38i→precursor), sequential B (precursor→CD38i); (3) Score residual tissue ΔNAD against sequential_best = max(A, B). Key mechanistic priors: CD38 gates age-related NAD decline and NMN fate in vivo; SASP induces CD38-high macrophages that drain tissue NAD; senescent/SASP ablation lowers CD38 and partially restores NAD via an NMN-dependent ecto-block route; 78c-class CD38i improves aged-mouse healthspan as monotherapy. Incomplete clearance / residual CD38+ load can interact with schedule (concurrent vs sequential) — this interaction is predicted, not yet measured."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence Base",
+      "content": "Four key literature anchors are cited:\n1. PMID 27304511 (Camacho-Pereira 2016, Cell Metab): Age NAD↓ requires CD38; CD38 gates NMN fate in vivo. Provides CD38–NAD / NMN-gating prior for residual assays.\n2. PMID 33199924 (Covarrubias 2020, Nat Metab): SASP induces CD38-high macrophages that reduce tissue NAD. Provides subtract-before-add / incomplete-clearance motivation; NOT a concurrent-vs-sequential panel.\n3. PMID 33199925 (Chini 2020, Nat Metab): Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD via NMN-dependent process. Post-clearance baseline prior, NOT concurrent vs sequential-best H2H.\n4. PMID 35263032 (Tarragó 2022, Aging Cell): CD38i 78c increases lifespan/healthspan in chronological aging. Monotherapy tool prior, NOT concurrent vs sequential panel after senolysis.\nAdditional adjacent references noted as non-matches: PMID 33871064 (CD38i+NR co-treatment without senolysis order), PMID 36678315 (synergistic-stack review), PMID 41021886 (doxorubicin 78c–NMN)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN fate (Camacho-Pereira 2016) | Age NAD↓ requires CD38; gates NMN fate (PMID 27304511) — CONFIRMED in literature |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) — CONFIRMED in literature |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) — CONFIRMED in literature, not concurrent-vs-sequential panel |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | Lifespan/healthspan class effect as monotherapy (PMID 35263032) — CONFIRMED in literature, not concurrent vs sequential panel after senolysis |\n| matched_concurrent_vs_sequential_best_H2H_panel | UNKNOWN | Matched senolytic/SASP run-in → concurrent CD38i+NAD-precursor vs sequential A vs sequential B at matched total exposure; residual tissue ΔNAD ± CD38 activity | Dedicated concurrent-vs-sequential-best residual panel NOT FOUND (soft-complete concurrent∩sequential∩senolytic = 0) — UNKNOWN |\n| concurrent_fails_to_exceed_sequential_best_residual_deltaNAD | PREDICTION | Pre-registered aged tissue or SASP-conditioned cell system; verified clearance → concurrent vs seq A vs seq B at matched total exposure; residual ΔNAD readout (nmol NAD+/mg protein or fold vs post-clearance baseline) | residual_concurrent ≤ sequential_best + pre-registered surplus_margin — PREDICTION, not yet tested |\n| competing_concurrent_exceeds_or_incomplete_clearance | PREDICTION | Same design; competing outcomes if residual_concurrent exceeds sequential_best outside surplus_margin when clearance is verified | Concurrent-exceeds / incomplete-clearance / exposure-mismatch / assay-definition failure allowed as pre-registered competing outcomes — PREDICTION |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured vs. Unknown",
+      "content": "MEASURED (literature): CD38 gates age NAD/NMN fate; SASP→CD38+ macrophages→tissue NAD↓; clearance ↓CD38 + partial NAD rebound; ecto-block NMN-dependent; 78c aged-mouse benefit as monotherapy.\nUNKNOWN: Matched H2H concurrent vs sequential-best residual ΔNAD after senolysis (soft-complete concurrent∩sequential∩senolytic = 0; adjacent co-treatment PMIDs are non-matches).\nPREDICTION: Concurrent-fails-to-exceed.\nKey distinctions: L9 ≠ this (stack surplus ≠ concurrent vs sequential-best); L12 left concurrent open (order asymmetry ≠ concurrent residual vs sequential-best); L5–L12 ≠ proof; co-treatment ≠ this panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L5–L12 as proving L13 — ranking/stack surplus/duals/sequential order asymmetry never ran matched concurrent vs sequential-best residual ΔNAD after clearance; soft-complete empty ≠ demonstrated concurrent-failure.\n2. Co-treatment ≠ concurrent-vs-sequential-best — concurrent CD38i+NR without senolysis order (e.g. PMID 33871064) or synergistic-stack reviews (PMID 36678315) do not report concurrent vs max(sequential A, B) residual ΔNAD after matched senolytic/SASP run-in.\n3. L9 ≠ L13; L12 ≠ L13; incomplete clearance/target-load may interact with schedule; Chini clearance/ecto-block and 78c monotherapy are not this panel; no dosing specified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered concurrent-vs-sequential-best residual panel after verified clearance, residual_concurrent exceeds sequential_best = max(residual_CD38i_then_precursor, residual_precursor_then_CD38i) outside the pre-registered surplus_margin (concurrent DOES beat better sequential), when CD38↓ is verified — especially under incomplete clearance, exposure mismatch, or when apparent concurrent-failure is only an assay-definition artifact."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution Status and IP Classification",
+      "content": "execution_status = NOT_RUN\nfto_status = UNKNOWN\nip_class = subtract-before-add\nvault_hold = no\nkill_cost_tier = 2\ntime_to_refute = 6 weeks\nMethod: propose-assay\nRelated prior: L5–L12 (ranking/duals/stack surplus/order asymmetry ≠ concurrent vs sequential-best residual proof; L9≠this; L12 left concurrent open)\nPreferred model system: SASP-conditioned macrophage / WAT or liver explant before whole-animal."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ask a Human)",
+      "content": "Required design elements before claiming concurrent fails to exceed sequential-best after senolysis:\n- Lock tissue or cell system (prefer SASP-conditioned macrophage / WAT or liver explant before whole-animal)\n- Clearance verification (CD38 activity + SC/SASP marker)\n- Matched total exposure for concurrent CD38i (78c-class) + NAD precursor (NMN/NR-class) vs sequential arms A/B\n- Residual ΔNAD definition (nmol/mg or fold vs post-clearance baseline)\n- Pre-specify α, N, and surplus_margin before running\n- Do not treat L5–L12 as proof; L9≠this; L12 left concurrent open; co-treatment ≠ this panel; no dosing specified."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis L13 is classified STATUS_LABEL: NEGATIVE and execution_status = NOT_RUN — no original experimental data has been generated; this is a proposed assay at TRL 1.",
+    "The critical variable 'matched_concurrent_vs_sequential_best_H2H_panel' is explicitly UNKNOWN — a systematic search found zero papers with concurrent∩sequential∩senolytic design (soft-complete = 0).",
+    "All four mechanistic priors are literature-confirmed (PMIDs 27304511, 33199924, 33199925, 35263032) but none constitute a concurrent-vs-sequential-best head-to-head panel after senolysis.",
+    "The core claim — concurrent CD38i+NAD-precursor residual ΔNAD ≤ sequential_best after senolysis — is a PREDICTION, not an observed result.",
+    "Adjacent co-treatment studies (PMID 33871064, 36678315, 41021886) are explicitly identified as non-matches for the H2H design.",
+    "Estimated time to refute: 6 weeks; kill_cost_tier = 2; preferred model is SASP-conditioned macrophage or WAT/liver explant before whole-animal.",
+    "FTO status is UNKNOWN; IP class is 'subtract-before-add'; vault_hold = no.",
+    "Distinct from related cards L9 (stack surplus ≠ concurrent vs sequential-best) and L12 (order asymmetry left concurrent OPEN); L5–L12 ranking/duals do not prove L13."
+  ],
+  "document_date": "2026-09-26",
+  "milestones": [
+    {
+      "title": "Mol Labs L13 Report Published",
+      "description": "Public hypothesis card L13 authored and published to the Mol Labs public reports repository, documenting the proposed concurrent-vs-sequential-best CD38i+NAD-precursor assay after senolysis.",
+      "date": "2026-09-26",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-26/L13.md",
+      "page": 1
+    },
+    {
+      "title": "Concurrent vs Sequential-Best H2H Assay (Proposed)",
+      "description": "Proposed matched-exposure experiment: senolytic/SASP run-in followed by three arms (concurrent CD38i+NAD-precursor, sequential A: CD38i→precursor, sequential B: precursor→CD38i) with residual tissue ΔNAD readout. Estimated 6 weeks to refute. Not yet started.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=subtract-before-add · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

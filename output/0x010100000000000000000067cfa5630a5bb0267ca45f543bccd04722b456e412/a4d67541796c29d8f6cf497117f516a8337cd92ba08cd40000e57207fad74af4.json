@@ -1,0 +1,76 @@
+{
+  "file_path": "/reports/2026-09-25/P9.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a Mol Labs public research report (card P9) evaluating whether apoptosome (caspase-9/Apaf-1) loss-of-function abolishes FOXO4-DRI senolytic kill at least as completely as navitoclax kill in matched senescent cultures. The report is a pre-registered hypothesis/assay proposal with a NEGATIVE status label, meaning the key experimental evidence (matched apoptosome LOF head-to-head panel) is entirely UNKNOWN — no dedicated experiment has been run. The document synthesizes prior literature to frame the mechanistic question and defines the prediction variables, thresholds, and refutation criteria for a future experiment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Report ID: P9 (card P9.card.md). Status: NEGATIVE. Policy: PUBLIC_REPORT_ONLY. Topic: chemistry-materials / peptides. Risk class: research-discussion. Polarity: negative. Execution status: NOT_RUN. FTO status: UNKNOWN. Vault hold: no. Kill cost tier: 1. Time to refute: 4 weeks. IP class: momp-execution-gate. Related prior: P5–P8 (Bax LOF / residual / HN sparing ≠ apoptosome LOF proof). Document date: 2026-09-25."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis",
+      "content": "Pre-registered claim: On a matched senescent culture, caspase-9 or Apaf-1 loss-of-function (or pharmacologic apoptosome block) abolishes FOXO4-DRI senescent-cell kill at least as completely as it abolishes navitoclax kill. Quantitative threshold: relative kill loss_FOXO4 ≥ relative kill loss_navitoclax, with each arm showing ≥20% relative kill loss vs the same senolytic on control genotype/vehicle. This is a PREDICTION — no experimental data exists for this specific comparison."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "FOXO4-DRI enters via FOXO4–p53 axis; navitoclax enters via Bcl-2/Bcl-xL/Bcl-w inhibition. Both may still require the apoptosome (caspase-9/Apaf-1) for execution — or FOXO4-DRI may retain partial apoptosome-independent routes (e.g., caspase-8). Endothelial FOXO4-DRI work frames a p53/BCL-2/Caspase-3 cascade without a caspase-9/Apaf-1 LOF vs navitoclax matched abolish panel. The apoptosome necessity question is distinct from P7 Bax/Bak epistasis, P8 residual under Bax LOF, and P5/P6 HN pathway-sparing. If FOXO4-DRI still needs the apoptosome ≥ navitoclax, distinct entry does not spare MOMP-execution gating."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key prior art references are cited:\n1. PMID 28340339 (Baar 2017, Cell, DOI 10.1016/j.cell.2017.02.031, PMC5556182): FOXO4-DRI perturbs FOXO4–p53 → senescent-cell apoptosis. No caspase-9/Apaf-1 LOF arm; not Bcl-xL occupancy.\n2. PMID 41625068 (2025, Front. Bioeng. Biotechnol., DOI 10.3389/fbioe.2025.1729166, PMC12852416): Endothelial FOXO4-DRI framed via p53/BCL-2/Caspase-3. Caspase-3 cascade ≠ apoptosome LOF vs navitoclax H2H.\n3. PMID 26711051 (Zhu 2016, DOI 10.1111/acel.12445, PMC4854923): Navitoclax (ABT-263) senolytic via Bcl-2/Bcl-xL/Bcl-w; cell-type restricted.\n4. PMID 9708735 (Kuida 1998, DOI 10.1016/s0092-8674(00)81476-2): Mice lacking caspase-9 show reduced apoptosis and cytochrome c–mediated caspase activation. Apoptosome execution prior — not a FOXO4-DRI SC matched panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| FOXO4_DRI_p53_entry | LITERATURE | FOXO4 peptide disrupts FOXO4–p53 in senescent cells → apoptosis (Baar 2017) | FOXO4–p53 axis entry, not Bcl-xL occupancy (PMID 28340339) |\n| FOXO4_DRI_p53_BCL2_Caspase3_framing | LITERATURE | Senescent endothelium FOXO4-DRI via p53/BCL-2/Caspase-3 (2025) | Caspase-3 framing downstream of FOXO4–p53 (PMID 41625068) — not caspase-9/Apaf-1 LOF vs navitoclax H2H |\n| navitoclax_Bcl2_family_senolytic | LITERATURE | ABT-263 senolysis in restricted SC panels (Zhu 2016) | Bcl-2/Bcl-xL/Bcl-w dependent; cell-type restricted (PMID 26711051) |\n| caspase9_KO_cytochrome_c_execution_prior | LITERATURE | Caspase-9 KO reduces apoptosis and cytochrome c–mediated caspase activation (Kuida 1998) | Apoptosome execution prior (PMID 9708735) — not FOXO4-DRI SC matched panel |\n| matched_apoptosome_LOF_FOXO4_vs_navitoclax_panel | UNKNOWN | Same senescent culture — FOXO4-DRI vs navitoclax under caspase-9/Apaf-1 LOF or pharmacologic apoptosome block vs control; viability + cytochrome-c/caspase readout | Dedicated matched abolish panel not found (soft-complete FOXO4-DRI∩apoptosome = 0) — UNKNOWN |\n| FOXO4_abolish_ge_navitoclax_under_apoptosome_LOF | PREDICTION | Pre-registered matched culture; relative kill loss under caspase-9/Apaf-1 LOF or apoptosome block for each senolytic vs control genotype/vehicle | Relative kill loss_FOXO4 ≥ relative kill loss_navitoclax AND each arm ≥20% relative kill loss (α/N pre-specified) |\n| competing_partial_apoptosome_independence | PREDICTION | Same design; falsifier path if FOXO4-DRI kill largely survives apoptosome LOF while navitoclax is abolished | Relative kill loss_FOXO4 below relative kill loss_navitoclax outside pre-registered ≥ equal band |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured vs. Claimed",
+      "content": "Baseline claimed: Caspase-9/Apaf-1 (apoptosome) LOF or block abolishes FOXO4-DRI SC kill ≥ navitoclax on matched SC cultures (or P7/P8 Bax framing already settles full MOMP-execution identity).\n\nBaseline measured:\n- FOXO4–p53 entry: LITERATURE (PMID 28340339)\n- Downstream BCL-2/caspase-3 framing: LITERATURE without apoptosome LOF H2H (PMID 41625068)\n- Navitoclax Bcl-2-family senolytic: LITERATURE (PMID 26711051)\n- Caspase-9 KO reduces cytochrome c–mediated caspase activation: LITERATURE as execution prior (PMID 9708735)\n- Matched caspase-9/Apaf-1 LOF × FOXO4-DRI vs navitoclax % kill abolish: UNKNOWN (soft-complete FOXO4-DRI∩apoptosome = 0)\n- ≥ Equal abolish (loss_FOXO4 ≥ loss_nav; each ≥20% relative): PREDICTION\n- P5–P8 do not already prove this epistasis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P5–P8 as proving P9 — Bax LOF / residual / HN sparing cards did not run apoptosome LOF; empty soft-complete ≠ demonstrated ≥ equal abolish.\n2. Caspase-3 cascade ≠ caspase-9 necessity — PMID 41625068 implicates caspase-3 without genetic apoptosome requirement or navitoclax-matched abolish.\n3. ≥ Equal abolish is stronger than shared mitochondrial involvement — FOXO4-DRI could keep partial apoptosome-independent routes; navitoclax-insensitive SC types confound matched culture choice; Kuida is not a FOXO4-DRI panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation / Refutation Criteria",
+      "content": "Ablation conditions (what must not be removed):\n- Matched caspase-9/Apaf-1 LOF (or pharmacologic apoptosome block) contrast of FOXO4-DRI vs navitoclax on the same culture: Without the H2H abolish panel, separate LITERATURE legs cannot show FOXO4-DRI kill is abolished ≥ navitoclax under apoptosome LOF.\n- ≥ Equal-abolish quantitative contrast (loss_FOXO4 ≥ loss_nav): Showing both need mitochondria is weaker than the claim.\n- P5–P8≠proof + soft-complete-empty≠abolish + caspase-3-framing≠caspase-9-necessity discipline.\n\nRefutation criterion: On the pre-registered matched panel, FOXO4-DRI kill largely survives caspase-9/Apaf-1 LOF / apoptosome block while navitoclax kill is abolished, OR relative kill loss_FOXO4 is below relative kill loss_navitoclax outside the pre-registered ≥ equal band — pathway-sparing / apoptosome-independent FOXO4-DRI execution survives."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method",
+      "content": "Method type: propose-assay. Recommended approach: Lock one senescent system sensitive to both senolytics, use caspase-9 or Apaf-1 LOF vs pharmacologic apoptosome-block tool, and viability + cytochrome-c/caspase readout before claiming ≥ equal abolish. Do not treat P5–P8 as proof; no dosing specified. Estimated time to refute: 4 weeks. Kill cost tier: 1 (low cost)."
+    }
+  ],
+  "key_findings": [
+    "The core experimental evidence (matched caspase-9/Apaf-1 LOF × FOXO4-DRI vs navitoclax % kill abolish panel) is entirely UNKNOWN — no dedicated experiment has been run (execution_status=NOT_RUN).",
+    "Soft-complete for FOXO4-DRI∩apoptosome = 0; the only caspase-related hit (PMID 41625068) describes a caspase-3 cascade, not a caspase-9/Apaf-1 LOF vs navitoclax head-to-head.",
+    "All four supporting references are literature priors, not original experimental data from this project: Baar 2017 (FOXO4-DRI mechanism), 2025 endothelial study (caspase-3 framing), Zhu 2016 (navitoclax senolytic), Kuida 1998 (caspase-9 KO).",
+    "The pre-registered quantitative threshold requires: relative kill loss_FOXO4 ≥ relative kill loss_navitoclax AND each arm ≥20% relative kill loss vs control genotype/vehicle.",
+    "FOXO4-DRI may retain partial apoptosome-independent routes (e.g., caspase-8), which is identified as a competing outcome that would refute the claim.",
+    "P5–P8 (Bax LOF / residual / HN sparing cards) explicitly do NOT prove P9 apoptosome epistasis — these are distinct mechanistic questions.",
+    "TRL assessment: This project is at TRL 1 — pure concept/hypothesis with no original experimental data; all evidence is literature-derived and the key experiment is unrun.",
+    "IP class: momp-execution-gate; FTO status: UNKNOWN; vault hold: no.",
+    "Estimated cost and timeline to generate refuting/confirming data: kill_cost_tier=1, time_to_refute=4 weeks."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": []
+}

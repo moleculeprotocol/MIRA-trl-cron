@@ -1,0 +1,245 @@
+{
+  "file_path": "input/files/0x01010000000000000000001f96a3babca74d62c672e2e7180a061e296bb5581b/20260430104559-r4d1riax-peptai-whitepaper.pdf",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "PeptAI is an autonomous AI agent platform for peptide drug discovery targeting three GPCRs (KISS1R, OX2R, GLP-1R benchmark), operating an eight-gate computational pipeline followed by one wet-lab validation gate. Lead candidates for KISS1R (C1-01, C1-02) and OX2R (OX2R-004, OX2R-004-S1) have cleared all eight computational gates and are queued for wet-lab validation at Adaptyv Bio and Ginkgo Bioworks. The project is funded via a $50K Ignition Sale of the $PEPTAI ERC-20 token on BIO Protocol, with all gate decisions published on-chain via Molecule Labs.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover / Document Metadata",
+      "content": "PeptAI Whitepaper, Version 5, April 2026. Programmes: KISS1R, OX2R, GLP-1R (benchmark). Token: $PEPTAI ERC-20 on Base, Ignition Sale via BIO Protocol. Tagline: 'An autonomous AI agent for peptide drug discovery with programmatic on-chain funding. Eight computational gates, one wet-lab gate, every decision published.'"
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Abstract — Platform Overview and Current Status",
+      "content": "PeptAI operates a universal eight-gate computational pipeline: structure prediction (G1), binding pose generation (G2-G3), molecular dynamics (G4-G5), ADMET screening (G6), physicochemical profiling (G7), selectivity/safety (G8), and one wet-lab experimental validation gate (G9). Gates 1–8 are fully autonomous; Gate 9 is wet lab only. The pipeline is target-agnostic with target-specific calibration parameters. GLP-1R is the benchmark target. KISS1R leads C1-01 and C1-02 (from a 10-candidate library) and OX2R leads OX2R-004 (18-residue agonist) plus stabilized variant OX2R-004-S1 have cleared all eight computational gates. These candidates are queued for wet-lab validation at Adaptyv Bio and Ginkgo Bioworks. Key stats: 9 pipeline gates (1–8 autonomous), 3 GPCR programmes, $50K Ignition Sale, 10M $PEPTAI fixed supply."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 1 — Lead Programmes and Therapeutic Rationale",
+      "content": "Three GPCR programmes: (1) KISS1R — indication: idiopathic hypogonadotropic hypogonadism / fertility. Status: 2 leads (C1-01, C1-02) cleared all 8 gates against PDB 8XGO. Adaptyv BLI + Ginkgo cAMP HTRF queued. (2) OX2R — indication: ADHD / narcolepsy via orexin agonism. Status: OX2R-004 (18-residue agonist) + variant OX2R-004-S1 cleared computational feasibility. Adaptyv binding queued. (3) GLP-1R — metabolic medicine, calibration target. Reference panel: semaglutide, liraglutide, tirzepatide. $45B 2024 revenue. Calibrates platform performance. Differentiator: first AI drug discovery pipeline where every gate decision is published on-chain in real time, IP-NFT minting tied to experimentally verified milestones, and community funding tied to verified experimental outcomes."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 1.2 — Why AI Agents Now (Technology Enablers)",
+      "content": "Three convergent developments cited: (1) Structure prediction at near-atomic resolution — AlphaFold2 and Boltz2 produce binding-pose predictions at Å-scale accuracy on receptor-peptide complexes. (2) Molecular dynamics at scale — LiteFold's native MD engine enables microsecond-equivalent sampling of peptide-GPCR complexes at high-throughput cost. (3) Agentic orchestration — LLM-orchestrated multi-tool workflows compress hypothesis-to-result cycles from months to hours. Supporting literature: ML-produced novel GLP-1R/GCGR dual agonists (Puszkarska et al., Nature Chemistry 2024); AI-driven de novo design of ultra-long-acting GLP-1R agonists (Wei et al., 2025); first AI-designed drug completed Phase 2a (Nature Medicine 2025)."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Section 2 — Nine-Gate Pipeline Architecture with Thresholds and Status",
+      "content": "Gate | Description | Tool(s) | Threshold | Status\nG1 | Target Structure | AlphaFold DB / Boltz2 | pLDDT > 0.65 (helical core, residues 7–26) | LIVE\nG2 | Conformational Sampling | LiteFold MD | ≥2 clusters, dominance > 50% | LIVE\nG3 | Binding Pose | Boltz2 + PDB 3IOL | Contact conservation > 60%, BSA > 800Å², clash ≤ 5 | LIVE\nG4 | Binding Affinity | PRODIGY | ΔG < −10 kcal/mol (GPCR) | PARTIAL → LIVE\nG5 | MD Stability | LiteFold MD | RMSD < 3Å, min RMSF residues 17–22 | LIVE\nG6 | ADMET + Stability | PROSPERous + QSAR | t½ > 2 hrs, ≤ 2 cleavage sites; ADMET within injectable bounds | LIVE\nG7 | Physicochemical | OpenSol + AGGRESCAN | Solubility > 1 mg/mL, low aggregation, IC50 > 500 nM | LIVE\nG8 | Selectivity + Safety | ToxinPred3 + Boltz2 | ΔΔG > 1.4 kcal/mol, non-toxic | LIVE\nG9 | Experimental Binding | SPR / BLI · Adaptyv | Kd < 1 µM hit / < 100 nM lead | WET LAB ONLY\n\nNote on G6: ADMET profile includes estimated plasma half-life, Caco-2 permeability proxy, hERG and CYP3A4 risk assessment, BBB Score, and renal clearance estimate. ADMET predictions are directional rather than quantitative for this MW range."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 2.2–2.3 — Calibration and Gate 0 Autonomous Self-Calibration",
+      "content": "Gate thresholds are empirically grounded against a reference panel of known GLP-1R agonists and negative controls. Positive controls pass, negative controls fail, off-target peptides are correctly flagged. Gate 0 is a pre-pipeline step: the agent autonomously establishes a baseline for the target class using BIOS to identify reference compounds, then queries ChEMBL by target ID for structured binding data (Kd/EC50) for known binders and non-binders. Minimum panel: one confirmed agonist + one confirmed non-binder. Panel is run through Gates 1–8 to compute per-gate baseline (mean ± SD across Class A reference compounds). All downstream candidate scores expressed as Z-scores: Z = (score − class mean) / class SD. Gate 4 caveat: PRODIGY ΔG values are unreliable in absolute terms for peptide-GPCR contacts (model trained on protein-protein interfaces). ΔG is used for relative ranking (Z-score vs. panel), not converted to predicted Kd. Absolute Kd prediction deferred until Adaptyv Bio SPR data accumulates."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Section 3 — Generative Discovery Engine and Phase Roadmap",
+      "content": "Current state (Phase 1): scoring machine — human proposes sequence, agent evaluates. Phase 1.5 converts to generative loop: system generates sequences, scores them, learns from experimental results, generates better candidates. Fitness function has two components: (1) Computational fitness (now) — gate scores G1–G8 combined into composite ranking; internally consistent but not yet externally validated against experimental binding data. (2) Experimental fitness (unlocked by Gate 9a) — Kd from SPR at Adaptyv; once 10–15 paired computational-experimental measurements available, fitness function calibrated to weight each gate by actual predictive power.\n\nPhase roadmap:\n- Phase 1 (Now/Current): Pipeline live. Agent-evaluated scoring of human-proposed candidates.\n- Phase 1.5 (Q2 2026): Calibration. Agent self-calibration against ChEMBL reference panels.\n- Phase 2A (Q2–Q3 2026): Gate 9a SPR data. Fitness model v1: predicts Kd from gate scores.\n- Phase 2B (Q3 2026): Fitness model v1 validated. Generative candidate design unlocked.\n- Phase 2C (Q1 2027): First SPR hits confirmed. In-vivo PK/PD begins.\n- Phase 3 (2027+): In-vivo signal confirmed. De-risked asset and licensing possibility."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Section 4 — Wet Lab Strategy: Two Parallel Tracks",
+      "content": "Track A — Natural-AA Candidates (Adaptyv Bio, weeks 3–4):\n- Synthesised and assayed end-to-end at Adaptyv Bio.\n- Reference peptides: KP-10 (KISS1R reference), OX2R-004 (OX2R parent), Orexin-B (OX2R native ligand reference).\n- Purpose: establish binding baselines and calibrate Adaptyv assay platform before higher-cost ncAA peptides.\n- Cost: ~$240–440. Lead time: 3–4 weeks. Output: binding baseline.\n\nTrack B — ncAA Candidates (Specialty CRO → Adaptyv → Ginkgo, weeks 7–9):\n- Lead candidates with non-canonical amino acid modifications: D-amino acids, Nω-methyl-Arg, azaGly, N-acetylation.\n- Synthesis at JPT, Bachem, or GenScript.\n- Routed to Adaptyv Bio for BLI binding and selectivity.\n- Top binders advance to Ginkgo Bioworks for cAMP HTRF functional assays.\n- 3 vendors. Lead time: 7–9 weeks. Output: design vs. nature comparison."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Section 4.2 — Planned Partner Network",
+      "content": "Partner | Role | Gate | Phase\nAdaptyv Bio | Natural-AA synthesis + BLI/SPR binding measurements | Gate 9a | Phase 1\nJPT / Bachem / GenScript | ncAA peptide synthesis | Pre-G9 | Phase 1\nGinkgo Bioworks | cAMP HTRF functional assays | Gate 9b | Phase 2\nDr. Jo Lewis | GLP-1R animal models, SPR/BLI, in-vivo PK/PD | Gate 9c+ | Phase 2+\nBachem | GMP synthesis scale-up | Scale-up | Phase 3"
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Section 5 — On-Chain Architecture",
+      "content": "Two infrastructure layers: (1) OpenClaw (agent runtime) — open-source framework for autonomous research agents; each programme runs on dedicated OpenClaw instance with own memory, session history, communication channel; orchestrates LiteFold, BIOS; publishes to Molecule Labs. Architecture is experimental, ~3 months of development across two major revision cycles. (2) BIO Protocol (funding & governance) — $PEPTAI token (ERC-20 on Base), Safe multisig treasury, Ignition Sale mechanism; funds allocated to agent wallets via Privy's programmatic wallet infrastructure. Publication surface: all pipeline runs publish to Molecule Labs with sequence, gate scores, tool identification, PASS/FAIL/BLOCKED/PARTIAL status, timestamp, on-chain hash. IP-NFT via Molecule: minting tied to dynamically validated candidates (not static proposals). Funding: $25K initial R&D budget funds wet-lab campaign; ongoing R&D from DAO Allocation (40% of total supply); no separate follow-on raise, no milestone-gated unlock schedule."
+    },
+    {
+      "page": 10,
+      "type": "table",
+      "title": "Section 6 — Tokenomics: $PEPTAI Supply Allocation",
+      "content": "Token: $PEPTAI, ERC-20 on Base. Total supply: 10,000,000. Ignition Sale price: $0.166667/token. Fully diluted valuation: $1.67M.\n\nAllocation breakdown:\n- Ignition Sale: 3% — sold via BIO Launchpad to raise $50K USDC\n- Pool Liquidity: 7% — paired with $25K of raise → POL on Aerodrome at launch\n- Reserve Liquidity: 10% — held to deepen pool liquidity over time\n- DAO Allocation: 40% — primary mechanism for funding R&D beyond $25K seed; token-holder governed\n- BIO Stakers: 20% — linear vesting: 20% at TGE → 100% at month 6\n- BIO Treasury: 20% — strategic reserve held by BIO\n\nToken holder rights: propose new receptor targets; on-chain access to all gate results via Molecule Labs; participation in IP-NFT value accrual for candidates reaching experimental milestones; voice in DAO Allocation deployments. Token does NOT represent equity, guaranteed financial return, or claim on programmes outside scope of raise."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Section 7 — Risk Factors",
+      "content": "Scientific risks: (1) Computational–experimental correlation may be lower than expected — if gate scores do not predict experimental Kd, Phase 2 fitness model will have poor accuracy and generative loop will not converge. Mitigation: calibration panel data and Bits to Binders 2026 benchmark provide prior evidence for G5 predictive power. (2) Phase 1 optimises for binding affinity only — a computationally/experimentally good sequence may still prove balanced rather than biased; Phase 2 Ginkgo functional assays required before bias can be assessed; timeline H2 2026 at earliest. (3) Non-canonical amino acid synthesis risk — lead candidates contain ncAA modifications (D-amino acids, Nω-methyl-Arg, azaGly, N-terminal acetylation) requiring specialist synthesis; azaGly7 in C1-02 with adjacent Thr5 is the most discriminating cross-vendor question.\n\nExecution risks: (1) Gate 9a timing uncertainty — Adaptyv Bio SPR scheduling is single most critical dependency on Phase 2 roadmap; delays fitness model, generative loop, and all downstream milestones. Mitigation: early engagement with Adaptyv Bio; Track A proceeds in parallel. (2) Agent infrastructure is experimental — depends on OpenRouter (LLM inference), LiteFold (MD); service outages, rate limits, API changes can halt progress; architecture revised twice in first month. Mitigation: instances can be forked, reconfigured, relaunched with snapshots."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "References",
+      "content": "1. Wei T, Ma J, et al. AI-driven de novo design of ultra long-acting GLP-1 receptor agonists. Adv. Science 2025;12(40):e07044. doi:10.1002/advs.202507044\n2. Puszkarska AM, Taddese B, et al. Machine learning designs new GCGR/GLP-1R dual agonists. Nature Chemistry 2024;16(9):1436. doi:10.1038/s41557-024-01532-x\n3. Ren F, et al. A generative AI-discovered TNIK inhibitor for IPF: a phase 2a trial. Nature Medicine 2025. doi:10.1038/s41591-025-03743-2\n4. Passaro S, Corso G, Wohlwend J, et al. Boltz-2: efficient binding affinity prediction. bioRxiv 2025. doi:10.1101/2025.06.14.659707\n5. Weidener M, et al. DeScAI: convergence of decentralized science and AI. Frontiers in Blockchain 2025. doi:10.3389/fbloc.2025.1657050"
+    }
+  ],
+  "key_findings": [
+    "KISS1R programme: 2 lead candidates (C1-01, C1-02) from a 10-candidate library have cleared all 8 computational gates against PDB 8XGO; queued for Adaptyv Bio BLI and Ginkgo cAMP HTRF wet-lab validation.",
+    "OX2R programme: OX2R-004 (18-residue agonist) and stabilized variant OX2R-004-S1 have cleared computational feasibility (all 8 gates); queued for Adaptyv Bio binding assay.",
+    "GLP-1R serves as benchmark/calibration target only (reference panel: semaglutide, liraglutide, tirzepatide); no novel GLP-1R candidates reported.",
+    "No wet-lab experimental data has been generated yet — Gate 9 (Kd < 1 µM hit / < 100 nM lead by SPR/BLI) is pending; all current evidence is computational.",
+    "Eight-gate computational pipeline is fully live (Gates 1–8 LIVE, Gate 4 PARTIAL→LIVE); tools include AlphaFold2/Boltz2, LiteFold MD, PRODIGY, PROSPERous, AGGRESCAN, ToxinPred3.",
+    "Gate 4 (PRODIGY ΔG) acknowledged as unreliable in absolute terms for peptide-GPCR contacts; used only for relative Z-score ranking vs. reference panel, not absolute Kd prediction.",
+    "Lead candidates contain non-canonical amino acid modifications (D-amino acids, Nω-methyl-Arg, azaGly, N-acetylation) requiring specialist synthesis; azaGly7 in C1-02 with adjacent Thr5 flagged as highest synthesis risk.",
+    "Fitness function is currently computational only (G1–G8 composite); experimental fitness (Kd from SPR) requires 10–15 paired measurements to calibrate gate weights — not yet available.",
+    "Phase roadmap: Phase 1 (current, scoring), Phase 1.5 (Q2 2026, ChEMBL self-calibration), Phase 2A (Q2–Q3 2026, Gate 9a SPR data), Phase 2B (Q3 2026, generative design unlocked), Phase 2C (Q1 2027, first SPR hits + in-vivo PK/PD), Phase 3 (2027+, licensing).",
+    "Funding: $50K Ignition Sale via BIO Protocol; $25K seeds initial R&D (wet-lab campaign), $25K as liquidity on Aerodrome; ongoing R&D governed by DAO Allocation (40% of 10M token supply).",
+    "IP-NFT minting via Molecule Labs tied to dynamically validated candidates (not static proposals); all gate decisions published on-chain in real time.",
+    "Agent infrastructure is experimental (~3 months development, 2 major revision cycles); depends on external services (OpenRouter, LiteFold) with acknowledged outage/rate-limit risks.",
+    "TRL assessment: project is at approximately TRL 2–3 — computational pipeline validated against reference compounds, lead candidates identified computationally, but no experimental binding data yet generated."
+  ],
+  "document_date": "2026-04",
+  "milestones": [
+    {
+      "title": "KISS1R Computational Pipeline Completion",
+      "description": "Two lead candidates (C1-01, C1-02) from a 10-candidate library cleared all 8 computational gates against PDB 8XGO.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PeptAI has already advanced lead candidates through the full eight-gate computational pipeline for both KISS1R (two leads from a 10-candidate library) and OX2R (lead plus stabilized variant).",
+      "page": 3
+    },
+    {
+      "title": "OX2R Computational Pipeline Completion",
+      "description": "OX2R-004 (18-residue agonist) and stabilized variant OX2R-004-S1 cleared computational feasibility through all 8 gates.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "OX2R-004 (18-residue agonist) + variant OX2R-004-S1 cleared computational feasibility. Adaptyv binding queued.",
+      "page": 4
+    },
+    {
+      "title": "GLP-1R Reference Panel Calibration",
+      "description": "Pipeline calibrated against GLP-1R reference panel (semaglutide, liraglutide, tirzepatide) to confirm gate discrimination (positive controls pass, negative controls fail).",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Prior to evaluating novel candidates, the pipeline was run against approved agonists and structurally related non-agonists to confirm that each gate discriminates correctly: positive controls pass, negative controls fail, and off-target peptides are correctly flagged.",
+      "page": 6
+    },
+    {
+      "title": "$PEPTAI Ignition Sale Launch",
+      "description": "Token Generation Event and Ignition Sale via BIO Protocol raising $50K USDC; $25K seeds R&D, $25K as liquidity on Aerodrome.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "The Ignition Sale raises $50K, of which $25K seeds initial R&D and $25K as liquidity at launch on Aerodrome.",
+      "page": 3
+    },
+    {
+      "title": "Phase 1.5 — Agent Self-Calibration Against ChEMBL",
+      "description": "Agent self-calibration against ChEMBL reference panels for autonomous Gate 0 baseline establishment across target classes.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "PHASE 1.5 Q2 2026 Calibration. Agent self-calibration against ChEMBL reference panels.",
+      "page": 7
+    },
+    {
+      "title": "Track A Wet-Lab — Natural-AA Binding Baseline (Adaptyv Bio)",
+      "description": "KP-10 (KISS1R reference), OX2R-004, and Orexin-B synthesised and assayed at Adaptyv Bio to establish binding baselines; weeks 3–4 post-launch.",
+      "date": "weeks 3–4",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Synthesised and assayed end-to-end at Adaptyv Bio. KP-10 (KISS1R reference), OX2R-004 (OX2R parent), and Orexin-B (OX2R native ligand reference) establish binding baselines and calibrate the Adaptyv assay platform before higher-cost ncAA peptides arrive.",
+      "page": 8
+    },
+    {
+      "title": "Track B Wet-Lab — ncAA Candidate BLI Binding and Selectivity",
+      "description": "Lead candidates with ncAA modifications synthesised at JPT/Bachem/GenScript, then assayed at Adaptyv Bio for BLI binding and selectivity; weeks 7–9 post-launch.",
+      "date": "weeks 7–9",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Lead candidates with non-canonical amino acid modifications (D-amino acids, Nω-methyl-Arg, azaGly, N-acetylation) synthesised at JPT, Bachem, or GenScript, then routed to Adaptyv Bio for BLI binding and selectivity.",
+      "page": 8
+    },
+    {
+      "title": "Phase 2A — Gate 9a SPR Data and Fitness Model v1",
+      "description": "Gate 9a SPR data from Adaptyv Bio collected; fitness model v1 built to predict Kd from gate scores using 10–15 paired computational-experimental measurements.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "PHASE 2A Q2–Q3 '26 Gate 9a SPR data. Fitness model v1: predicts Kd from gate scores.",
+      "page": 7
+    },
+    {
+      "title": "Phase 2B — Fitness Model Validated, Generative Design Unlocked",
+      "description": "Fitness model v1 validated against experimental data; generative candidate design mode activated.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "PHASE 2B Q3 2026 Fitness model v1 validated. Generative candidate design unlocked.",
+      "page": 7
+    },
+    {
+      "title": "Phase 2B — Ginkgo Bioworks cAMP HTRF Functional Assays",
+      "description": "Top binders from Adaptyv advance to Ginkgo Bioworks for cAMP HTRF functional assays (Gate 9b) to assess agonist bias.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Top binders advance to Ginkgo Bioworks for cAMP HTRF functional assays.",
+      "page": 8
+    },
+    {
+      "title": "Phase 1 Functional Bias Assessment (H2 2026)",
+      "description": "Phase 2 Ginkgo functional assays required before agonist bias can be assessed; earliest timeline H2 2026.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Phase 2 Ginkgo functional assays are required before bias can be assessed. Timeline: H2 2026 at earliest.",
+      "page": 11
+    },
+    {
+      "title": "Phase 2C — First SPR Hits Confirmed, In-Vivo PK/PD Begins",
+      "description": "First SPR hits confirmed experimentally; in-vivo PK/PD studies begin with Dr. Jo Lewis (GLP-1R animal models).",
+      "date": "2027-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "PHASE 2C Q1 2027 First SPR hits confirmed. In-vivo PK/PD begins.",
+      "page": 7
+    },
+    {
+      "title": "Phase 3 — De-Risked Asset and Licensing",
+      "description": "In-vivo signal confirmed; de-risked asset and licensing possibility explored.",
+      "date": "2027",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "PHASE 3 2027+ In-vivo signal confirmed. De-risked asset and licensing possibility.",
+      "page": 7
+    },
+    {
+      "title": "Phase 3 — GMP Synthesis Scale-Up (Bachem)",
+      "description": "GMP synthesis scale-up at Bachem for lead candidates advancing to Phase 3.",
+      "date": "2027",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Bachem GMP synthesis scale-up Scale-up Phase 3",
+      "page": 8
+    }
+  ]
+}

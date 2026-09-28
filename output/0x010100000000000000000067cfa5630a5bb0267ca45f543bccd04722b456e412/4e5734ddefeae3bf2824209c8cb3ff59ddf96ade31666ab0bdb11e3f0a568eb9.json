@@ -1,0 +1,95 @@
+{
+  "file_path": "/reports/2026-09-27/L25.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (L25) proposing a research discussion and assay design to test whether resveratrol retains lifespan/healthspan benefits independent of SIRT1, using a pre-registered rodent panel with SIRT1 genetic loss-of-function or EX527 pharmacological inhibition. The document is a hypothesis/proposal card (TRL 1–2) that synthesizes prior literature (Howitz 2003, Baur 2006, Price 2012, Napper 2005) and identifies a key unknown: whether residual mammalian resveratrol healthspan benefit persists under SIRT1 abolish. No new experimental data are presented; the experiment is listed as NOT_RUN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Hypothesis (L25)",
+      "content": "Mol Labs public report L25 proposes an 'assumption-kill' experiment to test whether resveratrol retains lifespan/healthspan phenotype when SIRT1 is genetically knocked out or pharmacologically inhibited (EX527). The core claim: on a pre-registered rodent metabolic/healthspan panel (Baur/Price-class), under SIRT1 genetic LOF or EX527 abolish, resveratrol vs vehicle early healthspan/metabolic improvement retains ≥50% of the resveratrol vs vehicle improvement on SIRT1-intact concurrent controls. Execution status: NOT_RUN. This is a hypothesis/discussion card, not a completed experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Prediction Gate",
+      "content": "Primary prediction: Under SIRT1 genetic LOF or EX527/SIRT1-inhibitor match that abolishes SIRT1-class longevity attribution, same-panel early healthspan/metabolic improvement (resveratrol vs vehicle under abolish) retains ≥50% of the resveratrol vs vehicle early healthspan/metabolic improvement on SIRT1-intact concurrent controls. Full lifespan is only a secondary co-readout, not a gate. α/N pre-specified. Refute condition: <50% retention when block-not-abolished, underpowered-strata, and assay-mismatch artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Howitz 2003 (PMID 12939617)",
+      "content": "Howitz et al. (Nature 2003, PMID 12939617, DOI 10.1038/nature01960): Small-molecule sirtuin activators including resveratrol extend S. cerevisiae replicative lifespan. This is the founding SIRT1/Sir2-activator longevity phenotype. Limitation: No Sirt1 genetic LOF or EX527 residual lifespan H2H on the same panel. Classified as LITERATURE phenotype founding prior."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Baur 2006 (PMID 17086191)",
+      "content": "Baur et al. (Nature 2006, PMID 17086191, DOI 10.1038/nature05354, PMC4990206): Resveratrol improves health and survival of mice on a high-calorie diet, including insulin sensitivity, AMPK/PGC-1α activation, mitochondrial function, and motor function. Classified as LITERATURE phenotype longevity/healthspan prior. Limitation: No Sirt1-abolish residual arm included."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Price 2012 (PMID 22560220)",
+      "content": "Price et al. (Cell Metabolism 2012, PMID 22560220, DOI 10.1016/j.cmet.2012.04.003, PMC3545644): Inducible adult whole-body SIRT1 deletion mice. Moderate-dose resveratrol AMPK activation and mitochondrial biogenesis/function are absent in SIRT1 knockouts. High-dose resveratrol can activate AMPK independently of SIRT1, but mitochondrial improvements still require SIRT1. Classified as mammalian genetic NECESSITY for AMPK/mito benefits of resveratrol — AGAINST residual for mito class. Not a full lifespan residual H2H under Sirt1 abolish. Explicitly kept distinct from L22 (metformin×AMPK)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Napper 2005 (PMID 16335928)",
+      "content": "Napper et al. (J Med Chem 2005, PMID 16335928, DOI 10.1021/jm050522v): Discovery of indoles as potent selective SIRT1 inhibitors (EX-527 class). Provides the chemical tool for SIRT1-block match in proposed experiments. Not a resveratrol × EX527 longevity residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Unknown / Gap",
+      "content": "Residual-positive mammalian resveratrol lifespan or healthspan H2H under SIRT1 genetic LOF or EX527 match that abolishes SIRT1-class control is UNKNOWN (soft-complete Q_resid/Q_ex527_life = NON-MATCH; no residual-positive mammalian data found). Price mito necessity is AGAINST residual for the mito class but is not a full lifespan residual H2H. Worm data (Yoon Aging Cell PMID 30575269 residual-leaning; Viswanathan/Lee PMID 16256736; 27190265 necessity) are noted as controversy outside public prior_art ≤4 and do not constitute mammalian residual proof."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Howitz_sirtuin_activator_yeast_lifespan_phenotype | LITERATURE | S. cerevisiae; RSV; replicative lifespan | Founding phenotype FOUND (PMID 12939617); no Sirt1 LOF residual arm |\n| Baur_resveratrol_high_calorie_mice_health_survival_phenotype | LITERATURE | Mice on high-calorie diet; RSV; health/survival | Phenotype FOUND (PMID 17086191); no Sirt1-abolish residual arm |\n| Price_SIRT1_required_for_RSV_AMPK_mito_necessity | LITERATURE | Inducible SIRT1 KO mice; RSV; AMPK; mito | Necessity AGAINST residual for mito class FOUND (PMID 22560220); not full lifespan residual H2H |\n| Napper_EX527_selective_SIRT1_inhibitor_tool | LITERATURE | Indole SIRT1 inhibitors; EX-527 class | Tool FOUND (PMID 16335928); not RSV×EX527 longevity residual H2H |\n| matched_resveratrol_under_SIRT1_block_residual_mammalian_lifespan_healthspan_H2H | UNKNOWN | Rodent ±RSV ±Sirt1 LOF or EX527; same-panel lifespan/healthspan residual | UNKNOWN — NON-MATCH; do not invent residual |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_resveratrol_vs_vehicle | PREDICTION | Pre-registered rodent panel; SIRT1 LOF or EX527 abolish; early healthspan/metabolic Δ | ≥50% retention of intact-arm RSV vs vehicle Δ — PREDICTION (NOT_RUN) |\n| competing_block_not_abolished_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Block-not-abolished/underpowered/assay-mismatch = inconclusive (pre-registered competing outcomes) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Design: Pre-registered rodent metabolic/healthspan panel (Baur/Price-class). Arms: resveratrol vs vehicle under (1) SIRT1 genetic LOF or EX527/SIRT1-inhibitor match that abolishes SIRT1-class control benefit, and (2) SIRT1-intact concurrent controls. Primary endpoint: early healthspan/metabolic proxy within the refute window (pre-specified). Secondary: full lifespan co-readout (not a gate). Optional: cell/MEF mito lock as assay-support only. Execution status: NOT_RUN. Time-to-refute: 6 weeks. Kill cost tier: 2. IP class: sirt1-insufficiency. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Competing Caveats and Inconclusive Conditions",
+      "content": "Pre-registered competing outcomes that would render the test inconclusive rather than refuted: (1) Block not actually abolishing SIRT1-class control benefit; (2) Underpowered strata; (3) Referee-assay mismatch vs Baur/Price-class lock. These must be ruled out before a refute call is made. Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Differentiation (L15–L24 ≠ L25)",
+      "content": "Explicit differentiation from other series cards: L15 (DunedinPACE/GrimAge organ-age), L16 (tissue SA-β-gal/p16 vs blood under D+Q), L17 (intermittent-rapa FKBP-high tissue mTORC2), L18 (17α-E2 × caloric-match residual), L19 (acarbose × glycemic-match residual), L20 (SPD residual under ATG5/7/autophagy-insufficiency; SIRT1 ≠ bulk ATG), L21 (UA residual under PINK1/Parkin/mitophagy-insufficiency; SIRT1 ≠ mitophagy), L22 (metformin residual under AMPK LOF; SIRT1 ≠ AMPK primary; RSV ≠ metformin; do not collapse via Price RSV→SIRT1→AMPK), L23 (lithium residual under GSK3 LOF; SIRT1 ≠ GSK3), L24 (canagliflozin residual under SGLT2 LOF; SIRT1 ≠ SGLT2). NOT NAD-after-senolysis (SERIES_FROZEN). L1–L24 ≠ proof of L25."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Metadata",
+      "content": "kill_cost_tier=2 · time_to_refute=6w · ip_class=sirt1-insufficiency · vault_hold=no · execution_status=NOT_RUN · fto_status=UNKNOWN · STATUS_LABEL: NEGATIVE · novelty_tag: assumption-kill · polarity: negative · risk_class: research-discussion · card SHA256: d21d97b8681b3124b36ec6efcc1748beff2f549d1cc1f7237d4c682c5b12efd2"
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — this is a hypothesis/proposal card at TRL 1 with no new experimental data generated.",
+    "Core unknown: residual-positive mammalian resveratrol lifespan/healthspan H2H under SIRT1 genetic LOF or EX527 abolish is UNKNOWN (NON-MATCH in literature search).",
+    "Price 2012 (PMID 22560220) establishes mammalian genetic NECESSITY of SIRT1 for RSV AMPK/mito benefits — AGAINST residual for mito class — but is not a full lifespan residual H2H.",
+    "Howitz 2003 (PMID 12939617) and Baur 2006 (PMID 17086191) provide founding phenotype priors (yeast lifespan and high-calorie mouse health/survival) but neither includes a Sirt1-abolish residual arm.",
+    "Napper 2005 (PMID 16335928) provides EX-527 as a selective SIRT1 inhibitor chemical tool, but no RSV × EX527 longevity residual H2H exists.",
+    "Worm data (Yoon residual-leaning vs Viswanathan/Lee necessity) represent a controversy outside the public prior_art ≤4 and do not constitute mammalian residual proof.",
+    "Prediction gate: ≥50% retention of SIRT1-intact resveratrol vs vehicle early healthspan/metabolic improvement under SIRT1 abolish arm on the same panel.",
+    "Refute condition: <50% retention when block-not-abolished, underpowered-strata, and assay-mismatch artifacts are ruled out.",
+    "PRIOR_ART PARTIAL: phenotype + mammalian mito necessity + EX527 tool FOUND; mammalian residual-positive H2H absent.",
+    "Competing inconclusive conditions pre-registered: block not actually abolishing SIRT1-class control, underpowered strata, referee-assay mismatch.",
+    "Kill cost tier 2; time-to-refute estimated at 6 weeks; ip_class = sirt1-insufficiency; vault_hold = no."
+  ],
+  "milestones": []
+}

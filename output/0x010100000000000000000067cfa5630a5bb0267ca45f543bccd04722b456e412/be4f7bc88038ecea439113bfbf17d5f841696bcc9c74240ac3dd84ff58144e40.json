@@ -1,0 +1,144 @@
+{
+  "file_path": "/reports/2026-09-26/P15.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This Mol Labs public report (P15) proposes a hypothesis-testing assay to determine whether residual BPC-157-driven HUVEC tube formation and migration under VEGFR2 blockade (which abolishes VEGF-A tubes) requires FBXO22 (via siFBXO22 loss-of-function). The document frames this as a \"stabilizer-vs-receptor\" assumption-kill experiment, explicitly distinct from a prior orthosteric-binding/SPR-vs-ECD-only study (OpenLabs 8e5ba06c). The experiment has NOT been run; the key result (residual BPC-157 tubes/migration abolished by siFBXO22 under VEGFR2 block) is a pre-registered prediction, with all supporting data currently from literature.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis",
+      "content": "On a matched HUVEC tube-formation/migration panel where VEGFR2 blockade (TKI/block) abolishes VEGF-A tubes, residual BPC-157 tubes/migration are abolished by FBXO22 LOF (siFBXO22) on the same panel. This is framed as an 'assumption-kill / stabilizer-vs-receptor' test. Explicitly NOT the orthosteric-binding/SPR-vs-ECD-only dialect of OpenLabs 8e5ba06c-5f1e-4970-b740-9955c137cad3."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Hsieh-class HUVEC tubes activate a VEGFR2–Akt–eNOS axis (dynasore blocks internalization/tubes — endocytosis, not a VEGFR2 TKI residual panel). Zhang places physical engagement on intracellular FBXO22–BACH1 (SPR KD from literature; FBXO22 KD abolishes BPC→BACH1 protein rise; BACH1 KD reverses BPC tubes). Physical VEGFR2 binding remains unclear per Zhang. P15 scores residual BPC-157 tubes/migration under a VEGFR2 TKI/block that first abolishes VEGF-A tubes, then asks whether that residual still requires FBXO22 (siFBXO22) on the same HUVEC panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four key literature references are cited:\n1. PMID 27847966 (Hsieh 2017): BPC-157 CAM/HUVEC tubes; VEGFR2 mRNA/protein upregulation (VEGF-A not upregulated); internalization; VEGFR2–Akt–eNOS axis; dynasore blocks internalization/pathway/tubes. No VEGFR2 ECD KD; dynasore ≠ VEGFR2 TKI residual × FBXO22 H2H.\n2. PMID 41606641 (Zhang 2026, DOI 10.1186/s12964-026-02694-6, PMC12947506): BPC-157–FBXO22 SPR KD = 1.0×10⁻⁷ M (100 nM); scramble KD = 2.6×10⁻⁴ M; FBXO22 KD abolishes BPC→BACH1 protein rise; BACH1 KD reverses BPC HUVEC tubes; physical VEGFR2 binding unresolved. No VEGFR2-block residual panel.\n3. PMID 33051481 (Huang/Hsieh 2020): Src–Cav-1–eNOS/vasomotor follow-up of VEGFR2-axis work. No VEGFR2 ECD binding assay; no VEGFR2 TKI residual × FBXO22 panel.\n4. PMID 31911270 (2020): Bach1 suppresses angiogenesis (BTB-dependent) in ischemic/endothelial models — anti-angiogenic sign-conflict adjacent to Zhang BACH1-as-effector; not residual-under-VEGFR2-block H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Claimed baseline: Under VEGFR2 blockade that abolishes VEGF-A HUVEC tube formation, BPC-157 still drives tubes/migration that FBXO22 LOF abolishes on the same panel.\nMeasured baseline: All supporting data is from literature only. Matched residual-BPC under VEGFR2 block abolishing VEGF-A × FBXO22 LOF on same HUVEC panel is UNKNOWN (soft-complete BPC∩VEGFR2∩FBXO22∩(block|TKI|LOF) = 0 PubMed hits; VEGFR2-TKI∩BPC = 0; orthosteric-SPR∩BPC∩VEGFR2 = 0). Residual BPC under VEGFR2 block abolished by siFBXO22 is a PREDICTION only."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Hsieh_VEGFR2_axis_HUVEC_tubes | LITERATURE | BPC-157 CAM/HUVEC tubes; VEGFR2 upregulation/internalization; VEGFR2–Akt–eNOS; dynasore blocks internalization/pathway/tubes (Hsieh 2017) | VEGFR2-axis phenotype prior (PMID 27847966); dynasore ≠ VEGFR2 TKI residual × FBXO22 H2H |\n| Zhang_FBXO22_SPR_BACH1_axis | LITERATURE | BPC-157–FBXO22 Biacore SPR; FBXO22 KD abolishes BPC→BACH1 protein rise; BACH1 KD reverses BPC HUVEC tubes (Zhang 2026) | BPC–FBXO22 KD = 1.0×10⁻⁷ M (100 nM); scramble KD = 2.6×10⁻⁴ M (PMID 41606641); no VEGFR2-block residual arm |\n| Huang_Hsieh_Src_Cav1_eNOS_followup | LITERATURE | Src–Cav-1–eNOS phosphorylation/Cav-1–eNOS interaction release; NO/vasomotor (Huang/Hsieh 2020) | Pathway follow-up (PMID 33051481); no VEGFR2 ECD binding; no residual-under-block × FBXO22 panel |\n| Bach1_anti_angiogenic_sign_conflict_adjacent | LITERATURE | Bach1 suppresses angiogenesis BTB-dependently in ischemic/endothelial models (2020) | Anti-angiogenic prior sign-conflict adjacent to Zhang BACH1-as-effector (PMID 31911270) |\n| matched_residual_BPC_under_VEGFR2_block_x_FBXO22_H2H | UNKNOWN | Same HUVEC tube/migration panel — VEGF-A ± VEGFR2 TKI/block vs BPC-157 ± VEGFR2 block ± siFBXO22 (optional siBACH1) | Dedicated residual-BPC under VEGFR2-block × FBXO22 LOF not found (soft-complete 0) — UNKNOWN |\n| residual_BPC_under_VEGFR2_block_abolished_by_siFBXO22 | PREDICTION | Pre-registered matched HUVEC tube/migration panel; VEGFR2 TKI/block must abolish VEGF-A tubes first, then score residual BPC tubes/migration under that block ± siFBXO22 vs control genotype | Under VEGFR2 block that abolishes VEGF-A tubes, residual BPC-157 tubes/migration are abolished by FBXO22 LOF (siFBXO22) relative to control-genotype residual |\n| competing_incomplete_VEGF_A_gate_or_no_residual_or_KD_inconclusive | PREDICTION | Same design; competing outcomes if incomplete VEGF-A abolish, absent residual BPC under block, incomplete FBXO22 knockdown, or dynasore-only misread | Inconclusive_if ≠ refute_if — does not invent those results |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Method / Assay Design",
+      "content": "Method type: propose-assay. Execution status: NOT_RUN. Design: Matched HUVEC tube-formation/migration panel. Step 1: VEGFR2 TKI/block abolishes VEGF-A tubes (QC gate). Step 2: Score residual BPC-157 tubes/migration under that block. Step 3: Apply siFBXO22 (optional siBACH1) and score FBXO22 dependence of residual BPC-157 phenotype. Optional secondary: VEGFR2 ECD SPR. Require VEGF-A abolish under block, then score residual BPC and FBXO22 dependence. α/N pre-specified. Do not invent observed %/KD/dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P1–P14 as proving P15 — P1 unbridged Hsieh vs Zhang / ECD KD emptiness is not a residual-under-VEGFR2-block × FBXO22 LOF panel; soft-complete empty ≠ demonstrated residual phenotype.\n2. Skip-list distinctness (critical) — do not freeze or collapse to OpenLabs 8e5ba06c ('BPC-157 is not orthosteric VEGFR2' / SPR-vs-ECD-only) or 7db12286; optional SPR secondary only; REJECT if claim drifts to orthosteric-only.\n3. Hsieh dynasore ≠ VEGFR2 TKI residual panel; Zhang FBXO22/BACH1 axis has no VEGFR2-block arm; Bach1 sign conflict adjacent ≠ H2H; incomplete VEGF-A abolish / incomplete FBXO22 KD leave the test inconclusive rather than refuted; no dosing; NOT FOXO4×LOF."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched HUVEC tube/migration panel where VEGFR2 TKI/block abolishes VEGF-A tubes, residual BPC-157 tubes/migration are NOT abolished by FBXO22 LOF (siFBXO22) relative to control-genotype residual under the same block — so receptor-block-alone / FBXO22-independent residual framing survives and stabilizer-vs-receptor residual-dependence fails — when incomplete VEGF-A abolish gate, absent residual under block, incomplete FBXO22 knockdown, or dynasore-misread artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4w · ip_class=stabilizer-vs-receptor · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=P1 (orthosteric-VEGFR2-ECD / OpenLabs 8e5ba06c SPR-vs-ECD-only ≠ residual phenotype under VEGFR2 block × FBXO22; P1–P14 ≠ proof). STATUS_LABEL: NEGATIVE. polarity: negative. risk_class: research-discussion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Quantitative Data from Literature",
+      "content": "From Zhang 2026 (PMID 41606641): BPC-157–FBXO22 SPR KD = 1.0×10⁻⁷ M (100 nM); scramble control KD = 2.6×10⁻⁴ M. FBXO22 KD abolishes BPC→BACH1 protein rise. BACH1 KD reverses BPC HUVEC tubes. Physical VEGFR2 binding remains unresolved. From Hsieh 2017 (PMID 27847966): VEGFR2 mRNA/protein upregulated by BPC-157; VEGF-A not upregulated; dynasore blocks internalization/pathway/tubes."
+    }
+  ],
+  "key_findings": [
+    "Experiment NOT RUN — P15 is a pre-registered prediction/proposed assay, not a completed experiment; execution_status=NOT_RUN.",
+    "Core hypothesis: Residual BPC-157 HUVEC tube formation/migration under VEGFR2 TKI/block (which abolishes VEGF-A tubes) is abolished by FBXO22 LOF (siFBXO22) — stabilizer-vs-receptor assumption-kill.",
+    "All quantitative data is from literature: BPC-157–FBXO22 SPR KD = 100 nM (Zhang 2026, PMID 41606641); scramble KD = 2.6×10⁻⁴ M.",
+    "Zhang 2026 (PMID 41606641): FBXO22 KD abolishes BPC→BACH1 protein rise; BACH1 KD reverses BPC HUVEC tubes; no VEGFR2-block residual arm.",
+    "Hsieh 2017 (PMID 27847966): BPC-157 activates VEGFR2–Akt–eNOS axis in HUVEC/CAM; dynasore blocks internalization/tubes — but dynasore ≠ VEGFR2 TKI residual panel.",
+    "Soft-complete literature search: BPC∩VEGFR2∩FBXO22∩(block|TKI|LOF) = 0 PubMed hits; VEGFR2-TKI∩BPC = 0 — matched residual H2H panel is UNKNOWN.",
+    "FTO status: UNKNOWN; IP class: stabilizer-vs-receptor; kill_cost_tier=1; estimated time_to_refute=4 weeks.",
+    "Explicitly distinct from OpenLabs 8e5ba06c (orthosteric VEGFR2 / SPR-vs-ECD-only); P1–P14 do not prove P15.",
+    "Bach1 anti-angiogenic prior (PMID 31911270) creates sign-conflict adjacent to Zhang BACH1-as-effector framing — not resolved by existing literature.",
+    "Model system proposed: HUVEC tube-formation/migration assay with VEGFR2 TKI/block, siFBXO22 (optional siBACH1), BPC-157 vs VEGF-A comparators, optional secondary VEGFR2 ECD SPR."
+  ],
+  "document_date": "2026-09-26",
+  "milestones": [
+    {
+      "title": "Hsieh 2017 BPC-157 VEGFR2-axis HUVEC/CAM study published",
+      "description": "Publication of BPC-157 CAM/HUVEC tube formation study showing VEGFR2 mRNA/protein upregulation, VEGFR2–Akt–eNOS axis, and dynasore-blocked internalization/tubes (PMID 27847966).",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 27847966 / DOI 10.1007/s00109-016-1488-y — BPC-157 CAM/HUVEC tubes; VEGFR2 mRNA/protein ↑ (VEGF-A not ↑); internalization; VEGFR2–Akt–eNOS; dynasore blocks internalization/pathway/tubes (Hsieh 2017)",
+      "page": 1
+    },
+    {
+      "title": "Huang/Hsieh 2020 Src–Cav-1–eNOS follow-up published",
+      "description": "Publication of Src–Cav-1–eNOS/vasomotor follow-up of VEGFR2-axis work (PMID 33051481); no VEGFR2 ECD binding assay; no VEGFR2 TKI residual × FBXO22 panel.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 33051481 / DOI 10.1038/s41598-020-74022-y / PMC7555539 — Src–Cav-1–eNOS / vasomotor follow-up of VEGFR2-axis work (Huang/Hsieh 2020)",
+      "page": 1
+    },
+    {
+      "title": "Bach1 anti-angiogenic study published",
+      "description": "Publication showing Bach1 suppresses angiogenesis BTB-dependently in ischemic/endothelial models (PMID 31911270) — sign-conflict adjacent to Zhang BACH1-as-effector.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 31911270 / DOI 10.1016/j.ebiom.2019.102617 / PMC6948167 — Bach1 suppresses angiogenesis (BTB-dependent) in ischemic/endothelial models (2020)",
+      "page": 1
+    },
+    {
+      "title": "Zhang 2026 BPC-157–FBXO22–BACH1 axis study published",
+      "description": "Publication of BPC-157–FBXO22 Biacore SPR (KD = 100 nM), FBXO22 KD abolishes BPC→BACH1 protein rise, BACH1 KD reverses BPC HUVEC tubes (PMID 41606641, PMC12947506). No VEGFR2-block residual panel.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 41606641 / DOI 10.1186/s12964-026-02694-6 / PMC12947506 — BPC-157–FBXO22 SPR KD = 1.0×10⁻⁷ M (100 nM LITERATURE); scramble KD = 2.6×10⁻⁴ M LITERATURE; FBXO22 KD abolishes BPC→BACH1 protein rise; BACH1 KD reverses BPC HUVEC tubes; cites Hsieh — physical VEGFR2 binding unresolved (Zhang 2026)",
+      "page": 1
+    },
+    {
+      "title": "P15 Mol Labs report amended/published",
+      "description": "Mol Labs public report P15 (stabilizer-vs-receptor assumption-kill, HUVEC residual BPC-157 under VEGFR2 block × FBXO22 LOF) amended and published.",
+      "date": "2026-09-26",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Amended 2026-09-26",
+      "page": 1
+    },
+    {
+      "title": "P15 Matched HUVEC Residual BPC-157 × FBXO22 LOF Assay (Proposed)",
+      "description": "Proposed execution of matched HUVEC tube-formation/migration panel: VEGFR2 TKI/block abolishes VEGF-A tubes (QC gate), then score residual BPC-157 ± siFBXO22 (optional siBACH1). Estimated time to refute: 4 weeks. Currently NOT_RUN.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=stabilizer-vs-receptor · vault_hold=no ... execution_status=NOT_RUN",
+      "page": 1
+    }
+  ]
+}

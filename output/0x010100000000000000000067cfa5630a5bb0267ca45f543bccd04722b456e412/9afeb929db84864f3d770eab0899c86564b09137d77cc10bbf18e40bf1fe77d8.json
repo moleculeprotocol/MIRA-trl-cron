@@ -1,0 +1,64 @@
+{
+  "file_path": "/reports/2026-09-27/L21.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (L21) proposing an assumption-kill experiment to test whether Urolithin A (UA) retains lifespan or muscle-function benefits in C. elegans under PINK1/Parkin (pink-1/pdr-1) genetic loss-of-function or equivalent mitophagy block. The document frames the question as: does UA lifespan benefit depend solely on mitophagy (as Ryu 2016 necessity data suggest), or does a residual lifespan phenotype persist under abolished mitophagy-class control? The experiment has NOT been run; the residual-positive outcome is explicitly labeled UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (L21)",
+      "content": "On a pre-registered C. elegans panel with UA vs vehicle under pink-1/pdr-1 genetic LOF (or equivalent mitophagy block that abolishes mitophagy-class control benefit) vs mitophagy-intact concurrent controls, the primary question is whether same-panel median lifespan improvement (UA vs vehicle under block) retains ≥50% of the UA vs vehicle median lifespan improvement on mitophagy-intact concurrent controls. This is framed as an 'assumption-kill' / mitophagy-insufficiency test. Residual-positive lifespan or muscle-function H2H under mitophagy block is explicitly labeled UNKNOWN — not invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Ryu Nat Med (PMID 27400265) shows mitophagy is required for UA-mediated longevity in C. elegans (necessity, inverse of residual). pink-1/dct-1/skn-1 RNAi and pdr-1 mutation abolish/impair lifespan and mobility arms. Huang Parkin silencing + Mdivi-1 blunt UA myocardial protection (residual cardiac contradicted on that panel). Denk Pink1-dependent TSCM and Ambra1/PINK1 cardioprotection necessity are adjacent endpoints, not residual wild-type lifespan/muscle. The card asks whether, once PINK1/Parkin block abolishes mitophagy-class control benefit, UA still retains lifespan phenotype — i.e., lifespan ≠ mere mitophagy-sole-necessity bridge."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Ryu_UA_mitophagy_necessity_longevity_mobility | LITERATURE | C. elegans lifespan/mobility ± pink-1/dct-1/bec-1/pdr-1; rodent muscle; C2C12 mitophagy (Ryu Nat Med 2016) | UA extended C. elegans lifespan and mobility; mitophagy required; pink-1/dct-1/skn-1 RNAi and pdr-1 mutation abolish/impair longevity and mobility arms (PMID 27400265) — NECESSITY, not residual-positive H2H |\n| Singh_UA_human_exposure_translational | LITERATURE | Healthy adults RCT; direct UA supplementation vs diet/microbiome variability | Direct UA supplementation achieves consistent exposure (PMID 34117375) — translational prior; ≠ residual under PINK1/Parkin block |\n| DAmbrosio_UA_OA_mitophagy_phenotype | LITERATURE | Primary human OA chondrocytes; mouse OA; mitophagy/mitochondrial respiration | UA improved mitophagy and mitochondrial health in OA chondrocytes and mouse OA (PMID 35778837) — mitochondrial-health phenotype prior; ≠ residual under mitophagy block |\n| Denk_Pink1_TSCM_necessity_not_lifespan_residual | LITERATURE | Tumor-bearing mice oral UA; ex vivo T cells; Pink1-mediated mitophagy → TSCM | UA-induced TSCM formation depended on Pink1-mediated mitophagy (PMID 36351375) — NECESSITY immune/TSCM ≠ residual lifespan or muscle-function |\n| matched_UA_under_mitophagy_block_residual_lifespan_muscle_H2H | UNKNOWN | C. elegans ± UA ± pink-1/pdr-1 LOF (or chemical mitophagy block) with same-panel median lifespan residual | Residual-positive UA lifespan or muscle-function H2H under PINK1/Parkin block NOT FOUND (soft-complete Q_resid_tight=0) — UNKNOWN; do not invent residual |\n| block_arm_median_lifespan_retention_ge50pct_of_intact_UA_vs_vehicle | PREDICTION | Pre-registered C. elegans panel; pink-1/pdr-1 LOF or equivalent mitophagy block; same-panel median lifespan Δ (UA vs vehicle under block) vs UA vs vehicle Δ on mitophagy-intact arm | ≥50% retention of intact-arm UA vs vehicle median lifespan improvement — PREDICTION gate; do not invent observed residual Δ or dosing |\n| competing_block_not_abolished_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes if block not actually abolishing mitophagy-class control, underpowered strata, or assay mismatch | Block-not-abolished / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive ≠ refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "1. PMID 27400265 (Ryu Nat Med 2016, DOI 10.1038/nm.4132): UA induces mitophagy; extends C. elegans lifespan and mobility; improves rodent muscle; Fig. 3 shows mitophagy required for UA-mediated longevity; pink-1/dct-1/skn-1 RNAi and pdr-1 mutation abolish/impair longevity and mobility arms — NECESSITY (inverse of residual); not residual-positive H2H under mitophagy block.\n2. PMID 34117375 (Singh et al. 2022, DOI 10.1038/s41430-021-00950-1): Direct UA supplementation achieves consistent human exposure vs diet/microbiome variability — human exposure/translational prior; ≠ residual under PINK1/Parkin block.\n3. PMID 35778837 (D'Ambrosio et al., DOI 10.1111/acel.13662): UA improves mitophagy and mitochondrial health in OA chondrocytes and mouse OA — mitochondrial-health phenotype prior; ≠ residual under mitophagy block.\n4. PMID 36351375 (Denk Immunity 2022, DOI 10.1016/j.immuni.2022.09.014): UA-induced TSCM formation depended on Pink1-mediated mitophagy — NECESSITY immune/TSCM ≠ residual lifespan or muscle-function under mitophagy block.\n5. Optional: PMID 35655094 and 39725191 (Parkin/Mdivi-1 and Ambra1-PINK1 abolish/blunt UA cardioprotection) — against residual cardiac; out of public prior_art."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Model system: C. elegans (preferred before new rodent muscle or human dosing). Intervention: Urolithin A (UA) vs vehicle. Genetic manipulation: pink-1/pdr-1 genetic LOF (or equivalent chemical mitophagy block that abolishes mitophagy-class control benefit). Controls: mitophagy-intact concurrent controls on the same panel. Primary readout: median lifespan (days), pre-specified α/N. Secondary/optional co-readouts: mobility / muscle-function (not gate). Threshold: block-arm median lifespan improvement (UA vs vehicle under block) retains ≥50% of UA vs vehicle median lifespan improvement on mitophagy-intact concurrent controls. Competing outcomes: block not actually abolishing mitophagy-class control benefit, underpowered strata, or referee-assay mismatch → inconclusive (not refuted). Refute condition: <50% retention when block-not-abolished/underpowered/assay-mismatch artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution Status and IP",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. IP class: mitophagy-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. Status label: NEGATIVE (assumption-kill, polarity negative). The experiment has not been performed; the residual-positive outcome is UNKNOWN and must not be invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation / Actionable Limitations",
+      "content": "1. Do not treat L1–L20 as proving L21 — new parent area urolithin-mitophagy-insufficiency; Ryu/Denk/Parkin-cardiac layers are necessity or adjacent, not residual-positive H2H under mitophagy block; soft-complete empty ≠ demonstrated prediction-failure; do not invent residual.\n2. PMID 27400265 NECESSITY constrains residual lifespan/mobility; optional 35655094/39725191 constrain residual cardiac; 36351375/41400574 wrong or disease-context endpoints leave matched residual-positive lifespan/muscle H2H UNKNOWN — PRIOR_ART PARTIAL.\n3. L15 ≠ L21; L16 ≠ L21; L17 ≠ L21; L18 ≠ L21; L19 ≠ L21; L20 ≠ L21 (mitophagy/PINK1/Parkin ≠ bulk ATG); NOT SERIES_FROZEN NAD-after-senolysis.\n4. Without the block-lock × residual lifespan H2H on the same panel, separate Ryu necessity LITERATURE and Denk/Parkin-cardiac adjacent necessity cannot show lifespan ≠ mere mitophagy-sole-necessity bridge.\n5. Without the intact-arm UA vs vehicle median lifespan comparator under the block lock, the card collapses into unmatched necessity framing and loses the mitophagy-insufficiency assumption-kill."
+    }
+  ],
+  "key_findings": [
+    "Ryu Nat Med 2016 (PMID 27400265) demonstrates NECESSITY: mitophagy is required for UA-mediated longevity in C. elegans; pink-1/dct-1/skn-1 RNAi and pdr-1 mutation abolish/impair lifespan and mobility arms — this is necessity evidence, not residual-positive H2H under mitophagy block.",
+    "Residual-positive UA lifespan or muscle-function H2H under PINK1/Parkin genetic or equivalent mitophagy block that abolishes mitophagy-class control is explicitly UNKNOWN (soft-complete Q_resid_tight=0); no such experiment has been run.",
+    "The proposed experiment is NOT_RUN; execution status is NOT_RUN and FTO status is UNKNOWN.",
+    "The prediction gate is: block-arm median lifespan improvement (UA vs vehicle under block) retains ≥50% of UA vs vehicle median lifespan improvement on mitophagy-intact concurrent controls on the same C. elegans panel.",
+    "Denk Immunity 2022 (PMID 36351375) shows UA-induced TSCM formation depends on Pink1-mediated mitophagy — NECESSITY for immune endpoint, not residual lifespan or muscle-function.",
+    "Parkin silencing + Mdivi-1 blunt UA myocardial protection (residual cardiac contradicted on that panel); Ambra1/PINK1 cardioprotection necessity are adjacent endpoints.",
+    "UA human exposure is achievable via direct supplementation (PMID 34117375), but this is a translational prior unrelated to residual under PINK1/Parkin block.",
+    "UA improves mitophagy and mitochondrial health in OA chondrocytes and mouse OA (PMID 35778837) — mitochondrial-health phenotype prior, not residual under mitophagy block.",
+    "Kill cost tier = 1; estimated time to refute = 4 weeks (C. elegans lifespan assay); ip_class = mitophagy-insufficiency.",
+    "Status label is NEGATIVE (assumption-kill, polarity negative); the card is a research-discussion hypothesis, not a completed experiment."
+  ],
+  "milestones": []
+}

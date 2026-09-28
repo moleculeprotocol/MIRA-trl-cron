@@ -1,0 +1,65 @@
+{
+  "file_path": "/reports/2026-09-25/N2.md",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This document is a structured research discussion report (labeled N2, negative polarity) arguing that human cognitive improvements observed after Lion's mane (Hericium erinaceus) supplementation have not been demonstrated to be NGF-mediated. It systematically reviews existing human RCTs and cell/animal studies, identifying a critical evidence gap: cognition-positive human trials do not co-measure NGF or run NGF/TrkA mediation analyses, making the popular NGF-bridge explanation an untested assumption. The document is classified as TRL-relevant for its critical appraisal of preclinical vs. clinical evidence layers.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim and Framing",
+      "content": "The central claim (labeled NEGATIVE/assumption-kill) is that human cognitive-scale improvements after Hericium erinaceus are NOT shown to be NGF-mediated. Human MCI/AD and healthy-adult cognition trials that report scale changes omit NGF pharmacodynamic (PD) endpoints; cell/animal NGF induction data constitute a separate, lower evidence layer. The popular nootropic marketing claim — 'Lion's mane improves human cognition because it induces NGF (hericenones/erinacines → NGF → neurotrophic repair)' — is identified as an untested assumption."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Evidence Layers",
+      "content": "Two distinct evidence layers are described:\n1. HUMAN COGNITION LAYER: Fruiting-body and mycelial preparations improve some human cognitive scales in MCI/mild-AD cohorts, but no NGF assay is reported in these trials.\n2. CELL/ANIMAL NGF LAYER: Extracts raise NGF mRNA/protein in 1321N1 astrocytes and mouse hippocampus. Hericenones C–E specifically FAILED NGF gene induction in the 1321N1 astrocytoma system. PC12 work shows NGF-pathway potentiation in vitro.\nKey confound: An erinacine-enriched mild-AD RCT tracked BDNF (not NGF) among biomarkers — substituting BDNF does not prove NGF mediation of cognition."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables / Evidence Status Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Mori_MCI_HDSR_improvement | LITERATURE | Yamabushitake MCI RCT HDS-R (Mori 2009) | HDS-R ↑; no NGF measured |\n| Mori_in_trial_NGF | UNKNOWN | Plasma/CSF/tissue NGF in cognition-positive RCT | Not reported |\n| cell_mouse_NGF_induction | LITERATURE | 1321N1 / mouse hippocampus (Mori 2008) | Extract ↑ NGF; hericenones C–E failed gene induction |\n| Li_mildAD_BDNF_not_NGF | LITERATURE | Erinacine mild-AD biomarkers (Li 2020) | BDNF listed; NGF not |\n| human_cognition_x_NGF_mediation | UNKNOWN | NGF/TrkA PD + mediation of cognitive primary | No verified trial |\n| NGF_necessity_for_cognitive_benefit | PREDICTION | Block NGF/TrkA or null mediation | Untested — no invented KD |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Key References Summary",
+      "content": "Four key references are cited:\n1. PMID 18844328 (Mori 2009, DOI 10.1002/ptr.2634): MCI Yamabushitake RCT — HDS-R ↑ vs placebo; NO NGF endpoint measured.\n2. PMID 18758067 (Mori 2008): H. erinaceus extract ↑ NGF mRNA/protein in 1321N1 astrocytes and mouse hippocampus; hericenones C–E FAILED NGF gene induction in that assay. [Cell/animal only]\n3. PMID 32581767 (Li 2020, DOI 10.3389/fnagi.2020.00155, PMC7283924): Erinacine A–enriched mycelia mild-AD RCT; MMSE/IADL signals; BDNF in biomarker panel, NGF NOT listed.\n4. PMID 31413233 (DOI 10.2220/biomedres.40.125): Fruiting-body RCT — MMSE ↑; authors speculate hericenones/networks; NO NGF assay.\nAdditional PMIDs referenced: 38004235, 40276537 (human cognition signals without NGF PD)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Critical Gaps",
+      "content": "Three actionable limitations identified:\n1. Mechanism–endpoint mismatch: Cognitive positives lack co-measured NGF; NGF positives are cell/animal only.\n2. BDNF ≠ NGF: BDNF measurement in Li 2020 is not a substitute for NGF mediation analysis.\n3. 'Hericenones = NGF' slogan overfits: Hericenones C–E failed NGF transcription in the Mori astrocytoma assay.\n\nRefutation criteria: A pre-registered Lion's mane cognition-positive human trial showing plasma or CSF NGF (or TrkA pathway PD) rises with the cognitive primary AND mediation analysis attributing ≥50% of cognitive effect to NGF/TrkA change (or a pathway block abolishing cognitive benefit) would refute this claim."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Logical Dependency Checks)",
+      "content": "Three ablation conditions are specified to define what makes this claim valid:\n1. Remove requirement that NGF be co-measured/mediated in same cognition-positive arm → card only restates already-LITERATURE layers (claim collapses).\n2. Remove separation of cell/animal NGF from human cognitive endpoints → in vitro NGF falsely counts as human mediation (logical error).\n3. Remove BDNF≠NGF marker discipline → BDNF soft-completes mediation the trial never tested (false positive)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Document ID: N2. Status: NEGATIVE. Polarity: negative. Lane: nootropics. Risk class: research-discussion. Novelty: assumption-kill. Method: lit-only (literature review only, no new experiments). Swarm ID: N2. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Mol Labs: PUBLIC_REPORT_ONLY (private vault skipped). Honesty statement: 'Literature prediction for research discussion only. Not medical advice. Not a dosing or treatment recommendation. Invite peer-review.'"
+    }
+  ],
+  "key_findings": [
+    "Human cognition-positive Lion's mane RCTs (MCI, mild-AD) do not co-measure NGF (plasma, CSF, or tissue), making the NGF-mediation hypothesis untested in humans.",
+    "Cell/animal evidence (1321N1 astrocytes, mouse hippocampus) shows H. erinaceus extract can upregulate NGF mRNA/protein, but this is a separate evidence layer from human cognitive endpoints (PMID 18758067).",
+    "Hericenones C–E specifically FAILED to induce NGF gene expression in the 1321N1 astrocytoma assay (PMID 18758067), undermining the 'hericenones = NGF' marketing claim.",
+    "The erinacine A–enriched mild-AD RCT (Li 2020, PMID 32581767) measured BDNF but NOT NGF in its biomarker panel; BDNF measurement does not substitute for NGF mediation analysis.",
+    "Mori 2009 MCI RCT (PMID 18844328) showed HDS-R improvement vs. placebo with no NGF endpoint measured.",
+    "Fruiting-body RCT (PMID 31413233) showed MMSE improvement with author speculation about hericenones/networks but no NGF assay.",
+    "No verified human trial has run NGF/TrkA pharmacodynamic measurement alongside a cognitive primary endpoint — this gap is classified as UNKNOWN.",
+    "The NGF necessity for cognitive benefit is classified as PREDICTION (untested) — no knockout or pathway-block study in humans exists.",
+    "The document is a literature-only analysis (method: lit-only); no new experimental data are generated.",
+    "Refutation threshold defined: ≥50% mediation of cognitive effect attributable to NGF/TrkA change in a pre-registered human trial, or pathway block abolishing cognitive benefit."
+  ],
+  "document_date": null,
+  "milestones": []
+}

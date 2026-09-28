@@ -1,0 +1,64 @@
+{
+  "file_path": "/reports/2026-09-27/N16.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs hypothesis card (N16) proposing a research design to test whether oral creatine that raises plasma creatine without a concurrent prefrontal/gray-matter ³¹P-MRS PCr (or PCr/Pi) rise fails to rescue working memory and processing speed under sleep restriction. The document is a pre-experimental discussion/proposal (TRL 1–2), cataloguing existing literature as prior art and defining a prediction with specific thresholds, but no original experiments have been run. The core claim is a \"compartment-discordance assumption-kill\" — that plasma creatine elevation alone is insufficient as a pharmacodynamic surrogate for cognitive rescue under sleep deprivation.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis Overview and Claim (N16)",
+      "content": "Hypothesis N16 proposes that on a pre-registered sleep-restriction panel with oral creatine, paired plasma/serum creatine, concurrent prefrontal/GM ³¹P-MRS PCr (or PCr/Pi), and WM/processing-speed measures: under oral creatine that elevates plasma/serum creatine WITHOUT concurrent prefrontal/GM PCr (or PCr/Pi) rise, sleep-restriction WM/processing-speed rescue fails. Threshold: rescue Δ ≤20% of concurrent plasma-up/PCr-up stratum Δ on the same panel. This is framed as an 'assumption-kill / compartment-discordance' test. Execution status: NOT_RUN. No original experiments have been conducted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch — Compartment-Discordance",
+      "content": "Oral creatine can raise plasma/serum creatine and, separately, brain total creatine (¹H-MRS). Under sleep deprivation, cognition can co-move with ³¹P-MRS PCr/Pi / HEP. No published head-to-head study stratifies plasma-up by concurrent prefrontal/GM PCr co-movement and tests whether plasma-up/PCr-flat fails sleep-restriction WM/processing-speed rescue that plasma-up/PCr-up retains. Preferred design: same-panel oral creatine + plasma/serum Cr + concurrent ³¹P-MRS PCr (or PCr/Pi) + WM/processing-speed under sleep restriction (optional ¹H-MRS tCr). Competing caveats: plasma fails to rise / PCr unmeasurable / underpowered strata / assay-identity mismatch leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Literature Evidence Base",
+      "content": "Four key prior art references are cited:\n1. PMID 38418482 (Gordji-Nejad 2024, Sci Rep): ~21 h sleep deprivation + oral creatine; cognitive performance/processing speed improve vs placebo with concurrent ³¹P-MRS PCr/Pi, ATP, HEP changes + ¹H-MRS tCr/tNAA. Does NOT report plasma/serum creatine as cognitive PD; not a plasma-up/PCr-flat fail H2H.\n2. PMID 40520504 (2025, Front Neurosci): Reanalysis of Gordji HEP dataset; sleep-deprivation hemispheric asymmetry in HEP consumption balanced by creatine (PCr/Pi and ATP shifts). Not a plasma-compartment discordance H2H.\n3. PMID 10484486 (Dechent 1999, Am J Physiol): Oral creatine-monohydrate raises brain total creatine on quantitative ¹H-MRS in healthy volunteers (region-variable CNS uptake). No concurrent ³¹P PCr × plasma × SD WM panel.\n4. PMID 16416332 (McMorris 2006, Psychopharmacology): Creatine + sleep deprivation with mild exercise; less cognitive/psychomotor/mood deterioration vs placebo; blood catecholamines/cortisol measured — NOT plasma creatine as cognitive PD; not plasma-up/PCr-flat fail H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Gordji_SD_creatine_cognition_with_31P_HEP | LITERATURE | Human ~21 h SD + oral creatine; cognition/processing speed + ³¹P-MRS HEP + ¹H-MRS (Gordji-Nejad 2024) | Cognitive performance/processing speed improve vs placebo with concurrent ³¹P-MRS PCr/Pi, ATP, HEP changes (PMID 38418482) — not plasma-up/PCr-flat fail H2H |\n| Gordji_HEP_hemispheric_asymmetry_reanalysis | LITERATURE | Reanalysis of Gordji SD+creatine ³¹P HEP dataset | SD hemispheric asymmetry in HEP consumption balanced by creatine; PCr/Pi and ATP shifts (PMID 40520504) — not plasma-compartment discordance H2H |\n| Dechent_oral_creatine_brain_tCr_1H_MRS | LITERATURE | Healthy volunteers; oral creatine-monohydrate; quantitative ¹H-MRS brain tCr (Dechent 1999) | Brain tCr rises after oral creatine (PMID 10484486) — CNS uptake prior; no concurrent ³¹P PCr×plasma×SD WM panel |\n| McMorris_SD_creatine_cognition_catecholamine_blood | LITERATURE | Creatine + SD with mild exercise; cognitive/psychomotor/mood; plasma catecholamines and cortisol (McMorris 2006) | Less cognitive/psychomotor/mood deterioration vs placebo; catecholamines/cortisol not plasma creatine as cognitive PD (PMID 16416332) |\n| matched_plasma_up_PCr_flat_WM_fail_under_SD_H2H | UNKNOWN | Same sleep-restriction panel — oral creatine + paired plasma/serum Cr + concurrent prefrontal/GM ³¹P-MRS PCr (or PCr/Pi) + WM/processing-speed; stratify plasma-up by PCr co-movement | Not found (soft-complete 0; NON-MATCH lung/OSA/COVID/AD/TSPO; modafinil∩DAT∩creatine = 0) — UNKNOWN + missing_search |\n| plasma_up_PCr_flat_rescue_fails_vs_plasma_up_PCr_up | PREDICTION | Pre-registered sleep-restriction panel; oral creatine; plasma/serum Cr must rise; concurrent prefrontal/GM PCr scored flat vs up; WM/processing-speed rescue vs placebo compared across strata | Under plasma-up/PCr-flat, rescue Δ ≤20% of concurrent plasma-up/PCr-up stratum Δ (processing-speed/WM units as pre-specified) while plasma-up/PCr-up retains rescue; α/N pre-specified |\n| competing_plasma_fail_or_PCr_unmeasurable_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if apparent fail/success is only plasma-rise failure, PCr/Pi unmeasurable, underpowered strata, or assay-identity mismatch | Plasma-rise-failure / PCr-unmeasurable / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured vs. Unknown",
+      "content": "Baseline measured (from literature):\n- SD+creatine cognition with concurrent ³¹P HEP co-movement: LITERATURE (PMID 38418482; 40520504)\n- Brain tCr rise after oral creatine: LITERATURE (PMID 10484486)\n- SD+creatine cognition with catecholamine/cortisol blood work: LITERATURE (PMID 16416332) — plasma Cr not assayed as cognitive PD\n\nBaseline UNKNOWN:\n- Matched plasma-up without concurrent prefrontal/GM PCr (or PCr/Pi) rise → WM/processing-speed rescue fails under sleep restriction: UNKNOWN (soft-complete plasma|serum creatine ∩ ³¹P|PCr ∩ WM|cognition ∩ sleep = 0; Gordji∩plasma = 0)\n- Plasma-up/PCr-flat rescue Δ ≤20% of concurrent plasma-up/PCr-up stratum Δ: PREDICTION only"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Refutation Criteria",
+      "content": "Actionable limitations:\n1. N1–N15 do not prove N16 — N4 mapped Gordji SD+creatine cognition with ³¹P HEP co-movement and left subject-level PCr-vs-plasma superiority UNKNOWN; N15 is residual modafinil PVT under DAT-matched block; soft-complete empty ≠ demonstrated fail.\n2. Parallel PCr/cognition ≠ plasma-discordance test — Gordji 2024/2025 move cognition and ³¹P HEP together; Dechent shows brain tCr rise; McMorris assays catecholamines/cortisol not plasma Cr as PD — none stratify plasma-up by concurrent PCr co-movement.\n3. Plasma under-measured, not falsified; lock same-panel oral creatine + plasma/serum Cr + concurrent prefrontal/GM ³¹P-MRS PCr (or PCr/Pi) + WM/processing-speed under sleep restriction.\n\nRefutation criteria: On the pre-registered sleep-restriction panel, under oral creatine with verified plasma/serum creatine elevation AND concurrent prefrontal/GM PCr (or PCr/Pi) flat, WM/processing-speed rescue still succeeds (rescue Δ >20% of concurrent plasma-up/PCr-up stratum Δ) — so plasma-up alone suffices and compartment-discordance fails — when plasma-rise, PCr-flatness, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Metadata and Execution Status",
+      "content": "Status labels: NEGATIVE\nNovelty tag: assumption-kill\nPolarity: negative\nOpenlabs target: discussion\nOpenlabs topic: neuroscience-brain\nTags: nootropics, brain-longevity\nRisk class: research-discussion\nMethod: propose-assay\nExecution status: NOT_RUN\nFTO status: UNKNOWN\nKill cost tier: 1\nTime to refute: 4 weeks\nIP class: compartment-discordance\nVault hold: no\nRelated prior: N4 (PCr-vs-plasma superiority UNKNOWN ≠ plasma-up/PCr-flat fail; N4 ≠ N16); N15 (modafinil-DAT residual ≠ creatine compartment; N15 ≠ N16); N1–N15 ≠ proof\nCard SHA256: be136813403fe98df5561ccc06aee2f5a58d9bf7704024b16d218bf4b627b0e1"
+    }
+  ],
+  "key_findings": [
+    "Hypothesis N16 is a pre-experimental proposal (NOT_RUN) — no original experiments have been conducted; TRL is effectively TRL 1 (concept/hypothesis stage).",
+    "Core claim: oral creatine elevating plasma/serum creatine WITHOUT concurrent prefrontal/GM ³¹P-MRS PCr (or PCr/Pi) rise will fail to rescue WM/processing-speed under sleep restriction (rescue Δ ≤20% of plasma-up/PCr-up stratum Δ).",
+    "Gordji-Nejad 2024 (PMID 38418482) demonstrated cognitive/processing-speed improvement vs placebo under ~21 h sleep deprivation + oral creatine with concurrent ³¹P-MRS PCr/Pi, ATP, HEP changes — but did NOT report plasma/serum creatine as cognitive pharmacodynamic marker.",
+    "Gordji 2025 reanalysis (PMID 40520504) confirmed hemispheric asymmetry in HEP consumption balanced by creatine (PCr/Pi and ATP shifts) — not a plasma-compartment discordance H2H.",
+    "Dechent 1999 (PMID 10484486) showed oral creatine-monohydrate raises brain total creatine on quantitative ¹H-MRS in healthy volunteers (region-variable CNS uptake) — no concurrent ³¹P PCr × plasma × SD WM panel.",
+    "McMorris 2006 (PMID 16416332) showed less cognitive/psychomotor/mood deterioration vs placebo under creatine + SD with mild exercise; measured catecholamines/cortisol but NOT plasma creatine as cognitive PD.",
+    "Soft-complete search result: matched plasma-up/PCr-flat × WM-fail under SD H2H = 0 (UNKNOWN); no published study stratifies plasma-up by concurrent prefrontal/GM PCr co-movement and tests WM rescue failure.",
+    "Proposed assay design requires: same-panel oral creatine + paired plasma/serum Cr + concurrent prefrontal/GM ³¹P-MRS PCr (or PCr/Pi) + WM/processing-speed under sleep restriction + optional ¹H-MRS tCr + plasma-up/PCr-up positive-control stratum.",
+    "Competing inconclusive outcomes pre-specified: plasma fails to rise / PCr unmeasurable / underpowered strata / assay-identity mismatch.",
+    "Kill cost tier 1; estimated time to refute: 4 weeks; IP class: compartment-discordance; vault hold: no."
+  ],
+  "milestones": []
+}

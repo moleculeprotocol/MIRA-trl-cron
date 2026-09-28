@@ -1,0 +1,74 @@
+{
+  "file_path": "/reports/2026-09-25/L1.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a structured research discussion note (labeled L1, swarm_id L1) arguing that weekly/intermittent rapamycin does not universally spare mTORC2, as evidenced by tissue- and time-specific p-Akt S473 depression. It is not a primary experimental report but a hypothesis/claim document that synthesizes published literature and proposes a specific assay design to test the claim. It is relevant to TRL assessment as background scientific context for rapamycin-based longevity programs.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim and Core Hypothesis",
+      "content": "Central claim: Intermittent or weekly rapamycin does NOT universally spare mTORC2. Specifically, at a pre-specified post-dose harvest in a pre-specified high-FKBP tissue or responder stratum, p-Akt S473 falls ≥25% versus vehicle even when group-mean skeletal muscle appears spared. This is framed as an 'assumption-kill' against the popular rationale that weekly/intermittent schedules are selectively mTORC1-biased and leave p-Akt S473 intact."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Motivation",
+      "content": "Popular trial rationale (including human trials) treats weekly/intermittent rapamycin as selectively mTORC1-biased, implying p-Akt S473 stays intact. Mouse group-mean muscle Westerns often appear spared vs. daily dosing, which is over-read as universal spare. Human weekly regimens (e.g., PEARL trial, PMID 40188830) lack published p-Akt S473 pharmacodynamic (PD) data, so the selectivity claim is unmeasured in the most clinically relevant context."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Chronic rapamycin disrupts mTORC2 and lowers p-Akt S473 (cell and in vivo). Intermittent schedules reduce the metabolic hit and often spare group-mean muscle p-Akt S473, but: (1) D3 sampling shows mean AKT ↓ ~29% (NS); (2) adipose can keep mTORC1 suppressed at D5; (3) FKBP12/FKBP51 ratio defines a tissue subset where mTORC2 inhibition still appears. Conclusion: mean muscle spare ≠ universal mTORC2 spare across time, tissue, or individuals."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims vs. Measured Evidence",
+      "content": "Baseline claimed: Intermittent/weekly rapamycin preferentially inhibits mTORC1 and spares mTORC2, so p-Akt S473 remains intact between doses (unlike daily/chronic).\n\nBaseline measured:\n- Chronic exposure lowers p-Akt S473 and disrupts mTORC2 (PMID 16603397, 22461615).\n- Weekly/intermittent mouse muscle group-mean p-Akt S473 often NS vs vehicle while daily hits.\n- D3 weekly mean AKT ↓ ~29% NS.\n- Tissue-subset hits via FKBP ratio (PMID 26463117, 25652038).\n- Human weekly (PEARL) has no published p-Akt S473 PD (PMID 40188830) — UNKNOWN as human marker."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Sampling-time confound: D1 vs D3 vs D5/D7 harvest timing critically affects whether mTORC2 inhibition is detected.\n2. Tissue/FKBP heterogeneity: mean muscle ≠ heart, adipose, islets, high-FKBP12 tissues.\n3. Human weekly regimens lack p-Akt S473 (or equivalent mTORC2) PD panels."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "- PMID 26463117 / DOI 10.1111/acel.12405 (Arriola Apelo 2016): Intermittent vs daily; muscle p-Akt S473 often NS; D3 mean AKT ↓ ~29% NS.\n- PMID 27091134 / DOI 10.1093/gerona/glw064: Intermittent lifespan efficacy ≠ universal mTORC2 spare.\n- PMID 22461615 / DOI 10.1126/science.1215135: Chronic rapamycin impairs glucose metabolism via mTORC2 loss.\n- PMID 25652038 / DOI 10.1111/acel.12313: mTORC2 (p-Akt S473) inhibition only in FKBP-ratio–defined tissue subset.\n- PMID 40188830: PEARL trial — no published p-Akt S473 PD data for human weekly regimen."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Name | Kind | Assay | Threshold/Result |\n|------|------|-------|------------------|\n| intermittent_pAktS473_depression | PREDICTION | Western/ELISA p-Akt S473 fixed schedule, tissue, harvest day vs vehicle; p-S6 companion | ≥25% mean depression in pre-registered tissue or responder stratum |\n| D3_weekly_muscle_AKT_mean_drop | LITERATURE | Arriola Apelo 2016 muscle Western weekly D3 | mean AKT ↓ ~29% NS (PMID 26463117) |\n| human_weekly_pAktS473_PD | UNKNOWN | PEARL or equivalent | no published p-Akt S473 PD (PMID 40188830) |\n| FKBP_ratio_tissue_mTORC2_hit | LITERATURE | p-Akt S473 stratified by FKBP12/FKBP51 | inhibition in high-FKBP12 subset (PMID 25652038) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ablate / Refute Conditions)",
+      "content": "Ablation conditions (what must NOT be omitted for a valid test):\n- Must specify harvest day (removing this → D1/D5-only can miss transient Akt depression).\n- Must pre-specify tissue/FKBP stratum (mean muscle Western alone cannot kill universality).\n- Must include responder-stratum contrast (NS group-mean is compatible with hidden depressed subset).\n\nRefutation criterion: Under a pre-registered intermittent/weekly schedule, named tissue, and named harvest day, Western/ELISA p-Akt S473 shows <25% depression versus vehicle in EVERY pre-registered stratum (including FKBP-high tissues), while companion p-S6 remains suppressed.\n\nRecommendation: Lock harvest day relative to last dose and one FKBP-high tissue (or blood mTORC2 PD proxy) before interpreting a null muscle Western as universal spare."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Status: NEGATIVE (assumption-kill). Polarity: negative. Lane: longevity. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-assay. Swarm ID: L1. OpenLabs target: discussion (PASS_NEGATIVE — not a direct experimental claim). Honesty statement: Literature/computational prediction for research discussion only. Not medical advice. Not a dosing or treatment recommendation."
+    }
+  ],
+  "key_findings": [
+    "Weekly/intermittent rapamycin does not universally spare mTORC2: p-Akt S473 can fall ≥25% vs vehicle in pre-specified high-FKBP tissues or responder strata even when group-mean skeletal muscle appears spared.",
+    "D3 post-dose sampling in weekly rapamycin mouse studies shows mean AKT ↓ ~29% (NS) in muscle (PMID 26463117), indicating transient mTORC2 suppression that is missed by D1 or D7 sampling.",
+    "FKBP12/FKBP51 ratio defines a tissue subset where mTORC2 inhibition (p-Akt S473 depression) still occurs under intermittent rapamycin (PMID 25652038).",
+    "Chronic rapamycin impairs glucose metabolism via mTORC2 loss (PMID 22461615, 16603397), establishing the mechanistic basis for concern.",
+    "Human weekly rapamycin trials (PEARL, PMID 40188830) have no published p-Akt S473 pharmacodynamic data — the mTORC2-sparing claim is unmeasured in humans.",
+    "The proposed assay requires: pre-specified harvest day, pre-specified FKBP-high tissue, responder-stratum contrast, Western/ELISA p-Akt S473 with companion p-S6, and ≥25% depression threshold.",
+    "Adipose tissue can maintain mTORC1 suppression at D5 post-dose, indicating tissue-specific and time-specific pharmacodynamics that differ from skeletal muscle.",
+    "This document is a research discussion/hypothesis note (TRL 1 level), not a primary experimental report; no new experimental data are generated."
+  ],
+  "milestones": []
+}

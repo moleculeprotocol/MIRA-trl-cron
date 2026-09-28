@@ -1,0 +1,98 @@
+{
+  "file_path": "/reports/2026-09-25/N5.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis report (card N5) proposing a pre-registered rodent working-memory (WM) experiment to test whether a selective MAO-A inhibitor fails to replicate the cognitive benefit of methylene blue (MB). The document is a research-stage hypothesis/assay proposal grounded in existing literature, with no experimental data yet generated. It maps known pharmacology (MB as MAO-A inhibitor, Azure B potency, Wen redox-dead analogue, Gonzalez-Lima metabolic memory) and identifies a critical head-to-head comparison as UNKNOWN and NOT_RUN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Policy",
+      "content": "Public report from Mol Labs, dated 2026-09-25. Policy: PUBLIC_REPORT_ONLY. STATUS_LABEL: NEGATIVE. Risk class: research-discussion. Polarity: negative. Card: N5. Note: Identical science to openlabs.md; no sequence, analog list, or unpublished construct; no mol_ keys. Execution status: NOT_RUN. FTO status: UNKNOWN. Private vault: NONE."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis",
+      "content": "On a pre-registered rodent working-memory (WM) task under MAO-comparable conditions, a selective MAO-A inhibitor fails to match parent methylene blue — WM Δ ≤70% of MB (or outside a pre-registered MB-equivalence band). This challenges the popular nootropic framing that collapses MB cognition into a mild MAOI story."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Two competing mechanistic hypotheses: (1) If WM tracks MAO-A, selective MAO-A-i (clorgyline/moclobemide-class) at matched occupancy should reproduce MB. (2) If WM tracks mitochondrial redox, selective MAO-A-i underperforms while a redox-disabled MB analogue loses the WM signal. Key pharmacological anchors: MB is a potent reversible MAO-A inhibitor (~70 nM IC50); Azure B is stronger (~11 nM IC50). Wen redox-dead kill is mito ET/neuroprotection, not WM. Gonzalez-Lima maps low-dose MB to COX/metabolic memory without a MAO arm. Metabolite confound: in vivo 'MB' WM could still be Azure B–MAO even if parent redox matters in vitro."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key literature references identified:\n1. PMID 21454572 (Wen 2011, JBC, DOI 10.1074/jbc.M110.208447, PMC3091255): MB alternative electron transfer; N-acetyl redox-dead loses mitochondrial complex activity / OCR / neuroprotection — NOT WM.\n2. PMID 17721552 (Ramsay 2007, BJP, DOI 10.1038/sj.bjp.0707430, PMC2078225): MB potent reversible MAO-A inhibitor; serotonin-toxicity prediction.\n3. PMID 22197611 (Petzer 2012, Toxicol Appl Pharmacol, DOI 10.1016/j.taap.2011.12.005): Azure B MAO-A IC50 ≈11 nM vs MB ≈70 nM under identical conditions.\n4. PMID 17428524 (Gonzalez-Lima class, PMC2040387): Low-dose MB improves discrimination learning / metabolic memory with COX framing — no selective MAO-A arm."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Name | Kind | Assay | Threshold/Status |\n|------|------|-------|------------------|\n| Wen_redox_dead_mitochondrial_not_WM | LITERATURE | N-acetyl-MB vs MB mito complex/OCR/neuroprotection (Wen 2011) | Redox-dead loses mito ET (PMID 21454572) — not WM |\n| MB_MAO_A_potency | LITERATURE | Reversible MAO-A inhibition (Ramsay 2007) | Potent MAO-A; serotonin-toxicity class (PMID 17721552) |\n| AzureB_stronger_MAO_A_than_MB | LITERATURE | Azure B vs MB MAO-A IC50 (Petzer 2012) | ≈11 nM vs ≈70 nM (PMID 22197611) |\n| GonzalezLima_MB_discrimination_memory_no_MAO_arm | LITERATURE | Low-dose MB discrimination / metabolic memory + COX | Memory↑ metabolic; no selective MAO-A arm (PMID 17428524) |\n| same_WM_MB_vs_selective_MAOAi_panel | UNKNOWN | Same WM: MB vs selective MAO-A-i ± redox-disabled; MAO occupancy | H2H panel not found (soft-complete 0) |\n| selective_MAOAi_fails_MB_equivalence | PREDICTION | Pre-registered WM; MAO-comparable selective MAO-A-i vs parent MB | WM Δ ≤70% of MB (or outside MB-equivalence); no invented Δ/dosing |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline and Experimental Gap",
+      "content": "Baseline claimed: MB working-memory benefit is explained by mild MAO-A inhibition, so a selective MAO-A inhibitor at MAO-comparable conditions should match MB on the same WM task. Baseline measured: MB MAO-A potency from LITERATURE; Azure B stronger MAO-A from LITERATURE; Wen redox-dead kills mito ET/neuroprotection (not WM) from LITERATURE; Gonzalez-Lima discrimination/metabolic memory without MAO arm from LITERATURE. Critical gap: Head-to-head same-WM comparison of MB vs selective MAO-A-i vs redox-disabled analogue is UNKNOWN (soft-complete 0). The ≤70% MB-equivalence fail is a PREDICTION only. N3 does not already prove this mismatch."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Method and Execution Status",
+      "content": "Method: propose-assay. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: N3 (not proof). Private vault: NONE. Kill cost tier: 1. Time to refute: 4 weeks. IP class: redox-vs-MAO. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation and Refutation Criteria",
+      "content": "Ablate conditions: (1) Remove same-task WM contrast of selective MAO-A-i vs parent MB → without H2H, separate LITERATURE legs cannot kill mild-MAOI-explains-WM. (2) Remove MAO-comparable / occupancy matching → unmatched underdose fakes mismatch. (3) Remove N3≠proof + Wen≠WM discipline → would invent a co-panel result left UNKNOWN. Refutation criterion: On the pre-registered WM task under MAO-comparable conditions, selective MAO-A-i matches parent MB within the MB-equivalence band (WM Δ >70% of MB or inside band) — mild-MAOI-explains-WM survives."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Human Decision Gates",
+      "content": "Ask a human: Lock WM task (delayed alternation vs discrimination vs OR), selective MAO-A tool compound, and MAO occupancy readout before treating any MB cognitive signal as MAOI-matched. Do not treat N3 as already proving mismatch. No dosing specified."
+    }
+  ],
+  "key_findings": [
+    "This is a hypothesis/assay proposal at TRL 1 — no experiments have been run (execution_status=NOT_RUN).",
+    "The critical head-to-head comparison (MB vs selective MAO-A inhibitor on the same WM task) is explicitly UNKNOWN with soft-complete score of 0.",
+    "Literature establishes MB as a potent reversible MAO-A inhibitor (IC50 ~70 nM, PMID 17721552) and Azure B as even more potent (IC50 ~11 nM, PMID 22197611).",
+    "Wen 2011 (PMID 21454572) shows redox-dead N-acetyl-MB loses mitochondrial complex activity/OCR/neuroprotection but this is NOT a WM readout — the WM arm is untested.",
+    "Gonzalez-Lima class work (PMID 17428524) maps low-dose MB to COX/metabolic memory without a selective MAO-A arm, leaving the MAO vs redox WM question open.",
+    "Prediction threshold: selective MAO-A-i WM Δ ≤70% of MB (or outside MB-equivalence band) would support the hypothesis that MB WM benefit is NOT explained by MAO-A inhibition alone.",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost experiment).",
+    "FTO status is UNKNOWN; IP class is redox-vs-MAO.",
+    "Metabolite confound identified: in vivo MB WM signal could be mediated by Azure B (a metabolite) via MAO-A inhibition even if parent MB redox matters in vitro.",
+    "No proprietary sequences, analog lists, unpublished constructs, or mol_ keys are present in this public report."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "Public Report Publication",
+      "description": "Mol Labs N5 hypothesis card published as a public report proposing a pre-registered rodent WM assay to test selective MAO-A-i vs methylene blue.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "public: reports/2026-09-25/N5.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed WM Assay Execution",
+      "description": "Pre-registered rodent working-memory task comparing MB vs selective MAO-A inhibitor vs redox-disabled analogue under MAO-comparable occupancy conditions. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=redox-vs-MAO · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

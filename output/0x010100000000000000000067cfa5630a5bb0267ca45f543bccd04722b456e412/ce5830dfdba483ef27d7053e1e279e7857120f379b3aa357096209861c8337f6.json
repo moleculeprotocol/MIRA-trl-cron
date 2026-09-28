@@ -1,0 +1,85 @@
+{
+  "file_path": "/reports/2026-09-25/L3.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a structured research discussion (swarm ID: L3) proposing a hypothesis that senolytic + NAD precursor stacking is sub-additive on the tissue NAD metabolome after CD38 load is reduced by senescent cell clearance. It is classified as a negative/assumption-kill claim at the research-discussion risk class, with no original experimental data — it synthesizes existing literature and identifies a missing factorial experiment as the key knowledge gap.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Swarm ID: L3. Status: NEGATIVE (polarity: negative). Lane: longevity. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Cheap-IP: kill_cost_tier=2, time_to_refute=6 weeks, ip_class=subtract-before-add, vault_hold=no. This is a public report only; private vault skipped."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim",
+      "content": "Senolytic + NAD precursor stacking is NOT NAD-additive on the tissue metabolome. After documented senescent ablation or SASP reduction lowers CD38, a matched precursor pulse raises tissue NAD by ≤50% of the same pulse on uncleared background (sub-additive / diminishing returns) in a pre-registered WAT or liver NAD panel. This challenges the popular longevity stack assumption that senolytics and NMN/NR are additive NAD restorers."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Aging NAD decline is CD38-gated; CD38 ecto-activity degrades NMN. SASP recruits or induces CD38+ macrophages that drain tissue NAD. Clearing senescent cells or reducing SASP decreases CD38 and partially restores NAD. Once that drain is reduced, further precursor input should hit a smaller ΔNAD ceiling than precursor on high-CD38 uncleared tissue — the opposite of 'always stack both.' Key mechanistic distinction: NAD drain is largely from macrophage CD38 induced by SASP, not CD38 on the senescent cell itself."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Baseline claimed: Senolytic + NAD precursor always restores tissue NAD additively; stacking both is strictly better than either alone on the NAD metabolome.\n\nBaseline measured (literature-supported):\n- CD38 dictates age NAD decline and degrades NMN (PMID 27304511) — LITERATURE\n- SASP → CD38+ macrophages → tissue NAD↓ (PMID 33199924) — LITERATURE\n- Senescent ablation / SASP↓ → CD38↓ with partial NAD rebound (PMID 33199925) — LITERATURE\n- Human NR raises aged muscle NAD metabolome (PMID 31412242) — LITERATURE\n- Head-to-head factorial post-senolysis vs uncleared precursor ΔNAD / diminishing returns — UNKNOWN\n- ≤50% marginal-ΔNAD threshold — PREDICTION"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "| name | kind | assay | threshold |\n|------|------|-------|----------|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD vs CD38 (Camacho-Pereira 2016) | age NAD↓ requires CD38 |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | SASP-conditioned macrophage CD38 (Covarrubias 2020) | SASP → CD38+ → tissue NAD↓ |\n| senolysis_or_SASP_ablation_CD38_drop_NAD_rebound | LITERATURE | Clearance → CD38/NAD (Chini 2020) | CD38↓; partial NAD recovery |\n| human_NR_muscle_NAD_no_senolysis_arm | LITERATURE | Oral NR aged muscle (Elhassan 2019) | NAD metabolome ↑ without senolysis arm |\n| post_senolysis_precursor_diminishing_returns_factorial | UNKNOWN | Ordered factorial tissue NAD + CD38 | not found |\n| marginal_precursor_deltaNAD_after_CD38_drop | PREDICTION | WAT/liver NAD after CD38↓ then precursor | marginal ΔNAD ≤50% of precursor-alone |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Supporting Literature",
+      "content": "1. PMID 27304511 / DOI 10.1016/j.cmet.2016.05.006 / PMC4911708 — Camacho-Pereira 2016: Age NAD↓ requires CD38; CD38 is major in vivo NMN-degrading activity.\n2. PMID 33199924 / DOI 10.1038/s42255-020-00305-3 / PMC7908681 — Covarrubias 2020: SASP → CD38+ macrophages → tissue NAD↓.\n3. PMID 33199925 / DOI 10.1038/s42255-020-00298-z / PMC8752031 — Chini 2020: Senescent ablation / SASP↓ → CD38↓ and partial NAD recovery; CD38 ecto-block raises NAD NMN-dependently.\n4. PMID 31412242 / PMC6702140 — Elhassan 2019: Oral NR augments aged human muscle NAD metabolome without a senolysis preconditioning arm (adjacent/comparator)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Mechanism (CD38↓ after clearance) ≠ proven combo pharmacodynamics (diminishing precursor ΔNAD) — factorial experiment is missing.\n2. NAD drain is largely macrophage CD38 induced by SASP, not CD38 on the senescent cell itself.\n3. Synergy reviews still push precursor + CD38-axis drugs without a shared kill assay for sub-additivity after senolysis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Refutation Criteria",
+      "content": "Refute if: In a pre-registered aged WAT or liver panel with verified CD38↓ after senescent ablation or SASP reduction, a matched precursor pulse raises tissue NAD by >50% of the same pulse on uncleared background (additivity retained; no diminishing returns).\n\nAblation conditions that would remove the premise:\n- Remove post-clearance CD38↓ / partial NAD rebound LITERATURE → no subtract-before-add premise\n- Remove factorial order contrast → any NAD rise restates precursor LITERATURE\n- Remove tissue NAD primary endpoint → CD38 alone cannot show sub-additive ΔNAD\n\nHuman input needed: Lock tissue (WAT vs liver), CD38 readout (protein vs ecto-NADase), precursor identity (NMN vs NR), and the ≤50% marginal-ΔNAD band before running the ordered combo; do not invent dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "TRL Assessment Context",
+      "content": "This document represents TRL 1 (basic principles observed and reported). There are no original experiments, no animal or cell data generated by the authors, and no proprietary assay results. The claim is entirely hypothesis-driven, synthesizing published literature (4 PMIDs) to identify a gap (missing factorial experiment). The proposed assay (ordered factorial WAT/liver NAD panel with CD38 readout) would constitute TRL 2 if executed. Estimated time to refute: 6 weeks (kill_cost_tier=2)."
+    }
+  ],
+  "key_findings": [
+    "Central hypothesis: senolytic + NAD precursor stacking is sub-additive (≤50% marginal ΔNAD) after CD38 load is reduced by senescent cell clearance — this is a PREDICTION, not experimentally confirmed.",
+    "Key mechanistic chain supported by literature: CD38 gates age-related NAD decline (PMID 27304511); SASP induces CD38+ macrophages that drain tissue NAD (PMID 33199924); senescent ablation reduces CD38 and partially restores NAD (PMID 33199925).",
+    "Critical knowledge gap: No factorial experiment exists comparing post-senolysis precursor ΔNAD vs. precursor-alone ΔNAD on uncleared background — this is explicitly labeled UNKNOWN.",
+    "The ≤50% marginal-ΔNAD threshold is a PREDICTION with no empirical basis yet established.",
+    "Human NR raises aged muscle NAD metabolome (PMID 31412242) but without a senolysis preconditioning arm, making it an adjacent comparator only.",
+    "NAD drain mechanism is primarily macrophage CD38 induced by SASP, not CD38 on senescent cells themselves — important for assay design.",
+    "Proposed refutation assay: pre-registered aged WAT or liver NAD panel with verified CD38↓ post-senolysis, comparing matched precursor pulse vs. uncleared background; estimated 6 weeks to refute.",
+    "No original experimental data generated; document is a structured research discussion / hypothesis proposal at TRL 1."
+  ],
+  "milestones": [
+    {
+      "title": "Proposed Refutation Assay Timeline",
+      "description": "Estimated 6 weeks to refute the sub-additivity claim via a pre-registered ordered factorial tissue NAD + CD38 assay in aged WAT or liver.",
+      "date": "6 weeks",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=subtract-before-add · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

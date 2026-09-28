@@ -1,0 +1,89 @@
+{
+  "file_path": "/reports/2026-09-27/L23.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card L23) proposing a hypothesis-testing experiment to determine whether lithium's lifespan/healthspan benefits in C. elegans are entirely GSK3-dependent or retain residual activity under GSK3 genetic loss-of-function or matched GSK3-inhibitor conditions. The document is a research discussion/proposal (not a completed experiment), framing an \"assumption-kill\" test against the prevailing GSK3-necessity interpretation established by McColl 2008 and Castillo-Quan 2016. The experiment has NOT been run; the key residual outcome is explicitly labeled UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Status",
+      "content": "Mol Labs public report for hypothesis card L23 (gsk3-insufficiency assumption-kill). Status: PENDING dual-publish. Execution status: NOT_RUN. The document is a research discussion/proposal, not a completed experiment. Polarity: NEGATIVE (assumption-kill). Risk class: research-discussion. IP class: gsk3-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim / Hypothesis",
+      "content": "On a pre-registered C. elegans panel with lithium vs vehicle under GSK-3β/gsk-3 genetic LOF (or matched GSK3-inhibitor at a lock that abolishes GSK3-class longevity attribution) vs GSK3-intact concurrent controls: under the block arm, same-panel median lifespan improvement (lithium vs vehicle under block) retains ≥50% of the lithium vs vehicle median lifespan improvement on GSK3-intact concurrent controls on the same panel. Primary referee = median lifespan (days); optional co-readouts = healthspan/locomotion (secondary only, not gate). This is an assumption-kill of the 'lithium lifespan/healthspan = mere GSK3-necessary bridge' framing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Lithium longevity benefits are framed as GSK3-necessary based on: (1) McColl (PMID 17959600): GSK-3β essential for Li+ C. elegans lifespan extension — gsk-3β null abolishes Li+ extension; (2) Castillo-Quan (PMID 27068460): sgg RNAi epistatic with Li+ in Drosophila (Li+ unable to further extend sgg-RNAi lifespan). However, a matched residual-positive head-to-head (H2H) under GSK3 genetic LOF or matched GSK3-inhibitor that abolishes GSK3-class control remains untested. Mouse residual under systemic GSK3 LOF is also UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "GSK3-insufficiency assumption-kill framework: McColl J Biol Chem shows GSK-3β essential for Li+ C. elegans lifespan (necessity, inverse of residual; gsk-3β(nr2047) — Li+ does not extend; slight further decrease). Castillo-Quan Cell Rep shows Li+ Drosophila longevity via GSK3/NRF2 with sgg RNAi epistasis/saturation (Li+ unable to further extend sgg-RNAi lifespan). Zarse grounds human/metazoan low-dose Li longevity phenotype without GSK3-abolish residual arm. Nespital grounds mouse mild healthspan-not-lifespan phenotype without GSK3-abolish residual arm. Preferred model: C. elegans lifespan proxy ± lithium ± gsk-3/GSK-3β LOF (or matched GSK3-inhibitor). Optional: Drosophila long arm (Castillo-Quan-class lock); mouse residual under systemic GSK3 LOF (optional long arm only)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary",
+      "content": "Four key prior art references:\n1. McColl (PMID 17959600, DOI 10.1074/jbc.M705028200, PMC2739662): Li+ throughout adulthood extends C. elegans survival (up to ~46% median); gsk-3β(nr2047) shortens median lifespan; Li+ does not extend gsk-3β null (slight further decrease). Classification: NECESSITY (inverse of residual) against residual lifespan claim. NOT residual-positive H2H under GSK3 abolish.\n2. Castillo-Quan (PMID 27068460, DOI 10.1016/j.celrep.2016.03.041, PMC4850359): Li+ extends Drosophila lifespan via GSK-3 inhibition and NRF-2/CncC activation; sgg RNAi extends lifespan and Li+ unable to further increase sgg-RNAi lifespan; lithium and Sgg inhibition epistatic/common pathway. Classification: NECESSITY/saturation against residual-positive under GSK3 abolish.\n3. Zarse (PMID 21301855, DOI 10.1007/s00394-011-0171-x, PMC3151375): Inverse correlation tap-water Li vs all-cause mortality (Japanese municipalities); low-dose LiCl extends C. elegans lifespan. Classification: Phenotype prior; no GSK3 genetic LOF or matched GSK3-inhibitor residual lifespan H2H on same panel.\n4. Nespital (PMID 34532960, DOI 10.1111/acel.13479, PMC8520709): Li within tolerable range mildly increases mouse healthspan but not lifespan. Classification: Phenotype prior; no GSK3 genetic or inhibitor residual arm on same panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Six prediction variables defined:\n1. McColl_lithium_GSK3beta_necessity_lifespan [LITERATURE]: C. elegans adulthood Li+; pharmacogenetic panel incl. gsk-3β(nr2047); LSD-1/T08D10.2 RNAi. Threshold: Li+ extends C. elegans median lifespan (up to ~46%); gsk-3β(nr2047) shortens lifespan; Li+ does not extend gsk-3β null. Status: NECESSITY established.\n2. CastilloQuan_lithium_GSK3_NRF2_epistasis_lifespan [LITERATURE]: Drosophila adult LiCl diet; Sgg/GSK-3 OE/S9A/RNAi; Keap1/CncC/NRF-2 genetic. Threshold: Li+ extends fly lifespan via GSK-3 inhibition and NRF-2/CncC activation; sgg RNAi extends lifespan and Li+ unable to further increase. Status: NECESSITY/saturation established.\n3. Zarse_lithium_human_metazoan_longevity_phenotype [LITERATURE]: Japanese municipality tap-water Li observational mortality; C. elegans low-dose LiCl lifespan. Status: Phenotype prior only; no GSK3-abolish residual arm.\n4. Nespital_lithium_mouse_healthspan_not_lifespan_phenotype [LITERATURE]: Mice Li within tolerable range; healthspan referees; lifespan. Status: Phenotype prior only; no GSK3 residual arm.\n5. matched_lithium_under_GSK3_block_residual_lifespan_healthspan_H2H [UNKNOWN]: C. elegans ± lithium ± gsk-3/GSK-3β LOF (or matched GSK3-inhibitor abolishing GSK3-class control) with same-panel median lifespan residual. Status: UNKNOWN + missing_search; do not invent residual.\n6. block_arm_median_lifespan_retention_ge50pct_of_intact_lithium_vs_vehicle [PREDICTION]: Pre-registered C. elegans panel; lock GSK3-class control benefit abolished; score same-panel median lifespan Δ (lithium vs vehicle under block) against lithium vs vehicle median lifespan Δ on GSK3-intact concurrent controls. Threshold: ≥50% retention. Status: NOT_RUN.\n7. competing_block_not_abolished_or_underpowered_or_assay_mismatch_inconclusive [PREDICTION]: Competing outcomes if block not actually abolishing GSK3-class control benefit, underpowered strata, or referee-assay mismatch. Status: Pre-registered competing outcomes (inconclusive_if ≠ refute_if)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs Baseline Measured",
+      "content": "Baseline claimed: Under GSK3 genetic LOF or matched GSK3-inhibitor condition that abolishes GSK3-class longevity attribution, lithium still retains lifespan or healthspan phenotype on the same panel.\nBaseline measured: McColl NECESSITY lifespan LITERATURE against residual (PMID 17959600). Castillo-Quan NECESSITY/saturation lifespan LITERATURE against residual (PMID 27068460). Zarse human/metazoan low-dose Li LITERATURE phenotype prior without GSK3-abolish residual arm (PMID 21301855). Nespital mouse healthspan-not-lifespan LITERATURE phenotype prior without GSK3-abolish residual arm (PMID 34532960). Residual-positive lithium lifespan or healthspan H2H under GSK3 genetic LOF or matched GSK3-inhibitor: UNKNOWN (soft-complete Q_resid/Q_resid2 = necessity+NON-MATCH; no residual-positive; mouse residual under systemic GSK3 LOF UNKNOWN). Block-arm median lifespan improvement retains ≥50% of GSK3-intact lithium vs vehicle median lifespan improvement: PREDICTION (not yet tested)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered C. elegans panel where gsk-3/GSK-3β genetic LOF or matched GSK3-inhibitor locks GSK3-class control benefit abolished, same-panel median lifespan improvement (lithium vs vehicle under block) is <50% of the lithium vs vehicle median lifespan improvement on GSK3-intact concurrent controls — so lithium lifespan DOES reduce to mere GSK3-necessary bridge under abolished GSK3-class control and the gsk3-insufficiency assumption-kill fails — when block-not-abolished, underpowered-strata, or assay-mismatch artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Competing Caveats",
+      "content": "Key limitations:\n1. L1–L22 do not prove L23 — new parent area lithium-gsk3-insufficiency; McColl/Castillo-Quan/Zarse/Nespital are necessity or phenotype adjacent, not residual-positive H2H under GSK3 abolish; soft-complete empty ≠ demonstrated prediction-failure; do not invent residual.\n2. PMID 17959600 NECESSITY constrains residual C. elegans lifespan; PMID 27068460 NECESSITY/saturation constrains residual Drosophila lifespan; PMID 21301855/34532960 lack GSK3-abolish residual arm — matched residual-positive lifespan/healthspan H2H UNKNOWN — PRIOR_ART PARTIAL.\n3. L15≠L23 (DunedinPACE/Oh organ-age); L16≠L23 (tissue SA-β-gal/p16 vs blood under D+Q); L17≠L23 (intermittent-rapa FKBP); L18≠L23 (17α-E2 caloric-match); L19≠L23 (acarbose glycemic-match); L20≠L23 (SPD/ATG bulk autophagy; GSK3≠bulk ATG); L21≠L23 (UA/mitophagy; GSK3≠mitophagy); L22≠L23 (metformin/AMPK; GSK3≠AMPK); NOT NAD-after-senolysis.\nCompeting caveats: block not actually abolishing GSK3-class control benefit / underpowered strata / referee-assay mismatch leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design (Ask a Human)",
+      "content": "Proposed design: Lock one C. elegans lithium vs vehicle × gsk-3/GSK-3β genetic LOF (or matched GSK3-inhibitor) regimen with abolished GSK3-class-control-benefit definition. Primary referee: median lifespan (days). Optional co-readout: healthspan/locomotion. Gate: ≥50% of intact-lithium-vs-vehicle median lifespan retention under GSK3 abolish. Prefer worm lifespan proxy before new rodent/human. Do not invent residual. Do not treat McColl necessity or Castillo-Quan epistasis or Zarse/Nespital phenotype or L15–L22 as residual-positive proof. GSK3 ≠ bulk ATG; GSK3 ≠ mitophagy; GSK3 ≠ AMPK; NOT NAD-after-senolysis; no dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "IP class: gsk3-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: McColl 2008 lithium C. elegans GSK-3β necessity + Castillo-Quan 2016 Drosophila GSK3/NRF2 epistasis + Zarse 2011 human/metazoan low-dose Li + Nespital 2021 mouse healthspan-not-lifespan. Status label: NEGATIVE."
+    }
+  ],
+  "key_findings": [
+    "Experiment has NOT been run (execution_status=NOT_RUN); the key residual outcome (matched_lithium_under_GSK3_block_residual_lifespan_healthspan_H2H) is explicitly UNKNOWN.",
+    "McColl 2008 (PMID 17959600) establishes GSK-3β NECESSITY for Li+ C. elegans lifespan extension: Li+ extends median lifespan up to ~46%; gsk-3β(nr2047) null abolishes Li+ extension (slight further decrease); this is necessity evidence AGAINST residual-positive claims.",
+    "Castillo-Quan 2016 (PMID 27068460) establishes NECESSITY/saturation in Drosophila: sgg RNAi extends lifespan and Li+ is unable to further increase sgg-RNAi lifespan; lithium and Sgg inhibition are epistatic/common pathway.",
+    "Zarse 2011 (PMID 21301855) provides phenotype prior only: inverse correlation tap-water Li vs all-cause mortality (Japanese municipalities); low-dose LiCl extends C. elegans lifespan; NO GSK3 genetic LOF or matched GSK3-inhibitor residual lifespan H2H on same panel.",
+    "Nespital 2021 (PMID 34532960) provides phenotype prior only: Li within tolerable range mildly increases mouse healthspan but NOT lifespan; NO GSK3 genetic or inhibitor residual arm on same panel.",
+    "Residual-positive lithium lifespan or healthspan H2H under GSK3 genetic LOF or matched GSK3-inhibitor that abolishes GSK3-class control: UNKNOWN (soft-complete Q_resid/Q_resid2 = necessity+NON-MATCH; mouse residual under systemic GSK3 LOF also UNKNOWN).",
+    "Proposed prediction gate: block-arm median lifespan improvement (lithium vs vehicle under GSK3 block) retains ≥50% of the lithium vs vehicle median lifespan improvement on GSK3-intact concurrent controls on the same C. elegans panel.",
+    "Refutation criterion: <50% retention of lithium vs vehicle median lifespan improvement under GSK3 block (when block-not-abolished, underpowered-strata, and assay-mismatch artifacts are ruled out) would confirm lithium lifespan reduces to mere GSK3-necessary bridge.",
+    "Prior art is PARTIAL: necessity against residual in C. elegans and Drosophila lifespan is established, but residual-positive H2H is absent; PRIOR_ART PARTIAL.",
+    "Kill cost tier=1; time to refute=4 weeks; IP class=gsk3-insufficiency; vault hold=no; FTO status=UNKNOWN.",
+    "GSK3 ≠ bulk ATG (L20); GSK3 ≠ mitophagy (L21); GSK3 ≠ AMPK (L22); L1–L22 do not prove L23; soft-complete empty ≠ novelty/failure; NOT NAD-after-senolysis."
+  ],
+  "milestones": []
+}

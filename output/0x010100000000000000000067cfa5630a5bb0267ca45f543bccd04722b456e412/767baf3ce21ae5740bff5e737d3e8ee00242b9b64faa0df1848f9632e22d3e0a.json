@@ -1,0 +1,98 @@
+{
+  "file_path": "/reports/2026-09-25/P6.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a Mol Labs public hypothesis report (P6) proposing that humanin-class mitochondria-derived peptides (HN/HNG) blunt FOXO4-DRI senolytic killing to the same degree as navitoclax, and that FOXO4-DRI kill depends on Bax/Bak MOMP execution. The claim is entirely predictive/theoretical — no experiments have been run. All supporting evidence is drawn from published literature, and the key experimental variables (matched head-to-head blunt comparison, Bax/Bak epistasis) are explicitly labeled UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Policy",
+      "content": "Public report only (PUBLIC_REPORT_ONLY). Report date: 2026-09-25. STATUS_LABEL: NEGATIVE. Risk class: research-discussion. Polarity: negative. Execution status: NOT_RUN. FTO status: UNKNOWN. Private vault: NONE. Note: Identical science to openlabs.md; no sequence, analog list, or unpublished construct; no mol_ keys."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim (P6)",
+      "content": "On a matched senescent-culture panel, humanin-class MDP (HN or HNG) blunts FOXO4-DRI senescent-cell clearance as much as it blunts navitoclax — |(%kill_drop_FOXO4-DRI) − (%kill_drop_navitoclax)| ≤ 15 percentage points, with both arms showing a pre-registered ≥20% relative kill drop vs senolytic alone; and FOXO4-DRI kill is lost or strongly reduced under Bax/Bak LOF or BAX-channel block (MOMP-execution gate)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale and Mechanism",
+      "content": "P5 hypothesized that FOXO4-DRI's distinct entry point (FOXO4–p53 axis) would spare it from HN antagonism relative to navitoclax (Bcl-2/Bcl-xL/Bcl-w). P6 challenges this: if execution still converges on Bax/Bak MOMP, pathway-sparing fails and HN should equally blunt both senolytics. Mechanism sketch: FOXO4-DRI enters via FOXO4–p53; navitoclax via Bcl-2/Bcl-xL/Bcl-w; HN binds Bax and blocks mitochondrial translocation/cytochrome c release. Endothelial FOXO4-DRI work frames a p53/BCL-2/Caspase-3 cascade — Bcl-2-family nodes can sit downstream of the FOXO4–p53 trigger without proving Bax/Bak necessity or measuring HN co-treatment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key references underpin the hypothesis:\n1. PMID 28340339 (Baar 2017, Cell, DOI 10.1016/j.cell.2017.02.031, PMC5556182): FOXO4-DRI perturbs FOXO4–p53 → senescent-cell apoptosis; not Bcl-xL occupancy; no HN arm.\n2. PMID 12732850 (Guo 2003, Nature, DOI 10.1038/nature01627): Humanin binds Bax; blocks mitochondrial translocation/cytochrome c release.\n3. PMID 26711051 (Zhu 2016, Aging Cell, DOI 10.1111/acel.12445, PMC4854923): Navitoclax senolytic via Bcl-2/Bcl-xL/Bcl-w; cell-type restricted.\n4. PMID 41625068 (2025, Front. Bioeng., DOI 10.3389/fbioe.2025.1729166, PMC12852416): Endothelial FOXO4-DRI framed via p53/BCL-2/Caspase-3; not Bax/Bak DKO; no HN co-treatment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Baseline claimed: Distinct FOXO4–p53 entry protects FOXO4-DRI from HN MOMP blockade relative to navitoclax (P5 pathway-sparing hope), so equal blunt/Bax epistasis need not be tested.\nBaseline measured: All four supporting data points are LITERATURE only. humanin∩FOXO4=0; humanin∩navitoclax∩senolytic=0; matched FOXO4-DRI±HN vs navitoclax±HN + Bax/Bak LOF = UNKNOWN. Equal % blunt (|Δdrop|≤15 pp; each ≥20% relative drop) = PREDICTION. P5 does not already prove this gate."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| FOXO4_DRI_p53_entry | LITERATURE | FOXO4 peptide disrupts FOXO4–p53 in senescent cells → apoptosis (Baar 2017) | FOXO4–p53 axis entry, not Bcl-xL occupancy (PMID 28340339) |\n| HN_Bax_MOMP_block | LITERATURE | HN–Bax binding; blocks Bax mitochondrial translocation/cytochrome c (Guo 2003) | MOMP/cytochrome c suppression (PMID 12732850) — no KD invented |\n| navitoclax_Bcl2_family_senolytic | LITERATURE | ABT-263 senolysis in restricted SC panels (Zhu 2016) | Bcl-2/Bcl-xL/Bcl-w dependent; cell-type restricted (PMID 26711051) |\n| FOXO4_DRI_p53_BCL2_Caspase3_framing | LITERATURE | Senescent endothelium FOXO4-DRI via p53/BCL-2/Caspase-3 (2025) | Mitochondrial Bcl-2-family nodes may sit downstream of FOXO4–p53 (PMID 41625068) — not Bax epistasis; no HN |\n| matched_equal_blunt_H2H_plus_Bax_epistasis | UNKNOWN | Same senescent culture — FOXO4-DRI ± HN vs navitoclax ± HN; viability + cytochrome-c/MOMP marker; optional Bax/Bak LOF or BAX-channel block on FOXO4-DRI | Dedicated equal-blunt + epistasis panel not found (soft-complete 0) — UNKNOWN |\n| equal_blunt_and_MOMP_gate_margins | PREDICTION | Pre-registered matched panel; % relative kill drop under HN for each senolytic; FOXO4-DRI under Bax/Bak LOF or BAX block | Both arms ≥20% relative kill drop under HN AND |drop_FOXO4 − drop_nav| ≤ 15 pp; FOXO4-DRI kill lost/strongly reduced under Bax/Bak LOF or BAX-channel block (α/N pre-specified) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat P5 as proving P6 — P5 listed shared MOMP as a caveat; it did not measure equal blunt or Bax epistasis.\n2. BCL-2 cascade language ≠ Bax requirement — PMID 41625068 is not a Bax/Bak LOF kill of FOXO4-DRI.\n3. Equal blunt is stronger than shared MOMP necessity — HN potency may differ by senolytic even if both need Bax/Bak; cell-type mismatch (navitoclax-insensitive SCs) confounds H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Method and Refutation Criteria",
+      "content": "Method: propose-assay (NOT_RUN). Ablation analysis: (1) Without H2H % blunt, separate LITERATURE legs cannot show HN equal-blunts both senolytics. (2) Equal blunt alone does not establish the MOMP-execution gate; pathway-sparing could fail for other reasons. (3) Treating P5 or 41625068 cascade language as already deciding the gate would invent an epistasis/H2H result left UNKNOWN.\nRefutation criteria: On the pre-registered matched panel, HN spares FOXO4-DRI (FOXO4 relative kill drop <20% or outside the equal-blunt band while navitoclax is blunted), or FOXO4-DRI kill survives Bax/Bak LOF/BAX-channel block — pathway-sparing/MOMP-independent execution survives."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP, Cost, and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4 weeks · ip_class=momp-execution-gate · vault_hold=no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: P5 (not proof). Private vault: NONE."
+    }
+  ],
+  "key_findings": [
+    "All experimental variables are either LITERATURE-derived or explicitly labeled UNKNOWN/PREDICTION — no in-house experiments have been run (execution_status=NOT_RUN).",
+    "Central claim is a PREDICTION: HN/HNG blunts FOXO4-DRI kill ≥20% relative drop AND |drop_FOXO4 − drop_navitoclax| ≤ 15 percentage points on a matched senescent-culture panel.",
+    "FOXO4-DRI entry via FOXO4–p53 axis is established by literature (Baar 2017, PMID 28340339), but Bax/Bak necessity for FOXO4-DRI kill is UNKNOWN.",
+    "HN–Bax binding and MOMP block is established by literature (Guo 2003, PMID 12732850), but no HN co-treatment with FOXO4-DRI has been measured.",
+    "Navitoclax senolytic activity via Bcl-2/Bcl-xL/Bcl-w is established by literature (Zhu 2016, PMID 26711051); cell-type restriction is a confound for head-to-head comparison.",
+    "Endothelial FOXO4-DRI p53/BCL-2/Caspase-3 framing (PMID 41625068) does NOT constitute Bax/Bak epistasis evidence and includes no HN co-treatment.",
+    "P5 is explicitly stated to NOT prove P6 — shared MOMP was listed as a caveat in P5, not a measured result.",
+    "Estimated time to refute: 4 weeks; cost tier: 1 (low cost); IP class: momp-execution-gate; no vault hold.",
+    "STATUS_LABEL is NEGATIVE — the hypothesis is framed as a negative/challenging result relative to P5's pathway-sparing hope.",
+    "Key proposed assay: matched senescent culture panel with FOXO4-DRI ± HN vs navitoclax ± HN, viability + cytochrome-c/MOMP markers, optional Bax/Bak LOF or BAX-channel block."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "P6 Public Report Publication",
+      "description": "Mol Labs public hypothesis report P6 published, proposing that HN/HNG equally blunts FOXO4-DRI and navitoclax via shared MOMP execution gate.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "public: reports/2026-09-25/P6.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed Equal-Blunt + Bax Epistasis Assay",
+      "description": "Pre-registered matched senescent-culture panel assay: FOXO4-DRI ± HN vs navitoclax ± HN with viability and MOMP markers; optional Bax/Bak LOF or BAX-channel block. Estimated 4 weeks to refute. Status: NOT_RUN.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "time_to_refute=4w · ip_class=momp-execution-gate · vault_hold=no\nexecution_status=NOT_RUN",
+      "page": 1
+    }
+  ]
+}

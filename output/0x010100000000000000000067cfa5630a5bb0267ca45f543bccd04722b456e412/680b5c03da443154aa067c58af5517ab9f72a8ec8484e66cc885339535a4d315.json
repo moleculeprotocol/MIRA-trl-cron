@@ -1,0 +1,86 @@
+{
+  "file_path": "/reports/2026-09-25/N1.md",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This document is a structured research discussion note (labeled N1) arguing that modafinil's psychomotor vigilance task (PVT) benefit under sleep deprivation cannot be fully explained by striatal dopamine transporter (DAT) occupancy alone. It identifies a critical gap in the literature — no same-subject PET × PVT co-design exists — and proposes a pre-registered assay to partition DAT vs. H3/orexin-axis variance in PVT improvement. The document is a hypothesis/proposal at TRL 1–2, with no original experimental data.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Metadata",
+      "content": "Swarm ID: N1. Status: NEGATIVE (polarity: negative). Lane: nootropics. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Mol Labs: PUBLIC_REPORT_ONLY. The document is a research discussion note, not a primary experimental report."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim",
+      "content": "Modafinil's sleep-deprivation PVT benefit is NOT explained by striatal DAT occupancy alone. In a same-subject PET–PVT design, DAT occupancy is predicted to account for a minority of ΔPVT variance. Pre-registered prediction: R² < 0.50 for PVT ~ DAT occupancy. The popular DAT-alone account is asserted to be false. This is a hypothesis/prediction, not an experimentally confirmed finding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Rationale and Significance",
+      "content": "Popular and PET-based framing treats ~50% DAT occupancy as the explanation of modafinil alertness/PVT improvement. DAT occupancy and PVT benefit are each documented in the literature, but their joint mediation has zero PubMed hits (PVT∧DAT∧modafinil = 0 results). The document warns against replacing the DAT overclaim with an H3/orexin overclaim without a proper variance partition study."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Human PET shows substantial striatal DAT occupancy after oral modafinil. Separate trials show PVT improvement under sleep debt. Hypothalamic TMN/orexin Fos rises and histamine can rise indirectly, but H3 inverse agonists are a distinct pharmacological class. Modafinil wake persists in HDC-KO animal models, indicating histamine is not necessary. Key distinction: circuit activation ≠ PVT mediation ≠ histamine necessity. The unmeasured DAT→PVT variance bridge is the core gap."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline — Literature vs. Unknown",
+      "content": "LITERATURE (established): Striatal DAT occupancy ~40–57% after oral modafinil (PMID 19293415, PMID 24451483). PVT benefit under sleep deprivation (PMID 16120100). UNKNOWN: R²(PVT ~ DAT occupancy) — no published same-subject co-design. PREDICTION/UNKNOWN: H3/orexin block accounts for more PVT variance than DAT — not established in literature. UNKNOWN: modafinil direct H3 antagonist Ki — not established."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Value |\n|---|---|---|---|\n| DAT_occupancy_striatum | LITERATURE | Human PET after oral modafinil | ~40–57% (PMID 19293415, 24451483) |\n| PVT_improvement_sleep_debt | LITERATURE | PVT under sleep deprivation | benefit present (PMID 16120100) |\n| R2_PVT_on_DAT_occupancy | UNKNOWN | Same-subject PET × ΔPVT | no published R² |\n| R2_PVT_H3_orexin_vs_DAT | PREDICTION | Variance partition seed | not LITERATURE |\n| modafinil_direct_H3_antagonist_Ki | UNKNOWN | Binding/functional H3 assay | not established |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations / Gaps",
+      "content": "1. No same-subject DAT occupancy × ΔPVT co-design exists in the literature. 2. No H3/orexin vs. DAT variance partition for PVT has been performed. 3. Fos/circuit activation data do not establish necessity or effect size (HDC KO wake persistence is a confound). These gaps prevent any causal mediation claim."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Key References",
+      "content": "- PMID 19293415 / DOI 10.1001/jama.2009.351: Human DAT occupancy + extracellular DA after oral modafinil (PET study). - PMID 24451483 / DOI 10.1017/S1461145713001612: [18F]FE-PE2I striatal DAT occupancy ~51–57%. - PMID 16120100: Modafinil improves PVT under sleep deprivation. - PMID 17288995: H3 inverse-agonist class vs. modafinil — parallel pharmacology, not identity."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions identified: (1) Remove same-subject DAT × ΔPVT linkage → separate papers cannot refute mediation. (2) Remove quantitative R² criterion → ~50% occupancy alone cannot prove/disprove 'alone explains.' (3) Remove sleep-deprivation PVT endpoint → informal alertness ≠ PVT partition. These ablations define the minimum experimental requirements for a valid test of the claim."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criterion",
+      "content": "The hypothesis would be refuted if: In a pre-registered same-subject sleep-deprivation design, striatal DAT occupancy explains ≥50% of ΔPVT variance (R² ≥ 0.50) AND an H3/orexin-axis comparator adds no incremental ΔPVT beyond DAT occupancy. This is a clearly operationalized falsification criterion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design",
+      "content": "Proposed study: Same-subject PET–PVT co-design under sleep deprivation. Key design decisions to lock before analysis: PET ligand and brain region (striatum), PVT metric (lapses vs. median RT), and sleep-debt protocol. Pre-registration of R² < 0.50 threshold for DAT occupancy explaining ΔPVT. Variance partition to compare DAT vs. H3/orexin-axis contributions. No experimental data have been collected; this is a proposal."
+    }
+  ],
+  "key_findings": [
+    "No published study has co-measured striatal DAT occupancy and PVT improvement in the same subjects (PubMed search: PVT∧DAT∧modafinil = 0 hits); R²(PVT ~ DAT occupancy) is entirely unknown.",
+    "Literature establishes striatal DAT occupancy of ~40–57% after oral modafinil (PMID 19293415, PMID 24451483) and PVT benefit under sleep deprivation (PMID 16120100), but these are from separate studies.",
+    "Pre-registered prediction: DAT occupancy will explain <50% of ΔPVT variance in a same-subject PET–PVT design, falsifying the DAT-alone account.",
+    "Modafinil wake persists in HDC-KO animal models, indicating histamine is not necessary for wakefulness; circuit activation (Fos) ≠ PVT mediation.",
+    "H3 inverse agonists are a pharmacologically distinct class from modafinil; treating H3/orexin block as an established modafinil mechanism would be an overclaim without a variance partition study.",
+    "Modafinil's direct H3 antagonist Ki is unknown — no binding/functional H3 assay data are available.",
+    "This document is TRL 1: pure hypothesis/proposal with no original experimental data; all quantitative values cited are from external literature."
+  ],
+  "document_date": null,
+  "milestones": []
+}

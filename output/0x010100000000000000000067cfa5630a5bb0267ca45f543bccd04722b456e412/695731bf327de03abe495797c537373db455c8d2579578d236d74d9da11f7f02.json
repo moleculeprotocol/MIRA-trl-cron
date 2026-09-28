@@ -1,0 +1,128 @@
+{
+  "file_path": "/reports/2026-09-27/L24.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card L24) proposing a research hypothesis and experimental design to test whether canagliflozin's longevity/healthspan benefits are SGLT2-dependent or retain residual efficacy under SGLT2 genetic loss-of-function (LOF) or matched SGLT2-block. The document is a pre-registered research discussion card (status: NEGATIVE/NOT_RUN) that identifies existing literature priors (Miller ITP, Vallon Sglt2 KO, Jayarathne, Snyder) and explicitly marks the key residual-positive H2H experiment as UNKNOWN and unperformed. No new experimental data are generated; the document proposes an assay design and prediction framework for a future rodent study.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim Overview",
+      "content": "The central claim (L24) asks whether canagliflozin retains lifespan/healthspan phenotype on a pre-registered rodent metabolic/healthspan panel when SGLT2-class longevity attribution is abolished via Sglt2/SGLT2 genetic LOF or matched SGLT2-block. The primary prediction gate is: under the block lock, same-panel early healthspan/metabolic improvement (canagliflozin vs vehicle under block) retains ≥50% of the canagliflozin vs vehicle early healthspan/metabolic improvement on SGLT2-intact concurrent controls. Residual-positive lifespan or healthspan H2H under SGLT2 abolish is explicitly marked UNKNOWN. Longevity-class necessity AGAINST residual is also UNKNOWN. The document explicitly prohibits inventing residual effect sizes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Miller ITP (PMID 32990681)",
+      "content": "Miller JCI Insight 2020 (PMID 32990681 / DOI 10.1172/jci.insight.140019 / PMC7710304): Canagliflozin extends median lifespan of genetically heterogeneous male UM-HET3 mice by ~14% and 90th-percentile age by ~9% in the ITP three-site study. No lifespan benefit in females despite improved glucose in both sexes. Classified as phenotype longevity prior. Limitation: no Sglt2 genetic LOF or matched SGLT2-block residual lifespan H2H on same panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Vallon Sglt2 KO Metabolic Tool (PMID 23152292)",
+      "content": "Vallon Am J Physiol Renal 2013 (PMID 23152292 / DOI 10.1152/ajprenal.00409.2012 / PMC3543626): Gene-targeted Sglt2(−/−) mice — absence of SGLT2 attenuates STZ-induced hyperglycemia and prevents glomerular hyperfiltration but not kidney growth/injury. Classified as genetic LOF metabolic tool for SGLT2 abolish design. Limitation: not a canagliflozin × Sglt2 KO longevity/healthspan residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Jayarathne Neuroprotection Healthspan (PMID 35707855)",
+      "content": "Jayarathne Aging Cell 2022 (PMID 35707855 / DOI 10.1111/acel.13653 / PMC9282842): Canagliflozin improves central insulin sensitivity (male) and reduces age-associated hypothalamic gliosis (both sexes) in aged genetically diverse UM-HET3 mice. Classified as healthspan/neuroprotect phenotype prior. Limitation: no Sglt2-abolish residual arm."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Snyder Age-Lesion Healthspan (PMID 35974129)",
+      "content": "Snyder GeroScience 2023 (PMID 35974129 / DOI 10.1007/s11357-022-00641-0 / PMC9886729): Canagliflozin diminishes incidence/severity of cardiomyopathy, glomerulonephropathy, arteriosclerosis, hepatic lipidosis, and adrenal cortical neoplasms in genetically heterogeneous male mice. Classified as healthspan/pathology phenotype prior. Limitation: no Sglt2-abolish residual arm."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary",
+      "content": "| Variable | Kind | Status |\n|---|---|---|\n| Miller_canagliflozin_UMHET3_male_lifespan_phenotype | LITERATURE | Confirmed: ~14% median lifespan extension in males; no female benefit; no Sglt2-abolish residual arm |\n| Vallon_Sglt2_KO_metabolic_tool | LITERATURE | Confirmed: Sglt2 KO attenuates STZ hyperglycemia, prevents hyperfiltration; not residual longevity H2H |\n| Jayarathne_canagliflozin_UMHET3_neuroprotect_healthspan_phenotype | LITERATURE | Confirmed: improved central insulin sensitivity (male), reduced hypothalamic gliosis (both sexes); no Sglt2-abolish residual arm |\n| Snyder_canagliflozin_age_lesion_healthspan_phenotype | LITERATURE | Confirmed: reduced cardiomyopathy, glomerulonephropathy, arteriosclerosis, hepatic lipidosis, adrenal neoplasms in males; no Sglt2-abolish residual arm |\n| matched_canagliflozin_under_SGLT2_block_residual_lifespan_healthspan_H2H | UNKNOWN | NOT RUN — soft-complete NON-MATCH; no residual-positive H2H found; do not invent residual |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_canagliflozin_vs_vehicle | PREDICTION | NOT RUN — prediction gate: ≥50% retention of intact-arm canagliflozin vs vehicle early healthspan/metabolic Δ under block lock |\n| competing_block_not_abolished_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | NOT RUN — pre-registered competing outcomes (inconclusive if block not abolished, underpowered strata, or assay mismatch) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design",
+      "content": "Design: Pre-registered rodent metabolic/healthspan panel with canagliflozin vs vehicle under (a) Sglt2/SGLT2 genetic LOF or matched SGLT2-block that abolishes SGLT2-class longevity attribution, and (b) SGLT2-intact concurrent controls on the same panel. Primary referee: pre-specified early healthspan/metabolic endpoint within the refute window. Optional co-readouts: age-lesion / neuroprotect / full lifespan (secondary only, not gate). Optional cell/proximal-tubule metabolic lock only as assay-support. Refute criterion: block-arm early healthspan/metabolic improvement <50% of SGLT2-intact canagliflozin vs vehicle improvement (when block-not-abolished, underpowered-strata, and assay-mismatch artifacts are ruled out). Execution status: NOT_RUN. Estimated time to refute: 6 weeks. Kill cost tier: 2."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Competing Caveats",
+      "content": "Mechanism framing: sglt2-insufficiency assumption-kill. Miller ITP grounds canagliflozin male UM-HET3 lifespan phenotype without Sglt2-abolish residual arm. Vallon Sglt2(−/−) provides metabolic LOF tool for SGLT2 abolish design — not residual longevity H2H. Jayarathne and Snyder ground neuroprotect/age-lesion healthspan priors without Sglt2-abolish residual arms. Competing caveats: (1) block not actually abolishing SGLT2-class control benefit; (2) underpowered strata; (3) referee-assay mismatch — any of these leave the test inconclusive rather than refuted. Explicit exclusions: SGLT2 ≠ bulk ATG (L20); SGLT2 ≠ mitophagy (L21); SGLT2 ≠ AMPK (L22); SGLT2 ≠ GSK3 (L23); off-panel empa-HF or cana NHE3/mito SGLT2-independent arms ≠ longevity residual proof; NOT NAD-after-senolysis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Metadata",
+      "content": "IP class: sglt2-insufficiency. Kill cost tier: 2. Time to refute: 6 weeks. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Novelty tag: assumption-kill. Polarity: negative. Status labels: NEGATIVE. Risk class: research-discussion. Card SHA256: 5252b245b860d97370cad7587c1ce6a623c6d48b3d4912e8fa7f55d9e3842449."
+    }
+  ],
+  "key_findings": [
+    "Canagliflozin extends male UM-HET3 median lifespan by ~14% and 90th-percentile age by ~9% in the Miller ITP study (PMID 32990681), but no Sglt2-abolish residual arm exists on the same panel.",
+    "Vallon Sglt2(−/−) mice (PMID 23152292) provide a validated genetic LOF metabolic tool for SGLT2 abolish design, but this is not a canagliflozin × Sglt2 KO longevity/healthspan residual H2H.",
+    "Jayarathne (PMID 35707855) shows canagliflozin improves central insulin sensitivity (male) and reduces hypothalamic gliosis (both sexes) in aged UM-HET3 — healthspan prior without Sglt2-abolish residual arm.",
+    "Snyder (PMID 35974129) shows canagliflozin reduces cardiomyopathy, glomerulonephropathy, arteriosclerosis, hepatic lipidosis, and adrenal cortical neoplasms in male mice — healthspan/pathology prior without Sglt2-abolish residual arm.",
+    "Residual-positive canagliflozin lifespan or healthspan H2H under SGLT2 genetic LOF or matched SGLT2-block is explicitly UNKNOWN — no such experiment has been performed.",
+    "Longevity-class necessity AGAINST residual is also UNKNOWN — no paper showing Sglt2 KO abolishes canagliflozin lifespan benefit has been found.",
+    "The proposed prediction gate is: block-arm early healthspan/metabolic improvement retains ≥50% of SGLT2-intact canagliflozin vs vehicle early healthspan/metabolic improvement on the same panel.",
+    "Execution status is NOT_RUN; estimated time to refute is 6 weeks; kill cost tier is 2; IP class is sglt2-insufficiency.",
+    "Prior art is classified as PARTIAL: phenotype longevity/healthspan + Sglt2 KO metabolic tool found; residual-positive H2H absent; off-panel HF/renal SGLT2-independent data do not satisfy the claim.",
+    "L1–L23 (prior hypothesis cards) do not prove L24; soft-complete empty ≠ novelty / ≠ failure; SGLT2 ≠ bulk ATG, mitophagy, AMPK, or GSK3."
+  ],
+  "document_date": "2024",
+  "milestones": [
+    {
+      "title": "Miller ITP Canagliflozin Lifespan Publication",
+      "description": "Publication of canagliflozin male UM-HET3 lifespan extension data (~14% median, ~9% 90th-percentile) in JCI Insight by Miller et al. (ITP three-site study). No Sglt2-abolish residual arm included.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 32990681 / DOI 10.1172/jci.insight.140019 / PMC7710304 — Miller ITP: canagliflozin extends median lifespan of genetically heterogeneous male UM-HET3 mice (~14%); increases 90th-percentile age (~9%)",
+      "page": 1
+    },
+    {
+      "title": "Vallon Sglt2 KO Metabolic Tool Publication",
+      "description": "Publication of Sglt2(−/−) gene-targeted mouse metabolic LOF tool characterization in Am J Physiol Renal by Vallon et al., establishing SGLT2 abolish design for future studies.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 23152292 / DOI 10.1152/ajprenal.00409.2012 / PMC3543626 — Vallon: gene-targeted Sglt2(−/−) mice — absence of SGLT2 attenuates STZ hyperglycemia and prevents glomerular hyperfiltration but not kidney growth/injury",
+      "page": 1
+    },
+    {
+      "title": "Jayarathne Canagliflozin Neuroprotection Publication",
+      "description": "Publication of canagliflozin neuroprotection and central insulin sensitivity data in aged UM-HET3 mice in Aging Cell by Jayarathne et al. No Sglt2-abolish residual arm.",
+      "date": "2022",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 35707855 / DOI 10.1111/acel.13653 / PMC9282842 — Jayarathne: canagliflozin neuroprotection / central insulin sensitivity / reduced hypothalamic gliosis in aged genetically diverse UM-HET3",
+      "page": 1
+    },
+    {
+      "title": "Snyder Canagliflozin Age-Lesion Healthspan Publication",
+      "description": "Publication of canagliflozin age-related lesion retardation data in genetically heterogeneous male mice in GeroScience by Snyder et al. No Sglt2-abolish residual arm.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 35974129 / DOI 10.1007/s11357-022-00641-0 / PMC9886729 — Snyder: canagliflozin retards age-related lesions (heart, kidney, liver, adrenal) in genetically heterogeneous male mice",
+      "page": 1
+    },
+    {
+      "title": "L24 Residual H2H Rodent Experiment (Proposed)",
+      "description": "Pre-registered rodent metabolic/healthspan panel: canagliflozin vs vehicle under Sglt2/SGLT2 genetic LOF or matched SGLT2-block vs SGLT2-intact concurrent controls. Primary endpoint: early healthspan/metabolic proxy within refute window. Prediction gate: ≥50% retention of intact-arm canagliflozin vs vehicle improvement. Estimated 6 weeks to refute. Currently NOT_RUN.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=sglt2-insufficiency · vault_hold=no ... execution_status=NOT_RUN",
+      "page": 1
+    }
+  ]
+}

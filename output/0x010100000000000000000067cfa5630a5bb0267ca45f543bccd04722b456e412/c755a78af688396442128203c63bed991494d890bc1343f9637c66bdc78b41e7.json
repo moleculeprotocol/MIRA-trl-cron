@@ -1,0 +1,91 @@
+{
+  "file_path": "/reports/2026-09-25/P4.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This document is a research discussion report (P4) proposing that humanin-class mitochondria-derived peptides (HN/HNG) antagonize Bcl-2-family senolytic clearance of senescent cells (SCs), predicting ≥30% relative reduction in SC kill fraction when combined with senolytics. The claim is mechanistically grounded in published HN–Bax/Bid/MOMP literature but the direct combo pharmacodynamic (PD) experiment is entirely untested (0 PubMed hits). The document is classified as a research discussion with a negative polarity, meaning it challenges the assumption that humanin-class MDPs and senolytics stack non-interferingly.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Swarm ID: P4. Status: NEGATIVE (polarity: negative). Lane: peptides. Risk class: research-discussion. Novelty: combo-antagonism. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Mol Labs: PUBLIC_REPORT_ONLY. Kill cost tier: 1. Time to refute: 4 weeks. IP class: combo-antagonism. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim",
+      "content": "Humanin-class MDP (HN or HNG) plus a Bcl-2-family senolytic does NOT clear senescent cells additively. On a pre-registered senescent-culture panel, senolytic + HN/HNG SC kill fraction falls ≥30% relative to senolytic alone (combo antagonism). This is a PREDICTION, not a proven result — 0 PubMed hits for head-to-head combo clearance PD."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanistic Rationale",
+      "content": "HN binds Bax and Bid/tBid (and BimEL), suppresses MOMP/cytochrome c release, and can sequester BAX into fibers. Senescent cells upregulate BCL-xL/Bcl-2-family survival nodes; navitoclax-class agents tip intrinsic apoptosis in a cell-type-restricted way; D+Q also hits BCL-xL among SCAP nodes. The mechanism collision: senolytics exploit Bcl-2-family/MOMP-dependent apoptosis, while HN blocks the same pathway upstream. HN can lower senescence markers in some models without proving it helps SC deletion — anti-senescence ≠ pro-clearance."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims vs. Measured Evidence",
+      "content": "Baseline claimed (by longevity community): Humanin-class MDPs and senolytics stack additively/synergistically on aging phenotypes without interfering with SC clearance.\n\nBaseline measured:\n- HN–Bax/Bid/Bim MOMP block: LITERATURE (PMID 12732850; 15661737; 15661735; 31690630)\n- Navitoclax/D+Q senolytic: LITERATURE (PMID 26711051; 25754370)\n- HNG can ↓ HG endothelial senescence markers via SIRT6: LITERATURE (PMID 39730568) — not a combo clearance assay\n- Head-to-head senolytic ± HN/HNG clearance PD: UNKNOWN (0 PubMed combo hits)\n- ≥30% relative kill reduction: PREDICTION only"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold |\n|---|---|---|---|\n| HN_Bax_MOMP_block | LITERATURE | HN binding/suppression of Bax activation and cytochrome c release (Guo 2003) | Bax activation/MOMP suppressed (PMID 12732850) — no KD invented |\n| HN_Bid_Bim_nullification | LITERATURE | HN vs Bid/tBid and BimEL apoptogenic release/oligomerization (Zhai) | Functional nullification of Bid/tBid and BimEL (PMID 15661737; 15661735) |\n| HN_BAX_fiber_sequestration | LITERATURE | Biophysical sequestration of BAX/BID into fibers (Morris) | MOMP-competent activation prevented (PMID 31690630; 33106313) |\n| navitoclax_DQ_senolytic_Bcl2_axis | LITERATURE | Senolytic clearances via Bcl-2 family/BCL-xL SCAP nodes | Navitoclax cell-type-restricted senolysis; D+Q hits BCL-xL among nodes (PMID 26711051; 25754370) |\n| combo_HN_senolytic_clearance_PD | UNKNOWN | Same senescent culture — senolytic alone vs senolytic + HN/HNG; viability/SA-β-gal/caspase/p16+ fraction | No dedicated combo clearance study (0 PubMed hits) — UNKNOWN |\n| combo_antagonism_kill_fraction | PREDICTION | Pre-registered IR-senescent fibroblasts or senescent HUVECs; Bcl-2-family senolytic ± HN/HNG; SC-selective kill fraction | Senolytic + HN/HNG kill fraction ≤70% of senolytic-alone (≥30% relative reduction); α and N pre-specified |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Supporting Literature",
+      "content": "1. PMID 12732850 / DOI 10.1038/nature01627 — HN suppresses Bax activation, mitochondrial translocation, cytochrome c release (Guo 2003).\n2. PMID 15661737 / DOI 10.1074/jbc.M411902200; PMID 15661735 — HN nullifies Bid/tBid and BimEL apoptogenic activity (Zhai).\n3. PMID 31690630 / PMC6916494; PMID 33106313 — HN sequesters BAX (and selectively BID) into fibers, preventing MOMP-competent activation (Morris).\n4. PMID 26711051 / PMC4854923; PMID 25754370 / PMC4531078 — Navitoclax senolytic via Bcl-2 family (cell-type restricted); D+Q senolytic with BCL-xL among SCAP nodes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Mechanism bridge ≠ combo PD — Bax/Bid antagonism is solid in literature; senolytic SC-clearance antagonism is entirely untested.\n2. Senolytic class matters — HN–MOMP axis maps cleanly to Bcl-2-family/apoptosis-dependent kill, not every SCAP drug (kinase/flavonoid SCAPs may not be affected).\n3. Anti-senescence marker drop can confound clearance readouts if HN is present during induction rather than only at kill phase."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Critical Experimental Design Elements)",
+      "content": "- Remove same-culture senolytic ± HN/HNG clearance contrast → Without the combo arm, Bax/Bid LITERATURE only restates cytoprotection and cannot kill the blind-stack slogan.\n- Remove Bcl-2-family/MOMP-dependent senolytic class constraint → Broadening to all 'senolytics' dilutes the Bax/Bid collision and lets kinase/flavonoid SCAPs falsely rescue additivity.\n- Remove HN Bax/Bid (or BAX-fiber) LITERATURE arm → Without the MOMP-block mechanism, predicted antagonism is an unanchored combo guess."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Open Questions",
+      "content": "Refute if: On the pre-registered senescent-culture panel, senolytic + HN/HNG SC kill fraction stays within a pre-registered additivity/equivalence band of senolytic alone (no ≥30% relative reduction; combo antagonism fails).\n\nOpen questions for human review: Lock senolytic class (navitoclax-class vs D+Q), cell type (HUVEC vs IMR90), and whether HN is only at kill vs during induction before reading SA-β-gal; do not invent dosing or KD."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "TRL Assessment Context",
+      "content": "This project is at TRL 1 (basic concept/hypothesis). All mechanistic support is derived from existing literature on separate phenomena (HN MOMP-block; senolytic SC clearance). No direct experimental data exists for the proposed combo antagonism. The proposed assay (pre-registered IR-senescent fibroblasts or HUVECs, Bcl-2-family senolytic ± HN/HNG, SC-selective kill fraction readout) would constitute TRL 2 if executed. The document explicitly flags the combo PD as UNKNOWN with 0 PubMed hits."
+    }
+  ],
+  "key_findings": [
+    "Core claim is a PREDICTION only: HN/HNG + Bcl-2-family senolytic combo will reduce SC kill fraction by ≥30% relative to senolytic alone — no experimental data exists (0 PubMed hits for combo clearance PD).",
+    "Mechanistic basis is well-supported in literature: HN suppresses Bax activation/MOMP (PMID 12732850), nullifies Bid/tBid and BimEL (PMID 15661737; 15661735), and sequesters BAX into fibers (PMID 31690630; 33106313).",
+    "Senolytic mechanism is also literature-supported: navitoclax acts via Bcl-2 family in a cell-type-restricted manner (PMID 26711051); D+Q hits BCL-xL among SCAP nodes (PMID 25754370).",
+    "HNG reducing senescence markers via SIRT6 in HG endothelial cells (PMID 39730568) is NOT a combo clearance assay — anti-senescence ≠ pro-clearance.",
+    "Critical design constraints: senolytic class must be Bcl-2-family/MOMP-dependent (not kinase/flavonoid SCAPs); HN must be applied only at kill phase, not during induction, to avoid confounding SA-β-gal readouts.",
+    "Proposed assay: pre-registered IR-senescent fibroblasts (IMR90) or senescent HUVECs; Bcl-2-family senolytic ± HN/HNG; readouts include viability, SA-β-gal, caspase activity, p16+ fraction; threshold ≤70% kill fraction vs senolytic alone.",
+    "Time to refute estimated at 4 weeks; kill cost tier 1 (low cost experiment).",
+    "Project is TRL 1 — concept/hypothesis stage with no direct experimental evidence for the proposed combo antagonism."
+  ],
+  "milestones": [
+    {
+      "title": "Proposed Combo Antagonism Assay",
+      "description": "Pre-registered senescent-culture panel experiment: Bcl-2-family senolytic ± HN/HNG in IR-senescent fibroblasts (IMR90) or senescent HUVECs; measure SC-selective kill fraction (viability, SA-β-gal, caspase, p16+); threshold ≥30% relative kill reduction to confirm antagonism.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "time_to_refute=4w ... Pre-registered IR-senescent fibroblasts or senescent HUVECs; Bcl-2-family senolytic ± HN/HNG; SC-selective kill fraction",
+      "page": 1
+    }
+  ]
+}

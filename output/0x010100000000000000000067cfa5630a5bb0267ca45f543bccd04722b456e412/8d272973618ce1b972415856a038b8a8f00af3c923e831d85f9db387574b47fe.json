@@ -1,0 +1,63 @@
+{
+  "file_path": "/reports/2026-09-25/L4.md",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This document (L4) is a research discussion card arguing that a favorable DunedinPACE or GrimAge blood DNA methylation clock shift alone is insufficient as a primary healthspan endpoint. It proposes a multi-domain concordance rule requiring co-movement of ≥2 of {VO₂, muscle function, brain organ-age, immune organ-age} alongside the clock shift. The document is a conceptual/analytical critique grounded in published literature, not a primary experimental study.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim and Framing",
+      "content": "The document asserts that a favorable blood DNAm DunedinPACE or GrimAge shift alone is NOT a sufficient primary healthspan endpoint. The proposed standard requires co-movement of ≥2 of {VO₂, muscle function, brain organ-age, immune organ-age} in the same subjects alongside the clock shift — termed a 'pre-registered multi-domain concordance rule.' The baseline being challenged is the common longevity trial and consumer framing that treats a slowed DunedinPACE or GrimAge tick as healthspan certification."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch — Construct Mismatch",
+      "content": "DunedinPACE and GrimAge are blood methylation pace/composite surrogates. Oh-class organ ages are plasma proteomic organ-of-origin models — fundamentally different constructs. Key distinctions: (1) GrimAge is a blood DNAm lifespan/healthspan composite (PMID 30669119, Lu); (2) CALERIE trial shows within-blood discordance — DunedinPACE slows but GrimAge/PhenoAge do not change significantly (PMID 37118425, Waziry); (3) Blood vs. muscle DNAm age accelerations associate only weakly (PMID 34001218, Sillanpää). Authors of the CALERIE DNAm analysis defer conclusive geroscience proof to disease/mortality endpoints."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations Identified",
+      "content": "Three core limitations are identified: (1) Construct mismatch — blood DNAm clocks ≠ proteomic organ ages; not interchangeable endpoints. (2) Within-blood clock discordance — CALERIE already falsifies unitary 'the clock moved' framing. (3) Tissue/function gap — blood clock ≠ muscle aging; VO₂/muscle not proven redundant with clock Δ."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Oh_proteomic_organ_ages_disease | LITERATURE | Plasma proteomic organ ages vs organ disease/mortality (Oh 2023/2025) | Organ-resolved risk; brain/immune ages carry AD/longevity signal (PMID 38057571; 40634782) |\n| DunedinPACE_blood_DNAm_pace | LITERATURE | DunedinPACE algorithm from multi-system decline (Belsky) | Blood methylation pace biomarker (PMID 35029144) — not contemporaneous organ-proteomic age |\n| GrimAge_blood_DNAm_composite | LITERATURE | DNAm GrimAge from plasma-protein surrogates + pack-years (Lu) | Predicts lifespan/healthspan as blood DNAm composite (PMID 30669119) |\n| CALERIE_DunedinPACE_vs_GrimAge_discordance | LITERATURE | CALERIE CR post hoc DNAm clocks (Waziry 2023) | DunedinPACE slowed; GrimAge/PhenoAge not significantly changed; authors defer to disease/mortality (PMID 37118425) |\n| blood_vs_muscle_DNAm_age_weak | LITERATURE | Paired blood vs skeletal-muscle DNAm age acceleration (Sillanpää) | Only weakly associated (PMID 34001218) |\n| clock_x_organ_age_co_panel | UNKNOWN | Same-subject ΔDudedinPACE/GrimAge with VO₂ and/or muscle and/or brain+immune organ-age under geroprotection | PubMed DunedinPACE/GrimAge ∩ organ-age = 0 — UNKNOWN |\n| multi_domain_concordance_rule | PREDICTION | Pre-registered secondary analysis — clock success requires co-success in ≥2 of {VO₂, muscle function, brain organ-age, immune organ-age} | Clock-alone 'healthspan success' fails unless ≥2 co-domains move concordantly (α/N pre-specified); do not invent effect sizes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Supporting Literature",
+      "content": "Four key references cited: (1) PMID 38057571 / DOI 10.1038/s41586-023-06802-1 — Oh 2023 Nature 624:164–172: plasma proteomic organ ages; organ-specific disease/mortality risk. (2) PMID 40634782 / DOI 10.1038/s41591-025-03798-1 — Oh 2025 Nat Med: UKB-scale organ ages; aged brain raises AD risk ~APOE4-comparable. (3) PMID 37118425 / PMC10148951 — Waziry: CALERIE CR slows DunedinPACE; GrimAge/PhenoAge NS; authors require hard healthy-aging endpoints for conclusive test. (4) PMID 35029144 / PMC8853656 — Belsky: DunedinPACE blood DNAm pace biomarker."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Research Gap",
+      "content": "The claim would be refuted if: In a pre-registered cohort/trial with DNAm + VO₂/muscle and/or brain+immune organ-age, a favorable DunedinPACE or GrimAge Δ alone predicts hard healthspan benefit (disease/mortality or pre-registered multi-domain composite) with effect size ≥ the co-domain package, and co-domains are redundant (clock alone matches multi-domain concordance). Key research gap: PubMed search for DunedinPACE/GrimAge ∩ organ-age co-panel studies = 0 hits — this co-measurement has not been done."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Document ID: L4. Status: NEGATIVE (polarity: negative). Lane: longevity. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-reanalysis. Swarm ID: L4. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Mol Labs: PUBLIC_REPORT_ONLY. Cheap-IP: kill_cost_tier=1, time_to_refute=4w, ip_class=assumption-kill, vault_hold=no. Honesty statement: Literature/computational prediction for research discussion only. Not medical advice. Not a dosing or treatment recommendation."
+    }
+  ],
+  "key_findings": [
+    "Blood DNAm clocks (DunedinPACE, GrimAge) and plasma proteomic organ ages (Oh-class) are fundamentally different constructs and are not interchangeable as healthspan endpoints.",
+    "CALERIE trial demonstrates within-blood clock discordance: caloric restriction slows DunedinPACE but does NOT significantly change GrimAge or PhenoAge (PMID 37118425), undermining unitary 'clock moved' claims.",
+    "Blood vs. skeletal muscle DNAm age accelerations are only weakly associated (PMID 34001218, Sillanpää), indicating a tissue gap that blood clocks cannot bridge.",
+    "Plasma proteomic organ ages (Oh 2023, 2025) carry organ-specific disease and mortality signal — aged brain raises AD risk ~APOE4-comparable — not captured by blood DNAm clocks.",
+    "PubMed search for same-subject DunedinPACE/GrimAge ∩ proteomic organ-age co-panel studies under geroprotection = 0 hits — this critical co-measurement has never been performed.",
+    "Proposed multi-domain concordance rule: clock shift alone fails as healthspan certification unless ≥2 of {VO₂, muscle function, brain organ-age, immune organ-age} also move concordantly in the same subjects.",
+    "CALERIE authors themselves defer conclusive geroscience proof to disease/mortality endpoints, treating clock pharmacodynamics as supportive rather than certifying.",
+    "Estimated time to refute this assumption: 4 weeks (kill_cost_tier=1), suggesting this is a tractable but currently unaddressed research gap."
+  ],
+  "document_date": null,
+  "milestones": []
+}

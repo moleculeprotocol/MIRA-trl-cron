@@ -1,0 +1,83 @@
+{
+  "file_path": "/reports/2026-09-25/P3.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a structured research discussion (swarm card P3) analyzing whether the heptapeptide LKKTETQ recapitulates the G-actin sequestration biology of full-length thymosin β4 (Tβ4), despite matching its HUVEC migration activity near 50 nM. The core argument is that migration equivalence does not imply sequestration equivalence, because full actin contact requires both the N-terminal helix and the LKKTET motif. The document proposes a cheap, 4-week kill assay (pyrene-actin critical-concentration shift / complex stoichiometry) to test this assumption.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim and Core Hypothesis",
+      "content": "LKKTETQ does not match intact thymosin β4 (Tβ4) as a G-actin sequesterer at equimolar concentration. Despite near-identical HUVEC migration activity near 50 nM (literature), a pyrene-actin critical-concentration (Cc) shift or 1:1 complex stoichiometry assay is predicted to fail a pre-registered parent-equivalence band. The popular inference that 'migration match = sequestration match' is identified as an assumption to be killed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism and Structural Rationale",
+      "content": "Full-length Tβ4 is a stoichiometric G-actin sequesterer. Van Troys-class contact maps demonstrate that cooperative N-terminal helix (residues ~1–16) AND LKKTET (residues 17–22) are both required for full actin contact and sequestering competence. The heptapeptide LKKTETQ lacks the N-terminal helix entity and therefore cannot be considered the complete 'actin-binding machine.' Soluble-actin competition in the Philp sprouting assay does not quantify heptapeptide sequestration stoichiometry — that paired pharmacodynamic readout is missing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims vs. Measured Evidence",
+      "content": "Baseline claimed: Because LKKTETQ matches full-length Tβ4 on endothelial migration/angiogenesis, it recapitulates Tβ4's G-actin sequestration biology ('actin-site' inference).\n\nBaseline measured (literature):\n- HUVEC migration/sprouting match ~50 nM (PMID 14500546, Philp 2003)\n- Aged dermal repair match (PMID 12581423)\n- Intact Tβ4 = 1:1 G-actin sequesterer (PMID 1999398)\n- N-helix + LKKTET both needed for actin contact (PMID 8617195; PMID 10848969)\n\nUnknown/missing data:\n- Paired LKKTETQ vs. Tβ4 Cc / sequestration fold: no dedicated co-assay exists\n- Parent-equivalence fail threshold: PREDICTION only"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold |\n|---|---|---|---|\n| HUVEC_migration_match_50nM | LITERATURE | HUVEC migration/sprouting (Philp 2003) | near-identical ~50 nM |\n| Tβ4_G_actin_sequestration_1to1 | LITERATURE | Intact Tβ4 sequestration (Safer) | 1:1 sequesterer |\n| N_helix_plus_LKKTET_required | LITERATURE | Actin-contact maps (Van Troys) | helix + LKKTET both required |\n| LKKTETQ_vs_Tβ4_paired_Cc | UNKNOWN | Equimolar Cc / complex stoichiometry | no dedicated co-assay |\n| sequestration_parent_equivalence_fail | PREDICTION | Pre-registered Cc / sequestered fraction | fail parent-equivalence band |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Key Literature References",
+      "content": "1. PMID 14500546 / DOI 10.1096/fj.03-0121fje (Philp 2003): LKKTETQ ≈ Tβ4 on HUVEC migration and chick aortic sprouting ~50 nM; motif-deletion inactive.\n2. PMID 12581423 / DOI 10.1046/j.1524-475X.2003.11105.x: LKKTETQ promotes aged-mouse dermal repair comparable to parent Tβ4.\n3. PMID 1999398: Intact Tβ4 indistinguishable from platelet fraction as stoichiometric G-actin sequesterer.\n4. PMID 8617195 / PMC449934 (Van Troys): N-terminal helix + LKKTET both required for actin contact/sequestering competence of variants.\n5. PMID 10848969: Additional actin-contact map reference supporting two-site requirement."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Migration match is measured; sequestration match is only inferred from 'actin-binding motif' naming — no direct sequestration data for LKKTETQ.\n2. Two-site actin contact mechanism: heptapeptide lacks N-terminal helix entity required for full sequestration.\n3. No same-prep HUVEC EC50 + Cc co-panel for LKKTETQ vs. Tβ4 has been performed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Kill Assay and Refutation Criteria",
+      "content": "Proposed assay: Pyrene-actin critical-concentration (Cc) shift or 1:1 complex stoichiometry assay comparing equimolar LKKTETQ vs. intact Tβ4 under identical buffer conditions. Cost tier: kill_cost_tier=1. Estimated time to refute: ≤4 weeks. IP class: parent-vs-fragment. Vault hold: none.\n\nRefutation condition: Equimolar LKKTETQ vs. intact Tβ4 under identical buffer shows G-actin Cc shift or complex stoichiometry INSIDE a pre-registered parent-equivalence band, while HUVEC migration remains matched within the Philp-scale window (~50 nM class).\n\nKey experimental controls noted: Lock Mg/Ca-ATP actin buffer and the parent-equivalence band before running Cc; do not treat soluble-actin competition in the Philp sprouting assay as a sequestration stoichiometry substitute."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Logical Dependencies)",
+      "content": "The argument depends on three pillars:\n1. Paired G-actin sequestration readout on same materials — removing this collapses the claim to restating Philp literature.\n2. HUVEC migration near-identity (literature) — removing this eliminates the 'matched ⇒ same actin biology' assumption to kill.\n3. N-helix + LKKTET two-site contact (literature) — removing this makes sequestration failure look ad hoc rather than mechanistically grounded."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Swarm ID: P3. Status: NEGATIVE (assumption-kill). Polarity: negative. Lane: peptides. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Mol Labs: PUBLIC_REPORT_ONLY (private vault skipped). IP class: parent-vs-fragment. Vault hold: no. This is a literature-based prediction for research discussion only; not medical advice."
+    }
+  ],
+  "key_findings": [
+    "LKKTETQ matches full-length Tβ4 on HUVEC migration and chick aortic sprouting at ~50 nM (PMID 14500546, Philp 2003) and aged-mouse dermal repair (PMID 12581423), but no paired G-actin sequestration (Cc shift or stoichiometry) assay has been performed for LKKTETQ.",
+    "Intact Tβ4 is a stoichiometric 1:1 G-actin sequesterer (PMID 1999398); Van Troys-class contact maps show both N-terminal helix (~residues 1–16) and LKKTET (residues 17–22) are required for full actin contact and sequestering competence (PMID 8617195; PMID 10848969).",
+    "The heptapeptide LKKTETQ lacks the N-terminal helix entity, making it structurally incomplete as a G-actin sequesterer despite migration equivalence — the 'actin-site' inference from migration match is identified as an untested assumption.",
+    "A kill assay is proposed: pyrene-actin critical-concentration (Cc) shift or 1:1 complex stoichiometry comparing equimolar LKKTETQ vs. intact Tβ4, estimated at kill_cost_tier=1 and ≤4 weeks to refute.",
+    "No same-prep HUVEC EC50 + Cc co-panel for LKKTETQ vs. Tβ4 exists in the literature; paired sequestration data is classified as UNKNOWN.",
+    "TRL assessment implication: The project is at TRL 1–2 for the sequestration mechanism claim; migration activity is literature-supported but the mechanistic equivalence to Tβ4 actin biology is unvalidated."
+  ],
+  "milestones": [
+    {
+      "title": "Proposed Kill Assay Completion",
+      "description": "Pyrene-actin critical-concentration (Cc) shift or 1:1 complex stoichiometry assay comparing equimolar LKKTETQ vs. intact Tβ4 under identical buffer conditions, to test whether LKKTETQ matches Tβ4 G-actin sequestration. Estimated to take ≤4 weeks from initiation.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "A cheap parent-vs-fragment kill: same materials, migration + Cc, ≤4 weeks, no vault hold.",
+      "page": 1
+    }
+  ]
+}

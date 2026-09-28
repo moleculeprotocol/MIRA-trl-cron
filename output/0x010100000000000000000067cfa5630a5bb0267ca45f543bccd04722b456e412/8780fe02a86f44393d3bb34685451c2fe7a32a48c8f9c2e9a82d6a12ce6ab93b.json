@@ -1,0 +1,88 @@
+{
+  "file_path": "/reports/2026-09-25/L8.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a Mol Labs public hypothesis card (L8) evaluating whether NAD-precursor (NMN/NR) supplementation after senolytic/SASP clearance yields a smaller tissue ΔNAD than the same precursor without prior clearance — the \"subtract-before-add\" hypothesis. The claim is pre-registered with a ≥20% shrink margin and is currently classified as NEGATIVE/UNKNOWN because no dedicated ± senolysis residual precursor factorial experiment has been performed. The document synthesizes four published literature anchors and identifies the key untested prediction.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Report ID: L8. Status: NEGATIVE. Policy: PUBLIC_REPORT_ONLY. Tags: aging, longevity. Risk class: research-discussion. Polarity: negative. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: L5/L6/L7 (not proof of precursor residual shrink after senolysis). Kill cost tier: 2. Time to refute: 6 weeks. IP class: subtract-before-add."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim (L8 Hypothesis)",
+      "content": "After documented senescent-cell / SASP clearance lowers CD38 load, residual tissue ΔNAD from a matched NAD-precursor pulse (NMN/NR class) is smaller than ΔNAD from the same precursor without prior clearance at a matched timepoint. Pre-registered threshold: (ΔNAD_precursor_alone − ΔNAD_precursor_post-senolysis) ≥ 20% of ΔNAD_precursor_alone, or alone wins on a pre-registered superiority test."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Mechanism: 'Subtract-before-add' — clear SASP-driven CD38+ macrophage load first, then pulse the same NAD precursor. CD38 gates age-related NAD decline and NMN fate; SASP induces CD38-high macrophages that drain tissue NAD; senescent/SASP ablation lowers CD38 and partially restores NAD; ecto-CD38 block raises NAD via an NMN-dependent route. Once CD38 load is subtracted, residual precursor salvage headroom shrinks so post-senolysis ΔNAD_precursor < precursor-alone ΔNAD. This is distinct from L7 (CD38i-arm shrink) and L5/L6 (residual arm ranking)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Clinical/Scientific Relevance",
+      "content": "Longevity stacks often add NMN/NR after or with senolytics expecting more NAD. This hypothesis challenges that assumption by predicting that senolytic pre-treatment reduces the incremental NAD benefit of subsequent precursor supplementation. Distinct from L5/L6 (CD38i vs precursor residual ranking) and L7 (same-drug CD38i ± senolysis shrink); no CD38i arm required for L8."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Anchors",
+      "content": "Four published literature anchors support the mechanistic basis:\n1. PMID 27304511 (Camacho-Pereira 2016, Cell Metab, DOI 10.1016/j.cmet.2016.05.006, PMC4911708): Age-related NAD decline requires CD38; CD38 is the major in vivo NMN-degrading activity.\n2. PMID 33199924 (Covarrubias 2020, Nat Metab, DOI 10.1038/s42255-020-00305-3, PMC7908681): SASP induces CD38-high macrophages that reduce tissue NAD.\n3. PMID 33199925 (Chini 2020, Nat Metab, DOI 10.1038/s42255-020-00298-z, PMC8752031): Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD NMN-dependently.\n4. PMID 35263032 (Tarragó 2022, Aging Cell, DOI 10.1111/acel.13589, PMC9009115): CD38 inhibitor 78c improves median survival/healthspan in aged mice as monotherapy — not a precursor ± senolysis residual ΔNAD factorial."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Baseline claimed (by opponents): After senolysis, NAD precursor still delivers full monotherapy-class ΔNAD; stacking precursor with/after senolytics always adds NAD; L5–L7 already settled it.\nBaseline measured:\n- CD38 gates age NAD/NMN fate: LITERATURE (PMID 27304511)\n- SASP→CD38+ macrophages→tissue NAD↓: LITERATURE (PMID 33199924)\n- Clearance ↓CD38 + partial NAD rebound; ecto-block NMN-dependent: LITERATURE (PMID 33199925)\n- 78c aged-mouse benefit: LITERATURE monotherapy (PMID 35263032)\n- Same NAD precursor ± senolysis residual ΔNAD factorial: UNKNOWN (soft-complete empty)\n- Shrink margin ≥20% of alone-arm Δ: PREDICTION\n- L5–L7 do not prove L8: L5/L6 ranked residual arms; L7 tested CD38i residual shrink only."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN degradation (Camacho-Pereira 2016) | Age NAD↓ requires CD38; major in vivo NMN-degrading activity (PMID 27304511) |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | ~10% median survival ↑ class effect as monotherapy — not senolytic→then-precursor residual factorial (PMID 35263032) |\n| same_precursor_plus_minus_senolysis_residual_NAD_panel | UNKNOWN | Matched timepoint — precursor alone vs precursor after senolytic/SASP run-in; tissue NAD + CD38 activity | Dedicated ± senolysis residual precursor panel not found (soft-complete empty) — UNKNOWN |\n| residual_precursor_shrinks_after_senolysis_margin | PREDICTION | Pre-registered aged tissue or SASP-conditioned system; vehicle vs senolytic/SASP run-in → matched NAD-precursor pulse | (ΔNAD_precursor_alone − ΔNAD_precursor_post-senolysis) ≥ 20% of alone-arm Δ; α/N pre-specified |\n| competing_no_shrink_if_clearance_incomplete_or_absolute_vs_residual | PREDICTION | Same design; falsifier if post-senolysis precursor ΔNAD ≥ alone-arm when residual CD38 stays high, or shrink is only absolute-baseline artifact | No-shrink / incomplete-clearance / assay-definition failure allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L5–L7 as proving L8 — L5/L6 ranked residual CD38i vs precursor; L7 measured CD38i ± senolysis only; precursor residual shrink remains a separate untested claim.\n2. Baseline NAD rebound after clearance can shrink absolute ΔNAD even if fractional salvage holds — assay must pre-register residual vs absolute Δ definition.\n3. Incomplete clearance: residual CD38+ macrophages can still gate NMN — shrink is not automatic if CD38 load remains; 78c monotherapy ≠ precursor ± senolysis residual panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Method and Refutation Criteria",
+      "content": "Method: propose-assay. Refute if: On the pre-registered ± senolysis panel, residual precursor ΔNAD after clearance is not smaller than precursor alone by the ≥20% alone-arm margin (or alone fails superiority) when CD38↓ is verified — especially under incomplete clearance where residual CD38+ load remains high, or when shrink is only an absolute-baseline artifact under the pre-registered residual/fractional definition."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove ± senolysis run-in factorial with matched NAD-precursor pulse: Without the same-drug residual contrast, clearance/ecto-block LITERATURE cannot show precursor ΔNAD shrinks after subtract.\n2. Remove documented clearance run-in with CD38↓ / partial NAD rebound verification: Without subtract-first confirmation, the card collapses into generic precursor dosing comparison.\n3. Remove L5–L7≠proof + incomplete-clearance + absolute-vs-residual assay discipline: Treating L5–L7 as measured precursor residual, or ignoring residual CD38+ load / baseline rebound artifacts, would invent a factorial result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Human Guidance / Experimental Design Requirements",
+      "content": "Lock tissue (WAT/liver), clearance verification (CD38 activity + SC/SASP marker), matched NAD-precursor pulse timing, and residual vs absolute ΔNAD definition before claiming shrink; do not treat L5–L7 as proof; no dosing specified."
+    }
+  ],
+  "key_findings": [
+    "Core hypothesis (L8) is NEGATIVE/UNKNOWN: no dedicated ± senolysis residual NAD-precursor factorial experiment has been performed (soft-complete empty).",
+    "Execution status is NOT_RUN — the proposed assay has not been conducted; this is a TRL 1 concept with mechanistic literature support only.",
+    "Four published literature anchors establish the mechanistic basis: CD38 gates age NAD/NMN fate (PMID 27304511), SASP induces CD38-high macrophages draining tissue NAD (PMID 33199924), senolytic clearance ↓CD38 and partially restores NAD (PMID 33199925), and 78c CD38i improves aged-mouse healthspan as monotherapy (PMID 35263032).",
+    "Pre-registered threshold: (ΔNAD_precursor_alone − ΔNAD_precursor_post-senolysis) ≥ 20% of ΔNAD_precursor_alone for the hypothesis to be confirmed.",
+    "Key gap: the same NAD precursor ± senolysis residual ΔNAD factorial is UNKNOWN — no prior study (including L5/L6/L7) has tested this specific combination.",
+    "Critical assay design requirements: pre-register residual vs absolute ΔNAD definition; verify CD38 activity drop post-clearance; lock tissue type (WAT/liver); match NAD-precursor pulse timing.",
+    "Kill cost tier 2; estimated time to refute: 6 weeks; IP class: subtract-before-add; vault hold: no.",
+    "FTO status is UNKNOWN for the subtract-before-add IP class.",
+    "Competing outcome pre-registered: no-shrink / incomplete-clearance / assay-definition failure are valid falsifying outcomes."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": []
+}

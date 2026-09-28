@@ -1,0 +1,69 @@
+{
+  "file_path": "/reports/2026-09-25/L5.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document (swarm card L5) is a structured research-discussion proposal in the longevity/NAD biology space. It frames a specific, pre-registered experimental question: whether a residual CD38-inhibitor pulse outperforms a matched NAD-precursor pulse (NMN/NR) in raising tissue NAD after senolytic clearance of senescent/SASP cells. The claim is currently UNKNOWN (no head-to-head data exists), and the document explicitly classifies itself as a research discussion with a proposed assay design, not a completed experiment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata & Classification",
+      "content": "Swarm ID: L5. Status: NEGATIVE (polarity: negative). Lane: longevity. Risk class: research-discussion. Novelty: subtract-before-add. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). IP class: subtract-before-add; vault_hold=no; kill_cost_tier=2; time_to_refute=6 weeks. Related prior: L3 (precursor diminishing returns — separate UNKNOWN; not residual-ranking proof). Document is a PUBLIC_REPORT_ONLY."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim",
+      "content": "After documented senescent-cell / SASP clearance lowers CD38 load, a residual CD38-inhibitor pulse raises tissue NAD more than a matched NAD-precursor pulse at the same post-clearance timepoint. Pre-registered threshold: ΔNAD_CD38i − ΔNAD_precursor ≥ 20% of the larger arm (or CD38i wins on a pre-registered superiority test). This is a PREDICTION, not an observed result — the head-to-head residual ranking is explicitly UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Subtract-before-add framework: (1) Clear SASP-driven CD38+ macrophage load first (senolysis). (2) Pulse leftover levers (CD38i vs NAD precursor). Mechanistic rationale: CD38 gates age-related NAD decline and NMN degradation; senescent/SASP ablation lowers CD38 and partially restores NAD; ecto-CD38 block raises NAD via an NMN-dependent route; 78c-class CD38i improves aged-mouse healthspan as monotherapy. Competing caveat: after CD38↓, the residual CD38i target may shrink; because ecto-block is NMN-dependent, residual precursor may win once CD38 is already low — opposite ranking to the seed prediction."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims",
+      "content": "Claimed baseline: After senolysis, residual CD38 inhibition and residual NAD precursor are interchangeable NAD boosters, or stacking both is always better than ranking which residual lever wins. Measured baseline (literature): CD38 gates age NAD/NMN fate (PMID 27304511); SASP→CD38+ macrophages→tissue NAD↓ (PMID 33199924); clearance ↓CD38 + partial NAD rebound; ecto-block NMN-dependent (PMID 33199925); 78c aged-mouse benefit as monotherapy (PMID 35263032). Post-clearance H2H residual ΔNAD CD38i vs precursor: UNKNOWN (PubMed soft-complete 0). Residual ranking margin ≥20%: PREDICTION."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN degradation (Camacho-Pereira 2016) | Age NAD↓ requires CD38; major in vivo NMN-degrading activity (PMID 27304511) |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | ~10% median survival ↑ class effect as monotherapy — not senolytic→then-78c factorial (PMID 35263032) |\n| post_clearance_H2H_residual_NAD_ranking | UNKNOWN | Same post-clearance window — residual CD38i pulse vs residual precursor pulse; tissue NAD + CD38 activity | Dedicated residual ranking assay not found (soft-complete 0) — UNKNOWN |\n| residual_CD38i_beats_precursor_margin | PREDICTION | Pre-registered aged tissue or SASP-conditioned system; senolytic/SASP-ablation run-in → wash → 2-arm residual pulse | ΔNAD_CD38i − ΔNAD_precursor ≥ 20% of the larger arm (or pre-registered superiority); α/N pre-specified |\n| competing_residual_precursor_wins_after_CD38_drop | PREDICTION | Same design; falsifier if residual precursor ΔNAD ≥ residual CD38i when post-clearance CD38 activity is already low | Opposite ranking allowed as pre-registered competing outcome (anchored to PMID 33199925 mechanism) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Supporting Literature",
+      "content": "1. PMID 27304511 / DOI 10.1016/j.cmet.2016.05.006 / PMC4911708 — Camacho-Pereira 2016: Age NAD↓ requires CD38; CD38 is major in vivo NMN-degrading activity.\n2. PMID 33199924 / DOI 10.1038/s42255-020-00305-3 / PMC7908681 — Covarrubias 2020: SASP induces CD38-high macrophages that reduce tissue NAD.\n3. PMID 33199925 / DOI 10.1038/s42255-020-00298-z / PMC8752031 — Chini 2020: Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD NMN-dependently.\n4. PMID 35263032 / DOI 10.1111/acel.13589 / PMC9009115 — Tarragó 2022: CD38i 78c improves median survival/healthspan in aged mice; monotherapy, not post-senolysis residual ranking."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ablate / Refute / Ask a Human)",
+      "content": "Ablation logic: (1) Remove post-clearance residual 2-arm contrast (CD38i vs precursor at matched timepoint) → without H2H residual pulse, solo CD38i or precursor literature cannot rank which lever wins after subtract. (2) Remove documented clearance run-in with CD38↓/partial NAD rebound verification → without subtract-first confirmation, card collapses into generic CD38i-vs-precursor comparison. (3) Remove competing NMN-dependent/residual-target-shrink caveat as allowed falsifier → ignoring flip risk would overclaim seed ranking.\n\nRefutation criterion: On the pre-registered post-clearance panel, residual precursor ΔNAD ≥ residual CD38i ΔNAD (or the ≥20% CD38i-superiority margin fails) when CD38↓ is verified — especially under low residual CD38 activity.\n\nHuman review asks: Lock tissue (WAT/liver), clearance verification (CD38 activity + SC/SASP marker), and identical post-clearance sampling before ranking arms; do not treat L3 as already deciding residual ranking; no dosing. Estimated time to refute: 6 weeks."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L3 as proving L5 — L3 left precursor diminishing returns UNKNOWN; this card ranks residual CD38i vs residual precursor.\n2. After clearance, residual CD38i ΔNAD may shrink because the target fell — CD38i>precursor is not implied by CD38↓ alone.\n3. NMN-dependent ecto-block implies residual precursor may regain efficacy when CD38 is already low — competing PREDICTION."
+    }
+  ],
+  "key_findings": [
+    "The core claim (CD38i pulse > NAD-precursor pulse post-senolysis) is explicitly classified as UNKNOWN — no head-to-head experimental data exists (PubMed soft-complete 0).",
+    "All supporting mechanistic evidence is from published literature (TRL 1–2 level): CD38 gates age NAD decline (PMID 27304511), SASP-driven CD38+ macrophages reduce tissue NAD (PMID 33199924), senolytic clearance lowers CD38 and partially restores NAD with NMN-dependent ecto-block (PMID 33199925), and 78c CD38i improves aged-mouse healthspan as monotherapy (PMID 35263032).",
+    "No original experimental data is presented in this document; it is a structured research-discussion / propose-assay card.",
+    "Pre-registered superiority threshold defined: ΔNAD_CD38i − ΔNAD_precursor ≥ 20% of the larger arm, or CD38i wins on a pre-registered superiority test.",
+    "A competing prediction is explicitly acknowledged: residual NAD precursor may outperform CD38i post-senolysis if CD38 activity is already low (NMN-dependent ecto-block logic from PMID 33199925).",
+    "Estimated time to refute the claim: 6 weeks (kill_cost_tier=2).",
+    "Proposed model systems: aged tissue (WAT/liver) or SASP-conditioned system with senolytic/SASP-ablation run-in → wash → 2-arm residual pulse design.",
+    "CD38i 78c showed ~10% median survival improvement in aged mice as monotherapy (PMID 35263032), but this is not a post-senolysis factorial — cannot be used to rank residual levers.",
+    "Document is TRL 1: concept/mechanism only, with a proposed assay but no completed experiments."
+  ],
+  "milestones": []
+}

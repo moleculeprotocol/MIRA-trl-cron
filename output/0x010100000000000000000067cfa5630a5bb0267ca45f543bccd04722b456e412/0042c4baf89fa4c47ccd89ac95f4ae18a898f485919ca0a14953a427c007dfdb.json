@@ -1,0 +1,112 @@
+{
+  "file_path": "/reports/2026-09-25/N4.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a research discussion card (N4) proposing a reanalysis/future experiment to test whether ³¹P-MRS phosphocreatine (PCr) is a superior pharmacodynamic biomarker over plasma creatine for oral creatine's cognitive/working-memory rescue under sleep restriction. It is classified as NEGATIVE (kills the blood-creatine-as-PD narrative) and is at TRL 1–2: the core subject-level covariance claim is explicitly labeled UNKNOWN, with supporting literature at group/condition level only. No new experiments are reported; the document synthesizes existing literature and defines a prediction/pre-registration framework.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header & Classification",
+      "content": "Card ID: N4. Title: 'Sleep-restriction cognition tracks ³¹P-MRS PCr, not plasma creatine.' Status: NEGATIVE (polarity: negative). Lane: nootropics. Risk class: research-discussion. Novelty: biomarker-bridge. Method: propose-reanalysis. OpenLabs target: discussion (PASS_NEGATIVE — not claim). IP class: biomarker-bridge; vault_hold=no; kill_cost_tier=1; time_to_refute=4 weeks."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim",
+      "content": "Under sleep restriction, oral-creatine cognitive/working-memory benefit is NOT adequately indexed by plasma (or serum) creatine. A pre-registered subject-level contrast must show WM (or processing-speed) Δ covaries more strongly with ³¹P-MRS PCr or PCr/Pi than with plasma creatine. Quantitative threshold: |r_WM,PCr| − |r_WM,plasmaCr| ≥ 0.20, OR plasma-alone mediation fails while PCr mediation holds. This is a PREDICTION, not an observed result."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Sleep loss shifts gray-matter and thalamic PCr on ³¹P-MRS. Oral creatine under ~21 h deprivation moves cognition with PCr/Pi and ATP at group/condition level. Oral creatine can raise brain total creatine on ¹H-MRS. McMorris-era SD cognition trials report catecholamines/cortisol, not plasma creatine, as the cognitive covariate. Subject-level WM~PCr vs WM~plasma creatine head-to-head covariance remains UNTESTED."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Baseline claimed: Plasma/serum creatine rise is an adequate primary PD/biomarker bridge for oral creatine's WM or cognitive rescue under sleep restriction.\n\nBaseline measured (literature-supported):\n- SD+creatine moves cognition with ³¹P-MRS HEP/PCr at GROUP level (PMID 38418482; 40520504)\n- SD alone alters cerebral PCr (PMID 25325507; PMID 30282723)\n- Oral creatine raises brain tCr (PMID 10484486)\n- SD cognition creatine trials without plasma-Cr PD (PMID 16416332)\n- Plasma Cr × cognition × sleep-restriction PubMed hits = 0\n- Subject-level WM~PCr vs WM~plasmaCr covariance/mediation superiority: UNKNOWN\n- |Δr| ≥ 0.20 concordance rule: PREDICTION only"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Parallel group effects ≠ proven subject-level covariance — Gordji shows co-movement; PCr-over-plasma superiority still UNKNOWN.\n2. Plasma creatine is under-measured in SD×cognition designs, not experimentally falsified.\n3. Endpoint breadth — batteries mix PVT/processing speed/executive/digit span; one primary endpoint must be locked before claiming WM."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art / Key Literature",
+      "content": "| PMID | DOI/PMC | Description | Relevance |\n|------|---------|-------------|-----------|\n| 38418482 | 10.1038/s41598-024-54249-9 / PMC10902318 | ~21 h SD + oral creatine: cognition/processing speed ↑ vs placebo with ³¹P-MRS PCr/Pi, ATP, HEP changes (Gordji-Nejad 2024) | Group-level PCr-cognition link |\n| 40520504 | 10.3389/fnins.2025.1515761 / PMC12162656 | Reanalysis: creatine balances SD hemispheric HEP asymmetry; PCr/Pi and ATP shifts (Gordji-Nejad 2025) | Group-level reanalysis |\n| 25325507 | PMC4548516 | Acute SD alters gray-matter PCr on ³¹P-MRS independent of supplementation (Dorsey) | SD-PCr link without supplement |\n| 10484486 | 10.1152/ajpregu.1999.277.3.R698 | Oral creatine raises brain total creatine on quantitative ¹H-MRS (Dechent) | CNS tCr ↑ in healthy volunteers |\n| 16416332 | — | McMorris-era SD cognition trial; reports catecholamines/cortisol, not plasma creatine as cognitive covariate | Absence of plasma-Cr PD |\n| 17046034 | — | McMorris-era SD cognition trial (second reference) | Absence of plasma-Cr PD |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable Name | Kind | Assay | Threshold/Status |\n|---------------|------|-------|------------------|\n| Gordji_SD_creatine_cognition_and_31P_HEP | LITERATURE | ~21 h SD ± oral creatine; cognitive battery + ³¹P-MRS PCr/Pi, ATP | Cognition/processing improve with HEP/PCr shifts vs placebo — group/condition level only (PMID 38418482; 40520504) |\n| SD_alters_cerebral_PCr_without_supplement | LITERATURE | Acute SD gray-matter ³¹P-MRS PCr (Dorsey); daytime wake/nap thalamic PCr | PCr changes with sleep/wake state (PMID 25325507; PMID 30282723) |\n| oral_creatine_raises_brain_tCr | LITERATURE | Quantitative ¹H-MRS brain total creatine after oral creatine (Dechent) | CNS tCr ↑ in healthy volunteers (PMID 10484486) |\n| plasma_Cr_x_cognition_x_SD_literature | UNKNOWN | PubMed (WM|cognition) ∩ (plasma|serum creatine) ∩ (sleep deprivation|restriction) | 0 hits in scout search — plasma Cr as SD-WM PD not established |\n| subject_level_PCr_vs_plasma_covariance | UNKNOWN | Same-subject WM Δ ~ ³¹P-MRS PCr Δ vs WM Δ ~ plasma creatine Δ under sleep restriction ± creatine | Head-to-head correlation/mediation not found — UNKNOWN |\n| PCr_over_plasma_concordance_margin | PREDICTION | Pre-registered subject-level |r_WM,PCr| − |r_WM,plasmaCr| on locked SD protocol + ³¹P-MRS + plasma draw | |Δr| ≥ 0.20 favoring PCr, or plasma-alone mediation null while PCr mediation significant (α/N pre-specified) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Critical Dependencies)",
+      "content": "Three ablation conditions that would invalidate the card:\n1. Remove ³¹P-MRS PCr/HEP as brain-side PD arm → Cannot prefer brain HEP over plasma; only restates that creatine can help SD cognition.\n2. Remove plasma creatine as competing blood PD (explicit contrast or mediation fail) → Showing WM~PCr alone does not kill the popular blood-creatine-PD narrative.\n3. Remove sleep-restriction/sleep-deprivation context → Resting WM or vegetarian digit-span creatine effects (e.g., Rae) are a different claim class without the SD bioenergetic bridge."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "The claim is refuted if: In a pre-registered sleep-restriction panel with paired ³¹P-MRS and plasma creatine, plasma creatine matches or exceeds PCr as a subject-level correlate/mediator of WM (or locked cognitive primary) — i.e., |r_WM,plasmaCr| ≥ |r_WM,PCr| OR plasma mediation holds while PCr does not (blood-Cr PD survives)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Open Questions / Human Review Request",
+      "content": "Lock primary cognitive endpoint (WM task vs PVT/processing speed), MRS voxel, and plasma vs serum creatine assay before claiming any blood PD; no dosing recommendation. Peer-review invited. Document is literature/computational prediction for research discussion only. Not medical advice. Not a dosing or treatment recommendation."
+    }
+  ],
+  "key_findings": [
+    "Core claim is a PREDICTION, not an observed result: subject-level WM~PCr vs WM~plasma creatine covariance under sleep restriction is explicitly labeled UNKNOWN.",
+    "Group-level literature supports PCr/HEP co-movement with cognition under ~21 h sleep deprivation + oral creatine (Gordji-Nejad 2024, PMID 38418482; 2025, PMID 40520504), but subject-level mediation/correlation superiority of PCr over plasma creatine has not been tested.",
+    "PubMed scout search returns 0 hits for plasma creatine × cognition × sleep deprivation/restriction — plasma creatine as a PD biomarker in this context is entirely unestablished.",
+    "Acute sleep deprivation alters gray-matter PCr on ³¹P-MRS independent of supplementation (Dorsey, PMID 25325507).",
+    "Oral creatine raises brain total creatine on quantitative ¹H-MRS in healthy volunteers (Dechent, PMID 10484486).",
+    "Quantitative threshold for claim validation: |r_WM,PCr| − |r_WM,plasmaCr| ≥ 0.20 (pre-registered, subject-level), or plasma-alone mediation null while PCr mediation significant.",
+    "Time-to-refute estimated at 4 weeks (kill_cost_tier=1), suggesting low experimental cost to test.",
+    "No new experimental data are presented; document is a research discussion/reanalysis proposal synthesizing existing literature.",
+    "TRL assessment: TRL 1–2 (basic concept with supporting literature at group level; no subject-level or head-to-head biomarker data exist)."
+  ],
+  "milestones": [
+    {
+      "title": "Gordji-Nejad 2024 SD+Creatine ³¹P-MRS Study Published",
+      "description": "Publication of ~21 h sleep deprivation + oral creatine study showing cognition/processing speed improvement vs placebo with ³¹P-MRS PCr/Pi, ATP, HEP changes at group/condition level.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 38418482 / DOI 10.1038/s41598-024-54249-9 / PMC10902318 — ~21 h SD + oral creatine: cognition/processing speed ↑ vs placebo with ³¹P-MRS PCr/Pi, ATP, HEP changes (Gordji-Nejad 2024).",
+      "page": 1
+    },
+    {
+      "title": "Gordji-Nejad 2025 HEP Asymmetry Reanalysis Published",
+      "description": "Reanalysis publication showing creatine balances SD hemispheric HEP asymmetry with PCr/Pi and ATP shifts.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 40520504 / DOI 10.3389/fnins.2025.1515761 / PMC12162656 — reanalysis: creatine balances SD hemispheric HEP asymmetry; PCr/Pi and ATP shifts (Gordji-Nejad 2025).",
+      "page": 1
+    },
+    {
+      "title": "Pre-registered Subject-Level PCr vs Plasma Creatine Covariance Study",
+      "description": "Proposed future pre-registered experiment with paired ³¹P-MRS and plasma creatine draw under locked sleep-restriction protocol to test subject-level |r_WM,PCr| − |r_WM,plasmaCr| ≥ 0.20 or mediation superiority of PCr over plasma creatine.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Pre-registered subject-level |r_WM,PCr| − |r_WM,plasmaCr| (or mediation: plasma fails, PCr holds) on locked SD protocol + ³¹P-MRS + plasma draw | |Δr| ≥ 0.20 favoring PCr, or plasma-alone mediation null while PCr mediation significant (α/N pre-specified); do not invent observed r",
+      "page": 1
+    }
+  ]
+}

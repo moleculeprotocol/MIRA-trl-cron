@@ -1,0 +1,37 @@
+{
+  "file_path": "input/files/0x01010000000000000000001f96a3babca74d62c672e2e7180a061e296bb5581b/peptai_summary.pdf",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "medium",
+  "summary": "PeptAI is an autonomous AI agent platform for peptide drug discovery, using an 8-gate computational validation pipeline (structure prediction, molecular dynamics, safety scoring) plus a wet-lab gate. The document is a project summary describing the problem, solution, and impact, but contains no experimental data, quantitative results, or specific milestones. The project appears to be at an early conceptual/platform-development stage (TRL 1–2).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Summary – Overview",
+      "content": "PeptAI is described as an autonomous AI agent that discovers peptide drug candidates through an 8-gate validation pipeline plus a wet-lab gate. The pipeline chains structure prediction, molecular dynamics, and safety scoring into one agent-driven workflow. The claimed benefit is compression of computational discovery from months to hours. Results are published on-chain and the platform is community-governed. No experimental data, quantitative results, or validated candidates are presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Problem Statement",
+      "content": "Conventional peptide drug discovery workflows take 2–5 years and millions of dollars from target to validated candidate. Existing tools are siloed, requiring researchers to integrate 12+ specialized software packages with no unified validation framework or reproducibility guarantees. This is a qualitative framing of the market problem; no primary data or citations are provided."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Impact / Value Proposition",
+      "content": "PeptAI claims to democratize peptide drug discovery by running validation as a public, auditable process. The 8-gate pipeline is stated to take candidates from structure through safety in hours rather than months, with all results published on-chain for verification and reproducibility. The platform aims to reduce cost and broaden access beyond well-funded labs. These are aspirational claims with no supporting experimental evidence presented in this document."
+    }
+  ],
+  "key_findings": [
+    "PeptAI is an autonomous AI agent platform for peptide drug discovery at an early conceptual stage (TRL 1–2).",
+    "The core technology is an 8-gate computational validation pipeline chaining structure prediction, molecular dynamics, and safety scoring, plus a wet-lab gate.",
+    "The platform claims to compress computational discovery from months to hours, but no experimental validation data or quantitative results are provided in this document.",
+    "Results are intended to be published on-chain for auditability and reproducibility — a novel governance/transparency feature.",
+    "No team information, IP status, funding status, regulatory pathway, or specific milestones are disclosed in this document.",
+    "Conventional peptide drug discovery is cited as taking 2–5 years and millions of dollars; no citations or data sources are provided to support this claim.",
+    "No model systems, assay types, cell lines, animal models, or patient data are mentioned — the document is purely conceptual."
+  ],
+  "milestones": []
+}

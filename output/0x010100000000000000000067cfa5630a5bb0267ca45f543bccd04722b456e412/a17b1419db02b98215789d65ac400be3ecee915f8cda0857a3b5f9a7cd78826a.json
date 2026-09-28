@@ -1,0 +1,80 @@
+{
+  "file_path": "/reports/2026-09-25/P5.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document (P5) is a research-discussion card proposing a hypothesis and assay design to test whether humanin-class mitochondrial-derived peptides (HN/HNG) selectively antagonize navitoclax-mediated senescent cell clearance while sparing FOXO4-DRI-mediated clearance. The claim is a prediction grounded in published mechanistic literature (Bax/Bid MOMP blockade by HN) but no head-to-head experimental data exists. The document is classified as TRL 1 — a mechanistic concept with a proposed but unexecuted assay.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Swarm ID: P5. Status: NEGATIVE (polarity: negative). Lane: peptides. Risk class: research-discussion. Novelty: pathway-selective-antagonism. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Cheap-IP: kill_cost_tier=1, time_to_refute=4 weeks, ip_class=pathway-selective-antagonism, vault_hold=no. Related prior: P4 (Bcl-2-family antagonism predicted — not FOXO4-DRI sparing evidence). Document is a PUBLIC_REPORT_ONLY."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim",
+      "content": "On a matched senescent-culture panel, humanin-class MDP (HN or HNG) pathway-selectively antagonizes senescent-cell clearance: navitoclax + HN/HNG SC kill fraction falls ≥30% relative to navitoclax alone, while FOXO4-DRI + HN/HNG kill stays within a pre-registered sparing band (≤15% relative drop vs FOXO4-DRI alone). This is explicitly labeled a PREDICTION — no experimental data exists. The selectivity is proposed, not demonstrated."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Three mechanistic pillars underpin the prediction:\n1. FOXO4-DRI disrupts FOXO4–p53 interaction in senescent cells, driving cell-intrinsic apoptosis (Baar 2017, PMID 28340339).\n2. Navitoclax is senolytic via Bcl-2/Bcl-xL/Bcl-w in cell-type-restricted panels (Zhu 2016, PMID 26711051).\n3. Humanin (HN) binds Bax and Bid/tBid, sequestering BAX into fibers and blocking MOMP (Guo 2003, PMID 12732850; Zhai, PMID 15661737).\nPredicted collision: HN's MOMP-block is expected to interfere more with Bcl-2-family senolytics (navitoclax) than with a FOXO4–p53 trigger (FOXO4-DRI), yielding pathway-selective antagonism.\nKey caveat: A 2025 paper (PMID 41625068) frames FOXO4-DRI action in senescent endothelium via a p53/BCL-2/Caspase-3 cascade, suggesting FOXO4-DRI may still require MOMP/Bax execution — if so, HN may blunt both arms and the sparing prediction fails."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims and Literature Evidence",
+      "content": "Baseline claimed (null): Senolytics are a unitary stackable class with HN-class MDPs — antagonism, if any, is not pathway-selective between FOXO4-DRI and navitoclax.\nBaseline measured (literature):\n- FOXO4-DRI = FOXO4–p53 trigger (PMID 28340339)\n- Navitoclax = Bcl-2-family senolytic (PMID 26711051)\n- HN blocks Bax/Bid MOMP (PMID 12732850; 15661737)\n- FOXO4-DRI may engage p53/BCL-2/Caspase-3 execution (PMID 41625068 — caveat)\n- humanin∩FOXO4 PubMed hits = 0\n- humanin∩navitoclax PubMed hits = 0\n- Matched FOXO4-DRI ± HN vs navitoclax ± HN clearance panel = UNKNOWN\n- ≥30% navitoclax relative kill drop and ≤15% FOXO4-DRI sparing band = PREDICTION only"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold |\n|---|---|---|---|\n| FOXO4_DRI_p53_trigger | LITERATURE | FOXO4 peptide disrupts FOXO4–p53 in senescent cells → apoptosis (Baar 2017) | FOXO4–p53 axis entry, not Bcl-xL occupancy (PMID 28340339) |\n| navitoclax_Bcl2_family_senolytic | LITERATURE | ABT-263 senolysis in HUVEC/IMR90/MEF-class panels (Zhu 2016) | Bcl-2/Bcl-xL/Bcl-w dependent; cell-type restricted (PMID 26711051) |\n| HN_Bax_Bid_MOMP_block | LITERATURE | HN–Bax and HN–Bid/tBid binding; MOMP/cytochrome c suppression (Guo; Zhai) | Bax translocation/tBid apoptogenic release blocked (PMID 12732850; 15661737) — no KD invented |\n| FOXO4_DRI_p53_BCL2_Caspase3_convergence | LITERATURE | Senescent endothelium FOXO4-DRI framed via p53/BCL-2/Caspase-3 (2025) | Mitochondrial Bcl-2-family nodes may sit downstream of FOXO4–p53 trigger (PMID 41625068) — may kill sparing |\n| matched_dual_senolytic_plus_HN_panel | UNKNOWN | Same senescent culture — FOXO4-DRI ± HN/HNG vs navitoclax ± HN/HNG; viability/SA-β-gal/caspase | Head-to-head panel not found (humanin∩FOXO4=0; humanin∩navitoclax=0) — UNKNOWN |\n| pathway_selective_kill_margins | PREDICTION | Pre-registered matched panel; SC-selective kill fraction for each senolytic ± HN/HNG | navitoclax+HN kill ≤70% of navitoclax alone (≥30% relative drop) AND FOXO4-DRI+HN within ≤15% relative drop of FOXO4-DRI alone (α/N pre-specified) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design",
+      "content": "Proposed (not yet executed) assay: Matched senescent-culture panel using a single locked senescent cell system and senolytic exposure window for both arms. Arms: FOXO4-DRI ± HN/HNG vs navitoclax ± HN/HNG. Readouts: viability, SA-β-gal, caspase activity. Pre-registration of thresholds: navitoclax+HN kill ≤70% of navitoclax alone (≥30% relative drop); FOXO4-DRI+HN within ≤15% relative drop of FOXO4-DRI alone. PMID 41625068 treated as a pre-registered failure mode (FOXO4-DRI still MOMP-dependent). No dosing specified. Estimated time to refute: 4 weeks."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Distinct triggers ≠ spared execution — FOXO4-DRI may still need MOMP/Bax (PMID 41625068); sparing can fail.\n2. P4 predicted Bcl-2-family antagonism; it did not measure FOXO4-DRI sparing — do not cite P4 as selectivity evidence.\n3. Cell-type mismatch can fake sparing — lock one senescent system for both senolytics."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis (Logical Dependencies)",
+      "content": "Three ablation conditions identify critical structural dependencies of the claim:\n1. Remove matched FOXO4-DRI ± HN arm → Without FOXO4-DRI under HN, the card only restates Bcl-2-family collision (P4 territory) and cannot show pathway selectivity.\n2. Remove matched navitoclax ± HN arm → FOXO4 sparing alone does not show antagonism is selective vs a Bcl-2-family senolytic on the same culture.\n3. Remove HN Bax/Bid MOMP LITERATURE or PMID 41625068 convergence caveat → Without MOMP-block mechanism plus the execution-path caveat, selective margins are an unanchored combo guess."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "The prediction is refuted if, on the pre-registered matched panel: (a) HN/HNG reduces FOXO4-DRI SC kill beyond the ≤15% sparing band (no sparing), OR (b) HN/HNG fails to reduce navitoclax kill by ≥30% relative (no Bcl-2-family blunting) — yielding a unitary or inverted pattern. Especially refuted if FOXO4-DRI kill collapses with HN when MOMP/Bax is required (PMID 41625068-consistent outcome)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Key References",
+      "content": "1. PMID 28340339 / DOI 10.1016/j.cell.2017.02.031 / PMC5556182 — Baar 2017: FOXO4-DRI perturbs FOXO4–p53 → senescent-cell apoptosis; tissue restoration in aging/chemotoxicity models.\n2. PMID 26711051 / PMC4854923 — Zhu 2016: navitoclax senolytic via Bcl-2/Bcl-xL/Bcl-w; cell-type restricted.\n3. PMID 12732850 / DOI 10.1038/nature01627 — Guo 2003: humanin binds Bax; blocks mitochondrial translocation/cytochrome c release.\n4. PMID 15661737 / DOI 10.1074/jbc.M411902200 — Zhai: humanin binds Bid/tBid; blocks tBid apoptogenic release and Bax/Bak oligomerization.\n5. PMID 41625068 (2025) — FOXO4-DRI in senescent endothelium framed via p53/BCL-2/Caspase-3 cascade (convergence caveat).\n6. PMID 38328478 — HNG can oppose venetoclax bone-growth toxicity (adjacent only; not SC clearance, not FOXO4-DRI)."
+    }
+  ],
+  "key_findings": [
+    "This is a TRL 1 document: the central claim is an untested PREDICTION with zero experimental data — no head-to-head panel has been run (humanin∩FOXO4 PubMed=0; humanin∩navitoclax PubMed=0).",
+    "Proposed hypothesis: HN/HNG pathway-selectively antagonizes navitoclax-mediated senescent cell clearance (≥30% relative kill drop) while sparing FOXO4-DRI-mediated clearance (≤15% relative drop), based on mechanistic divergence at MOMP.",
+    "Mechanistic basis is literature-only: HN blocks Bax/Bid MOMP (PMID 12732850; 15661737); navitoclax acts via Bcl-2/Bcl-xL/Bcl-w (PMID 26711051); FOXO4-DRI acts via FOXO4–p53 (PMID 28340339).",
+    "Critical falsifier: PMID 41625068 (2025) suggests FOXO4-DRI may still require MOMP/Bax execution in senescent endothelium — if confirmed, HN would blunt both senolytics and the selectivity prediction fails.",
+    "No experimental model system has been selected or locked; no dosing specified; assay is proposed but not initiated.",
+    "Time-to-refute estimated at 4 weeks (kill_cost_tier=1), indicating the proposed assay is considered low-cost and rapid.",
+    "Adjacent literature (PMID 38328478) shows HNG opposes venetoclax bone-growth toxicity, but this is not in a senescent cell clearance context and does not support the FOXO4-DRI sparing claim.",
+    "IP classification: pathway-selective-antagonism; vault_hold=no; public report only."
+  ],
+  "milestones": []
+}

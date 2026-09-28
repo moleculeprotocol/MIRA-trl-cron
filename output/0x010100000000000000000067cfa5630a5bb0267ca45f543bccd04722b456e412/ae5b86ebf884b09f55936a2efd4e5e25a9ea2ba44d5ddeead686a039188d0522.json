@@ -1,0 +1,96 @@
+{
+  "file_path": "/reports/2026-09-25/N10.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a hypothesis card (N10) proposing a pre-registered assay to test whether a selective MAO-A inhibitor (clorgyline-class) fails to match methylene blue (MB) in rescuing memory retention on a cytochrome oxidase (COX)-inhibitor amnestic model. The claim is NEGATIVE (predicted failure of selective MAO-A-i to match MB rescue), and the experiment has NOT been run. The document distinguishes this hypothesis from related prior cards (N5–N9) and identifies the key gap: no published head-to-head (H2H) comparison of selective MAO-A-i vs. MB on the COX-amnestic retention panel exists.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "On a pre-registered cytochrome-oxidase / COX-inhibitor amnestic retention assay where parent methylene blue (MB) restores memory, a selective MAO-A inhibitor (clorgyline-class) fails to match that rescue — retention Δ ≤70% of MB (or outside a pre-registered MB-equivalence band). Status label: NEGATIVE. Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Tests the competing 'mild-MAO frame' on the Gonzalez-Lima COX-amnestic assay. If metabolic-memory rescue is MAO-A-owned, a selective MAO-A-i should match parent MB; if rescue requires parent redox/COX-facing chemistry, selective MAO-A-i should fail. Distinct from N5 (selective MAO-A-i ≠ MB on generic WM), N8 (Azure B on COX-amnestic), and N9 (redox-dead on COX-amnestic) — none ran a selective MAO-A drug on the COX-amnestic panel. Soft-claims: selective MAOI ∩ COX-amnestic H2H soft-complete = 0; sole adjacent PMID 40996208 is MAO-B non-match; H2H remains UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Redox-vs-MAO assumption-kill on the COX-amnestic/metabolic-memory class. Parent MB restores retention after COX inhibition and is a potent reversible MAO-A inhibitor; clorgyline-class selective MAO-A-i elevates monoamines in disease models but has no published COX-amnestic retention H2H vs MB. Competing caveat: MAO occupancy/exposure matching — underperformance could reflect under-dosing relative to MB's MAO potency rather than a true mechanistic distinction."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baseline",
+      "content": "1. PMID 12384216 (Callaway/Gonzalez-Lima 2002): Low-dose MB restores spatial memory retention impaired by a cytochrome oxidase inhibitor — no selective-MAOI arm.\n2. PMID 21087672 / PMC3026638 (Rojas/Gonzalez-Lima 2011): MB beneficial network effects in an amnestic model (metabolic/network framing) — no selective-MAOI arm.\n3. PMID 17721552 / PMC2078225 (Ramsay 2007): MB potent reversible MAO-A inhibition (serotonin-toxicity prediction) — enzyme prior, not COX-amnestic H2H.\n4. PMID 26825854 (2016): Clorgyline (selective MAO-A-i) elevates monoamines and improves disease-model endpoints — MAO-A tool prior, not COX-amnestic retention vs MB."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| MB_COX_amnestic_spatial_retention_rescue | LITERATURE | Low-dose MB restores spatial memory retention after COX inhibitor (Callaway 2002) | MB restores retention (PMID 12384216) — no selective-MAOI comparator |\n| MB_amnestic_network_effects | LITERATURE | MB beneficial network effects in amnestic model (Rojas/Gonzalez-Lima 2011) | Metabolic/network framing (PMID 21087672) — no selective-MAOI arm |\n| MB_reversible_MAO_A_inhibition | LITERATURE | MB potent reversible MAO-A inhibition (Ramsay 2007) | Enzyme/serotonin-toxicity prior (PMID 17721552) — not COX-amnestic H2H; no KD invented |\n| clorgyline_selective_MAO_A_tool_prior | LITERATURE | Clorgyline elevates monoamines and improves disease-model endpoints (2016) | Selective MAO-A tool prior (PMID 26825854) — not COX-amnestic retention vs MB |\n| same_COX_amnestic_selective_MAOI_vs_MB_panel | UNKNOWN | Same COX-inhibitor amnestic/retention panel — selective MAO-A-i vs parent MB | Dedicated selective-MAOI vs MB COX-amnestic rescue panel not found (soft-complete 0; sole adjacent PMID 40996208 = MAO-B non-match) — UNKNOWN |\n| selective_MAOI_fails_MB_equivalence_on_COX_amnestic_rescue | PREDICTION | Pre-registered COX-inhibitor amnestic spatial or discrimination retention; clorgyline-class vs parent MB under exposure-aware conditions | Selective-MAOI retention Δ ≤70% of MB (or outside pre-registered MB-equivalence band); α/N pre-specified |\n| competing_MAO_occupancy_or_PK_explains_underperformance | PREDICTION | Same design; falsifier path if selective MAO-A-i matches MB once MAO occupancy/brain exposure is matched | MAO-matched or PK-matched equivalence allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N5–N9 as proving N10 — N5 left COX-amnestic untested; N8/N9 ran metabolite/redox-dead arms, not a selective MAO-A drug; soft-complete empty ≠ demonstrated selective-MAOI failure on COX-amnestic.\n2. MAO IC50 ≠ brain rescue PD — Ramsay is enzyme inhibition; clorgyline (PMID 26825854) is monoamine elevation/disease model; neither is COX-amnestic retention vs MB.\n3. Occupancy matching — underperformance could be under-dosing relative to MB's MAO potency; assay MAO occupancy/monoamine readout without a dosing card; use the same COX-inhibitor amnestic class where parent MB restores. No dosing established."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical dependencies identified:\n1. Removal of same COX-amnestic/retention contrast of selective MAO-A-i vs parent MB: Without behavioral H2H on the Gonzalez-Lima class assay, MB rescue LITERATURE and MAO-A tool LITERATURE cannot show selective MAO-A-i fails to match MB rescue.\n2. Removal of selective MAO-A identity (clorgyline-class) with parent-MB MAO-A framing: Without a verified selective MAO-A tool, underperformance is just 'weak monoaminergic drug,' not an assumption-kill of MAO-owned COX-amnestic rescue.\n3. Removal of N5–N9≠proof + soft-complete-empty≠failure + MAO-IC50≠brain-PD + occupancy-matching discipline: Treating N5/N8/N9 or empty/MAO-B-adjacent PubMed or Ramsay/clorgyline enzyme-disease priors as already deciding selective-MAOI COX-amnestic failure would invent a negative result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refuted if: On the pre-registered COX-inhibitor amnestic retention assay, the selective MAO-A-i matches parent MB within the MB-equivalence band (retention Δ >70% of MB or inside band) — especially under exposure/MAO-occupancy-matched conditions — so MAO-necessity for metabolic-memory rescue survives and redox-required rescue fails."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution & IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: N5–N9 (selective MAOI×WM / Azure B / redox-dead ≠ selective-MAOI×COX-amnestic proof). Kill cost tier: 1. Time to refute: 4 weeks. IP class: redox-vs-MAO. Vault hold: no. Method: propose-assay."
+    }
+  ],
+  "key_findings": [
+    "Hypothesis N10 is a NEGATIVE prediction (NOT_RUN): a selective MAO-A inhibitor (clorgyline-class) is predicted to fail to match methylene blue (MB) rescue on a COX-inhibitor amnestic retention assay (retention Δ ≤70% of MB).",
+    "No published head-to-head (H2H) comparison of selective MAO-A-i vs. MB on the COX-amnestic retention panel exists (soft-complete = 0); the sole adjacent reference (PMID 40996208) is a MAO-B non-match, not MAO-A.",
+    "Literature baseline confirms MB restores spatial memory retention after COX inhibition (PMID 12384216) and has potent reversible MAO-A inhibition (PMID 17721552), but neither study includes a selective-MAOI comparator arm.",
+    "Clorgyline is validated as a selective MAO-A tool (PMID 26825854) but only in disease-model monoamine endpoints, not in COX-amnestic retention vs. MB.",
+    "Key confound: underperformance of selective MAO-A-i could reflect under-dosing relative to MB's MAO potency rather than a true mechanistic distinction — MAO occupancy/exposure matching is required.",
+    "N5–N9 (prior cards on generic WM, Azure B, redox-dead arms) do not constitute proof of N10's claim; the COX-amnestic × selective-MAOI H2H remains genuinely UNKNOWN.",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost experiment).",
+    "TRL assessment: TRL 1 — concept/hypothesis only; no experimental data generated; assay proposed but not executed."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "Hypothesis Card N10 Published",
+      "description": "Hypothesis card N10 proposing a selective MAO-A-i vs. MB COX-amnestic retention assay was authored and published to the public report repository.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-25/N10.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed Assay Execution: Selective MAO-A-i vs. MB on COX-Amnestic Panel",
+      "description": "Pre-registered COX-inhibitor amnestic spatial or discrimination retention assay comparing clorgyline-class selective MAO-A-i vs. parent MB under exposure-aware conditions, with optional Azure B arm and MAO occupancy readout. Estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=redox-vs-MAO · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "file_path": "/reports/2026-09-25/P1.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a research prediction/claim report (P1) arguing that BPC-157's angiogenic phenotype is not mediated by orthosteric binding to VEGFR2 ECD, but rather through FBXO22–BACH1 intracellular signaling. It proposes specific SPR/ITC assays to falsify the popular vendor-claimed VEGFR2 ECD binding hypothesis and cites literature KD values for BPC-157–FBXO22 interaction (~100 nM). The document is at TRL 1–2: it is a hypothesis/prediction with supporting literature but no original experimental data.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Status",
+      "content": "Title: P1 — BPC-157 angiogenic phenotype is not orthosteric VEGFR2 ECD binding. Status: PREDICTION. Lane: peptides. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-assay. Swarm ID: P1. Document path: reports/2026-09-25/P1.md."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim",
+      "content": "BPC-157 does not bind human VEGFR2 ECD with tight affinity. SPR/ITC will miss a tight KD against VEGFR2 ECD while the same peptide retains ~100 nM KD to FBXO22. The popular orthosteric-VEGFR2 explanation of BPC-157's angiogenic phenotype is claimed to be false. Vendor and popular copy treat BPC-157 as a direct VEGFR2 binder (uncited Kd 50–200 nM), but phenotype papers activate the VEGFR2–Akt–eNOS axis without ever measuring ECD binding."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Mechanism (FBXO22–BACH1 Pathway)",
+      "content": "Proposed alternative mechanism: BPC-157 engages FBXO22 via Pro3 (SPR KD ≈ 100 nM from Zhang literature); the BPC-157–FBXO22 complex blocks BACH1 ubiquitination → BACH1 protein rises → PDGFB/EGFR/FGF2/FGFR1-linked HUVEC proliferation and tube formation. Hsieh-class readouts (VEGFR2 upregulation, internalization, Akt–eNOS phosphorylation, tubes) are described as pathway consequences, not proof of orthosteric ECD occupancy. If FBXO22–BACH1 is primary, recombinant VEGFR2 ECD SPR/ITC should show no tight KD; scramble and P3A remain negative controls on FBXO22."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Four prediction variables are defined:\n1. BPC157_VEGFR2_ECD_KD | PREDICTION | SPR (Biacore) or ITC vs recombinant human VEGFR2 ECD; scramble and P3A controls | Threshold: no tight specific binding — KD > 10 µM or no saturable 1:1 fit at ≤10 µM; vendor 50–200 nM claim expected to fail.\n2. BPC157_FBXO22_KD | LITERATURE | Zhang Biacore T200, FBXO22 on CM5, 1:1 fit | KD = 1.0×10⁻⁷ M (100 nM); scramble KD = 2.6×10⁻⁴ M.\n3. P3A_FBXO22_KD | UNKNOWN | Zhang alanine scan; units unresolved | Do not use as numeric prior.\n4. vendor_VEGFR2_Kd_50_200nM | UNKNOWN | Commercial/blog claims; PubMed 0 SPR/ITC hits | Not LITERATURE until a primary paper exists."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Citations",
+      "content": "Four key references cited:\n1. PMID 27847966 / DOI 10.1007/s00109-016-1488-y (Hsieh 2017): VEGFR2 upregulation, internalization, Akt–eNOS, tube formation; no ECD SPR/KD measurement.\n2. PMID 41606641 / PMC12947506 / DOI 10.1186/s12964-026-02694-6 (Zhang 2026): BPC-157–FBXO22 SPR KD = 1.0×10⁻⁷ M (100 nM); scramble KD = 2.6×10⁻⁴ M; BACH1 stabilization; notes VEGFR2 physical binding unresolved.\n3. PMID 33051481 / DOI 10.1038/s41598-020-74022-y: Src–Cav-1–eNOS modulation downstream of VEGFR2 work; no ECD binding assay.\n4. PMID 31911270 / DOI 10.1016/j.ebiom.2019.102617: Bach1 suppresses angiogenesis in prior models (sign conflict with Zhang's effector claim)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design and Falsification Criteria",
+      "content": "Proposed assay: SPR (Biacore) or ITC against recombinant human VEGFR2 ECD (preference for Ig1–3 vs full ECD construct; buffer matching Hsieh HUVEC conditions). Controls: scramble peptide and P3A (Pro3 alanine mutant). Prediction threshold: KD > 10 µM or no saturable 1:1 fit at ≤10 µM peptide concentration. Refutation criterion: SPR or ITC of BPC-157 WT against recombinant human VEGFR2 ECD returns a specific KD ≤ 200 nM (vendor-claimed range) with scramble and P3A showing ≥10× weaker binding under the same buffer and surface density."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Publication and Regulatory Context",
+      "content": "Risk class: research-discussion. Dual-publish note: OpenLabs type=claim, topic=chemistry-materials, tag peptides. Mol Labs public path reports/2026-09-25/P1.md; private vault fasta/scores as available. Explicit disclaimer: No medical advice; research discussion only. No IP, funding, regulatory, or clinical development information is present in this document."
+    }
+  ],
+  "key_findings": [
+    "Central prediction: BPC-157 does not bind VEGFR2 ECD with tight affinity (predicted KD > 10 µM by SPR/ITC); the vendor-claimed 50–200 nM KD is uncited and unsupported by any primary SPR/ITC publication.",
+    "Literature KD for BPC-157 binding to FBXO22: 1.0×10⁻⁷ M (100 nM) by Biacore T200 (Zhang 2026, PMID 41606641); scramble peptide KD = 2.6×10⁻⁴ M, confirming sequence specificity.",
+    "Proposed alternative mechanism: BPC-157 → FBXO22 engagement (via Pro3) → BACH1 ubiquitination blockade → BACH1 protein stabilization → PDGFB/EGFR/FGF2/FGFR1-driven HUVEC proliferation and angiogenesis.",
+    "Hsieh 2017 (PMID 27847966) demonstrated VEGFR2 upregulation, internalization, Akt–eNOS phosphorylation, and tube formation but performed no ECD binding assay (SPR/ITC), making orthosteric VEGFR2 binding unproven.",
+    "Zhang 2026 explicitly notes VEGFR2 physical binding is unresolved, supporting the prediction that ECD binding is absent.",
+    "Sign conflict identified: PMID 31911270 shows BACH1 suppresses angiogenesis in prior models, conflicting with Zhang's claim that BACH1 stabilization drives pro-angiogenic output.",
+    "No original experimental data are presented in this document; it is a hypothesis/prediction at TRL 1 proposing specific assays to test the claim.",
+    "Assay design recommendation: use Ig1–3 VEGFR2 ECD construct, buffer matching Hsieh HUVEC conditions, with scramble and P3A as negative controls; falsification threshold is KD ≤ 200 nM with ≥10× selectivity over controls."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "Zhang 2026 BPC-157–FBXO22 SPR Study Published",
+      "description": "Publication reporting BPC-157 binding to FBXO22 by Biacore T200 (KD = 100 nM), scramble control (KD = 2.6×10⁻⁴ M), BACH1 stabilization mechanism, and note that VEGFR2 physical binding remains unresolved.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 41606641 / PMC12947506 / DOI 10.1186/s12964-026-02694-6 — BPC-157–FBXO22 SPR KD = 1.0×10⁻⁷ M (100 nM LITERATURE); scramble KD = 2.6×10⁻⁴ M LITERATURE; BACH1 stabilization; notes VEGFR2 physical binding unresolved (Zhang 2026).",
+      "page": 1
+    },
+    {
+      "title": "P1 Prediction Report Published",
+      "description": "Formal prediction claim (P1) published to Mol Labs public path proposing SPR/ITC assay to falsify orthosteric VEGFR2 ECD binding by BPC-157.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Mol Labs public path reports/2026-09-25/P1.md; private vault fasta/scores as available.",
+      "page": 1
+    },
+    {
+      "title": "Proposed SPR/ITC Assay: BPC-157 vs VEGFR2 ECD",
+      "description": "Planned experiment: SPR (Biacore) or ITC of BPC-157 against recombinant human VEGFR2 ECD (Ig1–3 preferred), with scramble and P3A controls, to test whether vendor-claimed 50–200 nM KD exists. Prediction is KD > 10 µM (null binding).",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "SPR (Biacore) or ITC vs recombinant human VEGFR2 ECD; scramble and P3A controls | no tight specific binding — KD > 10 µM or no saturable 1:1 fit at ≤10 µM; vendor 50–200 nM claim fails",
+      "page": 1
+    }
+  ]
+}

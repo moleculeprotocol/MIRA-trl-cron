@@ -1,0 +1,71 @@
+{
+  "file_path": "/reports/2026-09-27/L22.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (L22) proposing a C. elegans experimental design to test whether metformin retains lifespan/healthspan benefits independently of AMPK signaling. The document frames an \"assumption-kill\" hypothesis: if AMPK genetic loss-of-function (aak-2 alleles) or Compound C abolishes AMPK-class lifespan/healthspan attribution, does metformin still retain ≥50% of its median lifespan improvement relative to AMPK-intact controls? The experiment has NOT been run; the document synthesizes prior art (Onken 2010, Martin-Montalvo 2013, Foretz 2010, Kalender 2010) and defines prediction variables, refutation criteria, and actionable limitations.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Hypothesis (L22)",
+      "content": "Mol Labs public report L22 proposes a pre-registered C. elegans panel experiment to test whether metformin retains lifespan/healthspan benefits when AMPK signaling is abolished. The core claim: under AMPK/aak-2 genetic LOF or Compound C match that abolishes AMPK-class lifespan/healthspan attribution, metformin vs vehicle median lifespan improvement retains ≥50% of the improvement seen on AMPK-intact concurrent controls. Execution status: NOT_RUN. This is a research discussion / propose-assay document, not a completed experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Experimental Design",
+      "content": "Pre-registered C. elegans panel: metformin vs vehicle under AMPK/aak-2 genetic LOF (or Compound C match abolishing AMPK-class control) vs AMPK-intact concurrent controls. Primary referee: median lifespan (days). Optional co-readouts: healthspan, locomotion, lipofuscin (secondary only, not gate). Threshold: block-arm median lifespan improvement (metformin vs vehicle under block) retains ≥50% of metformin vs vehicle median lifespan improvement on AMPK-intact concurrent controls. α/N pre-specified. Refutation criterion: <50% retention when block-not-abolished, underpowered-strata, and assay-mismatch artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four key prior art references are cited:\n1. Onken/Driscoll (PMID 20090912, PLoS One 2010): Metformin extends C. elegans healthspan; AMPK/AAK-2 and LKB1/PAR-4 are essential — aak-2 alleles (ok524, rr48): no tested metformin concentration extends lifespan; metformin is detrimental without AMPK/LKB1. This establishes NECESSITY (inverse of residual) against residual lifespan/healthspan claim.\n2. Martin-Montalvo (PMID 23900241, Nat Commun 2013): 0.1% dietary metformin extends male mouse healthspan and lifespan; increases AMPK activity. Phenotype prior; no AMPK genetic LOF or Compound C residual lifespan H2H on same panel.\n3. Foretz (PMID 20577053, JCI 2010): Metformin inhibits hepatic gluconeogenesis independently of LKB1/AMPK via hepatic energy state. AMPK-independent metabolic arm; ≠ residual lifespan under AMPK abolish.\n4. Kalender (PMID 20444419, Cell Metab 2010): Metformin inhibits mTORC1 independent of AMPK via Rag GTPases. AMPK-independent mTORC1 arm; ≠ residual lifespan under AMPK abolish."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Onken_metformin_AMPK_LKB1_necessity_healthspan_lifespan | LITERATURE | C. elegans healthspan/lifespan/locomotion ± aak-2(ok524)/aak-2(rr48) and lkb-1/par-4; SKN-1; metformin | NECESSITY established (PMID 20090912); not residual-positive H2H |\n| MartinMontalvo_metformin_mouse_lifespan_healthspan_phenotype | LITERATURE | Male mice mid-life dietary metformin; healthspan referees; lifespan; AMPK activity | Phenotype prior (PMID 23900241); no AMPK LOF residual arm |\n| Foretz_metformin_hepatic_gluconeogenesis_AMPK_independent_adjacent | LITERATURE | Liver AMPK-deficient and LKB1-deficient mice/hepatocytes; glucose production/G6Pase | AMPK-independent metabolic arm (PMID 20577053); ≠ residual lifespan |\n| Kalender_metformin_mTORC1_Rag_AMPK_independent_adjacent | LITERATURE | Cells/models lacking TSC1/2 or AMPK; Rag GTPase dependence | AMPK-independent mTORC1 arm (PMID 20444419); ≠ residual lifespan |\n| matched_metformin_under_AMPK_block_residual_lifespan_healthspan_H2H | UNKNOWN | C. elegans ± metformin ± aak-2/AMPK LOF or Compound C match; same-panel median lifespan residual | UNKNOWN — residual-positive H2H not found; do not invent residual |\n| block_arm_median_lifespan_retention_ge50pct_of_intact_metformin_vs_vehicle | PREDICTION | Pre-registered C. elegans panel; AMPK-class control abolished; score same-panel median lifespan Δ | ≥50% retention of AMPK-intact metformin vs vehicle median lifespan Δ — PREDICTION, not yet tested |\n| competing_block_not_abolished_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes if block not actually abolishing AMPK-class control benefit | Inconclusive (not refuted) if block-not-abolished, underpowered strata, or assay-mismatch |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "AMPK-insufficiency assumption-kill: Onken/Driscoll PLoS One shows AMPK/AAK-2 and LKB1/PAR-4 essential for metformin C. elegans healthspan (necessity, inverse of residual). aak-2 alleles — no tested metformin concentration extends lifespan; metformin detrimental without AMPK/LKB1. Martin-Montalvo grounds mouse lifespan/healthspan phenotype without AMPK-abolish residual arm. Foretz hepatic gluconeogenesis and Kalender Rag-mTORC1 are AMPK-independent metabolic arms — adjacent NON-MATCH for residual lifespan H2H. Preferred model: C. elegans lifespan proxy ± metformin ± aak-2/AMPK LOF (or Compound C match) before new rodent or human dosing. Mouse residual under systemic AMPK LOF only optional long arm."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Competing Caveats",
+      "content": "1. L1–L21 do not prove L22 — new parent area metformin-ampk-insufficiency; Onken/Martin-Montalvo/Foretz/Kalender are necessity or metabolic adjacent, not residual-positive H2H under AMPK abolish; soft-complete empty ≠ demonstrated prediction-failure; do not invent residual.\n2. PMID 20090912 NECESSITY constrains residual C. elegans healthspan/lifespan; PMID 20577053/20444419 wrong endpoints for residual lifespan; PMID 23900241 lacks AMPK-abolish residual arm — matched residual-positive lifespan/healthspan H2H UNKNOWN — PRIOR_ART PARTIAL.\n3. Competing caveats: block not actually abolishing AMPK-class control benefit / underpowered strata / referee-assay mismatch leave the test inconclusive rather than refuted.\n4. L15 (DunedinPACE/GrimAge), L16 (tissue SA-β-gal/p16 vs blood under D+Q), L17 (intermittent-rapa FKBP), L18 (17α-E2 caloric-match), L19 (acarbose glycemic-match), L20 (SPD/ATG bulk autophagy; AMPK ≠ bulk ATG), L21 (UA/mitophagy; AMPK ≠ mitophagy) are all explicitly NOT equivalent to L22. NOT NAD-after-senolysis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4 weeks · ip_class=ampk-insufficiency · vault_hold=no. Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: Onken/Driscoll 2010, Martin-Montalvo 2013, Foretz 2010, Kalender 2010. Status label: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Removing matched metformin ± aak-2/AMPK LOF (or Compound C match) vs AMPK-intact concurrent controls with same-panel median lifespan residual co-readout: Without the block-lock × residual lifespan H2H on the same panel, separate Onken necessity LITERATURE and Foretz/Kalender metabolic adjacent cannot show lifespan ≠ mere AMPK-sole-necessity bridge, and residual-positive stays untested.\n2. Removing block-arm median lifespan improvement scored against the AMPK-intact metformin vs vehicle median lifespan improvement as named comparator: Without the intact-arm comparator under the block lock, the card collapses into unmatched necessity framing and loses the ampk-insufficiency assumption-kill.\n3. Removing L15≠L22 through L21≠L22 discipline and residual-UNKNOWN constraints: Treating adjacent experiments or empty PubMed as deciding residual-positive under AMPK abolish — or inventing residual effect sizes — would invent a result left UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "Experiment NOT_RUN — this is a proposed assay design, not a completed experiment; TRL is effectively TRL 1 (concept/hypothesis stage).",
+    "Onken/Driscoll (PMID 20090912) establishes NECESSITY: AMPK/AAK-2 and LKB1/PAR-4 are essential for metformin C. elegans healthspan/lifespan; aak-2 alleles abolish lifespan extension; metformin is detrimental without AMPK/LKB1.",
+    "Martin-Montalvo (PMID 23900241) shows 0.1% dietary metformin extends male mouse healthspan and lifespan and increases AMPK activity, but lacks an AMPK genetic LOF or Compound C residual lifespan H2H arm.",
+    "Foretz (PMID 20577053) and Kalender (PMID 20444419) demonstrate AMPK-independent metabolic mechanisms (hepatic gluconeogenesis via energy state; mTORC1 via Rag GTPases) but these are explicitly classified as NON-MATCH for residual lifespan under AMPK abolish.",
+    "Residual-positive metformin lifespan or healthspan H2H under AMPK genetic LOF or Compound C match that abolishes AMPK-class control is classified as UNKNOWN — no such data exists in the literature.",
+    "Prediction threshold: block-arm median lifespan improvement (metformin vs vehicle under AMPK block) must retain ≥50% of AMPK-intact metformin vs vehicle median lifespan improvement to support the assumption-kill hypothesis.",
+    "Refutation criterion: <50% retention (when block-not-abolished, underpowered-strata, and assay-mismatch artifacts are ruled out) would confirm metformin lifespan reduces to mere AMPK-necessary bridge.",
+    "Estimated time to refute: 4 weeks; kill_cost_tier=1; ip_class=ampk-insufficiency; vault_hold=no.",
+    "Prior art is classified as PARTIAL: necessity is established against residual, but matched residual-positive lifespan/healthspan H2H remains absent from the literature.",
+    "L15 through L21 (other Mol Labs hypotheses) are explicitly not equivalent to L22 and do not constitute proof of residual AMPK-independent metformin lifespan benefit."
+  ],
+  "document_date": null,
+  "milestones": []
+}

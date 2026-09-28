@@ -1,0 +1,88 @@
+{
+  "file_path": "/reports/2026-09-27/L20.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card L20) proposing a research discussion and assay design to test whether spermidine (SPD) retains lifespan or cardioprotective phenotype when autophagy is genetically or chemically blocked (ATG5/7 KD or CQ/Baf). The document frames the question as an \"autophagy-insufficiency assumption-kill,\" noting that existing literature (Eisenberg 2009, 2016; Minois/Madeo 2012; Hofer 2024) establishes autophagy necessity for SPD longevity/cardioprotection but does not provide a residual-positive head-to-head comparison under an abolished-autophagy-class-control condition. The experiment has NOT been run; the residual-positive outcome is explicitly labeled UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report (L20 card). The central claim is: on a pre-registered yeast or Drosophila panel with spermidine (SPD) vs vehicle under ATG5/7 genetic KD (or chemical autophagy block abolishing autophagy-class control benefit) vs autophagy-intact concurrent controls, the block-arm median lifespan improvement (SPD vs vehicle under block) retains ≥50% of the SPD vs vehicle median lifespan improvement on autophagy-intact concurrent controls. Primary referee = median lifespan (days); optional co-readouts = stress-survival/locomotor (secondary only). This is an 'assumption-kill' design targeting the hypothesis that SPD longevity/cardiac benefit is merely autophagy-necessary. Execution status: NOT_RUN. Residual-positive outcome: UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Spermidine longevity and cardioprotection are framed as autophagy-necessary based on Eisenberg et al. (autophagy crucial for SPD longevity; cardiomyocyte Atg5 abolishes SPD cardioprotection). However, a matched residual-positive H2H under ATG5/7 or chemical block that abolishes autophagy-class control remains untested. L20 asks whether SPD still retains lifespan phenotype once autophagy is blocked — i.e., whether lifespan benefit ≠ mere autophagy-sole-necessity bridge. Explicitly distinguished from L15 (DunedinPACE/GrimAge), L16 (tissue SA-β-gal/p16 vs blood under D+Q), L17 (intermittent-rapa FKBP), L18 (17α-E2 × caloric-match), L19 (acarbose × glycemic-match), and NAD-after-senolysis."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Autophagy-insufficiency assumption-kill mechanism: (1) Eisenberg NCB shows autophagy crucial for SPD longevity (necessity, inverse of residual). (2) Eisenberg Nat Med shows SPD failed cardioprotection in cardiomyocyte Atg5-deficient mice (same-panel residual cardiac contradicted). (3) Hofer 2024: endogenous SPD surge essential for rapa/fasting autophagy — RELATED PRIOR, not residual-under-ATG-block. (4) Minois/Madeo: Drosophila atg7 abolishes SPD paraquat rescue; mild H2O2 protection is autophagy-independent — wrong endpoints for residual lifespan/cardiac. Preferred model: yeast or Drosophila lifespan proxy ± SPD ± ATG5/7 KD (or CQ/Baf at block abolishing autophagy-class control) before new mouse cardiac or human dosing."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary",
+      "content": "Four key prior art references:\n1. PMID 19801973 (Eisenberg NCB 2009, DOI 10.1038/ncb1975): SPD extended lifespan across yeast/flies/worms; enhanced autophagy crucial for polyamine-induced necrosis suppression and longevity. Classification: NECESSITY (inverse of residual) — not residual-positive H2H under ATG5/7 block.\n2. PMID 27841876 (Eisenberg Nat Med 2016, DOI 10.1038/nm.4222, PMC5806691): Oral SPD extended mouse lifespan + cardioprotection; SPD failed cardioprotection in cardiomyocyte-specific Atg5-deficient mice. Classification: same-panel residual cardiac CONTRADICTED; mouse lifespan under systemic ATG5/7 not residual-tested.\n3. PMID 39212197 (Hofer Autophagy 2024, DOI 10.1080/15548627.2024.2396793, PMC11587830): Endogenous SPD surge essential for rapamycin- and fasting-induced autophagy and longevity. Classification: RELATED PRIOR SPD×rapa ≠ L17 clone; ≠ residual-under-ATG-block H2H.\n4. PMID 23059820 (Minois/Madeo 2012, DOI 10.1038/cddis.2012.139, PMC3481127): SPD paraquat survival/locomotor rescue abolished in Drosophila atg7 mutants; mild H2O2 protection autophagy-independent. Classification: stress endpoints ≠ residual lifespan/cardiac H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables",
+      "content": "Six prediction variables defined:\n1. Eisenberg_SPD_autophagy_necessity_longevity — LITERATURE — Yeast/flies/worms SPD longevity; autophagy transcripts; Eisenberg NCB 2009 — NECESSITY against residual longevity claim.\n2. Eisenberg_Atg5_abolishes_SPD_cardioprotection — LITERATURE — Mice oral SPD lifespan + cardiac aging; cardiomyocyte-specific Atg5-deficient mice — same-panel residual cardiac CONTRADICTED.\n3. Hofer_SPD_rapa_autophagy_related_prior — LITERATURE — Yeast/nematodes/flies/mice; fasting/rapamycin → endogenous SPD surge → EIF5A hypusination → TFEB/autophagy — RELATED PRIOR ≠ residual-under-ATG-block H2H.\n4. Minois_atg7_paraquat_epistasis_not_lifespan_residual — LITERATURE — Drosophila paraquat and H2O2 oxidative stress; atg7 loss-of-function mutants — stress endpoints ≠ residual lifespan/cardiac H2H.\n5. matched_SPD_under_ATG_block_residual_lifespan_cardiac_H2H — UNKNOWN — Yeast/Drosophila ± SPD ± ATG5/7 KD (or CQ/Baf) with same-panel median lifespan residual — UNKNOWN + missing_search; do not invent residual.\n6. block_arm_median_lifespan_retention_ge50pct_of_intact_SPD_vs_vehicle — PREDICTION — Pre-registered yeast or Drosophila panel; ≥50% retention of intact-arm SPD vs vehicle median lifespan Δ under block — author-chosen PREDICTION gate; do not invent observed residual Δ or dosing.\n7. competing_block_not_abolished_or_underpowered_or_assay_mismatch_inconclusive — PREDICTION — Same design; competing outcomes if block not actually abolishing autophagy-class control benefit, underpowered strata, or referee-assay mismatch — inconclusive_if ≠ refute_if."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ask a Human / Method)",
+      "content": "Method: propose-assay. Proposed design: Lock one yeast or Drosophila spermidine vs vehicle × ATG5/7 genetic KD (or chemical autophagy block) regimen with abolished autophagy-class-control-benefit definition. Primary referee: median lifespan (days). Optional co-readout: stress-survival/locomotor. Gate: ≥50% of intact-SPD-vs-vehicle median lifespan retention under ATG block. Prefer invertebrate lifespan proxy before new mouse cardiac/human. Do not invent residual. Do not treat Eisenberg necessity, Hofer RELATED PRIOR, Minois stress epistasis, or L15–L19 as residual-positive proof. NOT NAD-after-senolysis. No dosing language."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered yeast or Drosophila panel where ATG5/7 genetic KD or chemical autophagy block locks autophagy-class control benefit abolished, same-panel median lifespan improvement (SPD vs vehicle under block) is <50% of the SPD vs vehicle median lifespan improvement on autophagy-intact concurrent controls — so SPD lifespan DOES reduce to mere autophagy-necessary bridge — when block-not-abolished, underpowered-strata, or assay-mismatch artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L1–L19 as proving L20 — new parent area spermidine-autophagy-insufficiency; Eisenberg/Hofer/Minois layers are necessity or RELATED PRIOR, not residual-positive H2H under ATG block; soft-complete empty ≠ demonstrated prediction-failure; do not invent residual.\n2. 19801973 NECESSITY and 27841876 Atg5 cardiac abolish constrain residual cardiac/invertebrate longevity; 31077347 CQ (optional) and 23059820/34060628 wrong or adjacent endpoints leave matched residual-positive lifespan H2H UNKNOWN — PRIOR_ART PARTIAL.\n3. L15 ≠ L20; L16 ≠ L20; L17 ≠ L20 (Hofer ≠ L17 clone); L18 ≠ L20; L19 ≠ L20; NAD/CD38 soft-complete NON-MATCH — NOT SERIES_FROZEN NAD-after-senolysis; reviews ≠ anchors; no dosing; ip_class ≠ none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. IP class: autophagy-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. Status label: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion. Related prior: Eisenberg 2009 SPD longevity × autophagy-necessity + Eisenberg 2016 Atg5 abolishes cardioprotection + Hofer 2024 SPD×rapa RELATED PRIOR + Minois/Madeo 2012 atg7 epistasis."
+    }
+  ],
+  "key_findings": [
+    "Experiment NOT RUN — residual-positive SPD lifespan or cardiac H2H under ATG5/7 genetic or chemical block that abolishes autophagy-class control is explicitly UNKNOWN; do not invent residual.",
+    "Eisenberg NCB 2009 (PMID 19801973): SPD extended lifespan across yeast/flies/worms; enhanced autophagy crucial for polyamine-induced necrosis suppression and longevity — establishes NECESSITY (inverse of residual), not residual-positive H2H.",
+    "Eisenberg Nat Med 2016 (PMID 27841876): Oral SPD extended mouse lifespan + cardioprotection; SPD FAILED to provide cardioprotection in cardiomyocyte-specific Atg5-deficient mice — same-panel residual cardiac CONTRADICTED.",
+    "Hofer Autophagy 2024 (PMID 39212197): Endogenous SPD surge essential for rapamycin- and fasting-induced autophagy and longevity — RELATED PRIOR, not residual-under-ATG-block H2H.",
+    "Minois/Madeo 2012 (PMID 23059820): SPD paraquat survival/locomotor rescue abolished in Drosophila atg7 mutants; mild H2O2 protection autophagy-independent — stress endpoints only, not residual lifespan/cardiac H2H.",
+    "Proposed prediction gate: block-arm median lifespan improvement (SPD vs vehicle under ATG block) retains ≥50% of SPD vs vehicle median lifespan improvement on autophagy-intact concurrent controls on the same panel.",
+    "Prior art is PARTIAL: necessity against residual cardiac/invertebrate longevity is established, but residual-positive H2H under abolished autophagy-class control is absent from literature.",
+    "Preferred model system: yeast or Drosophila lifespan proxy ± SPD ± ATG5/7 KD (or CQ/Baf at block abolishing autophagy-class control) before new mouse cardiac or human dosing.",
+    "Kill cost tier 1; estimated time to refute: 4 weeks; execution status: NOT_RUN.",
+    "Competing caveats: block not actually abolishing autophagy-class control benefit, underpowered strata, or referee-assay mismatch would leave the test inconclusive rather than refuted."
+  ],
+  "document_date": null,
+  "milestones": [
+    {
+      "title": "Proposed Invertebrate Lifespan Assay (L20)",
+      "description": "Pre-registered yeast or Drosophila panel: SPD vs vehicle × ATG5/7 genetic KD (or chemical autophagy block abolishing autophagy-class control benefit) vs autophagy-intact concurrent controls; primary referee = median lifespan (days); ≥50% retention gate; estimated 4 weeks to refute.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=autophagy-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

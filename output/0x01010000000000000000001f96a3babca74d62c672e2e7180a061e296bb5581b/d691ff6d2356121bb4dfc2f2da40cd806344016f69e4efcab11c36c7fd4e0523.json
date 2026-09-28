@@ -1,0 +1,159 @@
+{
+  "file_path": "input/files/0x01010000000000000000001f96a3babca74d62c672e2e7180a061e296bb5581b/peptai_roadmap.pdf",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "This document is a roadmap for a biotech project focused on autonomous AI-driven peptide drug design targeting GPCRs (KISS1R, OX2R, GLP-1R) using non-canonical amino acids (ncAAs). It outlines planned milestones from Q2 2026 through Q2 2027, spanning computational design, wet-lab validation, autonomous iteration, pipeline expansion beyond GPCRs, lead optimization, and first in vivo studies. No experimental results are reported; all milestones are future-planned.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Roadmap Overview",
+      "content": "The document presents a phased development roadmap from Q2 2026 to Q2 2027 for an autonomous AI-driven drug discovery pipeline targeting GPCRs and beyond. Key themes include: computational design and wet-lab validation of peptide candidates incorporating non-canonical amino acids (ncAAs), on-chain data attestation via Molecule Labs, autonomous design-test-iterate cycles, and progressive expansion to non-GPCR targets. No experimental results are reported; all milestones are planned future events."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Q2 2026 Milestones",
+      "content": "1. KISS1R + OX2R leads ready for wet-lab: Lead candidates designed and computationally validated. Wet-lab synthesis orders placed.\n2. First on-chain wet-lab attestation: Binding affinity data published on Molecule Labs. Every assay timestamped on-chain.\n\nCurrent TRL implication: Candidates are at computational design/validation stage (TRL 1-2). Wet-lab synthesis is ordered but not yet completed. Binding affinity assays are planned but not yet executed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Q3 2026 Milestones",
+      "content": "1. Design vs. nature: comparative validation — ncAA candidates benchmarked head-to-head against natural references. bioRxiv preprint follows.\n2. Autonomous iteration cycle proven — Wet-lab data feeds back into design. Generation 2 candidates produced without human intervention.\n3. GLP-1R Generation 1 library — First de novo GLP-1R agonists designed end-to-end through the autonomous pipeline. Wet-lab queued.\n\nTRL implication: Comparative binding assays against natural references planned (TRL 2-3 transition). Autonomous feedback loop to be demonstrated. GLP-1R is a new target entering the pipeline."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Q4 2026 Milestones",
+      "content": "Pipeline scales beyond GPCRs: Non-GPCR target enters pipeline. CRO partnerships expanded. Receptor-agnostic claim validated.\n\nTRL implication: Platform generalizability claim to be validated experimentally. CRO partnership expansion indicates outsourced wet-lab capacity scaling."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Q1 2027 Milestones",
+      "content": "Lead optimization at scale: Top candidates enter ncAA optimization with PK characterization. Pre-IND scoping initiated.\n\nTRL implication: PK characterization and pre-IND scoping represent a transition toward TRL 3-4. This is the first regulatory-adjacent activity mentioned."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Q2 2027 Milestones",
+      "content": "Multi-target portfolio in vivo: First in vivo studies on lead candidates. Cross-target portfolio progressing in parallel.\n\nTRL implication: First in vivo studies would represent TRL 3 (disease-model validation in animals). This is the most advanced planned milestone in the document."
+    }
+  ],
+  "key_findings": [
+    "All milestones are future-planned; no experimental results have been reported yet — project is currently at TRL 1-2 (computational design stage).",
+    "Targets include KISS1R, OX2R (Q2 2026), and GLP-1R (Q3 2026); pipeline planned to expand to non-GPCR targets by Q4 2026.",
+    "Lead candidates for KISS1R and OX2R are described as computationally designed and validated, with wet-lab synthesis orders placed — no binding affinity data yet available.",
+    "Binding affinity assays are planned for Q2 2026, with on-chain attestation via Molecule Labs.",
+    "Comparative validation of ncAA candidates vs. natural references (head-to-head benchmarking) planned for Q3 2026, with a bioRxiv preprint to follow.",
+    "Autonomous design-test-iterate cycle (Generation 2 candidates without human intervention) planned for Q3 2026.",
+    "PK characterization and pre-IND scoping planned for Q1 2027.",
+    "First in vivo studies planned for Q2 2027 — this would be the first TRL 3 evidence.",
+    "CRO partnerships are planned to be expanded by Q4 2026.",
+    "Non-canonical amino acids (ncAAs) are a core technology differentiator for lead optimization."
+  ],
+  "milestones": [
+    {
+      "title": "KISS1R + OX2R leads ready for wet-lab",
+      "description": "Lead candidates for KISS1R and OX2R designed and computationally validated; wet-lab synthesis orders placed.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "KISS1R + OX2R leads ready for wet-lab: Lead candidates designed and computationally validated. Wet-lab synthesis orders placed.",
+      "page": 1
+    },
+    {
+      "title": "First on-chain wet-lab attestation",
+      "description": "Binding affinity data published on Molecule Labs with every assay timestamped on-chain.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "First on-chain wet-lab attestation: Binding affinity data published on Molecule Labs. Every assay timestamped on-chain.",
+      "page": 1
+    },
+    {
+      "title": "Design vs. nature: comparative validation",
+      "description": "ncAA candidates benchmarked head-to-head against natural references; bioRxiv preprint to follow.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Design vs. nature: comparative validation: ncAA candidates benchmarked head-to-head against natural references. bioRxiv preprint follows.",
+      "page": 1
+    },
+    {
+      "title": "Autonomous iteration cycle proven",
+      "description": "Wet-lab data feeds back into design; Generation 2 candidates produced without human intervention.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Autonomous iteration cycle proven: Wet-lab data feeds back into design. Generation 2 candidates produced without human intervention.",
+      "page": 1
+    },
+    {
+      "title": "GLP-1R Generation 1 library",
+      "description": "First de novo GLP-1R agonists designed end-to-end through the autonomous pipeline; wet-lab queued.",
+      "date": "2026-Q3",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "GLP-1R Generation 1 library: First de novo GLP-1R agonists designed end-to-end through the autonomous pipeline. Wet-lab queued.",
+      "page": 1
+    },
+    {
+      "title": "Pipeline scales beyond GPCRs",
+      "description": "Non-GPCR target enters pipeline; CRO partnerships expanded; receptor-agnostic claim validated.",
+      "date": "2026-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Pipeline scales beyond GPCRs: Non-GPCR target enters pipeline. CRO partnerships expanded. Receptor-agnostic claim validated.",
+      "page": 1
+    },
+    {
+      "title": "CRO partnerships expanded",
+      "description": "Expansion of contract research organization partnerships to support pipeline scaling beyond GPCRs.",
+      "date": "2026-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "partnership",
+      "source_quote": "Pipeline scales beyond GPCRs: Non-GPCR target enters pipeline. CRO partnerships expanded. Receptor-agnostic claim validated.",
+      "page": 1
+    },
+    {
+      "title": "Lead optimization at scale",
+      "description": "Top candidates enter ncAA optimization with PK characterization; pre-IND scoping initiated.",
+      "date": "2027-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Lead optimization at scale: Top candidates enter ncAA optimization with PK characterization. Pre-IND scoping initiated.",
+      "page": 1
+    },
+    {
+      "title": "Pre-IND scoping initiated",
+      "description": "Pre-IND regulatory scoping initiated alongside lead optimization and PK characterization.",
+      "date": "2027-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "Lead optimization at scale: Top candidates enter ncAA optimization with PK characterization. Pre-IND scoping initiated.",
+      "page": 1
+    },
+    {
+      "title": "Multi-target portfolio in vivo",
+      "description": "First in vivo studies on lead candidates; cross-target portfolio progressing in parallel.",
+      "date": "2027-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Multi-target portfolio in vivo: First in vivo studies on lead candidates. Cross-target portfolio progressing in parallel.",
+      "page": 1
+    }
+  ]
+}

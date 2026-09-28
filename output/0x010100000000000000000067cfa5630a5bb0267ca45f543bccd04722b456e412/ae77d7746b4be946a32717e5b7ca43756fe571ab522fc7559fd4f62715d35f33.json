@@ -1,0 +1,61 @@
+{
+  "file_path": "/reports/2026-09-25/L2.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a research discussion report (labeled L2, STATUS: NEGATIVE) arguing that a single blood p16INK4a measurement or a single epigenetic clock tick is insufficient as a primary pharmacodynamic biomarker for intermittent Dasatinib + Quercetin (D+Q) senolysis. It synthesizes published literature to demonstrate that tissue-level SC assays, multi-generation clock concordance, and cell-type selectivity are all required to validate senolytic efficacy. No original experimental data are generated; the document is a literature-only analysis relevant to biomarker strategy for longevity/senolysis research.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim and Core Argument",
+      "content": "The document asserts that a single blood p16INK4a (PBTL) or a unitary epigenetic-clock tick is NOT a sufficient primary biomarker to confirm that intermittent D+Q senolysis worked. Pre-specified tissue SC assays can improve while the chosen blood primary does not move or moves in the wrong direction. First-generation vs. next-generation clocks disagree under the same regimen. This is a NEGATIVE/falsifying claim against a popular longevity framing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch — Lineage-Preferential Senolysis",
+      "content": "Dasatinib and quercetin are lineage-preferential senolytics; the combination broadens but does not make clearance cell-type-agnostic or complete. Leukocyte p16INK4a tracks chronologic/lifestyle molecular age and need not mirror adipose or endothelial senescent cell (SC) burden. Circulating SASP, tissue SC counts, and DNAm clock generations are separable layers that already disagree across DKD, IPF, and DQ methylation pilots."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims vs. Measured Evidence",
+      "content": "Baseline claimed: Intermittent D+Q senolysis is adequately proven by a single blood p16INK4a drop or a single epigenetic-clock rejuvenation tick as primary PD.\n\nBaseline measured (all LITERATURE-sourced):\n- D vs Q lineage-preferential senolysis: PMID 25754370 (Zhu 2015)\n- Human adipose/skin SC↓ + SASP↓: PMID 31542391 (Hickson 2019)\n- IPF SASP class effect inconclusive: PMID 30616998\n- DQ first-gen EAA/PhenoAge ↑ with GrimAge/DunedinPACE flat: PMID 38393697 (Lee 2024)\n- PBTL p16 as aging marker: PMID 19485966 (Liu 2009)\n- PBTL p16 as co-primary D+Q PD vs tissue IHC: UNKNOWN (not found as co-primary)\n- Numeric threshold linking blood tick to tissue clearance: PREDICTION (do not invent cutoffs)"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| name | kind | assay | threshold |\n|------|------|-------|----------|\n| D_vs_Q_cell_type_preferential | LITERATURE | Lineage senolysis panels (Zhu 2015) | D vs Q preferential; clearance incomplete |\n| human_tissue_SC_clearance_DKD | LITERATURE | Adipose/skin IHC after D+Q (Hickson 2019) | tissue SC↓; circulating SASP↓ |\n| DQ_blood_DNAm_clock_discordance | LITERATURE | Longitudinal blood DNAm after DQ (Lee 2024) | first-gen/PhenoAge ↑; GrimAge/DunedinPACE flat |\n| PBTL_p16_as_chronologic_age_marker | LITERATURE | T-cell p16 vs age (Liu 2009) | aging marker, not D+Q tissue PD |\n| PBTL_p16_as_primary_DQ_PD_vs_tissue_IHC | UNKNOWN | Same-subject blood + tissue co-primary | not found as co-primary |\n| blood_marker_threshold_certifying_tissue_clearance | PREDICTION | Effect size Δblood vs Δtissue | do not invent cutoffs |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Key Literature References",
+      "content": "1. PMID 25754370 / DOI 10.1111/acel.12344 / PMC4531078 — Zhu 2015: D vs Q cell-type preferential senolysis; incomplete in vivo clearance.\n2. PMID 31542391 / DOI 10.1016/j.ebiom.2019.08.069 / PMC6796530 — Hickson 2019: Human DKD adipose/skin p16INK4A↓ / SA-β-gal↓ + circulating SASP↓; tissue primary, not PBTL p16.\n3. PMID 38393697 / DOI 10.18632/aging.205581 / PMC10929829 — Lee 2024: DQ blood DNAm: first-gen EAA/PhenoAge ↑ at 3 months; GrimAge/DunedinPACE unchanged.\n4. PMID 19485966 / DOI 10.1111/j.1474-9726.2009.00489.x / PMC2752333 — Liu 2009: PBTL p16INK4a as chronologic-age biomarker, not validated D+Q tissue-SC proxy."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Refutation Criteria",
+      "content": "Actionable limitations:\n1. Tissue ≠ blood primary — leukocyte p16 need not track adipose/skin SC fraction.\n2. Clock-generation discordance falsifies any single blood tick as unitary PD.\n3. Cell-type selectivity means one systemic biomarker cannot certify incomplete, lineage-biased clearance.\n\nAblation analysis:\n- Remove tissue SC IHC/compartment reference → blood marker cannot be judged as wrong primary PD.\n- Remove multi-generation clock discordance → a single favorable tick could rescue the unitary-blood narrative.\n- Remove D vs Q lineage-preferential selectivity → one systemic blood primary would remain plausible.\n\nRefutation criteria: In a pre-registered D+Q study, a single blood primary (PBTL p16INK4a or one named clock) moves in the senolysis-success direction with effect size ≥ the pre-registered tissue SC IHC change in the same subjects, AND first-gen vs next-gen clocks do not disagree on direction."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Recommendations / Ask a Human",
+      "content": "Lock tissue compartment + IHC marker and which clock generation is primary before treating any blood tick as PD; do not collapse SASP, p16, and clocks into one 'blood rejuvenation' score. Peer-review invited. Risk class: research-discussion. Method: lit-only. Not medical advice. Not a dosing or treatment recommendation."
+    }
+  ],
+  "key_findings": [
+    "A single blood p16INK4a (PBTL) measurement is not a validated primary pharmacodynamic biomarker for D+Q senolysis; human trials (Hickson 2019, PMID 31542391) used tissue IHC (adipose/skin) as the primary endpoint, not PBTL p16.",
+    "Dasatinib and quercetin exhibit lineage-preferential (cell-type-selective) senolysis (Zhu 2015, PMID 25754370), meaning no single systemic blood marker can certify incomplete, lineage-biased clearance.",
+    "Epigenetic clock discordance after D+Q: first-generation clocks (EAA/PhenoAge) increased at 3 months while GrimAge and DunedinPACE remained flat (Lee 2024, PMID 38393697), demonstrating that a single clock tick cannot serve as a unitary PD biomarker.",
+    "Leukocyte p16INK4a (PBTL) tracks chronologic/lifestyle molecular age (Liu 2009, PMID 19485966) and is not validated as a proxy for adipose or endothelial senescent cell burden.",
+    "No published study has used PBTL p16 as a co-primary endpoint alongside tissue IHC in the same D+Q subjects — this gap is explicitly flagged as UNKNOWN.",
+    "No numeric threshold linking a blood clock tick or blood p16 change to tissue-level SC clearance has been established — flagged as PREDICTION with instruction not to invent cutoffs.",
+    "The document is a literature-only (lit-only) research discussion with no original experimental data; TRL relevance is primarily for biomarker strategy and study design guidance."
+  ],
+  "milestones": []
+}

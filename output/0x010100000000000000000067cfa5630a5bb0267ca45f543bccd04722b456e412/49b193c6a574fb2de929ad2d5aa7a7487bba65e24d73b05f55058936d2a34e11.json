@@ -1,0 +1,87 @@
+{
+  "file_path": "/reports/2026-09-25/N3.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a research discussion report (N3) arguing that methylene blue's (MB) working-memory (WM) benefit is not explained by MAO-A inhibition. It synthesizes existing literature on MB's redox and MAO-A mechanisms, identifies a critical gap (no same-task WM dissociation assay exists), and proposes a pre-registered rodent WM experiment to test the claim. The document is classified as a negative/assumption-kill discussion, not a completed experimental study.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Classification",
+      "content": "Swarm ID: N3. Status: NEGATIVE (polarity: negative). Lane: nootropics. Risk class: research-discussion. Novelty: assumption-kill. Method: propose-assay. OpenLabs target: discussion (PASS_NEGATIVE — not claim). Mol Labs: PUBLIC_REPORT_ONLY. Cheap-IP: kill_cost_tier=1, time_to_refute=4 weeks, ip_class=redox-vs-MAO, vault_hold=no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim",
+      "content": "Methylene blue's working-memory benefit is NOT explained by MAO-A inhibition. The claim is operationalized as: (1) a redox-disabled MB analogue that retains MAO-A potency fails to match parent MB on a pre-registered rodent WM task (WM Δ ≤50% of parent or outside a pre-registered parent-equivalence band), AND (2) a selective MAO-A inhibitor at matched MAO occupancy does not reproduce parent MB WM within that same band."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "MB accepts electrons from NADH and feeds cytochrome c (mitochondrial redox cycling). N-acetyl / 10-N-impaired analogues lose mitochondrial complex activity and protective potency. Separately, MB is a tight-binding reversible MAO-A inhibitor (~70 nM) and Azure B is stronger (~11 nM), explaining serotonin-toxicity risk with SSRIs. Low-dose MB memory work maps to cytochrome oxidase (COX) / metabolic enhancement, not MAO panels. The document argues MAO potency and WM pharmacodynamics are different endpoint families until a dissociation assay exists."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Baseline claimed: MB improves working memory because it inhibits MAO-A (same axis as serotonin toxicity / Azure B potency).\n\nBaseline measured (literature):\n- Redox-disabled N-acetyl-MB loses mitochondrial ET/complex activity (PMID 21454572; Wen 2011) — endpoint is mitochondrial/neuroprotection, NOT working memory.\n- 10-N SAR: ~1000× drop in protective potency (PMID 23118969; Poteet 2012).\n- MB increases COX and discrimination/metabolic-memory rescue (PMID 17428524; 21087672; Gonzalez-Lima class).\n- MB MAO-A IC50 ≈70 nM; Azure B MAO-A IC50 ≈11 nM (PMID 17721552; 22197611).\n- Paired WM ∩ MAO ∩ redox dissociation panel: UNKNOWN (does not exist).\n- ≤50% parent-equivalence fail: PREDICTION (not yet tested)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Endpoint mismatch: Wen (2011) redox-dead kill is mitochondrial/neuroprotection, not working memory; WM bridge is Gonzalez-Lima inference only.\n2. Two live mechanisms (MAO-A and redox/COX) without a same-task dissociation for WM.\n3. Azure B metabolite confound: in vivo 'MB' WM could still be metabolite-MAO even if parent redox matters in vitro."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Name | Kind | Assay | Threshold |\n|------|------|-------|-----------|\n| Wen_redox_dead_mitochondrial_kill | LITERATURE | N-acetyl-MB vs MB mitochondrial (Wen 2011) | Redox-dead loses complex activity — not WM |\n| phenothiazine_10N_SAR_protective_potency | LITERATURE | 10-N analogues (Poteet 2012) | ~1000× drop protective potency |\n| MB_COX_discrimination_memory | LITERATURE | Low-dose MB discrimination / COX | Memory ↑ with COX enhancement |\n| MB_AzureB_MAO_A_potency | LITERATURE | MAO-A IC50 | MB ≈70 nM; Azure B ≈11 nM |\n| paired_WM_redox_vs_MAO_dissociation | UNKNOWN | Same WM task · redox-dead vs MAO-A-i | No dedicated co-panel |\n| WM_parent_equivalence_fail_redox_dead_or_MAO_match | PREDICTION | Pre-registered WM · both arms | Redox-dead ≤50% parent AND MAO-A-i fails band |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature References",
+      "content": "- PMID 21454572 / DOI 10.1074/jbc.M110.208447 / PMC3091255 — Wen 2011: MB alternative electron transfer; N-acetyl redox-dead loses mitochondrial complex activity (neuroprotection/OCR endpoint — NOT WM).\n- PMID 23118969 / DOI 10.1371/journal.pone.0048279 / PMC3485214 — Poteet 2012: 10-N side-chain substitution → ~1000× drop in protective potency; redox SAR.\n- PMID 17428524 / PMC2040387; PMID 21087672 / PMC3026638 — Gonzalez-Lima class: low-dose MB improves discrimination learning / rescues PCC-metabolic amnesia with COX upregulation.\n- PMID 17721552 / PMC2078225; PMID 22197611 — Ramsay; Petzer: MB potent MAO-A inhibitor; Azure B MAO-A IC50 ≈11 nM vs MB ≈70 nM."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ablation Logic)",
+      "content": "Three ablation arms required to validate the claim:\n1. Same-task WM arm: parent MB vs redox-disabled analogue (N-acetyl or 10-N) — without this, Wen cannot bridge to WM.\n2. MAO-A / selective MAO-A inhibitor contrast at matched MAO occupancy — without this, redox-dead fail does not kill 'MAO-explains-WM'.\n3. Endpoint discipline (Wen ≠ WM) — without this, the analysis invents a WM result the seed overstated.\n\nRefutation criterion: On the pre-registered WM task, if a redox-disabled MB analogue matches parent MB within the equivalence band, OR a selective MAO-A inhibitor at matched MAO occupancy reproduces parent MB WM within that band, then MAO-explains-WM survives."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Open Questions / Human Review Items",
+      "content": "Lock WM task (delayed alternation vs holeboard vs object recognition), which redox-dead analogue (N-acetyl vs 10-N), and MAO occupancy readout before treating any MB cognitive signal as MAOI-like. Do not invent dosing. Peer-review requested. Estimated time to refute: 4 weeks. Kill cost tier: 1 (low cost)."
+    }
+  ],
+  "key_findings": [
+    "No existing study has performed a same-task working memory (WM) dissociation between MB's redox mechanism and MAO-A inhibition — this is the critical gap.",
+    "Wen 2011 (PMID 21454572) shows N-acetyl-MB (redox-disabled) loses mitochondrial complex activity, but this endpoint is neuroprotection/OCR, NOT working memory — the WM bridge is an inference by Gonzalez-Lima, not a direct result.",
+    "Poteet 2012 (PMID 23118969) shows 10-N side-chain substitution causes ~1000× drop in protective potency, supporting redox as the relevant mechanism for neuroprotection.",
+    "MB MAO-A IC50 ≈70 nM; Azure B MAO-A IC50 ≈11 nM (PMID 17721552; 22197611) — MAO-A potency is established but not linked to WM outcomes.",
+    "Low-dose MB improves discrimination learning and rescues PCC-metabolic amnesia with COX upregulation (Gonzalez-Lima class; PMID 17428524; 21087672) — memory benefit maps to metabolic/redox axis, not MAO.",
+    "Azure B metabolite confound: in vivo MB WM effects could still be mediated by metabolite MAO-A inhibition even if parent redox matters in vitro.",
+    "The proposed experiment is a pre-registered rodent WM task with two arms: (1) redox-disabled analogue vs parent MB, (2) selective MAO-A inhibitor at matched occupancy vs parent MB — neither arm has been executed.",
+    "Estimated time to refute: 4 weeks; kill cost tier: 1 (low cost).",
+    "Document is classified as research-discussion / assumption-kill, not a completed experimental study — TRL 1 for the proposed dissociation assay."
+  ],
+  "document_date": null,
+  "milestones": [
+    {
+      "title": "Proposed Pre-registered Rodent WM Dissociation Study",
+      "description": "A pre-registered rodent working memory task with two arms: (1) redox-disabled MB analogue vs parent MB, and (2) selective MAO-A inhibitor at matched MAO occupancy vs parent MB. Estimated time to refute the MAO-explains-WM assumption is 4 weeks from initiation.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=redox-vs-MAO · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

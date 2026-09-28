@@ -1,0 +1,77 @@
+{
+  "file_path": "/reports/2026-09-27/L18.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (L18 card) proposing a research hypothesis/assay design to test whether 17α-estradiol (17α-E2) metabolic healthspan benefits in male mice are independent of caloric restriction/appetite mimicry. The document is a pre-registered discussion-level proposal (not yet executed) that frames a pair-feeding/caloric-match experiment as an \"assumption-kill\" for the CR/appetite mimicry interpretation of 17α-E2 metabolic benefits. No new experimental data are presented; the evidence base is entirely literature-derived (ITP lifespan studies, Stout metabolic studies, Mann/Stout ERα mediation).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Status",
+      "content": "Mol Labs public report for hypothesis card L18. Status: NOT_RUN (execution_status=NOT_RUN). The document is a research discussion proposal (openlabs_target: discussion) with status label NEGATIVE, meaning the key experimental result (matched 17α-E2 pair-fed-to-vehicle residual GTT/hepatic H2H) is UNKNOWN and has not been demonstrated. Risk class: research-discussion. Method: propose-assay. No new wet-lab data are presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim / Hypothesis",
+      "content": "On a pre-registered male-mouse panel with three arms — 17α-E2 ad lib vs 17α-E2 pair-fed/calorie-matched to vehicle vs vehicle — locking calorie-intake/adiposity delta abolished under the match arm vs ad lib vehicle, the primary referee GTT AUC improvement vs vehicle retains ≥50% of the 17α-E2 ad-lib vs vehicle GTT AUC improvement on the same panel. Units: min·mg/dL as pre-specified. This would constitute an 'assumption-kill' of the hypothesis that '17α-E2 metabolic healthspan = mere CR/appetite mimicry.' Optional co-readouts: hepatic lipid/inflammation ± ITT/clamp/hepatic mTORC2–AA markers."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "ITP shows male-preferential 17α-E2 lifespan extension. Stout shows ad lib 17α-E2 reduces intake/adiposity and improves fasting glucose/insulin/HbA1c with clamp gains (↑ peripheral disposal, ↓ hepatic glucose production) without feminization. Stout Study2 CR weight-matched TO 17α-E2 (~18% restriction) is the inverse design (delta vs CON retained, not abolished). Mann/Stout show ERα mediation of metabolic benefits without a pair-feed/calorie-match arm. The gap: no published study has abolished the calorie-intake/adiposity delta between 17α-E2 and vehicle in male mice and then scored GTT/hepatic referees on the same panel."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence Base",
+      "content": "Four key literature anchors cited:\n1. PMID 24245565 (Harrison/ITP 2014, DOI 10.1111/acel.12170, PMC3954939): 17α-E2 increased male median lifespan ~12%; no significant female lifespan effect. Grounds male-preferential lifespan prior; not pair-feed residual metabolic H2H.\n2. PMID 27312235 (Strong/ITP 2016, DOI 10.1111/acel.12496, PMC5013015): Threefold-higher 17α-E2 robustly extended male median and maximal lifespan; still male-only. Replicates male-selective lifespan; not caloric-match residual metabolic referees.\n3. PMID 26809497 (Stout 2017, DOI 10.1093/gerona/glv309, PMC5155656): Ad lib 17α-E2 reduces intake/adiposity; improves fasting glucose/insulin/HbA1c; clamps ↑ peripheral disposal ↓ hepatic glucose production; no feminization. Study2 CR weight-matched TO 17α-E2 (~18% restriction) is inverse of L18 (adiposity delta vs CON not abolished). Grounds metabolic benefits + inverse adjacent prior ≠ residual H2H.\n4. PMID 33289482 (Mann/Stout 2020, DOI 10.7554/eLife.59616, PMC7744101): ERα ablation completely attenuates 17α-E2 metabolic benefits; liver/hypothalamus suggested; PMC pair-feed/calorie-match = 0. ERα mediation prior ≠ pair-feed residual H2H.\nNon-matching adjacent studies: Miller PMID 31074767 (weight-matched CR vs 17α-E2 proteostasis, NON-MATCH); Steyn PMID 29168299 (Pomc appetite adjacent, NON-MATCH); Garratt PMID 29514132 (review, ≠ anchor)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| ITP_male_preferential_17aE2_lifespan | LITERATURE | Genetically heterogeneous mice ITP three-site; 17α-E2 lifespan (Harrison 2014; Strong 2016) | ~12% male median lifespan increase (PMID 24245565); threefold-higher dose robustly extended male median and maximal lifespan (PMID 27312235) — COMPLETED/KNOWN |\n| Stout_17aE2_metabolic_Study2_inverse_CR_match | LITERATURE | Aged male mice; Study1 ad lib 17α-E2; Study2 CON/17α-E2/CR weight-matched to 17α-E2 (~18% restriction) | Reduced intake/adiposity; improved fasting glucose/insulin/HbA1c; clamps ↑ peripheral disposal ↓ hepatic glucose production; no feminization; Study2 CR→match-17α-E2 inverse — COMPLETED/KNOWN (PMID 26809497) |\n| Mann_Stout_ERa_mediation_without_pairfeed | LITERATURE | Male mice ± ERα ablation; male rats; genomic ERα binding vs 17β-E2 | ERα ablation completely attenuates 17α-E2 metabolic benefits; liver/hypothalamus suggested; PMC pair-feed/calorie-match = 0 — COMPLETED/KNOWN (PMID 33289482) |\n| matched_17aE2_pairfed_to_vehicle_residual_GTT_hepatic_H2H | UNKNOWN | Male 17α-E2 ad lib vs 17α-E2 pair-fed/calorie-matched to vehicle vs vehicle; same-panel GTT AUC / hepatic lipid/inflammation (± optional ITT/clamp/hepatic mTORC2–AA) | Dedicated residual GTT/hepatic H2H not found (soft-complete Q1b tight pair-fed = 0; Q2 residual H2H = 0; Q3b Stout/Mann∩pair-fed indexed = 0) — UNKNOWN |\n| match_arm_GTT_hepatic_retention_ge50pct_of_adlib_vs_vehicle | PREDICTION | Pre-registered male-mouse panel; lock calorie-intake/adiposity delta abolished; score same-panel GTT AUC Δ vs vehicle against 17α-E2 ad-lib vs vehicle GTT AUC Δ | ≥50% retention of ad-lib vs vehicle GTT AUC improvement under match lock — NOT YET TESTED |\n| competing_match_not_abolished_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Match-not-abolished / underpowered-strata / assay-mismatch as pre-registered competing outcomes (inconclusive_if ≠ refute_if) — NOT YET TESTED |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Experimental Design Specification",
+      "content": "Proposed assay design:\n- Three arms: 17α-E2 ad lib vs 17α-E2 pair-fed/calorie-matched to vehicle vs vehicle\n- Species/sex: male mice\n- Primary endpoint: GTT AUC (units: min·mg/dL, pre-specified)\n- Optional co-readouts: hepatic lipid/inflammation ± ITT/clamp/hepatic mTORC2–AA markers\n- Success threshold: match-arm GTT AUC improvement vs vehicle retains ≥50% of 17α-E2 ad-lib vs vehicle GTT AUC improvement\n- Preferred approach: secondary analysis of a published pair-feed-capable panel before new wet animal/human experiments\n- α/N pre-specified (details not provided in document)\n- Optional long arm: lifespan only\n- Execution status: NOT_RUN\n- Kill cost tier: 1; time to refute: 4 weeks; IP class: caloric-match-insufficiency; vault hold: no"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Competing Caveats",
+      "content": "Refute if: On the pre-registered male-mouse panel where pair-feeding/caloric match locks calorie-intake/adiposity delta abolished vs vehicle, same-panel GTT AUC improvement vs vehicle is <50% of the 17α-E2 ad-lib vs vehicle GTT AUC improvement — so 17α-E2 metabolic healthspan DOES reduce to mere CR/appetite mimicry — when match-not-abolished, underpowered-strata, or assay-mismatch artifacts are ruled out.\nCompeting caveats (inconclusive rather than refuted): match not actually abolishing intake/adiposity delta / underpowered strata / GTT–hepatic assay mismatch.\nKey disciplinary constraints: L15 ≠ L18; L16 ≠ L18; L17 ≠ L18; L1–L17 ≠ proof; Stout Study2 inverse ≠ residual; soft-complete empty ≠ novelty/failure; NOT NAD-after-senolysis (SERIES_FROZEN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Gaps",
+      "content": "Known (LITERATURE): ITP male-preferential 17α-E2 lifespan (PMID 24245565; 27312235). Stout metabolic without feminization + Study2 CR→match-17α-E2 inverse (PMID 26809497). Mann/Stout ERα mediation (PMID 33289482; PMC pair-feed/calorie-match = 0).\nUNKNOWN: Matched 17α-E2 pair-fed/calorie-matched to vehicle abolishing intake/adiposity delta with same-panel GTT/hepatic referees still improved (soft-complete Q1b tight pair-fed = 0; Q2 residual H2H = 0; Q3b Stout/Mann∩pair-fed indexed = 0).\nNON-MATCH adjacent: Miller PMID 31074767 weight-matched CR vs 17α-E2 proteostasis; Steyn PMID 29168299 Pomc appetite adjacent; Garratt PMID 29514132 review.\nPREDICTION (not yet tested): Match-arm GTT AUC improvement retains ≥50% of ad-lib 17α-E2 vs vehicle GTT AUC improvement."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "IP class: caloric-match-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. FTO status: UNKNOWN. Execution status: NOT_RUN. Related prior: ITP male-selective 17α-E2 lifespan + Stout Study2 inverse ≠ residual + Mann/Stout ERα; L15 (Oh organ-age ≠ this); L16 (tissue-vs-blood under D+Q ≠ this); L17 (intermittent-rapa FKBP ≠ this); L1–L17 ≠ proof."
+    }
+  ],
+  "key_findings": [
+    "Experiment is NOT_RUN — this is a proposal/discussion document, not a results report; TRL is effectively TRL 1 (concept/hypothesis stage).",
+    "Primary hypothesis: 17α-E2 metabolic healthspan in male mice is not merely CR/appetite mimicry — to be tested by pair-feeding/caloric-match design abolishing intake/adiposity delta vs vehicle, with GTT AUC as primary endpoint (≥50% retention threshold).",
+    "Literature anchor 1: ITP studies show 17α-E2 increases male median lifespan ~12% (PMID 24245565) and threefold-higher dose robustly extends male median and maximal lifespan (PMID 27312235); effect is male-selective.",
+    "Literature anchor 2: Stout (PMID 26809497) shows ad lib 17α-E2 reduces intake/adiposity, improves fasting glucose/insulin/HbA1c, clamp shows ↑ peripheral disposal and ↓ hepatic glucose production, no feminization; Study2 CR weight-matched TO 17α-E2 (~18% restriction) is the inverse design (not the proposed residual H2H).",
+    "Literature anchor 3: Mann/Stout (PMID 33289482) shows ERα ablation completely attenuates 17α-E2 metabolic benefits; liver/hypothalamus implicated; no pair-feed/calorie-match arm in that study.",
+    "Critical evidence gap: No published study has abolished the calorie-intake/adiposity delta between 17α-E2 and vehicle in male mice and scored GTT/hepatic referees on the same panel (soft-complete Q1b tight pair-fed = 0; Q2 residual H2H = 0; Q3b Stout/Mann∩pair-fed indexed = 0).",
+    "Preferred execution path: secondary analysis of a published pair-feed-capable panel before new wet animal/human experiments.",
+    "Refutation criterion: GTT AUC improvement <50% of ad-lib vs vehicle delta under abolished intake/adiposity delta (with match-not-abolished, underpowered-strata, and assay-mismatch artifacts ruled out).",
+    "FTO status: UNKNOWN; IP class: caloric-match-insufficiency; kill cost tier 1; estimated time to refute: 4 weeks.",
+    "Document explicitly states this is distinct from L15 (DunedinPACE/Oh organ-age), L16 (tissue SA-β-gal/p16 vs blood under D+Q), L17 (intermittent-rapa FKBP-high tissue mTORC2), and is NOT NAD-after-senolysis."
+  ],
+  "document_date": null,
+  "milestones": []
+}

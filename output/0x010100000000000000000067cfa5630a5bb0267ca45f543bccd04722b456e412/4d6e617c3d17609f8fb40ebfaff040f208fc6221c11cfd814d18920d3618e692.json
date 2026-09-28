@@ -1,0 +1,82 @@
+{
+  "file_path": "/reports/2026-09-27/L19.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card L19) proposing a pre-registered male-mouse experiment to test whether acarbose's lifespan/healthspan benefits reduce to mere postprandial glucose-spike suppression. The core hypothesis is a \"glycemic-match-insufficiency assumption-kill\": if glycemic matching abolishes the postprandial glucose-excursion delta vs vehicle, do ITP metabolic healthspan or lifespan referees still move? The document is a research proposal/discussion at TRL 1–2, with no new experimental data generated; it synthesizes existing ITP literature and identifies a gap (no glycemic-match residual H2H study exists).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Classification",
+      "content": "Mol Labs public report, card L19. Status: NEGATIVE (status_label). Execution: NOT_RUN. Method: propose-assay. Risk class: research-discussion. Novelty tag: assumption-kill. Polarity: negative. Topic: biology-life-sciences / aging / longevity. The document is a research proposal framing a glycemic-match-insufficiency assumption-kill experiment for acarbose lifespan/healthspan in male mice."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim / Hypothesis",
+      "content": "On a pre-registered male-mouse panel with three arms — acarbose ad lib vs acarbose glycemic-matched (pair-glucose / postprandial glucose-profile match to vehicle) vs vehicle — locking the postprandial glucose-excursion delta to zero (abolished under the match arm vs ad lib vehicle), the primary referee is GTT AUC (units: min·mg/dL). The prediction: under that match lock, same-panel GTT AUC improvement vs vehicle retains ≥50% of the acarbose ad-lib vs vehicle GTT AUC improvement on the same panel. Optional co-readouts: glucose-refeeding response, ITT, fasting-refed glucose, hepatic or inflammatory markers. Lifespan is an optional long arm only. This would constitute an 'assumption-kill' of the hypothesis that acarbose lifespan/healthspan = mere postprandial glucose-spike suppression."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Why It Matters",
+      "content": "Acarbose lifespan/healthspan is often framed as mere postprandial glucose-spike suppression because ACA blunts glucose excursions vs vehicle. ITP male-preferential lifespan, late-start/dose-series, and rapa+ACA combo leave the residual under abolished glucose-excursion delta untested. L19 asks whether, once glycemic matching abolishes that glucose-excursion delta vs vehicle, male ITP metabolic healthspan or lifespan referees still move on the same panel. Distinct from L15 (DunedinPACE), L16 (tissue SA-β-gal/p16), L17 (intermittent-rapa FKBP), L18 (17α-E2 × caloric-match). Canagliflozin is adjacent SGLT2 ≠ ACA residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Glycemic-match-insufficiency assumption-kill rationale: ITP shows male-preferential ACA lifespan (Harrison) and late-start ACA longevity (Strong); Strong rapa+ACA combo lifespan benefits lack a glycemic-match / pair-glucose arm; Miller canagliflozin is adjacent SGLT2 male-lifespan contrast ≠ ACA residual H2H; Garratt male-specific GTT/mTORC2 under ACA does not abolish glucose-excursion delta by design. Preferred approach: secondary analysis of a published male ACA panel that can be re-stratified or re-matched so postprandial glucose-excursion delta vs vehicle is abolished and same-panel metabolic healthspan / lifespan referees are scored, OR a small paired male-mouse ACA ad lib vs ACA glycemic-matched-to-vehicle vs vehicle panel, before new animal/human dosing language."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Anchors",
+      "content": "Four key prior art references identified:\n1. PMID 24245565 (Harrison/ITP, Aging Cell 2014, DOI 10.1111/acel.12170, PMC3954939): Acarbose increased male median lifespan preferentially; female effect smaller; sexual dimorphism not explained simply by weight. Grounds male-preferential ACA lifespan prior. NOT glycemic-match residual H2H.\n2. PMID 27312235 (Strong/ITP, Aging Cell 2016, DOI 10.1111/acel.12496, PMC5013015): ACA at previously tested concentration significantly increased male median longevity and 90th-percentile lifespan in both sexes even when started at 16 months. Replicates/extends ACA lifespan incl. late-start. NOT glycemic-match residual metabolic/lifespan referees.\n3. PMID 36179270 (Strong/ITP, Aging Cell 2022, DOI 10.1111/acel.13724, PMC9741502): Rapamycin + acarbose combination lifespan benefits (started 9 or 16 months); no glycemic-match / pair-glucose arm. Combo lifespan prior ≠ glycemic-match residual H2H.\n4. PMID 32990681 (Miller/ITP, JCI Insight 2020, DOI 10.1172/jci.insight.140019, PMC7710304): Canagliflozin extended male median survival; improved glucose tolerance in both sexes; no female lifespan benefit. Adjacent SGLT2 male-lifespan contrast ≠ acarbose residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| ITP_male_preferential_ACA_lifespan | LITERATURE | ITP three-site; acarbose lifespan (Harrison 2014; Strong 2016 late-start) | ACA increased male median lifespan preferentially (PMID 24245565); ACA significantly increased male median longevity and 90th-percentile lifespan even started at 16 months (PMID 27312235) — grounds prior; NOT glycemic-match residual H2H |\n| Strong_rapa_ACA_combo_without_glycemic_match | LITERATURE | ITP UM-HET3; rapa+ACA started 9 or 16 months (Strong 2022) | Combo lifespan benefits; no glycemic-match arm (PMID 36179270) — combo prior ≠ glycemic-match residual H2H |\n| Miller_canagliflozin_adjacent_SGLT2_contrast | LITERATURE | ITP UM-HET3; canagliflozin from 7 months (Miller 2020) | Cana extended male median survival; improved glucose tolerance; no female lifespan benefit (PMID 32990681) — adjacent SGLT2 ≠ ACA residual H2H |\n| matched_ACA_glycemic_matched_to_vehicle_residual_lifespan_metabolic_H2H | UNKNOWN | Male ACA ad lib vs ACA glycemic-matched/pair-glucose to vehicle vs vehicle; GTT AUC / glucose-refeeding / ITT / hepatic-inflammatory ± optional lifespan | Dedicated ACA glycemic-matched residual H2H NOT FOUND (soft-complete Q1d mouse∩pair-fed/glycemic-match = 0; Q3b seed PMIDs∩match indexed = 0; PMC glycemic-match = 0 in seed ITP ACA papers; Garratt 28834262 NON-MATCH) — UNKNOWN + missing_search |\n| match_arm_GTT_AUC_retention_ge50pct_of_adlib_vs_vehicle | PREDICTION | Pre-registered male-mouse panel; abolished postprandial glucose-excursion delta; GTT AUC Δ vs vehicle scored against ACA ad-lib vs vehicle GTT AUC Δ | Under match lock, GTT AUC improvement vs vehicle retains ≥50% of ACA ad-lib vs vehicle GTT AUC improvement (units min·mg/dL; α/N pre-specified) — do not invent observed Δ or dosing |\n| competing_match_not_abolished_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes if match not actually abolishing delta, underpowered strata, or assay mismatch | Match-not-abolished / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Gap",
+      "content": "Known (LITERATURE): ITP male-preferential ACA lifespan (PMID 24245565; 27312235). Rapa+ACA combo without glycemic-match (PMID 36179270). Canagliflozin adjacent SGLT2 (PMID 32990681). UNKNOWN: Matched ACA glycemic-matched / pair-glucose to vehicle abolishing glucose-excursion delta with same-panel lifespan or metabolic healthspan referees still moving (soft-complete Q1d mouse∩pair-fed/glycemic-match = 0; Q3b seed PMIDs∩pair-fed/glycemic-match indexed = 0; PMC glycemic-match terms = 0 in seed ITP ACA papers; Garratt 28834262 GTT/mTORC2 NON-MATCH; optional 30688027 dose-series adjacent). PREDICTION: Match-arm GTT AUC improvement retains ≥50% of ad-lib ACA vs vehicle GTT AUC improvement."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L1–L18 as proving L19 — new parent area acarbose-glycemic-match; ITP ACA lifespan/combo layers are not matched residual H2H under abolished glucose-excursion delta; soft-complete empty ≠ demonstrated prediction-failure.\n2. ITP ACA papers (PMIDs 24245565; 27312235; optional 30688027) and rapa+ACA combo (36179270) lack glycemic-match design (PMC match terms = 0); Garratt GTT/mTORC2 (28834262) and canagliflozin (32990681) are adjacent NON-MATCH / SGLT2 contrast — leave residual under abolished glucose-excursion delta unbridged.\n3. L15 ≠ L19; L16 ≠ L19; L17 ≠ L19; L18 ≠ L19 (drug + glycemic vs caloric match); NAD/CD38 soft-complete NON-MATCH — NOT SERIES_FROZEN NAD-after-senolysis; reviews ≠ anchors; no dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered male-mouse panel where glycemic matching locks postprandial glucose-excursion delta abolished vs vehicle, same-panel GTT AUC improvement vs vehicle is <50% of the acarbose ad-lib vs vehicle GTT AUC improvement — so acarbose lifespan/healthspan DOES reduce to mere postprandial glucose-spike suppression under abolished glucose-excursion delta and the glycemic-match-insufficiency assumption-kill fails — when match-not-abolished, underpowered-strata, or assay-mismatch artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=2 · time_to_refute=6w · ip_class=glycemic-match-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. Related prior: ITP male-preferential ACA lifespan + late-start ACA + rapa+ACA combo without glycemic-match + canagliflozin adjacent SGLT2; L15–L18 ≠ proof."
+    }
+  ],
+  "key_findings": [
+    "No glycemic-match residual H2H study for acarbose exists in the literature (soft-complete Q1d mouse∩pair-fed/glycemic-match = 0; PMC glycemic-match terms = 0 in seed ITP ACA papers) — the core experimental gap this proposal addresses.",
+    "ITP male-preferential ACA lifespan is established (PMID 24245565, Harrison 2014; PMID 27312235, Strong 2016 late-start), but none of these studies include a glycemic-match / pair-glucose arm.",
+    "Rapa+ACA combination lifespan benefits (PMID 36179270, Strong 2022) also lack a glycemic-match arm, leaving the residual under abolished glucose-excursion delta untested.",
+    "Canagliflozin (SGLT2 inhibitor) extended male median survival in ITP (PMID 32990681, Miller 2020) but is a distinct mechanism and does not constitute an ACA glycemic-match residual H2H.",
+    "Garratt GTT/mTORC2 study (PMID 28834262) is adjacent but does not abolish glucose-excursion delta by design — NON-MATCH.",
+    "Prediction: Under glycemic match abolishing postprandial glucose-excursion delta, GTT AUC improvement vs vehicle will retain ≥50% of the ACA ad-lib vs vehicle GTT AUC improvement (units min·mg/dL; threshold pre-specified).",
+    "Execution status is NOT_RUN; FTO status is UNKNOWN; the proposal recommends secondary analysis of a published match-capable panel before new animal/human experiments.",
+    "Competing caveats pre-registered: match not actually abolishing glucose-excursion delta, underpowered strata, or referee-assay mismatch would leave the test inconclusive rather than refuted.",
+    "Kill cost tier = 2; estimated time to refute = 6 weeks; IP class = glycemic-match-insufficiency; vault hold = no."
+  ],
+  "document_date": null,
+  "milestones": []
+}

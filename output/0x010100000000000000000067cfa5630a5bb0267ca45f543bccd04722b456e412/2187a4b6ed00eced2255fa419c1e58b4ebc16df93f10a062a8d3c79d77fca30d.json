@@ -1,0 +1,98 @@
+{
+  "file_path": "/reports/2026-09-26/N13.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (N13) proposing an assay to test whether methylene blue (MB) under concurrent dual selective MAO-A inhibitor (clorgyline-class) + MAO-B inhibitor (selegiline/rasagiline-class) matches MB-alone rescue on a cytochrome oxidase (COX)-inhibitor amnestic retention assay. The document is a research-stage hypothesis/assay proposal with a negative status label, meaning the key experimental comparison (MB-under-dual vs MB-alone on COX-amnestic assay) has not been run. It synthesizes prior literature to frame the mechanistic question of whether MB's memory-rescue effect is MAO-driven or redox/COX-driven.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Card N13 from Mol Labs hypothesis-swarm. STATUS_LABEL: NEGATIVE. Policy: PUBLIC_REPORT_ONLY. Tags: nootropics, brain-longevity. Risk class: research-discussion. Polarity: negative. Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: redox-vs-MAO. Vault hold: no. Document date: 2026-09-26."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis",
+      "content": "On a pre-registered cytochrome-oxidase (COX)-inhibitor amnestic retention assay where parent methylene blue (MB) restores memory, MB under concurrent dual selective MAO-A inhibitor (clorgyline-class) + selective MAO-B inhibitor (selegiline/rasagiline-class) matches MB-alone rescue — retention Δ >70% of MB-alone (or inside a pre-registered MB-equivalence band). This is a PREDICTION; the experiment has NOT been run."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "The core mechanistic question is redox-vs-MAO for MB's memory rescue on the COX-amnestic/metabolic-memory class. MB restores retention after COX inhibition and is a preferential reversible MAO-A inhibitor. Selective MAO-A (clorgyline-class) and MAO-B (rasagiline/selegiline-class) tools exist, but no published MB-under-dual COX-amnestic retention head-to-head (H2H) vs MB-alone exists. N12 (dual-alone failure) left open the occupancy-subtraction escape: concurrent dual MAOI could still subtract MB rescue. N13 is designed to close that escape using the same assay with an MB-alone positive-control arm. Competing caveat: underperformance of MB+dual vs MB-alone could reflect off-target/PK interaction rather than MAO occupancy."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Baseline",
+      "content": "Four key literature references are cited:\n1. PMID 12384216 (DOI 10.1016/s0304-3940(02)00827-3) — Callaway/Gonzalez-Lima: low-dose MB restores spatial memory retention impaired by a cytochrome oxidase inhibitor. No MB-under-dual selective MAOI arm.\n2. PMID 21087672 (DOI 10.1016/j.neuroimage.2010.11.023; PMC3026638) — MB beneficial network effects in an amnestic model (metabolic/network framing). No MB-under-dual selective MAOI arm.\n3. PMID 17721552 (DOI 10.1038/sj.bjp.0707430; PMC2078225) — Ramsay 2007: MB potent reversible preferential MAO-A inhibition (serotonin-toxicity prediction). Enzyme/isoform prior, not MB-under-dual COX-amnestic H2H.\n4. PMID 26142126 (DOI 10.1016/j.neurobiolaging.2015.05.009) — Weinreb 2015: rasagiline (selective MAO-B-i) improves cognitive deficits and related cascades in aged mice. MAO-B tool prior, not MB-under-dual COX-amnestic retention vs MB-alone."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| MB_COX_amnestic_spatial_retention_rescue | LITERATURE | Low-dose MB restores spatial memory retention after COX inhibitor (Callaway 2002) | MB restores retention (PMID 12384216) — no MB-under-dual selective MAOI comparator |\n| MB_amnestic_network_effects | LITERATURE | MB beneficial network effects in amnestic model (Rojas/Gonzalez-Lima 2011) | Metabolic/network framing (PMID 21087672) — no MB-under-dual selective MAOI arm |\n| MB_preferential_MAO_A_inhibition | LITERATURE | MB potent reversible preferential MAO-A inhibition (Ramsay 2007) | Enzyme/isoform prior (PMID 17721552) — not COX-amnestic H2H; no KD invented |\n| rasagiline_selective_MAO_B_tool_prior | LITERATURE | Rasagiline improves cognitive deficits in aged mice (Weinreb 2015) | Selective MAO-B tool prior (PMID 26142126) — not MB-under-dual COX-amnestic retention vs MB-alone |\n| same_COX_amnestic_MB_under_dual_selective_MAOI_vs_MB_alone_panel | UNKNOWN | Same COX-inhibitor amnestic/retention panel — MB + concurrent dual selective MAO-A-i + MAO-B-i vs MB-alone | Dedicated MB-under-dual vs MB-alone COX-amnestic rescue panel NOT FOUND (soft-complete 0) — UNKNOWN |\n| MB_under_dual_matches_MB_alone_on_COX_amnestic_rescue | PREDICTION | Pre-registered COX-inhibitor amnestic spatial or discrimination retention; MB + clorgyline-class + selegiline/rasagiline-class vs MB-alone | MB+dual retention Δ >70% of MB-alone (or inside pre-registered MB-equivalence band); α/N pre-specified — do not invent observed Δ or dosing |\n| competing_dual_occupancy_or_PK_subtracts_MB_rescue | PREDICTION | Same design; falsifier path if MB+dual underperforms MB-alone once MAO-A/B occupancy/brain exposure is matched | Occupancy-matched subtraction/PK-matched underperformance allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Relationship to Prior Cards (N5–N12)",
+      "content": "N13 is explicitly distinct from prior cards: N12 (dual-alone failure, left occupancy-subtraction escape open), N10/N11 (single arms, never co-dosed MB under MAOI), N5 (MAO-A generic working memory, A-biased), N8 (Azure B metabolite arm), N9 (redox-dead arm). None of N5–N12 ran MB-under-dual selective MAOI on the COX-amnestic assay. Soft-complete for MB∩dual selective MAOI∩COX-amnestic = 0."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Caveats",
+      "content": "1. N5–N12 do not prove N13: N12 dual-alone failure ≠ MB-under-dual preservation; N10/N11 single arms never co-dosed MB under MAOI; N5 was A-biased/generic WM; N8/N9 ran metabolite/redox-dead arms; soft-complete empty ≠ demonstrated MB-under-dual match on COX-amnestic.\n2. MAO IC50 ≠ brain rescue PD: Ramsay is preferential MAO-A enzyme inhibition; Weinreb 26142126 is aged-cognition/cascades; clorgyline 26825854 is monoamine/affective HD — none is MB + dual selective MAOI on COX-amnestic retention vs MB-alone.\n3. Occupancy-subtraction escape + occupancy matching: do not collapse N12 into MB-under-dual proof; underperformance of MB+dual vs MB-alone could be PK/off-target rather than MAO occupancy; assay MAO-A/B occupancy/monoamine readout without a dosing card; use same COX-inhibitor amnestic class where parent MB restores, with MB-alone as positive control. No dosing invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Method and Refutation Criteria",
+      "content": "Method: propose-assay (NOT_RUN). Refutation criterion: On the pre-registered COX-inhibitor amnestic retention assay, MB under concurrent dual selective MAO-A-i + MAO-B-i fails to match MB-alone (retention Δ ≤70% of MB-alone or outside the MB-equivalence band) — especially under exposure/MAO-A/B-occupancy-matched conditions — so MAO-occupancy necessity for MB metabolic-memory rescue survives and redox-only framing fails. Ablation analysis identifies three critical design elements: (1) behavioral H2H on Gonzalez-Lima class assay with MB-alone arm, (2) concurrent dual selective MAO-A + MAO-B identity co-dosed with parent MB, (3) N5–N12≠proof discipline."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1 (cheap). Time to refute: 4 weeks. IP class: redox-vs-MAO. Vault hold: no. The assay is proposed but has not been conducted. No dosing card exists. No observed quantitative results are available."
+    }
+  ],
+  "key_findings": [
+    "Experiment N13 has NOT been run (execution_status=NOT_RUN); all quantitative outcomes are PREDICTIONS, not observed data.",
+    "The key experimental gap: no published or internal study has tested MB under concurrent dual selective MAO-A-i (clorgyline-class) + MAO-B-i (selegiline/rasagiline-class) vs MB-alone on a COX-inhibitor amnestic retention assay (soft-complete = 0).",
+    "Literature confirms MB restores spatial memory retention after COX inhibition (PMID 12384216) and has beneficial network effects in amnestic models (PMID 21087672).",
+    "MB is a potent reversible preferential MAO-A inhibitor (PMID 17721552, Ramsay 2007), creating the mechanistic ambiguity: is MB's memory rescue MAO-driven or redox/COX-driven?",
+    "Rasagiline is validated as a selective MAO-B tool with cognitive effects in aged mice (PMID 26142126, Weinreb 2015).",
+    "N12 (dual-alone failure) left the occupancy-subtraction escape open — N13 is designed to close it by co-dosing MB with dual MAOI and comparing to MB-alone.",
+    "Predicted threshold: MB+dual retention Δ >70% of MB-alone (or inside pre-registered MB-equivalence band) would support redox/COX framing over MAO-occupancy framing.",
+    "STATUS_LABEL is NEGATIVE, indicating the hypothesis is not yet supported by experimental evidence.",
+    "Kill cost tier = 1; estimated time to refute = 4 weeks, indicating this is a low-cost, short-timeline proposed experiment.",
+    "FTO status is UNKNOWN for the redox-vs-MAO IP class."
+  ],
+  "document_date": "2026-09-26",
+  "milestones": [
+    {
+      "title": "N13 Assay Proposed (NOT_RUN)",
+      "description": "Hypothesis card N13 formally proposed as an assay to test MB under concurrent dual selective MAO-A-i + MAO-B-i vs MB-alone on a COX-inhibitor amnestic retention assay. Execution status is NOT_RUN as of document date.",
+      "date": "2026-09-26",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=N5–N12",
+      "page": 1
+    },
+    {
+      "title": "Estimated Time to Refute",
+      "description": "The proposed assay is estimated to take 4 weeks to refute (kill cost tier 1), suggesting a planned experimental timeline of approximately 4 weeks from initiation.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=redox-vs-MAO · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

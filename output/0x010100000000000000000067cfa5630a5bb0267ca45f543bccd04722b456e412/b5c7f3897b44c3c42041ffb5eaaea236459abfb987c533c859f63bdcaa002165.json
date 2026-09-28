@@ -1,0 +1,92 @@
+{
+  "file_path": "/reports/2026-09-26/L15.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (L15) proposing an assumption-kill experiment to test whether DunedinPACE slowing without concurrent GrimAge improvement fails to predict Oh plasma proteomic brain and immune organ-age benefit on the CALERIE phase-2 caloric restriction arm. The document is a hypothesis/proposal at TRL 1–2, with no new experimental data generated; it synthesizes existing literature (CALERIE RCT, Oh organ-age proteomics) and identifies a matched head-to-head multi-clock × organ-age panel as currently UNKNOWN. The predicted outcome is negative (DunedinPACE-alone does not predict organ-age benefit when GrimAge is flat).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim and Research Question",
+      "content": "The central claim (L15) is: On the CALERIE phase-2 caloric-restriction (CR) arm, DunedinPACE slowing without concurrent GrimAge improvement fails to predict Oh plasma proteomic brain+immune organ-age benefit. Pre-registered Δ organ-age_brain and Δ organ-age_immune among DunedinPACE improvers with GrimAge inside a flat band are predicted to fall inside a null-benefit band. This is framed as an 'assumption-kill' of the claim that 'DunedinPACE-alone predicts organ-age benefit when GrimAge is flat.' Status: PREDICTION (not yet run). Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Longevity trial and consumer framing often treat DunedinPACE slowing as a stand-alone success signal even when GrimAge is flat. L15 is distinct from L4 (clock Δ without VO₂/muscle/organ-age as insufficient healthspan endpoint): L15 specifically addresses within-DNAm discordance (DunedinPACE− / GrimAge flat) adjudicated by an Oh proteomic brain+immune organ-age referee. CALERIE already shows within-DNAm discordance without Oh organ-age; Oh organ ages do not co-index DunedinPACE/GrimAge in PubMed overlap."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch / Experimental Design",
+      "content": "Proposed method: Multi-clock-discordance analysis on the CALERIE phase-2 CR arm. Steps: (1) Stratify subjects with verified DunedinPACE improvement by whether GrimAge co-moves. (2) Score Oh plasma proteomic brain and immune organ-age Δ as secondary overlay/co-measure on the same arm. (3) Prefer secondary analysis of existing public trial arm (DNAm clocks on-arm; Oh organ ages overlay) before new wet assay or animal/human dosing. Key construct distinctions: DunedinPACE = blood DNAm pace-of-aging algorithm; GrimAge = blood DNAm lifespan/healthspan composite (DNAm surrogates of plasma proteins + smoking pack-years); Oh organ ages = plasma proteomic organ-of-origin models — fundamentally different constructs from blood DNAm. Method type: propose-assay."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Anchors",
+      "content": "Four key literature anchors cited:\n1. PMID 35029144 (Belsky 2022, eLife, DOI 10.7554/eLife.73420): DunedinPACE blood DNAm pace-of-aging biomarker; associates with morbidity/disability/mortality; intervention-responsive. Not an Oh organ-age referee.\n2. PMID 30669119 (Lu 2019, Aging, DOI 10.18632/aging.101684): DNAm GrimAge predicts lifespan/healthspan and incident disease. GrimAge co-movement axis; flat GrimAge is the within-DNAm discordance pole for L15.\n3. PMID 37118425 (Waziry 2023, Nature Aging, DOI 10.1038/s43587-022-00357-y): CALERIE RCT — CR slowed DunedinPACE; did not significantly change GrimAge/PhenoAge; authors defer conclusive geroscience test to disease/mortality. Within-DNAm discordance prior on same arm, not Oh organ-age H2H.\n4. PMID 38057571 (Oh 2023, Nature, DOI 10.1038/s41586-023-06802-1): Plasma proteomic organ ages (11 organs) track health/disease; organ age confers mortality and organ-specific risk. Brain/immune referee construct; does not report DunedinPACE/GrimAge co-panel.\nOptional: PMID 40634782 (Oh 2025, UKB-scale brain+immune enrichment) — strengthens referee construct but does not co-index DunedinPACE/GrimAge."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| DunedinPACE_pace_biomarker | LITERATURE | Blood DNAm DunedinPACE (Belsky 2022) | Associates with morbidity/disability/mortality; intervention-responsive (PMID 35029144) — not Oh organ-age referee |\n| GrimAge_lifespan_healthspan_composite | LITERATURE | Blood DNAm GrimAge (Lu 2019) | Predicts lifespan/healthspan and incident disease (PMID 30669119) — co-movement axis for L15 discordance |\n| CALERIE_within_DNAm_discordance | LITERATURE | CALERIE RCT post hoc blood DNAm CR vs ad libitum (Waziry 2023) | CR slowed DunedinPACE; GrimAge/PhenoAge not significantly changed — within-DNAm discordance prior, not Oh organ-age referee (PMID 37118425) |\n| Oh_proteomic_organ_ages_brain_immune | LITERATURE | Plasma proteomic organ ages (Oh 2023); optional UKB-scale brain+immune enrichment (Oh 2025) | Organ ages track health/disease and confer organ-specific risk (PMID 38057571; optional PMID 40634782) — referee construct; no DunedinPACE/GrimAge co-panel |\n| matched_multi_clock_Oh_organ_age_H2H_panel | UNKNOWN | CALERIE phase-2 CR arm with blood DNAm DunedinPACE + GrimAge and plasma proteomic Oh brain+immune organ-age (secondary overlay); stratify DunedinPACE improvers by GrimAge co-movement; score organ-age Δ | Dedicated DunedinPACE-without-GrimAge × Oh brain+immune organ-age prediction panel not found (soft-complete DunedinPACE∩GrimAge∩organ-age = 0; Oh∩methylation = 0; adjacent MRI/review/DO-HEALTH non-matches) — UNKNOWN |\n| DunedinPACE_without_GrimAge_fails_Oh_brain_immune_referee | PREDICTION | Pre-registered CALERIE phase-2 CR arm (Oh organ-age secondary overlay); verified DunedinPACE improvement; GrimAge flat vs co-mover strata; Oh brain and immune organ-age Δ readout | Among DunedinPACE improvers with GrimAge Δ inside pre-registered flat band, Δ organ-age_brain and Δ organ-age_immune each fall inside pre-registered null-benefit band — DunedinPACE− without GrimAge co-movement fails Oh brain+immune referee |\n| competing_pace_alone_suffices_or_assay_definition_artifact | PREDICTION | Same design; competing outcomes if DunedinPACE improvers with flat GrimAge show Oh brain and/or immune organ-age benefit outside null-benefit band | Pace-alone-suffices / missing-Oh-measures / underpowered-strata / construct-mismatch artifact allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. L1–L14 do not prove L15 — L4 asked clock Δ without VO₂/muscle/organ-age as insufficient endpoint; L4 soft-complete DunedinPACE/GrimAge ∩ organ-age = 0 is prior emptiness, not matched H2H adjudication; soft-complete empty ≠ demonstrated prediction-failure.\n2. CALERIE discordance ≠ organ-age prediction failure — PMID 37118425 shows DunedinPACE− / GrimAge flat but does not measure Oh brain+immune organ-age Δ on the same arm.\n3. Construct mismatch + adjacent non-matches — blood DNAm ≠ plasma proteomic organ-of-origin; DunedinPACE×MRI brain structure (e.g. PMID 38301452) ≠ Oh proteomic organ-age; reviews ≠ anchors; L4 ≠ L15; no dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis / Critical Dependencies",
+      "content": "Three critical ablations identified:\n1. Remove CALERIE phase-2 CR-arm H2H stratification of DunedinPACE improvers by GrimAge co-movement with Oh brain+immune organ-age Δ: Without multi-clock × Oh organ-age residual readout, solo-clock LITERATURE and CALERIE within-DNAm discordance cannot show DunedinPACE− without GrimAge fails the organ-age referee.\n2. Remove Oh plasma proteomic brain+immune organ-age as adjudication referee: Without the Oh proteomic referee, the card collapses into L4-style clock-without-function or DunedinPACE×MRI adjacent framing and loses the within-DNAm×organ-age H2H.\n3. Remove L4≠this + CALERIE-discordance≠organ-age-failure + soft-complete-empty≠failure + MRI≠Oh-proteomic + L1–L14≠proof discipline: Treating L4, CALERIE within-DNAm discordance, empty PubMed, or MRI brain-structure hits as already deciding multi-clock×Oh prediction-failure would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and IP/Execution Metadata",
+      "content": "Refute if: On the pre-registered CALERIE phase-2 CR-arm multi-clock × Oh organ-age panel, DunedinPACE improvers with GrimAge inside the flat band show Δ organ-age_brain and/or Δ organ-age_immune outside the pre-registered null-benefit band (DunedinPACE− without GrimAge DOES predict Oh brain+immune organ-age benefit / pace-alone suffices on the referee) when sample and assay-definition artifacts are ruled out.\n\nIP/Execution metadata:\n- kill_cost_tier: 1\n- time_to_refute: 4 weeks\n- ip_class: multi-clock-discordance\n- vault_hold: no\n- execution_status: NOT_RUN\n- fto_status: UNKNOWN\n- related_prior: L4 (clock-without-function ≠ within-DNAm DunedinPACE−/GrimAge-flat × Oh brain+immune organ-age referee; L1–L14 ≠ proof)\n- Status label: NEGATIVE\n- Polarity: negative\n- Novelty tag: assumption-kill"
+    }
+  ],
+  "key_findings": [
+    "L15 is a TRL 1 hypothesis/proposal (NOT_RUN); no new experimental data have been generated.",
+    "Central prediction (NEGATIVE polarity): DunedinPACE slowing without concurrent GrimAge improvement fails to predict Oh plasma proteomic brain+immune organ-age benefit on the CALERIE phase-2 CR arm.",
+    "CALERIE RCT (PMID 37118425, Waziry 2023) already demonstrates within-DNAm discordance: CR slowed DunedinPACE but did not significantly change GrimAge/PhenoAge — this is the empirical prior, but Oh organ-age was NOT measured on the same arm.",
+    "The matched multi-clock × Oh organ-age H2H panel (DunedinPACE∩GrimAge∩Oh brain+immune organ-age) is classified as UNKNOWN — soft-complete search found zero co-indexed studies.",
+    "Oh 2023 (PMID 38057571) established plasma proteomic organ ages (11 organs) tracking health/disease and mortality, but does not report DunedinPACE/GrimAge co-panel — the referee construct exists but has not been applied to CALERIE.",
+    "Key construct distinction: DunedinPACE and GrimAge are blood DNAm-based; Oh organ ages are plasma proteomic organ-of-origin models — fundamentally different measurement modalities.",
+    "Proposed method is secondary analysis of existing public trial arm (CALERIE phase-2), not new wet assay or animal/human dosing — estimated kill cost tier 1, time to refute ~4 weeks.",
+    "Adjacent DunedinPACE×MRI brain-structure associations (e.g. PMID 38301452) are explicitly noted as NOT equivalent to Oh proteomic organ-age adjudication.",
+    "Competing outcome pre-registered: pace-alone-suffices / missing-Oh-measures / underpowered-strata / construct-mismatch artifact are allowed as inconclusive (not refutation) outcomes.",
+    "FTO status: UNKNOWN; IP class: multi-clock-discordance; vault_hold: no."
+  ],
+  "document_date": "2026-09-26",
+  "milestones": [
+    {
+      "title": "Mol Labs L15 Card Amended",
+      "description": "The L15 hypothesis card was formally amended/published as a Mol Labs public report on this date.",
+      "date": "2026-09-26",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Amended 2026-09-26",
+      "page": 1
+    },
+    {
+      "title": "L15 Experiment Execution",
+      "description": "Secondary analysis of CALERIE phase-2 CR arm: stratify DunedinPACE improvers by GrimAge co-movement and score Oh plasma proteomic brain+immune organ-age Δ as secondary overlay. Estimated time to refute: 4 weeks from initiation.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=multi-clock-discordance · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

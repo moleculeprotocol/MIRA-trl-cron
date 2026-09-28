@@ -1,0 +1,89 @@
+{
+  "file_path": "/reports/2026-09-25/P2.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a structured research prediction card (P2) proposing that MOTS-c–driven changes in pAMPK (Thr172) and pACC (Ser79) covary with one-carbon/folate status rather than AMP/ATP energy charge, positioning this covariation as a novel biomarker bridge. The claim is explicitly labeled as a PREDICTION, not yet experimentally validated, and is grounded in published literature (primarily Lee 2015, PMID 25738459) with key variables remaining unmeasured. The document is a research-discussion artifact at TRL 1–2, proposing an assay to test an unvalidated hypothesis.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Document ID: P2. Status: PREDICTION. Polarity: positive. Lane: peptides. Risk class: research-discussion. Novelty: biomarker-bridge. Method: propose-assay. Swarm ID: P2. OpenLabs target: claim. Mol Labs: PUBLIC_REPORT_ONLY (private vault skipped). This is explicitly a prediction/proposal, not a completed experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim",
+      "content": "MOTS-c–driven ΔpAMPK (Thr172) and ΔpACC (Ser79) covary with one-carbon/folate status under matched energy charge, so the AMPK response is a folate-status biomarker bridge rather than an AMP/ATP energy-charge story. This challenges the popular framing of MOTS-c as a classical AMPK energy-charge activator."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale and Gap Analysis",
+      "content": "Lee 2015 (PMID 25738459) already demonstrates AMPK/pACC upregulation with AMP down and ATP up via folate–AICAR, so the AICAR mechanism is established literature. The open, shippable gap is whether host folate status predicts the magnitude of ΔpAMPK/ΔpACC — a biomarker claim. Folate supplementation reverses the enhanced glycolytic phenotype in MOTS-c models, but whether the same titration scales ΔpACC/ΔpAMPK is unquantified. AMPK KD/inhibitors only partially blunt MOTS-c metabolic effects, suggesting folate covariation may be incomplete."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Proposed mechanism: MOTS-c inhibits the folate–methionine cycle and de novo purine synthesis → AICAR accumulates (>20-fold per Lee 2015) → AMPKα Thr172 and ACC Ser79 phosphorylation rise even while AMP falls and ATP rises. This decouples AMPK activation from classical energy charge (AMP/ATP ratio)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| AICAR_fold_MOTSc | LITERATURE | MS AICAR in MOTS-c models (Lee 2015) | AICAR >20-fold (PMID 25738459) |\n| AMP_down_ATP_up_with_AMPK_on | LITERATURE | Nucleotide ratios with pAMPK/pACC | AMP ↓ ATP ↑ while AMPK active |\n| pAMPK_Thr172_pACC_Ser79_up | LITERATURE | Western after MOTS-c | phosphorylation increased |\n| folate_rescue_glycolysis | LITERATURE | Folate media vs MOTS-c glycolysis | phenotype reversed |\n| folate_rescue_pACC | UNKNOWN | Folate titration on ΔpACC/ΔpAMPK | not quantified |\n| r_delta_pACC_folate_status | PREDICTION | Covariation under matched AMP/ATP | unmeasured — do not invent r/ρ |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claims vs. Measured Evidence",
+      "content": "Baseline claimed (popular shorthand): MOTS-c activates AMPK via classical energy charge (↑AMP/ATP → AMPK → pACC). Baseline measured from Lee 2015: pAMPK Thr172/pACC Ser79 ↑ (LITERATURE); AICAR >20-fold (LITERATURE); AMP ↓/ATP ↑ with AMPK on (LITERATURE); folate supplement reverses glycolysis (LITERATURE). Key unknowns: folate supplement reverses pACC (UNKNOWN); r(ΔpACC, folate status) (PREDICTION — unmeasured); human folate-status × MOTS-c pACC study (UNKNOWN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Mechanism shown; folate-status covariation of ΔpAMPK/ΔpACC not measured — keep r UNKNOWN.\n2. Folate rescue quantified on glycolysis, not explicitly on pACC/pAMPK titration.\n3. AMPK only partially required — folate bridge may not capture full MOTS-c effect."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Key References",
+      "content": "1. PMID 25738459 / DOI 10.1016/j.cmet.2015.02.009 / PMC4350682 — Lee 2015: MOTS-c ↓5Me-THF/methionine, AICAR >20-fold, pAMPK/pACC ↑ with AMP↓ ATP↑; folate supplement reverses glycolysis.\n2. PMID 27216708 / PMC5116416 — Review restating muscle/fat folate–AICAR–AMPK framing.\n3. PMID 23540700 / DOI 10.1016/j.cell.2013.02.035 / PMC3898468 — Metformin one-carbon/folate–methionine analogy (adjacent class logic).\n4. PMID 36670507 / DOI 10.1186/s12967-023-03885-2 — Recent mechanism review of MOTS-c metabolic path."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation and Refutation Criteria",
+      "content": "Ablate conditions: (1) Remove folate-status/one-carbon stratification of ΔpAMPK/ΔpACC → card only restates Lee's AICAR–AMPK mechanism (already LITERATURE). (2) Remove matched energy-charge (AMP/ATP) control → folate effect confounded by nucleotide shifts. (3) Remove pACC Ser79/pAMPK Thr172 as primary readouts → glycolysis rescue alone is already LITERATURE.\n\nRefutation criterion: Under matched AMP/ATP, a pre-registered folate titration or baseline folate stratification shows no association between folate/5Me-THF status and MOTS-c–induced ΔpACC Ser79 (and ΔpAMPK Thr172) — null covariation at the pre-registered α."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Ask a Human)",
+      "content": "Preferred experimental design: explicit pACC/pAMPK Westerns across a folate titration with nucleotide-matched panels before claiming a numeric r. Explicit warning: do not backfill r from Lee's glycolysis rescue. Peer review requested. Assay type: propose-assay (not yet executed)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Honesty and Risk Disclaimers",
+      "content": "Risk class: research-discussion. Honesty statement: Literature/computational prediction for research discussion only. Not medical advice. Not a dosing or treatment recommendation. Peer review invited."
+    }
+  ],
+  "key_findings": [
+    "Document is explicitly labeled PREDICTION/STATUS: PREDICTION — no new experiments have been conducted; this is a hypothesis proposal at TRL 1.",
+    "Core claim: MOTS-c–driven ΔpAMPK (Thr172) and ΔpACC (Ser79) covary with one-carbon/folate status under matched energy charge, not with AMP/ATP ratio — proposed as a novel biomarker bridge.",
+    "Key supporting literature (Lee 2015, PMID 25738459): AICAR >20-fold increase, pAMPK/pACC ↑, AMP ↓, ATP ↑ in MOTS-c models; folate supplementation reverses glycolytic phenotype — all LITERATURE-grade evidence.",
+    "Critical gap: folate-status covariation of ΔpAMPK/ΔpACC is explicitly UNKNOWN/UNMEASURED; r(ΔpACC, folate status) is labeled PREDICTION with instruction not to invent a numeric value.",
+    "Folate rescue of pACC/pAMPK phosphorylation (as distinct from glycolysis rescue) has not been quantified — key missing experiment.",
+    "AMPK KD/inhibitors only partially blunt MOTS-c metabolic effects, indicating the folate–AMPK bridge may not account for the full mechanism.",
+    "Proposed assay: pACC/pAMPK Westerns across a folate titration with nucleotide-matched panels — not yet executed.",
+    "Refutation criterion is pre-specified: null covariation between folate/5Me-THF status and ΔpACC Ser79 under matched AMP/ATP at pre-registered α would refute the claim.",
+    "No human clinical data, no animal model data, no in vitro experimental data generated by this project — all evidence is from cited external literature.",
+    "Risk class: research-discussion; not medical advice or treatment recommendation."
+  ],
+  "document_date": null,
+  "milestones": []
+}

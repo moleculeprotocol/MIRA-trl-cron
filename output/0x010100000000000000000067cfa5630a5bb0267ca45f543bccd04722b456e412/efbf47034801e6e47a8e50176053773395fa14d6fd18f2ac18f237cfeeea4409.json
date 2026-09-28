@@ -1,0 +1,90 @@
+{
+  "file_path": "/reports/2026-09-26/L11.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a hypothesis card (L11) from a longevity research project proposing that after senescent-cell/SASP clearance, the absolute residual tissue ΔNAD from a matched CD38 inhibitor pulse shrinks while the fractional residual ΔNAD (normalized to post-clearance baseline) does not. The card is a pre-registered research proposal at TRL 1 (concept/hypothesis stage), with no experimental data yet generated. It synthesizes prior literature on the CD38–NAD axis and SASP-driven NAD depletion to motivate a proposed dual-readout assay.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "After documented senescent-cell/SASP clearance, absolute residual tissue ΔNAD from a matched CD38-inhibitor pulse (e.g., 78c-class) shrinks versus the same pulse without clearance run-in, while fractional residual ΔNAD (normalized to the post-clearance baseline NAD) does not shrink. Pre-registered dual readout: absolute_residual_after < absolute_residual_control outside a no-shrink band AND fractional_residual_after within a hold band of fractional_residual_control. No precursor arm required."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "Subtract-before-add logic: clear SASP-driven CD38+ macrophage load first, then pulse a matched CD38 inhibitor and score both absolute residual ΔNAD and fractional residual ΔNAD vs. the post-clearance baseline. Key mechanistic links: (1) CD38 gates age-related NAD decline and NMN fate; (2) SASP induces CD38-high macrophages that drain tissue NAD; (3) senescent/SASP ablation lowers CD38 and partially restores NAD; (4) ecto-CD38 block raises NAD via an NMN-dependent route; (5) 78c-class CD38i improves aged-mouse healthspan as monotherapy. The competing story is a 'rebound artifact': after clearance, baseline NAD already rises, so absolute ΔNAD from a fixed CD38i pulse can shrink while fractional salvage holds — this dissociation is the core claim and is not yet measured."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key prior art references cited:\n1. PMID 27304511 (Camacho-Pereira 2016, Cell Metab): Age-related NAD decline requires CD38; CD38 gates NMN fate in vivo. Establishes CD38–NAD axis prior for residual CD38i assays.\n2. PMID 33199924 (Covarrubias 2020, Nat Metab): SASP induces CD38-high macrophages that reduce tissue NAD. Provides subtract-before-add motivation; incomplete clearance can still respond to CD38i.\n3. PMID 33199925 (Chini 2020, Nat Metab): Senescent/SASP ablation ↓CD38 and partially restores NAD; ecto-CD38 block raises NAD via NMN-dependent process. Rebound-definition prior, not a dual CD38i residual panel.\n4. PMID 35263032 (Tarragó 2022, Aging Cell): CD38i 78c increases lifespan/healthspan in chronological aging. Monotherapy tool prior, not an absolute-vs-fractional CD38i ± senolysis residual panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| CD38_gates_age_NAD_and_NMN | LITERATURE | Aging NAD metabolome vs CD38; NMN fate (Camacho-Pereira 2016) | Age NAD↓ requires CD38; gates NMN fate (PMID 27304511) |\n| SASP_CD38_macrophage_NAD_drain | LITERATURE | Senescent/SASP-conditioned macrophage CD38 and tissue NAD (Covarrubias 2020) | SASP induces CD38-high macrophages that reduce tissue NAD (PMID 33199924) |\n| clearance_CD38_drop_NAD_rebound_ecto_NMN_dependent | LITERATURE | Senescent/SASP ablation → CD38↓ + partial NAD↑; ecto-CD38 block NAD boost (Chini 2020) | CD38↓ with partial NAD recovery; ecto-block raises NAD via NMN-dependent route (PMID 33199925) — rebound prior, not dual CD38i residual panel |\n| CD38i_78c_aged_mouse_monotherapy | LITERATURE | Chronological-aging 78c survival/healthspan (Tarragó 2022) | Lifespan/healthspan class effect as monotherapy — not absolute-vs-fractional CD38i ± senolysis panel (PMID 35263032) |\n| dual_absolute_fractional_residual_CD38i_panel | UNKNOWN | Matched CD38i pulse (78c-class) ± senolytic/SASP-ablation run-in; report absolute residual ΔNAD and fractional residual ΔNAD vs post-clearance baseline; tissue NAD ± CD38 activity | Dedicated dual absolute/fractional CD38i residual panel not found (soft-complete CD38i∩senolytic∩(absolute|fractional)∩NAD = 0) — UNKNOWN |\n| absolute_shrink_with_fractional_hold_CD38i | PREDICTION | Pre-registered aged tissue or SASP-conditioned system; vehicle vs senolytic/SASP run-in → matched CD38i pulse; dual residual readout | absolute_residual_after < absolute_residual_control outside pre-registered no-shrink band AND fractional_residual_after within pre-registered hold band of fractional_residual_control |\n| competing_both_shrink_or_neither_or_incomplete_clearance | PREDICTION | Same design; falsifier outcomes | Both-shrink / neither-shrink / reverse dissociation / incomplete-clearance / assay-definition failure allowed as pre-registered competing outcomes |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs. Baseline Measured",
+      "content": "Baseline claimed: After senolysis, absolute CD38i residual ΔNAD shrinks while fractional (post-clearance–normalized) residual does not — or L5–L10 ranking/shrink/precursor-dual/stack cards already settle absolute-vs-fractional dual readout on the CD38i lever.\n\nBaseline measured:\n- CD38 gates age NAD / NMN fate: LITERATURE (PMID 27304511)\n- SASP→CD38+ macrophages→tissue NAD↓: LITERATURE (PMID 33199924)\n- Clearance ↓CD38 + partial NAD rebound; ecto-block NMN-dependent: LITERATURE (PMID 33199925)\n- 78c aged-mouse benefit: LITERATURE monotherapy (PMID 35263032)\n- Dual absolute + fractional residual CD38i panel after senolysis: UNKNOWN (soft-complete search CD38i∩senolytic∩(absolute|fractional)∩NAD = 0)\n- Absolute shrink + fractional hold: PREDICTION\n- L5–L10 do not already prove this — L7 left fractional untested; L10 dual was precursor-only."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat L5–L10 as proving L11 — ranking/CD38i absolute shrink/precursor dual/stack cards never scored absolute and fractional residual together on the CD38i lever; soft-complete empty ≠ demonstrated dual pattern.\n2. Rebound artifact is the competing story — after clearance baseline NAD already rises; absolute Δ can shrink while fractional salvage holds; that dissociation must be measured, not inferred from absolute-only shrink (L7 lim 4).\n3. Incomplete clearance (residual CD38+ macrophages) and Chini clearance/78c monotherapy are not dual residual panels — both absolute and fractional may move for target-load reasons, not baseline math alone; L10 ≠ L11 (precursor dual left CD38i arm open)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Method / Assay Design",
+      "content": "Method type: propose-assay. Design: Matched CD38i pulse (78c-class) ± senolytic/SASP-ablation run-in in aged tissue (WAT/liver suggested). Clearance verification required: CD38 activity + SC/SASP marker confirmation. Readouts: (1) absolute residual ΔNAD and (2) fractional residual ΔNAD normalized to post-clearance baseline. Pre-registered thresholds for no-shrink band and hold band with α/N pre-specified. Falsification criteria: absolute residual does not shrink outside no-shrink band, or fractional residual shrinks outside hold band (both shrink, neither shrinks, or reverse dissociation), when CD38↓ is verified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution Status and IP/Cost Assessment",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Related prior: L5–L10 (ranking/absolute-shrink/precursor-dual ≠ CD38i absolute-vs-fractional dual residual proof). Kill cost tier: 2. Time to refute: 6 weeks. IP class: subtract-before-add. Vault hold: no. Card classification: STATUS_LABEL = NEGATIVE (hypothesis not yet tested); risk_class = research-discussion; polarity = negative."
+    }
+  ],
+  "key_findings": [
+    "This is a TRL 1 hypothesis card — no experiments have been run (execution_status = NOT_RUN); the core dual-readout claim is entirely a PREDICTION.",
+    "The key claim is a dissociation: after senolysis/SASP clearance, absolute residual ΔNAD from a CD38 inhibitor pulse shrinks, but fractional residual ΔNAD (normalized to post-clearance baseline) does not shrink.",
+    "A systematic literature search (soft-complete: CD38i∩senolytic∩(absolute|fractional)∩NAD) returned zero hits, confirming the dual absolute/fractional residual CD38i panel is UNKNOWN and not yet demonstrated.",
+    "Four supporting literature priors establish the mechanistic plausibility: CD38 gates age NAD/NMN fate (PMID 27304511), SASP induces CD38-high macrophages that drain NAD (PMID 33199924), senolysis reduces CD38 and partially restores NAD (PMID 33199925), and 78c-class CD38i improves aged-mouse healthspan as monotherapy (PMID 35263032).",
+    "The competing/falsifying hypothesis is a 'rebound artifact': apparent absolute shrink with fractional hold may be purely a mathematical consequence of a higher post-clearance baseline, not a true biological dissociation.",
+    "Prior cards L5–L10 (ranking, absolute shrink, precursor dual, stack) do not prove L11; L7 left fractional untested; L10 precursor dual left the CD38i arm open.",
+    "Estimated time to refute: 6 weeks; kill cost tier: 2 — suggesting this is a relatively cheap and fast experiment to run.",
+    "Proposed tissue targets: WAT (white adipose tissue) and/or liver; clearance verification requires CD38 activity assay plus SC/SASP marker confirmation."
+  ],
+  "document_date": "2026-09-26",
+  "milestones": [
+    {
+      "title": "L11 Hypothesis Card Published",
+      "description": "The L11 hypothesis card proposing the dual absolute/fractional residual CD38i panel after senolysis was published as a public report.",
+      "date": "2026-09-26",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-26/L11.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed Dual Residual CD38i Assay Execution",
+      "description": "Run the pre-registered matched CD38i pulse (78c-class) ± senolytic/SASP-ablation run-in assay with dual absolute and fractional residual ΔNAD readouts in aged tissue (WAT/liver). Estimated 6 weeks to refute.",
+      "date": "6w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "kill_cost_tier=2 · time_to_refute=6w · ip_class=subtract-before-add · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

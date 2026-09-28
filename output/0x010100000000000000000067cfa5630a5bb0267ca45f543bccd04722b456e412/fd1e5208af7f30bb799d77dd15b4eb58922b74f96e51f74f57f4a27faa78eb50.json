@@ -1,0 +1,98 @@
+{
+  "file_path": "/reports/2026-09-25/N8.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a Mol Labs public research report (card N8) proposing a pre-registered hypothesis that Azure B, a methylene blue (MB) metabolite with ~6× stronger MAO-A potency, fails to match MB's memory rescue on a cytochrome oxidase (COX)-inhibitor amnestic retention assay. The experiment has NOT been run; the claim is a prediction grounded in existing literature on MB's COX-amnestic rescue and Azure B's MAO-A enzyme potency. The document explicitly flags that prior cards N5–N7 do not prove this failure and that the Azure B vs. MB COX-amnestic head-to-head remains UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Metadata and Status",
+      "content": "Report ID: N8. Status label: NEGATIVE. Target: discussion. Topic: neuroscience-brain. Tags: nootropics, brain-longevity. Risk class: research-discussion. Polarity: negative. Policy: PUBLIC_REPORT_ONLY. Private: NONE. Vault hold: no. Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: redox-vs-MAO. Related prior: N5/N6/N7 (not proof of Azure B COX-amnestic rescue failure). Document date: 2026-09-25."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim / Hypothesis",
+      "content": "On a pre-registered cytochrome-oxidase (COX)-inhibitor amnestic retention assay where parent methylene blue (MB) restores memory, Azure B fails to match that rescue — retention Δ ≤70% of MB (or outside a pre-registered MB-equivalence band) — despite Azure B's stronger MAO-A potency under matched enzyme conditions. This is a PREDICTION; the experiment has NOT been run."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale / Mechanism Sketch",
+      "content": "The hypothesis is framed as a 'redox-vs-MAO assumption-kill' on the COX-amnestic / metabolic-memory class. If MB's memory rescue tracks MAO-A potency, Azure B (~6× stronger MAO-A than MB per Petzer 2012) should match or exceed parent MB. If rescue tracks parent redox / COX-facing structure, Azure B underperforms on the same retention panel. Key literature anchors: (1) Callaway 2002 / Gonzalez-Lima class — low-dose MB restores spatial retention after COX inhibition (PMID 12384216). (2) Rojas 2011 — MB shows beneficial network effects in an amnestic model (PMID 21087672). (3) Petzer 2012 — Azure B high-potency reversible MAO-A ~6× MB (PMID 22197611). (4) Ramsay 2007 — MB potent reversible MAO-A inhibitor (PMID 17721552)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art / Literature Evidence",
+      "content": "Four key references cited:\n1. PMID 12384216 / DOI 10.1016/s0304-3940(02)00827-3 — Low-dose MB restores spatial memory retention impaired by a cytochrome oxidase inhibitor (Callaway / Gonzalez-Lima class). No Azure B arm.\n2. PMID 21087672 / DOI 10.1016/j.neuroimage.2010.11.023 / PMC3026638 — MB beneficial network effects in an amnestic model (metabolic/network framing). No Azure B arm.\n3. PMID 22197611 / DOI 10.1016/j.taap.2011.12.005 — Azure B high-potency reversible MAO-A (~6× MB under matched conditions) (Petzer 2012). Enzyme data only, not COX-amnestic cognition.\n4. PMID 17721552 / DOI 10.1038/sj.bjp.0707430 / PMC2078225 — MB potent reversible MAO-A inhibitor; serotonin-toxicity prediction (Ramsay 2007)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| MB_COX_amnestic_spatial_retention_rescue | LITERATURE | Low-dose MB restores spatial memory retention after COX inhibitor (Callaway 2002) | MB restores retention (PMID 12384216) — no Azure B comparator |\n| MB_amnestic_network_effects | LITERATURE | MB beneficial network effects in amnestic model (Rojas/Gonzalez-Lima 2011) | Metabolic/network framing (PMID 21087672) — no Azure B arm |\n| AzureB_stronger_MAO_A_than_MB | LITERATURE | Azure B vs MB MAO-A potency under matched conditions (Petzer 2012) | Azure B ~6× stronger reversible MAO-A than MB (PMID 22197611) — enzyme only |\n| MB_MAO_A_potency | LITERATURE | Reversible MAO-A inhibition (Ramsay 2007) | Potent MAO-A block; serotonin-toxicity class warning (PMID 17721552) |\n| same_COX_amnestic_AzureB_vs_MB_panel | UNKNOWN | Same COX-inhibitor amnestic/retention panel — Azure B vs parent MB (± optional selective MAO-A-i), with exposure/MAO occupancy readout | Dedicated Azure B vs MB COX-amnestic rescue panel NOT FOUND (soft-complete 0 / false positives only) — UNKNOWN |\n| AzureB_fails_MB_equivalence_on_COX_amnestic_rescue | PREDICTION | Pre-registered COX-inhibitor amnestic spatial or discrimination retention; Azure B vs parent MB under exposure-aware conditions | Azure B retention Δ ≤70% of MB (or outside pre-registered MB-equivalence band) despite stronger MAO-A enzyme potency; α/N pre-specified |\n| competing_PK_exposure_explains_underperformance | PREDICTION | Same design; falsifier path if Azure B matches MB once brain exposure/MAO occupancy is matched | PK-matched equivalence allowed as pre-registered competing outcome |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence State",
+      "content": "MB COX-amnestic / amnestic-network rescue: LITERATURE (PMID 12384216; 21087672). Azure B stronger MAO-A than MB: LITERATURE (PMID 22197611). MB MAO-A potency: LITERATURE (PMID 17721552). Azure B vs parent MB on the same COX-amnestic rescue / retention panel: UNKNOWN (soft-complete Azure B∩MB∩memory/rescue = 0; Azure B∩COX/amnestic hits = false positives only). ≤70% MB-equivalence fail: PREDICTION. N5–N7 do not already prove this failure — generic WM / redox-dead / selective MAO-A-i arms only; soft-complete empty ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. Do not treat N5–N7 as proving N8 — N6 asked Azure B ≠ MB on generic WM (soft-complete); N7 redox-dead×WM; N5 selective MAO-A-i; none measured Azure B on the Gonzalez-Lima COX-amnestic rescue.\n2. MAO IC50 ≠ brain rescue PD — Petzer/Ramsay are enzyme inhibition; no COX-amnestic cognition endpoint for Azure B.\n3. PK / brain exposure + assay identity — Azure B could underperform from distribution; lock the same COX-inhibitor amnestic / spatial or discrimination retention class where parent MB restores — not a new generic WM substitute. Soft-complete empty ≠ negative result. No dosing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove same COX-amnestic/retention contrast of Azure B vs parent MB: Without the behavioral head-to-head on the Gonzalez-Lima class assay, MB rescue LITERATURE and Azure B MAO LITERATURE cannot show Azure B fails to match MB rescue.\n2. Remove stronger-MAO-A / MAO-comparable framing (Azure B vs MB enzyme potency anchor): Without the potency contrast, underperformance is just 'Azure B weak,' not an assumption-kill of MAOI-explains-COX-amnestic-rescue.\n3. Remove N5–N7≠proof + soft-complete-empty≠failure + assay-identity discipline: Treating N5–N7 or empty/false-positive PubMed as already deciding Azure B COX-amnestic failure would invent a negative result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Human Guidance",
+      "content": "Refute if: On the pre-registered COX-inhibitor amnestic retention assay, Azure B matches parent MB within the MB-equivalence band (retention Δ >70% of MB or inside band) — especially under exposure/occupancy-matched conditions — so MAO-potency / metabolite-sufficiency for metabolic-memory rescue survives.\n\nAsk a human: Lock COX-inhibitor amnestic assay identity (spatial vs discrimination retention class where parent MB restores), Azure B vs MB exposure/occupancy readout, and optional selective MAO-A-i arm before treating any MB metabolic-memory rescue as metabolite-MAO; do not treat N5–N7 as already proving Azure B COX-amnestic failure; no dosing."
+    }
+  ],
+  "key_findings": [
+    "Experiment NOT RUN — N8 is a proposed assay / prediction, not an executed study. Execution status: NOT_RUN.",
+    "Core prediction: Azure B will fail to match methylene blue (MB) on a COX-inhibitor amnestic retention assay (threshold: retention Δ ≤70% of MB or outside pre-registered MB-equivalence band).",
+    "Azure B has ~6× stronger reversible MAO-A potency than MB under matched enzyme conditions (Petzer 2012, PMID 22197611) — enzyme data only, no in vivo cognition endpoint.",
+    "MB restores spatial memory retention after COX inhibition in the Callaway/Gonzalez-Lima class assay (PMID 12384216) — no Azure B arm exists in the literature.",
+    "MB shows beneficial network effects in an amnestic model (PMID 21087672) — no Azure B arm.",
+    "Azure B vs MB on the same COX-amnestic rescue panel is UNKNOWN: soft-complete search returned 0 hits / false positives only.",
+    "Prior cards N5–N7 do NOT prove Azure B COX-amnestic rescue failure — they tested generic WM, redox-dead arms, and selective MAO-A-i, not the Gonzalez-Lima COX-amnestic rescue.",
+    "Competing falsifier path: if Azure B matches MB once brain exposure/MAO occupancy is matched, PK distribution (not redox structure) explains any underperformance.",
+    "Kill cost tier 1; estimated time to refute: 4 weeks. IP class: redox-vs-MAO. FTO status: UNKNOWN.",
+    "TRL assessment: TRL 1 — concept/hypothesis only; no experimental data generated for this specific claim."
+  ],
+  "document_date": "2026-09-25",
+  "milestones": [
+    {
+      "title": "N8 Report Publication",
+      "description": "Mol Labs public report N8 proposing the Azure B vs MB COX-amnestic rescue head-to-head assay was published/dated.",
+      "date": "2026-09-25",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-25/N8.md",
+      "page": 1
+    },
+    {
+      "title": "Azure B vs MB COX-Amnestic Rescue Assay (Proposed)",
+      "description": "Pre-registered COX-inhibitor amnestic spatial or discrimination retention panel comparing Azure B vs parent MB under exposure-aware conditions, with optional selective MAO-A-i arm. Estimated 4 weeks to refute if run.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=redox-vs-MAO · vault_hold=no",
+      "page": 1
+    }
+  ]
+}
