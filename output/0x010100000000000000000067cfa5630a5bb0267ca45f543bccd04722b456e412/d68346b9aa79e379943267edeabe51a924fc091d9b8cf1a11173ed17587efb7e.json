@@ -1,0 +1,101 @@
+{
+  "file_path": "/reports/2026-09-28/P29.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (P29) proposing an assumption-kill experiment to test whether orexin-A retains arousal, cognition, or neuroprotection phenotypes (≥50% of control) under conditions where OX1R-class attribution is abolished (via SB-334867 antagonist or Hcrtr1/OX1R genetic LOF). The document synthesizes prior literature (Hagan, Zhao, Smart, Mieda, Liu) and concludes that matched residual-positive orexin-A data under OX1R-abolish on the relevant panels is currently EMPTY/UNKNOWN — no experiment has been run. The project is at TRL 1–2: a well-framed hypothesis with supporting prior art but no executed experiment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report (P29). The central claim is: on a matched rodent arousal/cognition/neuroprotection panel (Hagan-class arousal, Zhao-class PTZ spatial learning/memory, or Liu-class MPTP neuroprotection) ± orexin-A ± OX1R antagonist (SB-334867) or Hcrtr1/OX1R genetic LOF titrated to abolish OX1R-class attribution, residual orexin-A arousal/cognitive/neuroprotective phenotype remains ≥50% of the orexin-A without-OX1R-abolish arm. This is framed as an 'assumption-kill' (ox1r-insufficiency) experiment. Execution status: NOT_RUN. The matched residual-positive H2H data is EMPTY/UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Hagan maps orexin-A LC firing + behavioral arousal. Zhao maps orexin-A spatial learning/memory rescue via OX1R-linked hippocampal neurogenesis (SB334867 attenuates — necessity-leaning). Smart maps SB-334867-A as selective OX1R antagonist tool. Mieda maps ICV orexin-A in OX1R(-/-) vs OX2R(-/-) sleep/wake (attenuated; OX2R-dominant). Liu maps orexin-A MPTP neuroprotection blocked by SB334867 (necessity). The question is whether residual orexin-A arousal/cognition/neuroprotection under OX1R abolish still requires a path beyond OX1R-class attribution."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Hagan 1999 (PMID 10485925)",
+      "content": "Assay: Rat; orexinergic LC innervation mapping; orexin-A application to LC; electrophysiology of noradrenergic neurones; behavioral arousal/locomotor activity. Result: Orexin-A increased LC noradrenergic cell firing; increased arousal and locomotor activity; densest orexinergic innervation to LC. Classification: Arousal phenotype PRIOR (WT OX1R present; no Hcrtr1 LOF / SB-334867 residual arm). DOI: 10.1073/pnas.96.19.10911."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Zhao 2014 (PMID 24321199)",
+      "content": "Assay: PTZ-kindled rats; orexin-A; Morris water maze; i.c.v. OX1R antagonist SB334867; ERK1/2 inhibitor U0126; BrdU/DCX/NeuN dentate neurogenesis markers. Result: Orexin-A improved spatial learning/memory and increased dentate neurogenesis markers in PTZ-kindled rats; effects attenuated/inhibited by SB334867 or U0126. Classification: Cognition phenotype PRIOR with NECESSITY-leaning AGAINST residual — SB334867 attenuates the rescue, meaning OX1R is necessary. Explicitly NOT to be misread as residual-positive under OX1R abolish. DOI: 10.1016/j.peptides.2013.11.019."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Smart 2001 (PMID 11250867)",
+      "content": "Assay: CHO cells stably expressing human OX1 or OX2; Fluo-3AM Ca2+ assay; orexin-A/B; SB-334867-A. Result: SB-334867-A inhibited orexin-A/B-induced Ca2+ in CHO-OX1; no agonist activity; weak OX2 inhibition at 10 µM. Classification: Selective OX1R antagonist TOOL prior — not a residual H2H experiment. DOI: 10.1038/sj.bjp.0703953."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Mieda 2011 (PMID 21525292)",
+      "content": "Assay: Wild-type, OX1R(-/-), and OX2R(-/-) mice; ICV orexin-A; sleep/wake EEG (wakefulness, NREM, REM). Result: ICV orexin-A wakefulness/NREM effects significantly attenuated in both OX1R(-/-) and OX2R(-/-) vs WT, with substantially larger attenuation in OX2R(-/-) than OX1R(-/-). Classification: Drug-in-KO FOUND; necessity-leaning attenuation; OX2R-dominant; partial residual under OX1R-only KO reflects OX2R bridge — NOT clean residual-positive cognition/NP. Document OX2R co-receptor honesty; do not auto-clone to OX2R residual claim. DOI: 10.1523/JNEUROSCI.6506-10.2011."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Liu (PMID 30524223, Promoted)",
+      "content": "Assay: MPTP Parkinson's disease mouse model; orexin-A neuroprotection and spatial memory; SB334867 OX1R antagonist. Result: Orexin-A neuroprotection and spatial memory improvement in MPTP mice blocked by SB334867. Classification: NECESSITY AGAINST residual for that NP/cognition panel. Promoted (out of public prior_art ≤4). This is necessity evidence, not residual-positive evidence."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Prediction Variables and Experimental Design",
+      "content": "Primary prediction variable: 'residual_orexinA_arousal_cognition_NP_ge50pct_of_orexinA_without_OX1R_abolish' — PREDICTION (not yet run). Design: Pre-registered matched rodent arousal/cognition/neuroprotection panel (Hagan-class arousal, Zhao-class PTZ spatial learning/memory, or Liu-class MPTP NP style) ± orexin-A ± OX1R antagonist (SB-334867) or Hcrtr1/OX1R genetic LOF. OX1R-abolish condition must first abolish OX1R-class attribution, then score residual orexin-A phenotype vs orexin-A without-OX1R-abolish arm. Threshold: residual ≥50% of orexin-A without-OX1R-abolish arm. Preferred sequence: cell/slice/block-QC (SB-334867 or Hcrtr1 ablation) before new animal panels; in vivo panel remains primary kill path; include OX2R-control arm for honesty. Secondary prediction: competing outcomes (abolish-fail, agonist-alone-null, underpowered strata, assay-mismatch, OX2R-confound) classified as inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Current Evidence Status and Gap",
+      "content": "Matched residual-positive orexin-A arousal/cognition/neuroprotection under SB-334867/Hcrtr1 LOF that abolishes OX1R-class attribution on Hagan/Zhao/Liu-style panels: EMPTY/UNKNOWN. Soft-complete scores: Q_resid_tight NON-MATCH (residual-positive not found); Q_resid inflated; Q_necess AGAINST (Zhao/Liu); Q_P23_tight NON-MATCH (OX1R≠OXTR); Q_P28–P24_tight NON-MATCH; Q_FOXO4/Q_BPC NON-MATCH. Execution status: NOT_RUN. FTO status: UNKNOWN. Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched rodent panel ± orexin-A ± OX1R antagonist (SB-334867) or Hcrtr1/OX1R genetic LOF where OX1R-abolish abolishes OX1R-class attribution, residual orexin-A arousal/cognitive/neuroprotective phenotype is <50% of the orexin-A without-OX1R-abolish arm — so OX1R-class-attribution framing survives and ox1r-insufficiency residual fails — when abolish-fail, agonist-alone-null, underpowered strata, assay-mismatch, or OX2R-confound artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Metadata",
+      "content": "kill_cost_tier=1; time_to_refute=4 weeks; ip_class=ox1r-insufficiency; vault_hold=no. execution_status=NOT_RUN; fto_status=UNKNOWN. Risk class: research-discussion. Novelty tag: assumption-kill. Polarity: negative. Status label: NEGATIVE."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness and Exclusion Constraints",
+      "content": "Explicitly excluded from P29 scope: P15 (BPC/FBXO22), P16 (LKKTETQ/G-actin), P17 (MOTS-c/folate), P18 (SS-31/ROS), P19 (ARA290/EPO), P20 (Semax/TrkB), P21 (Selank/GABA-A), P22 (Dihexa/c-Met), P23 (oxytocin/OXTR — critical; Q_P23_tight=0; OX1R≠OXTR; orexin≠oxytocin), P24 (Exendin-4/GLP1R), P25 (ghrelin/GHSR), P26 (PACAP/PAC1), P27 (NPY/Y1), P28 (VIP/VPAC2). NOT FOXO4×LOF (SERIES_FROZEN). orthosteric_drift=false. Do not invent residual-positive; do not treat necessity as residual-positive; do not invent OX2R residual as OX1R residual."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary Table",
+      "content": "| Variable | Kind | Status |\n|---|---|---|\n| Hagan_orexinA_LC_arousal_phenotype | LITERATURE | Arousal phenotype PRIOR; no residual arm |\n| Zhao_orexinA_PTZ_spatial_learning_OX1R_necessity | LITERATURE | Necessity-leaning AGAINST residual |\n| Smart_SB334867A_OX1R_antagonist_tool | LITERATURE | Tool prior; not residual H2H |\n| Mieda_orexinA_OX1R_KO_sleep_wake_OX2R_honesty | LITERATURE | Drug-in-KO; OX2R-dominant; not clean residual-positive cogn/NP |\n| matched_residual_orexinA_under_OX1R_abolish_Hagan_Zhao_Liu_H2H | UNKNOWN | EMPTY/UNKNOWN — not found |\n| residual_orexinA_arousal_cognition_NP_ge50pct_of_orexinA_without_OX1R_abolish | PREDICTION | Author-chosen; not yet run |\n| competing_abolish_fail_or_agonist_alone_null_or_underpowered_or_assay_mismatch_or_OX2R_confound_inconclusive | PREDICTION | Pre-registered competing outcomes |"
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — no experiment has been performed; the matched residual-positive orexin-A H2H under OX1R-abolish is EMPTY/UNKNOWN.",
+    "Hagan (PMID 10485925): Orexin-A increases LC noradrenergic firing and behavioral arousal in rats — arousal phenotype PRIOR, but no OX1R-abolish residual arm exists.",
+    "Zhao (PMID 24321199): SB334867 (OX1R antagonist) attenuates orexin-A rescue of spatial learning/memory in PTZ-kindled rats — NECESSITY-leaning AGAINST residual-positive interpretation.",
+    "Smart (PMID 11250867): SB-334867-A is a selective OX1R antagonist tool (CHO-OX1 Ca2+ assay; weak OX2 at 10 µM) — tool prior only, not a residual H2H.",
+    "Mieda (PMID 21525292): ICV orexin-A wakefulness/NREM effects attenuated in OX1R(-/-) and OX2R(-/-) mice, with substantially larger attenuation in OX2R(-/-) — OX2R-dominant; partial residual under OX1R-only KO reflects OX2R bridge, not clean residual-positive cognition/NP.",
+    "Liu (PMID 30524223): Orexin-A neuroprotection and spatial memory in MPTP mice blocked by SB334867 — NECESSITY AGAINST residual for that NP/cognition panel.",
+    "The central hypothesis (residual orexin-A ≥50% of control under OX1R-abolish) is a PREDICTION only; prior art provides necessity evidence against residual, not for it.",
+    "OX2R co-receptor honesty required: Mieda data shows OX2R bridge under OX1R-only abolish; do not auto-clone OX2R residual as OX1R residual.",
+    "kill_cost_tier=1; time_to_refute estimated at 4 weeks; ip_class=ox1r-insufficiency; FTO status UNKNOWN.",
+    "Preferred experimental sequence: cell/slice/block-QC (SB-334867 or Hcrtr1 ablation) before new animal panels; in vivo panel remains primary kill path; OX2R-control arm required for honesty."
+  ],
+  "document_date": null,
+  "milestones": []
+}

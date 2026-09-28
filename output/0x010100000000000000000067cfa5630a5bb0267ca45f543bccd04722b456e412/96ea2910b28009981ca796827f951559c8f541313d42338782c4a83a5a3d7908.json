@@ -1,0 +1,132 @@
+{
+  "file_path": "/reports/2026-09-28/N27.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis report (N27) evaluating whether rolipram retains residual working-memory / object-recognition / LTP-linked cognitive phenotype (≥50% of rolipram-alone) under conditions that abolish PDE4-class attribution via Pde4b/Pde4d genetic LOF or PDE4-matched blockade. The document synthesizes four key literature priors (Barad, Zhang HT, Rutten, Li) and concludes that no published head-to-head study scores residual-positive rolipram cognition under PDE4 abolish; the Li (2011) occlusion study is explicitly AGAINST residual. The hypothesis is labeled NEGATIVE/assumption-kill with execution status NOT_RUN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis Overview and Claim (N27)",
+      "content": "N27 asks whether residual rolipram working-memory / object-recognition / LTP-linked cognitive phenotype survives Pde4b/Pde4d genetic LOF or PDE4-matched blockade that abolishes PDE4-class attribution on the same panel (Barad/Zhang HT/Rutten/Li-class). The pre-registered claim: under the abolish condition, rolipram retains residual WM/cognitive phenotype ≥50% of rolipram-alone (WM/object-recognition/cognition units as pre-specified; α/N pre-specified). This is framed as an 'assumption-kill / pde4-insufficiency' test. Status: NEGATIVE, execution_status=NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Four Key Literature Priors",
+      "content": "Four published studies are cited as the evidence base:\n\n1. Barad (PMID 9844008, PNAS 1998): Rolipram facilitates late-LTP (CA1 after single tetanus) and improves long-term contextual freezing in young/aged mice. LTP/memory phenotype prior; WT PDE4 present; NO PDE4-abolish residual arm.\n\n2. Zhang HT (PMID 10923759, Psychopharmacology 2000): Rolipram reverses scopolamine-induced working and reference memory errors in rat radial-arm maze. WM phenotype prior; WT PDE4 present; NO PDE4-abolish residual arm.\n\n3. Rutten (PMID 16242977, Neurobiol Learn Mem 2006): Rolipram reverses scopolamine- and time-dependent object-recognition deficits. OR phenotype prior; WT PDE4 present; NO PDE4-abolish residual arm.\n\n4. Li (PMID 21209202, J Neurosci 2011): PDE4D KO / RNAi enhance memory (radial-arm, water maze, object recognition) and hippocampal neurogenesis; mimicked by rolipram in WT (phenocopy). CRITICAL: rolipram WAS tested IN 4DKO — memory enhancement in 4DKO not affected by chronic rolipram; rolipram did not alter memory in PDE4D-deficient mice — cogn occlusion / necessity AGAINST residual."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Promoted (Out-of-Public) Prior Art",
+      "content": "Two additional studies are noted as 'promoted; OUT of public prior_art':\n\n- Zhang (PMID 12377395, Neuropsychopharmacology 2002): Rolipram produces antidepressant-like TST/FST effects only in PDE4D+/+ mice. Antidepressant necessity AGAINST residual for that endpoint; explicitly NOT a cognitive WM/OR residual H2H.\n\n- Wang (PMID 23003922, Br J Pharmacol 2013): Mouse PFC long-form PDE4D-shRNA ± rolipram; TST/FST / NOR / MWM. PDE4D-shRNA cogn/antidep effects not enhanced by rolipram — adjacent occlusion AGAINST residual misread; not residual-positive H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prediction Variables and Assay Design",
+      "content": "Key prediction variables defined in the document:\n\n1. Barad_rolipram_late_LTP_memory_phenotype [LITERATURE]: Mouse hippocampal slices (CA1 late-LTP after single tetanus) + young/aged mice contextual freezing ± rolipram. Threshold: rolipram facilitates late-LTP and improves long-term contextual freezing. No PDE4-abolish residual arm.\n\n2. Zhang_HT_rolipram_radial_arm_WM_phenotype [LITERATURE]: Rat eight-arm radial maze WM/reference errors ± scopolamine ± rolipram. Threshold: rolipram reverses scopolamine-induced WM and reference memory errors. No PDE4-abolish residual arm.\n\n3. Rutten_rolipram_object_recognition_phenotype [LITERATURE]: Rat object recognition ± delay ± scopolamine ± rolipram. Threshold: rolipram reverses scopolamine- and time-dependent object-recognition deficits. No PDE4-abolish residual arm.\n\n4. Li_PDE4D_KO_phenocopy_cogn_occlusion_not_residual [LITERATURE]: PDE4D KO (4DKO) vs WT ± chronic rolipram; radial-arm / water maze / object recognition. Result: PDE4D KO enhances memory (phenocopy of rolipram-in-WT); rolipram in 4DKO — no further memory enhance; AGAINST residual.\n\n5. matched_residual_rolipram_under_PDE4_abolish_of_PDE4_class_attribution_H2H [UNKNOWN]: Same acute/subacute rodent WM/OR/LTP-linked cognition panel — rolipram ± Pde4b/Pde4d LOF or PDE4-matched abolish condition. Result: dedicated residual-positive rolipram under PDE4 abolish NOT FOUND as residual-positive (soft-complete Q_resid_tight=1 REVIEW NON-MATCH).\n\n6. residual_rolipram_phenotype_ge_50pct_of_alone_when_PDE4_class_abolished [PREDICTION]: Pre-registered panel; PDE4-class arm must show abolished attribution; rolipram arm scored for residual phenotype vs rolipram-alone. Threshold: ≥50% of rolipram-alone in WM/OR/cognition units; α/N pre-specified.\n\n7. competing_abolish_fail_or_rolipram_null_or_underpowered_inconclusive [PREDICTION]: Competing outcomes if abolish condition fails to kill PDE4-class attribution, rolipram-alone null, underpowered strata, or assay-identity mismatch."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism and Experimental Strategy",
+      "content": "Mechanism: Rolipram is a selective PDE4 inhibitor; its WM/OR/LTP-linked cognitive phenotypes are framed as PDE4 orthosteric blockade. Pde4d KO (Li) serves as genetic tool. The test asks whether PDE4-class sufficiency for the rolipram phenotype holds (i.e., does rolipram retain ≥50% of its cognitive effect when PDE4 is genetically or pharmacologically abolished?).\n\nPreferred execution path: cell/slice/block-QC before new animal (e.g., hippocampal-slice LTP Barad-class or PDE4 activity QC for abolish gate); in vivo Barad/Zhang HT/Rutten/Li-class rodent WM/OR/cognition panel as primary kill path.\n\nKey distinctions: N27 is explicitly NOT equivalent to N15 (DAT≠PDE4), N22 (AMPT≠PDE4 LOF), N23 (α2≠PDE4), N24 (A2A≠PDE4), N25 (NET≠PDE4; atomoxetine≠rolipram), N26 (SERT≠PDE4; fluoxetine≠rolipram)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Competing Caveats",
+      "content": "Refute if: On the pre-registered acute/subacute rodent panel, under Pde4b/Pde4d LOF or PDE4-matched blockade that abolishes PDE4-class attribution, residual rolipram WM/cognitive phenotype falls below 50% of rolipram-alone — so PDE4-class sufficiency for the rolipram phenotype survives and pde4-insufficiency fails — when abolish-gate, rolipram-alone comparator, and power/assay artifacts are ruled out.\n\nCompeting caveats (inconclusive rather than refuted): abolish condition fails to kill PDE4-class attribution; rolipram-alone null; underpowered strata; assay-identity mismatch (phenotype≠residual; phenocopy≠residual-under-abolish; antidepressant TST/FST≠cogn panel; occlusion≠residual-positive)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4w · ip_class=pde4-insufficiency · vault_hold=no\nexecution_status=NOT_RUN · fto_status=UNKNOWN\nN2 holds sole ip_class=none; NOT MB/MAOI (SERIES_FROZEN); orthosteric_drift=false; do not burn ip_class=none.\nCard SHA256: ea7053ac92335b7264d13c0f4320d6335a78eb63e655c6599eacfade27ccea5b\nPublished: reports/2026-09-28/N27.md"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary Table",
+      "content": "| Variable | Kind | Assay System | Key Result/Threshold |\n|---|---|---|---|\n| Barad_rolipram_late_LTP_memory_phenotype | LITERATURE | Mouse hippocampal CA1 LTP + contextual freezing ± rolipram | Rolipram facilitates late-LTP and improves contextual freezing; no PDE4-abolish arm |\n| Zhang_HT_rolipram_radial_arm_WM_phenotype | LITERATURE | Rat radial-arm maze ± scopolamine ± rolipram | Rolipram reverses scopolamine-induced WM errors; no PDE4-abolish arm |\n| Rutten_rolipram_object_recognition_phenotype | LITERATURE | Rat object recognition ± delay ± scopolamine ± rolipram | Rolipram reverses OR deficits; no PDE4-abolish arm |\n| Li_PDE4D_KO_phenocopy_cogn_occlusion_not_residual | LITERATURE | PDE4D KO vs WT ± chronic rolipram; radial-arm/water maze/OR | Rolipram in 4DKO: no further memory enhance; AGAINST residual |\n| Zhang_rolipram_TST_FST_antidepressant_necessity | LITERATURE (promoted, out of public) | PDE4D−/− vs +/+; TST/FST ± rolipram | Rolipram antidepressant effects only in PDE4D+/+; not cogn WM/OR residual |\n| Wang_PDE4D_shRNA_cogn_occlusion | LITERATURE (promoted, out of public) | Mouse PFC PDE4D-shRNA ± rolipram; TST/FST/NOR/MWM | PDE4D-shRNA effects not enhanced by rolipram; AGAINST residual |\n| matched_residual_rolipram_under_PDE4_abolish_H2H | UNKNOWN | Rodent WM/OR/LTP panel ± Pde4b/Pde4d LOF or PDE4-matched abolish | Not found as residual-positive; Li occlusion AGAINST residual |\n| residual_rolipram_phenotype_ge_50pct | PREDICTION | Pre-registered panel; PDE4-class abolished; rolipram vs rolipram-alone | ≥50% of rolipram-alone in WM/OR/cognition units; α/N pre-specified |"
+    }
+  ],
+  "key_findings": [
+    "No published head-to-head study scores residual-positive rolipram WM/cognitive phenotype under PDE4 abolish (Pde4b/Pde4d LOF or PDE4-matched blockade) on the same panel — PRIOR_ART PARTIAL.",
+    "Li (PMID 21209202, J Neurosci 2011): Rolipram was tested IN PDE4D KO (4DKO) mice — no further memory enhancement observed; rolipram did not alter memory in PDE4D-deficient mice — cogn occlusion AGAINST residual-positive interpretation.",
+    "Barad (PMID 9844008), Zhang HT (PMID 10923759), and Rutten (PMID 16242977) are phenotype priors only (WT PDE4 present); none include a PDE4-abolish residual arm.",
+    "Zhang (PMID 12377395, promoted/out-of-public): Rolipram antidepressant TST/FST effects only in PDE4D+/+ — antidepressant necessity AGAINST residual for that endpoint; not a cognitive WM/OR residual H2H.",
+    "Wang (PMID 23003922, promoted/out-of-public): PDE4D-shRNA cognitive/antidepressant effects not enhanced by rolipram — adjacent occlusion AGAINST residual misread.",
+    "The matched residual-positive rolipram under Pde4b/Pde4d LOF or PDE4-matched blockade that abolishes PDE4-class attribution is UNKNOWN as residual-positive; execution_status=NOT_RUN.",
+    "Hypothesis is labeled NEGATIVE (assumption-kill); kill_cost_tier=1; time_to_refute=4 weeks; ip_class=pde4-insufficiency.",
+    "Preferred experimental path: cell/slice/block-QC (hippocampal-slice LTP or PDE4 activity QC) before new animal; in vivo Barad/Zhang HT/Rutten/Li-class rodent WM/OR/cognition panel as primary kill path.",
+    "Refutation threshold: residual rolipram WM/cognitive phenotype <50% of rolipram-alone under verified PDE4-class abolish condition (with abolish-gate, rolipram-alone comparator, and power/assay artifacts ruled out).",
+    "N27 is explicitly distinct from N15–N26 (DAT≠PDE4, SERT≠PDE4, NET≠PDE4, A2A≠PDE4, α2≠PDE4, AMPT≠PDE4 LOF); N1–N26 do not prove N27."
+  ],
+  "document_date": "2026-09-28",
+  "milestones": [
+    {
+      "title": "Mol Labs N27 Public Report Published",
+      "description": "Publication of the N27 hypothesis card (rolipram residual under PDE4 abolish) as a public report on the Mol Labs platform.",
+      "date": "2026-09-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-28/N27.md",
+      "page": 1
+    },
+    {
+      "title": "Barad Rolipram LTP/Memory Study Published",
+      "description": "Barad et al. published in PNAS 1998 showing rolipram facilitates late-LTP and improves long-term contextual freezing in young/aged mice (PMID 9844008).",
+      "date": "1998",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 9844008 / DOI 10.1073/pnas.95.25.15020 — Barad: rolipram facilitates late-LTP (CA1 after single tetanus) and improves long-term contextual freezing in young/aged mice (PNAS 1998)",
+      "page": 1
+    },
+    {
+      "title": "Zhang HT Rolipram Radial-Arm WM Study Published",
+      "description": "Zhang HT et al. published in Psychopharmacology 2000 showing rolipram reverses scopolamine-induced working and reference memory errors in radial-arm maze (PMID 10923759).",
+      "date": "2000",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 10923759 / DOI 10.1007/s002130000414 — Zhang HT: rolipram reverses scopolamine-induced working and reference memory errors (radial-arm maze) (Psychopharmacology 2000)",
+      "page": 1
+    },
+    {
+      "title": "Rutten Rolipram Object-Recognition Study Published",
+      "description": "Rutten et al. published in Neurobiol Learn Mem 2006 showing rolipram reverses scopolamine- and time-dependent object-recognition deficits (PMID 16242977).",
+      "date": "2006",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 16242977 / DOI 10.1016/j.nlm.2005.09.002 — Rutten: rolipram reverses scopolamine- and time-dependent object-recognition deficits (Neurobiol Learn Mem 2006)",
+      "page": 1
+    },
+    {
+      "title": "Li PDE4D KO Phenocopy + Cogn Occlusion Study Published",
+      "description": "Li et al. published in J Neurosci 2011 showing PDE4D KO enhances memory and hippocampal neurogenesis; rolipram tested in 4DKO — no further memory enhancement; AGAINST residual (PMID 21209202).",
+      "date": "2011",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 21209202 / DOI 10.1523/JNEUROSCI.5236-10.2011 — Li: PDE4D KO / RNAi enhance memory (radial-arm, water maze, object recognition) and hippocampal neurogenesis; mimicked by rolipram in WT (phenocopy). CRITICAL: rolipram WAS tested IN 4DKO — memory enhancement in 4DKO not affected by chronic rolipram",
+      "page": 1
+    },
+    {
+      "title": "N27 Experimental Execution (NOT_RUN)",
+      "description": "The proposed in vivo/ex vivo experiment testing residual rolipram WM/cognitive phenotype under Pde4b/Pde4d LOF or PDE4-matched blockade has not yet been run. Estimated time to refute: 4 weeks.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · kill_cost_tier=1 · time_to_refute=4w",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "file_path": "/reports/2026-09-28/P28.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (P28) framing a research question about whether VIP (vasoactive intestinal peptide) retains neuroprotective or cognitive phenotype under conditions that abolish VPAC2-class attribution (via PG 99-465 antagonist or Vipr2 genetic LOF). The document is a structured research discussion proposing an assumption-kill experiment, cataloguing prior art (Brenneman, Gozes, Cunha-Reis, Harmar, Rangon, Shoge, Zaben), and noting that the key matched residual H2H experiment is currently EMPTY/UNKNOWN. No experimental data has been generated; the project is at TRL 1–2 (concept with literature-grounded rationale).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (P28)",
+      "content": "On a matched rodent cognition/neuroprotection panel (Brenneman/Gozes-class or Rangon/Shoge-class style) ± VIP ± VPAC2 antagonist (PG 99-465 or VIP(6-28)-class) or Vipr2/VPAC2 genetic LOF titrated to abolish VPAC2-class neuroprotection/cognition attribution: residual VIP neuroprotective/cognitive phenotype remains ≥50% of the VIP without-VPAC2-abolish arm on the same panel. This is labeled an 'assumption-kill / vpac2-insufficiency' claim. Status: NEGATIVE (prediction, not yet tested). The matched residual-positive H2H experiment is EMPTY/UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale and Mechanism Sketch",
+      "content": "VIP neuroprotection and cognition are framed as VPAC2-class attributed. P28 asks whether residual VIP neuroprotection/cognition under VPAC2 abolish still requires a path beyond VPAC2-class attribution (vpac2-insufficiency). Key mechanistic context: (1) Brenneman shows VIP neuronal survival under TTX electrical blockade — no Vipr2 LOF/PG 99-465 residual arm exists. (2) Gozes shows [St-Nle17]VIP Alzheimer-model culture NP and cholinergic-block spatial learning/memory phenotype — no VPAC2 residual arm. (3) Cunha-Reis shows PG 99-465 selective VPAC2 antagonist on VIP-enhanced CA1 transmission — both VPAC1 and VPAC2 contribute (VIP→VPAC1+VPAC2 honesty; not NP/cogn residual H2H). (4) Harmar shows Vipr2(-/-) circadian SCN LOF — circadian NON-MATCH for cogn/NP residual. (5) Rangon: VIP neonatal excitotoxic white-matter NP lost in Vipr2-lacking mice (VPAC2 agonists mimic; PACAP27/38 do not) — NECESSITY AGAINST residual. (6) Shoge: VIP6-28 antagonizes retinal VIP glutamate NP — NECESSITY AGAINST residual (VIP6-28 nonselective ≠ PG 99-465). (7) Zaben: VIP expands dentate precursors via VPAC2 or directs neuronal fate via VPAC1 — supports VIP→VPAC1 residual-path honesty under VPAC2-only abolish; not residual-positive H2H. (8) Ivanova soft: VIP+VIP(6-28) OBX cognition retain PAC1-attributed — not clean selective-VPAC2 residual."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary Table",
+      "content": "| Reference | PMID | Key Finding | Role in P28 |\n|---|---|---|---|\n| Brenneman 1986 PNAS | 3456568 | VIP prevents neuronal loss under TTX in spinal cord cultures (0.1 nM most effective); PHI-27/secretin inactive | Survival phenotype PRIOR; no Vipr2 LOF/PG 99-465 residual arm |\n| Gozes 1996 PNAS | 8552653 | [St-Nle17]VIP prevents beta-amyloid culture neuron loss and cholinergic-block spatial learning/memory deficits (i.c.v./intranasal) | VIP-class Alzheimer NP/cognition phenotype PRIOR; no VPAC2 residual arm |\n| Cunha-Reis 2005 Brain Res | 15935995 | VIP enhances CA1 synaptic transmission via both VPAC1 and VPAC2; PG 99-465 (VPAC2) or PG 97-269 (VPAC1) each inhibit VIP effect | Selective VPAC2 antagonist TOOL on transmission; VIP→VPAC1+VPAC2 honesty; not NP/cogn residual H2H |\n| Harmar 2002 Cell | 12086606 | Vipr2(-/-) mice lose circadian SCN rest/activity and clock-gene rhythms | Vipr2 genetic LOF TOOL on circadian; NOT cognition/neuroprotection residual H2H |\n| Rangon (promoted) | 15872042 | VIP neonatal excitotoxic white-matter NP lost in Vipr2-lacking mice; VPAC2 agonists mimic; PACAP27/38 do not | NECESSITY AGAINST residual for neonatal WM NP panel; VIP≠PACAP |\n| Shoge (promoted) | 9795184 | VIP6-28 antagonizes retinal VIP glutamate NP | NECESSITY AGAINST residual for retinal panel; VIP6-28 nonselective ≠ PG 99-465 |\n| Zaben (promoted) | 19650041 | VIP expands dentate precursors via VPAC2 or directs neuronal fate via VPAC1 | VIP→VPAC1 residual-path honesty; not residual-positive VIP NP/cogn H2H |\n| Ivanova (adjacent) | 22160165 | VIP+VIP(6-28) OBX cognition retain PAC1-attributed | Not clean selective-VPAC2 residual; do NOT collapse to P26 |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Brenneman_VIP_neuronal_survival_TTX_phenotype | LITERATURE | Dissociated spinal cord cultures; TTX blockade; VIP add-back; PHI-27/secretin comparators | VIP (0.1 nM) prevented neuronal loss; PHI-27/secretin inactive — PRIOR; no residual arm |\n| Gozes_StNle17VIP_Alzheimer_NP_cognition_phenotype | LITERATURE | Rat cerebral cortical cultures + beta-amyloid(25-35); cholinergic-blocker (AF64A) rat spatial learning; [St-Nle17]VIP i.c.v. or intranasal | [St-Nle17]VIP prevented beta-amyloid neuron loss and cholinergic-block spatial learning/memory deficits — PRIOR; no VPAC2 residual arm |\n| CunhaReis_PG99465_VPAC2_antagonist_CA1_transmission_tool | LITERATURE | Rat hippocampal slices; VIP; PG 99-465 (VPAC2) and PG 97-269 (VPAC1) selective antagonists | Both VPAC1 and VPAC2 blockade inhibited VIP-induced CA1 transmission enhancement — TOOL; not NP/cogn residual H2H |\n| Harmar_Vipr2_circadian_SCN_LOF_tool | LITERATURE | Vipr2(-/-) mice; SCN circadian rest/activity; core-clock gene expression | Vipr2(-/-) mice incapable of sustaining normal circadian rhythms — TOOL; NOT cogn/NP residual H2H |\n| matched_residual_VIP_under_VPAC2_abolish_Brenneman_Gozes_H2H | UNKNOWN | Same NP/cogn panel ± VIP ± PG 99-465 or Vipr2 LOF; block titrated to abolish VPAC2-class attribution | EMPTY/UNKNOWN — dedicated residual-positive H2H not found; necessity AGAINST from Rangon/Shoge |\n| residual_VIP_neuroprotection_cognition_ge50pct_of_VIP_without_VPAC2_abolish | PREDICTION | Pre-registered matched rodent NP/cogn panel ± VIP ± VPAC2 antagonist or Vipr2 LOF; VPAC2-abolish gate must first abolish VPAC2-class attribution | Residual VIP NP/cogn ≥50% of VIP without-VPAC2-abolish arm — PREDICTION (not yet tested) |\n| competing_abolish_fail_or_agonist_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes if abolish-fail, agonist-alone-null, underpowered, assay-mismatch, or nonselective VIP(6-28) without PG 99-465/Vipr2 confirmation | Inconclusive (not refuted) if competing artifacts present — pre-registered |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Method: propose-assay)",
+      "content": "Preferred experimental path: (1) Cell/slice/block-QC first — use PG 99-465 or Vipr2 ablation in Brenneman spinal-culture / Shoge retinal / Cunha-Reis hippocampal-slice style systems before new animal experiments. (2) In vivo panel remains primary kill path — Brenneman/Gozes-class or Rangon/Shoge-class matched rodent NP/cognition panel. (3) Design: ± VIP ± VPAC2 antagonist (PG 99-465 or VIP(6-28)-class) or Vipr2/VPAC2 genetic LOF; VPAC2-abolish condition must first abolish VPAC2-class NP/cognition attribution, then score residual VIP NP/cognition vs VIP without-VPAC2-abolish arm. (4) Include VPAC1-control arm for honesty. (5) Threshold: residual ≥50% of VIP without-VPAC2-abolish arm. (6) α/N pre-specified. Kill cost tier: 1; time to refute: 4 weeks; IP class: vpac2-insufficiency; vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Actionable Limitations",
+      "content": "Refute if: On the pre-registered matched rodent NP/cognition panel ± VIP ± VPAC2 antagonist or Vipr2 LOF where VPAC2-abolish abolishes VPAC2-class attribution, residual VIP NP/cognitive phenotype is <50% of the VIP without-VPAC2-abolish arm — when abolish-fail, agonist-alone-null, underpowered strata, assay-mismatch, or nonselective-without-selective-confirmation artifacts are ruled out.\n\nKey actionable limitations: (1) Do not treat P1–P27 as proving P28; Brenneman/Gozes phenotype, Cunha-Reis tool, Harmar circadian LOF, and Rangon/Shoge necessity priors are not a residual-under-VPAC2-abolish H2H. (2) Do not invent residual when EMPTY/UNKNOWN. (3) Do not treat necessity as residual-positive. (4) Do not invent dual-receptor residual. (5) Do not collapse VIP→VPAC1 honesty to PAC1/P26. (6) VIP≠PACAP; VPAC2≠PAC1 (critical). (7) VIP≠NPY; VPAC2≠Y1 (critical). (8) Abolish-fail/agonist-alone-null/underpowered/assay-mismatch leave test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness and Skip-List",
+      "content": "P28 is explicitly distinct from: P15 (BPC residual-FBXO22), P16 (LKKTETQ-Cc), P17 (MOTS-c/folate), P18 (SS-31/ROS-scavenger), P19 (ARA290/IRR), P20 (Semax/TrkB; VIP≠Semax; VPAC2≠TrkB), P21 (Selank/GABA; VIP≠Selank; VPAC2≠GABA), P22 (Dihexa/c-Met; VIP≠Dihexa; VPAC2≠c-Met), P23 (oxytocin/OXTR; VIP≠oxytocin; VPAC2≠OXTR), P24 (Exendin-4/GLP1R; VIP≠Exendin-4; VPAC2≠GLP1R), P25 (ghrelin/GHSR; VIP≠ghrelin; VPAC2≠GHSR), P26 (PACAP/PAC1; VIP≠PACAP; VPAC2≠PAC1 — critical), P27 (NPY/Y1; VIP≠NPY; VPAC2≠Y1 — critical). NOT FOXO4×LOF (SERIES_FROZEN). orthosteric_drift=false. Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: vpac2-insufficiency. Vault hold: no. Status label: NEGATIVE. Polarity: negative. Risk class: research-discussion. Tags: peptides, nootropics. The document is pending dual-publish."
+    }
+  ],
+  "key_findings": [
+    "P28 hypothesis: residual VIP neuroprotective/cognitive phenotype ≥50% of VIP without-VPAC2-abolish arm persists under VPAC2 antagonist (PG 99-465 or VIP(6-28)-class) or Vipr2 LOF that abolishes VPAC2-class attribution — labeled assumption-kill/vpac2-insufficiency.",
+    "The matched residual-positive H2H experiment (VIP NP/cognition under VPAC2-abolish on Brenneman/Gozes-style panels) is EMPTY/UNKNOWN — no such experiment has been run.",
+    "Brenneman (PMID 3456568): VIP (0.1 nM most effective) prevents neuronal loss under TTX electrical blockade in spinal cord cultures; PHI-27/secretin inactive — survival phenotype PRIOR with no Vipr2 LOF/PG 99-465 residual arm.",
+    "Gozes (PMID 8552653): [St-Nle17]VIP prevents beta-amyloid culture neuron loss and cholinergic-block spatial learning/memory deficits (i.c.v./intranasal) — VIP-class Alzheimer NP/cognition phenotype PRIOR with no VPAC2 residual arm.",
+    "Cunha-Reis (PMID 15935995): PG 99-465 (VPAC2-selective) and PG 97-269 (VPAC1-selective) each inhibit VIP-enhanced CA1 synaptic transmission — confirms VIP→VPAC1+VPAC2 dual contribution; selective VPAC2 antagonist tool validated but not tested on NP/cognition endpoints.",
+    "Harmar (PMID 12086606): Vipr2(-/-) mice lose circadian SCN rest/activity and clock-gene rhythms — Vipr2 genetic LOF tool validated on circadian, NOT on cognition/neuroprotection residual.",
+    "Rangon (PMID 15872042, promoted): VIP neonatal excitotoxic white-matter NP is lost in Vipr2-lacking mice; VPAC2 agonists mimic; PACAP27/38 do not — NECESSITY AGAINST residual for neonatal WM NP panel; VIP≠PACAP.",
+    "Shoge (PMID 9795184, promoted): VIP6-28 antagonizes retinal VIP glutamate neuroprotection — NECESSITY AGAINST residual for retinal panel; VIP6-28 nonselective ≠ PG 99-465 VPAC2-selective.",
+    "Zaben (PMID 19650041, promoted): VIP expands dentate precursors via VPAC2 or directs neuronal fate via VPAC1 — supports VIP→VPAC1 residual-path honesty under VPAC2-only abolish; not residual-positive H2H.",
+    "Ivanova (PMID 22160165, adjacent): VIP+VIP(6-28) OBX cognition retain PAC1-attributed — not clean selective-VPAC2 residual; must not collapse to P26 (PACAP/PAC1).",
+    "Prior art shows NECESSITY AGAINST residual (Rangon, Shoge) but no matched residual-positive H2H under selective VPAC2 abolish on Brenneman/Gozes NP/cognition panels.",
+    "Proposed assay: cell/slice/block-QC first (PG 99-465 or Vipr2 ablation in Brenneman spinal-culture/Shoge retinal/Cunha-Reis hippocampal-slice style), then in vivo Brenneman/Gozes-class or Rangon/Shoge-class panel; include VPAC1-control arm; threshold ≥50% residual; kill cost tier 1; time to refute 4 weeks.",
+    "Execution status: NOT_RUN. FTO status: UNKNOWN. Status label: NEGATIVE."
+  ],
+  "milestones": []
+}

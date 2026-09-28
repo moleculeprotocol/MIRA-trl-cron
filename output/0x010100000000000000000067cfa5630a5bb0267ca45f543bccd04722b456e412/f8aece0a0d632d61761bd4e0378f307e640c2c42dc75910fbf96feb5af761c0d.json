@@ -1,0 +1,101 @@
+{
+  "file_path": "/reports/2026-09-28/P26.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (P26) framing a hypothesis-kill (\"assumption-kill\") experiment around PACAP-38 and maxadilan neuroprotection/cognition. The core question is whether residual PACAP-38 (or maxadilan) neuroprotective or cognitive phenotype persists under PAC1 antagonism (PACAP(6-38)) or Adcyap1r1/PAC1 genetic loss-of-function that abolishes PAC1-class attribution — a \"pac1-insufficiency\" test. The document is a pre-registered discussion/proposal (execution_status=NOT_RUN), cataloguing prior art, prediction variables, and assay design, with no new experimental data generated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Core Claim (P26)",
+      "content": "Mol Labs public report P26 asks whether PACAP-38 (or maxadilan) neuroprotection/cognition under a PAC1 antagonist (PACAP(6-38)) or Adcyap1r1/PAC1 LOF that abolishes PAC1-class attribution still requires a path beyond PAC1-class attribution ('pac1-insufficiency assumption-kill'). The claim: on a matched rodent cognition/neuroprotection panel ± PACAP-38 (or maxadilan) ± PAC1 antagonist or Adcyap1r1/PAC1 genetic LOF titrated to abolish PAC1-class attribution, residual PACAP-38/maxadilan neuroprotective/cognitive phenotype remains ≥50% of the PACAP-38/maxadilan without-PAC1-abolish arm. Status: NEGATIVE (assumption-kill). Execution status: NOT_RUN. No new experimental data are presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art: Reglodi (PMID 10835464)",
+      "content": "Reglodi et al. (2000, Stroke; PMID 10835464; DOI 10.1161/01.str.31.6.1411): Delayed systemic PACAP-38 is neuroprotective in transient MCAO rat model — infarct volume reduced when treatment started 4 hours after MCAO. Classified as PACAP-38 MCAO neuroprotection phenotype PRIOR. Critical gap: no PACAP(6-38) / Adcyap1r1 LOF residual arm included. Cannot establish pac1-insufficiency from this study alone."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art: Sacchetti (PMID 11525248)",
+      "content": "Sacchetti et al. (2001, Neurobiol Learn Mem; PMID 11525248; DOI 10.1006/nlme.2001.4014): i.c.v. PACAP-38 at very low dosages improves passive-avoidance memory in rats (inverted-U dose-response). Classified as cognition phenotype PRIOR. Critical gap: no PACAP(6-38) / PAC1 LOF residual arm. Cannot establish pac1-insufficiency from this study alone."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art: Otto (PMID 11466423) — Necessity AGAINST Residual",
+      "content": "Otto et al. (2001, J Neurosci; PMID 11466423; DOI 10.1523/JNEUROSCI.21-15-05520.2001; PMC6762677): PAC1-deficient mice (complete + forebrain-specific) show impaired mossy-fiber LTP and contextual fear conditioning (associative learning); cued fear intact. Classified as PAC1 necessity for PAC1-class associative learning/mossy-fiber LTP — evidence AGAINST residual for that cognition panel. Note: this is endogenous PAC1 LOF, not exogenous PACAP-38 residual under PAC1 abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art: Gourlet (PMID 8666028) — Receptor Discrimination Tool",
+      "content": "Gourlet et al. (1995, Eur J Pharmacol; PMID 8666028; DOI 10.1016/0014-2999(95)00467-5): PACAP fragments discriminate type-I (PAC1) vs type-II (VIP1/VIP2) recombinant receptors; PACAP-(6-38)-class tools discriminate subtypes. Classified as receptor-discrimination TOOL PRIOR. Not a CNS residual H2H experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Promoted Prior Art: Telegdy (PMID 10960604) — Necessity AGAINST Residual for Cognition",
+      "content": "Telegdy et al. (PMID 10960604; promoted, out of public prior_art ≤4): PACAP(6-38) completely blocked PACAP-38 passive-avoidance consolidation. Classified as stronger necessity H2H AGAINST residual for PACAP-38 cognition. Not residual-positive. This is the strongest existing evidence that PAC1 is necessary for PACAP-38 cognitive effects."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Promoted Prior Art: Manavalan (PMID 28342135) — Necessity AGAINST Residual for In Vitro NP",
+      "content": "Manavalan et al. (PMID 28342135; promoted, out of public prior_art ≤4): PACAP EtOH/nicotine neuroprotection in SH-SY5Y cells blocked by PACAP(6-38). Classified as necessity H2H AGAINST residual for that in-vitro NP panel. Not residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Adjacent/Non-Matching Prior Art",
+      "content": "Adjacent Adamik/Schmidt/Telegdy antagonist-impairs-memory tool priors (PMIDs 15680470, 25490058, 33705861, 25543171): not public prior_art anchors for this claim. PMID 42296776 (cardiac PACAP6-38 block): NON-MATCH for CNS panel. VPAC type-II adjacent studies: explicitly noted as ≠ PAC1 residual claim. None of these establish matched residual-positive PACAP-38/maxadilan under PAC1-abolish on a CNS cognition/NP panel."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary",
+      "content": "| Variable | Kind | Status/Result |\n|---|---|---|\n| Reglodi_PACAP38_delayed_MCAO_neuroprotection_phenotype | LITERATURE | PACAP38 MCAO NP phenotype confirmed; no residual arm |\n| Sacchetti_PACAP38_low_dose_passive_avoidance_memory_phenotype | LITERATURE | Cognition phenotype confirmed; no residual arm |\n| Otto_PAC1_deficient_mossy_fiber_LTP_associative_learning_necessity | LITERATURE | PAC1 necessity AGAINST residual for PAC1-class cognition |\n| Gourlet_PACAP638_typeI_vs_typeII_receptor_discrimination_tool | LITERATURE | Tool prior; not CNS residual H2H |\n| matched_residual_PACAP38_maxadilan_under_PAC1_abolish_H2H | UNKNOWN | Dedicated residual-positive H2H not found; NON-MATCH across all sub-queries |\n| residual_PACAP38_maxadilan_neuroprotection_cognition_ge50pct_of_PACAP38_maxadilan_without_PAC1_abolish | PREDICTION | Author-chosen; not yet tested; threshold ≥50% of without-PAC1-abolish arm |\n| competing_abolish_fail_or_agonist_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Pre-registered competing outcomes (inconclusive, not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design (Method: propose-assay)",
+      "content": "Primary kill path: matched rodent cognition/neuroprotection panel (Reglodi/Sacchetti/Otto/Gourlet-class or Telegdy/Manavalan-class style) with four arms: ± PACAP-38 (or maxadilan) × ± PAC1 antagonist (PACAP(6-38)) or Adcyap1r1/PAC1 genetic LOF. Block must be titrated to abolish PAC1-class neuroprotection/cognition attribution first (block-QC gate). Residual PACAP-38/maxadilan phenotype then scored vs PACAP-38/maxadilan without-PAC1-abolish arm. Threshold: ≥50% residual = pac1-insufficiency supported. Preferred sequence: cell/slice/block-QC with PACAP(6-38) or Adcyap1r1 ablation before new animal cognition/NP panels. In vivo panel remains primary kill path. Refute condition: residual <50% of without-PAC1-abolish arm when abolish-fail/null/underpowered/assay-mismatch are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness and Skip-List",
+      "content": "P26 is explicitly distinct from P15 (BPC/FBXO22), P16 (LKKTETQ-Cc), P17 (MOTS-c/folate), P18 (SS-31/ROS-scavenger), P19 (ARA290/IRR), P20 (Semax/TrkB), P21 (Selank/GABA), P22 (Dihexa/c-Met), P23 (oxytocin/OXTR), P24 (Exendin-4/GLP1R), P25 (ghrelin/GHSR). PACAP ≠ Semax/Selank/Dihexa/oxytocin/Exendin-4/ghrelin; PAC1 ≠ TrkB/GABA/c-Met/OXTR/GLP1R/GHSR. NOT FOXO4×LOF (SERIES_FROZEN). orthosteric_drift=false."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Execution Status",
+      "content": "kill_cost_tier=1 · time_to_refute=4 weeks · ip_class=pac1-insufficiency · vault_hold=no. execution_status=NOT_RUN · fto_status=UNKNOWN. No experiments have been conducted. The document is a pre-registered discussion/proposal with NEGATIVE status label and assumption-kill novelty tag. Dual-publish status: PENDING."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Epistemic Constraints and Honesty Flags",
+      "content": "1. Do not treat P1–P25 as proving P26. 2. Reglodi/Sacchetti lack a residual arm under PAC1-abolish. 3. Otto PAC1 LOF necessity ≠ residual-positive. 4. Telegdy/Manavalan PACAP(6-38) blocks lean AGAINST residual. 5. Soft-complete empty ≠ demonstrated residual phenotype. 6. Do not invent residual when UNKNOWN. 7. Do not conflate VPAC1/2 with PAC1 claim. 8. Abolish-fail/agonist-alone-null/underpowered/assay-mismatch = inconclusive, not refuted."
+    }
+  ],
+  "key_findings": [
+    "P26 is a pre-registered assumption-kill hypothesis (execution_status=NOT_RUN): no new experimental data are presented.",
+    "The core question is whether PACAP-38 (or maxadilan) retains ≥50% neuroprotective/cognitive phenotype under PAC1 antagonist (PACAP(6-38)) or Adcyap1r1/PAC1 LOF that abolishes PAC1-class attribution — a 'pac1-insufficiency' test.",
+    "Reglodi (PMID 10835464): PACAP-38 delayed systemic treatment reduces infarct in transient MCAO rat — phenotype prior, no residual arm under PAC1 block.",
+    "Sacchetti (PMID 11525248): i.c.v. PACAP-38 at very low doses improves passive-avoidance memory (inverted-U) — cognition phenotype prior, no PAC1-block residual arm.",
+    "Otto (PMID 11466423): PAC1-deficient mice show impaired mossy-fiber LTP and contextual fear conditioning — PAC1 necessity AGAINST residual for PAC1-class cognition; not exogenous PACAP-38 residual under PAC1 abolish.",
+    "Gourlet (PMID 8666028): PACAP-(6-38)-class fragments discriminate PAC1 vs VPAC receptors — tool prior, not CNS residual H2H.",
+    "Telegdy (PMID 10960604, promoted): PACAP(6-38) completely blocked PACAP-38 passive-avoidance consolidation — strongest existing necessity H2H AGAINST residual for PACAP-38 cognition.",
+    "Manavalan (PMID 28342135, promoted): PACAP EtOH/nicotine neuroprotection in SH-SY5Y blocked by PACAP(6-38) — necessity H2H AGAINST residual for in-vitro NP.",
+    "Matched residual-positive PACAP-38/maxadilan neuroprotection/cognition under PAC1-abolish on same panel: UNKNOWN (NON-MATCH across all sub-queries).",
+    "Estimated time to refute: 4 weeks; kill_cost_tier=1; ip_class=pac1-insufficiency; vault_hold=no.",
+    "Status label: NEGATIVE; polarity: negative; novelty_tag: assumption-kill."
+  ],
+  "milestones": []
+}

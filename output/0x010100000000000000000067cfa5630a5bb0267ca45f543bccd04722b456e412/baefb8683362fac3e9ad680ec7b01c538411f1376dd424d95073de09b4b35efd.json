@@ -1,0 +1,102 @@
+{
+  "file_path": "/reports/2026-09-28/N29.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N29) proposing an assumption-kill experiment to test whether sarcosine's working-memory/cognitive phenotype survives GlyT1 genetic loss-of-function (Slc6a9 KO) or GlyT1-matched pharmacological blockade that abolishes GlyT1-class attribution. The document is a research discussion/hypothesis card at TRL 1–2, with no experiments yet run (execution_status=NOT_RUN), framing a pre-registered rodent cognitive panel design and cataloguing prior art that is only partially relevant (phenotype and GlyT1 tools found, but no residual-positive sarcosine-under-abolish H2H exists in the literature).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Status",
+      "content": "Mol Labs public report N29 (PUBLIC_REPORT_ONLY · private=NONE). Status: execution_status=NOT_RUN · fto_status=UNKNOWN. Risk class: research-discussion. Polarity: negative. Novelty tag: assumption-kill. IP class: glyt1-insufficiency. Kill cost tier: 1. Time to refute: 4 weeks. Vault hold: no. Dual-publish: PENDING."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Claim (N29)",
+      "content": "On a pre-registered acute/subacute rodent (Lane/Harsing/Tsai/Lipina-class) working-memory/cognitive panel with a sarcosine-alone arm, a GlyT1 genetic LOF (Slc6a9) or GlyT1-matched blockade that abolishes GlyT1-class attribution, and a sarcosine-under-abolish arm: under the same condition that abolishes GlyT1-class attribution, sarcosine retains residual working-memory/cognitive phenotype ≥50% of sarcosine-alone (WM/recognition/cognition units as pre-specified; α/N pre-specified). This is an assumption-kill / glyt1-insufficiency test."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Scientific Rationale",
+      "content": "Sarcosine WM/cognitive phenotypes are framed as GlyT1 inhibition elevating glycine → NMDAR co-agonist occupancy. Sarcosine IS a GlyT1 inhibitor, so empty residual is expected; residual-positive would be a strong off-target kill signal. The experiment asks whether any residual sarcosine WM/cognitive phenotype survives Slc6a9/GlyT1 LOF or GlyT1-matched blockade that abolishes GlyT1-class attribution on the same panel. Preferred approach: cell/slice/block-QC before new animal (e.g., [³H]glycine uptake / GlyT1 transport block QC or hippocampal-slice glycine/NMDAR co-agonist QC for abolish gate); in vivo Lane/Harsing/Tsai/Lipina-class rodent WM/recognition/cognition panel is the primary kill path."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Lane (PMID 16275807)",
+      "content": "Lane et al. (Arch Gen Psychiatry 2005): sarcosine vs D-serine vs placebo add-on to risperidone in acute schizophrenia. Sarcosine superior on PANSS total/SANS; PANSS-cognitive among improved domains. Classification: clinical cognitive/symptom phenotype prior; intact GlyT1 present; NO GlyT1-abolish residual arm. DOI: 10.1001/archpsyc.62.11.1196. PRIOR_ART PARTIAL — phenotype found, residual-under-abolish absent."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Harsing (PMID 12667895)",
+      "content": "Harsing et al. (Pharmacol Biochem Behav 2003): NFPS and Org 24461 inhibit [³H]glycine uptake; selective GlyT1 pharmacological tools; inhibit PCP/amphetamine hypermotility without catalepsy/climbing at tested doses. Classification: GlyT1 inhibitor pharmacological tools. CRITICAL: tools ≠ sarcosine residual under GlyT1 abolish; NFPS/Org24461 ARE GlyT1 inhibitors — often AGAINST residual expectation for sarcosine-as-GlyT1-sole-bridge. DOI: 10.1016/s0091-3057(02)01078-x."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Tsai (PMID 15159536)",
+      "content": "Tsai et al. (PNAS 2004): GlyT1 (Slc6a9) gene KO — homozygous lethal neonatally; heterozygous enhance NMDAR/AMPA ratio, better water-maze spatial retention, less amphetamine PPI disruption, more MK-801 sensitive. Classification: GlyT1 LOF tool/phenotype. CRITICAL: sarcosine was NOT tested (PMC420420 sarcosine = clinical GlyT1-inhibitor class background only); NOT residual-positive. DOI: 10.1073/pnas.0402662101 / PMC420420."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Lipina (PMID 15759151)",
+      "content": "Lipina et al. (Psychopharmacology 2005): ALX 5407 (GlyT1 inhibitor) and D-serine display clozapine-like beneficial effects in mouse PPI/latent inhibition ± MK-801. Classification: ALX5407 GlyT1-inhibitor tool/phenotype. CRITICAL: intact GlyT1 present; ALX5407 IS GlyT1 inhibitor — NOT sarcosine residual under GlyT1 abolish. DOI: 10.1007/s00213-005-2210-x."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Literature Search Results",
+      "content": "Soft-complete search results: Q_resid_tight=0 (no residual-positive found); Q_resid=6 NON-MATCH; Q_sarcosine_in_glyt1=7 NON-MATCH (including mGluR5 KO [PMID 20217053] and SR-/- / MK-801 [PMID 31294644]); Q_necess_cogn=8 NON-MATCH. Adjacent non-matches: 20217053 sarcosine PPI in mGluR5 KO (≠ GlyT1); 31294644 sarcosine in SR-/- / MK-801 (≠ Slc6a9); 20198471 GlyT1-inhibitor social memory intact GlyT1; 12574447 GlyT1→NMDA potentiation tool (N28-adjacent). Matched residual-positive sarcosine under Slc6a9/GlyT1 LOF or GlyT1-matched block: UNKNOWN as residual-positive. Sarcosine-in-GlyT1-LOF cognition necessity/occlusion H2H: EMPTY."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Six prediction variables defined:\n1. Lane_sarcosine_clinical_cognitive_phenotype (LITERATURE): Acute schizophrenia risperidone add-on RCT; sarcosine vs D-serine vs placebo; PANSS total/SANS/PANSS-cognitive. Result: sarcosine superior; clinical phenotype prior; intact GlyT1; no GlyT1-abolish residual arm.\n2. Harsing_NFPS_Org24461_GlyT1_pharmacological_tools_not_sarcosine_residual (LITERATURE): [³H]glycine uptake inhibition + PCP/amphetamine hypermotility. Result: selective GlyT1 tools; tools ≠ sarcosine residual; often AGAINST residual expectation.\n3. Tsai_GlyT1_Slc6a9_LOF_spatial_PPI_tool_no_sarcosine (LITERATURE): GlyT1 KO; heterozygous NMDAR/AMPA ratio, water-maze, PPI, MK-801. Result: GlyT1 LOF tool/phenotype; sarcosine NOT tested; NOT residual-positive.\n4. Lipina_ALX5407_GlyT1_inhibitor_tool_not_sarcosine_residual (LITERATURE): ALX5407 + D-serine; mouse PPI/latent inhibition ± MK-801. Result: GlyT1-inhibitor tool; intact GlyT1; NOT sarcosine residual under abolish.\n5. matched_residual_sarcosine_under_GlyT1_abolish_of_GlyT1_class_attribution_H2H (UNKNOWN): Same rodent WM/recognition/cognition panel — sarcosine ± Slc6a9/GlyT1 LOF or GlyT1-matched abolish. Result: UNKNOWN + missing_search for residual-positive.\n6. residual_sarcosine_phenotype_ge_50pct_of_alone_when_GlyT1_class_abolished (PREDICTION): Pre-registered rodent panel; GlyT1-class arm must show abolished attribution; sarcosine arm scored for residual ≥50% of sarcosine-alone. Result: PREDICTION — not yet run.\n7. competing_abolish_fail_or_sarcosine_null_or_underpowered_inconclusive (PREDICTION): Competing outcomes if abolish fails, sarcosine-alone null, underpowered, or assay-identity mismatch. Result: pre-registered competing outcomes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered acute/subacute rodent (Lane/Harsing/Tsai/Lipina-class) WM/cognitive panel, under Slc6a9/GlyT1 genetic LOF or GlyT1-matched blockade that abolishes GlyT1-class attribution, residual sarcosine WM/cognitive phenotype falls below 50% of sarcosine-alone — so GlyT1-class sufficiency for the sarcosine phenotype survives and glyt1-insufficiency fails — when abolish-gate, sarcosine-alone comparator, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Design Constraints",
+      "content": "Key constraints: (1) N1–N28 do not prove N29; especially N28 (NMDAR ≠ GlyT1; memantine ≠ sarcosine), N27 (PDE4 ≠ GlyT1), N26 (SERT ≠ GlyT1), N25 (NET ≠ GlyT1), N24 (A2A ≠ GlyT1), N23 (α2 ≠ GlyT1), N15 (DAT ≠ GlyT1). (2) PRIOR_ART PARTIAL — phenotype + GlyT1 tools found; residual-positive under abolish EMPTY; sarcosine-in-KO necessity EMPTY. (3) Prefer cell/slice/block-QC before new animal. (4) Sarcosine IS a GlyT1 inhibitor — empty residual expected; residual-positive would imply off-target/non-GlyT1 bridge. (5) Do not treat Tsai as residual-positive; do not equate Harsing/Lipina tools with sarcosine residual. (6) NOT MB/MAOI; orthosteric_drift=false; do not burn ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified: (1) Removing same-panel contrast of residual sarcosine WM/cognitive phenotype under Slc6a9/GlyT1 LOF or GlyT1-matched blockade: separate phenotype LITERATURE and GlyT1 tool LITERATURE cannot show glyt1-insufficiency as a residual-positive kill. (2) Removing verified abolish gate plus sarcosine-alone comparator: residual sarcosine becomes 'another glycine-site agent under nonspecific challenge,' not an assumption-kill. (3) Removing N15–N28 ≠ N29 discipline: treating prior residuals or Tsai LOF as residual-under-abolish would invent an H2H result left UNKNOWN as residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Related Prior Experiments (Series Context)",
+      "content": "N29 is part of a hypothesis swarm series. Related priors: N15 (modafinil-DAT residual; DAT ≠ GlyT1), N16 (plasma-Cr/PCr; ≠ GlyT1), N17 (Hericium×NGF/TrkA; ≠ GlyT1), N18 (theanine-adenosine; ≠ GlyT1), N19 (Rhodiola-HPA; ≠ GlyT1), N20 (Bacopa×AChE; ≠ GlyT1), N21 (nicotine×nAChR; ≠ GlyT1), N22 (tyrosine/AMPT; ≠ GlyT1), N23 (guanfacine×alpha2; α2 ≠ GlyT1), N24 (caffeine×A2A; A2A ≠ GlyT1), N25 (atomoxetine×NET; NET ≠ GlyT1), N26 (fluoxetine×SERT; SERT ≠ GlyT1), N27 (rolipram×PDE4; PDE4 ≠ GlyT1; ESPECIALLY DISTINCT), N28 (memantine×NMDAR; NMDAR ≠ GlyT1; ESPECIALLY DISTINCT). N2 holds sole ip_class=none. Series frozen for MB/MAOI."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — no experimental data exists; this is a TRL 1 hypothesis/discussion card.",
+    "Central claim: sarcosine retains ≥50% of its WM/cognitive phenotype under GlyT1 genetic LOF (Slc6a9) or GlyT1-matched blockade that abolishes GlyT1-class attribution — this is a PREDICTION, not an observed result.",
+    "Literature search found zero residual-positive sarcosine-under-GlyT1-abolish H2H studies (Q_resid_tight=0; Q_resid=6 NON-MATCH; Q_sarcosine_in_glyt1=7 NON-MATCH).",
+    "Lane (PMID 16275807): sarcosine superior to placebo on PANSS total/SANS/PANSS-cognitive in schizophrenia RCT — clinical phenotype prior only; intact GlyT1; no abolish arm.",
+    "Tsai (PMID 15159536): Slc6a9 heterozygous KO enhances NMDAR/AMPA ratio, water-maze spatial retention, PPI — GlyT1 LOF tool; sarcosine NOT tested in this study.",
+    "Harsing (PMID 12667895): NFPS/Org24461 are selective GlyT1 inhibitors that inhibit [³H]glycine uptake and PCP/amphetamine hypermotility — pharmacological tools, NOT sarcosine residual evidence.",
+    "Lipina (PMID 15759151): ALX5407 (GlyT1 inhibitor) + D-serine show clozapine-like PPI/LI effects — GlyT1 inhibitor tool, NOT sarcosine residual under abolish.",
+    "Sarcosine IS a GlyT1 inhibitor — empty residual under GlyT1 abolish is expected; residual-positive would imply off-target/non-GlyT1 mechanism.",
+    "PRIOR_ART PARTIAL: phenotype and GlyT1 tools found in literature; residual-positive under abolish is EMPTY; sarcosine-in-GlyT1-LOF cognition necessity H2H is EMPTY.",
+    "Preferred experimental path: cell/slice/block-QC ([³H]glycine uptake / GlyT1 transport block QC or hippocampal-slice glycine/NMDAR co-agonist QC) before new animal studies.",
+    "Kill cost tier=1; estimated time to refute=4 weeks; ip_class=glyt1-insufficiency.",
+    "Competing outcomes pre-registered: abolish-fail-to-kill GlyT1-class attribution / sarcosine-alone null / underpowered strata / assay-identity mismatch — these render test inconclusive rather than refuted."
+  ],
+  "milestones": []
+}

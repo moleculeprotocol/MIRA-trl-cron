@@ -1,0 +1,123 @@
+{
+  "file_path": "/reports/2026-09-28/L31.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (L31) proposing an \"assumption-kill\" experiment to test whether L-lactate retains metabolic/healthspan/exercise phenotype in rodents after HCAR1/GPR81 genetic loss-of-function or matched blockade abolishes HCAR1-class attribution. The document is a research discussion framing a pre-registered rodent panel design, not a report of completed experiments. It synthesizes four key literature findings (Cerda-Kohler 2018, Liu 2009, Cai 2008, Ahmed 2010) as prior art establishing HCAR1 necessity for lipolysis and lactate signaling, while noting that residual-positive L-lactate metabolic/healthspan H2H under mammalian Hcar1 abolish remains UNKNOWN/EMPTY.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (L31)",
+      "content": "On a pre-registered rodent metabolic/exercise/early-healthspan panel (Cerda-Kohler / Liu / Cai / Ahmed-class) with exogenous L-lactate vs vehicle under Hcar1 (HCAR1/GPR81) genetic LOF or HCAR1-matched blockade that abolishes HCAR1-class metabolic/exercise/aging attribution vs HCAR1-intact concurrent controls: under the abolish lock, same-panel early healthspan/metabolic improvement (L-lactate vs vehicle under abolish) retains ≥50% of the L-lactate vs vehicle early healthspan/metabolic improvement on HCAR1-intact concurrent controls. This is framed as an 'assumption-kill' / hcar1-insufficiency test of whether lactate metabolic/exercise/aging effects are merely an HCAR1-necessary bridge. Status: PREDICTION, not yet run (execution_status=NOT_RUN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Lactate metabolic, exercise, and aging attributions are often framed as HCAR1/GPR81-necessary because L-lactate is the endogenous HCAR1 ligand. Key literature: Liu (2009) shows lactate inhibits lipolysis via GPR81; Cai (2008) shows GPR81 mediates adipose antilipolysis; Ahmed (2010) shows autocrine lactate loop mediates insulin-dependent antilipolysis through GPR81 with insulin antilipolysis strongly reduced in GPR81-deficient mice; Cerda-Kohler (2018) grounds exogenous lactate ERK1/2/mTORC1/AMPK activation by skeletal muscle type in mouse. However, a matched residual-positive L-lactate metabolic/healthspan/exercise H2H under mammalian Hcar1/HCAR1 abolish remains UNKNOWN. MCT/redox non-HCAR1 paths support possible residual but no longevity residual should be invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch / Experimental Design",
+      "content": "Primary kill path: matched rodent ± exogenous L-lactate ± Hcar1/HCAR1 LOF or HCAR1-matched inhibitor at abolish, early healthspan/metabolic/exercise panel within 4-week refute window. Preferred sequence: cell/tissue/block-QC (HCAR1-class antilipolytic/lactate-receptor QC response abolished) BEFORE new animal longevity runs. Primary referee = pre-specified early healthspan/metabolic or matched exercise/metabolic endpoint. Named comparator = L-lactate vs vehicle early healthspan/metabolic Δ on HCAR1-intact arm. Threshold: ≥50% retention of intact-arm improvement under abolish lock. Competing outcomes (inconclusive, not refute): abolish-fail, lactate-alone-null on HCAR1-intact arm, underpowered strata, referee-assay mismatch."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Cerda-Kohler 2018 (PMID 30230254)",
+      "content": "Cerda-Kohler et al., Physiol Rep 2018 (PMID 30230254 / DOI 10.14814/phy2.13800 / PMC6144450): Exogenous L-lactate administration activates ERK1/2, mTORC1, and AMPK differentially by skeletal muscle type in mouse. This is the founding murine exogenous lactate metabolic pathway phenotype. HCAR1/GPR81 appears only as reference citations in PMC; knockout=0 — NO Hcar1 abolish arm. Honesty note: intact HCAR1 expected in this study; WT phenotype ≠ residual H2H under Hcar1 abolish. Classification: LITERATURE phenotype founding; ≠ residual under abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Liu 2009 (PMID 19047060)",
+      "content": "Liu et al., J Biol Chem 2009 (PMID 19047060 / DOI 10.1074/jbc.M806409200): Lactate inhibits lipolysis in fat cells through activation of orphan G-protein-coupled receptor GPR81; adipocytes from GPR81-deficient mice lack antilipolytic response to lactate. Classification: lipolysis-class HCAR1 necessity / lactate→GPR81 founding. Explicitly noted as ≠ residual-positive metabolic/healthspan under Hcar1 abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Cai 2008 (PMID 18952058)",
+      "content": "Cai et al., Biochem Biophys Res Commun 2008 (PMID 18952058 / DOI 10.1016/j.bbrc.2008.10.088): GPR81 mediates lactate-mediated reduction of adipose lipolysis. Classification: HCAR1 foundation replicate; ≠ residual-positive under Hcar1 abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Ahmed 2010 (PMID 20374963)",
+      "content": "Ahmed et al., Cell Metab 2010 (PMID 20374963 / DOI 10.1016/j.cmet.2010.02.012): Autocrine lactate loop mediates insulin-dependent inhibition of lipolysis through GPR81; GPR81-deficient mice show insulin antilipolysis and adipocyte cAMP decrease strongly reduced. This provides the Gpr81/Hcar1 genetic LOF tool + lipolysis-class necessity. Exercise-lipolysis independence noted. Classification: Gpr81 LOF tool + necessity; ≠ residual-positive lactate-in-KO metabolic/healthspan retain; exercise-lipolysis independence ≠ residual healthspan H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Adjacent Literature — Morland 2017 and Sakurai 2014 (OUT of public prior art ≤4)",
+      "content": "Morland et al., Nat Commun 2017 (PMID 28534495): Exercise induces cerebral VEGF/angiogenesis via lactate receptor HCAR1 — HCAR1×exercise neurovascular necessity-leaning adjacent; ≠ organismal residual longevity H2H. OUT of public prior_art ≤4. Sakurai 2014 (PMID 24486398): GPR81-selective agonist suppresses lipolysis without cutaneous flushing — supports HCAR1 ≠ HCAR2 pharmacological distinctness; ≠ L30 clone. OUT of public prior_art ≤4."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prediction Variables Table",
+      "content": "Eight prediction variables defined:\n1. Cerda_Kohler_lactate_ERK_mTOR_AMPK_murine_metabolic_phenotype — LITERATURE — threshold: lactate activates ERK1/2, mTORC1, AMPK differentially by muscle type; no Hcar1 abolish arm.\n2. Liu_lactate_GPR81_lipolysis_HCAR1_necessity — LITERATURE — threshold: GPR81-deficient adipocytes lack lactate antilipolysis.\n3. Cai_GPR81_lactate_adipose_antilipolysis_foundation — LITERATURE — threshold: GPR81 mediates lactate adipose antilipolysis.\n4. Ahmed_Gpr81_LOF_insulin_antilipolysis_necessity_tool — LITERATURE — threshold: insulin antilipolysis strongly reduced in GPR81-deficient.\n5. Morland_HCAR1_exercise_VEGF_adjacent_out_of_public_prior_art — LITERATURE — adjacent; OUT of public prior_art ≤4.\n6. Sakurai_GPR81_selective_agonist_distinctness_out_of_public_prior_art — LITERATURE — OUT of public prior_art ≤4.\n7. MCT_redox_non_HCAR1_path_caveat — LITERATURE — document MCT/redox honesty; do not invent longevity residual.\n8. matched_lactate_under_mammalian_Hcar1_HCAR1_LOF_or_block_residual_metabolic_healthspan_exercise_H2H — UNKNOWN — soft-complete Q_resid_life_h2h EMPTY; lipolysis necessity FOUND.\n9. block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_lactate_vs_vehicle — PREDICTION — ≥50% retention gate; no observed Δ invented.\n10. competing_abolish_fail_or_lactate_alone_null_or_underpowered_or_assay_mismatch_inconclusive — PREDICTION — pre-registered competing inconclusive outcomes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition",
+      "content": "Refute if: On the pre-registered rodent metabolic/exercise/early-healthspan panel where Hcar1/HCAR1 LOF or HCAR1-matched blockade locks HCAR1-class control benefit abolished, same-panel early healthspan/metabolic improvement (L-lactate vs vehicle under abolish) is <50% of the L-lactate vs vehicle early healthspan/metabolic improvement on HCAR1-intact concurrent controls — so lactate metabolic/exercise/aging DOES reduce to mere HCAR1-necessary bridge — when abolish-fail, lactate-alone-null, underpowered-strata, or assay-mismatch artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=1. time_to_refute=4w. ip_class=hcar1-insufficiency. vault_hold=no. Status labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion. Preferred approach: cell/tissue/block-QC before new animal longevity. No human dosing language. No dosing invented. No residual effect sizes or KD/IC50 invented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness / Ablation Notes",
+      "content": "L31 is explicitly distinguished from L15–L30 series: HCAR1 ≠ HCAR2 (CRITICAL vs L30/BHB); HCAR1 ≠ PHD2 (CRITICAL vs L29/αKG); HCAR1 ≠ TauT (CRITICAL vs L28/taurine); HCAR1 ≠ Klb/FGFR1 (CRITICAL vs L27/FGF21); HCAR1 ≠ MT/melatonin (L26); HCAR1 ≠ SIRT1 (L25); HCAR1 ≠ SGLT2 (L24); HCAR1 ≠ GSK3 (L23); HCAR1 ≠ AMPK primary (L22; Cerda AMPK honesty adjacent ≠ L22 clone); HCAR1 ≠ mitophagy (L21); HCAR1 ≠ bulk ATG (L20); lactate ≠ BHB; lactate ≠ metformin. NOT NAD-after-senolysis (SERIES_FROZEN). Soft-complete empty ≠ novelty / ≠ failure."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Status Summary",
+      "content": "PRIOR_ART PARTIAL: Phenotype FOUND (Cerda-Kohler murine exogenous lactate ERK/mTOR/AMPK); HCAR1 lipolysis tools/necessity FOUND (Liu/Cai/Ahmed); residual-positive under abolish EMPTY; longevity residual EMPTY. Soft-complete empty ≠ novelty / ≠ failure. L1–L30 ≠ proof of L31."
+    }
+  ],
+  "key_findings": [
+    "L31 is a NOT-YET-RUN (execution_status=NOT_RUN) hypothesis/assumption-kill experiment testing whether L-lactate retains metabolic/healthspan/exercise phenotype after HCAR1/GPR81 genetic LOF or matched blockade abolishes HCAR1-class attribution in rodents.",
+    "Residual-positive L-lactate metabolic/healthspan/exercise H2H under mammalian Hcar1/HCAR1 abolish is UNKNOWN/EMPTY — no such experiment has been published.",
+    "Cerda-Kohler 2018 (PMID 30230254) establishes murine exogenous lactate ERK1/2/mTORC1/AMPK activation by skeletal muscle type as founding phenotype, but has NO Hcar1 abolish arm; intact HCAR1 expected; WT phenotype ≠ residual H2H.",
+    "Liu 2009 (PMID 19047060) establishes HCAR1/GPR81 necessity for lactate antilipolysis in adipocytes (GPR81-deficient adipocytes lack response) — lipolysis necessity, NOT residual-positive metabolic/healthspan retain.",
+    "Cai 2008 (PMID 18952058) replicates GPR81-mediated lactate adipose antilipolysis — HCAR1 foundation, NOT residual-positive under abolish.",
+    "Ahmed 2010 (PMID 20374963) provides Gpr81/Hcar1 genetic LOF tool; insulin antilipolysis strongly reduced in GPR81-deficient mice — necessity AGAINST residual for that endpoint, NOT residual-positive lactate-in-KO retain.",
+    "MCT/redox non-HCAR1 paths support possible residual as a caveat — document but do not invent organismal longevity residual.",
+    "Prediction threshold: block-arm early healthspan/metabolic improvement (L-lactate vs vehicle under abolish) must retain ≥50% of HCAR1-intact L-lactate vs vehicle improvement to support assumption-kill.",
+    "Refute condition: <50% retention when abolish-fail, lactate-alone-null, underpowered-strata, and assay-mismatch are ruled out.",
+    "Preferred experimental sequence: cell/tissue/block-QC (HCAR1-class antilipolytic/lactate-receptor QC abolish) BEFORE new animal longevity runs; primary kill path within 4-week refute window.",
+    "kill_cost_tier=1; time_to_refute=4w; ip_class=hcar1-insufficiency; fto_status=UNKNOWN; vault_hold=no.",
+    "PRIOR_ART PARTIAL: phenotype FOUND; HCAR1 lipolysis necessity FOUND; residual-positive under abolish EMPTY; longevity residual EMPTY."
+  ],
+  "milestones": [
+    {
+      "title": "Cell/tissue/block-QC before animal longevity",
+      "description": "Preferred first step: confirm abolish of HCAR1-class control (antilipolytic/lactate-receptor QC response abolished) in cell or tissue systems before initiating new animal longevity runs.",
+      "date": "within 4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Prefer cell/tissue/block-QC (HCAR1-class antilipolytic/lactate-receptor QC abolish) before new animal longevity runs",
+      "page": 1
+    },
+    {
+      "title": "In vivo early healthspan/metabolic/exercise panel readout",
+      "description": "Primary kill path: matched rodent ± exogenous L-lactate ± Hcar1/HCAR1 LOF or HCAR1-matched inhibitor at abolish, early healthspan/metabolic/exercise panel within the 4-week refute window.",
+      "date": "within 4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "primary kill path remains a matched rodent ± exogenous L-lactate ± Hcar1/HCAR1 LOF or HCAR1-matched inhibitor at abolish early healthspan/metabolic/exercise panel within the refute window",
+      "page": 1
+    }
+  ]
+}

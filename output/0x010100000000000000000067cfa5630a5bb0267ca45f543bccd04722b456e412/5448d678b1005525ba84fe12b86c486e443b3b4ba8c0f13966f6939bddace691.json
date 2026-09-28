@@ -1,0 +1,88 @@
+{
+  "file_path": "/reports/2026-09-28/N30.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N30) proposing an experimental design to test whether aniracetam's learning/memory/cognitive phenotype survives AMPAR genetic loss-of-function (GluA/Gria/GluR-A) or AMPAR-matched pharmacological blockade (NBQX/CNQX-class) that abolishes AMPAR-class cognition attribution. The document is a hypothesis/assay-proposal at TRL 1–2: it identifies four key prior-art references (Cumin, Ito, Sheardown, Schmitt) as partial prior art, notes that no head-to-head residual-positive result exists, and frames the experiment as an \"assumption-kill\" of the AMPAR-sufficiency claim for aniracetam's cognitive effects. The experiment has not been run (execution_status=NOT_RUN).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim",
+      "content": "Mol Labs public report N30 (PUBLIC_REPORT_ONLY). The central claim: on a pre-registered acute/subacute rodent learning/memory/cognitive panel (Cumin/Ito/Sheardown/Schmitt-class), with an aniracetam-alone arm, an AMPAR genetic LOF (GluA/Gria/GluR-A) or AMPAR-matched blockade (NBQX/CNQX-class) that abolishes AMPAR-class cognition attribution, and an aniracetam-under-abolish arm — aniracetam retains residual learning/memory/cognitive phenotype ≥50% of aniracetam-alone under the same condition that abolishes AMPAR-class attribution. This is labeled an 'assumption-kill / ampar-insufficiency' test. Status: NEGATIVE (status_labels). Execution: NOT_RUN. ip_class=ampar-insufficiency. kill_cost_tier=1, time_to_refute=4 weeks."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Aniracetam learning/memory/cognitive phenotypes are commonly framed as AMPAR positive allosteric modulation (PAM). Four key prior-art references are identified: (1) Cumin — impaired-learning/memory phenotype prior with intact AMPAR, no AMPAR-abolish residual arm; (2) Ito — AMPAR PAM mechanism tool (aniracetam IS AMPAkine); (3) Sheardown — NBQX AMPAR antagonist pharmacological tool; (4) Schmitt — GluR-A (GluA1/Gria1) LOF/rescue SWM necessity tool (aniracetam NOT tested). None score residual-positive under AMPAR abolish. The question is whether any residual aniracetam cognitive phenotype survives GluA/Gria/GluR-A LOF or AMPAR-matched blockade. Explicitly distinguished from N15–N29 (different targets: DAT, NGF/TrkA, adenosine, HPA, AChE, nAChR, AMPT, α2A, A2A, NET, SERT, PDE4, NMDAR, GlyT1)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Cumin (PMID 6817363)",
+      "content": "PMID 6817363 / DOI 10.1007/BF00432244. Cumin et al., Psychopharmacology 1982. Aniracetam (Ro 13-5057) prevents/reverses multiple experimentally impaired learning and memory phenotypes in rodents (hypercapnia, scopolamine, ECS, chloramphenicol/cycloheximide passive/active avoidance). Role: cognitive phenotype prior; intact AMPAR present; no AMPAR-abolish residual arm. DOI HEAD 200 (PubMed DOI verified). Classification: PRIOR_ART PARTIAL."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Ito (PMID 1975272)",
+      "content": "PMID 1975272 / DOI 10.1113/jphysiol.1990.sp018081 / PMC1189827. Ito et al., J Physiol 1990. Aniracetam allosterically potentiates ionotropic quisqualate/AMPA responses in Xenopus oocytes and hippocampal slices; kainate/NMDA/GABA unaffected; potentiates CA1 EPSPs. Role: AMPAR PAM mechanism tool. Critical mechanism honesty: aniracetam IS AMPAkine/AMPAR positive allosteric modulator — residual under AMPAR abolish would imply non-AMPAR bridge; often AGAINST residual expectation. DOI HEAD 403 (NCBI DOI/PMC1189827 verified)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Sheardown (PMID 2154034)",
+      "content": "PMID 2154034 / DOI 10.1126/science.2154034. Sheardown et al., Science 1990. NBQX: potent selective quisqualate/AMPA antagonist (no NMDA/glycine activity); neuroprotectant in global ischemia. Role: AMPAR pharmacological block tool. Critical: tool ≠ aniracetam residual under AMPAR abolish. DOI HEAD 403 (PubMed DOI verified)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Schmitt (PMID 15723058)",
+      "content": "PMID 15723058 / DOI 10.1038/nn1412. Schmitt et al., Nat Neurosci 2005. GluR-A (GluA1/Gria1) deficient mice: impaired CA3-CA1 LTP and profoundly impaired hippocampus-dependent spatial working memory (SWM); forebrain GluR-A genetic rescue restores SWM. Role: GluR-A LOF/rescue necessity tool/phenotype. Critical: aniracetam was NOT tested (abstract aniracetam=0; Q_schmitt_aniracetam=0) — honesty NOT residual-positive. DOI HEAD 200 (PubMed DOI verified)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch — AMPAR-Insufficiency Assumption-Kill",
+      "content": "Proposed mechanism: aniracetam moves learning/memory/cognitive phenotypes and is framed as selective AMPAR PAM. GluR-A (GluA1/Gria1) LOF is the genetic tool (Schmitt); published phenotype prior (Cumin impaired-learning/memory rescue); AMPAR PAM mechanism (Ito); NBQX AMPAR antagonist pharmacological tool (Sheardown). No published head-to-head scores residual-positive aniracetam learning/memory/cognition under GluA/Gria/GluR-A LOF or AMPAR-matched blockade that abolishes AMPAR-class attribution on the same panel as a retained residual ≥50% of aniracetam-alone. Preferred approach: cell/slice/block-QC before new animal (e.g., hippocampal-slice AMPA-EPSC/quisqualate response block QC for abolish gate); in vivo Cumin/Ito/Sheardown/Schmitt-class rodent learning/memory/recognition/WM cognition panel remains primary kill path."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "Six prediction variables defined:\n1. Cumin_aniracetam_impaired_learning_memory_phenotype (LITERATURE): Rodent hypercapnia/scopolamine/ECS/chloramphenicol/cycloheximide passive/active avoidance ± aniracetam. Threshold: aniracetam prevents/reverses multiple impaired learning/memory phenotypes (PMID 6817363). No AMPAR-abolish residual arm.\n2. Ito_aniracetam_AMPAR_PAM_mechanism_not_residual (LITERATURE): Aniracetam allosteric potentiation of quisqualate/AMPA in Xenopus oocytes and hippocampal slices; CA1 EPSP potentiation. Threshold: aniracetam potentiates quisqualate/AMPA; kainate/NMDA/GABA unaffected (PMID 1975272). AMPAR PAM mechanism; often AGAINST residual expectation.\n3. Sheardown_NBQX_AMPAR_antagonist_tool_not_aniracetam_residual (LITERATURE): NBQX selective quisqualate/AMPA antagonist; global ischemia neuroprotectant. Threshold: NBQX potent selective AMPA antagonist without NMDA/glycine activity (PMID 2154034). Tool ≠ aniracetam residual.\n4. Schmitt_GluR_A_LOF_rescue_SWM_tool_no_aniracetam (LITERATURE): GluR-A deficient mice; CA3-CA1 LTP + hippocampus-dependent SWM; forebrain GluR-A genetic rescue. Threshold: GluR-A LOF impairs LTP and SWM; genetic rescue restores SWM (PMID 15723058). Aniracetam NOT tested.\n5. matched_residual_aniracetam_under_AMPAR_abolish_of_AMPAR_class_attribution_H2H (UNKNOWN): Same acute/subacute rodent panel — aniracetam ± GluA/Gria/GluR-A LOF or NBQX/CNQX-class abolish. Result: dedicated residual-positive not found (Q_resid_tight=0; Q_resid=19 NON-MATCH; Q_aniracetam_in_ko=4 NON-MATCH). Status: UNKNOWN + missing_search.\n6. residual_aniracetam_phenotype_ge_50pct_of_alone_when_AMPAR_class_abolished (PREDICTION): Pre-registered rodent panel; AMPAR-class arm must show abolished attribution; aniracetam arm scored for residual phenotype vs aniracetam-alone. Threshold: residual ≥50% of aniracetam-alone while AMPAR-class attribution is abolished.\n7. competing_abolish_fail_or_aniracetam_null_or_underpowered_inconclusive (PREDICTION): Competing outcomes if abolish condition fails to kill AMPAR-class attribution, aniracetam-alone null, underpowered strata, or assay-identity mismatch."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Soft-Complete Status",
+      "content": "Baseline measured: Cumin aniracetam impaired-learning/memory LITERATURE phenotype prior without AMPAR-abolish residual arm (PMID 6817363). Ito aniracetam AMPAR PAM LITERATURE mechanism — aniracetam IS AMPAkine; often AGAINST residual (PMID 1975272/PMC1189827). Sheardown NBQX AMPAR antagonist LITERATURE tool — ≠ aniracetam residual under abolish (PMID 2154034). Schmitt GluR-A LOF/rescue SWM LITERATURE tool/phenotype — aniracetam NOT tested (PMID 15723058). Adjacent NON-MATCH references: 16936708 (CX546 ampakine in mGluR5 KO; mGluR5 ≠ GluA1), 14600801 (sunifiram/unifiram ≠ aniracetam), 18992274 (aniracetam+DNQX ethanol tolerance ≠ cogn residual), 15180479 (REVIEW). Soft-complete: Q_resid_tight=0; Q_resid=19 NON-MATCH; Q_aniracetam_in_ko=4 NON-MATCH; Q_necess_cogn=6 NON-MATCH. Residual aniracetam phenotype ≥50% of aniracetam-alone when AMPAR-class attribution abolished = PREDICTION (not yet observed)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition and Actionable Limitations",
+      "content": "Refute if: on the pre-registered rodent panel, under GluA/Gria/GluR-A genetic LOF or AMPAR-matched blockade that abolishes AMPAR-class attribution, residual aniracetam learning/memory/cognitive phenotype falls below 50% of aniracetam-alone — so AMPAR-class sufficiency for the aniracetam phenotype survives and ampar-insufficiency fails — when abolish-gate, aniracetam-alone comparator, and power/assay artifacts are ruled out.\n\nActionable limitations: (1) Do not treat N1–N29 as proving N30 (especially N28 NMDAR ≠ AMPAR; N29 GlyT1 ≠ AMPAR; N27 PDE4 ≠ AMPAR; N26 SERT ≠ AMPAR; N25 NET ≠ AMPAR; N24 A2A ≠ AMPAR; N23 α2 ≠ AMPAR; N15 DAT ≠ AMPAR). (2) Phenotype + tools FOUND — PRIOR_ART PARTIAL OK, not auto-REJECT; residual-positive under abolish EMPTY; aniracetam-in-KO necessity EMPTY. (3) Prefer cell/slice/block-QC before new animal; lock same-panel acute/subacute rodent assay identity."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=1. time_to_refute=4 weeks. ip_class=ampar-insufficiency. vault_hold=no. NOT MB/MAOI (SERIES_FROZEN). N2 holds sole ip_class=none. Related prior: N15–N29 (all distinct from N30 as documented). Card: ~/hypothesis-swarm/cards/N30.card.md. card_sha256: 8fb0947140d13e71c1c86eed7c6e4d11f665884d66d0918a56e4c3223ca1e55a. Dual-publish: PENDING."
+    }
+  ],
+  "key_findings": [
+    "Experiment N30 has NOT been run (execution_status=NOT_RUN); this is a hypothesis/assay-proposal at TRL 1.",
+    "Central claim: aniracetam retains residual learning/memory/cognitive phenotype ≥50% of aniracetam-alone under GluA/Gria/GluR-A LOF or AMPAR-matched blockade that abolishes AMPAR-class attribution — currently UNKNOWN as residual-positive.",
+    "Four prior-art references identified as PARTIAL: Cumin (PMID 6817363, phenotype prior, no abolish arm), Ito (PMID 1975272, AMPAR PAM mechanism, aniracetam IS AMPAkine), Sheardown (PMID 2154034, NBQX AMPAR antagonist tool), Schmitt (PMID 15723058, GluR-A LOF/rescue SWM, aniracetam NOT tested).",
+    "Soft-complete search: Q_resid_tight=0; Q_resid=19 NON-MATCH; Q_aniracetam_in_ko=4 NON-MATCH — no residual-positive aniracetam under AMPAR abolish found in literature.",
+    "Aniracetam IS an AMPAR PAM (AMPAkine per Ito 1990) — empty residual under AMPAR abolish is expected; residual-positive would imply a non-AMPAR bridge mechanism.",
+    "Schmitt (PMID 15723058) provides GluR-A LOF/rescue SWM tool but aniracetam was NOT tested — cannot be read as residual-positive.",
+    "Preferred experimental approach: cell/slice/block-QC (hippocampal-slice AMPA-EPSC/quisqualate response block) as abolish gate before in vivo rodent panel.",
+    "Refute condition: residual aniracetam phenotype <50% of aniracetam-alone under verified AMPAR-class abolish (with abolish-gate, aniracetam-alone comparator, and power/assay artifacts ruled out).",
+    "kill_cost_tier=1; time_to_refute=4 weeks; ip_class=ampar-insufficiency; fto_status=UNKNOWN.",
+    "Status label: NEGATIVE; polarity: negative; novelty_tag: assumption-kill."
+  ],
+  "milestones": []
+}

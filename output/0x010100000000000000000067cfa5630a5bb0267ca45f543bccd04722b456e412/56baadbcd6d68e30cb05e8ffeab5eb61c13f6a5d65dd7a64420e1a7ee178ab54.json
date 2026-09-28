@@ -1,0 +1,101 @@
+{
+  "file_path": "/reports/2026-09-28/P25.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public research discussion card (P25) proposing an assumption-kill experiment to test whether ghrelin or GHRP-6 retains neuroprotective or cognitive phenotype (≥50% of the non-blocked arm) under conditions where GHSR1a is pharmacologically antagonized ([D-Lys3]-GHRP-6) or genetically ablated (Ghsr LOF), thereby challenging the assumption that GHSR-class attribution fully explains ghrelin/GHRP-6 neuroprotection and cognition. The document is a pre-registered hypothesis/assay proposal (execution_status=NOT_RUN) with no new experimental data, synthesizing existing literature (Sun, Diano, Carlini, Chung, Zhang) that collectively leans against residual ghrelin/GHRP-6 activity under GHSR abolish. The matched residual H2H result remains UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (P25)",
+      "content": "On a matched rodent cognition/neuroprotection panel (Sun/Diano/Carlini/Chung-class or Gamo-class style) ± ghrelin (or GHRP-6) ± GHSR1a antagonist ([D-Lys3]-GHRP-6) or Ghsr genetic LOF titrated to abolish GHSR-class neuroprotection/cognition attribution: under the GHSR-abolish condition, residual ghrelin (or GHRP-6) neuroprotective/cognitive phenotype remains ≥50% of the ghrelin/GHRP-6 without-GHSR-abolish arm on the same panel. This is an assumption-kill / ghsr-insufficiency hypothesis. Execution status: NOT_RUN. The matched residual H2H result is UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Rationale and Mechanistic Framing",
+      "content": "Ghrelin (and GHRP-6) neuroprotection and cognition are typically attributed to GHSR-class signaling. P25 asks whether residual ghrelin/GHRP-6 neuroprotection/cognition persists under a GHSR1a antagonist or Ghsr LOF that abolishes GHSR-class attribution — i.e., whether GHSR-class framing is sufficient to exhaust the phenotype. The card is distinct from P15–P24 (BPC/FBXO22, LKKTETQ, MOTS-c/folate, SS-31/ROS, ARA290/IRR, Semax/TrkB, Selank/GABA, Dihexa/c-Met, oxytocin/OXTR, Exendin-4/GLP1R). NOT FOXO4×LOF."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Sun (PMID 15070777)",
+      "content": "Sun et al. (2004, PNAS; DOI 10.1073/pnas.0305930101): Ghsr-null mice; acute ghrelin challenge; GH release and food intake vs WT. Result: Acute ghrelin stimulated neither GH release nor food intake in Ghsr-null mice (unlike WT). Interpretation: GHSR necessity for ghrelin GH-release/appetite — AGAINST residual on that panel. Limitation: Not a cognition/NP residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Diano (PMID 16491079)",
+      "content": "Diano et al. (2006, Nature Neuroscience; DOI 10.1038/nn1656): Circulating ghrelin promotes hippocampal spine synapses/LTP and spatial learning/memory; ghrelin gene disruption decreases CA1 spines and impairs memory, rapidly reversed by ghrelin. Interpretation: Cognition phenotype PRIOR. Limitation: No D-Lys3 / Ghsr LOF residual arm — cannot establish ghsr-insufficiency."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Carlini (PMID 12470640)",
+      "content": "Carlini et al. (2002, BBRC; DOI 10.1016/s0006-291x(02)02740-7): i.c.v. ghrelin in rats; open-field/plus-maze/step-down inhibitory avoidance. Result: i.c.v. ghrelin increases anxiety-like behavior and step-down memory retention. Interpretation: Memory phenotype PRIOR. Limitation: No D-Lys3 / Ghsr LOF residual arm."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Chung (PMID 18541646)",
+      "content": "Chung et al. (2008, J Endocrinol; DOI 10.1677/JOE-08-0160): Primary rat cortical neurons; OGD model; AG and UAG ± D-Lys-3-GHRP-6. Result: AG and UAG both inhibit OGD-induced apoptosis; D-Lys-3 abolished AG protective effects; UAG protective effects were preserved. Interpretation: Necessity AGAINST residual for AG under GHSR antagonist. UAG residual is adjacent but NOT the AG/GHRP-6 claim core. This is the strongest direct evidence against residual AG neuroprotection under GHSR block."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Promoted Prior Art — Zhang (PMID 23129314)",
+      "content": "Zhang et al. (PMID 23129314; promoted; out of public prior_art ≤4): AG hippocampal seizure neuroprotection abolished by D-Lys-3. Interpretation: Stronger necessity H2H AGAINST residual for AG. Not residual-positive. Leans against the P25 claim."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Adjacent Literature — Beheshti and PMID 34380377",
+      "content": "Beheshti (PMID 32454141; 29137815): D-Lys-3 impairs memory consolidation — tool/necessity prior; not a public prior_art anchor for P25. PMID 34380377: ghrelin+(D-Lys3) combo — NON-MATCH clean H2H; not a residual-positive result."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Sun_Ghsr_null_GH_appetite_necessity | LITERATURE | Ghsr-null mice; acute ghrelin; GH release and food intake vs WT | Necessity AGAINST residual on GH/appetite panel; not cognition/NP residual H2H |\n| Diano_ghrelin_hippocampal_synapses_memory_phenotype | LITERATURE | Circulating ghrelin; hippocampal spine synapses/LTP; spatial learning/memory; ghrelin gene disruption rescue | Cognition phenotype PRIOR; no D-Lys3/Ghsr LOF residual arm |\n| Carlini_icv_ghrelin_memory_retention_phenotype | LITERATURE | Rats; i.c.v. ghrelin; open-field/plus-maze/step-down inhibitory avoidance | Memory phenotype PRIOR; no residual arm |\n| Chung_AG_OGD_NP_abolished_by_DLys3_UAG_preserved_adjacent | LITERATURE | Primary rat cortical neurons; OGD; AG and UAG ± D-Lys-3-GHRP-6 | Necessity AGAINST residual for AG; UAG residual adjacent ≠ AG/GHRP-6 claim core |\n| matched_residual_ghrelin_GHRP6_under_GHSR_abolish_H2H | UNKNOWN | Same cognition/NP panel ± ghrelin/GHRP-6 ± GHSR1a antagonist or Ghsr LOF | Dedicated residual-positive AG/GHRP-6 NP/cognitive phenotype under GHSR abolish NOT FOUND — UNKNOWN |\n| residual_ghrelin_GHRP6_neuroprotection_cognition_ge50pct | PREDICTION | Pre-registered matched rodent cognition/NP panel ± ghrelin/GHRP-6 ± [D-Lys3]-GHRP-6 or Ghsr LOF | Residual ≥50% of ghrelin/GHRP-6 without-GHSR-abolish arm — author-chosen PREDICTION; not yet observed |\n| competing_abolish_fail_or_agonist_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Abolish-fail/agonist-alone-null/underpowered/assay-mismatch = inconclusive (not refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay Design",
+      "content": "Primary kill path: In vivo matched rodent cognition/neuroprotection panel (Sun/Diano/Carlini/Chung-class or Gamo-class style). Design: ± ghrelin (or GHRP-6) ± GHSR1a antagonist ([D-Lys3]-GHRP-6) or Ghsr genetic LOF. Block must be titrated to first abolish GHSR-class neuroprotection/cognition attribution (block QC required). Then score residual ghrelin/GHRP-6 neuroprotection/cognition vs ghrelin/GHRP-6 without-GHSR-abolish arm. Preferred staging: cell/slice/block-QC with [D-Lys3]-GHRP-6 or Ghsr ablation before new animal panels. Threshold: residual ≥50% of ghrelin/GHRP-6 without-GHSR-abolish arm. α/N pre-specified. No dosing specified. Kill cost tier: 1. Time to refute: 4 weeks. IP class: ghsr-insufficiency."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered matched rodent cognition/NP panel ± ghrelin/GHRP-6 ± [D-Lys3]-GHRP-6 or Ghsr LOF where GHSR-abolish abolishes GHSR-class attribution, residual ghrelin/GHRP-6 neuroprotective/cognitive phenotype is <50% of the ghrelin/GHRP-6 without-GHSR-abolish arm — so GHSR-class-attribution framing survives and ghsr-insufficiency residual fails — when abolish-fail, agonist-alone-null, underpowered strata, or assay-mismatch artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Actionable Limitations and Discipline Rules",
+      "content": "1. Do not treat P1–P24 as proving P25. Sun/Diano/Carlini/Chung necessity/phenotype/UAG-adjacent priors are not a residual-under-GHSR-abolish H2H for AG/GHRP-6. Zhang D-Lys3 abolish leans AGAINST residual for AG. Soft-complete empty ≠ demonstrated residual phenotype. Do not invent residual when UNKNOWN. Do not treat necessity as residual-positive. Do not treat Chung UAG residual as AG/GHRP-6 claim core.\n2. Skip-list/series distinctness: Do not collapse to BPC/FBXO22/VEGFR2, LKKTETQ/Tβ4, MOTS-c/folate, SS-31/cardiolipin/MitoTEMPO, ARA290/IRR, Semax/TrkB/BDNF, Selank/GABA/BDZ, Dihexa/HGF/c-Met, oxytocin/OXTR, or Exendin/GLP1R. NOT FOXO4×LOF (SERIES_FROZEN). orthosteric_drift=false.\n3. Sun/Diano/Carlini lack an AG/GHRP-6 residual arm under GHSR-abolish on a cognition/NP panel. Abolish-fail/agonist-alone-null/underpowered strata/assay-mismatch leave the test inconclusive rather than refuted. Do not misread Chung UAG preserved as AG/GHRP-6 residual confirmation. Prefer cell/slice/block-QC before new animal. No dosing. Reviews ≠ experimental anchors."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=1. time_to_refute=4w. ip_class=ghsr-insufficiency. vault_hold=no. STATUS_LABEL: NEGATIVE. polarity: negative. novelty_tag: assumption-kill. risk_class: research-discussion. Dual-publish status: PENDING."
+    }
+  ],
+  "key_findings": [
+    "P25 is a pre-registered assumption-kill hypothesis (execution_status=NOT_RUN): no new experimental data are presented.",
+    "The central question is whether ghrelin or GHRP-6 retains ≥50% neuroprotective/cognitive phenotype under GHSR1a antagonist ([D-Lys3]-GHRP-6) or Ghsr LOF that abolishes GHSR-class attribution — matched residual H2H result is UNKNOWN.",
+    "Sun (PMID 15070777): Ghsr-null abolishes ghrelin GH-release/appetite — necessity AGAINST residual on that panel, but not a cognition/NP residual H2H.",
+    "Diano (PMID 16491079): Ghrelin promotes hippocampal spine synapses/LTP and spatial memory — cognition phenotype PRIOR with no D-Lys3/Ghsr LOF residual arm.",
+    "Carlini (PMID 12470640): i.c.v. ghrelin increases memory retention — memory phenotype PRIOR with no residual arm.",
+    "Chung (PMID 18541646): D-Lys-3 abolished AG OGD neuroprotection in primary rat cortical neurons; UAG protection preserved — necessity AGAINST residual for AG; UAG residual is adjacent and NOT the AG/GHRP-6 claim core.",
+    "Zhang (PMID 23129314, promoted): AG hippocampal seizure neuroprotection abolished by D-Lys-3 — stronger necessity H2H AGAINST residual for AG; not residual-positive.",
+    "Collectively, existing literature leans AGAINST residual AG/GHRP-6 neuroprotection/cognition under GHSR block, but no matched residual-positive H2H exists — the claim remains UNKNOWN and untested.",
+    "Proposed assay: matched rodent cognition/NP panel ± ghrelin/GHRP-6 ± [D-Lys3]-GHRP-6 or Ghsr LOF with block QC; prefer cell/slice staging before in vivo; threshold ≥50% residual vs non-blocked arm; kill_cost_tier=1; time_to_refute=4 weeks.",
+    "Refutation criterion: residual <50% of ghrelin/GHRP-6 without-GHSR-abolish arm after ruling out abolish-fail, agonist-alone-null, underpowered, or assay-mismatch artifacts."
+  ],
+  "document_date": "2024",
+  "milestones": []
+}

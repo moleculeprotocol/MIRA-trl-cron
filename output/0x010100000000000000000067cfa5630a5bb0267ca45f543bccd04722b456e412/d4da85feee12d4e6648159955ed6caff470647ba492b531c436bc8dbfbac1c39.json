@@ -1,0 +1,162 @@
+{
+  "file_path": "/reports/2026-09-28/N26.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis report (N26) evaluating whether fluoxetine retains a residual cognitive-flexibility/working memory/attention phenotype when SERT (Slc6a4) is genetically knocked out or pharmacologically abolished. The document is a structured research discussion framing a pre-registered experimental claim as NEGATIVE/assumption-kill, noting that no published head-to-head study has demonstrated residual-positive fluoxetine cognitive phenotype under SERT abolish conditions. The report synthesizes prior art (Bengel, Holmes, Brigman, Nikiforuk) and proposes an assay design to test the claim.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Hypothesis Identity",
+      "content": "Mol Labs public report N26 (PUBLIC_REPORT_ONLY). Topic: Whether fluoxetine cognitive-flexibility/WM/attention phenotypes survive SERT genetic LOF (Slc6a4) or SERT-matched blockade that abolishes SERT-class attribution. Status: NEGATIVE (assumption-kill). Polarity: negative. ip_class: sert-insufficiency. kill_cost_tier=1, time_to_refute=4w. execution_status=NOT_RUN. openlabs_topic: neuroscience-brain. Tags: nootropics, brain-longevity. risk_class: research-discussion."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Core Claim",
+      "content": "On a pre-registered acute/subacute rodent (Bengel/Brigman/Nikiforuk-class or Gamo-class) cognitive-flexibility/WM/attention panel with a fluoxetine-alone arm, a SERT genetic LOF (Slc6a4) or SERT-matched blockade that abolishes SERT-class attribution, and a fluoxetine-under-abolish arm: under the same condition that abolishes SERT-class attribution, fluoxetine retains residual cognitive-flexibility/WM/attention phenotype ≥50% of fluoxetine-alone (cognitive-flexibility/WM/attention units as pre-specified; α/N pre-specified) — assumption-kill/sert-insufficiency. This is framed as a NEGATIVE claim: no published study has demonstrated this residual-positive result."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Fluoxetine cognitive-flexibility/WM/attention phenotypes are commonly attributed to SERT orthosteric blockade. Key prior art: (1) Bengel = Slc6a4/SERT KO tool prior; (2) Holmes 2003 = SERT-null anxiety phenotype prior; (3) Brigman = separate-arm cogn phenocopy/necessity-leaning prior (fluoxetine-WT OR 5-HTT-null improve reversal; NO fluoxetine-in-SERT-KO arm — NOT residual-positive; often AGAINST residual); (4) Nikiforuk = fluoxetine set-shifting phenotype prior. None score residual-positive under SERT abolish. N26 is explicitly distinct from N25 (atomoxetine/NET), N15 (modafinil/DAT), N22 (tyrosine/AMPT), N23 (guanfacine/α2A), N24 (caffeine/A2A), and N16–N21."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Sert-insufficiency assumption-kill: fluoxetine moves cognitive-flexibility/WM/attention phenotypes and is framed as selective SERT blockade. Slc6a4/SERT KO is a validated genetic tool (Bengel). Published flexibility/anxiety phenotype priors exist (Brigman reversal phenocopy; Nikiforuk set-shifting; Holmes 2003 anxiety). No published head-to-head scores residual-positive fluoxetine cognitive-flexibility/WM/attention under Slc6a4 LOF or SERT-matched blockade that abolishes SERT-class attribution on the same panel. Preferred approach: cell/slice/block-QC before new animal where a named published abolish-verification system can lock residual first; in vivo Bengel/Brigman/Nikiforuk-class or Gamo-class rodent cognitive-flexibility/WM/attention panel remains the primary kill path."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four key prior art references identified:\n1. PMID 9547354 / DOI 10.1124/mol.53.4.649 — Bengel (Mol Pharmacol 1998): Serotonin-transporter-deficient mice (5-HTT−/−); high-affinity [³H]5-HT uptake absent in 5-HTT−/−; MDMA locomotor effect abolished. KO tool prior; NO fluoxetine cogn residual-under-abolish arm.\n2. PMID 14653308 / DOI 10.1046/j.1601-1848.2003.00050.x — Holmes (Genes Brain Behav 2003): SERT-null mutant anxiety-related behavior (background-dependent). KO anxiety phenotype prior; NO fluoxetine cogn residual arm.\n3. PMID 20032063 / DOI 10.1093/cercor/bhp266 — Brigman (Cereb Cortex 2010): Pharmacological (chronic fluoxetine in C57BL/6J) OR genetic (5-HTT null) SERT inactivation improves reversal learning. Cogn phenocopy/necessity-leaning; arms tested separately; NO fluoxetine-in-SERT-KO residual arm; NOT residual-positive; often AGAINST residual.\n4. PMID 20580164 / DOI 10.1016/j.psyneuen.2010.06.001 — Nikiforuk (Psychoneuroendocrinology 2011): Antidepressants incl. fluoxetine alleviate stress-induced ED set-shifting deficit; also promote flexibility in unstressed rats. Fluoxetine cognitive-flexibility phenotype prior; NO SERT-abolish residual arm.\nAdditionally noted (promoted, OUT of public prior_art): PMID 12464448 — Holmes (Neuropsychopharmacology 2002): Fluoxetine anti-immobility abolished in 5-HTT−/− on TST — antidepressant necessity AGAINST residual for that endpoint; NOT cogn-flexibility/WM/attention residual H2H."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Result |\n|---|---|---|---|\n| Bengel_Slc6a4_SERT_KO_tool | LITERATURE | Serotonin-transporter-deficient mice (5-HTT−/−) vs WT; [³H]5-HT uptake / MDMA locomotor assays (Bengel Mol Pharmacol 1998) | 5-HTT−/− high-affinity [³H]5-HT uptake absent; MDMA locomotor enhancement abolished (PMID 9547354) — KO tool prior; no fluoxetine cogn residual-under-abolish arm |\n| Holmes_SERT_null_anxiety_phenotype | LITERATURE | SERT-null mutant mice; anxiety-related behavior by genetic background (Holmes Genes Brain Behav 2003) | SERT-null anxiety phenotype background-dependent (PMID 14653308) — KO anxiety phenotype prior; no fluoxetine cogn residual arm |\n| Brigman_fluoxetine_OR_5HTT_null_reversal_phenocopy_not_residual | LITERATURE | Touchscreen visual discrimination reversal; chronic fluoxetine-treated C57BL/6J vs vehicle OR 5-HTT null vs WT (Brigman Cereb Cortex 2010) — separate arms | Pharmacological OR genetic SERT inactivation improves reversal (PMID 20032063) — cogn phenocopy/necessity-leaning; NO fluoxetine-in-SERT-KO residual arm; NOT residual-positive; often AGAINST residual |\n| Nikiforuk_fluoxetine_set_shifting_phenotype | LITERATURE | Rat attentional set-shifting (ASST) after repeated restraint ± acute fluoxetine (Nikiforuk Psychoneuroendocrinology 2011) | Fluoxetine alleviates stress-induced ED set-shifting deficit and promotes flexibility in unstressed rats (PMID 20580164) — phenotype prior; no SERT-abolish residual arm |\n| Holmes_fluoxetine_TST_abolish_antidepressant_necessity_promoted_out_of_public | LITERATURE | 5-HTT−/− vs WT; TST ± fluoxetine (Holmes Neuropsychopharmacology 2002) — promoted; OUT of public prior_art | Fluoxetine anti-immobility abolished in 5-HTT−/− on TST (PMID 12464448) — antidepressant necessity AGAINST residual for that endpoint; not cogn-flexibility/WM/attention residual H2H |\n| matched_residual_fluoxetine_under_SERT_abolish_of_SERT_class_attribution_H2H | UNKNOWN | Same acute/subacute rodent (Bengel/Brigman/Nikiforuk-class or Gamo-class) cognitive-flexibility/WM/attention panel — fluoxetine ± Slc6a4 LOF or SERT-matched abolish condition | Dedicated residual-positive fluoxetine under Slc6a4 LOF or SERT-matched block NOT FOUND — UNKNOWN + missing_search |\n| residual_fluoxetine_phenotype_ge_50pct_of_alone_when_SERT_class_abolished | PREDICTION | Pre-registered acute/subacute rodent panel; SERT-class arm must show abolished attribution; fluoxetine arm scored for residual phenotype vs fluoxetine-alone | Residual fluoxetine cognitive-flexibility/WM/attention phenotype ≥50% of fluoxetine-alone while SERT-class attribution is abolished — PREDICTION (not yet tested) |\n| competing_abolish_fail_or_fluoxetine_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish condition fails to kill SERT-class attribution, fluoxetine-alone null, underpowered strata, or assay-identity mismatch | Abolish-fail-to-kill / fluoxetine-alone-null / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Claimed vs Baseline Measured",
+      "content": "Baseline claimed: Under SERT genetic LOF (Slc6a4) or SERT-matched blockade that abolishes SERT-class attribution, fluoxetine still retains cognitive-flexibility/WM/attention phenotype on the same panel — OR Brigman 20032063 already proves residual fluoxetine under SERT abolish — OR Bengel/Holmes/Nikiforuk already constitute residual-under-abolish or cogn-panel genetic necessity-abolish H2H — OR Holmes 12464448 TST abolish already is cogn residual — OR N15–N25 already settle residual fluoxetine under SERT abolish.\n\nBaseline measured: All four prior art references (Bengel, Holmes, Brigman, Nikiforuk) confirmed as LITERATURE without fluoxetine cogn residual-under-abolish arm. Matched residual-positive fluoxetine under Slc6a4 LOF or SERT-matched block: UNKNOWN (soft-complete Q_resid_tight NON-MATCH residual-positive; Q_brigman_arms confirms no fluox×KO residual arm; cogn-panel genetic necessity-abolish H2H NOT FOUND). Residual fluoxetine phenotype ≥50% of fluoxetine-alone when SERT-class attribution abolished: PREDICTION only."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations",
+      "content": "1. N1–N25 do NOT prove N26 — especially N25 (SERT ≠ NET; fluoxetine ≠ atomoxetine), N15 (DAT ≠ SERT), N22 (AMPT ≠ SERT LOF), N23 (α2 ≠ SERT), N24 (A2A ≠ SERT). Soft-complete empty ≠ demonstrated residual gain.\n2. Necessity-leaning phenocopy FOUND — Brigman 20032063 constrains SERT bridge (separate-arm phenocopy; often AGAINST residual) — PRIOR_ART PARTIAL OK, not auto-REJECT. Do NOT invent residual-positive H2H; do NOT treat Brigman as residual-positive; do NOT treat Holmes 12464448 TST abolish as cogn residual; do NOT invent cogn-panel genetic necessity-abolish H2H.\n3. Prefer cell/slice/block-QC before new animal; lock same-panel acute/subacute rodent (Bengel/Brigman/Nikiforuk-class or Gamo-class) cognitive-flexibility/WM/attention with fluoxetine ± Slc6a4 LOF or SERT-matched challenge as primary kill path; no dosing; NOT MB/MAOI; not N15–N25 clones; orthosteric_drift=false."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions identified:\n1. Remove same-panel contrast of residual fluoxetine cognitive-flexibility/WM/attention phenotype under Slc6a4 LOF or SERT-matched blockade: Without the abolish×residual H2H on a Bengel/Brigman/Nikiforuk-class or Gamo-class panel with a fluoxetine arm, separate phenocopy/necessity-leaning LITERATURE and phenotype/tool LITERATURE cannot show sert-insufficiency as a residual-positive kill.\n2. Remove verified abolish gate (Slc6a4 LOF or SERT-matched blockade that abolishes SERT-class attribution) plus fluoxetine-alone comparator as the residual gate: Without verified SERT-class abolish and fluoxetine-alone comparator under the same condition, residual fluoxetine is just 'another monoamine agent under nonspecific challenge,' not an assumption-kill of SERT-class sufficiency.\n3. Remove N15≠N26 through N25≠N26 discipline plus Brigman-not-residual-positive and Holmes-TST≠cogn-residual discipline: Treating adjacent residuals (N15–N25) or phenocopy as residual-under-abolish would invent an H2H result left UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria",
+      "content": "Refute if: On the pre-registered acute/subacute rodent (Bengel/Brigman/Nikiforuk-class or Gamo-class) cognitive-flexibility/WM/attention panel, under Slc6a4 genetic LOF or a SERT-matched blockade that abolishes SERT-class attribution, residual fluoxetine cognitive-flexibility/WM/attention phenotype falls below 50% of fluoxetine-alone (cognitive-flexibility/WM/attention units as pre-specified) — so SERT-class sufficiency for the fluoxetine phenotype survives and sert-insufficiency fails — when abolish-gate, fluoxetine-alone comparator, and power/assay artifacts that would otherwise leave the test inconclusive are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. ip_class=sert-insufficiency. kill_cost_tier=1. time_to_refute=4w. vault_hold=no. Related priors: N15 (modafinil-DAT residual ≠ fluoxetine×SERT; DAT ≠ SERT); N16 (plasma-Cr/PCr ≠ fluoxetine×SERT); N17 (Hericium×NGF/TrkA ≠ fluoxetine×SERT); N18 (theanine-adenosine ≠ fluoxetine×SERT); N19 (Rhodiola-HPA ≠ fluoxetine×SERT); N20 (Bacopa×AChE ≠ fluoxetine×SERT); N21 (nicotine×nAChR ≠ fluoxetine×SERT); N22 (tyrosine/AMPT ≠ fluoxetine×SERT); N23 (guanfacine×alpha2 ≠ fluoxetine×SERT); N24 (caffeine×A2A ≠ fluoxetine×SERT); N25 (atomoxetine×NET ≠ fluoxetine×SERT; ESPECIALLY DISTINCT). N2 holds sole ip_class=none. N1–N25 ≠ proof."
+    }
+  ],
+  "key_findings": [
+    "No published head-to-head study has demonstrated residual-positive fluoxetine cognitive-flexibility/WM/attention phenotype under SERT genetic LOF (Slc6a4) or SERT-matched blockade that abolishes SERT-class attribution — matched residual H2H is UNKNOWN.",
+    "Bengel (PMID 9547354): 5-HTT−/− mice show absent high-affinity [³H]5-HT uptake and abolished MDMA locomotor enhancement — validated SERT KO tool, but no fluoxetine cogn residual-under-abolish arm.",
+    "Holmes (PMID 14653308): SERT-null mutant mice show background-dependent anxiety phenotype — KO anxiety phenotype prior, no fluoxetine cogn residual arm.",
+    "Brigman (PMID 20032063): Chronic fluoxetine in C57BL/6J OR 5-HTT null (separate arms) both improve reversal learning — cogn phenocopy/necessity-leaning; NO fluoxetine-in-SERT-KO residual arm; often AGAINST residual-under-SERT-LOF.",
+    "Nikiforuk (PMID 20580164): Fluoxetine alleviates stress-induced ED set-shifting deficit and promotes flexibility in unstressed rats — fluoxetine cognitive-flexibility phenotype prior; no SERT-abolish residual arm.",
+    "Holmes (PMID 12464448, promoted/out of public prior_art): Fluoxetine anti-immobility abolished in 5-HTT−/− on TST — antidepressant necessity AGAINST residual for that endpoint; NOT cogn-flexibility/WM/attention residual H2H.",
+    "Claim is pre-registered as NEGATIVE (assumption-kill): the hypothesis predicts fluoxetine retains ≥50% residual cognitive-flexibility/WM/attention phenotype under SERT abolish, but this is a PREDICTION not yet tested (execution_status=NOT_RUN).",
+    "Refutation threshold: residual fluoxetine phenotype <50% of fluoxetine-alone under verified SERT-class abolish would confirm SERT-class sufficiency and refute sert-insufficiency.",
+    "Competing inconclusive outcomes pre-registered: abolish condition fails to kill SERT-class attribution, fluoxetine-alone null, underpowered strata, or assay-identity mismatch.",
+    "kill_cost_tier=1, time_to_refute=4w — low-cost, rapid experimental resolution proposed; preferred approach is cell/slice/block-QC before new animal.",
+    "N25 (atomoxetine/NET) is especially distinct from N26 (fluoxetine/SERT): SERT ≠ NET; fluoxetine ≠ atomoxetine — prior series results do not transfer.",
+    "PRIOR_ART PARTIAL: necessity-leaning phenocopy FOUND (Brigman); residual-positive under abolish ABSENT; phenotype/tool priors FOUND — soft-complete empty ≠ novelty/≠ failure."
+  ],
+  "document_date": "2026-09-28",
+  "milestones": [
+    {
+      "title": "Mol Labs N26 Public Report Published",
+      "description": "Mol Labs public hypothesis report N26 on fluoxetine SERT-insufficiency assumption-kill published/dated.",
+      "date": "2026-09-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-28/N26.md",
+      "page": 1
+    },
+    {
+      "title": "N26 Experiment Execution (NOT_RUN)",
+      "description": "Pre-registered acute/subacute rodent cognitive-flexibility/WM/attention panel with fluoxetine ± Slc6a4 LOF or SERT-matched blockade has not yet been run. Estimated time to refute: 4 weeks from initiation.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "execution_status=NOT_RUN · fto_status=UNKNOWN · related_prior=N15",
+      "page": 1
+    },
+    {
+      "title": "Bengel SERT KO Tool Published",
+      "description": "Bengel et al. published serotonin-transporter-deficient mice paper establishing 5-HTT−/− as a validated SERT KO tool (Mol Pharmacol 1998).",
+      "date": "1998",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 9547354 / DOI 10.1124/mol.53.4.649 — Bengel: serotonin-transporter-deficient mice — high-affinity [³H]5-HT uptake absent in 5-HTT−/−; MDMA locomotor effect abolished (Mol Pharmacol 1998)",
+      "page": 1
+    },
+    {
+      "title": "Holmes SERT-Null Anxiety Phenotype Published",
+      "description": "Holmes et al. published SERT-null mutant anxiety-related behavior paper (Genes Brain Behav 2003).",
+      "date": "2003",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 14653308 / DOI 10.1046/j.1601-1848.2003.00050.x — Holmes: SERT-null mutant anxiety-related behavior (background-dependent) (Genes Brain Behav 2003)",
+      "page": 1
+    },
+    {
+      "title": "Holmes Fluoxetine TST Abolish Published",
+      "description": "Holmes et al. published fluoxetine anti-immobility abolished in 5-HTT−/− on TST (Neuropsychopharmacology 2002); promoted out of public prior_art.",
+      "date": "2002",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Holmes 12464448 / DOI 10.1016/S0893-133X(02)00374-3 — promoted; OUT of public prior_art | Fluoxetine anti-immobility abolished in 5-HTT−/− on TST (PMID 12464448)",
+      "page": 1
+    },
+    {
+      "title": "Brigman Reversal Learning Phenocopy Published",
+      "description": "Brigman et al. published touchscreen reversal learning study showing pharmacological OR genetic SERT inactivation improves reversal (Cereb Cortex 2010).",
+      "date": "2010",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 20032063 / DOI 10.1093/cercor/bhp266 — Brigman: pharmacological (chronic fluoxetine in C57BL/6J) OR genetic (5-HTT null) SERT inactivation improves reversal learning (Cereb Cortex 2010)",
+      "page": 1
+    },
+    {
+      "title": "Nikiforuk Set-Shifting Phenotype Published",
+      "description": "Nikiforuk et al. published rat attentional set-shifting study showing fluoxetine alleviates stress-induced ED set-shifting deficit (Psychoneuroendocrinology 2011).",
+      "date": "2011",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 20580164 / DOI 10.1016/j.psyneuen.2010.06.001 — Nikiforuk: antidepressants incl. fluoxetine alleviate stress-induced ED set-shifting deficit; also promote flexibility in unstressed rats (Psychoneuroendocrinology 2011)",
+      "page": 1
+    }
+  ]
+}

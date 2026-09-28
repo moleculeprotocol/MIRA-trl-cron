@@ -1,0 +1,117 @@
+{
+  "file_path": "/reports/2026-09-28/N28.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N28) proposing an assumption-kill experiment to test whether memantine retains residual working-memory/cognitive phenotype (≥50% of memantine-alone) when NMDAR-class attribution is abolished via GluN2B/Grin2b genetic LOF or NMDAR-matched blockade. The document is a research discussion/proposal (NOT_RUN) that reviews prior art (Minkeviciene, Morris, Brigman) and concludes that no published head-to-head study has scored residual-positive memantine cognition under NMDAR abolish. The experiment is framed as a negative/assumption-kill hypothesis with a predicted null or empty residual outcome.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement",
+      "content": "On a pre-registered acute/subacute rodent (Minkeviciene/Morris/Brigman-class) working-memory / spatial-learning / object-recognition cognition panel with a memantine-alone arm, an NMDAR genetic subunit LOF (GluN2B/Grin2b) or NMDAR-matched blockade that abolishes NMDAR-class attribution, and a memantine-under-abolish arm: under the same condition that abolishes NMDAR-class attribution, memantine retains residual working-memory / cognitive phenotype ≥50% of memantine-alone (WM / spatial / object-recognition / cognition units as pre-specified; α/N pre-specified) — assumption-kill / nmdar-insufficiency. Status: NEGATIVE polarity; execution_status=NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Memantine WM/spatial/cognition phenotypes are framed as uncompetitive NMDAR open-channel block. The question is whether residual memantine WM/cognitive phenotype survives a GluN2B/Grin2b LOF or NMDAR-matched blockade that kills NMDAR-class attribution — an nmdar-insufficiency assumption-kill. Memantine IS an NMDAR channel blocker, so empty residual is expected; residual-positive would be a strong off-target kill signal. Distinct from N15–N27 (different targets: DAT, PDE4, SERT, NET, A2A, α2A, AMPT, nAChR, AChE, HPA, NGF/TrkA, adenosine)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Nmdar-insufficiency assumption-kill: memantine moves WM/spatial/cognition phenotypes and is framed as selective uncompetitive NMDAR open-channel blockade. GluN2B/Grin2b LOF is the genetic tool (Brigman). Published phenotype priors: Minkeviciene APP/PS1 spatial; Minkeviciene WT cognition; Morris AP5 competitive NMDAR learning/LTP necessity tool. No published head-to-head scores residual-positive memantine WM/cognition under GluN2B/Grin2b LOF or NMDAR-matched blockade that abolishes NMDAR-class attribution on the same panel as a retained residual ≥50% of memantine-alone. Preferred path: cell/slice/block-QC before new animal (hippocampal-slice LTP/NMDAR-EPSC block QC for abolish gate); in vivo Minkeviciene/Morris/Brigman-class rodent MWM/spatial/WM/object-recognition cognition panel as primary kill path."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Minkeviciene APP/PS1 Spatial (PMID 15192085)",
+      "content": "ID 15192085 / DOI 10.1124/jpet.104.071027 — Minkeviciene: memantine improves spatial learning (water maze acquisition) in APP/PS1 transgenic mice without affecting swimming speed (J Pharmacol Exp Ther 2004). Classification: spatial-learning phenotype prior; intact NMDAR present; NO NMDAR-abolish residual arm. PRIOR_ART PARTIAL — phenotype found, residual-under-abolish absent."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Minkeviciene WT Cognition (PMID 18378262)",
+      "content": "PMID 18378262 / DOI 10.1016/j.neuropharm.2008.02.014 — Minkeviciene: memantine cognition-enhancing (MWM escape latency / wall swimming) and anxiolytic (EPM) effects in normal C57BL/6J mice (Neuropharmacology 2008). Classification: cognition phenotype prior; WT NMDAR present; NO NMDAR-abolish residual arm. PRIOR_ART PARTIAL."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Morris AP5 NMDAR Learning/LTP Necessity Tool (PMID 2869411)",
+      "content": "PMID 2869411 / DOI 10.1038/319774a0 — Morris: chronic i.c.v. AP5 (competitive NMDAR antagonist) selectively impairs place learning and suppresses LTP in vivo (Nature 1986). CRITICAL: competitive AP5 ≠ memantine residual H2H; memantine IS uncompetitive open-channel NMDAR blocker — AP5 tool often AGAINST residual expectation. This is an NMDAR learning-necessity/competitive antagonist tool, NOT a memantine residual study."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Brigman GluN2B LOF (PMID 20357110)",
+      "content": "PMID 20357110 / DOI 10.1523/JNEUROSCI.0640-10.2010 / PMC2869199 — Brigman: GluN2B conditional LOF in CA1/cortex impairs NMDAR-dependent LTD, reduces dendritic spine density, and disrupts corticohippocampal learning (J Neurosci 2010). CRITICAL: memantine was NOT tested (Q_brigman_memantine=0; PMC2869199 memantine count=0). Classification: GluN2B LOF tool/phenotype ONLY — honesty NOT residual-positive. Do NOT misread as residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Summary",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| Minkeviciene_memantine_APP_PS1_spatial_phenotype | LITERATURE | APP/PS1 transgenic mice water maze acquisition ± memantine | Memantine improves spatial learning; intact NMDAR; no NMDAR-abolish residual arm (PMID 15192085) |\n| Minkeviciene_memantine_WT_cognition_phenotype | LITERATURE | Normal C57BL/6J mice MWM escape latency / wall swimming + EPM ± memantine | Memantine cognition-enhancing and anxiolytic in WT mice; no NMDAR-abolish residual arm (PMID 18378262) |\n| Morris_AP5_NMDAR_learning_LTP_necessity_tool_not_memantine_residual | LITERATURE | Chronic i.c.v. AP5 place learning + in vivo LTP | AP5 impairs place learning and suppresses LTP; competitive AP5 ≠ memantine residual H2H (PMID 2869411) |\n| Brigman_GluN2B_LOF_LTD_learning_tool_no_memantine | LITERATURE | GluN2B conditional LOF CA1/cortex; LTD, spine density, corticohippocampal learning | GluN2B LOF impairs LTD, reduces spines, disrupts learning; memantine NOT tested (PMID 20357110) |\n| matched_residual_memantine_under_NMDAR_abolish_H2H | UNKNOWN | Same rodent WM/spatial/object-recognition panel — memantine ± GluN2B/Grin2b LOF or NMDAR-matched abolish | Residual-positive not found; soft-complete Q_resid_tight=1 Rammes NON-MATCH; Q_brigman_memantine=0; UNKNOWN |\n| residual_memantine_phenotype_ge_50pct_of_alone_when_NMDAR_class_abolished | PREDICTION | Pre-registered rodent WM/spatial/object-recognition panel; NMDAR-class arm abolished; memantine scored for residual vs alone | Residual memantine WM/cognitive phenotype ≥50% of memantine-alone while NMDAR-class attribution abolished; α/N pre-specified |\n| competing_abolish_fail_or_memantine_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish fails, memantine-alone null, underpowered, or assay-identity mismatch | Abolish-fail/memantine-null/underpowered/assay-mismatch as pre-registered competing outcomes (inconclusive ≠ refute) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence Gap",
+      "content": "Baseline measured: Minkeviciene APP/PS1 spatial LITERATURE phenotype prior without NMDAR-abolish residual arm (PMID 15192085). Minkeviciene WT cognition LITERATURE phenotype prior without NMDAR-abolish residual arm (PMID 18378262). Morris AP5 competitive NMDAR learning/LTP necessity LITERATURE tool — ≠ memantine residual; often AGAINST residual (PMID 2869411). Brigman GluN2B LOF LTD/learning LITERATURE tool/phenotype — memantine NOT tested (PMID 20357110/PMC2869199). Adjacent NON-MATCH: Rammes 21310164 Aβ/NR2B LTP rescue; Kakefuda 27495014 memantine in DGKβ KO (≠ Grin2b); 27085203 MK-801/scopolamine co-admin adjacent. KEY GAP: Matched residual-positive memantine under GluN2B/Grin2b LOF or NMDAR-matched block that abolishes NMDAR-class attribution UNKNOWN as residual-positive. Memantine-in-NMDAR-LOF cogn necessity/occlusion H2H EMPTY (Q_necess_cogn=3 NON-MATCH)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Competing Caveats",
+      "content": "1. N1–N27 do not prove N28 — especially N27 (NMDAR≠PDE4), N26 (NMDAR≠SERT), N25 (NMDAR≠NET), N24 (A2A≠NMDAR), N23 (α2≠NMDAR), N22 (AMPT≠NMDAR LOF), N15 (DAT≠NMDAR). 2. Phenotype + tools FOUND — PRIOR_ART PARTIAL OK, not auto-REJECT; residual-positive under abolish EMPTY; do not invent residual-positive H2H; do not treat Brigman as residual-positive; do not equate Morris AP5 with memantine residual. CRITICAL: memantine IS uncompetitive NMDAR open-channel blocker — empty residual expected; residual-positive would imply off-target/non-NMDAR bridge. 3. Prefer cell/slice/block-QC before new animal; lock same-panel acute/subacute rodent MWM/spatial/WM/object-recognition cognition with memantine ± GluN2B/Grin2b LOF or NMDAR-matched challenge as primary kill path. Competing caveats: abolish condition fails to kill NMDAR-class attribution / memantine-alone null / underpowered strata / assay-identity mismatch leave the test inconclusive rather than refuted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition",
+      "content": "Refute if: On the pre-registered acute/subacute rodent (Minkeviciene/Morris/Brigman-class) WM/spatial-learning/object-recognition cognition panel, under GluN2B/Grin2b genetic LOF or NMDAR-matched blockade that abolishes NMDAR-class attribution, residual memantine WM/cognitive phenotype falls below 50% of memantine-alone — so NMDAR-class sufficiency for the memantine phenotype survives and nmdar-insufficiency fails — when abolish-gate, memantine-alone comparator, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN · fto_status=UNKNOWN · kill_cost_tier=1 · time_to_refute=4w · ip_class=nmdar-insufficiency · vault_hold=no. Status labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. Risk class: research-discussion. NOT MB/MAOI (SERIES_FROZEN). N2 holds sole ip_class=none. orthosteric_drift=false."
+    }
+  ],
+  "key_findings": [
+    "Experiment is NOT_RUN — this is a research discussion/proposal, not a completed study (TRL 1).",
+    "No published head-to-head study has scored residual-positive memantine WM/cognition under GluN2B/Grin2b LOF or NMDAR-matched blockade that abolishes NMDAR-class attribution (matched_residual H2H = UNKNOWN).",
+    "Minkeviciene (PMID 15192085): memantine improves spatial learning in APP/PS1 transgenic mice (water maze) — phenotype prior only; intact NMDAR present; no NMDAR-abolish residual arm.",
+    "Minkeviciene (PMID 18378262): memantine cognition-enhancing (MWM) and anxiolytic (EPM) in WT C57BL/6J mice — cognition phenotype prior only; no NMDAR-abolish residual arm.",
+    "Morris (PMID 2869411): chronic i.c.v. AP5 (competitive NMDAR antagonist) impairs place learning and suppresses LTP in vivo — NMDAR learning-necessity tool; competitive AP5 ≠ memantine residual H2H.",
+    "Brigman (PMID 20357110): GluN2B conditional LOF in CA1/cortex impairs NMDAR-dependent LTD, reduces dendritic spine density, disrupts corticohippocampal learning — memantine NOT tested (Q_brigman_memantine=0; PMC2869199 memantine count=0).",
+    "Adjacent non-matches: Rammes 21310164 (Aβ/NR2B LTP rescue), Kakefuda 27495014 (memantine in DGKβ KO ≠ Grin2b), 27085203 (MK-801/scopolamine co-admin) — none score residual-positive under NMDAR abolish.",
+    "Prediction: residual memantine WM/cognitive phenotype ≥50% of memantine-alone while NMDAR-class attribution is abolished — currently UNKNOWN; empty residual expected given memantine IS an NMDAR channel blocker.",
+    "Competing outcomes pre-registered: abolish-fail-to-kill / memantine-alone-null / underpowered-strata / assay-mismatch (inconclusive ≠ refute).",
+    "kill_cost_tier=1; time_to_refute=4w; preferred path includes cell/slice/block-QC (hippocampal-slice LTP/NMDAR-EPSC block) before new animal studies.",
+    "PRIOR_ART PARTIAL: phenotype + NMDAR/GluN2B tools found; residual-positive under abolish absent; memantine-in-KO necessity absent."
+  ],
+  "document_date": "2026-09-28",
+  "milestones": [
+    {
+      "title": "Mol Labs N28 Report Published",
+      "description": "Public report N28 on memantine NMDAR-insufficiency assumption-kill published/dual-published by Mol Labs.",
+      "date": "2026-09-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "mollabs_public: reports/2026-09-28/N28.md",
+      "page": 1
+    },
+    {
+      "title": "Proposed Residual Memantine Under NMDAR Abolish Experiment",
+      "description": "Pre-registered acute/subacute rodent (Minkeviciene/Morris/Brigman-class) WM/spatial/object-recognition cognition panel with memantine ± GluN2B/Grin2b LOF or NMDAR-matched blockade; estimated time to refute = 4 weeks from initiation.",
+      "date": "4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "kill_cost_tier=1 · time_to_refute=4w · ip_class=nmdar-insufficiency · vault_hold=no",
+      "page": 1
+    }
+  ]
+}

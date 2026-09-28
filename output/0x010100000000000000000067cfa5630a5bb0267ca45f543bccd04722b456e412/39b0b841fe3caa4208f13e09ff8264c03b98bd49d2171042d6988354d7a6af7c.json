@@ -1,0 +1,154 @@
+{
+  "file_path": "/reports/2026-09-28/L32.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (L32) proposing an assumption-kill experiment to test whether succinate retains metabolic/healthspan phenotype after SUCNR1/GPR91 genetic loss-of-function or matched antagonism abolishes SUCNR1-class attribution. The document is a research discussion framing a pre-registered rodent panel design, cataloguing existing literature (He 2004, McCreath 2015, Haffke 2019, Keiran 2019) as receptor/ligand necessity tools rather than residual-positive evidence, and declaring the residual-positive succinate metabolic/healthspan H2H under SUCNR1 abolish as UNKNOWN/EMPTY. No experiments have been run; the document is at TRL 1–2 (concept with literature grounding).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis Overview and Claim (L32)",
+      "content": "L32 is a hypothesis/assumption-kill card asking whether succinate retains metabolic/healthspan phenotype on a pre-registered rodent panel (He/McCreath/Haffke/Keiran-class) after SUCNR1/GPR91 genetic LOF or SUCNR1-matched antagonism (e.g., NF-56-EJ40-class/Haffke-class) abolishes SUCNR1-class metabolic/inflammatory/BP attribution. The primary claim: under an abolish lock, same-panel early healthspan/metabolic improvement (succinate vs vehicle under abolish) retains ≥50% of the succinate vs vehicle early healthspan/metabolic improvement on SUCNR1-intact concurrent controls. The residual-positive succinate metabolic/healthspan H2H under mammalian Sucnr1/SUCNR1 abolish is declared UNKNOWN/EMPTY (Q_resid_life_h2h=0). Execution status: NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Succinate metabolic, inflammatory, BP, and healthspan attributions are often framed as SUCNR1/GPR91-necessary because succinate is the endogenous SUCNR1 ligand. However, a matched residual-positive succinate metabolic/healthspan H2H under mammalian Sucnr1/SUCNR1 abolish remains UNKNOWN/EMPTY. The card asks whether, once SUCNR1/GPR91 LOF or SUCNR1-matched antagonism abolishes SUCNR1-class attribution, succinate still retains metabolic/healthspan phenotype — i.e., whether succinate metabolic/healthspan is a mere SUCNR1-sole-necessity bridge or has additional mechanisms (e.g., Complex II/SDH/HIF intracellular paths). Explicitly distinct from L15–L31 (different targets: HCAR1, HCAR2, PHD2, TauT, Klb, AMPK, SIRT1, etc.)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch",
+      "content": "Four literature pillars are identified as necessity/tool evidence (NOT residual-positive H2H):\n1. He Nature 2004 (PMID 15141213): GPR91/SUCNR1 = succinate receptor; succinate-induced hypertensive effect abolished in GPR91-deficient mice — receptor+ligand foundation + BP-class SUCNR1 necessity AGAINST residual on BP.\n2. McCreath Diabetes 2015 (PMID 25352636): Sucnr1-/- targeted disruption → dichotomous obesity/energy-expenditure phenotype; Sucnr1(-/-) released from succinate-induced inhibition of lipolysis — Sucnr1 genetic LOF metabolic tool + lipolysis-class necessity.\n3. Haffke Nature 2019 (PMID 31645725): Structural basis of species-selective antagonist binding to SUCNR1; human-selective antagonist NF-56-EJ40 — SUCNR1-matched antagonist tool.\n4. Keiran Nat Immunol 2019 (PMID 30962591): SUCNR1 controls anti-inflammatory macrophage program regulating metabolic response to obesity; myeloid SUCNR1 deficiency worsens metabolic obesity — LOF/mechanism replicate.\nNon-SUCNR1 caveat: Complex II/SDH/HIF intracellular paths support possible residual — document but do not invent organismal longevity residual."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary Table",
+      "content": "| PMID | DOI | Authors/Year | Finding | Role in L32 |\n|------|-----|-------------|---------|-------------|\n| 15141213 | 10.1038/nature02488 | He et al. 2004 (Nature) | GPR91/SUCNR1 = succinate receptor; succinate increases BP; succinate-induced hypertensive effect abolished in GPR91-deficient mice | Receptor+ligand foundation + BP-class SUCNR1 necessity AGAINST residual on BP; ≠ residual-positive retain |\n| 25352636 | 10.2337/db14-0346 | McCreath et al. 2015 (Diabetes) | Sucnr1-/- → dichotomous obesity/EE phenotype; Sucnr1(-/-) released from succinate-induced lipolysis inhibition | Sucnr1 genetic LOF metabolic tool + lipolysis-class necessity; ≠ residual-positive |\n| 31645725 | 10.1038/s41586-019-1663-8 | Haffke et al. 2019 (Nature) | Structural basis of species-selective antagonist binding to SUCNR1; human-selective NF-56-EJ40 | SUCNR1-matched antagonist structural tool; ≠ residual H2H |\n| 30962591 | 10.1038/s41590-019-0372-7 | Keiran et al. 2019 (Nat Immunol) | SUCNR1 controls anti-inflammatory macrophage program; myeloid SUCNR1 deficiency worsens metabolic obesity | LOF/mechanism replicate; ≠ residual-positive succinate-in-KO retain |\n| 35097053 | N/A | Adjacent | Acute succinate increases skeletal muscle explosive strength via SUCNR1 | Adjacent; intact SUCNR1 expected; OUT of public prior_art ≤4 |\n| 40392081 | N/A | Adjacent | MASH HSC succinate-GPR91 block | Supports SUCNR1 ≠ HCAR2 distinctness; OUT of public prior_art ≤4 |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable Name | Kind | Assay | Threshold/Status |\n|--------------|------|-------|------------------|\n| He_GPR91_SUCNR1_succinate_receptor_BP_necessity | LITERATURE | Orphan GPCR ligand screen; GPR91-deficient mice; succinate BP/renin-angiotensin readout | FOUND — receptor+ligand + BP necessity AGAINST residual |\n| McCreath_Sucnr1_LOF_metabolic_lipolysis_necessity_tool | LITERATURE | Sucnr1-/- mice; chow/HFD; WAT mass; EE; glucose; lipolysis ± succinate | FOUND — LOF metabolic tool + lipolysis necessity |\n| Haffke_NF56EJ40_SUCNR1_antagonist_structural_tool | LITERATURE | Rat/humanized SUCNR1 crystal structures; NF-56-EJ40; radioligand binding/mutagenesis | FOUND — antagonist tool class |\n| Keiran_myeloid_SUCNR1_LOF_metabolic_obesity_mechanism | LITERATURE | Myeloid-specific SUCNR1 deficiency; macrophage polarization; diet-induced obesity metabolic endpoints | FOUND — LOF/mechanism replicate |\n| adjacent_35097053_acute_succinate_muscle | LITERATURE | Acute succinate; skeletal muscle; SUCNR1 pathway | Adjacent; OUT of public prior_art |\n| adjacent_40392081_MASH_HSC_distinctness | LITERATURE | HSC; succinate-GPR91 block; MASH fibrosis | Adjacent distinctness; OUT of public prior_art |\n| ComplexII_SDH_HIF_non_SUCNR1_path_caveat | LITERATURE | Complex II/SDH/HIF co-mention | Possible residual — document; do not invent longevity residual |\n| matched_succinate_under_mammalian_Sucnr1_LOF_or_antagonism_residual_metabolic_healthspan_H2H | UNKNOWN | Rodent ± exogenous succinate ± Sucnr1/SUCNR1 LOF or SUCNR1-matched antagonist; same-panel metabolic/healthspan residual | UNKNOWN/EMPTY (Q_resid_life_h2h=0); NOT RUN |\n| block_arm_early_healthspan_metabolic_retention_ge50pct_of_intact_succinate_vs_vehicle | PREDICTION | Pre-registered rodent panel; abolish lock; score block-arm vs intact-arm succinate vs vehicle Δ | PREDICTION — ≥50% retention gate; NOT RUN |\n| competing_abolish_fail_or_succinate_alone_null_or_underpowered_or_assay_mismatch_or_ComplexII_HIF_confound | PREDICTION | Same design; competing outcomes | Inconclusive if abolish-fail/null/underpowered/mismatch/confound |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design (Assay Method)",
+      "content": "Method: propose-assay. Design: Pre-registered rodent metabolic/early-healthspan/BP-attribution panel (He/McCreath/Haffke/Keiran-class). Arms: exogenous succinate vs vehicle under (a) Sucnr1/SUCNR1 genetic LOF or SUCNR1-matched antagonism (abolish arm) and (b) SUCNR1-intact concurrent controls. Primary endpoint: same-panel early healthspan/metabolic improvement (succinate vs vehicle under abolish) retains ≥50% of succinate vs vehicle early healthspan/metabolic improvement on SUCNR1-intact concurrent controls. Preferred sequence: cell/tissue/block-QC (SUCNR1-class metabolic/inflammatory/BP-attribution QC abolish) before new animal longevity runs. Refute window: 4 weeks. Kill cost tier: 1. No human dosing language. No invented residual effect sizes or KD/IC50."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Criteria and Competing Outcomes",
+      "content": "Refute if: On the pre-registered rodent panel where Sucnr1/SUCNR1 LOF or SUCNR1-matched antagonism locks SUCNR1-class control benefit abolished, same-panel early healthspan/metabolic improvement (succinate vs vehicle under abolish) is <50% of the succinate vs vehicle early healthspan/metabolic improvement on SUCNR1-intact concurrent controls — indicating succinate metabolic/inflammatory/BP/healthspan reduces to mere SUCNR1-necessary bridge and the sucnr1-insufficiency assumption-kill fails — when abolish-fail, succinate-alone-null, underpowered-strata, assay-mismatch, or Complex-II-or-HIF-confound artifacts are ruled out. Competing inconclusive outcomes: abolish-fail (block not actually abolishing SUCNR1-class control), succinate-alone-null on SUCNR1-intact arm, underpowered strata, referee-assay mismatch, or Complex-II-or-HIF-confound-without-selective-confirmation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Prior Art Status",
+      "content": "PRIOR_ART STATUS: PARTIAL.\n- BP necessity FOUND (He 2004, PMID 15141213) — necessity AGAINST residual on BP ≠ residual-positive retain.\n- Lipolysis/metabolic necessity FOUND (McCreath 2015, PMID 25352636) — LOF tool ≠ residual-positive.\n- Antagonist structural tool FOUND (Haffke 2019, PMID 31645725) — ≠ residual H2H.\n- Myeloid LOF/mechanism FOUND (Keiran 2019, PMID 30962591) — ≠ residual-positive succinate-in-KO retain.\n- Residual-positive succinate metabolic/healthspan H2H under mammalian Sucnr1/SUCNR1 abolish: UNKNOWN/EMPTY.\n- Longevity/healthspan-class residual: EMPTY.\n- Soft-complete empty ≠ novelty / ≠ failure.\n- L1–L31 ≠ proof of L32."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Distinctness from L15–L31",
+      "content": "Key limitations and distinctness flags:\n1. L1–L31 do not prove L32 — new parent area succinate-sucnr1-insufficiency.\n2. He BP abolish ≠ residual-positive retain; McCreath/Keiran ≠ residual-positive; Haffke ≠ residual H2H; Complex II/HIF co-mention ≠ invented longevity residual.\n3. Critical receptor/ligand distinctness: SUCNR1 ≠ HCAR1 (L31, lactate); SUCNR1 ≠ HCAR2 (L30, BHB); SUCNR1 ≠ PHD2 (L29, αKG); SUCNR1 ≠ TauT (L28, taurine); SUCNR1 ≠ Klb/FGFR1 (L27, FGF21); SUCNR1 ≠ MT/melatonin (L26); SUCNR1 ≠ SIRT1 (L25); SUCNR1 ≠ SGLT2 (L24); SUCNR1 ≠ GSK3 (L23); SUCNR1 ≠ AMPK primary (L22); SUCNR1 ≠ mitophagy (L21); SUCNR1 ≠ bulk ATG (L20).\n4. Succinate ≠ lactate (CRITICAL); succinate ≠ BHB (CRITICAL).\n5. NOT NAD-after-senolysis (SERIES_FROZEN).\n6. Do not invent residual effect sizes or KD/IC50."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: sucnr1-insufficiency. Vault hold: no. Novelty tag: assumption-kill. Polarity: negative. Status label: NEGATIVE. Risk class: research-discussion. Card SHA256: ca0d806d5972f4b9b2a2182b34cb98ccc252148f975a450d576b7d376b297380. Publication status: PENDING dual-publish."
+    }
+  ],
+  "key_findings": [
+    "L32 is a NOT_RUN hypothesis card (TRL 1): no experiments have been executed; the residual-positive succinate metabolic/healthspan H2H under mammalian Sucnr1/SUCNR1 abolish is UNKNOWN/EMPTY (Q_resid_life_h2h=0).",
+    "He 2004 (PMID 15141213, Nature): GPR91/SUCNR1 identified as succinate receptor; succinate-induced hypertensive effect abolished in GPR91-deficient mice — establishes receptor+ligand foundation and BP-class SUCNR1 necessity, but is AGAINST residual on BP endpoint, not residual-positive retain.",
+    "McCreath 2015 (PMID 25352636, Diabetes): Sucnr1-/- targeted disruption leads to dichotomous obesity/energy-expenditure phenotype; Sucnr1(-/-) released from succinate-induced inhibition of lipolysis — Sucnr1 genetic LOF metabolic tool + lipolysis-class necessity, NOT residual-positive.",
+    "Haffke 2019 (PMID 31645725, Nature): Structural basis of species-selective antagonist binding to SUCNR1; human-selective antagonist NF-56-EJ40 characterized — SUCNR1-matched antagonist tool, NOT a residual H2H experiment.",
+    "Keiran 2019 (PMID 30962591, Nat Immunol): Myeloid SUCNR1 deficiency worsens metabolic obesity by disrupting anti-inflammatory macrophage program — LOF/mechanism replicate, NOT residual-positive succinate-in-KO retain.",
+    "Prior art status is PARTIAL: receptor+ligand+BP necessity FOUND; Sucnr1 metabolic LOF tool FOUND; antagonist tool FOUND; myeloid LOF/mechanism FOUND; residual-positive under abolish EMPTY; longevity residual EMPTY.",
+    "Proposed experimental design: pre-registered rodent panel with exogenous succinate vs vehicle under Sucnr1/SUCNR1 LOF or SUCNR1-matched antagonism (abolish arm) vs SUCNR1-intact concurrent controls; primary gate = ≥50% retention of succinate vs vehicle early healthspan/metabolic improvement under abolish vs intact arm.",
+    "Refute criterion: block-arm early healthspan/metabolic improvement <50% of intact-arm succinate vs vehicle improvement (when confounds ruled out) would indicate succinate metabolic/healthspan reduces to mere SUCNR1-necessary bridge.",
+    "Complex II/SDH/HIF non-SUCNR1 intracellular paths acknowledged as possible residual mechanism — document as caveat; do not invent organismal longevity residual from Complex II/HIF alone.",
+    "Critical distinctness: SUCNR1 ≠ HCAR1 (succinate ≠ lactate); SUCNR1 ≠ HCAR2 (succinate ≠ BHB); L31 and L30 are NON-MATCH to L32.",
+    "Kill cost tier 1; time to refute estimated at 4 weeks; preferred sequence is cell/tissue/block-QC before new animal longevity runs."
+  ],
+  "milestones": [
+    {
+      "title": "He 2004 GPR91/SUCNR1 receptor+ligand+BP necessity publication",
+      "description": "Publication establishing GPR91/SUCNR1 as the succinate receptor and demonstrating succinate-induced hypertensive effect abolished in GPR91-deficient mice (PMID 15141213, Nature).",
+      "date": "2004",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 15141213 / DOI 10.1038/nature02488 — He: citric acid cycle intermediates as ligands for orphan GPCRs; GPR91/SUCNR1 = succinate receptor; succinate increases blood pressure; succinate-induced hypertensive effect abolished in GPR91-deficient mice",
+      "page": 1
+    },
+    {
+      "title": "McCreath 2015 Sucnr1-/- metabolic LOF tool publication",
+      "description": "Publication establishing Sucnr1 targeted disruption with dichotomous obesity/energy-expenditure phenotype and Sucnr1(-/-) released from succinate-induced lipolysis inhibition (PMID 25352636, Diabetes).",
+      "date": "2015",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 25352636 / DOI 10.2337/db14-0346 — McCreath: targeted disruption of the SUCNR1 metabolic receptor leads to dichotomous effects on obesity; Sucnr1(-/-) released from succinate-induced inhibition of lipolysis",
+      "page": 1
+    },
+    {
+      "title": "Haffke 2019 NF-56-EJ40 SUCNR1 antagonist structural tool publication",
+      "description": "Publication establishing structural basis of species-selective antagonist binding to SUCNR1 with human-selective antagonist NF-56-EJ40 (PMID 31645725, Nature).",
+      "date": "2019",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 31645725 / DOI 10.1038/s41586-019-1663-8 — Haffke: structural basis of species-selective antagonist binding to the succinate receptor; human-selective antagonist NF-56-EJ40",
+      "page": 1
+    },
+    {
+      "title": "Keiran 2019 myeloid SUCNR1 LOF metabolic obesity mechanism publication",
+      "description": "Publication establishing SUCNR1 control of anti-inflammatory macrophage program regulating metabolic response to obesity; myeloid SUCNR1 deficiency worsens metabolic obesity (PMID 30962591, Nat Immunol).",
+      "date": "2019",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PMID 30962591 / DOI 10.1038/s41590-019-0372-7 — Keiran: SUCNR1 controls an anti-inflammatory program in macrophages to regulate the metabolic response to obesity; myeloid SUCNR1 deficiency worsens metabolic obesity",
+      "page": 1
+    },
+    {
+      "title": "L32 cell/tissue/block-QC (SUCNR1-class abolish confirmation)",
+      "description": "Preferred first step: cell/tissue/block-QC confirming abolish of SUCNR1-class control (metabolic/inflammatory/BP-attribution QC response abolished) before new animal longevity runs.",
+      "date": "within 4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Prefer cell/tissue/block-QC (SUCNR1-class metabolic/inflammatory/BP-attribution QC abolish) before new animal longevity runs; primary kill path remains a matched rodent ± exogenous succinate ± Sucnr1/SUCNR1 LOF or SUCNR1-matched antagonist at abolish early healthspan/metabolic panel within the refute window",
+      "page": 1
+    },
+    {
+      "title": "L32 in vivo early healthspan/metabolic panel (primary kill path)",
+      "description": "Pre-registered rodent metabolic/early-healthspan/BP-attribution panel with exogenous succinate vs vehicle under SUCNR1/GPR91 LOF or SUCNR1-matched antagonism vs SUCNR1-intact concurrent controls; primary refute window 4 weeks.",
+      "date": "within 4w",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "time_to_refute=4w ... primary kill path remains a matched rodent ± exogenous succinate ± Sucnr1/SUCNR1 LOF or SUCNR1-matched antagonist at abolish early healthspan/metabolic panel within the refute window",
+      "page": 1
+    },
+    {
+      "title": "L32 dual-publish (Mol Labs public report)",
+      "description": "Pending dual-publication of the L32 hypothesis card as a Mol Labs public report.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Mol Labs public report: PENDING dual-publish",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "file_path": "/reports/2026-09-28/N32.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (card N32) proposing an assumption-kill experiment to test whether baclofen retains residual cognition/antinociception/motor phenotype under GABA-B genetic loss-of-function (Gabbr1 KO) or GABA-B-matched antagonism (CGP 35348-class) that abolishes GABA-B-class attribution. The document is a research discussion/hypothesis card at TRL 1–2: no new experiments have been run (execution_status=NOT_RUN), but it synthesizes four key prior-art literature anchors and defines a pre-registered prediction framework. The claim is that residual baclofen phenotype ≥50% of baclofen-alone under GABA-B abolish would constitute a non-GABA-B bridge kill; current evidence from Malcangio and Schuler argues against residual-positive, and the matched H2H residual result remains UNKNOWN.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Hypothesis (N32)",
+      "content": "Mol Labs public report card N32. Status: NEGATIVE (assumption-kill). Execution: NOT_RUN. The central question is whether any residual baclofen phenotype (cognition / antinociception / motor) survives a Gabbr1 LOF or GABA-B-matched antagonism (CGP 35348-class) that abolishes GABA-B-class attribution on the same panel. The hypothesis is framed as a 'gabab-insufficiency assumption-kill': if baclofen is truly a selective GABA-B agonist, residual phenotype under GABA-B abolish should be empty; a residual-positive result would imply a non-GABA-B bridge. ip_class=gabab-insufficiency; kill_cost_tier=1; time_to_refute=4w; vault_hold=no; fto_status=UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Formal Claim / Pre-registered Prediction",
+      "content": "On a pre-registered acute/subacute rodent (McNamara/Kaupmann/Malcangio/Schuler-class) cognition / antinociception / motor panel with a baclofen-alone (or baclofen vs vehicle) arm on GABA-B-intact concurrent controls, a GABA-B genetic LOF (Gabbr1 / GABA-B(1)) or GABA-B-matched antagonism (e.g. CGP 35348-class) that abolishes GABA-B-class antinociception / motor / cognition attribution, and a baclofen-under-abolish arm: under the same condition that abolishes GABA-B-class attribution, baclofen retains residual phenotype ≥50% of baclofen-alone (or baclofen vs vehicle Δ) on GABA-B-intact concurrent controls (cognition / antinociception / motor units as pre-specified; α/N pre-specified). Threshold: ≥50% residual = assumption-kill / gabab-insufficiency."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary — Four Literature Anchors",
+      "content": "Four key prior-art references are cited:\n1. McNamara & Skelton (PMID 8808136, Pharmacol Biochem Behav 1996, DOI 10.1016/0091-3057(95)02025-x): Baclofen dose-dependently impairs spatial learning in rats (Morris water maze + open-field locomotion). Cognitive phenotype prior; intact GABA-B present; NO Gabbr1-KO or CGP-35348 abolish residual arm (Q_mcnamara_cgp=0). DOI HEAD 200 verified.\n2. Kaupmann et al. (PMID 9069281, Nature 1997, DOI 10.1038/386239a0): Expression cloning of GABA(B) receptors — Gabbr1 molecular identity. CRITICAL: identity ≠ residual H2H. DOI HEAD 200 verified.\n3. Malcangio (PMID 1653069, Br J Pharmacol 1991, DOI 10.1111/j.1476-5381.1991.tb09784.x, PMC1908386): CGP 35348 prevents baclofen antinociception and muscle-relaxant effect in mouse/rat hot-plate/writhing/paw-pressure + rota-rod assays. CGP matched-block TOOL + necessity AGAINST residual on antinoc/motor. CRITICAL: prevention ≠ residual+. DOI HEAD 403 (NCBI/PMC verified).\n4. Schuler et al. (PMID 11498050, Neuron 2001, DOI 10.1016/s0896-6273(01)00345-2): Mice lacking GABA-B(1) — epilepsy, hyperalgesia, impaired memory, loss of pre- and postsynaptic GABA-B responses; GABA-B agonist muscle relaxation/hypothermia/delta EEG LOST in null. Gabbr1 KO tool + necessity AGAINST residual. CRITICAL: do NOT misread as baclofen-in-KO residual+. DOI HEAD 200 verified."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable | Kind | Assay | Threshold/Status |\n|---|---|---|---|\n| McNamara_baclofen_spatial_learning_phenotype | LITERATURE | Rodent Morris water maze spatial learning + open-field locomotion ± baclofen | Baclofen dose-dependently impairs spatial learning (PMID 8808136); cognitive phenotype prior; intact GABA-B; no Gabbr1/CGP-abolish residual arm (Q_mcnamara_cgp=0) |\n| Kaupmann_Gabbr1_identity_not_residual | LITERATURE | Expression cloning of GABA(B) receptors (Kaupmann et al. Nature 1997) | Gabbr1 molecular identity (PMID 9069281); CRITICAL: identity ≠ residual H2H |\n| Malcangio_CGP35348_necessity_AGAINST_residual | LITERATURE | Mouse/rat hot-plate/writhing/paw-pressure antinociception + rota-rod ± baclofen ± CGP 35348 | CGP 35348 prevents baclofen antinociception and muscle-relaxant effect (PMID 1653069/PMC1908386); necessity AGAINST residual; prevention ≠ residual+ |\n| Schuler_Gabbr1_KO_agonist_loss_necessity_AGAINST_residual | LITERATURE | Mice lacking GABA-B(1) — agonist muscle relaxation/hypothermia/delta EEG | Gabbr1 KO: agonist muscle relaxation/hypothermia/delta EEG LOST in null (PMID 11498050); necessity AGAINST residual; do NOT misread as baclofen-in-KO residual+ |\n| matched_residual_baclofen_under_Gabbr1_CGP_abolish_H2H | UNKNOWN | Same acute/subacute rodent cognition/antinociception/motor panel — baclofen ± Gabbr1 LOF or CGP 35348-class abolish | Residual-positive H2H not found (Q_resid_life_h2h=0 EMPTY; Q_resid_tight=52 NON-MATCH/necessity-AGAINST; Q_baclofen_in_ko=20 necessity-leaning); UNKNOWN + missing_search |\n| residual_baclofen_phenotype_ge_50pct_of_alone_when_GABAB_class_abolished | PREDICTION | Pre-registered rodent panel; GABA-B-class arm must show abolished attribution; baclofen arm scored for residual vs baclofen-alone on GABA-B-intact concurrent controls | Residual baclofen phenotype ≥50% of baclofen-alone (or baclofen vs vehicle Δ) on GABA-B-intact concurrent controls while GABA-B-class attribution is abolished; α/N pre-specified |\n| competing_abolish_fail_or_baclofen_null_or_underpowered_inconclusive | PREDICTION | Same design; competing outcomes if abolish condition fails to kill GABA-B-class attribution, baclofen-alone null, underpowered strata, or assay-identity mismatch | Abolish-fail-to-kill / baclofen-alone-null / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes (inconclusive_if ≠ refute_if) |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Evidence State",
+      "content": "Current evidence state:\n- McNamara baclofen spatial-learning LITERATURE phenotype prior without Gabbr1/CGP-abolish residual arm (PMID 8808136; Q_mcnamara_cgp=0).\n- Kaupmann Gabbr1 LITERATURE identity — NOT residual H2H (PMID 9069281).\n- Malcangio CGP 35348 LITERATURE tool + necessity AGAINST residual on antinoc/motor — prevention ≠ residual+ (PMID 1653069/PMC1908386).\n- Schuler Gabbr1 KO LITERATURE tool + necessity AGAINST residual — agonist muscle/hypothermia/delta EEG LOST in null; do NOT misread as baclofen-in-KO residual+ (PMID 11498050).\n- Adjacent NON-MATCH: PMID 12970075 (baclofen hypothermia abolished in Gabbr1-/- — necessity AGAINST); PMID 10094428 (gabapentin ≠ baclofen); PMID 22761875 (GB1-alone ERK ≠ Gabbr1 LOF residual).\n- Matched residual-positive baclofen under Gabbr1 LOF or CGP 35348 block: UNKNOWN as residual-positive (soft-complete Q_resid_life_h2h=0 EMPTY; Q_resid_tight=52 NON-MATCH/necessity-AGAINST; Q_resid=774 inflated NON-MATCH; Q_baclofen_in_ko=20 necessity-leaning).\n- PRIOR_ART PARTIAL: phenotype + Gabbr1 identity + CGP/Gabbr1 tools FOUND; residual-positive under abolish ABSENT."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Experimental Design Preference",
+      "content": "Gabab-insufficiency assumption-kill: baclofen moves cognition/antinociception/motor phenotypes and is framed as selective GABA-B agonism. Gabbr1 LOF is a genetic tool (Schuler); published phenotype prior is McNamara spatial-learning impairment; Gabbr1 molecular identity is Kaupmann; CGP 35348 is a GABA-B antagonist pharmacological tool with necessity AGAINST residual on antinoc/motor (Malcangio). No published head-to-head scores residual-positive baclofen cognition/antinociception/motor under Gabbr1 LOF or GABA-B-matched antagonism that abolishes GABA-B-class attribution on the same panel as a retained residual ≥50% of baclofen-alone.\nPreferred execution path: cell/slice/block-QC before new animal (e.g. CGP abolish of a GABA-B-class control response — electrophys/receptor QC — for abolish gate); in vivo McNamara/Malcangio/Schuler-class rodent cognition/antinociception/motor panel remains the primary kill path."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition and Competing Caveats",
+      "content": "Refute if: On the pre-registered acute/subacute rodent panel, under Gabbr1 genetic LOF or CGP 35348-class abolish that abolishes GABA-B-class attribution, residual baclofen phenotype falls below 50% of baclofen-alone (or baclofen vs vehicle Δ) on GABA-B-intact concurrent controls — so GABA-B-class sufficiency for the baclofen phenotype survives and gabab-insufficiency fails — when abolish-gate, baclofen-alone/intact-arm comparator, and power/assay artifacts are ruled out.\nCompeting caveats (inconclusive rather than refuted): abolish condition fails to kill GABA-B-class attribution / baclofen-alone null / underpowered strata / assay-identity mismatch (phenotype ≠ residual; Malcangio CGP prevention ≠ residual+; Schuler agonist-loss ≠ baclofen-in-KO residual+; Kaupmann identity ≠ residual proof; hypothermia abolish ≠ cognition residual; gabapentin ≠ baclofen; Gabbr1 ≠ Htr1a; GABA-B ≠ GABA-A; Gabbr1 ≠ AMPAR/GlyT1/NMDAR/PDE4/SERT/NET)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Execution Constraints",
+      "content": "Key constraints:\n1. N1–N31 do not prove N32; especially N31 (buspirone×Htr1a ≠ baclofen×Gabbr1; Q_N31_collapse=0) and P21 (Selank×GABA-A ≠ baclofen×Gabbr1; Q_P21_selank=0; Q_P21_gabaA_resid=0) are CRITICAL DISTINCT.\n2. PRIOR_ART PARTIAL OK — not auto-REJECT; residual-positive under abolish EMPTY (Q_resid_life_h2h=0); do not invent residual-positive H2H.\n3. Prefer cell/slice/block-QC before new animal; lock same-panel acute/subacute rodent cognition/antinociception/motor with baclofen ± Gabbr1 LOF or GABA-B-matched challenge as primary kill path.\n4. No dosing; NOT MB/MAOI; orthosteric_drift=false; do not burn ip_class=none; do not collapse to N31 Htr1a or P21 GABA-A.\n5. Baclofen IS a selective GABA-B agonist — empty residual is expected; residual-positive would imply non-GABA-B bridge (strong kill).\n6. Execution_status=NOT_RUN; fto_status=UNKNOWN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three critical ablations identified:\n1. Remove same-panel contrast of residual baclofen cognition/antinociception/motor under Gabbr1 LOF or GABA-B-matched antagonism: Without the abolish×residual H2H on a McNamara/Kaupmann/Malcangio/Schuler-class panel with a baclofen arm, separate phenotype LITERATURE and GABA-B tool/necessity LITERATURE cannot show gabab-insufficiency as a residual-positive kill.\n2. Remove verified abolish gate plus baclofen-alone/intact-arm comparator: Without verified GABA-B-class abolish and baclofen-alone/intact-arm comparator under the same condition, residual baclofen is just 'another GABAergic agent under nonspecific challenge,' not an assumption-kill.\n3. Remove N31≠N32 + P21≠N32 + adjacent-NON-MATCH≠residual+ discipline: Treating N15–N31 residuals or Malcangio prevention or Schuler agonist-loss as residual-under-abolish would invent an H2H result left UNKNOWN as residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Context and Related Cards",
+      "content": "N32 is part of a hypothesis swarm series. Related prior cards: N31 (buspirone×Htr1a — ESPECIALLY DISTINCT; Gabbr1 ≠ Htr1a; baclofen ≠ buspirone; Q_N31_collapse=0); P21 (Selank×GABA-A — CRITICAL DISTINCT; GABA-B ≠ GABA-A; baclofen ≠ Selank; Q_P21_selank=0; Q_P21_gabaA_resid=0); N30 (aniracetam×AMPAR); N29 (sarcosine×GlyT1); N28 (memantine×NMDAR); N27 (rolipram×PDE4); N26 (fluoxetine×SERT); N25 (atomoxetine×NET); N24 (caffeine×A2A); N15 (modafinil×DAT); N16–N23; N2 (sole ip_class=none). Card path: ~/hypothesis-swarm/cards/N32.card.md; card_sha256: cfb576d31c495a7e729e695b71265125946121a5fe2a7d7818b7377196e94ee3. Status: PENDING dual-publish."
+    }
+  ],
+  "key_findings": [
+    "Execution status is NOT_RUN — no new experiments have been conducted; this is a hypothesis/discussion card at TRL 1.",
+    "Four prior-art literature anchors identified: McNamara (PMID 8808136, cognitive phenotype prior, intact GABA-B, no abolish arm), Kaupmann (PMID 9069281, Gabbr1 molecular identity, NOT residual H2H), Malcangio (PMID 1653069, CGP 35348 prevents baclofen antinociception/muscle-relaxant — necessity AGAINST residual), Schuler (PMID 11498050, Gabbr1 KO with agonist muscle relaxation/hypothermia/delta EEG LOST — necessity AGAINST residual).",
+    "Matched residual-positive baclofen under Gabbr1 LOF or CGP 35348 block that abolishes GABA-B-class attribution is UNKNOWN as residual-positive (Q_resid_life_h2h=0 EMPTY).",
+    "PRIOR_ART PARTIAL: phenotype + Gabbr1 identity + CGP/Gabbr1 tools FOUND; residual-positive under abolish ABSENT — not auto-REJECT.",
+    "Prediction threshold: residual baclofen phenotype ≥50% of baclofen-alone (or baclofen vs vehicle Δ) on GABA-B-intact concurrent controls while GABA-B-class attribution is abolished = assumption-kill / gabab-insufficiency.",
+    "Baclofen IS a selective GABA-B agonist — empty residual is expected; residual-positive would imply a non-GABA-B bridge (strong kill signal).",
+    "Adjacent NON-MATCH references (PMID 12970075 baclofen hypothermia abolished in Gabbr1-/-; PMID 10094428 gabapentin≠baclofen; PMID 22761875 GB1-alone ERK) do NOT constitute residual-positive evidence.",
+    "Preferred execution: cell/slice/block-QC before new animal (CGP abolish of GABA-B-class control response for abolish gate); in vivo McNamara/Malcangio/Schuler-class rodent panel is primary kill path.",
+    "kill_cost_tier=1; time_to_refute=4w; ip_class=gabab-insufficiency; vault_hold=no; fto_status=UNKNOWN.",
+    "N31 (buspirone×Htr1a) and P21 (Selank×GABA-A) are CRITICAL DISTINCT from N32 (baclofen×Gabbr1) and must not be collapsed."
+  ],
+  "milestones": []
+}

@@ -1,0 +1,76 @@
+{
+  "file_path": "/reports/2026-09-28/P30.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public hypothesis card (P30) proposing an \"assumption-kill\" experiment to test whether residual CGRP neuroprotection, cognition, or nociception persists under RAMP1 genetic loss-of-function (LOF) or CLR/RAMP1-matched CGRP-receptor antagonism (olcegepant/BIBN4096BS-class) that abolishes RAMP1-class attribution. The document is a pre-registered research discussion (not yet executed) framing a negative-polarity prediction: the matched residual-positive H2H result is currently EMPTY/UNKNOWN, with prior art providing necessity-against-residual evidence (Tsujikawa, Mulder) rather than residual-positive evidence. The project is at TRL 1–2: concept and literature synthesis only, with no experimental data generated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis Card P30 — Overview and Claim",
+      "content": "P30 asks whether residual CGRP neuroprotection, cognition, or nociception remains ≥50% of the CGRP without-RAMP1-abolish arm on a matched rodent panel (Zhai-class ischemic NP + cognitive endpoints, Doods-class antagonist QC, McLatchie-class CLR+RAMP1 composition, or Tsujikawa-class Ramp1 LOF vasodilation QC style) when RAMP1-class attribution is first abolished via Ramp1 genetic LOF or CLR/RAMP1-matched CGRP-receptor antagonist (olcegepant/BIBN4096BS-class). This is framed as an 'assumption-kill' (ramp1-insufficiency) with NEGATIVE polarity. The claim is that such residual-positive H2H data is currently EMPTY/UNKNOWN — no published study has run this specific matched panel with RAMP1-abolish gate plus residual CGRP readout."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Zhai 2018 (PMID 29266061)",
+      "content": "Zhai et al. (J Hypertens 2018; PMID 29266061; DOI 10.1097/HJH.0000000000001649): Endogenous CGRP suppresses ischemic brain injuries and progression of cognitive decline. Model: CGRP-/- ligand knockout mice; MCAO and BCAS ischemia models; radial-maze reference memory; primary cortical neuron death; CBF recovery. Key findings: CGRP-/- mice showed worse neuronal death, slower CBF recovery, and poorer radial-maze performance; exogenous CGRP promoted CBF recovery and inhibited primary cortical neuron death. IMPORTANT CAVEAT: This is a CGRP ligand KO (intact RAMP1 expected), NOT a Ramp1-/- residual arm. Cannot be read as residual-positive CGRP under RAMP1 abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Doods 2000 (PMID 10711339)",
+      "content": "Doods et al. (Br J Pharmacol 2000; PMID 10711339; DOI 10.1038/sj.bjp.0703110): BIBN4096BS (olcegepant) — first selective small-molecule CGRP antagonist. Model: Marmoset facial blood flow. Key finding: BIBN4096BS inhibited CGRP effects on facial blood flow. Role in P30: Establishes the pharmacological tool (olcegepant/BIBN4096BS-class) for RAMP1-class CGRP-receptor antagonism. Not a residual H2H experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — McLatchie 1998 (PMID 9620797)",
+      "content": "McLatchie et al. (Nature 1998; PMID 9620797; DOI 10.1038/30666): RAMPs regulate CLR transport and ligand specificity. RAMP1+CLR = CGRP receptor; RAMP2+CLR = adrenomedullin receptor. Role in P30: Receptor-composition foundation establishing necessity-leaning RAMP1 attribution for CGRP signaling. AMY1 (CTR+RAMP1) caveat noted: under selective CLR+RAMP1 pharmacology, AMY1 residual path is possible and must be documented (not invented). Residual CGRP activity under RAMP1 abolish would imply a non-RAMP1 bridge."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Tsujikawa 2007 (PMID 17923674)",
+      "content": "Tsujikawa et al. (PNAS 2007; PMID 17923674; DOI 10.1073/pnas.0705974104; PMC2034234): RAMP1-deficient mice — αCGRP/βCGRP vascular relaxant activities remarkably suppressed in RAMP1(-/-) arteries; hypertension and cytokine/dendritic-cell phenotype. Role in P30: Ramp1 genetic LOF tool + vasodilation necessity-leaning evidence. PMC2034234 keyword scan returned 0 hits for neuroprotection/cognition/memory/ischemia/exogenous-CGRP-NP — NOT residual-positive for NP/cognition. Provides necessity AGAINST residual for vasodilation endpoint."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art — Mulder (PMID 32583883) — Promoted Necessity Against Residual",
+      "content": "Mulder et al. (PMID 32583883): Olcegepant/rimegepant worsen cerebral ischemic outcome. Role in P30: Provides necessity AGAINST residual CGRP neuroprotection under CGRP-receptor abolish for the ischemia panel. This is a promoted prior (out of public prior_art ≤4). Classified as NECESSITY AGAINST residual — not residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prediction Variables and Experimental Design",
+      "content": "Key prediction variables:\n1. Zhai_CGRP_ligand_KO_ischemic_NP_cognition_phenotype — LITERATURE (confirmed PRIOR, NOT Ramp1 residual arm)\n2. Doods_BIBN4096BS_olcegepant_CGRP_antagonist_tool — LITERATURE (tool confirmed, not residual H2H)\n3. McLatchie_CLR_RAMP1_CGRP_receptor_composition — LITERATURE (composition confirmed, necessity-leaning)\n4. Tsujikawa_Ramp1_LOF_vasodilation_necessity — LITERATURE (vasodilation necessity confirmed; 0 NP/cogn residual)\n5. matched_residual_CGRP_under_RAMP1_abolish_Zhai_Doods_McLatchie_Tsujikawa_H2H — EMPTY/UNKNOWN (no published matched panel found)\n6. residual_CGRP_NP_cognition_nociception_ge50pct_of_CGRP_without_RAMP1_abolish — PREDICTION (author-chosen; not observed)\n7. competing_abolish_fail_or_agonist_alone_null_or_underpowered_or_assay_mismatch_or_AMY_confound_inconclusive — PREDICTION (pre-registered competing outcomes)\n\nProposed assay design: Matched rodent neuroprotection/cognition/nociception panel ± CGRP ± CLR/RAMP1-matched CGRP-receptor antagonist (olcegepant/BIBN4096BS-class) or Ramp1 genetic LOF. RAMP1-abolish condition must first abolish RAMP1-class neuroprotection/vasodilation/nociception attribution, then score residual CGRP phenotype vs CGRP without-RAMP1-abolish arm. Preferred sequence: cell/slice/block-QC before new animal ischemic NP/cognition/nociception panels. AMY1-control arm required for honesty under selective CLR+RAMP1 pharmacology."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criteria and Actionable Limitations",
+      "content": "Refute if: On the pre-registered matched panel, residual CGRP neuroprotective/cognitive/nociceptive phenotype is <50% of the CGRP without-RAMP1-abolish arm under RAMP1-abolish condition — when abolish-fail, agonist-alone-null, underpowered strata, assay-mismatch, or AMY-confound artifacts are ruled out.\n\nKey actionable limitations:\n1. Do not treat P1–P29 as proving P30; soft-complete empty ≠ demonstrated residual phenotype; do not invent residual when EMPTY/UNKNOWN.\n2. Skip-list/series distinctness: CGRP≠orexin; RAMP1≠OX1R (critical, Q_P29_tight=0); CGRP≠VIP/NPY/PACAP/ghrelin/Exendin/oxytocin/Semax/Selank/Dihexa; NOT FOXO4×LOF (SERIES_FROZEN).\n3. Tsujikawa/Mulder necessity and Zhai CGRP-/- phenotype are NOT residual-positive under RAMP1 abolish; necessity ≠ residual-positive.\n4. AMY1 (CTR+RAMP1) residual path must be documented, not invented, under selective CLR+RAMP1 pharmacology."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution Status and IP/Cost Metadata",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: ramp1-insufficiency. Vault hold: no. Status label: NEGATIVE. Polarity: negative. Risk class: research-discussion. The document is a pre-registered hypothesis/discussion card, not an experimental report. No dosing values, KD values, or observed effect sizes are provided or should be inferred."
+    }
+  ],
+  "key_findings": [
+    "P30 is a pre-registered assumption-kill hypothesis (NOT_RUN): no matched residual-positive CGRP neuroprotection/cognition/nociception H2H under RAMP1-abolish has been published (EMPTY/UNKNOWN).",
+    "Zhai 2018 (PMID 29266061) confirms endogenous CGRP suppresses ischemic brain injury and cognitive decline via CGRP-/- ligand KO (MCAO/BCAS; radial-maze; CBF; primary cortical neurons) — but this is a ligand KO with intact RAMP1, NOT a Ramp1 residual arm.",
+    "Doods 2000 (PMID 10711339) establishes BIBN4096BS/olcegepant as the first selective small-molecule CGRP antagonist tool (marmoset facial blood flow) — tool prior, not residual H2H.",
+    "McLatchie 1998 (PMID 9620797) establishes CLR+RAMP1 = CGRP receptor composition (necessity-leaning); AMY1 (CTR+RAMP1) caveat applies under selective CLR+RAMP1 pharmacology.",
+    "Tsujikawa 2007 (PMID 17923674) shows αCGRP/βCGRP vascular relaxant activity remarkably suppressed in RAMP1(-/-) mice (vasodilation necessity); PMC2034234 keyword scan found 0 hits for neuroprotection/cognition — NOT residual-positive for NP/cognition.",
+    "Mulder (PMID 32583883) shows olcegepant/rimegepant worsen cerebral ischemic outcome — provides necessity AGAINST residual CGRP neuroprotection under CGRP-receptor abolish.",
+    "Prediction threshold: residual CGRP neuroprotective/cognitive/nociceptive phenotype ≥50% of CGRP without-RAMP1-abolish arm under RAMP1-abolish condition (author-chosen; not observed).",
+    "Competing inconclusive outcomes pre-registered: abolish-fail, agonist-alone-null, underpowered strata, assay-mismatch, AMY-confound without selective CLR+RAMP1 confirmation.",
+    "Critical series distinctness: CGRP≠orexin; RAMP1≠OX1R (Q_P29_tight=0); P1–P29 do not prove P30; NOT FOXO4×LOF (SERIES_FROZEN).",
+    "TRL assessment: TRL 1 — concept/hypothesis only; no experimental data generated; literature synthesis of prior art provides necessity-against-residual evidence but no residual-positive H2H data."
+  ],
+  "milestones": []
+}

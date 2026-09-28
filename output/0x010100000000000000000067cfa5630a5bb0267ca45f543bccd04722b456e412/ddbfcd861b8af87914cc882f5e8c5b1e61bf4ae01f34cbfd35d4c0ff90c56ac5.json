@@ -1,0 +1,80 @@
+{
+  "file_path": "/reports/2026-09-28/P27.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (P27) framing a research hypothesis (\"assumption-kill\") about whether NPY or [Leu31,Pro34]NPY retains neuroprotective or cognitive phenotype (≥50% of the NPY/[Leu31,Pro34]NPY without-Y1-abolish arm) under conditions where Y1-class attribution is abolished via BIBP3226 or Npy1r/Y1 genetic LOF. The document synthesizes existing literature (Flood, Decressac, Fendt, Bertocchi, Xapelli, Rudolf, Pedrazzini) to establish that the key matched residual H2H experiment on Flood-memory or Decressac-PD panels is UNKNOWN and not yet run. The project is at TRL 1–2: the concept is defined, prior art is mapped, and an assay proposal is outlined, but no new experimental data are presented.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Hypothesis Statement (P27)",
+      "content": "On a matched rodent cognition/neuroprotection panel (Flood/Decressac-class, or Fendt/Bertocchi/Xapelli-class style) ± NPY (or [Leu31,Pro34]NPY) ± Y1 antagonist (BIBP3226 or equivalent) or Npy1r/Y1 genetic LOF titrated to abolish Y1-class neuroprotection/cognition attribution: under that Y1-abolish condition, residual NPY (or [Leu31,Pro34]NPY) neuroprotective/cognitive phenotype remains ≥50% of the NPY/[Leu31,Pro34]NPY without-Y1-abolish arm on the same panel. This is framed as an 'assumption-kill / y1-insufficiency' hypothesis. The claim is a PREDICTION; no new experimental data are presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why It Matters / Scientific Rationale",
+      "content": "Flood/Decressac map NPY T-maze/passive-avoidance memory and PD neuroprotection phenotypes. Fendt maps Y1-independent residual NPY fear reduction under BIBO3304/Y1R LOF. Bertocchi/Xapelli map Y1 necessity for spatial learning and Y1-agonist kainate neuroprotection. P27 asks whether residual NPY (or [Leu31,Pro34]NPY) neuroprotection/cognition under a Y1 antagonist or Npy1r/Y1 LOF that abolishes Y1-class attribution still requires a path beyond Y1-class attribution — the 'y1-insufficiency assumption-kill.' Explicitly distinct from P15–P26 (BPC/FBXO22, LKKTETQ, MOTS-c, SS-31, ARA290, Semax, Selank, Dihexa, oxytocin, Exendin-4, ghrelin, PACAP)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch / Literature Synthesis",
+      "content": "Key literature positions:\n1. Flood (PMID 3690274): i.c.v. NPY enhances T-maze footshock-avoidance and step-down passive-avoidance retention (inverted-U); alleviates anisomycin/scopolamine amnesia — cognition phenotype PRIOR; NO BIBP3226/Npy1r LOF residual arm.\n2. Decressac (PMID 21816512): NPY neuroprotection in SH-SY5Y 6-OHDA and rat/mouse PD models; no NP under Y2 antagonist or in Y2-deficient mice (Y2-mediated necessity) — NP phenotype PRIOR + Y2 necessity; NOT Y1-abolish residual H2H; do not invent Y1 residual from Y2 mediation.\n3. Fendt (PMID 19609506): Intra-amygdala NPY fear-reducing effects retained under BIBO3304 and in Y1R-deficient mice — RESIDUAL-POSITIVE Y1-independent for conditioned-fear panel; caveat: BIBO3304 ≠ BIBP3226; panel = fear ≠ Flood T-maze/Decressac PD.\n4. Bertocchi (PMID 33285203): Conditional adult forebrain excitatory-neuron Npy1r depletion slows spatial learning (PNN intensification; CA1 c-Fos); PNN digestion rescues — Y1 NECESSITY AGAINST residual for that cognition panel.\n5. Xapelli (PMID 17212973, promoted, out of public prior_art ≤4): BIBP3226 abolishes Y1-activation kainate NP — necessity AGAINST residual for Y1-agonist NP class.\n6. Rudolf (PMID 7705422, promoted): BIBP3226 experimental tool (Ki=7 nM) — TOOL prior.\n7. Pedrazzini (PMID 9623984): Y1 KO CV/feeding/locomotor — TOOL ≠ cognition/NP residual H2H.\n8. Adjacent non-matches: Karlsson (Y1 necessary for NPY anxiolytic), Verma (endogenous Y1+Y2 fear), Chen ([Leu31,Pro34]NPY worsens MCAO while BIBP3226 reduces infarct — opposite direction NON-MATCH)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prior Art Summary Table",
+      "content": "| PMID | Study | Finding | Role in P27 |\n|------|-------|---------|-------------|\n| 3690274 | Flood 1987 Brain Res | i.c.v. NPY enhances T-maze/passive-avoidance; alleviates amnesia | Cognition phenotype PRIOR; no Y1-abolish residual arm |\n| 21816512 | Decressac 2012 Neurobiol Aging | NPY NP in SH-SY5Y 6-OHDA and PD models; Y2-mediated necessity | NP phenotype PRIOR + Y2 necessity; not Y1-abolish residual H2H |\n| 19609506 | Fendt 2009 Psychopharmacology | Intra-amygdala NPY fear reduction retained under BIBO3304 and Y1R LOF | RESIDUAL-POSITIVE for fear panel; BIBO3304 ≠ BIBP3226; panel ≠ Flood/Decressac |\n| 33285203 | Bertocchi 2021 Neuropharmacology | Conditional Npy1r LOF slows spatial learning; PNN intensification; rescued by PNN digestion | Y1 NECESSITY AGAINST residual for spatial learning panel |\n| 17212973 | Xapelli (promoted) | BIBP3226 abolishes Y1-activation kainate NP | Necessity AGAINST residual for Y1-agonist NP class |\n| 7705422 | Rudolf (promoted) | BIBP3226 experimental tool, Ki=7 nM | TOOL prior |\n| 9623984 | Pedrazzini | Y1 KO CV/feeding/locomotor | TOOL ≠ cognition/NP residual |"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Prediction Variables Table",
+      "content": "| Variable Name | Kind | Assay | Threshold/Status |\n|---------------|------|-------|------------------|\n| Flood_icv_NPY_Tmaze_passive_avoidance_memory_phenotype | LITERATURE | Mice; i.c.v. NPY; T-maze footshock avoidance and step-down passive avoidance | Cognition phenotype PRIOR (PMID 3690274); no BIBP3226/Npy1r LOF residual arm |\n| Decressac_NPY_PD_neuroprotection_Y2_mediated_phenotype | LITERATURE | SH-SY5Y 6-OHDA; rat/mouse striatal NPY PD models; Y2 antagonist and Y2-deficient mice | NP phenotype PRIOR + Y2 necessity (PMID 21816512); not Y1-abolish residual H2H |\n| Fendt_intra_amygdala_NPY_fear_residual_Y1_independent | LITERATURE | Intra-amygdala NPY; conditioned freezing/fear-potentiated startle; BIBO3304; Y1R-deficient mice | RESIDUAL-POSITIVE Y1-independent for fear panel (PMID 19609506); BIBO3304 ≠ BIBP3226; panel ≠ Flood/Decressac |\n| Bertocchi_conditional_Npy1r_LOF_spatial_learning_necessity | LITERATURE | Conditional adult forebrain Npy1r depletion; spatial learning; CA1 PNN/c-Fos | Y1 necessity AGAINST residual (PMID 33285203); not exogenous NPY residual under Y1 abolish |\n| matched_residual_NPY_Leu31Pro34_under_Y1_abolish_Flood_Decressac_H2H | UNKNOWN | Same cognition/NP panel ± NPY/[Leu31,Pro34]NPY ± BIBP3226 or Npy1r LOF; block titrated to abolish Y1-class attribution | UNKNOWN + missing_search; dedicated residual-positive H2H not found on Flood-memory/Decressac-PD panels |\n| residual_NPY_Leu31Pro34_neuroprotection_cognition_ge50pct_of_NPY_Leu31Pro34_without_Y1_abolish | PREDICTION | Pre-registered matched rodent cognition/NP panel ± NPY/[Leu31,Pro34]NPY ± BIBP3226 or Npy1r LOF; prefer cell/slice/block-QC before new animal | Residual ≥50% of NPY/[Leu31,Pro34]NPY without-Y1-abolish arm; α/N pre-specified; author-chosen PREDICTION |\n| competing_abolish_fail_or_agonist_alone_null_or_underpowered_or_assay_mismatch_inconclusive | PREDICTION | Same design; competing outcomes | Abolish-fail/agonist-alone-null/underpowered/assay-mismatch = inconclusive, not refute |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Assay / Method",
+      "content": "Method type: propose-assay. Preferred sequence: (1) cell/slice/block-QC with BIBP3226 or Npy1r ablation (Xapelli organotypic/Decressac SH-SY5Y style) to confirm Y1-class attribution is abolished before proceeding to animal studies; (2) in vivo panel (Flood/Decressac-class or Fendt/Bertocchi/Xapelli-class) remains primary kill path. Design: matched rodent cognition/neuroprotection panel ± NPY (or [Leu31,Pro34]NPY) ± Y1 antagonist (BIBP3226 or equivalent) or Npy1r/Y1 genetic LOF; block must first abolish Y1-class neuroprotection/cognition attribution; then score residual NPY/[Leu31,Pro34]NPY neuroprotection/cognition vs NPY/[Leu31,Pro34]NPY without-Y1-abolish arm; α/N pre-specified. No dosing specified. Reviews ≠ experimental anchors."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution Status, IP, and Cost",
+      "content": "Execution status: NOT_RUN. FTO status: UNKNOWN. Kill cost tier: 1. Time to refute: 4 weeks. IP class: y1-insufficiency. Vault hold: no. Related prior: Flood i.c.v. NPY T-maze/passive-avoidance (no residual arm); Decressac NPY PD NP Y2-mediated (not Y1 residual H2H); Fendt intra-amygdala NPY fear residual under BIBO3304/Y1R LOF (fear panel); Bertocchi conditional Npy1r LOF spatial-learning necessity AGAINST residual; Xapelli BIBP3226 abolishes Y1-activation kainate NP (promoted necessity); Rudolf BIBP3226 experimental tool (promoted); Pedrazzini Y1 KO CV/feeding/locomotor TOOL; Chen opposite-direction MCAO NON-MATCH."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition and Actionable Limitations",
+      "content": "Refute if: On the pre-registered matched rodent cognition/NP panel ± NPY/[Leu31,Pro34]NPY ± BIBP3226 or Npy1r LOF where Y1-abolish abolishes Y1-class attribution, residual NPY/[Leu31,Pro34]NPY neuroprotective/cognitive phenotype is <50% of the NPY/[Leu31,Pro34]NPY without-Y1-abolish arm — when abolish-fail, agonist-alone-null, underpowered strata, or assay-mismatch artifacts are ruled out.\n\nKey actionable limitations:\n1. Do not treat P1–P26 as proving P27; soft-complete empty ≠ demonstrated residual phenotype.\n2. Do not collapse to skip-list orthosteric dialect (BPC/FBXO22, LKKTETQ, MOTS-c, SS-31, ARA290, Semax/TrkB, Selank/GABA, Dihexa/c-Met, oxytocin/OXTR, Exendin/GLP1R, ghrelin/GHSR, PACAP/PAC1); NOT FOXO4×LOF.\n3. Flood/Decressac lack NPY residual arm under Y1-abolish; do not invent residual when UNKNOWN; do not treat necessity as residual-positive; do not treat Fendt fear residual as Flood/Decressac claim core; do not invent Y1 residual from Decressac Y2 mediation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Status Labels and Metadata",
+      "content": "Status labels: NEGATIVE. Novelty tag: assumption-kill. Polarity: negative. OpenLabs target: discussion. OpenLabs topic: neuroscience-brain. Tags: peptides, nootropics. Risk class: research-discussion. Card SHA256: 3398f8717f383c71391b13ef672081cacd190bd833e48040c653d224d57331d8. Publication status: PENDING dual-publish."
+    }
+  ],
+  "key_findings": [
+    "P27 is a PREDICTION/hypothesis (NOT_RUN): no new experimental data are presented; the matched residual H2H experiment on Flood-memory or Decressac-PD panels is UNKNOWN.",
+    "Flood (PMID 3690274): i.c.v. NPY enhances T-maze footshock-avoidance and passive-avoidance retention (inverted-U); alleviates anisomycin/scopolamine amnesia — cognition phenotype PRIOR with NO BIBP3226/Npy1r LOF residual arm.",
+    "Decressac (PMID 21816512): NPY neuroprotection in SH-SY5Y 6-OHDA and rat/mouse PD models is Y2-mediated (no NP under Y2 antagonist or in Y2-deficient mice); no Y1-abolish residual H2H; do not invent Y1 residual from Y2 mediation.",
+    "Fendt (PMID 19609506): Intra-amygdala NPY fear-reducing effects retained under BIBO3304 and in Y1R-deficient mice — RESIDUAL-POSITIVE Y1-independent for conditioned-fear panel; caveat: BIBO3304 ≠ BIBP3226; panel = fear ≠ Flood T-maze/Decressac PD.",
+    "Bertocchi (PMID 33285203): Conditional adult forebrain Npy1r depletion slows spatial learning (PNN intensification; CA1 c-Fos); PNN digestion rescues — Y1 NECESSITY AGAINST residual for spatial learning panel.",
+    "Xapelli (PMID 17212973, promoted): BIBP3226 abolishes Y1-activation kainate neuroprotection — necessity AGAINST residual for Y1-agonist NP class.",
+    "Rudolf (PMID 7705422, promoted): BIBP3226 experimental tool with Ki=7 nM — TOOL prior only.",
+    "Pedrazzini (PMID 9623984): Y1 KO CV/feeding/locomotor — TOOL, not cognition/NP residual.",
+    "Chen: [Leu31,Pro34]NPY worsens MCAO while BIBP3226 reduces infarct — opposite-direction NON-MATCH.",
+    "Claim threshold: residual NPY/[Leu31,Pro34]NPY neuroprotective/cognitive phenotype ≥50% of NPY/[Leu31,Pro34]NPY without-Y1-abolish arm under Y1-abolish condition; α/N pre-specified; author-chosen PREDICTION.",
+    "Execution status: NOT_RUN. Kill cost tier: 1. Time to refute: 4 weeks. FTO status: UNKNOWN.",
+    "Preferred assay sequence: cell/slice/block-QC (BIBP3226 or Npy1r ablation; Xapelli organotypic/Decressac SH-SY5Y style) before new animal Flood/Decressac/Fendt/Bertocchi-class cognition/NP panels; in vivo panel remains primary kill path.",
+    "Competing inconclusive outcomes pre-registered: abolish-fail, agonist-alone-null, underpowered strata, assay-mismatch (inconclusive ≠ refute).",
+    "P15–P26 are explicitly distinct from P27; none of them prove P27; soft-complete empty ≠ novelty/failure."
+  ],
+  "milestones": []
+}

@@ -1,0 +1,82 @@
+{
+  "file_path": "/reports/2026-09-28/N31.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (N31) framing a research hypothesis/discussion around whether buspirone retains residual anxiolytic/cognitive phenotype when 5-HT1A receptor function is abolished via Htr1a genetic loss-of-function or pharmacological antagonism (WAY-100635). The document is a pre-experimental proposal (execution_status=NOT_RUN) that reviews prior art (Moser, Glaser, Fletcher, Parks) and defines a prediction/kill criterion, but no new experimental data has been generated. TRL is effectively TRL 1–2: concept and literature-grounded hypothesis only.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Hypothesis (N31)",
+      "content": "Mol Labs public report N31 poses the question: does buspirone retain residual anxiolytic/cognitive phenotype (≥50% of buspirone-alone or buspirone-vs-vehicle Δ on 5-HT1A-intact concurrent controls) when 5-HT1A receptor function is abolished via Htr1a genetic LOF or 5-HT1A-matched antagonism (e.g., WAY-100635) that abolishes 5-HT1A-class attribution on the same panel? The claim is labeled 'assumption-kill / htr1a-insufficiency.' Execution status: NOT_RUN. No new experimental data exists. The document is a research discussion/proposal."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Claim / Experimental Design",
+      "content": "Pre-registered design: acute/subacute rodent (Moser/Glaser/Fletcher/Parks-class) anxiolytic/cognitive panel with: (1) buspirone-alone or buspirone-vs-vehicle arm on 5-HT1A-intact concurrent controls; (2) 5-HT1A genetic LOF (Htr1a) or 5-HT1A-matched antagonism (WAY-100635) that abolishes 5-HT1A-class anxiolytic/cognition attribution; (3) buspirone-under-abolish arm. Threshold: residual buspirone phenotype ≥50% of buspirone-alone (or buspirone-vs-vehicle Δ) on 5-HT1A-intact concurrent controls. α/N pre-specified. Polarity: NEGATIVE (empty residual expected because buspirone IS a 5-HT1A partial agonist). Residual-positive would imply a non-5-HT1A bridge."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Summary",
+      "content": "Four key prior art references are cited:\n1. Moser (PMID 1970269, Br J Pharmacol 1990, DOI 10.1111/j.1476-5381.1990.tb14706.x, PMC1917389): Buspirone anxiolytic phenotype in EPM/water-lick conflict vs 8-OH-DPAT/diazepam/MDL 73005EF. Intact 5-HT1A present; NO 5-HT1A-abolish residual arm. Status: PRIOR_ART PARTIAL.\n2. Glaser & Traber (PMID 6133764, Eur J Pharmacol 1983, DOI 10.1016/0014-2999(83)90404-1): Buspirone acts as 5-HT1A partial agonist in calf hippocampus. Mechanism tool — buspirone IS 5-HT1A PA. Often AGAINST residual expectation.\n3. Fletcher (PMID 8788530, Behav Brain Res 1996, DOI 10.1016/0166-4328(96)00118-0): WAY-100635 as potent, selective, silent 5-HT1A receptor antagonist. Pharmacological block tool; does NOT constitute buspirone residual under 5-HT1A abolish.\n4. Parks (PMID 9724773, PNAS 1998, DOI 10.1073/pnas.95.18.10734, PMC27964): Htr1a KO mice show increased anxiety/stress avoidance. Buspirone NOT tested (Q_parks_buspirone=0). NOT residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Baseline Measured / Literature Evidence Status",
+      "content": "Soft-complete search results: Q_resid_tight=4 NON-MATCH; Q_resid=445 NON-MATCH; Q_buspirone_in_ko=20 NON-MATCH; Q_parks_buspirone=0. No published head-to-head scores residual-positive buspirone anxiolytic/cognition under Htr1a LOF or 5-HT1A-matched antagonism that abolishes 5-HT1A-class attribution. Adjacent non-matches: PMID 8905325 (methylphenidate stereotypy D2 residual under WAY ≠ anxiety); PMID 25195769 (circadian light in 5-HT1A KO ≠ anxiety); PMID 34070429 (BV2 Htr1a CRISPR inflammation ≠ in vivo anxiety); PMID 21087971 (retina WAY-necessity ≠ anxiety residual). Matched residual-positive buspirone under Htr1a LOF or WAY-100635 block: UNKNOWN as residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prediction Variables",
+      "content": "Six prediction variables defined:\n1. Moser_buspirone_anxiolytic_phenotype — LITERATURE — anxiolytic phenotype prior; intact 5-HT1A; no abolish residual arm.\n2. Glaser_buspirone_5HT1A_PA_mechanism_not_residual — LITERATURE — buspirone IS 5-HT1A PA; often AGAINST residual expectation.\n3. Fletcher_WAY100635_5HT1A_antagonist_tool_not_buspirone_residual — LITERATURE — WAY-100635 tool; ≠ buspirone residual under 5-HT1A abolish.\n4. Parks_Htr1a_KO_anxiety_tool_no_buspirone — LITERATURE — Htr1a KO anxiety; buspirone NOT tested; NOT residual-positive.\n5. matched_residual_buspirone_under_5HT1A_abolish_of_5HT1A_class_attribution_H2H — UNKNOWN — dedicated residual-positive not found; UNKNOWN + missing_search.\n6. residual_buspirone_phenotype_ge_50pct_of_alone_when_5HT1A_class_abolished — PREDICTION — pre-registered threshold ≥50% of buspirone-alone Δ on 5-HT1A-intact concurrent controls while 5-HT1A-class attribution is abolished.\n7. competing_abolish_fail_or_buspirone_null_or_underpowered_inconclusive — PREDICTION — competing outcomes: abolish-fail-to-kill / buspirone-alone-null / underpowered-strata / assay-mismatch allowed as pre-registered competing outcomes."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refutation Criterion",
+      "content": "Refute if: On the pre-registered acute/subacute rodent (Moser/Glaser/Fletcher/Parks-class) anxiolytic/cognitive panel, under Htr1a genetic LOF or 5-HT1A-matched antagonism that abolishes 5-HT1A-class attribution, residual buspirone anxiolytic/cognitive phenotype falls below 50% of buspirone-alone (or buspirone-vs-vehicle Δ) on 5-HT1A-intact concurrent controls — so 5-HT1A-class sufficiency for the buspirone phenotype survives and htr1a-insufficiency fails — when abolish-gate, buspirone-alone/intact-arm comparator, and power/assay artifacts are ruled out."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Mechanism Sketch and Preferred Experimental Path",
+      "content": "Preferred path: cell/slice/block-QC before new animal where a named published abolish-verification system can lock residual first (or as cheap parallel) — e.g., WAY abolish of a 5-HT1A-class control response (electrophysiology/receptor QC) for abolish gate. In vivo Moser/Glaser/Fletcher/Parks-class rodent anxiety/cognition panel remains the primary kill path. Kill cost tier: 1. Time to refute: 4 weeks. IP class: htr1a-insufficiency. Vault hold: no."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Distinctness from Related Experiments (N15–N30)",
+      "content": "N31 is explicitly distinguished from 16 prior experiments in the series: N15 (modafinil/DAT), N16 (plasma-Cr/PCr), N17 (Hericium/NGF/TrkA), N18 (L-theanine/adenosine), N19 (Rhodiola/HPA), N20 (Bacopa/AChE), N21 (nicotine/nAChR), N22 (tyrosine/AMPT), N23 (guanfacine/α2A), N24 (caffeine/A2A), N25 (atomoxetine/NET), N26 (fluoxetine/SERT), N27 (rolipram/PDE4), N28 (memantine/NMDAR), N29 (sarcosine/GlyT1), N30 (aniracetam/AMPAR). None of these involve 5-HT1A or buspirone and none constitute proof for N31. N2 holds sole ip_class=none."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=1. time_to_refute=4w. ip_class=htr1a-insufficiency. vault_hold=no. STATUS_LABEL: NEGATIVE. novelty_tag: assumption-kill. polarity: negative. risk_class: research-discussion. Dual-publish status: PENDING."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Actionable Limitations and Caveats",
+      "content": "Key caveats: (1) Abolish condition may fail to kill 5-HT1A-class attribution; (2) buspirone-alone may be null; (3) underpowered strata; (4) assay-identity mismatch (phenotype ≠ residual; Htr1a KO anxiety phenotype ≠ residual-under-abolish; 5-HT1A PA mechanism ≠ residual proof; WAY tool ≠ buspirone residual; D2 stereotypy ≠ anxiety residual). These leave the test inconclusive rather than refuted. Soft-complete empty ≠ novelty / ≠ residual-gain proof. Critical honesty: buspirone IS 5-HT1A PA — empty residual is expected; residual-positive would be a strong non-5-HT1A-bridge kill. Do not invent residual-positive from Parks, Fletcher, Glaser, Moser, or adjacent PubMed. NOT MB/MAOI (SERIES_FROZEN). orthosteric_drift=false."
+    }
+  ],
+  "key_findings": [
+    "N31 is a NOT_RUN research hypothesis/discussion: no new experimental data has been generated.",
+    "The central question is whether buspirone retains ≥50% residual anxiolytic/cognitive phenotype when 5-HT1A receptor function is abolished (Htr1a LOF or WAY-100635 antagonism) — polarity is NEGATIVE (empty residual expected).",
+    "Prior art is PARTIAL: Moser (PMID 1970269) provides buspirone anxiolytic phenotype prior (intact 5-HT1A, no abolish arm); Glaser (PMID 6133764) confirms buspirone IS a 5-HT1A partial agonist; Fletcher (PMID 8788530) establishes WAY-100635 as 5-HT1A antagonist tool; Parks (PMID 9724773) shows Htr1a KO increases anxiety but did NOT test buspirone.",
+    "Soft-complete literature search: Q_resid_tight=4 NON-MATCH; Q_resid=445 NON-MATCH; Q_buspirone_in_ko=20 NON-MATCH; Q_parks_buspirone=0 — no residual-positive buspirone under 5-HT1A abolish found.",
+    "Residual-positive buspirone under Htr1a LOF or WAY-100635 block that abolishes 5-HT1A-class attribution is UNKNOWN as residual-positive — the key H2H experiment is missing from the literature.",
+    "Preferred experimental path: cell/slice/block-QC (electrophysiology/receptor QC with WAY abolish gate) before new animal; in vivo Moser/Glaser/Fletcher/Parks-class rodent anxiety/cognition panel as primary kill path.",
+    "Kill cost tier: 1; time to refute: 4 weeks; ip_class: htr1a-insufficiency; fto_status: UNKNOWN.",
+    "N31 is explicitly distinct from N15–N30 (different targets: DAT, Cr/PCr, NGF/TrkA, adenosine, HPA, AChE, nAChR, AMPT, α2A, A2A, NET, SERT, PDE4, NMDAR, GlyT1, AMPAR — none are 5-HT1A).",
+    "Competing outcomes pre-registered: abolish-fail-to-kill / buspirone-alone-null / underpowered-strata / assay-mismatch leave test inconclusive rather than refuted.",
+    "Refutation criterion: residual buspirone phenotype <50% of buspirone-alone Δ on 5-HT1A-intact concurrent controls when abolish-gate is verified and confounds ruled out."
+  ],
+  "milestones": []
+}
