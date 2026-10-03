@@ -1,0 +1,23 @@
+{
+  "file_path": "/hypothesis-bourse-v8-pro",
+  "extraction_version": 2,
+  "document_type": "figure",
+  "relevance": "low",
+  "summary": "The image is an AI-generated or digitally rendered artistic illustration depicting humanoid robots performing chemistry experiments in a grand, classical/Renaissance-style hall. The robots are handling glowing Erlenmeyer flasks containing teal/cyan liquid and are connected by golden threads. A chalkboard with faint, illegible writing is visible in the background. This appears to be a conceptual or decorative image rather than a scientific document.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "AI-Generated Illustration: Robots in a Chemistry Laboratory",
+      "content": "The image depicts multiple humanoid robots (white, articulated, human-proportioned) standing at wooden laboratory benches in a large, arched, brick-and-stone hall reminiscent of a Renaissance or medieval building. The robots are handling glowing Erlenmeyer flasks filled with a luminescent teal/cyan liquid. Golden threads or wires connect the robots to one another, suggesting a network or communication metaphor. Numerous additional flasks are scattered on the benches and floor. A large chalkboard in the background contains faint handwriting that is not legible enough to extract meaningful data. The scene appears to be a conceptual artistic rendering — likely representing AI-driven drug discovery, automated laboratory science, or robotic research — rather than a real experimental result or scientific document. No quantitative data, assay results, model systems, or TRL-relevant scientific content is present."
+    }
+  ],
+  "key_findings": [
+    "The image is a conceptual/artistic illustration with no extractable scientific data.",
+    "No experimental results, assay data, model systems, or quantitative measurements are present.",
+    "A chalkboard in the background contains faint text that is illegible and cannot be reliably transcribed.",
+    "The image likely represents a thematic concept (e.g., AI/robotic automation in drug discovery or chemistry) but provides no evidence for TRL classification.",
+    "No dates, milestones, IP status, regulatory information, or team details are present."
+  ],
+  "milestones": []
+}

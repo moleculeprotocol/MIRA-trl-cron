@@ -1,0 +1,61 @@
+{
+  "file_path": "/screenshot-2026-10-02-at-14-59-35",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This image shows a data room / lab file management interface for \"On-chain Labs,\" a platform that tracks lab file uploads on a public timeline. The visible project files include an agreements folder, a confidential screenshot, a public file titled \"Hypothesis Bourse V8 Pro,\" and a public document titled \"Trl2 Bufotenine Prodrug Project.\" No experimental data, results, or scientific content is directly visible in this view.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "On-chain Labs – Lab Files Data Room Overview",
+      "content": "Organization: On-chain Labs. About: 'The start of a new chapter!' Page views: 15. File views: 0. The interface is a data room listing project files with columns for Name, Permission, Submission Date, and Created By."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Project Files Listing",
+      "content": "Four entries are visible:\n1. Name: Agreements (folder, 1 item) | Permission: — | Submission Date: — | Created By: —\n2. Name: Screenshot 2026 10 01 At 17 58 52 | Permission: Confidential | Submission Date: Oct 2, 2026 | Created By: 0x669F2…d3462\n3. Name: Hypothesis Bourse V8 Pro | Permission: Public | Submission Date: Oct 2, 2026 | Created By: 0x669F2…d3462\n4. Name: Trl2 Bufotenine Prodrug Project | Permission: Public | Submission Date: Aug 19, 2026 | Created By: EZmjidU…6Sfc9\n\nKey TRL-relevant observation: The file 'Trl2 Bufotenine Prodrug Project' explicitly references TRL 2 and the compound bufotenine (a tryptamine psychedelic/prodrug), suggesting early-stage experimental work. No experimental data is visible in this view."
+    }
+  ],
+  "key_findings": [
+    "A file named 'Trl2 Bufotenine Prodrug Project' is listed, explicitly indicating TRL 2 status for a bufotenine prodrug program.",
+    "Bufotenine is a naturally occurring tryptamine; a prodrug project around it suggests early-stage medicinal chemistry or pharmacology work.",
+    "A file named 'Hypothesis Bourse V8 Pro' is listed as public, potentially containing a scientific hypothesis or grant/pitch document (content not visible).",
+    "A confidential screenshot file is present, dated Oct 2, 2026, suggesting recent activity.",
+    "No experimental results, assay data, or quantitative scientific content is directly visible in this data room index view.",
+    "File views are 0, indicating the data room has not yet been accessed by external parties."
+  ],
+  "milestones": [
+    {
+      "title": "Trl2 Bufotenine Prodrug Project File Submitted",
+      "description": "A public document titled 'Trl2 Bufotenine Prodrug Project' was submitted to the On-chain Labs data room, indicating a TRL 2-stage bufotenine prodrug program.",
+      "date": "2026-08-19",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Trl2 Bufotenine Prodrug Project | Public | Aug 19, 2026 | EZmjidU…6Sfc9",
+      "page": 1
+    },
+    {
+      "title": "Hypothesis Bourse V8 Pro File Submitted",
+      "description": "A public file titled 'Hypothesis Bourse V8 Pro' was submitted to the data room, potentially containing a scientific hypothesis or funding proposal.",
+      "date": "2026-10-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Hypothesis Bourse V8 Pro | Public | Oct 2, 2026 | 0x669F2…d3462",
+      "page": 1
+    },
+    {
+      "title": "Confidential Screenshot File Submitted",
+      "description": "A confidential screenshot file was submitted to the data room on Oct 2, 2026.",
+      "date": "2026-10-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Screenshot 2026 10 01 At 17 58 52 | Confidential | Oct 2, 2026 | 0x669F2…d3462",
+      "page": 1
+    }
+  ]
+}
