@@ -1,0 +1,128 @@
+{
+  "file_path": "/bio-electrodynamic-human-firmware-model-v1",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This white paper by independent researcher Dmytro Taran proposes the \"Bio-Electrodynamic Human Firmware Model,\" a bio-cybernetic closed-loop hypothesis centered on a High-Frequency Neural Drive (HFND) in the 400–1000 Hz range, associated with the olivo-cerebellar system, that purportedly organizes neuromuscular, metabolic, and tissue-remodeling processes. The model is explicitly presented as a theoretical framework at TRL 1 (concept/hypothesis stage), with no original experimental data beyond the author's personal biomarker observations. The paper invites independent experimental testing and falsification of its seven specific predictions.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract – Model Overview and Central Hypothesis",
+      "content": "Proposes a bio-cybernetic closed-loop model integrating neuroscience, cerebellar motor control, tissue biophysics, and cybernetics. Central hypothesis: the CNS employs a High-Frequency Neural Drive (HFND) ~400–1000 Hz, associated with the olivo-cerebellar architecture, to organize coordinated motor states. HFND is further hypothesized to synchronize neuromuscular activity, regulate mechanical load distribution in muscle tissue, and maintain/adapt biological tissue. Neural, mechanical, and metabolic processes are proposed to form a coupled regulatory system. Empirical basis: author's personal functional observations and clinical biomarker assessments, plus published literature on Purkinje-cell firing, complex spikes, olivo-cerebellar synchronization, and age-related cerebellar changes. Explicitly stated as a testable causal framework, NOT an established mechanism."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 – Introduction: Integrated Biological Control Architecture",
+      "content": "Argues that modern biomedical specialization fragments understanding of the human organism as a control system. Proposes treating the human organism as an integrated biological control architecture where neural processing, mechanical loading, sensory feedback, energy metabolism, and tissue remodeling are components of a closed-loop system. The CNS is proposed to contain a high-frequency temporal organization (~400–1000 Hz) functioning as an additional control layer beyond conventional slow motor commands. Clarifies that HFND does not claim ordinary motor-neuron firing at 400–1000 Hz, but rather a distinct high-frequency temporal component or spike organization. Existence, location, propagation, and functional significance remain experimental questions."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 2 – The Olivo-Cerebellar Resonance Continuum",
+      "content": "Describes the olivo-cerebellar system as central to the proposed architecture. Inferior olive neurons have intrinsic oscillatory properties and are electrically coupled; climbing fibers relay activity to Purkinje cells generating complex spikes. Cites Wagner et al. (Cell, 2021): during skilled forelimb movement acquisition in rodents, cerebellar climbing fibers developed millimeter-scale spatiotemporal synchronization; activity transitioned from disordered to time-locked coherent state before movement onset; degree of synchronization predicted movement stereotypy; manipulation of cerebellum-to-olive feedback altered synchronization and movement direction. The model extends this by proposing the synchronized state may contain an additional high-frequency temporal component (HFND, 400–1000 Hz) — stated as a separate, experimentally testable hypothesis."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 3 – Purkinje Cells as Sensorimotor Control Interface",
+      "content": "Cites Muller et al. (Current Biology, 2023): recorded hundreds of Purkinje cells during visually guided saccadic movements in marmosets. Olivary input conveyed direction/amplitude information about visual stimuli and upcoming movements. Complex spikes near movement onset suppressed Purkinje-cell simple-spike output and altered eye movement trajectory. Establishes experimental chain: sensory information → olivary input → Purkinje-cell activity → motor trajectory. The model interprets this as consistent with its broader architectural assumption but does not claim it proves HFND. Proposes the temporal resolution of this control system may contain a high-frequency component not yet characterized."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 4 – The Central HFND Hypothesis",
+      "content": "Central hypothesis: CNS may generate or organize a functionally relevant high-frequency signal ~400–1000 Hz. HFND is not conventional motor-neuron firing frequency but a high-frequency temporal organization operating as a synchronization and phase-locking mechanism. Proposed functional sequence (closed-loop): sensory input → olivo-cerebellar processing → HFND organization → sensorimotor synchronization → motor execution → sensory feedback → correction. Vestibular, visual, and proprioceptive information are continuously integrated. HFND represents a possible temporal control layer within the larger closed-loop system."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 5 – Electro-Dynamic Coupling Hypothesis (Myocyte)",
+      "content": "Proposes that beyond classical neuromuscular junction synaptic transmission, high-frequency neural organization may influence the electrical and mechanical state of muscle tissue. Skeletal muscle matrix is hypothesized to behave as a highly coupled electromechanical system where neural timing, membrane potentials, excitation-contraction coupling, connective-tissue mechanics, and mechanical loading interact. Uses the term 'liquid-crystalline syncytium' as a functional model (not a literal claim). Proposed state characteristics: enhanced temporal coordination of motor-unit activity; improved distribution of mechanical loading; reduced local mechanical instability; coordinated recruitment of muscle tissue; enhanced integration of neural and mechanical feedback. Central experimental question: whether a measurable high-frequency neural component correlates with such a mechanically distinct state."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 6 – Bioenergetic Hypothesis: Neural-Electromagnetic Coupling",
+      "content": "Proposes that neural electrical activity and tissue electromechanical properties may provide additional regulatory influence on mitochondrial function, beyond established oxidative metabolism/ATP synthase pathways. Hypothesis: high-frequency neural activity, together with electrical and piezoelectric properties of biological tissues, could generate local electromagnetic and electrochemical effects influencing proton transport and mitochondrial energy conversion. Stronger form: a measurable component of mitochondrial energetic regulation is directly coupled to HFND. Explicitly stated as a theoretical biophysical hypothesis, not an established mechanism, but described as highly specific and experimentally testable."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 7 – Endogenous Recycling Loop Hypothesis",
+      "content": "Addresses the apparent tension between maintaining substantial functional muscle tissue and limited external protein availability. Proposes a 'Just-in-Time endogenous recycling loop': spatial and temporal compartmentalization may permit simultaneous degradation of damaged/obsolete cellular material, recycling of molecular components, synthesis of new structural proteins, and maintenance of functional tissue. Lipofuscin and other cellular waste products are proposed as potential molecular reservoirs for endogenous recycling under specific cellular conditions. Predicts that cellular recycling and anabolic processes exhibit spatial/temporal organization more complex than a simple mutually exclusive relationship. Requires experimental verification."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 8 – Aging and Purkinje-Cell Function",
+      "content": "Cites Fields et al. (PNAS, 2026): age-related reductions in spontaneous Purkinje-cell firing in mice with progressive motor coordination impairment. Experimental manipulation of Purkinje-cell firing altered motor performance: reducing firing in young mice impaired performance; increasing firing in aged mice improved performance. Establishes experimentally supported relationship between Purkinje-cell activity and motor coordination during aging. Model interprets this as supporting the premise that cerebellar Purkinje-cell output state is functionally relevant to preservation or deterioration of motor coordination during aging, and proposes that temporal organization of this activity (including possible high-frequency components) deserves further investigation."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 9 – Empirical Observations and Clinical Biomarkers (Author's Personal Data)",
+      "content": "Author is 63 years old. Conducted long-term personal observation and physical training focused on movement, coordination, strength, and functional performance. In May 2026, underwent a Longevity and Biomarker Assessment with instrumental measurements. Documented observations: grip strength ~58–63.7 kg; passive dead hang ~101 seconds; visual acuity 1.2 in both eyes; instrumental retinal/fundus assessment without signs of major age-associated visual pathology. Presented as phenotypic/clinical evidence of preserved functional capacity, NOT as direct measurements of HFND. Explicitly stated: observed phenotype motivates the hypothesis; direct neurophysiological measurement would be required to demonstrate the proposed mechanism. Considered indirect empirical support for further investigation, not definitive mechanistic proof. NOTE: This is n=1 self-reported data from the author."
+    },
+    {
+      "page": 5,
+      "type": "diagram",
+      "title": "Section 10 – Closed-Loop Architecture Diagram",
+      "content": "Proposed human-firmware closed-loop architecture (sequential flow diagram):\n1. Sensory input\n2. Inferior olive / olivo-cerebellar processing\n3. High-Frequency Neural Drive (HFND), proposed 400–1000 Hz component\n4. Purkinje-cell synchronization and temporal organization\n5. Motor-output coordination\n6. Muscle / connective-tissue mechanical state\n7. Cellular energetic and metabolic adaptation\n8. Tissue maintenance and remodeling\n9. Sensory feedback → Closed-loop correction\nCentral proposition: these processes are interacting layers of a single biological control architecture, not independent physiological subsystems."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 11 – Falsifiable Predictions and Experimental Tests",
+      "content": "Seven specific falsifiable predictions:\n1. High-frequency neural component: A functionally relevant neural component detectable in ~400–1000 Hz range under specific motor-control conditions.\n2. State dependence: High-frequency component changes systematically between rest, unstable/unpredictable movement, simple voluntary movement, highly coordinated movement, and balance-demanding movement.\n3. Relationship to olivo-cerebellar activity: HFND exhibits measurable temporal relationship with cerebellar/Purkinje-cell and/or inferior-olive-related activity.\n4. Relationship to sensorimotor stabilization: Changes in HFND correlate with measurable changes in postural stability, coordination, eye movements, vestibular integration, or motor precision.\n5. Neuromuscular relationship: Measurable relationship between high-frequency neural component and specific features of high-resolution EMG activity.\n6. Metabolic coupling: Experimentally measurable changes in bioenergetic parameters correlate with the proposed neural state.\n7. Aging: Individuals with exceptional preservation of coordination/physical performance during aging exhibit identifiable features of the proposed control architecture.\nFalsification criterion: failure to detect HFND, or evidence that phenomena are completely explained by alternative mechanisms, would constitute evidence against the central hypothesis."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 12–13 – Discussion and Open Scientific Challenge",
+      "content": "Summarizes that the model proposes physiological performance depends not only on biochemical resources and structural anatomy but also on temporal organization of neural control. Identifies olivo-cerebellar system as center of proposed closed-loop architecture with HFND (~400–1000 Hz) as principal hypothetical control signal. Lists experimental literature supporting components of the broader architecture (state transitions in olivo-cerebellar activity, complex spike-sensory-movement coupling, Purkinje-cell firing importance, age-related cerebellar changes) while distinguishing these from the new HFND hypothesis. Explicitly places model in public domain for independent examination, welcoming critical analysis, replication, alternative explanations, and experimental falsification. States: 'The decisive issue is measurement.'"
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "References",
+      "content": "1. Wagner MJ et al. A neural circuit state change underlying skilled movements. Cell. 2021;184(14):3731–3747.e21.\n2. Muller SZ et al. Complex spikes perturb movements and reveal the sensorimotor map of Purkinje cells. Current Biology. 2023;33(22):4869–4879.e3.\n3. Fields E et al. Cerebellar Purkinje cell firing reduction contributes to aging-related declining motor coordination in mice. PNAS. 2026;123(2):e2525795122.\n4. Burroughs AM et al. A Purkinje cell model that simulates complex spikes. bioRxiv. 2020.\n5. Additional cerebellar/inferior-olive literature noted as pending verification."
+    }
+  ],
+  "key_findings": [
+    "The document is a theoretical white paper at TRL 1 (basic concept/hypothesis stage) — no original experimental data are presented beyond the author's personal biomarker observations (n=1).",
+    "Central hypothesis: CNS generates a High-Frequency Neural Drive (HFND) ~400–1000 Hz via the olivo-cerebellar system that organizes neuromuscular, metabolic, and tissue-remodeling processes in a closed-loop architecture.",
+    "HFND is explicitly NOT claimed to be conventional motor-neuron firing frequency; it is proposed as a distinct high-frequency temporal organization or spike-organization component.",
+    "Supporting literature cited (not original data): Wagner et al. (Cell, 2021) — olivo-cerebellar spatiotemporal synchronization during skilled movement; Muller et al. (Current Biology, 2023) — Purkinje cell complex spikes influence motor trajectory; Fields et al. (PNAS, 2026) — age-related Purkinje-cell firing reduction impairs motor coordination in mice.",
+    "Author's personal biomarker data (May 2026, age 63): grip strength 58–63.7 kg, passive dead hang ~101 seconds, visual acuity 1.2 bilaterally, normal retinal/fundus assessment. Presented as indirect/motivating evidence only, not mechanistic proof.",
+    "Seven falsifiable predictions are specified, including detection of 400–1000 Hz neural component, state-dependence, correlation with olivo-cerebellar activity, sensorimotor stabilization, EMG correlates, metabolic coupling, and aging phenotype.",
+    "Additional hypotheses include: (a) electrodynamic coupling of HFND to muscle tissue beyond classical NMJ ('liquid-crystalline syncytium' model); (b) neural-electromagnetic coupling influencing mitochondrial proton transport; (c) 'Just-in-Time' endogenous recycling loop using lipofuscin as molecular reservoir.",
+    "No patents, regulatory interactions, manufacturing, clinical trials, or funding information are mentioned.",
+    "The model is self-described as a theoretical framework requiring independent experimental investigation; no animal or human experimental studies were conducted by the author.",
+    "Document is authored by an independent (non-institutional) researcher; no team, institutional affiliation, or IP status is described."
+  ],
+  "document_date": "2026-09",
+  "milestones": [
+    {
+      "title": "Author Longevity and Biomarker Assessment",
+      "description": "The author (age 63) underwent a Longevity and Biomarker Assessment including instrumental measurements of physical and visual function, yielding grip strength, dead hang, visual acuity, and retinal/fundus data used as indirect empirical motivation for the HFND hypothesis.",
+      "date": "2026-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In May 2026, the author underwent a Longevity and Biomarker Assessment including instrumental measurements of physical and visual function.",
+      "page": 4
+    },
+    {
+      "title": "White Paper Publication / Version Release",
+      "description": "The Bio-Electrodynamic Human Firmware Model white paper was authored and released publicly for scientific discussion and independent examination.",
+      "date": "2026-09",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Version: September 2026",
+      "page": 7
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "file_path": "/hfnd-research-brief-v3",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This is a 2-page research brief by independent researcher Dmytro Taran introducing the \"Bio-Electrodynamic Human Firmware Model,\" centered on the hypothesis that the human nervous system contains a previously under-characterized High-Frequency Neural Drive (HFND) component in the 400–1000 Hz range. The brief maps established observations (olivo-cerebellar synchronization, Purkinje cell activity) against the proposed HFND hypothesis and downstream mechanotransduction/metabolic mechanisms. No experimental data are presented; the document is a structured conceptual map pointing to a full 6-page White Paper and outlining a critical experiment design and falsification criteria.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Identity and Author",
+      "content": "Title: 'The Bio-Electrodynamic Human Firmware Model — Research Brief.' Author: Dmytro Taran, Independent Researcher in Biophysics, Cybernetics and Longevity, Berlin, Germany. Published September 2026. DOI: 10.5281/zenodo.22255079. This brief is described as a structured map to a full 6-page White Paper. The project is independently conducted and self-funded by a single researcher, without an institutional research team or external research funding."
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Closed-Loop Sensorimotor Architecture Diagram",
+      "content": "A block diagram illustrating the proposed closed-loop architecture: (1) Sensory/Vestibular Input (visual, proprioceptive, vestibular, somatosensory) → (2) Olivo-Cerebellar Timing (error/temporal processing) → (3) Purkinje Cell Network (integration, coordination) → (4) HFND 400–1000 Hz (proposed high-frequency control layer) → (5) Neuromuscular/Mechanical Response (synchronization, adaptation) → (6) Cellular/Metabolic Response (mechanotransduction, remodeling, regulation). The loop is closed back to sensory input. No experimental data are shown; this is a conceptual model diagram."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Central Question and HFND Hypothesis",
+      "content": "Central question: Does the human nervous system contain a previously under-characterized high-frequency control component in the range of 400–1000 Hz? The proposed component is termed High-Frequency Neural Drive (HFND). It is hypothesized to represent a functional control layer within a closed-loop sensorimotor architecture. The proposed loop: sensory input → cerebellar timing → high-frequency neural coordination → neuromuscular/mechanical response → cellular and metabolic adaptation → functional preservation. Important clarification: the hypothesis is NOT that ordinary motor neurons fire at 400–1000 Hz, but that there is a potentially distinct high-frequency temporal component of neural control not yet adequately characterized."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Epistemic Structure Table",
+      "content": "Three-column table distinguishing evidence tiers:\n\n1. ESTABLISHED/OBSERVED: Olivo-cerebellar synchronization during skilled movement; Purkinje-cell influence on motor output; high-frequency organization within the Purkinje-cell layer; links between Purkinje-cell activity and motor coordination/aging.\n\n2. PROPOSED CORE: A 400–1000 Hz HFND component may function as a high-frequency control layer linking temporal neural organization with sensorimotor synchronization.\n\n3. PROPOSED DOWNSTREAM MODEL: HFND may couple to neuromuscular synchronization and mechanical adaptation, with downstream mechanotransduction, structural/cellular remodeling and metabolic regulation. These layers remain hypotheses requiring direct verification.\n\nTRL implication: The 'established' column references published literature, not the author's own experiments. No original experimental data are presented."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Critical Experiment Design Table",
+      "content": "Six proposed measurement layers and their corresponding scientific questions:\n\n1. High-density neural recording — Is a reproducible high-frequency component present at the relevant neural level?\n2. High-bandwidth EMG — Is there a corresponding high-frequency temporal signature in neuromuscular activity, distinguishable from artifact?\n3. Eye tracking / oculomotor measurements — Does the component covary with cerebellar-linked timing and coordinated sensorimotor states?\n4. Motion capture / posturography — Does the signal correlate with kinematics, balance and coordination?\n5. Force / mechanical measurements — Does modulation predict mechanical output or adaptation beyond competing explanations?\n6. Physiological / metabolic measurements — Are downstream physiological changes temporally and causally linked to the proposed control layer?\n\nNote: These are proposed future experiments, not completed studies. No data are reported."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Falsification Criteria",
+      "content": "The document explicitly lists conditions that would falsify the HFND model:\n• No reproducible 400–1000 Hz component can be detected with appropriate instrumentation.\n• The observed signal is demonstrated to be an artifact or known non-neural phenomenon.\n• The signal occurs independently of the proposed sensorimotor states.\n• No relationship exists between the signal and the predicted physiological variables.\n• Alternative mechanisms explain the observations more successfully.\n• Causal intervention fails to produce the predicted changes.\n\nThis falsifiability framing indicates the work is at a conceptual/hypothesis stage (TRL 1)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Research Context and Funding Status",
+      "content": "The project is independently conducted and self-funded by a single researcher (Dmytro Taran), without an institutional research team or external research funding. A public project archive contains model documentation, supporting materials and experimental/phenotypic documentation. No details on what 'experimental/phenotypic documentation' entails are provided in this brief."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Selected References",
+      "content": "Key references cited to support the 'established/observed' tier of the epistemic structure:\n\n1. Wagner MJ et al. A neural circuit state change underlying skilled movements. Cell 184(14), 3731–3747.e21 (2021). DOI 10.1016/j.cell.2021.06.001.\n2. Muller SZ et al. Complex spikes perturb movements and reveal the sensorimotor map of Purkinje cells. Current Biology 33(22), 4869–4879.e3 (2023). DOI 10.1016/j.cub.2023.09.062.\n3. de Solages C et al. High-Frequency Organization and Synchrony of Activity in the Purkinje Cell Layer of the Cerebellum. Neuron 58(5), 775–788 (2008). DOI 10.1016/j.neuron.2008.05.008.\n4. Fields E et al. Cerebellar Purkinje cell firing reduction contributes to aging-related declining motor coordination in mice. PNAS 123(2), e2525795122 (2026). DOI 10.1073/pnas.2525795122.\n5. Koppen J et al. Neural circuits encode prior knowledge of temporal statistics. Nature Neuroscience 29, 1452–1461 (2026). DOI 10.1038/s41593-026-02255-7.\n6. Nashef A et al. Behavioral correlates of Purkinje cell ensemble covariance. Nature Communications 17, 7755 (2026). DOI 10.1038/s41467-026-74576-x.\n7. Osório C et al. Purkinje cell intrinsic activity shapes cerebellar development and function. Nature Communications 17, 3688 (2026). DOI 10.1038/s41467-026-70355-w.\n8. Burroughs AM et al. A Purkinje cell model that simulates complex spikes. bioRxiv (2020). DOI 10.1101/2020.05.18.102236.\n\nAll references are to third-party published literature; none are the author's own experimental publications."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Open Scientific Challenge Statement",
+      "content": "The document explicitly states: 'This work is not presented as an established biological mechanism. It is presented as a testable model.' The key challenge posed is: 'What measurement would distinguish this model from competing explanations?' The call to action is: 'MEASURE IT. TEST IT. PROVE IT — OR REFUTE IT.' This confirms the work is at the hypothesis/concept stage with no completed experiments by the author."
+    }
+  ],
+  "key_findings": [
+    "The document presents a purely conceptual hypothesis (HFND: High-Frequency Neural Drive, 400–1000 Hz) with no original experimental data from the author — consistent with TRL 1.",
+    "The project is independently conducted and self-funded by a single researcher with no institutional affiliation or external funding, significantly limiting experimental capacity.",
+    "The 'established/observed' evidence tier relies entirely on third-party published literature (Purkinje cell activity, olivo-cerebellar synchronization), not the author's own experiments.",
+    "The proposed HFND mechanism is explicitly distinguished from known motor neuron firing rates; it posits a distinct high-frequency temporal control component not yet characterized.",
+    "A critical experiment framework is proposed across six measurement layers (neural recording, EMG, eye tracking, motion capture, force measurement, metabolic measurement) but none have been executed.",
+    "Explicit falsification criteria are provided, indicating scientific rigor in hypothesis formulation but confirming no data yet exist to test the model.",
+    "The downstream model (mechanotransduction, cellular remodeling, metabolic regulation) is explicitly labeled as hypothetical and requiring direct verification.",
+    "A full 6-page White Paper is referenced (same DOI: 10.5281/zenodo.22255079), suggesting more detail may exist but is not contained in this brief.",
+    "A public project archive with 'experimental/phenotypic documentation' is mentioned but not described in detail — unclear if any self-experimentation or pilot data exist."
+  ],
+  "document_date": "2026-09",
+  "milestones": []
+}
