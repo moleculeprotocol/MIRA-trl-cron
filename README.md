@@ -4,6 +4,8 @@ Automated [Technology Readiness Level](https://en.wikipedia.org/wiki/Technology_
 
 MIRA fetches documents from a project's dataroom, uses AI to extract and analyze their content, classifies the project into a TRL stage, scores it against weighted criteria, and generates actionable improvement todos.
 
+The repo also holds a second, unrelated tool: the [MIRA chat report](#mira-chat-report) (`pnpm report`), a bi-weekly summary of the MIRA chat assistant built from Langfuse data.
+
 ## How it works
 
 The pipeline processes each project through five sequential AI steps:
@@ -135,10 +137,38 @@ Key generation rules:
 - **Scope-aware**: Todos respect the project's stated roadmap and current development phase. A TRL 1 project won't get todos about GMP manufacturing.
 - **Ordered by actionability**: Immediately uploadable items first, complex new work last.
 
+## MIRA chat report
+
+A second, independent tool lives in `src/mira-report/`. It has nothing to do with TRL assessment: it summarises how the MIRA chat assistant performed over a time window. It reads traces, scores, and costs from [Langfuse](https://langfuse.com/), aggregates them, asks an LLM to group the user messages into themes, and prints the result or posts it to Slack.
+
+```bash
+pnpm report                        # last 14 full UTC days, printed to stdout
+pnpm report --slack                # post to Slack instead of printing
+pnpm report --days 7               # different window length
+pnpm report --from 2026-09-01 --to 2026-09-15
+pnpm report --no-llm               # skip the themes step (no Anthropic call)
+pnpm report --dump raw.json        # also write the fetched Langfuse data
+pnpm report --from-dump raw.json   # re-run from a dump, without Langfuse
+pnpm report --help
+```
+
+The report has five sections:
+
+| Section | Content |
+|---------|---------|
+| Headline numbers | Conversations, messages, median messages per conversation, errors, latency p50/p95, MIRA cost, judge cost -- each compared with the previous window of equal length |
+| Topics | Share of classified messages per topic category, plus the most common topic sets per conversation |
+| Answer quality | On-topic and all-scored answer rates, plus grouped unanswered needs |
+| Scope | Off-topic requests and requests that need a capability MIRA lacks |
+| Themes | 3-5 LLM-generated themes, missing capabilities, and paraphrased example questions |
+
+The themes step (`src/mira-report/insights.ts`) is the only LLM call. It uses the model named in `INSIGHTS_MODEL` (currently `claude-sonnet-4-6`), caps input at 60k characters, samples sessions with a deterministic PRNG so re-runs over the same dump are stable, and filters example questions for verbatim text and PII. Metric names expected in Langfuse (observation name, score names, topic categories) are pinned in `src/mira-report/constants.ts` with no fallbacks -- if something is renamed in Langfuse, change it there.
+
 ## Project structure
 
 ```
 src/index.ts          Main entry point and pipeline orchestrator
+src/mira-report/      MIRA chat report: Langfuse -> aggregate -> LLM themes -> console | Slack
 lib/config.ts         Constants: model IDs, API endpoints, contract addresses, test projects
 lib/llm.ts            All AI logic: extraction, questionnaire, classification, scoring, todos
 lib/molecule.ts       Molecule GraphQL API client (fetches projects and dataroom files)
@@ -151,7 +181,7 @@ output/               Cached extraction results, organized by project ID
 | Dependency | Purpose |
 |------------|---------|
 | [Vercel AI SDK](https://sdk.vercel.ai/) (`ai`) | Unified interface for LLM calls with structured output via Zod schemas |
-| [@ai-sdk/anthropic](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) | Anthropic provider -- Claude Sonnet 4.6 for extraction, Claude Opus 4.6 for reasoning |
+| [@ai-sdk/anthropic](https://sdk.vercel.ai/providers/ai-sdk-providers/anthropic) | Anthropic provider -- Claude Sonnet 4.6 for extraction, Claude Opus 4.6 for reasoning, `INSIGHTS_MODEL` for the chat report |
 | [Zod](https://zod.dev/) v4 | Schema validation for all structured LLM outputs |
 | TypeScript | Strict mode, ES2021, NodeNext modules |
 | Node.js 22 | Runtime |
@@ -169,6 +199,15 @@ Create a `.env` file:
 ANTHROPIC_API_KEY=...
 MOLECULE_API_KEY=...
 SANITY_API_TOKEN=...
+
+# Only needed for `pnpm report` (the MIRA chat report)
+INSIGHTS_MODEL=claude-sonnet-4-6
+LANGFUSE_PUBLIC_KEY=...
+LANGFUSE_SECRET_KEY=...
+LANGFUSE_BASE_URL=https://cloud.langfuse.com
+LANGFUSE_ENVIRONMENT=mira-v1-production
+SLACK_BOT_TOKEN=...
+SLACK_CHANNEL_ID=...
 ```
 
 Run against the hardcoded test projects:
@@ -199,6 +238,28 @@ pnpm dev:all
 | `USE_ALL_PROJECTS` | No | `true` to fetch all projects; otherwise uses test projects (ignored when `OCL_ID` is set) |
 | `FORCE_PROCESS` | No | `true` to skip change detection and reprocess everything |
 
+The MIRA chat report (`pnpm report`) uses its own set. There are no defaults: a missing value fails before any network call.
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `LANGFUSE_PUBLIC_KEY` | Yes | Langfuse API public key |
+| `LANGFUSE_SECRET_KEY` | Yes | Langfuse API secret key |
+| `LANGFUSE_BASE_URL` | Yes | Langfuse host, e.g. `https://cloud.langfuse.com` |
+| `LANGFUSE_ENVIRONMENT` | Yes | Langfuse environment to read, e.g. `mira-v1-production` |
+| `ANTHROPIC_API_KEY` | Yes | Anthropic API key (not needed with `--no-llm`) |
+| `INSIGHTS_MODEL` | Yes | Model for the themes step, e.g. `claude-sonnet-4-6` (not needed with `--no-llm`) |
+| `SLACK_BOT_TOKEN` | Only with `--slack` | Slack bot user OAuth token (`xoxb-...`) |
+| `SLACK_CHANNEL_ID` | Only with `--slack` | Slack channel ID (`C...`) to post the report to |
+
+Not needed when running from a dump (`--from-dump`): the Langfuse variables.
+
 ## Scheduled execution
 
-A GitHub Actions workflow (`.github/workflows/trl-assessment.yml`) runs the pipeline daily at 08:00 UTC. It processes all projects, commits updated extraction caches back to the repo, and can also be triggered manually with configurable options for environment, project scope, and force-processing.
+Two GitHub Actions workflows run on a schedule:
+
+| Workflow | Schedule | What it does |
+|----------|----------|--------------|
+| `.github/workflows/trl-assessment.yml` | Daily, 08:00 UTC | Runs the TRL pipeline over all projects, commits updated extraction caches back to the repo |
+| `.github/workflows/mira-report.yml` | Mondays, 08:00 UTC, even ISO weeks only | Builds the MIRA chat report for the last 14 days and posts it to Slack |
+
+Both can be triggered manually. The TRL workflow takes options for environment, project scope, and force-processing. The report workflow takes a window length, a flag to print to the job log instead of posting to Slack, and a flag to ignore the even-week check (cron cannot express "every 14 days", so the first step skips odd ISO weeks). If the report fails, the workflow posts a failure notice to the same Slack channel.
