@@ -1,8 +1,8 @@
 /** Model used for document content extraction (cheaper/faster). */
-export const EXTRACTION_MODEL = "claude-sonnet-4-6"
+export const EXTRACTION_MODEL = "claude-sonnet-5-5"
 
 /** Model used for questionnaire, TRL classification, scoring, and todo generation. */
-export const REASONING_MODEL = "claude-opus-4-6"
+export const REASONING_MODEL = "claude-opus-5-5"
 
 /**
  * LLM sampling temperatures per task.
