@@ -1,0 +1,95 @@
+{
+  "file_path": "/eurospine-2025-poster-filter",
+  "extraction_version": 2,
+  "document_type": "presentation",
+  "relevance": "high",
+  "summary": "This conference poster (EuroSpine 2025, Copenhagen) presents \"Filter,\" an AI-based predictive algorithm designed to triage lumbar pathology patients for specialist consultations. The algorithm was trained on a database of 3,164 first-time spinal surgery consultation patients using patient-reported outcomes (PROs), achieving an AUC of 0.763 and accuracy of 69%. The algorithm is currently being tested in a real-world observational study.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Background / Problem Statement",
+      "content": "Patients with spinal pathology struggle to find the appropriate physician at the appropriate time. Redundant and unnecessary healthcare visits pose major challenges worldwide, leading to delays in treatment for many suffering patients and a heavy workload for the surgeon. AI is proposed to direct patients to the right specialist at the right time and limit inefficiencies of overcrowded consultations. Study aim: create a predictive algorithm to define which patients should be seen first (priority triage)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Algorithm Development – Dataset and Methods",
+      "content": "Dataset: 3,164 patients consulting for the first time a spinal surgeon for a lumbar problem. Input features: first-consultation PROs (Patient-Reported Outcomes) and, where applicable, surgery data. Label definition: 16% of patients underwent surgery within one year — defined as 'priority.' Platform: Sciencer® (democratizing prediction in healthcare). Train/test split: 80% training, 20% testing. Feature selection: 20 clinical and demographic variables identified by the algorithm comparing 'priority' vs. 'non-priority' groups. Model selection: best prediction model selected and refined by clinicians."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Algorithm Performance Results",
+      "content": "Key prediction capacity parameters of the chosen algorithm:\n- ROC AUC = 0.763 (figure) / 0.732 (text): good discrimination between priority and non-priority patients\n- Accuracy = 69%: described as an interesting compromise between reliability and clinical applicability\n- Sensitivity = 62.8%: limited number of false negatives\n- Specificity = 70.5%: limited number of false positives\n- F1-score = 44.3%: model tends to overestimate priority cases, resulting in potential overtriage but favoring the patient\nNote: slight discrepancy between AUC stated in text (0.732) and shown in ROC figure (AUC=0.763)."
+    },
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Figure 1: Performance Metrics vs. Threshold",
+      "content": "Line chart showing multiple performance metrics (Accuracy, Balanced Accuracy, Sensitivity, Precision, ROC AUC, Specificity, F1 Score, Negative Predictive Value) plotted as a function of the classification threshold (0.0 to 1.0). The curves illustrate the trade-offs between metrics at different decision thresholds, enabling clinicians to select an optimal operating point. Accuracy and specificity remain relatively stable at moderate thresholds; sensitivity and F1 score decline at higher thresholds."
+    },
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Figure 2: ROC Curve of the Chosen Algorithm",
+      "content": "ROC curve showing sensitivity vs. (1-specificity) for the chosen algorithm. AUC = 0.763 as labeled in the figure. The Youden optimal threshold is marked at approximately 0.54 on the curve, corresponding to a sensitivity of approximately 0.63 and specificity of approximately 0.70. The curve is above the diagonal reference line, confirming discriminative ability above chance."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Perspectives / Intended Clinical Use",
+      "content": "The algorithm is intended for use at the scheduling stage of a first consultation. Based on variables completed by patients via online PROs, the algorithm will either: (1) prioritize the consultation (appointment within 2–3 days), or (2) allow a normal appointment (potentially several months of waiting). The algorithm is currently being tested 'in real life' in an observational study during the first consultation of patients."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Acknowledgments and Affiliations",
+      "content": "Authors: G. Lonjon (Clinique St Jean, Montpellier), V. Challier (Hôpital Privé Francheville, Périgueux), J. Cristini (Hôpital Clairval, Marseille), A. Dhenin (Clinique St Jean, Montpellier), M. Vassal (Clinique St Jean, Montpellier), B. Diebo (Brown University, Providence, USA), V. Lafage (Lennox Hill Hospital, New York, USA). Acknowledgments: Spine Research Community; SpineDAO; EasyMedStat. Presented at EuroSpine 2025, Copenhagen."
+    }
+  ],
+  "key_findings": [
+    "AI triage algorithm ('Filter') trained on 3,164 first-time lumbar spinal surgery consultation patients using PROs as input features.",
+    "16% of patients in the dataset underwent surgery within one year, serving as the 'priority' label for supervised learning.",
+    "Algorithm achieved AUC = 0.763 (ROC figure) / 0.732 (text), Accuracy = 69%, Sensitivity = 62.8%, Specificity = 70.5%, F1-score = 44.3%.",
+    "20 clinical and demographic variables were identified as predictors; model was refined by clinicians after algorithmic selection.",
+    "80/20 train/test split used; Sciencer® platform used for model development.",
+    "F1-score of 44.3% indicates the model tends to overestimate priority cases (overtriage), which is considered acceptable as it favors patient safety.",
+    "Algorithm is currently undergoing real-world validation in an observational study at first consultation.",
+    "Intended clinical application: scheduling triage — priority patients seen within 2–3 days vs. standard wait of several months.",
+    "Multi-institutional collaboration between French and US academic/clinical centers.",
+    "Presented at EuroSpine 2025 (Copenhagen), indicating peer-reviewed conference-level dissemination."
+  ],
+  "milestones": [
+    {
+      "title": "Algorithm Development and Validation on Historical Dataset",
+      "description": "Predictive triage algorithm trained on 3,164 patients (80% train, 20% test) using PROs and surgery data; 20 variables selected; model refined by clinicians. Performance metrics computed (AUC 0.763, Accuracy 69%, Sensitivity 62.8%, Specificity 70.5%).",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "A database of 3,164 patients consulting for the 1st time a spinal surgeon for lumbar problem was used to create the algorithm: their 1st consult PROs, and, if applicable, their surgery data were analized.",
+      "page": 1
+    },
+    {
+      "title": "Real-World Observational Study (In-Progress)",
+      "description": "The algorithm is currently being tested in a real-life observational study during the first consultation of patients to validate its clinical utility for scheduling triage.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "in_progress",
+      "category": "clinical",
+      "source_quote": "The algorithm is currently tested \"in real life\" in an observational study during the 1st consultation of patients.",
+      "page": 1
+    },
+    {
+      "title": "EuroSpine 2025 Presentation",
+      "description": "Findings presented as a poster at EuroSpine 2025 in Copenhagen.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "COPENHAGEN EURO SPINE 2025",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "file_path": "/spinedao-filter-ip-token-note",
+  "extraction_version": 2,
+  "document_type": "regulatory",
+  "relevance": "low",
+  "summary": "This is a one-page informational notice from the SpineDAO Foundation about the FILTER IP Token — an on-chain IP-NFT registered via Molecule. The document clarifies the legal and financial nature of the token, explicitly stating it is not an investment product or security. It contains no experimental data, scientific results, or development milestones relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "FILTER IP Token Informational Notice",
+      "content": "FILTER's intellectual property is registered on-chain as an IP-NFT via Molecule (IP-NFT #4469386980054205871851605268102991733114593052628…; token contract 0x961a9…16abd). The IP Token and underlying IP are owned by the SpineDAO Foundation. The document clarifies: (1) The FILTER IP Token exists solely for on-chain IP registration; it is not being offered, sold, distributed, or traded; it is not an investment product, security, or claim on revenue/profit/equity; no public token launch is planned. (2) The FILTER IP Token is separate from $SPINE, SpineDAO's community governance token. (3) The Foundation's economic return from FILTER's commercialization comes from a contractual royalty under its licence with VECTOR — not from this token. No scientific data, experimental results, or development stage information is provided."
+    }
+  ],
+  "key_findings": [
+    "FILTER IP is registered on-chain as an IP-NFT via Molecule (IP-NFT #4469386980054205871851605268102991733114593052628…; token contract 0x961a9…16abd).",
+    "The IP Token and underlying IP are owned by the SpineDAO Foundation.",
+    "The FILTER IP Token is not an investment product, security, or claim on revenue, profit, or equity; no public token launch is planned.",
+    "The Foundation's economic return from FILTER commercialization is derived from a contractual royalty under its licence with VECTOR.",
+    "The FILTER IP Token is distinct from $SPINE, SpineDAO's community governance token.",
+    "No experimental data, scientific results, or TRL-relevant technical content is present in this document."
+  ],
+  "milestones": []
+}

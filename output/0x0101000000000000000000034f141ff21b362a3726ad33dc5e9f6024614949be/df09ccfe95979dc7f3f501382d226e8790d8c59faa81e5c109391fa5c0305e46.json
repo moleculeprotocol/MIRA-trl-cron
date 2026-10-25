@@ -1,0 +1,96 @@
+{
+  "file_path": "/sfcr25-218-preview-1",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This is a conference abstract submitted to the SFCR 2025 (Société Française de Chirurgie Rachidienne) describing an AI algorithm designed to prioritize patient consultations for lumbar pathology. A neural network model was trained on 3,500 patients with 20 clinical variables and achieved an AUC-ROC of 75.2%, accuracy of 70.3%, and sensitivity of 74.5%. The model is now planned for prospective clinical validation via an online tool.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Introduction & Objective",
+      "content": "The abstract addresses the problem of overcrowded specialist consultations in spinal pathology worldwide, leading to treatment delays for patients and excessive workload for surgeons. The objective was to create a prediction algorithm to identify which patients should be seen as a priority. AI is proposed as a tool to direct patients to the right specialist at the right time and reduce inefficiencies."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Material & Methods",
+      "content": "Dataset: 3,500 patients consulting for lumbar symptoms, each with 20 clinical variables. Label: 16% of patients (n≈560) were operated within one year of first consultation, defining the 'priority' class. Platform: Sciencer platform used to democratize health prediction. Data split into training and test sets. Clinicians contributed clinical expertise to select the best prediction model. Three phases of variable reduction were performed, reducing from 20 to 10 variables. Final model: neural network."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Results & Model Performance",
+      "content": "After 3 testing phases reducing variables from 20 to 10, a neural network model was selected. Performance metrics:\n- AUC-ROC: 75.2% (good discrimination between priority and non-priority patients)\n- Accuracy: 70.3%\n- Sensitivity: 74.5% (effective identification of priority patients, limiting false negatives)\n- F1-score: 45.5% (model tends to over-triage, i.e., overestimates urgent cases — considered beneficial to the patient)\nKey variable: Oswestry Disability Index score elevation was strongly associated with probability of needing rapid consultation, supporting clinical relevance."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Conclusion & Next Steps",
+      "content": "Results encourage integration of the model into clinical practice. The model will be validated prospectively via an online tool. Future developments include: integration of imaging data, and extension to cervical pathology. No conflicts of interest declared."
+    }
+  ],
+  "key_findings": [
+    "Neural network model trained on 3,500 lumbar patients (20 clinical variables) to predict priority consultation need (defined as surgery within 1 year of first visit; 16% prevalence).",
+    "Model achieved AUC-ROC of 75.2%, accuracy of 70.3%, sensitivity of 74.5%, and F1-score of 45.5% after reducing variables from 20 to 10.",
+    "The model tends to over-triage (overestimate urgency), which is considered acceptable as it benefits the patient.",
+    "Oswestry Disability Index score was identified as a key predictor of priority consultation need.",
+    "The Sciencer platform was used to integrate data and allow clinicians to select the best predictive model.",
+    "Prospective clinical validation via an online tool is planned as the next step.",
+    "Extensions to imaging data integration and cervical pathology are in progress.",
+    "No conflicts of interest declared."
+  ],
+  "document_date": "2025-06",
+  "milestones": [
+    {
+      "title": "Retrospective Algorithm Development",
+      "description": "Development and internal validation of a neural network algorithm on 3,500 lumbar patients using the Sciencer platform, reducing variables from 20 to 10 and achieving AUC-ROC of 75.2%.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Après 3 phases de test pour diminuer le nombre de variables dans l'algorithme (20 au départ, 10 à l'arrivée), un model basé sur des réseaux de neurones a été sélectionné.",
+      "page": 1
+    },
+    {
+      "title": "Prospective Clinical Validation (Online Tool)",
+      "description": "The model will be validated in clinical practice through a prospective trial using an online tool.",
+      "date": "Cette version va être maintenant validée en pratique clinique dans le cadre d'un essai prospectif grâce à un outil en ligne.",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Cette version va être maintenant validée en pratique clinique dans le cadre d'un essai prospectif grâce à un outil en ligne.",
+      "page": 2
+    },
+    {
+      "title": "Imaging Data Integration",
+      "description": "Integration of imaging data into the algorithm is in progress.",
+      "date": "L'intégration de donnée d'imagerie, ainsi qu'une version sur la pathologie cervicale est en cours.",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "L'intégration de donnée d'imagerie, ainsi qu'une version sur la pathologie cervicale est en cours.",
+      "page": 2
+    },
+    {
+      "title": "Cervical Pathology Version",
+      "description": "Development of a version of the algorithm for cervical pathology is in progress.",
+      "date": "L'intégration de donnée d'imagerie, ainsi qu'une version sur la pathologie cervicale est en cours.",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "L'intégration de donnée d'imagerie, ainsi qu'une version sur la pathologie cervicale est en cours.",
+      "page": 2
+    },
+    {
+      "title": "SFCR 2025 Conference Presentation",
+      "description": "Abstract submitted and presented at the SFCR annual congress in Nancy, France.",
+      "date": "2025-06",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "5-7 juin 2025 NANCY CENTRE DE CONGRÈS DE NANCY",
+      "page": 1
+    }
+  ]
+}

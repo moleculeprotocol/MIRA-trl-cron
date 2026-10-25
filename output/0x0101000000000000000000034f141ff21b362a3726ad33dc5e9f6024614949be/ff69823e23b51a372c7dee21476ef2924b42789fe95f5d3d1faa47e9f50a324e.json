@@ -1,0 +1,80 @@
+{
+  "file_path": "/nass2026-filter-phase2-abstract",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "high",
+  "summary": "This is a conference abstract (NASS 2026, 41st Annual Meeting) presenting Phase 2 clinical evaluation results of an AI algorithm (Project FILTER) developed by SpineDAO to optimize patient prioritization and reduce consultation delays in spine care. The prospective multicenter study enrolled 643 first-time lumbar spine patients across 7 centers in France over 4 weeks, demonstrating that the AI significantly outperforms current scheduling practices in correctly identifying urgent cases.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Study Overview – Project FILTER Phase 2",
+      "content": "Project FILTER Phase 2 is a prospective multicenter observational study evaluating an AI algorithm for patient prioritization in spine care. The study was conducted over 4 weeks across 7 spine centers in France. 643 first-time lumbar spine consultation patients were enrolled. The AI generates a priority score (0–100) from a pre-visit patient survey. Surgeons were blinded to AI results and independently assigned priority levels at three time points: before consultation, after physical exam, and after imaging. AI categories were then compared to surgeon assessments and current scheduling practices."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Background and Clinical Problem",
+      "content": "Long consultation delays in spine care can lead to disparities in access and delayed treatment. The study addresses the clinical need for AI-assisted patient prioritization based on clinical urgency. The AI algorithm is intended to help triage patients before their first consultation, reducing the risk of urgent cases being deprioritized under standard scheduling systems."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Outcome Measures and Methods",
+      "content": "Two primary outcome measures were defined: (1) 'Potential harm' – urgent cases misclassified as low priority; (2) 'Loss of opportunity' – urgent cases classified as intermediate priority. Patients completed a pre-visit survey generating an AI priority score (0–100). Surgeons, blinded to AI results, assigned priority levels before consultation, after exam, and after imaging. AI categories were compared to surgeon assessments and current scheduling practices."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Results",
+      "content": "Compared to surgeon assessments:\n- AI potential harm: 0.3% (vs. 22.6% for current scheduling)\n- AI loss of opportunity: 6–8.4% (vs. 37.2% for current scheduling)\n- AI achieved a 7-fold reduction in missed prioritization opportunities compared to current scheduling.\nThe AI closely aligned with surgeon decision-making while substantially outperforming standard scheduling systems."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Conclusions and Regulatory Status",
+      "content": "The AI algorithm significantly improves patient prioritization and reduces delays in care for urgent spine conditions. It closely aligns with surgeon decision-making while outperforming standard scheduling systems. FDA device/drug status: The abstract does not discuss or include any applicable devices or drugs. Published in The Spine Journal 26 (2026), Abstract #273, doi.org/10.1016/j.spinee.2026.06.374."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Team and Affiliations",
+      "content": "Authors: Virginie Lafage, PhD (Lenox Hill Hospital, New York, NY, USA); Guillaume Lonjon, MD, PhD (OrthoSud, Montpellier, France); Vincent Challier, MD (Spine Unit, Clinique Francheville, France); Bassel G. Diebo, MD (Brown University, RI, USA). Affiliated with SpineDAO – Project FILTER."
+    }
+  ],
+  "key_findings": [
+    "Phase 2 prospective multicenter clinical study with 643 first-time lumbar spine patients across 7 centers in France over 4 weeks.",
+    "AI algorithm generates a priority score (0–100) from a pre-visit patient survey, compared against blinded surgeon assessments at three clinical time points.",
+    "AI potential harm rate: 0.3% vs. 22.6% for current scheduling practices — a ~75x improvement.",
+    "AI loss of opportunity rate: 6–8.4% vs. 37.2% for current scheduling — approximately 4–6x improvement.",
+    "AI achieved a 7-fold reduction in missed prioritization opportunities compared to standard scheduling.",
+    "AI performance closely aligned with surgeon decision-making across multiple assessment time points.",
+    "No FDA device/drug classification discussed; the algorithm is positioned as a clinical decision-support tool.",
+    "Published in The Spine Journal 26 (2026), Abstract #273, presented at NASS 2026 (41st Annual Meeting).",
+    "Study design is observational (non-interventional), with surgeons blinded to AI outputs — supporting validity of comparative analysis.",
+    "Multicenter design (7 centers) supports generalizability of findings."
+  ],
+  "document_date": "2026",
+  "milestones": [
+    {
+      "title": "Project FILTER Phase 2 Clinical Study Conducted",
+      "description": "Prospective multicenter observational study evaluating the AI prioritization algorithm across 7 spine centers in France, enrolling 643 first-time lumbar spine consultation patients over 4 weeks.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Prospective multicenter observational study conducted over 4 weeks in 7 spine centers in France. A total of 643 first-time lumbar spine consultation patients.",
+      "page": 1
+    },
+    {
+      "title": "Publication in The Spine Journal (NASS 2026 Abstract)",
+      "description": "Abstract #273 published in The Spine Journal Volume 26 (2026) and presented at the 41st Annual Meeting of the North American Spine Society (NASS 2026).",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Published in The Spine Journal 26 (2026), Abstract #273 · doi.org/10.1016/j.spinee.2026.06.374",
+      "page": 1
+    }
+  ]
+}

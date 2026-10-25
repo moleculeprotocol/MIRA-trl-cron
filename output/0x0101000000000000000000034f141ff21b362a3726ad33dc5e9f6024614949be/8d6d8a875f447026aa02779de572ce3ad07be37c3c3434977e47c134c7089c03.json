@@ -1,0 +1,193 @@
+{
+  "file_path": "/spinedao-filter-trl-analysis",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "This is a Technology Readiness Level (TRL) analysis document prepared by the SpineDAO Foundation for FILTER, an AI-driven smart appointment/triage system for spine-surgery candidates, prepared for a Molecule Labs listing. The document asserts FILTER has reached TRL 7, supported by a prospective multicenter clinical evaluation (643 patients, 7 French spine centers, NASS 2026), and outlines the remaining steps to TRL 8–9 including regulatory classification and multi-site commercial deployment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Executive Summary — Current TRL Status",
+      "content": "FILTER is an AI-driven smart appointment/triage system for spine-surgery candidates. Current assessed level: TRL 7 — reached. Evidence basis: (1) Prospective multicenter clinical evaluation presented at NASS 2026, Phase 2: 643 patients across 7 French spine centers, surgeons blinded to AI score. (2) Development on a retrospective cohort of 3,000+ de-identified records, peer-presented at SFCR and EUROSPINE 2025. (3) Now deploying with early surgeons in live booking workflows. (4) Commercial licence signed. Remaining steps to TRL 8–9: regulatory classification and multi-site commercial deployment."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "TRL Ladder — Evidence by Level",
+      "content": "TRL 1–3 | Basic principles; concept; proof of concept | Clinical need defined (triage of surgical vs non-surgical spine referrals); algorithmic concept specified; Soleau priority filed | Status: Achieved\nTRL 4 | Validated in the lab | Model trained and validated on 3,000+ de-identified records on the Sciencer platform; internal performance established | Status: Achieved\nTRL 5 | Validated in a relevant environment | Retrospective validation against surgeons' decisions; neural-network model, ROC AUC 75.2% (SFCR 2025) | Status: Achieved\nTRL 6 | Demonstrated in a relevant environment | Peer-presented at SFCR 2025 and EUROSPINE 2025; manuscript under review; IP-NFT registered on Molecule (EVM) | Status: Achieved\nTRL 7 | Demonstrated in an operational environment | Prospective multicenter clinical evaluation — NASS 2026 Phase 2 (643 patients, 7 centers, blinded surgeons); now deploying with early surgeons; commercial licence signed | Status: Achieved\nTRL 8 | Complete & qualified | Regulatory classification (clinical decision-support / medical-device status) per market; larger / longer-term prospective outcome data | Status: Planned\nTRL 9 | Proven in operational use at scale | Multi-site commercial deployment with outcome data | Status: Planned"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Basis for TRL 7 Rating — Prospective Multicenter Validation (NASS 2026, Phase 2)",
+      "content": "Headline evidence: Prospective study across 7 French spine centers, 643 first-time lumbar patients, surgeons blinded to the AI score. Key quantitative results: FILTER showed very low potential harm (0.3%) versus 22.6% for current scheduling; reduced loss of opportunity (6–8.4% vs 37.2%) — a 7-fold reduction in missed prioritization, closely aligning with surgeon decision-making. Supporting evidence pillars: (1) Real-world data: development on 3,000+ de-identified records from clinical practice; prospective validation on 643 live first-visit patients. (2) Independent scientific scrutiny: accepted and presented at SFCR 2025, EUROSPINE 2025, and NASS 2026; Phase 2 published in The Spine Journal 26 (2026), abstract #273. (3) Operational deployment underway: in live booking workflows with early surgeons (human-in-the-loop); commercial licence signed. (4) IP protection: IP-NFT via Molecule (EVM), owned by the SpineDAO Foundation; Soleau envelope on file."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Path to TRL 8 and TRL 9",
+      "content": "To reach TRL 8: confirm regulatory classification (clinical decision-support / medical-device status) per target market; extend prospective evidence to larger samples and longer follow-up (outcomes, not only concordance). To reach TRL 9: multi-site commercial deployment via the licensee, with prospective outcome and safety data at scale."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Honest Caveats and Limitations",
+      "content": "The Phase 2 study is a single-arm, observational, 4-week evaluation measuring concordance and triage safety — not a randomized trial or a long-term outcomes study. Regulatory classification is not yet complete. The product is pre-revenue. FILTER is a triage decision-support aid, not an autonomous diagnostic — a clinician makes every decision. These factors bound the rating at TRL 7. Document is a TRL self-assessment prepared for the FILTER Molecule Labs listing; not legal or regulatory advice."
+    }
+  ],
+  "key_findings": [
+    "FILTER assessed at TRL 7 (reached), based on a prospective multicenter clinical evaluation (NASS 2026, Phase 2: 643 patients, 7 French spine centers, surgeons blinded).",
+    "Neural-network model achieved ROC AUC 75.2% in retrospective validation against surgeon decisions (SFCR 2025).",
+    "Prospective Phase 2 results: potential harm 0.3% (FILTER) vs 22.6% (current scheduling); loss of opportunity 6–8.4% (FILTER) vs 37.2% (current scheduling) — a 7-fold reduction in missed prioritization.",
+    "Development dataset: 3,000+ de-identified records from clinical practice on the Sciencer platform.",
+    "Phase 2 results published in The Spine Journal 26 (2026), abstract #273.",
+    "Presented at SFCR 2025, EUROSPINE 2025, and NASS 2026.",
+    "Commercial licence signed; operational deployment underway with early surgeons in live booking workflows (human-in-the-loop).",
+    "IP protected via IP-NFT on Molecule (EVM) owned by SpineDAO Foundation; Soleau envelope on file.",
+    "Key limitations: single-arm observational 4-week study (not RCT), no long-term outcomes data, regulatory classification not yet complete, product is pre-revenue.",
+    "Remaining path: TRL 8 requires regulatory classification and larger/longer prospective outcome data; TRL 9 requires multi-site commercial deployment with outcome data at scale."
+  ],
+  "milestones": [
+    {
+      "title": "Soleau Priority Filing (IP)",
+      "description": "Soleau envelope filed to establish priority for the FILTER algorithmic concept.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Clinical need defined (triage of surgical vs non-surgical spine referrals); algorithmic concept specified; Soleau priority filed",
+      "page": 1
+    },
+    {
+      "title": "Model Training & Validation on Sciencer Platform (TRL 4)",
+      "description": "Model trained and validated on 3,000+ de-identified records on the Sciencer platform; internal performance established.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Model trained and validated on 3,000+ de-identified records on the Sciencer platform; internal performance established",
+      "page": 1
+    },
+    {
+      "title": "Retrospective Validation — SFCR 2025 Presentation (TRL 5)",
+      "description": "Retrospective validation of neural-network model against surgeon decisions; ROC AUC 75.2% presented at SFCR 2025.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Retrospective validation against surgeons' decisions; neural-network model, ROC AUC 75.2% (SFCR 2025)",
+      "page": 1
+    },
+    {
+      "title": "Peer Presentation at SFCR 2025",
+      "description": "FILTER results peer-presented at the SFCR 2025 conference.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Peer-presented at SFCR 2025 and EUROSPINE 2025; manuscript under review; IP-NFT registered on Molecule (EVM)",
+      "page": 1
+    },
+    {
+      "title": "Peer Presentation at EUROSPINE 2025",
+      "description": "FILTER results peer-presented at the EUROSPINE 2025 conference.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Peer-presented at SFCR 2025 and EUROSPINE 2025; manuscript under review; IP-NFT registered on Molecule (EVM)",
+      "page": 1
+    },
+    {
+      "title": "IP-NFT Registration on Molecule (EVM)",
+      "description": "Intellectual property registered as an IP-NFT on the Molecule platform (EVM blockchain), owned by the SpineDAO Foundation.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "IP-NFT registered on Molecule (EVM)",
+      "page": 1
+    },
+    {
+      "title": "Prospective Multicenter Clinical Evaluation — NASS 2026 Phase 2",
+      "description": "Prospective study across 7 French spine centers, 643 first-time lumbar patients, surgeons blinded to AI score. Results: potential harm 0.3% vs 22.6% for current scheduling; loss of opportunity 6–8.4% vs 37.2%. Published in The Spine Journal 26 (2026), abstract #273.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Prospective multicenter clinical evaluation — NASS 2026 Phase 2 (643 patients, 7 centers, blinded surgeons); now deploying with early surgeons; commercial licence signed",
+      "page": 1
+    },
+    {
+      "title": "Publication in The Spine Journal 26 (2026)",
+      "description": "Phase 2 results published in The Spine Journal, volume 26 (2026), abstract #273.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Phase 2 published in The Spine Journal 26 (2026), abstract #273.",
+      "page": 1
+    },
+    {
+      "title": "Commercial Licence Signed",
+      "description": "A commercial licence for FILTER has been signed with a licensee.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "commercial licence signed",
+      "page": 1
+    },
+    {
+      "title": "Early Surgeon Deployment (Live Booking Workflows)",
+      "description": "FILTER is now deploying with early surgeons in live booking workflows in a human-in-the-loop configuration.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "commercial",
+      "source_quote": "now deploying with early surgeons in live booking workflows with early surgeons (human-in-the-loop); commercial licence signed.",
+      "page": 1
+    },
+    {
+      "title": "Manuscript Under Review",
+      "description": "A manuscript describing FILTER results is currently under peer review for journal publication.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "manuscript under review",
+      "page": 1
+    },
+    {
+      "title": "Regulatory Classification (TRL 8 Target)",
+      "description": "Confirm regulatory classification as clinical decision-support or medical-device per target market to reach TRL 8.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "To reach TRL 8: confirm regulatory classification (clinical decision-support / medical-device status) per target market; extend prospective evidence to larger samples and longer follow-up (outcomes, not only concordance).",
+      "page": 1
+    },
+    {
+      "title": "Extended Prospective Evidence (TRL 8 Target)",
+      "description": "Extend prospective evidence to larger patient samples and longer follow-up measuring outcomes (not only concordance) to reach TRL 8.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "extend prospective evidence to larger samples and longer follow-up (outcomes, not only concordance).",
+      "page": 1
+    },
+    {
+      "title": "Multi-Site Commercial Deployment with Outcome Data (TRL 9 Target)",
+      "description": "Multi-site commercial deployment via the licensee, with prospective outcome and safety data at scale, to reach TRL 9.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "To reach TRL 9: multi-site commercial deployment via the licensee, with prospective outcome and safety data at scale.",
+      "page": 2
+    }
+  ]
+}

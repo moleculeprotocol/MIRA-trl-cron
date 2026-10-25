@@ -1,0 +1,127 @@
+{
+  "file_path": "/nass-2026-filter2-podium",
+  "extraction_version": 2,
+  "document_type": "presentation",
+  "relevance": "high",
+  "summary": "This is a conference presentation (NASS 2026, Project Filter Phase 2) describing the clinical evaluation of an AI algorithm designed to optimize consultation delays in spine care. Phase 1 involved building a machine learning model (AUC=0.763) on 3,164 patients, and Phase 2 is a prospective observational study across 7 French spine centers (n=643) comparing AI priority scores against surgeon assessments. The AI algorithm dramatically outperformed first-come-first-served scheduling in reducing potential harms and losses of opportunity for urgent patients.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title Slide",
+      "content": "NASS 2026 presentation. Project Filter · Phase 2. Title: 'Clinical evaluation of an AI algorithm to optimize consultation delays in spine care.' Authors: Guillaume Lonjon, Vincent Challier, Bassel Diebo, Virginie Lafage. Institutions: Lenox Hill Hospital, New York; SpineDAO; OrthoSud Montpellier."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Disclosures",
+      "content": "Guillaume Lonjon: Consulting Medtronic, Stryker. Vincent Challier: Consulting Centinel Spine, Spinevision; Scientific Advisory Board Clariance. Bassel G. Diebo: Consulting Clariance, Medtronic, Spineart; Grants Medtronic; Stock Ownership Spinal Alignment Solutions. Virginie Lafage: Consulting ATEC, Mainstay Medical; Private Investments VFT Solutions LLC; Research Support International Spine Study Group; Scientific Advisory Board ISSG (Nonfinancial); Speaking/Teaching DePuy Synthes; Stock Ownership ATEC."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Problem Statement: Consultation Delays in Spine Care",
+      "content": "Key statistics establishing clinical need: (1) +72% increase in elective spine wait times over 10 years; longer waits linked to more adverse events (Wang et al., Can J Surg 2026, n=2,041). (2) 1.7× odds of worse pain at 6 months when discectomy wait exceeds 12 weeks (Quon et al., Spine J 2013, n=291). (3) Only 10–38% of conventional referrals actually need a surgeon (Whittle et al. 2023; Wilgenbusch et al., Spine 2014). Current practice: appointments are first-come, first-served; urgent patients wait behind non-surgical referrals. Existing triage: a 3-item questionnaire halved the wait for surgical candidates (Coyle, JBJS 2018), but pathways remain single-center or depend on clinicians reviewing each referral."
+    },
+    {
+      "page": 4,
+      "type": "mixed",
+      "title": "Phase 1: Building the Algorithm",
+      "content": "Dataset: 3,164 first lumbar consultations; 16% operated within 1 year. Features: patient-reported outcomes at first consult, demographics, treatment history. Method: machine learning with 80% training / 20% test split. Performance: AUC = 0.763 on test set. Model: 20 variables; best model selected and refined by clinicians. Youden optimal threshold = 0.54. ROC curve shown for the selected model on the test set. Presented at EUROSPINE 2025."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "ROC Curve – Phase 1 Model (Test Set)",
+      "content": "ROC curve of the selected machine learning model on the test set. AUC = 0.763. Youden optimal threshold marked at 0.54 on the curve. X-axis: 1-Specificity (0 to 1.0). Y-axis: Sensitivity (0 to 1.0). Dashed diagonal represents random classifier. The curve shows good discrimination above the diagonal, with the optimal operating point at sensitivity ~0.75 and specificity ~0.65 (approximate from figure)."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Phase 2 Study Design",
+      "content": "Design: Prospective observational study. Setting: 7 spine centers, France. Duration: 4 weeks. Population: First lumbar consultations. Workflow: (1) Days before visit – patient receives a link and completes an online symptom survey. (2) AI algorithm generates a priority score 0–100 from survey responses. (3) Consultation – surgeon assesses priority, blinded to the AI score. Surgeon assessment at three time points: (1) Data only – survey and referral information; (2) After clinical examination – history and physical exam; (3) After imaging – reference standard for comparison."
+    },
+    {
+      "page": 6,
+      "type": "table",
+      "title": "Classification and Outcome Definitions",
+      "content": "Surgeon categories: Non-priority = no expedited visit needed; Priority = within one month; Urgent = within one week. AI Priority Score: Low < 33; Intermediate 33–66; High > 66. Safety outcome measures (urgent patients): Potential harm = urgent patient classified by algorithm as low priority; Loss of opportunity = urgent patient classified by algorithm as intermediate priority. For current scheduling, the same measures count urgent and priority patients given a late appointment."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Study Population – Surgeon Category Distribution",
+      "content": "643 patients analyzed. Surgeon category changes from data-only to after exam + imaging: Non-priority: 277 → 363 (+86); Priority: 264 → 130 (−134); Urgent: 102 → 150 (+48). 29 patients moved directly from non-priority to urgent after seeing the patient and images. AI Priority Score distribution (same 643 patients): Low = 202; Intermediate = 262; High = 179."
+    },
+    {
+      "page": 8,
+      "type": "figure",
+      "title": "AI vs Surgeon Assessment – Urgent Patient Classification",
+      "content": "Bar chart showing how the AI scored patients that surgeons rated as urgent. Reference: Data only (102 urgent patients): AI High (correctly prioritized) = 61; AI Intermediate (loss of opportunity) = 39; AI Low (potential harm) = 2. Potential harm rate = 0.3% of all 643 patients; loss of opportunity = 6.1% of all 643 patients. Reference: After exam + imaging (150 urgent patients): AI High = 94; AI Intermediate (loss of opportunity) = 54; AI Low (potential harm) = 2. Potential harm rate = 0.3% of all 643 patients; loss of opportunity = 8.4% of all 643 patients. Note: Both post-imaging potential harms were fractures — a presentation the symptom survey is not designed to capture."
+    },
+    {
+      "page": 9,
+      "type": "figure",
+      "title": "AI vs Current Scheduling (First Come – First Serve) Comparison",
+      "content": "Among 280 patients rated urgent or priority by surgeons, most would have been seen late under current scheduling. Potential harm: Current scheduling = 145 (22.6%); AI algorithm = 2 (0.3%). Loss of opportunity: Current scheduling = 239 (37.2%); AI algorithm = 54 (8.4%). Current scheduling denominator: n=280 (urgent and priority patients given a late appointment). AI denominator: n=150 (urgent patients scored low or intermediate). The AI algorithm reduced potential harm by ~75-fold (22.6% → 0.3%) and loss of opportunity by ~4.4-fold (37.2% → 8.4%)."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Conclusion and Next Steps",
+      "content": "Conclusions: (1) The AI algorithm significantly improved prioritization of patients awaiting a spine consultation. (2) Predictions closely aligned with surgeons' decisions while reducing the risk of delayed access for urgent cases. (3) It markedly outperformed the current unprioritized scheduling system. (4) Limitation: the symptom survey does not capture fractures. Next step: The algorithm has been integrated into a dedicated triage tool for use at appointment booking. Workflow: Online survey at booking + imaging report → priority score → expedited or standard appointment. Acknowledgments: Spine Research Community, SpineDAO."
+    }
+  ],
+  "key_findings": [
+    "Phase 1 ML model trained on 3,164 first lumbar consultations (16% operated within 1 year) achieved AUC = 0.763 on test set (80/20 split), using 20 variables with Youden optimal threshold of 0.54; presented at EUROSPINE 2025.",
+    "Phase 2 prospective observational study enrolled 643 patients across 7 French spine centers over 4 weeks; surgeon assessments were collected at 3 time points (data only, after exam, after imaging).",
+    "After full clinical evaluation (exam + imaging), 150 patients were classified as urgent by surgeons; the AI correctly prioritized 94 (high score), misclassified 54 as intermediate (loss of opportunity, 8.4%), and only 2 as low (potential harm, 0.3%).",
+    "Both potential harm cases (AI low score for surgeon-urgent patients) were fractures — a known limitation of the symptom-survey-based approach.",
+    "Compared to first-come-first-served scheduling: AI reduced potential harm from 22.6% (145/643) to 0.3% (2/643), and loss of opportunity from 37.2% (239/643) to 8.4% (54/643).",
+    "29 patients moved directly from non-priority to urgent after the surgeon saw the patient and imaging, highlighting the value of imaging in triage.",
+    "The algorithm has been integrated into a dedicated triage tool combining online survey at booking + imaging report to generate a priority score for expedited or standard appointment scheduling.",
+    "Background evidence: elective spine wait times increased +72% over 10 years; 1.7× odds of worse pain at 6 months when discectomy wait exceeds 12 weeks; only 10–38% of conventional referrals actually need a surgeon."
+  ],
+  "milestones": [
+    {
+      "title": "Phase 1 Algorithm Presented at EUROSPINE 2025",
+      "description": "The Phase 1 machine learning model (AUC=0.763, trained on 3,164 first lumbar consultations) was presented at the EUROSPINE 2025 conference.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Presented at EUROSPINE 2025",
+      "page": 4
+    },
+    {
+      "title": "Phase 2 Prospective Clinical Study Completed",
+      "description": "Prospective observational study across 7 spine centers in France, enrolling 643 patients over 4 weeks, comparing AI priority scores to surgeon assessments at three time points.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Prospective observational study 7 spine centers, France 4 weeks First lumbar consultations",
+      "page": 5
+    },
+    {
+      "title": "Phase 2 Results Presented at NASS 2026",
+      "description": "Clinical evaluation results of the AI triage algorithm presented at the NASS 2026 conference.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "NASS 2026 PROJECT FILTER · PHASE 2",
+      "page": 1
+    },
+    {
+      "title": "Algorithm Integrated into Dedicated Triage Tool",
+      "description": "The AI algorithm has been integrated into a dedicated triage tool for use at appointment booking, combining online survey + imaging report to generate a priority score directing patients to expedited or standard appointments.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "The algorithm has been integrated into a dedicated triage tool for use at appointment booking. Online survey at booking + imaging report → priority score → expedited or standard appointment.",
+      "page": 10
+    }
+  ]
+}
