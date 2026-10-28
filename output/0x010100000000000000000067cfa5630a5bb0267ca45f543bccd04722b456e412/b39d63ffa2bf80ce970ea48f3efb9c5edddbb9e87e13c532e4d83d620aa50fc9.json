@@ -1,0 +1,95 @@
+{
+  "file_path": "/reports/2026-09-28/P32.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This is a Mol Labs public report (P32) framing a research hypothesis (\"assumption-kill\") about whether bradykinin retains residual phenotype (nociception, plasma extravasation, neurogenic inflammation) under B2R genetic loss-of-function (Bdkrb2 KO) or B2R-matched antagonism (HOE-140/icatibant-class) that abolishes B2R-class attribution. The document is a pre-registered discussion card, not a completed experiment; the key experimental outcome (matched residual bradykinin under Bdkrb2/HOE abolish) is explicitly marked EMPTY/UNKNOWN. Supporting prior art from four published studies (Griesbacher 1987, Wirth 1991, Hess 1992, Borkowski 1995) establishes BK phenotype, B2R antagonist tools, receptor identity, and genetic LOF necessity — all pointing against residual phenotype rather than supporting it.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Hypothesis / Claim (P32) — Bradykinin Residual Phenotype Under B2R Abolish",
+      "content": "The central claim (P32) asks whether bradykinin retains residual phenotype ≥50% of bradykinin-alone (or bradykinin vs vehicle Δ) on B2R-intact concurrent controls under conditions that abolish B2R-class nociception/plasma-extravasation/neurogenic-inflammation attribution via Bdkrb2 genetic LOF or B2R-matched antagonism (HOE-140/icatibant-class). This is framed as an 'assumption-kill' / 'bdkrb2-insufficiency' test. The claim requires: (1) a pre-registered acute/subacute rodent panel (Griesbacher/Wirth/Hess/Borkowski-class); (2) a bradykinin-alone arm on B2R-intact concurrent controls; (3) a B2R-abolish condition confirmed to eliminate B2R-class attribution; (4) a bradykinin-under-abolish arm scored against the intact-arm comparator. Polarity is NEGATIVE; status is NOT_RUN."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art #1 — Griesbacher 1987 (PMID 3479223)",
+      "content": "Griesbacher et al. (Br J Pharmacol 1987; PMID 3479223; DOI 10.1111/j.1476-5381.1987.tb11328.x; PMC1853661) maps BK phenotype PRIOR: plasma extravasation, nociceptor stimulation, PGE2 release, venoconstriction in rabbit models using B4310-class antagonists. Antagonist arms demonstrate necessity of B2R-class signaling AGAINST residual phenotype. Document explicitly notes: 'occlusion ≠ residual-retain.' This is classified as LITERATURE evidence; assay type = rabbit plasma extravasation / venoconstriction / PGE2 / nociceptor / iris sphincter. No residual-positive H2H arm present."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art #2 — Wirth 1991 (PMID 1364852)",
+      "content": "Wirth et al. (Br J Pharmacol 1991; PMID 1364852; DOI 10.1111/j.1476-5381.1991.tb12249.x; PMC1917928) characterizes Hoe 140 as a potent, long-acting B2R antagonist in vivo. Assays: rat BK hypotensive responses; guinea-pig BK bronchoconstriction; carrageenin paw oedema; dog tolerability. Hoe 140 inhibits BK hypotensive/bronchoconstriction/carrageenin oedema. Classified as B2R antagonist TOOL (not a residual H2H study). Provides the pharmacological tool for the proposed P32 abolish-gate but does not itself demonstrate residual bradykinin phenotype under B2R abolish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art #3 — Hess 1992 (PMID 1314587)",
+      "content": "Hess et al. (Biochem Biophys Res Commun 1992; PMID 1314587; DOI 10.1016/0006-291x(92)91187-u) reports cloning and pharmacological characterization of the human bradykinin BK-2 receptor (Bdkrb2). Method: human BK-2 receptor cDNA cloning; mammalian cell expression; pharmacological characterization consistent with BK-2 subtype. Conclusion: cloned receptor is a G protein-coupled human bradykinin (BK-2) receptor. Classified as Bdkrb2 identity FOUNDATION / necessity-leaning BK→B2R attribution. Document cautions: 'do not invent KD/IC50 from abstract as scout measurements.' BK is confirmed as endogenous B2R ligand; residual under B2R abolish would imply a non-B2R bridge."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art #4 — Borkowski 1995 (PMID 7775424)",
+      "content": "Borkowski et al. (J Biol Chem 1995; PMID 7775424; DOI 10.1074/jbc.270.23.13706) reports targeted disruption of the B2 bradykinin receptor gene (Bdkrb2 KO). Assays: ileum, uterus, superior cervical ganglia preparations. Result: homozygous Bdkrb2 KO mice are fertile; BK fails to produce responses in smooth muscle and neurons. Classified as Bdkrb2 genetic LOF TOOL + necessity AGAINST residual. Document explicitly states: 'BK action eliminated = necessity, NOT residual-positive BK-in-KO; do NOT misread as residual+.' This is the strongest necessity-against-residual evidence in the prior art set."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Experimental Gap — Matched Residual H2H (EMPTY/UNKNOWN)",
+      "content": "The critical prediction variable 'matched_residual_bradykinin_under_Bdkrb2_HOE_abolish_H2H' is explicitly marked EMPTY/UNKNOWN. No published study has been identified that provides a clean residual-positive bradykinin arm under Bdkrb2 LOF or HOE-140/icatibant-class abolish on a nociception/plasma-extravasation/neurogenic-inflammation panel with bradykinin-alone on B2R-intact concurrent controls as the named comparator. Soft-complete scores: Q_resid_tight=21 all NON-MATCH; Q_resid_life_h2h=2 NON-MATCH; Q_bk_in_ko inflated without clean exogenous-BK retain; Q_necess necessity AGAINST (Borkowski/Wirth/Griesbacher/Hess). Document states: 'soft-complete empty ≠ novelty / ≠ failure.'"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prediction Variables and Thresholds",
+      "content": "Six prediction variables are defined:\n1. Griesbacher_BK_phenotype_plus_antagonist_necessity — LITERATURE; threshold: B4310-class antagonists inhibit BK-induced plasma extravasation, venoconstriction, PGE2, nociceptor stimulation (PMID 3479223); occlusion ≠ residual-retain.\n2. Wirth_HOE140_B2R_antagonist_tool_not_residual — LITERATURE; threshold: Hoe 140 inhibits BK hypotensive/bronchoconstriction/carrageenin oedema (PMID 1364852); not residual H2H.\n3. Hess_Bdkrb2_identity_BK_is_B2R_ligand — LITERATURE; threshold: cloned receptor is G protein-coupled human BK-2 receptor (PMID 1314587); BK IS endogenous B2R ligand.\n4. Borkowski_Bdkrb2_KO_necessity_AGAINST_residual — LITERATURE; threshold: BK fails to produce responses in smooth muscle and neurons in Bdkrb2 KO (PMID 7775424); necessity AGAINST residual.\n5. matched_residual_bradykinin_under_Bdkrb2_HOE_abolish_H2H — UNKNOWN; threshold: dedicated residual-positive BK phenotype under Bdkrb2 LOF/HOE-140 abolish on Griesbacher/Wirth/Hess/Borkowski-style panels — EMPTY.\n6. residual_bradykinin_phenotype_ge_50pct_of_alone_when_B2R_class_abolished — PREDICTION; threshold: residual BK phenotype ≥50% of BK-alone (or BK vs vehicle Δ) on B2R-intact concurrent controls under Bdkrb2 LOF or HOE-140/icatibant abolish; α/N pre-specified; author-chosen prediction, not observed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Proposed Experimental Design (Primary Kill Path)",
+      "content": "Primary kill path: pre-registered acute/subacute rodent (Griesbacher/Wirth/Hess/Borkowski-class) nociception/plasma-extravasation/neurogenic-inflammation panel. Required arms: (A) bradykinin-alone (or bradykinin vs vehicle) on B2R-intact concurrent controls; (B) Bdkrb2 genetic LOF or B2R-matched antagonism (HOE-140/icatibant-class) with block QC confirming abolition of B2R-class attribution; (C) bradykinin-under-abolish arm scored against arm A. Preferred sequence: cell/SPR/block-QC with HOE-140/icatibant-class or Bdkrb2 ablation BEFORE new animal panels. Refute condition: residual BK phenotype <50% of BK-alone/intact-arm Δ when abolish-gate, BK-alone/intact comparator, and power/assay artifacts are ruled out. Competing inconclusive outcomes: abolish-fail, BK-null, underpowered strata, assay-mismatch, B1-panel mismatch without selective confirmation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "B1 Receptor (Bdkrb1) Honesty Caveat",
+      "content": "The document acknowledges a B1 receptor (Bdkrb1) honesty caveat (Q_B1=90; reference: PMID 8552260 — inflammation modulates B1 vs B2). Instruction: document B1 as a caveat ONLY; do NOT promote B1 as residual-positive under B2 abolish; do not invent residual+ from B1 literature. B1 mismatch is listed as a pre-registered competing inconclusive outcome (not a refute outcome)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness / Skip-List Discipline",
+      "content": "P32 is explicitly distinguished from P15–P31 (all NON-MATCH). Critical non-matches: P30 (CGRP/RAMP1; BK≠CGRP; Bdkrb2≠RAMP1; Q_P30_tight=0) and P31 (Substance P/NK1R; BK≠SP; Bdkrb2≠Tacr1; Q_P31_tight=1). Also distinct from: P29 orexin/OX1R, P28 VIP/VPAC2, P27 NPY/Y1, P26 PACAP/PAC1, P25 ghrelin/GHSR, P24 GLP1R, P23 OXTR, P22 Dihexa/c-Met, P21 Selank/GABA, P20 Semax/TrkB, P19 ARA290/IRR, P18 SS-31/ROS, P17 MOTS-c/folate, P16 LKKTETQ-Cc, P15 residual-FBXO22. NOT FOXO4×LOF (SERIES_FROZEN). orthosteric_drift=false."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution and IP Status",
+      "content": "execution_status=NOT_RUN. fto_status=UNKNOWN. kill_cost_tier=1. time_to_refute=4 weeks. ip_class=bdkrb2-insufficiency. vault_hold=no. Status labels: NEGATIVE. Polarity: negative. Risk class: research-discussion. The document is a pre-registered discussion card pending dual-publish; no experimental data has been generated for P32."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis — What Collapses Without Key Design Elements",
+      "content": "Three ablation conditions are described:\n1. Remove matched nociception/plasma-extravasation/neurogenic-inflammation panel with BK-alone on B2R-intact concurrent controls ± Bdkrb2 LOF or HOE-140/icatibant under B2R-abolish: without this, separate Griesbacher/Wirth/Hess/Borkowski literature cannot show bdkrb2-insufficiency of residual BK.\n2. Remove B2R-abolish gate plus BK-alone/intact-arm comparator: without this, the card collapses into generic B2R-class framing and loses bdkrb2-insufficiency contrast.\n3. Remove P15≠P32 through P31≠P32 discipline plus BK-is-B2R-ligand honesty and B1-caveat-not-invented-residual: treating prior series or empty PubMed as deciding residual-under-Bdkrb2-abolish would invent an H2H result left EMPTY/UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "P32 is a pre-registered hypothesis (NOT_RUN) asking whether bradykinin retains residual phenotype ≥50% of BK-alone under Bdkrb2 genetic LOF or HOE-140/icatibant-class B2R antagonism that abolishes B2R-class nociception/plasma-extravasation/neurogenic-inflammation attribution.",
+    "The matched residual H2H experimental outcome is explicitly EMPTY/UNKNOWN — no published study provides a clean residual-positive BK arm under Bdkrb2/HOE abolish on the required panel design.",
+    "Four prior art studies (Griesbacher 1987, Wirth 1991, Hess 1992, Borkowski 1995) collectively establish BK phenotype, B2R antagonist tools, receptor identity, and genetic LOF necessity — all pointing AGAINST residual phenotype rather than supporting it.",
+    "Borkowski 1995 (PMID 7775424): Bdkrb2 KO eliminates BK action in smooth muscle and neurons — strongest necessity-against-residual evidence; explicitly not to be misread as residual-positive.",
+    "Griesbacher 1987 (PMID 3479223): B4310-class antagonists inhibit BK-induced plasma extravasation, venoconstriction, PGE2 release, nociceptor stimulation — occlusion ≠ residual-retain.",
+    "Wirth 1991 (PMID 1364852): Hoe 140 is a potent long-acting B2R antagonist in vivo (rat hypotension, guinea-pig bronchoconstriction, carrageenin oedema) — pharmacological tool, not a residual H2H study.",
+    "Hess 1992 (PMID 1314587): Cloning and pharmacological characterization of human BK-2 receptor (Bdkrb2) — BK confirmed as endogenous B2R ligand; residual under B2R abolish would imply non-B2R bridge.",
+    "B1 receptor (Bdkrb1) acknowledged as honesty caveat (Q_B1=90; PMID 8552260) but explicitly not to be promoted as residual-positive under B2 abolish.",
+    "Refute condition: residual BK phenotype <50% of BK-alone/intact-arm Δ when abolish-gate and power/assay artifacts are ruled out — would confirm B2R-class sufficiency and kill bdkrb2-insufficiency hypothesis.",
+    "Execution status: NOT_RUN; kill_cost_tier=1; estimated time_to_refute=4 weeks; FTO status UNKNOWN.",
+    "P32 is explicitly distinct from P15–P31 (all NON-MATCH), especially P30 (CGRP/RAMP1) and P31 (Substance P/NK1R); NOT FOXO4×LOF (SERIES_FROZEN)."
+  ],
+  "milestones": []
+}

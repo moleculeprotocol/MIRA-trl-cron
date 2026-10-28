@@ -1,0 +1,94 @@
+{
+  "file_path": "/reports/2026-09-28/P31.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This Mol Labs public report (P31) is a research discussion document proposing an assumption-kill experiment to test whether Substance P (SP) retains residual phenotype on nociception/neurogenic-inflammation/stress panels after NK1R (Tacr1) genetic loss-of-function or NK1R-matched pharmacological antagonism (RP67580/CP-96345/aprepitant-class) that abolishes NK1R-class attribution. The document is entirely at the conceptual/literature-review stage (TRL 1–2): no new experiments have been run, and the key residual-SP-under-NK1R-abolish head-to-head comparison is explicitly marked EMPTY/UNKNOWN. It frames four prior-art literature anchors (Cao 1998, Garret 1991, Hershey 1990, De Felipe 1998) as tools and necessity priors, not as evidence of residual SP phenotype.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Claim (P31)",
+      "content": "P31 is a hypothesis/assumption-kill card asking whether Substance P (SP) retains ≥50% of its phenotype on a matched rodent nociception/neurogenic-inflammation/stress-attribution panel when NK1R (Tacr1) is genetically knocked out or pharmacologically blocked (RP67580/CP-96345/aprepitant-class) to the point of abolishing NK1R-class attribution. The named comparator is the SP-without-NK1R-abolish arm on the same panel. The claim is labeled 'nk1r-insufficiency assumption-kill' with polarity=negative and status=NOT_RUN. No new experimental data are presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Anchor 1 — Cao 1998 (PMID 9537322): Tac1/PPT-A Ligand KO Pain/Neurogenic Inflammation",
+      "content": "Cao et al. (1998, Nature, DOI 10.1038/32897) used PPT-A/Tac1 knockout mice (encoding both Substance P and neurokinin A) to show: mildly painful stimuli intact; response to moderate-to-intense pain significantly reduced; neurogenic inflammation almost absent. NK1R is intact in these animals. CRITICAL NOTE: Tac1≠Tacr1 — this is a ligand KO, not a receptor KO, and does NOT constitute a residual-SP-under-NK1R-abolish arm. Document explicitly warns against misreading Cao Tac1 phenotype as Tacr1 residual."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Anchor 2 — Garret 1991 (PMID 1719549): RP67580 Selective NK1 Antagonist Tool",
+      "content": "Garret et al. (1991, PNAS, DOI 10.1073/pnas.88.22.10208) characterized RP67580 as a potent, selective, competitive NK1 antagonist: inactive on NK2/NK3; blocks SP-induced and antidromic plasma extravasation; analgesic in writhing/formalin assays. Classified as a TOOL prior and necessity-against-residual evidence. Not a residual H2H experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Anchor 3 — Hershey 1990 (PMID 2154852): NK1R/Tacr1 Molecular Identity Foundation",
+      "content": "Hershey et al. (1990, Science, DOI 10.1126/science.2154852) cloned the rat substance P receptor from brain and submandibular gland cDNA, confirmed it as a GPCR by pharmacology (Scatchard/tachykinin displacement), and mapped tissue mRNA distribution. Establishes SP as the canonical NK1R ligand. Classified as FOUNDATION/necessity-leaning; residual SP phenotype under NK1R abolish would imply a non-NK1R bridge. Not a residual H2H experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Prior Art Anchor 4 — De Felipe 1998 (PMID 9537323): Tacr1/NK1R KO Stress/Aggression/Wind-up Necessity",
+      "content": "De Felipe et al. (1998, Nature, DOI 10.1038/32904) used NK-1/Tacr1 receptor knockout mice and showed: amplification (wind-up) and intensity coding of nociceptive reflexes absent; SP essential for full stress-induced analgesia and aggressive response to territorial challenge. CRITICAL: The abstract does NOT test exogenous SP retain in KO animals — this is NOT a residual-positive SP-in-KO H2H. Classified as Tacr1 genetic LOF TOOL + necessity-leaning; necessity ≠ residual-positive."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Promoted RP67580 Occlusion Studies (PMID 32736088; PMID 8955947)",
+      "content": "Two additional RP67580 occlusion studies (PMID 32736088 — latent sensitization; PMID 8955947 — inflammatory flexor) are cited as NECESSITY AGAINST residual on matched panels under NK1R abolish. Both are out of the public prior_art ≤4 count. These are not residual-positive H2H experiments."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Adjacent MRGPRX2 Honesty Caveat (PMID 42627518)",
+      "content": "PMID 42627518 documents that SP and PACAP activate dural mast cells via MRGPRX2, not NK1R/PAC1. This is flagged as a honesty caveat for a wrong-panel context (mast cell ≠ Cao/De Felipe nociception/stress residual H2H). Document instructs: document this path, do not invent residual from it. NK2/NK3/NKA/hemokinin-1 caveats similarly noted — do not invent SP residual or collapse SP→NKA/NKB without clear match."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Prediction Variables and Experimental Design",
+      "content": "Six prediction variables are defined:\n1. Cao_Tac1_ligand_KO_pain_neurogenic_inflammation_phenotype — LITERATURE (PMID 9537322); phenotype PRIOR; NOT residual under NK1R abolish.\n2. Garret_RP67580_NK1_antagonist_tool — LITERATURE (PMID 1719549); selective NK1 antagonist TOOL; not residual H2H.\n3. Hershey_SP_receptor_NK1R_identity_foundation — LITERATURE (PMID 2154852); NK1R identity FOUNDATION; not residual H2H.\n4. De_Felipe_Tacr1_LOF_stress_aggression_windup_necessity — LITERATURE (PMID 9537323); LOF TOOL + necessity; NOT residual-positive SP-in-KO.\n5. matched_residual_SP_under_NK1R_abolish_Cao_Garret_Hershey_DeFelipe_H2H — UNKNOWN/EMPTY; dedicated residual-positive SP phenotype under Tacr1 LOF or NK1R antagonism on matched panel NOT FOUND; soft-complete Q_resid_tight=10 all NON-MATCH.\n6. residual_SP_nociception_neurogenic_inflammation_stress_ge50pct_of_SP_without_NK1R_abolish — PREDICTION (pre-registered, author-chosen; not observed); threshold ≥50% of SP-without-NK1R-abolish arm.\nCompeting outcome variable: abolish-fail / agonist-alone-null / underpowered / assay-mismatch / MRGPRX2-or-NK2-confound-without-selective-confirmation → inconclusive (not refuted)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Execution Status and IP/Cost Metadata",
+      "content": "execution_status=NOT_RUN; fto_status=UNKNOWN; kill_cost_tier=1; time_to_refute=4 weeks; ip_class=nk1r-insufficiency; vault_hold=no. No experiments have been conducted. The document is a pre-registered hypothesis/discussion card pending dual-publish."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Series Distinctness and Exclusion List (P15–P30)",
+      "content": "The document explicitly distinguishes P31 from 16 prior cards (P15–P30) covering different peptide/receptor pairs: FBXO22, LKKTETQ/G-actin, MOTS-c/folate, SS-31/ROS, ARA290/EPO, Semax/TrkB, Selank/GABA-A, Dihexa/c-Met, oxytocin/OXTR, Exendin-4/GLP1R, ghrelin/GHSR, PACAP/PAC1, NPY/Y1, VIP/VPAC2, orexin/OX1R, and CGRP/RAMP1. SP≠any of these; NK1R≠any of their receptors. P30 (CGRP/RAMP1) is flagged as especially critical non-match (Q_P30_tight=1). P1–P30 do not prove P31. NOT FOXO4×LOF (SERIES_FROZEN)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Refute Condition and Ask-a-Human Gate",
+      "content": "Refute condition: On the pre-registered matched panel, residual SP phenotype <50% of SP-without-NK1R-abolish arm under NK1R-abolish condition (with abolish-fail, agonist-alone-null, underpowered, assay-mismatch, and MRGPRX2/NK2-confound artifacts ruled out) → NK1R-class attribution framing survives; nk1r-insufficiency residual fails.\nAsk-a-human gate: Lock one matched panel ± SP ± NK1R antagonism or Tacr1 LOF with block QC abolishing NK1R-class attribution; prefer cell/SPR/block-QC before new animal in vivo panels; do not treat P15–P30 as proof; do not collapse to CGRP/RAMP1 or BPC/FBXO22 skip-list; do not invent residual when EMPTY/UNKNOWN; document SP-is-NK1R-ligand/MRGPRX2/NK2 honesty."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ablation Analysis",
+      "content": "Three ablation conditions are described:\n1. Removing the NK1R-abolish × residual H2H: Without this, separate Cao/Garret/Hershey/De Felipe/RP67580-occlusion literature cannot show nk1r-insufficiency of residual SP under NK1R-abolish.\n2. Removing the NK1R-abolish gate plus SP-without-NK1R-abolish comparator: Card collapses into prior phenotype/tool/identity/necessity framing and loses nk1r-insufficiency contrast.\n3. Removing series-distinctness discipline (P15≠P31 through P30≠P31, soft-complete-empty≠novelty, skip-list-distinct, NOT-FOXO4×LOF, do-not-invent-residual, SP-is-NK1R-ligand honesty, MRGPRX2/NK2 caveat): Would invent an H2H result left EMPTY/UNKNOWN."
+    }
+  ],
+  "key_findings": [
+    "P31 is entirely at the conceptual/pre-experimental stage (execution_status=NOT_RUN); no new experiments have been conducted.",
+    "The critical prediction variable — matched residual SP phenotype under NK1R-abolish on Cao/Garret/Hershey/De Felipe-style panels — is explicitly EMPTY/UNKNOWN (soft-complete Q_resid_tight=10 all NON-MATCH).",
+    "Four literature anchors are cited as TOOL/NECESSITY priors, not as residual-positive H2H evidence: Cao 1998 (Tac1 ligand KO; Tac1≠Tacr1 CRITICAL), Garret 1991 (RP67580 NK1 antagonist tool), Hershey 1990 (NK1R molecular identity), De Felipe 1998 (Tacr1 KO necessity; no exogenous SP-in-KO retain tested).",
+    "RP67580 occlusion studies (PMID 32736088; PMID 8955947) and De Felipe/Garret/Hershey priors constitute NECESSITY AGAINST residual SP under NK1R abolish on matched panels.",
+    "MRGPRX2 (PMID 42627518) is documented as a honesty caveat for a wrong-panel context (mast cell ≠ nociception/stress residual H2H); NK2/NK3/hemokinin-1 caveats similarly noted without inventing residual.",
+    "Refute threshold: residual SP <50% of SP-without-NK1R-abolish arm (with confounds ruled out) → NK1R-class attribution survives.",
+    "Kill cost tier=1; estimated time to refute=4 weeks; FTO status=UNKNOWN.",
+    "SP is confirmed as the canonical NK1R ligand (Hershey 1990); residual SP phenotype under NK1R abolish would imply a non-NK1R bridge.",
+    "Preferred experimental sequence: cell/SPR/block-QC with RP67580/CP-96345/aprepitant-class or Tacr1 ablation before new animal nociception/neurogenic-inflammation/stress panels.",
+    "P31 is explicitly distinct from P15–P30 (16 prior cards covering different peptide/receptor pairs); P1–P30 do not prove P31; soft-complete empty ≠ novelty and ≠ failure."
+  ],
+  "milestones": []
+}
