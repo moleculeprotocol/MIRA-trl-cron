@@ -22,7 +22,7 @@
     "@sanity/client": "^7.14.0",
     "ai": "^6.0.43",
     "jsonrepair": "^3.15.0",
-    "zod": "^4.3.5"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.11",
