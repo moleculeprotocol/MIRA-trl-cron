@@ -1,0 +1,86 @@
+{
+  "file_path": "/historical-clinical-notes-physical-examination-baseline",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a clinical progress note from a Plastic & Reconstructive Surgery outpatient visit at Fox Chase Cancer Center on April 25, 2025. A 52-year-old male patient (Thomas) presents with recurrent swelling of the posterior scalp with fluid tracking anteriorly to the oral cavity, following a pool accident several years ago. The document is a medical record, not a biotech/science project document, and has no direct relevance to TRL assessment of a technology or therapeutic.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Office Visit Header",
+      "content": "Office Visit dated April 25, 2025, with Michael Tecce, DO at Fox Chase Cancer Center Outpatient Services - Plastic Surgery at Huntingdon Pike. Progress Notes by Julia Wetherhold, PA-C at 4/25/2025 11:50 AM. Department: Plastic & Reconstructive Surgery."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Subjective / Chief Complaint",
+      "content": "Patient Thomas is a 52-year-old male presenting for further discussion about draining fluid from his scalp into his oral cavity. He reports recurrent swelling of the posterior scalp that tracks anteriorly to the oral cavity. He uses a suction device to extract several mLs of fluid daily. History of pool accident several years ago where he hit the back of his head on a vent; no open skin areas and reportedly no fractures at the time. Prior visit discussed labs to determine fluid origin; lab work was inconclusive/unable to be fully processed. Patient has a new specimen from the morning of the visit and is willing to submit it for further testing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Past Medical & Family History",
+      "content": "No past medical history on file. No family history on file."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Review of Systems",
+      "content": "A full 12-point review of systems was undertaken; aside from the HPI, it is negative."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Physical Examination & Vitals",
+      "content": "Vitals recorded 04/25/25 at 1111: BP (!) 142/104 (flagged as abnormal), Pulse 67, Resp 18, Temp 98°F (36.7°C). BMI 21.79 kg/m². General: well appearing, NAD. HEENT: normocephalic, atraumatic; posterior occipital area with bogginess and evidence of fluid collection, no erythema; 2 sinus tracks present near the junction of the hard and soft palates. Neck: supple. Chest: equal rise and fall, nonlabored breathing. Abdomen: soft, NT/ND. Extremities: wwp. Neuro: alert and oriented x3. Psych: mood appropriate."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Assessment & Active Medical Problems",
+      "content": "Assessment: Thomas is a 52-year-old male with the above history. Active Medical Problems: There is no problem list on file for this patient."
+    }
+  ],
+  "key_findings": [
+    "This is a clinical medical record (progress note), not a biotech or science project document — it has no direct TRL relevance.",
+    "Patient presents with posterior scalp fluid collection with sinus tracks to the oral cavity (hard/soft palate junction), likely related to a prior traumatic head injury from a pool accident.",
+    "Prior lab work to characterize the fluid was inconclusive; a new specimen is being submitted for further testing.",
+    "Physical exam notable for posterior occipital bogginess/fluid collection and 2 sinus tracks near the hard/soft palate junction.",
+    "Elevated blood pressure (142/104) flagged as abnormal.",
+    "No formal diagnosis, no therapeutic intervention described, no experimental or preclinical data present."
+  ],
+  "document_date": "2025-04-25",
+  "milestones": [
+    {
+      "title": "Prior Office Visit – Lab Discussion",
+      "description": "At a previous visit, labs were ordered to determine the origin of the scalp fluid; results were inconclusive or unable to be fully processed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "At last visit we discussed labs to determine where the fluid is originating. Lab work was inconclusive/unable to be fully process.",
+      "page": 1
+    },
+    {
+      "title": "New Specimen Submission for Testing",
+      "description": "Patient collected a new fluid specimen the morning of the April 25, 2025 visit and agreed to submit it for further laboratory testing to characterize the fluid.",
+      "date": "2025-04-25",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Patient reports he has a specimen from this morning and is willing to submit this for further testing.",
+      "page": 1
+    },
+    {
+      "title": "Pool Accident / Head Injury",
+      "description": "Patient was involved in a pool accident several years ago, hitting the back of his head on a vent; no open skin areas and reportedly no fractures. This is the presumed precipitating event for the current fluid drainage complaint.",
+      "date": "several years ago",
+      "date_precision": "relative",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "He was in a pool accident several years ago where he rose from the water and hit the back of his head on a vent. There was no open areas of the skin and reportedly, no fractures.",
+      "page": 1
+    }
+  ]
+}

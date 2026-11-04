@@ -1,0 +1,44 @@
+{
+  "file_path": "/diagnostic-cisternogram-ruling-out-cerebrospinal-fluid-csf-leak",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a patient medical record — specifically a Nuclear Medicine Brain Cisternogram radiology report from MyChart (Epic Systems). It documents a clinical diagnostic imaging study performed on an individual patient to evaluate for a CSF (cerebrospinal fluid) leak. The report concludes with no evidence of leakage. This is a personal health record, not a biotech/science project or R&D document, and contains no information relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "NM Brain Cisternogram – Full Report",
+      "content": "EXAM: NM BRAIN CISTERNOGRAM. CLINICAL INDICATION: CSF leak. TECHNIQUE: 0.5 mCi indium-111 DTPA administered intrathecally via lumbar puncture. Multiple planar images obtained immediately post-administration and up to 96 hours post-injection, including views of the calvarium, lumbar, and thoracic spine. SPECT-CT of the head obtained at 24, 48, and 72 hours. COMPARISON: CT 10/10/2021. FINDINGS: Physiologic distribution of radiopharmaceutical. No evidence for leakage. IMPRESSION: No evidence for leak. Final result by Anthony Yudd MD, dictated 4/17/2023 10:28 AM."
+    }
+  ],
+  "key_findings": [
+    "This is a personal patient medical record (radiology report), not a biotech or R&D project document.",
+    "No experimental, preclinical, or clinical trial data relevant to TRL assessment is present.",
+    "The study found no evidence of CSF leak via nuclear medicine cisternogram using indium-111 DTPA tracer.",
+    "Document is sourced from MyChart (Epic Systems) — a patient health portal."
+  ],
+  "document_date": "2023-04-17",
+  "milestones": [
+    {
+      "title": "Comparison CT Scan",
+      "description": "A prior CT scan used as a comparison reference for the cisternogram imaging study.",
+      "date": "2021-10-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "COMPARISON: CT 10/10/2021.",
+      "page": 1
+    },
+    {
+      "title": "NM Brain Cisternogram Report Dictated",
+      "description": "Final radiology report for the NM Brain Cisternogram dictated by Anthony Yudd MD.",
+      "date": "2023-04-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "FINAL RESULT BY: Anthony Yudd MD  DICTATED: 4/17/2023 10:28 AM",
+      "page": 1
+    }
+  ]
+}

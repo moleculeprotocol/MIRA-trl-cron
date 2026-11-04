@@ -1,0 +1,46 @@
+{
+  "file_path": "/historical-clinical-notes-diagnostic-precedent-and-nih-referral",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a clinical referral letter dated February 6, 2024, authored by Chad Gordon, DO (Hopkins faculty), regarding a patient named Thomas who has suffered undiagnosed symptoms following a head injury. The physician explains that the proposed head injury-induced lymphatic pathology surgery is experimental and lacks medical evidence, and refers the patient to the NIH Undiagnosed Disease Program (UDP) and NIH ENT Head and Neck Surgery. There is no biotech, drug development, or TRL-relevant experimental data present.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Clinical Referral Letter – Patient Thomas",
+      "content": "Date of Visit: February 6, 2024. Patient Thomas was seen for an undiagnosed condition following head injury/head trauma sustained a few years prior. The patient has seen multiple specialists without diagnosis or resolution. Key discussion points: (1) Head injury-induced lymphatic pathology of this type has never been described in the literature; insurance does not cover experimental surgery. (2) Patient offered to pay cash for head surgery; physician declined without medical justification. (3) Referral given to NIH ENT Head and Neck Surgery, as experimental surgery may be the only option. (4) Hopkins faculty policy: surgery and procedures must be based on evidence-based medicine, not cash offers. Physician's medical opinion: it is medically necessary for the patient to be evaluated by the NIH Undiagnosed Disease Program (UDP). Signed by Chad Gordon, DO."
+    }
+  ],
+  "key_findings": [
+    "The document is a clinical referral letter, not a biotech or research/development document.",
+    "The physician explicitly states that 'head injury induced lymphatic pathology has never been described' — indicating this is a novel, uncharacterized condition with no established scientific or clinical evidence base.",
+    "No experimental data, assays, model systems, efficacy results, or TRL-relevant evidence are present.",
+    "Patient referred to NIH Undiagnosed Disease Program (UDP) and NIH ENT Head and Neck Surgery for further evaluation.",
+    "Authored by Chad Gordon, DO, affiliated with Johns Hopkins faculty.",
+    "The proposed intervention (head surgery for lymphatic pathology) is characterized as experimental with no medical justification currently available."
+  ],
+  "document_date": "2024-02-06",
+  "milestones": [
+    {
+      "title": "Clinical Visit – Patient Thomas",
+      "description": "Patient Thomas was seen in the office by Chad Gordon, DO (Hopkins faculty) for an undiagnosed condition following head trauma. Options were discussed and a referral was issued.",
+      "date": "2024-02-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Patient: Thomas Date of Birth: Date of Visit: 2/6/2024",
+      "page": 1
+    },
+    {
+      "title": "Referral to NIH UDP and ENT Head and Neck Surgery",
+      "description": "Referral given to NIH ENT Head and Neck Surgery and the NIH Undiagnosed Disease Program (UDP) for evaluation, as experimental surgery may be the patient's only option.",
+      "date": "2024-02-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Referral given to the NIH, ENT head and Neck surgery, since experimental surgery of some type may be his only option",
+      "page": 1
+    }
+  ]
+}

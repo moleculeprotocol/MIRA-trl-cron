@@ -1,0 +1,33 @@
+{
+  "file_path": "/otorhinolaryngology-evaluation-status",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a physician termination letter from Dr. Christopher Rassekh, M.D. (Department of Otorhinolaryngology, Head and Neck Surgery, Penn Medicine / Hospital of the University of Pennsylvania) to a patient, dated October 10, 2024. The letter notifies the patient that the physician will no longer serve as their Otolaryngologist after November 10, 2024, citing a breakdown in the patient-physician relationship. No scientific, experimental, or biotech/TRL-relevant content is present.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Physician-Patient Termination Letter",
+      "content": "A formal letter from Dr. Christopher Rassekh, M.D. (Penn Medicine, Department of Otorhinolaryngology, Head and Neck Surgery) to a patient (Mr. I), dated October 10, 2024. The physician states he will no longer serve as the patient's Otolaryngologist after November 10, 2024, due to a breakdown in trust. The letter notes: (1) an extensive ENT workup was performed with no clear ENT diagnosis found to explain the patient's symptoms; (2) a condition was recently diagnosed following a biopsy by a dermatologist, and follow-up with that doctor or a primary care physician is recommended; (3) the patient may seek other specialties as discussed via MyChart; (4) medical records will be forwarded with written authorization; (5) emergency care is available at the University of Pennsylvania Health System Emergency Department. This document contains no scientific data, experimental results, or biotech/TRL-relevant content."
+    }
+  ],
+  "key_findings": [
+    "This document is a physician-patient termination letter with no scientific, experimental, or biotech content relevant to TRL assessment.",
+    "No experimental data, therapeutic targets, model systems, or development milestones are described.",
+    "Clinical context mentioned: patient underwent an extensive ENT workup with no clear ENT diagnosis; a condition was diagnosed via dermatology biopsy, but no details are provided."
+  ],
+  "document_date": "2024-10-10",
+  "milestones": [
+    {
+      "title": "Physician termination effective date",
+      "description": "Dr. Christopher Rassekh will no longer serve as the patient's Otolaryngologist after this date.",
+      "date": "2024-11-10",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "I am writing to advise you that I will no longer serve as your physician after November 10, 2024",
+      "page": 1
+    }
+  ]
+}

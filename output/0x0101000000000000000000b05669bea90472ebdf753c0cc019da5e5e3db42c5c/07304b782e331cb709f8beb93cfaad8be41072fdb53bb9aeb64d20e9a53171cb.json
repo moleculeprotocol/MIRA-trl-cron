@@ -1,0 +1,43 @@
+{
+  "file_path": "/diagnostic-limitations-and-treatment-termination",
+  "extraction_version": 2,
+  "document_type": "regulatory",
+  "relevance": "none",
+  "summary": "This document is a physician termination-of-care letter from Dr. Michael I. Rose, M.D., F.A.C.S., addressed to a patient (Mr. Thomas) regarding the termination of a doctor-patient relationship effective July 30, 2023. It references a clinical consultation on June 28, 2023 for scalp concerns and cites New Jersey Administrative Code provisions. It contains no scientific, experimental, or biotech/TRL-relevant content.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Physician Termination-of-Care Letter",
+      "content": "A formal letter sent via first class mail and certified RRR to Mr. Thomas (Account Number: 312291). Dr. Michael I. Rose, M.D., F.A.C.S. states he consulted with the patient on June 28, 2023 regarding scalp concerns. After reviewing the patient's extensive history and performing an examination, the physician determined there are no further diagnostic or treatment options available. The physician is terminating the patient's treatment pursuant to N.J.A.C. 13:35-6.22(c)(1), effective July 30, 2023. The letter also notes that medical records are available at no charge upon receipt of a signed authorization per N.J.A.C. 13:35-6.5(c)(5)(i), and that a referral to another physician can be provided upon request."
+    }
+  ],
+  "key_findings": [
+    "This is a medical administrative/legal letter with no scientific, experimental, preclinical, or biotech content. It is entirely irrelevant to TRL assessment.",
+    "No therapeutic targets, mechanisms of action, experimental data, model systems, or development milestones are present.",
+    "The document pertains solely to the termination of a physician-patient relationship under New Jersey Administrative Code."
+  ],
+  "document_date": "2023-07-30",
+  "milestones": [
+    {
+      "title": "Patient Consultation",
+      "description": "Dr. Michael I. Rose consulted with the patient regarding scalp concerns, reviewed history, and performed an examination.",
+      "date": "2023-06-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "I consulted with you in my office on June 28, 2023 regarding your scalp concerns.",
+      "page": 1
+    },
+    {
+      "title": "Termination of Treatment Effective Date",
+      "description": "Physician formally terminates the patient's treatment pursuant to N.J.A.C. 13:35-6.22(c)(1).",
+      "date": "2023-07-30",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "I am terminating your treatment pursuant to New Jersey Administrative Code (\"N.J.A.C.\") 13:35-6.22(c)(1), effective July 30, 2023.",
+      "page": 1
+    }
+  ]
+}

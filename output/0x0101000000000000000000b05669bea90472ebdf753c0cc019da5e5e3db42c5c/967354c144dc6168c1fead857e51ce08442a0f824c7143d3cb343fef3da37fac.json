@@ -1,0 +1,89 @@
+{
+  "file_path": "/historical-clinical-notes-otorhinolaryngology-baseline-assessment",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a clinical medical record (office visit note) from Penn Otorhinolaryngology - Head and Neck Surgery, dated August 10, 2022, documenting a 49-year-old male patient's follow-up visit for chronic parotitis and suspected Sjögren's syndrome. The document contains patient history, physical examination findings, MRI sialogram results, and a clinical assessment and plan. It has no relevance to biotech/science project TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Office Visit - Chief Complaint & HPI",
+      "content": "Office visit on Aug 10, 2022 with Dr. Christopher Rassekh, MD at Penn Otorhinolaryngology - Head and Neck Surgery Perelman. Chief Complaint: Follow-up for established patient referred by Dr. Abboud for a history of chronic parotitis. HPI: 49-year-old male with chronic parotitis, fluid behind both ears, high SSA score (>4) on outside lab suggesting Sjögren's syndrome. Reports left-side ear pain around the ear canal, discomfort, no right-side pain but occasional fullness. Feels fluid running from left temple to right face. Hears a sound like fluid with air when pressing on right temple/zygoma and opening mouth. Prior ENT noted fluid was on the left. Ear feels wet. Gets postnasal drip when pushing. Possible wisdom tooth hole, now resolved. Tried Pamabron with little help."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Past Medical, Surgical & Family History",
+      "content": "Past Medical History: 1) Anxiety, 2) Essential hypertension. Past Surgical History: Non-contributory. Family History: Cancer (Mother), Hypertension (Maternal Grandmother), Heart disease (Maternal Grandfather), Cancer (Father). Negative history for Diabetes and Stroke."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Physical Examination Findings",
+      "content": "ENT Physical Exam. Vitals: Pulse 79, Temp 97.7°F (36.5°C), Ht 5'7\" (1.702 m), Wt 130 lb (59 kg), SpO2 99%, BMI 20.36 kg/m². General: Well-developed, well-nourished, no acute distress, alert and oriented x3. Oral Cavity: no lesions. Salivary: no masses or definite tenderness, normal flow from all 4 major papillae. Neck: no masses. Lymphatic: no adenopathy. Nose: normal anteriorly. Notable finding: audible click when patient performs the described maneuver. No other abnormalities on exam."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Labs and MRI Sialogram Imaging Review",
+      "content": "Labs: SSA was over 4 on outside lab. Imaging: MRI sialogram performed without contrast. Sequences included Axial T1 weighted, coronal STIR, T2 haste sagittal/oblique left and right, bilateral sagittal and coronal oblique haste, bilateral T2 CISS and SPACE, and bilateral axial oblique haste sequences of the parotid glands. No prior imaging available for comparison. Findings: No abnormality at the site of the skin marker over the right cheek. Salivary glands appear symmetric in signal and size; no evidence of inflammation or focal mass. A focal 2 mm region of signal loss seen along left Stensen's duct (series 7 image 1) — not seen on other sequences; no ductal dilatation; no significant ductal stenosis. Right Stensen's duct appears patent without focal narrowing."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Impression, Assessment & Plan",
+      "content": "Impression: 1) Focal 2 mm region of signal loss along left Stensen's duct — possibly artifactual; if real, could reflect focal narrowing or sialolith. Recommendation: Consider focused ultrasound or unenhanced CT for further evaluation. 2) Bilateral parotid glands appear symmetric without evidence of inflammation or microcysts. Assessment: 1) Jaw clicking, 2) Hypervolemia (unspecified type), 3) Sjögren's syndrome with unspecified organ involvement (CMS-HCC), 4) Hypercalcemia, 5) Parotid duct obstruction, 6) Sinus pressure. Plan: US parotid, CT sinus, PTH/autoimmune labs (SSA >4 on outside lab). Oral surgery consult. Physician noted uncertainty about whether imaging findings or parotid symptoms are related to patient's primary concern about 'fluid' inside his head. Patient reassured; noted to be very anxious. Signed by Christopher H. Rassekh, MD, FACS, Professor of Clinical Otorhinolaryngology-Head & Neck Surgery."
+    }
+  ],
+  "key_findings": [
+    "This is a clinical patient medical record, not a biotech or science project document.",
+    "No experimental data, therapeutic targets, drug candidates, or TRL-relevant scientific content is present.",
+    "Document pertains to a 49-year-old male patient with chronic parotitis and suspected Sjögren's syndrome evaluated at Penn Medicine ENT.",
+    "MRI sialogram showed a focal 2 mm signal loss along left Stensen's duct, possibly artifactual or representing a sialolith.",
+    "Plan includes parotid ultrasound, CT sinus, PTH/autoimmune labs, and oral surgery consult."
+  ],
+  "document_date": "2022-08-10",
+  "milestones": [
+    {
+      "title": "Office Visit - ENT Follow-Up",
+      "description": "Follow-up office visit with Dr. Christopher Rassekh at Penn Otorhinolaryngology for chronic parotitis and suspected Sjögren's syndrome.",
+      "date": "2022-08-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Office Visit - Aug 10, 2022 with Christopher Rassekh, MD at Penn Otorhinolaryngology - Head and Neck Surgery Perelman",
+      "page": 1
+    },
+    {
+      "title": "MRI Sialogram Performed",
+      "description": "MRI sialogram without contrast performed to evaluate parotid glands and Stensen's ducts bilaterally.",
+      "date": "2022-08-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "MRI sialogram was performed without contrast and included the following sequences: Axial T1 weighted, coronal STIR, T2 haste sagittal/oblique left and right...",
+      "page": 3
+    },
+    {
+      "title": "Planned: Parotid Ultrasound & CT Sinus",
+      "description": "Planned focused ultrasound of parotid and CT sinus for further evaluation of possible sialolith and sinus pressure.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Plan: US parotid. CT sinus, PTH/autoimmune labs (SSA was over 4 on outside lab)",
+      "page": 4
+    },
+    {
+      "title": "Planned: Oral Surgery Consult",
+      "description": "Oral surgery consultation planned as part of the workup.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Oral surgery consult.",
+      "page": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "file_path": "/in-vivo-data-24-hour-extracranial-fluid-extraction-sample",
+  "extraction_version": 2,
+  "document_type": "figure",
+  "relevance": "low",
+  "summary": "The image shows three capped test tubes containing a white/milky liquid with varying degrees of foaming or precipitate formation. The tubes appear to represent a comparative experiment (e.g., different concentrations or formulations), but no labels, annotations, quantitative data, or experimental context are provided. The document consists solely of this single unlabeled photograph.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Three Test Tubes with Foaming/Precipitate Reactions",
+      "content": "Image shows three capped test tubes (with black screw caps) resting on a blue towel/cloth surface. All three tubes contain a white/milky liquid or suspension at the bottom. The left tube shows a white precipitate or dense foam at the bottom portion. The middle tube shows a large foam/bubble column rising from the liquid to approximately mid-tube height, suggesting active gas production or surfactant activity. The right tube shows a smaller foam layer at the top of the liquid with minimal bubbling. The differences in foam volume and bubble structure across the three tubes suggest a comparative experiment — possibly testing different concentrations, formulations, or conditions of a substance. No labels, annotations, or quantitative data are visible in the image."
+    }
+  ],
+  "key_findings": [
+    "Three test tubes show differential foaming/bubble formation, suggesting a comparative experiment with varying conditions (e.g., concentration, formulation, or reagent).",
+    "Left tube: dense white precipitate or foam at the bottom; middle tube: large foam column rising mid-tube (most active reaction); right tube: minimal foam at liquid surface.",
+    "All tubes contain a white/milky suspension, possibly indicating an emulsion, protein solution, or surfactant-based formulation.",
+    "No quantitative data, labels, controls, or experimental metadata are visible — TRL assessment is severely limited by lack of context.",
+    "The foaming pattern in the middle tube may indicate gas production (e.g., enzymatic activity, chemical reaction) or surfactant behavior."
+  ],
+  "milestones": []
+}

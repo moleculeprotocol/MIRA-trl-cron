@@ -1,0 +1,32 @@
+{
+  "file_path": "/penn-clinical-evaluation-status",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a clinical telephone encounter note dated January 2, 2024, recorded by Megan Asher, CRNP at the Penn Center for Lymphatic Disorders. It documents a multidisciplinary case review and the decision not to offer evaluation or treatment to a patient (Thomas) presenting with lymphatic fluid leaking from the scalp, as the center lacks expertise in head/scalp lymphatics. There is no biotech, scientific research, experimental, or TRL-relevant content.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Telephone Encounter – Clinical Case Note",
+      "content": "A telephone encounter note by Megan Asher, CRNP on 1/2/2024 at 2:03 PM. Patient chief complaint: lymphatic fluid leaking from scalp. A multidisciplinary meeting with interventional radiology lymphatic physicians, nurse practitioner, and administrative assistant was completed on 1/2/2024. All images, lab results, documents, and patient accounts were reviewed. Plan: Penn Center for Lymphatic Disorders does not have the expertise to evaluate lymphatics of the head or scalp. IR can evaluate central lymphatic disorders only. No evaluation or treatment was offered. Follow-up: The provider called the patient to discuss the decision; the patient was dissatisfied and added an insurance case manager to the call without the provider's knowledge. The provider reiterated inability to offer scalp lymphatic evaluation and ended the call."
+    }
+  ],
+  "key_findings": [
+    "This is a clinical administrative/encounter note with no experimental data, therapeutic development content, or TRL-relevant scientific information.",
+    "The document records a patient care decision at Penn Center for Lymphatic Disorders — outside the scope of biotech/TRL assessment."
+  ],
+  "document_date": "2024-01-02",
+  "milestones": [
+    {
+      "title": "Multidisciplinary Case Review Meeting",
+      "description": "A multidisciplinary meeting with interventional radiology lymphatic physicians, nurse practitioner, and administrative assistant was completed to review all images, lab results, documents, and patient accounts for a patient with scalp lymphatic fluid leakage.",
+      "date": "2024-01-02",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "A multidisciplinary meeting with the interventional radiology lymphatic physicians, nurse practitioner, and administrative assistant completed on 1/2/2024. All images, lab results, documents, and patient accounts reviewed.",
+      "page": 1
+    }
+  ]
+}

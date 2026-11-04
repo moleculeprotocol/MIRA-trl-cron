@@ -1,0 +1,19 @@
+{
+  "file_path": "/occipital-subcutaneous-swelling-and-lymphaticvenous-outflow-signatures",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image shows the back of a person's shaved head and neck, taken in what appears to be a home or informal setting. There is no biotech, scientific, or project-related content present. The image contains no text, data, figures, tables, or any information relevant to a Technology Readiness Level (TRL) assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": null,
+      "content": "Photograph of the back of a shaved human head and neck. No scientific, clinical, or technical content is present. The image appears to be a personal photo with no relevance to biotech or TRL assessment."
+    }
+  ],
+  "key_findings": [
+    "No scientifically relevant content found. The image is a personal photograph of the back of a shaved head and is entirely unrelated to biotech, drug development, or TRL assessment."
+  ],
+  "milestones": []
+}
