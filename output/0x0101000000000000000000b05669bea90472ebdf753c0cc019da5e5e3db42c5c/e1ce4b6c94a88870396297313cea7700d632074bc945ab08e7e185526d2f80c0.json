@@ -1,0 +1,23 @@
+{
+  "file_path": "/figure-1-complete-contrast-void-right-ijv",
+  "extraction_version": 2,
+  "document_type": "figure",
+  "relevance": "medium",
+  "summary": "This appears to be a medical imaging figure, likely an MRI or MRA (Magnetic Resonance Angiography) scan showing vascular anatomy. A blue oval annotation highlights a region of interest, possibly indicating a vascular abnormality, stenosis, or area of pathological significance. No accompanying text, labels, or quantitative data are visible in the image.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Annotated MRI/MRA Vascular Imaging",
+      "content": "Grayscale medical imaging scan (likely MRI or MRA - Magnetic Resonance Angiography) depicting vascular structures. The image shows branching vessel anatomy consistent with a major vascular region (possibly aortic, renal, or mesenteric vasculature). A blue oval annotation is overlaid on a central region of the image, highlighting a specific area of interest — potentially indicating a vascular lesion, stenosis, aneurysm, occlusion, or other pathological finding. The surrounding anatomy shows multiple vessel branches. No scale bar, patient data, quantitative measurements, or figure legend are visible. The imaging modality and anatomical region cannot be confirmed without additional context."
+    }
+  ],
+  "key_findings": [
+    "Medical imaging (MRI/MRA) showing vascular anatomy with a highlighted region of interest (blue oval annotation).",
+    "The annotated region may indicate a vascular abnormality such as stenosis, aneurysm, or occlusion — but no diagnosis or quantitative data is provided.",
+    "No experimental metadata (patient cohort, imaging parameters, sample size, controls, or statistical analysis) is present in the image.",
+    "Without accompanying text or legend, the clinical or preclinical context of this image cannot be determined, limiting TRL assessment.",
+    "Image alone suggests early-stage disease characterization or diagnostic imaging capability demonstration, consistent with TRL 1–2."
+  ],
+  "milestones": []
+}

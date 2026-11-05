@@ -1,0 +1,19 @@
+{
+  "file_path": "/salivary-microhemorrhage-april-26-2022",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image shows a bathroom sink basin with a chrome drain stopper and a small pool of what appears to be blood-tinged soapy water near the drain. This is a photograph of a personal/household scene and contains no biotech, scientific, or project-related content whatsoever.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "image",
+      "title": "Bathroom Sink Photograph",
+      "content": "Photograph of a cream/beige porcelain bathroom sink basin. A chrome push-button drain stopper is visible near the top of the frame. Below the drain is a small puddle of water mixed with what appears to be blood and soap bubbles (pink/red coloration with white foam). The surface of the sink is wet. No scientific, technical, or project-related content is present."
+    }
+  ],
+  "key_findings": [
+    "This image is a photograph of a bathroom sink with blood-tinged soapy water — it contains no scientific, biotech, or TRL-relevant content."
+  ],
+  "milestones": []
+}

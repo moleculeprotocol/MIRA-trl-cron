@@ -1,0 +1,53 @@
+{
+  "file_path": "/johns-hopkins-ent-referral-head-deformity-diagnosis",
+  "extraction_version": 2,
+  "document_type": "regulatory",
+  "relevance": "none",
+  "summary": "This document is a medical outpatient referral form (Order 930297029) from Johns Hopkins Plastic Surgery to Otolaryngology (ENT), dated January 24, 2024. It was created by PA-C Caroline Love Davis for a male patient with a diagnosis of Head Deformity (ICD-10: M95.2). It contains no scientific experimental data, therapeutic development information, or biotech/research content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ambulatory Referral to ENT – Administrative Document",
+      "content": "This is a clinical outpatient referral form (Order 930297029) generated on 1/24/2024 by Johns Hopkins Plastic Surgery (601 N Caroline ST, 8th Floor, Baltimore MD 21287-0006). The referral was ordered/authorized by Davis, Caroline Love, PA-C and directed to Otolaryngology. Referral ID: 29995494. Priority: Soon (<3 weeks). Type: Consultation. Visits Requested: 1. Start Date: 1/24/2024. Expiration Date: 1/23/2025. Associated Diagnosis: Head Deformity [M95.2] – Primary. Insurance: Blue Cross/Shield Out-of-State, BCBS Out-of-State HMO POS plan. No related appointments scheduled. No scientific, experimental, or biotech content is present."
+    }
+  ],
+  "key_findings": [
+    "This is a standard clinical referral form with no scientific, experimental, or biotech content.",
+    "Primary diagnosis is Head Deformity (ICD-10 M95.2), a clinical/administrative classification with no TRL-relevant data.",
+    "No experimental results, therapeutic targets, model systems, or development milestones are present."
+  ],
+  "document_date": "2024-01-24",
+  "milestones": [
+    {
+      "title": "Referral Created",
+      "description": "Ambulatory referral to ENT/Otolaryngology created by Johns Hopkins Plastic Surgery for a patient with head deformity.",
+      "date": "2024-01-24",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Created on: 1/24/2024",
+      "page": 1
+    },
+    {
+      "title": "Referral Start Date",
+      "description": "Referral becomes active/valid starting this date.",
+      "date": "2024-01-24",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Start Date: 1/24/2024",
+      "page": 1
+    },
+    {
+      "title": "Referral Expiration",
+      "description": "Referral expires on this date if not utilized.",
+      "date": "2025-01-23",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "clinical",
+      "source_quote": "Expiration Date: 1/23/2025",
+      "page": 1
+    }
+  ]
+}
