@@ -1,0 +1,157 @@
+{
+  "file_path": "/investigable-hypothesis-clinical-rationale-and-validation-of-negative-pressure-palatine-extraction-f",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a self-authored clinical and engineering dossier (Version 1.0.4) describing a custom-built negative-pressure palatine extraction device intended to treat lymphovenous junction (LVJ) obstruction caused by aortosternal compression of the brachiocephalic vein. The \"validation\" presented is based on a single patient (the apparent author/inventor), with radiological imaging (MRV), photographic before/after comparisons, and iterative device prototyping. No controlled clinical trial, IRB oversight, or independent peer review is documented.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1: Clinical Pathology and In Vivo Human Validation",
+      "content": "Claims radiological (MRV) and neurosurgical review confirming marked venous obstruction at bilateral LVJ. Proposed mechanism: aortosternal compression of the left brachiocephalic vein (BCV) elevates central venous pressure, forcing retrograde flow through collateral pathways and impairing lymphatic clearance, producing pathological cervical lymphatic reflux. MRV reportedly shows abnormal contrast pooling indicative of bilateral discharge through mastoid emissary foramina (carrying blood and lymph), tracking to the caudal venous plexus. Obstruction described as transient, correlating with reduced intercostal recruitment during REM sleep. Evidence basis: single-patient MRV imaging; supporting citations are published literature (Giglio 2022, Kim 2018, Chick 2018, Vach 2022) applied analogically, not original experimental data from this project."
+    },
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Figure 1A: MRV Contrast Pooling",
+      "content": "MRI/MRV axial brain image with a blue outline highlighting a region of abnormal contrast pooling, described as indicative of retrograde leakage into cranial/aural vascular structures. Single-patient imaging; no quantitative measurements, no control comparison, no radiologist report reproduced."
+    },
+    {
+      "page": 1,
+      "type": "figure",
+      "title": "Figure 1B: Mastoid Foramen Anatomical Localization",
+      "content": "3D skull rendering with the mastoid foramen labeled, described as the venous pressure relief outlet. Illustrative/anatomical reference only; no experimental data."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2: Symptomology and Systemic Progression",
+      "content": "Single patient presents with: marked facial asymmetry and focal pressure upon waking, headaches, full-body symptoms (arm, torso, leg fullness) resolved by suction. Symptom progression over 5 years from localized scalp/shoulder fluid to whole-body involvement. Comorbidities: scoliosis, flat feet, connective tissue hypermobility (left thumb extends to proximal forearm). Hypothesis: fluid migration propagates through macroscopic interstitial network (citing Benias et al., 2018 — the 'interstitium' paper). No objective fluid volume measurements, no validated diagnostic criteria applied."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 3: Systemic Drainage Cascade and Fascial Dynamics",
+      "content": "Describes a cephalocaudal fluid shift following cranial/cervical decompression: fluid mobilized from upper back/shoulders, infiltrating periarticular spaces causing transient shoulder and elbow subluxation, pooling in lumbar/waist regions before systemic clearance. Mechanism attributed to connective tissue laxity creating a low-resistance pre-lymphatic conduit. Evidence is entirely observational/self-reported by the single patient; no imaging, manometry, or objective measurement of fluid volumes or joint displacement."
+    },
+    {
+      "page": 2,
+      "type": "figure",
+      "title": "Figures 2 & 3: Pre- and Post-Extraction Facial Photographs",
+      "content": "Side-by-side photographs of the patient's face. Figure 2 (pre-extraction): described as showing severe fascial tension effacing natural facial lines, creating a taut/swollen appearance. Figure 3 (post-extraction): described as showing complete fluid evacuation releasing hydrostatic tension, restoring natural resting rhytids. No blinded assessment, no standardized photography protocol, no quantitative swelling measurement (e.g., volumetric imaging). Subjective visual comparison only."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 4: Extraction Protocol and Mechanical Interface",
+      "content": "Protocol: Patient lies supine, head raised and tilted backward on pillows (gravity-assisted drainage). Multiple sub-millimeter (<1 mm) extraction tubes inserted into oral cavity, positioned near palatine glands and velum palatinum. Negative pressure applied to clear pooled lymphovenous fluid. Anatomical rationale: palate-to-deep cervical lymphatic linkage (citing Werner 1995; Pan et al. 2010). Physiological support: negative pressure increases plasma-derived fluid movement across mucosal surface (citing Berg et al. 2003). Observations during extraction: fluid mixed with dense tissue debris; high viscosity causes frequent suction line occlusion; patient experiences cold sensation requiring heating pad for comfort/vasodilation. Vacuum level used: -5 to -7 inHg (per Video Exhibit A title). No sterility data for the procedure itself beyond device sterilization."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Figure 4: In Vivo Extraction Position",
+      "content": "Photograph of the patient in supine position with head tilted, tubes inserted into the oral cavity. Demonstrates the clinical setup. Single-patient, self-administered procedure."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Figure 5: Negative Pressure Palatine Extraction Diagram",
+      "content": "Schematic diagram showing: palatine mucosal tissue (right), extraction cannula, neuro-lymphatic fluid pathway, flexible tubing, fluid collection trap (mason jar), and 5-7 negative pressure mechanical vacuum pump. Illustrates the device system architecture. Image described as licensed to the project."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 5: Device Prior Art and Mechanical Necessity — Version 1 Prototype",
+      "content": "Clinical precedent cited: intraoral negative pressure devices shown in RCT to reduce postoperative facial swelling (Erdil et al., 2025). Version 1 prototype specs: 20W, 12V DC pump, -85 kPa maximum vacuum, 15 L/min flow rate. Clinical result: insufficient for deep fluid extraction; caused severe mucosal drying due to low pressure failing to mobilize high-viscosity fluid in fascial spaces."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "Figure 6: Version 1 Prototype Hardware",
+      "content": "Photograph of the Version 1 custom-built prototype device. Specs: 20W, 12V DC, -85 kPa maximum vacuum, 15 L/min flow rate. Clinical result: insufficient; severe mucosal drying. Device appears to be a DIY assembly on a wooden board."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 5 (continued): Version 2 Prototype",
+      "content": "Version 2 upgraded prototype: 180W oil-less vacuum pump, 50 L/min flow rate, -86 kPa vacuum depth. Described as strictly necessary to overcome dense fibrinous debris and high-viscosity fluid extracted daily. No comparative efficacy data (e.g., volume extracted V1 vs V2), no adverse event reporting framework."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "Figure 7: Version 2 Custom Prototype",
+      "content": "Photograph of the Version 2 device. Specifications: 180W, 50 L/min, -86 kPa. Appears to be a DIY assembly with vacuum pump, tubing, and mason jar collection vessel."
+    },
+    {
+      "page": 4,
+      "type": "figure",
+      "title": "Figure 8: Extracted Fibrinous Debris",
+      "content": "Close-up photograph of extraction tubing showing dense, brownish/fibrinous debris inside the tubes. Cited as evidence requiring the high-capacity V2 pump to prevent line clogs. No biochemical analysis of the extracted material is reported."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 6: Sterilization Protocol",
+      "content": "Sterilization method: active-flush thermal protocol. Steps: (1) hot water injection to flush/clear lines, (2) bleach injection to sterilize, (3) final rinse. No validation data for sterilization efficacy (e.g., microbial culture results, endotoxin testing). No ISO or FDA sterilization standard referenced."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Appendix: Supplementary Multimedia Exhibits (DeSci IP Vault)",
+      "content": "Three video exhibits referenced and accessible via QR code/link in a DeSci IP Vault: (A) In Vivo Fluid Extraction via Palatine Canal (-5 to -7 inHg); (B) Milestone 2: Biological Yield & SOP Validation; (C) Active Self-Drainage Fluid Removal (06-2026). These are described as supporting independent clinical and engineering review but are not reproduced in the document."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "References",
+      "content": "Key references cited: Benias et al. 2018 (interstitium structure); Berg et al. 2003 (nasal airway pressure and mucosal plasma output); Chick et al. 2018 (chylothorax and venous obstruction); Erdil et al. 2025 (intraoral vacuum drainage RCT for dental surgery); Giglio et al. 2022 (aortosternal venous compression case reports); Kim et al. 2018 (intracranial venous reflux from BCV occlusion); Pan et al. 2010 (lymphatic drainage of tongue and soft palate); Vach et al. 2022 (MR-lymphangiography for cervical swelling); Werner 1995 (lymph vessel system of mouth cavity and pharynx). All references are published literature used analogically to support the hypothesis; none are original experimental outputs of this project."
+    }
+  ],
+  "key_findings": [
+    "Single-patient (n=1) self-administered intervention with no IRB, control group, blinding, or independent clinical oversight — severely limiting scientific validity.",
+    "MRV imaging in one patient reportedly shows contrast pooling at mastoid emissary foramina, interpreted as evidence of bilateral LVJ obstruction and elevated intracranial venous pressure; no independent radiological read is documented.",
+    "Proposed mechanism: aortosternal compression of left brachiocephalic vein → elevated central venous pressure → retrograde cranial/cervical flow → lymphatic reflux → systemic interstitial fluid accumulation.",
+    "Intervention: custom-built negative-pressure device applied intraorally at the palatine region (-5 to -7 inHg operating range) to extract pooled lymphovenous fluid.",
+    "Device iteration from V1 (20W, 12V, -85 kPa, 15 L/min — failed due to mucosal drying and inability to mobilize viscous fluid) to V2 (180W, -86 kPa, 50 L/min — currently in use).",
+    "Extracted material described as high-viscosity, fibrinous debris (photographed in tubing); no biochemical characterization or independent analysis performed.",
+    "Symptom resolution (facial swelling, full-body fluid fullness) reported subjectively by the patient following each extraction session; no validated outcome measures used.",
+    "Patient has documented connective tissue hypermobility, scoliosis, and flat feet — hypothesized to facilitate systemic fluid migration via the interstitial network.",
+    "Sterilization protocol (hot water flush + bleach + rinse) is not validated against any recognized standard.",
+    "All supporting citations are published third-party literature applied analogically; no original controlled experimental data from this project is presented.",
+    "Document is labeled an 'Interim Dossier' with data 'subject to iterative refinement and ongoing longitudinal review,' indicating early/preliminary stage.",
+    "Video exhibits (including one dated 06-2026) are stored in a DeSci IP Vault but not independently peer-reviewed."
+  ],
+  "milestones": [
+    {
+      "title": "Version 1 Prototype Development and Testing",
+      "description": "Initial prototype (20W, 12V DC, -85 kPa, 15 L/min) built and tested; found insufficient for deep fluid extraction, causing severe mucosal drying.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Initial prototypes (Version 1) utilized a 20W, 12V pump with a 15 L/min flow rate. This proved insufficient, causing massive mucosal drying due to the low pressure failing to mobilize the high-viscosity fluid trapped deep within the fascial spaces.",
+      "page": 3
+    },
+    {
+      "title": "Version 2 Prototype Development",
+      "description": "Upgraded prototype (180W oil-less vacuum pump, 50 L/min, -86 kPa) developed and deployed to overcome high-viscosity fluid and fibrinous debris.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "manufacturing",
+      "source_quote": "The upgraded prototype (Version 2) employs a 180W oil-less vacuum pump capable of a 50 L/min flow rate and a -86 kPa vacuum depth.",
+      "page": 4
+    },
+    {
+      "title": "Video Exhibit C: Active Self-Drainage Fluid Removal",
+      "description": "Planned or completed video documentation of active self-drainage fluid removal, referenced as a multimedia exhibit dated June 2026.",
+      "date": "2026-06",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Video Exhibit C: Active Self-Drainage Fluid Removal (06-2026)",
+      "page": 5
+    }
+  ]
+}

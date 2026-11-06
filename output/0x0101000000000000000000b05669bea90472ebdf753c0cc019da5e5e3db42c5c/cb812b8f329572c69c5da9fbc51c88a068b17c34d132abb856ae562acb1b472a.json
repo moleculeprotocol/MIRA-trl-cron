@@ -1,0 +1,19 @@
+{
+  "file_path": "/exhibit-a-clinical-validation-vascular-anomaly-redacted",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This image shows a single patient/provider messaging interface containing one brief message: \"Yes sooner the better to take care of a vascular anomaly. You are welcome!! Hang in there, don't stress.\" There is no scientific data, experimental results, methodology, or project development information present. The content appears to be a clinical communication snippet, not a biotech/science project document.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Patient/Provider Message",
+      "content": "A single message reads: 'Yes sooner the better to take care of a vascular anomaly. You are welcome!! Hang in there, don't stress.' This is a brief, informal clinical communication with no experimental data, methodology, results, or TRL-relevant scientific content. The only medically relevant term is 'vascular anomaly,' used colloquially with no further context."
+    }
+  ],
+  "key_findings": [
+    "No scientifically or TRL-relevant content present. The document is a single informal clinical/patient messaging exchange mentioning a 'vascular anomaly' without any experimental, regulatory, manufacturing, or development context."
+  ],
+  "milestones": []
+}

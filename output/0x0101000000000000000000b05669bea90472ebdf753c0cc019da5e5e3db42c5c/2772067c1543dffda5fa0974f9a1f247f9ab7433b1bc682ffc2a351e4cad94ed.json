@@ -1,0 +1,70 @@
+{
+  "file_path": "/mr-venogram-chest-brachiocephalic-narrowing-oct-28-2026",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a clinical radiology report from Jersey Shore Imaging for an MR Venogram of the Chest (without and with contrast), performed on 10/28/2026. The report documents findings related to central venous obstruction evaluation and concludes with a normal central venous system impression. Handwritten annotations in red challenge the radiologist's conclusions, noting that structural compression is pathogenic and that no intravenous pressure gradients were measured to confirm hemodynamic insignificance.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Exam Header and Patient Information",
+      "content": "Facility: Jersey Shore Imaging, 1 Plaza Drive, Toms River, NJ 08757. Exam Date: 10/28/2026. Location: HMH Imaging @ URG Toms River NJ 08757. Exam Type: MR VENOGRAM CHEST WITHOUT AND WITH CONTRAST. Clinical Indication: Central venous obstruction. Obstructive median sternotomy and aorta. Approved by: Albert Li MD on 10/31/2026 at 10:43 AM."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Technique and Contrast",
+      "content": "MR venogram of the chest was performed before and after the administration of gadolinium on a Siemens 3.0T scanner. IV Contrast: Clariscan (Gadoterate Meglumine), 15 mL. No pertinent prior studies submitted for comparison."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Findings",
+      "content": "Normal bilateral subclavian, brachiocephalic, innominate veins. Normal SVC. Normal azygos vein. No mediastinal mass. Normal jugular veins. Renal Cyst Recommendation: Not applicable. Adrenal Nodule Recommendations: Not applicable. Annotation in red: 'Structural compression admitted here. In vivo data proves this is pathogenic, not physiologic.'"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Impression and Annotations",
+      "content": "IMPRESSION: Normal central venous system. Specifically the brachiocephalic vein as it crosses between the sternum and aorta is normal. There is commonly physiologic narrowing. Please correlate with symptoms and physical exam findings is probably not hemodynamically significant. This is further supported by lack of venous collaterals in the left side of the chest and neck. Annotation in red on page 2: 'Subjective assumption. No intravenous pressure gradients were measured to confirm this.'"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Red Annotation Summary (Challenges to Radiologist Conclusions)",
+      "content": "Two red annotations challenge the radiologist's interpretation: (1) On page 1 next to findings: 'Structural compression admitted here. In vivo data proves this is pathogenic, not physiologic.' (2) On page 2 next to the hemodynamic significance statement: 'Subjective assumption. No intravenous pressure gradients were measured to confirm this.' These annotations suggest a clinical or legal dispute regarding the interpretation of brachiocephalic vein compression between the sternum and aorta."
+    }
+  ],
+  "key_findings": [
+    "MR Venogram of the chest performed on 10/28/2026 for clinical indication of central venous obstruction and obstructive median sternotomy and aorta.",
+    "Radiologist (Albert Li MD) concluded normal central venous system including brachiocephalic, subclavian, innominate, jugular veins, SVC, and azygos vein.",
+    "Radiologist attributed any narrowing of the brachiocephalic vein between sternum and aorta to physiologic (not pathologic) compression, citing lack of venous collaterals.",
+    "Red annotations dispute the radiologist's conclusions: (1) structural compression is claimed to be pathogenic based on 'in vivo data'; (2) the hemodynamic insignificance claim is challenged as a 'subjective assumption' since no intravenous pressure gradients were measured.",
+    "No prior comparison studies were available.",
+    "This is a clinical imaging report, not a biotech/TRL-relevant research document. Its relevance to TRL assessment is low unless it is being used as clinical evidence in a medical device or diagnostic context."
+  ],
+  "document_date": "2026-10-28",
+  "milestones": [
+    {
+      "title": "MR Venogram Chest Performed",
+      "description": "MR Venogram of the chest without and with contrast performed at HMH Imaging @ URG Toms River for evaluation of central venous obstruction.",
+      "date": "2026-10-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "Exam Date: 10/28/2026",
+      "page": 1
+    },
+    {
+      "title": "Report Approved by Radiologist",
+      "description": "MR Venogram chest report approved by Albert Li MD.",
+      "date": "2026-10-31",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "clinical",
+      "source_quote": "APPROVED BY: Albert Li MD 10/31/2026 10:43 AM",
+      "page": 2
+    }
+  ]
+}

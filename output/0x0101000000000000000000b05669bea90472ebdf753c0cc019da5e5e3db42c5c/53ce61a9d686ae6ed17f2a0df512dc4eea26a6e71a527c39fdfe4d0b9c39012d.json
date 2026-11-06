@@ -1,0 +1,22 @@
+{
+  "file_path": "/radiology-review-declination-complexity-admission",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is an administrative email from Second Opinion Radiology informing a recipient that their scan review request has been declined. The radiologist determined the medical history was too complex to establish a clear clinical context, and a refund was offered. There is no scientific, experimental, or biotech/TRL-relevant content present.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scan Review Declination Email",
+      "content": "Second Opinion Radiology sent an email on 2026-11-05 declining a scan review request. The stated reason is that the submitted medical history was too complex and contained multiple structures and areas of concern, making it difficult for the radiologist to establish a clear clinical context or provide a sufficiently accurate and reliable report. The company offered a full refund and return of the case. No scientific data, experimental results, therapeutic targets, or TRL-relevant content is present in this document."
+    }
+  ],
+  "key_findings": [
+    "Document is an administrative email from a radiology second-opinion service declining a scan review due to complexity of the submitted medical history.",
+    "No experimental data, therapeutic targets, preclinical or clinical results, IP, funding, or any other TRL-relevant information is present.",
+    "A refund was offered to the recipient in accordance with the company's refund process."
+  ],
+  "document_date": "2026-11-05",
+  "milestones": []
+}
