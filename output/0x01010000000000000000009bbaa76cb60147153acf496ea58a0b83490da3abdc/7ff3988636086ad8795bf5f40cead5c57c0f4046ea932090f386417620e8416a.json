@@ -1,0 +1,48 @@
+{
+  "file_path": "/methods/wet-lab-validation.md",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document describes a planned wet-lab validation stage using Adaptyv Bio's assay platform for protein design candidates. No experiments have been conducted yet — the document is specification-only, with no orders placed and no assay data existing. It outlines the intended assay sequence (expression → binding → thermostability/activity) and sets expectations for a low first-round expression rate.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Wet-lab Validation Overview & Status",
+      "content": "The document describes a planned assay stage to be run on the Adaptyv Bio platform. Status is explicitly 'specification only' — no order has been placed and no assay data exists. This places the project at a pre-experimental stage with respect to wet-lab validation, consistent with TRL 1–2."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Available Assays (Adaptyv Bio)",
+      "content": "Five assays are listed as available from the provider:\n1. Expression — whether a design can be made and how much of it.\n2. Expression scale-up — a larger batch of a design that already expresses.\n3. Binding — how strongly a design binds its target, by BLI or SPR.\n4. Thermostability — the temperature at which a design unfolds.\n5. Enzyme activity — how active a design is as an enzyme.\nNo data from any of these assays is available at this stage."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Intended Order of Operations",
+      "content": "The planned experimental sequence is: (1) Expression assay first on the full triaged batch — cheapest and gates all downstream work; (2) Binding assay (BLI or SPR) on designs that expressed; (3) Thermostability and enzyme activity only on designs that both express and bind. This funnel approach is explicitly chosen to minimize cost by eliminating poor candidates early rather than maximizing data per round."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Pricing Model",
+      "content": "Adaptyv Bio quotes each order individually after review. A published price list provides estimates, but the actual quote is the approved and paid figure. The agent obtains the quote, the owner approves it, and the invoice is settled against it. No cost figures are recorded in this document."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Expected Early Outcome & Success Criteria",
+      "content": "The team explicitly anticipates a low expression rate in the first round. This expectation is stated in advance so that a poor first result is interpreted as calibration data rather than failure. The key metric for progress is whether the expression rate improves across successive rounds once triage is fitted to real data. This framing indicates an iterative design-test-learn cycle is planned."
+    }
+  ],
+  "key_findings": [
+    "No wet-lab experiments have been conducted — document is specification-only with no orders placed and no assay data.",
+    "Planned assay platform is Adaptyv Bio, offering expression, binding (BLI/SPR), thermostability, and enzyme activity assays.",
+    "Intended experimental funnel: expression first (full batch) → binding (expressors only) → thermostability/activity (expressors + binders only).",
+    "Low first-round expression rate is explicitly anticipated; success is defined as improvement across iterative rounds.",
+    "No quantitative results, IC50/EC50 values, or efficacy data are present — project is pre-experimental with respect to wet-lab validation.",
+    "Pricing is per-quote from Adaptyv Bio; no cost figures are recorded in the document."
+  ],
+  "milestones": []
+}

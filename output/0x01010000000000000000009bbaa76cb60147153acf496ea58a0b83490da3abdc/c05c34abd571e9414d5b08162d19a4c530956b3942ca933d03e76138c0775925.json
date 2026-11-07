@@ -1,0 +1,54 @@
+{
+  "file_path": "/methods/computational-pipeline.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This document describes a computational pipeline specification for protein/binder design using tools such as AlphaFold2, RFdiffusion, and LigandMPNN, intended to run on the SubSeq platform. No experiments have been run and no results exist; the document is a planning/specification artifact only. It is blocked pending API key configuration and credit funding.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Pipeline Status and Overview",
+      "content": "The document explicitly states: 'Status: specification only. No run has been submitted. Nothing in this file is a result.' The pipeline is designed to run on SubSeq and covers computational design and prediction stages. It is currently blocked because the SubSeq API key has not been configured and the credit balance has not been funded. This means TRL is effectively TRL 1 — concept/specification stage with zero experimental output."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Available Computational Methods",
+      "content": "A table lists the computational methods available by step:\n- Structure prediction: AlphaFold2, Boltz-2, Chai-1\n- Binder and sequence design: RFdiffusion3, BoltzGen, LigandMPNN\n- Docking: Pose of a molecule in its target\n- Molecular dynamics: GROMACS\nThese are described as 'as published by the provider' — no in-house validation or benchmarking has been performed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Intended Round Sequence (Workflow)",
+      "content": "The planned computational workflow consists of six steps: (1) Generate — produce candidate sequences for the chosen target; (2) Predict — fold every candidate and record model confidence; (3) Filter — drop candidates failing structural criteria; (4) Rank — order survivors by predicted confidence; (5) Cut — select candidates within approved budget; (6) Hand off — send surviving list to the wet-lab stage. No target, indication, or specific campaign parameters are named."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cost Model",
+      "content": "Compute time is charged against a prepaid credit balance. There is no submit fee. Top-ups are capped at 5,000 credits per transaction. Round cost depends on batch size and methods used and cannot be stated in advance. This section is operationally relevant but does not contribute to TRL assessment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Unknowns and Limitations",
+      "content": "The document explicitly acknowledges a critical untested assumption: that predicted confidence (from structure prediction models) carries signal for whether a design will express and bind. This assumption is described as 'untested here' and is 'the first thing the wet-lab stage is meant to check.' The triage/ranking rule is characterized as 'a starting guess rather than a method' until calibration data from the lab's own assays is available. This confirms the project is at TRL 1 — no experimental validation of the core computational hypothesis has occurred."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Blockers",
+      "content": "No computational run can be submitted until: (1) the SubSeq API key is configured, and (2) the credit balance is funded. Both are outstanding as of this document."
+    }
+  ],
+  "key_findings": [
+    "This is a specification-only document: no computational runs have been submitted and no results exist.",
+    "The pipeline is blocked pending SubSeq API key configuration and credit balance funding.",
+    "Available methods include AlphaFold2, Boltz-2, Chai-1 (structure prediction), RFdiffusion3, BoltzGen, LigandMPNN (design), GROMACS (MD), and docking — none have been executed in-house.",
+    "The core assumption — that predicted confidence correlates with expression and binding — is explicitly stated as untested and awaiting wet-lab calibration.",
+    "No therapeutic target, indication, patient population, IP, regulatory interactions, or funding information is mentioned.",
+    "Project is at TRL 1: concept/specification stage with no experimental evidence of any kind."
+  ],
+  "milestones": []
+}

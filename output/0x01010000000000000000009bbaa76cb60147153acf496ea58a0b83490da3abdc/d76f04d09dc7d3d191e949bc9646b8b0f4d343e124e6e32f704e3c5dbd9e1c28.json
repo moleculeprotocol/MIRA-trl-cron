@@ -1,0 +1,49 @@
+{
+  "file_path": "/overview/lab-overview.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a lab overview / data room index document for the \"Awesome Science Project,\" a computational peptide and small protein design initiative. As of 6 November 2026, the lab is in pure setup mode: no experiments have been run, no experimental data exists, no target has been selected, and key infrastructure (API key, credits) is not yet configured. The document is entirely organizational and contains no scientific findings.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Lab Overview and Current Status",
+      "content": "The Awesome Science Project designs peptides and small proteins computationally, then tests them at the bench. As of 6 November 2026, the lab is in setup mode. No experiments have been run and no experimental data exists in the data room. The general approach involves a computational design/prediction stage followed by a wet-lab assay stage."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Data Room File Index",
+      "content": "Four documents are listed: (1) /whitepaper/the-awesome-science-project.md — describes the approach, the claim being tested, and what would disprove it; (2) /methods/computational-pipeline.md — covers the design and prediction stage; (3) /methods/wet-lab-validation.md — covers the assay stage; (4) /operations/spend-and-approvals.md — describes how money moves and who approves it (private to lab members). None of these documents contain experimental results at this stage."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Service Providers",
+      "content": "Two service providers are enabled: (1) SubSeq — handles design and prediction, metered pricing from prepaid credits, currently enabled but API key not configured and credit balance presumed zero; (2) Adaptyv Bio — handles wet-lab assays, quoted per order, enabled. Both were enabled by the lab owner. No runs have been submitted to either provider."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Open Setup Items (Blockers)",
+      "content": "Three open setup items are listed as blockers: (1) The SubSeq API key is not yet configured, so no computational run can be submitted; (2) The SubSeq credit balance is unread and presumed zero — a top-up needs owner approval before the first run; (3) No target has been selected. These items confirm the project has not yet begun any scientific work."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Data Room Interpretation Guidance",
+      "content": "The data room distinguishes between intent documents and results documents. Results documents will carry a receipt for the run that produced them and the parameters used. Any document making a quantitative claim without citing a run should be treated as a plan rather than a finding. This is relevant for TRL assessment: all current documents are intent/plan documents only."
+    }
+  ],
+  "key_findings": [
+    "As of 6 November 2026, no experiments have been run and no experimental data exists — the project is at TRL 1 (concept/setup only).",
+    "No therapeutic target has been selected yet.",
+    "The project approach involves computational peptide/small protein design followed by wet-lab assay validation.",
+    "Key infrastructure blockers: SubSeq API key not configured, credit balance presumed zero (pending owner approval for top-up).",
+    "Two service providers are enabled: SubSeq (computational design) and Adaptyv Bio (wet-lab assays), but neither has been used.",
+    "All documents in the data room are classified as intent/plan documents; no results documents exist."
+  ],
+  "document_date": "2026-11-06",
+  "milestones": []
+}

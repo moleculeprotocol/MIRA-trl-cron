@@ -1,0 +1,104 @@
+{
+  "file_path": "/whitepaper/the-awesome-science-project.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a design document (v0.1, dated 6 November 2026) describing a planned agent-operated loop connecting computational protein/peptide design to wet-lab assay ordering. The lab explicitly states it has run no experiments and holds no experimental data as of the document date. All numbers cited are vendor-published capabilities or costs, not internally generated measurements.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Status and Disclaimer",
+      "content": "Explicitly stated: 'The lab has run no experiments and holds no experimental data as of 6 November 2026. Every number below is a cost or a capability published by a service provider, not a measurement made here. Nothing in this document should be read as a finding.' This is a design/workflow document, not a results document. TRL relevance is minimal — the project is pre-experimental."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 – Problem Statement",
+      "content": "The document identifies the bottleneck in protein/peptide design campaigns as the manual 'seam' between computational design (structure prediction, binder generation via API) and wet-lab assay ordering (contract labs). Compute and bench capacity are described as commoditized. The project aims to automate this seam using an AI agent. No experimental evidence is provided; this is a conceptual framing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 2 – System Architecture (Design-to-Bench Loop)",
+      "content": "Describes a four-stage loop: (1) Design – generate candidate sequences and predict structures; (2) Triage – rank candidates by predicted confidence and budget constraints; (3) Test – order wet-lab assays; (4) Record – log results, receipts, and parameters in a versioned data room. The agent automates all four stages; human approval is required only for spending decisions. No experiments have been run through this loop."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 4 – Computational and Wet-Lab Providers",
+      "content": "Computational stage uses SubSeq, offering: AlphaFold2, Boltz-2, Chai-1 (structure prediction); RFdiffusion3, BoltzGen, LigandMPNN (binder/sequence design); docking; GROMACS (molecular dynamics). Priced per compute unit from prepaid credits. Wet-lab stage uses Adaptyv Bio, offering: expression screening, expression scale-up, binding affinity (BLI or SPR), thermostability (melting temperature), and enzyme activity assays. Priced per order by quote. All capabilities and costs are vendor-published; none have been independently verified or used by this lab."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 4.3 – Triage Logic and Calibration Status",
+      "content": "Triage currently ranks candidates by predicted confidence with a hard budget cut. The document explicitly acknowledges: 'We have no calibration data yet.' The triage rule is described as a 'starting guess' to be calibrated against real expression data over successive rounds. Early hit rates are expected to be poor. No target molecule, design family, or assay campaign has been committed to."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 5 – Spending Controls",
+      "content": "Two payment paths described: (1) single payment approval via lab owner inbox; (2) pre-funded budget with a cap for time-sensitive payments. The agent cannot move money autonomously. Receipts are logged in the data room against each result. This section is relevant to operational readiness but not to scientific TRL."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 6 – Success/Failure Criteria (Pre-stated)",
+      "content": "Success criterion: time from finished computational round to ordered assay falls to under one day, AND the share of ordered designs that express rises across rounds as triage is calibrated. Failure criterion: triage never beats random selection on expression (i.e., predicted confidence carries no signal). Both outcomes will be published. These are forward-looking criteria; no data exists yet."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 7 – Explicit Non-Claims",
+      "content": "The document explicitly states: no molecule has been expressed, assayed, or characterized; no binding affinity, stability, or activity value exists; no target has been committed to; no comparison against any other method has been run; cost and capability statements are vendor-published and not independently verified."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 8 – Open Questions",
+      "content": "Key open scientific and operational questions: (1) Which predicted quantity, if any, correlates with expression for the design families intended; (2) Whether cost per usable data point falls as rounds accumulate or stays flat; (3) Optimal batch size for triage calibration vs. cost; (4) Where human judgement should re-enter beyond spend approval. All questions are unanswered — confirming pre-experimental status."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 9 – Provenance and Data Management",
+      "content": "All files in the data room are versioned and content-hashed. Results will arrive with receipts and run parameters. Designed to enable traceability from claim to run to payment. This is an infrastructure design feature, not a scientific result."
+    }
+  ],
+  "key_findings": [
+    "The lab has run NO experiments and holds NO experimental data as of 6 November 2026 — this is explicitly stated in the document status.",
+    "The project is at TRL 1 (concept only): it describes a planned workflow for agent-automated protein/peptide design-to-bench loops, with no molecules designed, expressed, or assayed.",
+    "No therapeutic target, indication, or patient population has been committed to.",
+    "No binding affinity, thermostability, activity, or expression data exists.",
+    "Computational tools planned: AlphaFold2, Boltz-2, Chai-1, RFdiffusion3, BoltzGen, LigandMPNN, GROMACS (via SubSeq API).",
+    "Wet-lab assays planned: expression, scale-up, BLI/SPR binding affinity, thermostability, enzyme activity (via Adaptyv Bio).",
+    "Triage logic is currently a ranking by predicted confidence with a budget cut — explicitly described as a 'starting guess' with no calibration data.",
+    "Success will be measured by: (1) time-to-order under one day, and (2) rising expression hit rate across rounds.",
+    "All cost and capability figures are vendor-published, not independently verified.",
+    "No IP, regulatory interactions, funding rounds, or team affiliations are mentioned."
+  ],
+  "document_date": "2026-11-06",
+  "milestones": [
+    {
+      "title": "Design Document Published (v0.1)",
+      "description": "Version 0.1 of the design document for the agent-operated design-to-bench loop was authored and published. No experiments had been run as of this date.",
+      "date": "2026-11-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Version 0.1. 6 November 2026.",
+      "page": 1
+    },
+    {
+      "title": "No Experiments Run (Confirmed Status)",
+      "description": "As of 6 November 2026, the lab has run no experiments and holds no experimental data. This is a confirmed status checkpoint embedded in the document.",
+      "date": "2026-11-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The lab has run no experiments and holds no experimental data as of 6 November 2026.",
+      "page": 1
+    }
+  ]
+}
