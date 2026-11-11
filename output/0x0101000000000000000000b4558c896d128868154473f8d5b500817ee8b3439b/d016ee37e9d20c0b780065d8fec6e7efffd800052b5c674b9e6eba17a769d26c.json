@@ -1,0 +1,295 @@
+{
+  "file_path": "/the-one-variable-a-logical-solution-to-quantum-mechanics",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "\\\"The One Variable: A Logical Solution to Quantum Mechanics\\\" is a self-published book by Garrick Holmes proposing that residual water vapor inside vacuum chambers acts as the physical medium responsible for quantum interference patterns (double-slit experiment), effectively arguing that the wave function is the water lattice rather than a probability cloud. The book is a theoretical/speculative work in physics, not a biotech or therapeutic development document. It contains no clinical, preclinical, or drug-development content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title Page and Overview",
+      "content": "Book titled 'The One Variable: A Logical Solution to Quantum Mechanics' by Garrick Holmes. The central thesis is that water — specifically residual water vapor and adsorbed water inside vacuum chambers — is an uncontrolled variable in all quantum mechanics experiments, and that the interference pattern in the double-slit experiment is caused by the water lattice rather than quantum superposition of the particle."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Table of Contents",
+      "content": "Three-part structure: Part One (The One Variable, 12 chapters covering water molecule geometry, hydrogen bond network, vacuum chamber water content, double-slit reinterpretation, tunneling, string theory analogy, and biological networks); Part Two (The Research: companion paper 'One Variable: The Water Lattice and the Double Slit', Evidence Dossier, Data Set on water coherence); Part Three (Further Research: Supplementary Research on LHC vacuum, Paper 1 on DNA hydration shell, Paper 2 on flexoelectric cryosphere)."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Preface",
+      "content": "Author states that one variable — water — has been left out of quantum mechanics experiments for a century. Claims that if correct, this changes interpretation of famous results without invalidating measurements. Frames the book as a tribute to existing physics while posing a new question. No experimental data presented."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Chapter 1: The Elephant in the Room",
+      "content": "Introduces the double-slit experiment and its standard quantum mechanical interpretation (superposition, wave function collapse). Argues that vacuum chambers used in these experiments are not truly empty — they contain residual water. Central claim: 'The wave in the double slit is not a ghost of probability. The wave is the water.' Frames water as the uncontrolled variable in all quantum experiments. No original experimental data; argument is conceptual."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Chapter 2: The Shape Nobody Told You About",
+      "content": "Describes the tetrahedral geometry of the water molecule (sp3 hybridization, two lone pairs, two O-H bonds, bond angle ~109.5°). Explains polarity and the four hydrogen-bonding sites (two donors, two acceptors). Argues water is unique among small molecules in having a 2-and-2 symmetry enabling endless 3D hydrogen-bond networks. Comparison with ammonia (3 donors, 1 acceptor) and hydrogen fluoride (1 donor, 3 acceptors). Conceptual/educational content, no original data."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Chapter 3: A Structure That Never Stops Rebuilding",
+      "content": "Describes the hydrogen bond network of liquid water as a dynamic, self-repairing lattice. Cites 2024 correlated vibrational spectroscopy measurement (Flór, Roke et al.) showing ~1/50 electron charge transfer per hydrogen bond. Describes the strong-weak anti-correlated bond rule (derived 2013 by Kühne and Khaliullin, measured 2024 by Gunkel et al.). Bond exchange rate: ~10^12/second. Network loses memory of disturbance in ~50 femtoseconds; full reconstruction in ~2 picoseconds. Notes ice floats due to tetrahedral network geometry."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Chapter 4: No Off Switch",
+      "content": "Argues that water molecules attract each other at any distance with no cutoff — due to permanent dipole moment (1.85 D vapor, ~2.95 D condensed) and London dispersion forces. Conclusion: wherever water molecules exist, they form a connected network. A sparse water population in a vacuum chamber is still a network, just at lower density. Conceptual argument supported by known physical chemistry."
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "Chapter 5: The Torture Tests",
+      "content": "Reviews experimental evidence that water's tetrahedral hydrogen-bond geometry persists under extreme conditions: (1) Supercritical water (>647 K, >22.1 MPa): neutron imaging shows directional association persists; bond count falls to ~1.55 at percolation threshold vs ~3.4 ambient. (2) Supercooled water: 2026 femtosecond X-ray laser experiments (You et al.) confirmed liquid-liquid critical point at 210±8 K. (3) Negative pressure: water sustains >-120 MPa; stretching orders the lattice. (4) Sunspot umbrae: water vapor detected at 3200-3500 K against >6 million reference lines (Polyansky et al., 1997). Conclusion: water lattice geometry survives all tested extremes."
+    },
+    {
+      "page": 14,
+      "type": "text",
+      "title": "Chapter 6: The Room That Cannot Be Emptied",
+      "content": "Key empirical chapter. Claims that residual gas in vacuum chambers is 85-90% water (measured by residual gas analyzer at mass 18). Quantitative data: at 10^-7 Torr, ~3×10^9 water molecules/cm^3 in flight; walls carry ~10^16 molecules/cm^2 (tens of monolayers); a 1 m^3 chamber walls hold ~1 gram of water. Countermeasures reviewed: (1) Bakeout at 200°C for 20 hours removes ~7×10^15 molecules/cm^2 but water persists. (2) Cryopumps condense water as ice but don't remove it — it returns on regeneration. (3) Vacuum-firing steel at 950-1050°C reduces but doesn't eliminate water. Conclusion: no water-free vacuum has ever been achieved. Cites Dylla, Manos and LaMarche (1993) showing >85% H2O in measured outgassing."
+    },
+    {
+      "page": 18,
+      "type": "text",
+      "title": "Chapter 7: The Wave in the Room",
+      "content": "Proposes that particles in double-slit experiments travel through the water lattice, not empty space. Uses boat-wake analogy: particle is the boat, water lattice is the lake, interference pattern is the wake. Addresses objection about scattering: argues water's anti-correlated bond pairs create conjugate wave pairs (antiphase oscillations) that cancel electromagnetically but transmit mechanical stress — making the disturbance invisible to detectors while propagating faithfully. Cites decoherence experiments (Hornberger et al., 2003) showing interference fades with increased background gas pressure as supporting evidence that the medium controls the outcome. Notes that water composition of background gas was never characterized in any interferometry experiment."
+    },
+    {
+      "page": 21,
+      "type": "text",
+      "title": "Chapter 8: The Biggest Boat Ever Launched",
+      "content": "Discusses the 2026 University of Vienna MUSCLE experiment (Pedalino et al., Nature 649, 866-870): sodium nanoparticles >170,000 Daltons (~7,000 atoms) interfered in optical Talbot-Lau interferometer at 9×10^-9 mbar. Fringe visibilities 0.08-0.10. Key criticism: the paper reports total pressure but no residual gas composition measurement (no RGA in apparatus). Author argues this is the largest matter-wave experiment ever run inside an uncharacterized water environment."
+    },
+    {
+      "page": 23,
+      "type": "text",
+      "title": "Chapter 9: Walls That Do Not Divide (Tunneling)",
+      "content": "Proposes that quantum tunneling is explained by the water lattice being continuous across barriers — protons are delocalized across hydrogen bonds (citing Ceriotti et al., 2013). Uses Hanford nuclear waste site as industrial-scale evidence: 67 of 177 single-shell tanks leaked, >1 million gallons into soil; tritiated water permeates solid steel coolant loops. Argues containment fails because the water lattice connects inside and outside of any barrier."
+    },
+    {
+      "page": 25,
+      "type": "text",
+      "title": "Chapter 10: The Six Hidden Dimensions",
+      "content": "Proposes that string theory's six compactified extra dimensions correspond to the six internal degrees of freedom of the water molecule: (1-3) three rotational degrees from tetrahedral sp3 geometry; (4) strong-weak bond asymmetry (maps to spin-1/2 SU(2) representation); (5-6) O-H stretch and H-O-H bend vibrational modes. Claims the Calabi-Yau manifold corresponds to sp3 hybridization geometry. Also includes 'Carbon Scaffolding' section describing water's role in DNA, proteins, and biological systems. Speculative theoretical mapping, no original experiments."
+    },
+    {
+      "page": 29,
+      "type": "text",
+      "title": "Chapter 11: Made of the Same Stuff",
+      "content": "Cites 2026 Nature study (Meng et al., Rensselaer Polytechnic Institute) showing biological networks (human neurons, fruit-fly neurons, blood vessels, tropical trees, corals, Arabidopsis) follow string theory's minimal-surface mathematics better than classical wiring-minimization theory. Notes 98% of perpendicular sprouts in human brain terminate in active synapses. Argues this is because all living networks grow in water (99% of molecules in human body are water) and follow the water lattice geometry."
+    },
+    {
+      "page": 31,
+      "type": "text",
+      "title": "Chapter 12: The One Variable — Summary and Proposed Experiment",
+      "content": "Summarizes the chain of argument. Proposes a definitive experiment: run interferometer with residual water present, then scrub and replace with dry gas at matched pressure, holding all other variables constant. Predicts: if stripes shift with water composition, the wave function was never a probability cloud. If stripes don't change, the lattice is irrelevant. This experiment has never been performed in the history of quantum mechanics."
+    },
+    {
+      "page": 34,
+      "type": "text",
+      "title": "Research Paper: One Variable: The Water Lattice and the Double Slit (Abstract and Sections 1-5)",
+      "content": "Formal companion paper. Abstract states: every quantum interference experiment was performed inside water; residual gas is 85-90% water at routine high vacuum; no water-free volume has ever existed. Sections cover: (1) electron-pair geometry building the lattice; (2) strong-weak anti-correlated bond rule (Kühne & Khaliullin 2013/2014; Gunkel et al. 2024 — randomizes in <500 fs); (3) conjugate photon pairs as stress-transmission formalism; (4) tunneling as occupancy moving across one lattice; (5) vacuum record with quantitative data: 85-90% water at 10^-7 Torr, ~3×10^9 molecules/cm^3 in flight, ~10^16 molecules/cm^2 on walls, outgassing rates 10^-6 to 10^-7 mbar·L/s/cm^2, water sojourn time ~1 week on stainless steel."
+    },
+    {
+      "page": 49,
+      "type": "table",
+      "title": "RGA Residual Gas Composition Data (Evidence Dossier, Part 1.1)",
+      "content": "Single chamber RGA log (Stanford Research Systems application note): H2 (mass 2): 7.1×10^-8 Torr; H2O (mass 18): 1.4×10^-5 Torr; N2 (mass 28): 4.6×10^-10 Torr; O2 (mass 32): 3.4×10^-11 Torr; CO2 (mass 44): 1.6×10^-12 Torr. Water is >2 orders of magnitude above all other species. Supporting: Solar Atmospheres vacuum-furnace RGA identifies water as dominant residual peak in unbaked industrial chambers."
+    },
+    {
+      "page": 50,
+      "type": "table",
+      "title": "Outgassing Rates (Evidence Dossier, Part 1.2)",
+      "content": "CERN Accelerator School vacuum tables (traceable to Dylla, Manos and LaMarche, J. Vac. Sci. Technol. A 11, 2623, 1993): Unbaked stainless steel after 10h pumping: q(H2O) = 3×10^-10 mbar·L/s/cm^2 = 7×10^9 molecules/s/cm^2. Baked stainless steel (150°C × 24h): q(H2) = 3×10^-12 mbar·L/s/cm^2. Dylla time-decay law: q(H2O) ≈ 3×10^-9/t(h) mbar·L/s/cm^2. Dylla study: >85% H2O in outgassing over 50-hour observation. Floor never zero: standard SS ~10^-11 mbar·L/s/cm^2; after 250°C bake 380h: 2.86×10^-13; after 350°C bake 140h: 5.7×10^-14."
+    },
+    {
+      "page": 51,
+      "type": "text",
+      "title": "Evidence Dossier: MUSCLE Experiment Details (Part 2)",
+      "content": "Pedalino et al., Nature 649, 866-870 (2026): Sodium clusters >170,000 Da, 5,000-10,000 atoms, diameter ~8 nm. Generated at 650-700 K in Ar/He at 77 K. Velocities 120-170 m/s. De Broglie wavelengths 10-22 fm. Three UV standing-wave gratings, 0.983 m apart. Chamber pressure: 9×10^-9 mbar. Fringe visibilities 0.08-0.10. No RGA in apparatus; water partial pressure not measured."
+    },
+    {
+      "page": 52,
+      "type": "table",
+      "title": "Decoherence Data: C70 Fringe Visibility vs Pressure (Evidence Dossier, Part 3)",
+      "content": "Hackermüller, Hornberger et al. (2003): C70 visibility dropped from ~42% to 34% when pressure rose from 3×10^-8 to 5×10^-7 mbar. Full dataset: visibility falls from ~30% to ~4% across 4-30×10^-6 mbar added gas (exponential decay). Single collision sufficient for complete coherence loss. Ten background gases tested (H2, D2, He, CH4, Ne, Ar, Kr, Xe, N2, air) with effective cross-sections ~40-110 nm^2. Radiative decoherence (laser-heated C70, no collisions): 0W→47%, 3W→29%, 6W→7%, 10.5W→0%."
+    },
+    {
+      "page": 55,
+      "type": "text",
+      "title": "Evidence Dossier: Matter Wave Index of Refraction Through Water Vapor (Part 5.1)",
+      "content": "Schmiedmayer et al. (Phys. Rev. Lett. 74, 1043, 1995): Inserted gas cell into one arm of sodium atom interferometer. Measured attenuation and phase shift through 9 gases including H2O. Key finding: matter wave passed through water vapor and fringes survived with measurable phase shift — attenuation and phase shift, not destruction. Water's matter-wave optical properties are published primary-source data. The coupling of particle waves to water has been measured; what has never been done is apply it to the standing residual baseline of an interference experiment."
+    },
+    {
+      "page": 60,
+      "type": "table",
+      "title": "Consolidated Argument Map (Evidence Dossier, Part 8)",
+      "content": "Maps claims to supporting measured facts: (1) Every quantum experiment ran inside water — SRS RGA log, Dylla outgassing law; (2) Lattice holds geometric coherence in all states — bond in free flight at β=57°; (3) Rule lives in molecule — strong-weak anticorrelation; (4) Coherence in transit — coherent forward scattering at Q=0, Davisson-Germer; (5) Matter waves couple to water — Schmiedmayer 1995; (6) Visibility is function of medium — ten-species sweep; (7) Occupancy moves through lattice — Grotthuss mechanism; (8) Variable was never controlled — MUSCLE pressure reported, composition unmeasured; (9) Experiment is missing, not impossible — H2O/D2O dial, CVS technique, gas-cell phase-shift technique exists since 1995."
+    },
+    {
+      "page": 62,
+      "type": "text",
+      "title": "Data Set: Water Coherence in Every State (Sections A-G)",
+      "content": "Comprehensive literature review organized by state: (A) Long-range coherence: bioRxiv 2026 showing coherent communication between protein samples across 40mm separation via water bending mode; Chen/Roke 2016 showing orientational order over 5-15 nm; Shelton 2014/2015 showing orientation correlation to 2000 nm. (B) Structured water at surfaces: exclusion zone water, interfacial nanoclusters ~50 nm. (C) Coherence by state: vacuum (single molecules in C60 cages showing quantized rotation), surface clusters (concerted proton tunneling in tetramers/trimers), free clusters in flight (3D networks from hexamer), near-vacuum space (water masers at 10^8-10^10/cm^3), vapor, confined, liquid, ice, amorphous ice, hot vapor/supercritical, sunspot umbrae. (D) Water in vacuum chambers: multiple labs confirming water as dominant residual gas. (E) LIGO water management costs. (F) Interferometer record. (G) Cross-reference map."
+    },
+    {
+      "page": 80,
+      "type": "text",
+      "title": "Supplementary Research: LHC Vacuum System and Water",
+      "content": "Documents water management in the LHC (54 km beam pipe, 48 km at 1.9 K). LHC design requirement: ~10^7 molecules/cm^3. Water is dominant residual in unbaked systems. Before every cooldown, cold sections pumped for weeks to remove 'mainly water vapour.' In cold arcs, water is frozen onto walls (not removed). Beam knocks frozen gas off walls. CERN bakeout costs ~300,000 euros/year. Design table at 7 TeV: H2O cross-section 5.65×10^-25 cm^2, allowed density 1.6×10^14/m^3 for 100h beam lifetime. SuperKEKB (Japan): water vapour remained in beam pipe during 2016 operation because pipes were not baked in tunnel."
+    },
+    {
+      "page": 90,
+      "type": "text",
+      "title": "Paper 1: DNA Hydration Shell and Electrical Coherence",
+      "content": "Proposes that the DNA minor groove is a 'hydration solid' (per Harrellson et al., 2023 framework) and that water's intrinsic hydrogen bond asymmetry (Gunkel et al., 2024) determines hydration shell ordering. Key cited data: spine water in minor groove resides ~1 ns at 4°C, 10-15 ns at lowest temperatures (Halle and Denisov, 1998). DNA conductance drops ~40,000-fold from 80-90% to 30% relative humidity (Tuukkanen et al., 2005). Single mismatched base pair cuts charge transport signal by ~half (ratio 2.3±0.4, Slinker et al., 2011). Proposes 4 experiments: isotopic substitution (D2O/H2O) monitored by chiral SFG spectroscopy; counterion/temperature perturbations; sequence-dependent comparison; isotope-dependent DNA charge transport."
+    },
+    {
+      "page": 96,
+      "type": "figure",
+      "title": "Figure 1.1: DNA Hydration Shell Proposal Argument Map",
+      "content": "Flow diagram showing: Published findings (Hydration solids/Harrellson 2023, Ordered DNA water/Perets 2024/Halle 1998, Asymmetric H-bonds/Gunkel 2024, Electrical H-bonds/Isaacs 1999/Slinker 2011) → DNA minor groove as hydration solid → Ordering (strong-weak matches sites), Exchange (extra re-randomization step), Electrical pathway (shell chains carry charge) → Four proposed experiments (D2O/H2O + SFG, Ions + temperature, AT vs GC grooves, Charge transport H2O vs D2O) → Outlook (Cell water, chromatin, DNA damage)."
+    },
+    {
+      "page": 99,
+      "type": "text",
+      "title": "Paper 2: The Flexoelectric Cryosphere",
+      "content": "Based on Wen et al. (Nature Physics, 2025) measurement of ice flexoelectric coefficient: ~1.14 nC/m (comparable to TiO2 and SrTiO3 ceramics). Proposes: (1) Mechanism for charge transfer in ice collisions via quasi-liquid surface layer and stick-and-slip stranding. (2) Lightning charging calculation: one collision strands 0.16-1.5 femtocoulombs; stepping calculation shows first flash builds in 8-28 minutes (central case ~17 minutes), bracketing radar observations of ~15 minutes. (3) Amorphous ice bilayer test: dense ice converts to light ice between 38-68 K, growing ~6%, causing curl; predicted charge ~0.29 nC/cm^2 on 2-micron silicon strip. (4) Tidal ice shelf signal: tidal bending of Antarctic ice shelves should produce voltage at 12.42-hour period, strongest at crevasses. Four falsifiable predictions provided."
+    },
+    {
+      "page": 104,
+      "type": "table",
+      "title": "Lightning Charging Calculation (Paper 2, Section 5)",
+      "content": "Stepping calculation for first lightning flash: Collision rate rises from 0 to 10^14/s over 15 minutes. At 3 min: 1.3×10^13/s, total 0.43 C; at 6 min: 3.3×10^13/s, total 2.2 C; at 9 min: 5.3×10^13/s, total 5.2 C; at 12 min: 7.3×10^13/s, total 9.5 C; at 15 min: 9.3×10^13/s, total 15.1 C; at 18 min: 1.0×10^14/s, total 21.6 C. Step-size convergence: 5-min steps→20 min, 1-min→18 min, 10-sec→17 min, 1-sec→16.8 min. Range across charge-per-collision uncertainty: 8-28 minutes for first flash."
+    },
+    {
+      "page": 109,
+      "type": "table",
+      "title": "Paper 2: Four Falsifiable Predictions",
+      "content": "Prediction 1: Bonded light-dense amorphous ice bilayer builds charge (~0.29 nC/cm^2) as dense layer converts; tested by vacuum cryostat warming through 38-68 K with electrometer and laser curl tracking; fails if bilayer charges no more than symmetric sandwich. Prediction 2: Graupel charge reverses sign where colliding surfaces' quasi-liquid skins are equally thick; tested by riming experiments with skin thickness measurement; fails if reversal temperature doesn't track skin-thickness crossover. Prediction 3: Collision charge grows with impact speed and contact size per Hertz contact mechanics; tested by single-collision experiments at varied speeds/sizes; fails if charge doesn't rise with strain×contact radius. Prediction 4: Ice shelves produce voltage at tidal periods (~12.42h), stronger across crevasses than smooth ice; tested by electrode pairs for several weeks; fails if no tidal-period difference after background subtraction."
+    }
+  ],
+  "key_findings": [
+    "This is a speculative physics book/monograph, not a biotech or therapeutic development document. It has no TRL-relevant content for drug/device development.",
+    "Central thesis: residual water vapor (85-90% of residual gas in vacuum chambers at 10^-7 Torr, measured by RGA at mass 18) is the uncontrolled variable in all quantum mechanics experiments.",
+    "Quantitative vacuum data cited: ~3×10^9 water molecules/cm^3 in flight at 10^-7 Torr; ~10^16 molecules/cm^2 on chamber walls; ~1 gram water on walls of 1 m^3 chamber.",
+    "Key cited experimental results: Flór/Roke et al. 2024 (charge transfer ~1/50 electron per H-bond); Gunkel et al. 2024 (strong-weak anti-correlated bond rule, <500 fs randomization); Pedalino et al. 2026 (170,000 Da sodium cluster interference at 9×10^-9 mbar, no RGA used); Hornberger et al. 2003 (C70 fringe visibility decays exponentially with background gas pressure).",
+    "Proposed experiment: run double-slit interferometer with water-dominated residual gas, then replace with dry gas at matched pressure — this experiment has never been performed.",
+    "Paper 2 (Flexoelectric Cryosphere) based on Wen et al. 2025 measurement of ice flexoelectric coefficient ~1.14 nC/m; proposes lightning charging mechanism and amorphous ice bilayer test with falsifiable predictions.",
+    "Paper 1 (DNA hydration shell) proposes that water's hydrogen bond asymmetry governs DNA minor groove hydration shell ordering and that the shell is part of DNA's electrical pathway.",
+    "No clinical, preclinical, or therapeutic development content. No IP, regulatory, or funding milestones. Document is entirely theoretical/speculative physics."
+  ],
+  "milestones": [
+    {
+      "title": "Kühne and Khaliullin strong-weak bond rule derivation",
+      "description": "First-principles derivation of the intrinsic hydrogen bond asymmetry (one strong, one weak bond per water molecule, anti-correlated) published.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Researchers derived from first principles in 2013, and a separate team measured directly in 2024 with ultrafast spectroscopy, a strict rule governing those donations.",
+      "page": 7
+    },
+    {
+      "title": "Kühne and Khaliullin follow-up publication",
+      "description": "Nature of the asymmetry in hydrogen-bond networks of hexagonal ice and liquid water published in J. Am. Chem. Soc.",
+      "date": "2014",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The anticorrelation was derived from first principles (Kühne and Khaliullin, 2013, 2014) and measured directly by ultrafast two-dimensional spectroscopy.",
+      "page": 35
+    },
+    {
+      "title": "Flór/Roke et al. correlated vibrational spectroscopy measurement",
+      "description": "Measurement of ~1/50 electron charge transfer per hydrogen bond in water using correlated vibrational spectroscopy published in Science.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2024, a research team used a technique called correlated vibrational spectroscopy to do something that sounds impossible: measure a single hydrogen bond, between two single molecules, at room temperature, in ordinary water.",
+      "page": 7
+    },
+    {
+      "title": "Gunkel et al. direct measurement of anti-correlated bond rule",
+      "description": "Direct measurement of dynamic anti-correlations of water hydrogen bonds by ultrafast two-dimensional spectroscopy, published in Nature Communications.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "measured directly by ultrafast two-dimensional spectroscopy, where the anticorrelations randomize in under 500 femtoseconds (Gunkel et al., 2024).",
+      "page": 35
+    },
+    {
+      "title": "You et al. liquid-liquid critical point experimental confirmation",
+      "description": "Femtosecond X-ray laser probing of supercooled water established the liquid-liquid critical point at 210±8 K, published in Science.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2026, researchers using femtosecond X-ray laser probing of supercooled water established experimentally what simulations had predicted since 1992: below freezing, before crystallization, water separates into two distinct liquid phases of different density, with a critical point at about 210 Kelvin.",
+      "page": 12
+    },
+    {
+      "title": "Pedalino et al. MUSCLE experiment (largest matter-wave superposition)",
+      "description": "University of Vienna team interfered sodium nanoparticles >170,000 Da in optical Talbot-Lau interferometer at 9×10^-9 mbar, achieving fringe visibilities 0.08-0.10. Published in Nature 649, 866-870.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2026, at the University of Vienna, a team pushed quantum mechanics to its most extreme test to date.",
+      "page": 21
+    },
+    {
+      "title": "Meng et al. biological networks follow string theory minimal-surface mathematics",
+      "description": "Rensselaer Polytechnic Institute study published in Nature showing physical networks in living systems (neurons, blood vessels, trees, corals, plants) follow minimal-surface mathematics from string theory. Published in Nature 649, 315-322.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2026, a research team published a study in Nature examining how physical networks grow across living systems.",
+      "page": 29
+    },
+    {
+      "title": "Wen et al. ice flexoelectricity measurement",
+      "description": "Measurement of flexoelectric coefficient of water ice at ~1.14 nC/m, comparable to benchmark ceramics, published in Nature Physics.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Wen and colleagues measured that ordinary ice produces charge when bent, with a flexoelectric coefficient of about 1.14 nanocoulombs per metre, comparable to the benchmark ceramics titanium dioxide and strontium titanate (Nature Physics, 2025).",
+      "page": 100
+    },
+    {
+      "title": "Proposed controlled interferometry experiment (water vs dry gas)",
+      "description": "Author proposes running a double-slit interferometer with water-dominated residual gas, then replacing with dry gas at matched pressure, holding all other variables constant, to test whether water is responsible for interference patterns. This experiment has never been performed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Run the interferometer with the residual water present. Run it scrubbed and replaced with a dry gas at matched pressure. Hold the particles, the energy, the geometry, the gratings, and the total pressure identical, and change exactly one thing: the composition of the background the particle traverses.",
+      "page": 32
+    },
+    {
+      "title": "Proposed amorphous ice bilayer flexoelectric test",
+      "description": "Laboratory experiment proposed: deposit light then dense amorphous ice films on silicon strip, warm through 38-68 K conversion window, measure charge with electrometer and curl with laser. Symmetric sandwich control included.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The test: deposit a film of light amorphous ice, cool it, deposit a film of dense amorphous ice on top, then warm the pair slowly through 38 to 68 kelvin.",
+      "page": 105
+    }
+  ]
+}

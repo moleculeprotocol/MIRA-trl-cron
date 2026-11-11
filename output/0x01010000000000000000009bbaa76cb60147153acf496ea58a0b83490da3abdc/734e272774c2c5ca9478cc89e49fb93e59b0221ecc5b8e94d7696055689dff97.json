@@ -1,0 +1,81 @@
+{
+  "file_path": "/updates/status-2026-11-10.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This is a lab status update dated 10 November 2026 confirming that no experiments have been run and no experimental data exists. It documents the current state of infrastructure setup (service providers, API keys, credits) and identifies the primary blockers to the first experimental run: no target has been selected and no design sequences have been supplied. It also corrects prior erroneous claims about a SubSeq credit balance.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Overall Lab Status",
+      "content": "As of 10 November 2026, no experiments have been run and the lab holds no experimental data. This is the most critical TRL-relevant finding: the project is at or below TRL 1, with no empirical evidence of any kind. Target selection has not started and no design sequences have been supplied."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Infrastructure Setup State",
+      "content": "A status table summarizing the current state of lab infrastructure items:\n- Service providers enabled: SubSeq and Adaptyv Bio, both on\n- SubSeq account: Active, holding 5 credits\n- SubSeq API key: Minted and verified\n- Payments to providers: Rail exercised, nothing paid yet\n- Target selection: Not started\n- Design sequences: None supplied\n\nThis confirms that while computational infrastructure is partially in place, no scientific work (target selection, sequence design, or prediction runs) has begun."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Correction to Prior Documents",
+      "content": "Two documents published on 6 November 2026 (/methods/computational-pipeline.md and /overview/lab-overview.md) incorrectly stated that the SubSeq credit balance was unreadable and presumed zero. The correction of record: the balance was readable the whole time (reported via the account endpoint, not the credits path), and the account held 5 credits on 6 November and still holds 5 credits on 10 November. These files have not been rewritten; this status update serves as the correction of record."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Payment Rail Findings",
+      "content": "Two findings from payment rail testing (neither attempt resulted in an actual payment):\n1. Bare amount payments are refused: requests to pay a round figure to either provider were rejected because both providers bill per invoice and require a machine-readable payment demand.\n2. Credit purchase requires higher privilege than job submission: the API key used to submit compute jobs cannot purchase credits. Credit purchase requires an admin key obtained via email code (human-in-the-loop for every top-up), unless a budget mechanism is used instead.\n\nA request to top up 5 credits for 5 US dollars (rate: $1/credit) was raised on 6 November 2026 and has not yet been approved as of 10 November 2026."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Blockers to First Experimental Run",
+      "content": "The document explicitly identifies what is blocking the first run: no target has been chosen and no design sequences have been supplied. Until sequences exist, there is nothing to predict, independent of credits or payment status. This confirms the project has not yet reached even the earliest stage of computational experimentation."
+    }
+  ],
+  "key_findings": [
+    "No experiments have been run; the lab holds no experimental data as of 10 November 2026.",
+    "Target selection has not started and no design sequences have been supplied — these are the primary blockers to the first run.",
+    "Service providers SubSeq and Adaptyv Bio are enabled; SubSeq account is active with 5 credits.",
+    "Payment rail has been tested but no payments have been made; credit purchase requires a human-in-the-loop admin key.",
+    "A credit top-up request (5 credits for $5 USD) raised on 6 November 2026 remains unapproved as of 10 November 2026.",
+    "Prior documents (computational-pipeline.md and lab-overview.md, dated 6 November 2026) contained incorrect claims about the SubSeq credit balance being unreadable/zero; this document serves as the correction of record.",
+    "Project is effectively at TRL 1 or below — concept/infrastructure stage with no empirical scientific work initiated."
+  ],
+  "document_date": "2026-11-10",
+  "milestones": [
+    {
+      "title": "Erroneous Credit Balance Documents Published",
+      "description": "Two documents (/methods/computational-pipeline.md and /overview/lab-overview.md) were published incorrectly stating the SubSeq credit balance was unreadable and presumed zero.",
+      "date": "2026-11-06",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Two documents published on 6 November state that the SubSeq credit balance is unreadable and presumed zero. Both claims are wrong.",
+      "page": 1
+    },
+    {
+      "title": "Credit Top-Up Request Raised",
+      "description": "A request to top up 5 credits for 5 US dollars was raised at a rate of one dollar per credit. As of 10 November 2026, it has not been approved.",
+      "date": "2026-11-06",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "other",
+      "source_quote": "A request to top up 5 credits for 5 US dollars was raised on 6 November and has not been approved. The rate at that time was one dollar per credit.",
+      "page": 1
+    },
+    {
+      "title": "Status Update / Correction of Record",
+      "description": "This status update document was authored on 10 November 2026, serving as the correction of record for prior erroneous documents and summarizing the current lab state.",
+      "date": "2026-11-10",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "10 November 2026.",
+      "page": 1
+    }
+  ]
+}
