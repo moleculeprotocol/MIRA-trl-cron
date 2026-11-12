@@ -1,0 +1,142 @@
+{
+  "file_path": "/agent-access-policy-roles-write-boundary-audit",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This document is the Agent Access Policy (v1.1) for the ARGUS-OS1 Lab, a blockchain-based data room. It defines onchain role-based access control for human and AI agent participants, specifying who can read, write, and grant permissions. It contains no experimental data, scientific results, or TRL-relevant technical content, but does reference a research protocol (ARGUS_Protocol_Hayflick_Limit_Immortalized_Fibroblasts.md) that hints at the underlying scientific project.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Version History",
+      "content": "Agent Access Policy for ARGUS-OS1 Lab, Version 1.1, dated 12 November 2026. Owner of the LabNFT: Jaba Tqemaladze. Supersedes v1.0 of 11 November 2026. Key change: v1.0 incorrectly described agent write access to /agent-output/ as a platform-enforced control; v1.1 corrects this to a process rule. Roles are granted per Lab, not per directory; the Viewer role cannot write at all."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Platform Role Permissions",
+      "content": "Three roles enforced onchain by the AccessResolver contract on Base (0x89a14Be8f7824d4775053Edad0f2fA2d6767b72B):\n- Owner (held by LabNFT holder): can read, write, and grant/revoke Viewers\n- Contributor (explicit onchain grant): can read, write, and grant/revoke Viewers\n- Viewer (explicit onchain grant): can read only; cannot write or grant/revoke\nGrants are scoped to the entire Lab (no per-directory permissions). Each grant carries an expiry and an isAgent flag. Grants recorded as RoleGranted(oclId, account, role, expiry, isAgent, grantedBy) events."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Current Access Holders",
+      "content": "Current role assignments as of 12 November 2026:\n- Jaba Tqemaladze (0x22cc84…c905c): Owner, no expiry — sole controller\n- Aziza Aubakirova (0xb32ffd…dfb74a): Contributor, no expiry — day-to-day data-room work\n- Aubrey de Grey (0xf3f4e0…a352550): Viewer, expires 9 Feb 2027 — external reader\n- David Meyer (0x619b75…3a75dc): Viewer, expires 9 Feb 2027 — external reader\n- argus-pipeline agent (0xbe3b3e…93a645): Viewer + isAgent, expires 9 Feb 2027 — automated reading, tracking, analysis\n- pi agent (MCP) (0xdf779d…3beBe9): Viewer + isAgent, no expiry listed — interactive assistant session\nAgents cannot change grants; grant/revoke is Owner and Contributor only."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Write Boundary and Agent Restrictions",
+      "content": "Policy principle: Agents read; humans write. The pipeline agent holds Viewer role and cannot upload, overwrite, delete, or invite. Agent run artefacts are stored locally in argus-output/<yyyy-mm-dd>-<task>/ (run config, log, result files). A human Contributor reviews and uploads what survives review. This is a process control, not a platform control. The platform control that matters: an agent cannot publish to the data room or widen access without a human acting.\n\nForbidden for any agent (human approval required):\n- The protocol and pre-registration file: ARGUS_Protocol_Hayflick_Limit_Immortalized_Fibroblasts.md (editing the analysis plan after seeing data would undermine pre-registration value)\n- EVIDENCE.md, THEORY.md, PARAMETERS.md (claim table edits require human sign-off)\n- Licence files and IP-NFT metadata\n- Viewer grants, role changes, anything onchain\n- Deletion or renaming of any existing file\n\nScientific relevance: The referenced files (Protocol, EVIDENCE.md, THEORY.md, PARAMETERS.md) indicate an active pre-registered research project on the Hayflick Limit in immortalized fibroblasts."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Rationale for No Contributor Role for Agents",
+      "content": "Agents are denied Contributor role because: (1) Contributor can grant/revoke Viewers, enabling unauthorized access widening; (2) prompt injection via a summarized document could trigger unintended grants; (3) no folder-level scope exists, so Contributor opens the entire data room for writing. Temporary Contributor promotion is allowed only deliberately: short expiry matching the session, one named task, audit log review, and demotion the same day. Executor-module rights remain uninstalled pending a treasury audit."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Public File Policy",
+      "content": "All files in the data room are currently marked public — accessible without account, wallet, or role via URL. Public uploads are treated as publications in the editorial sense. Non-public content must be uploaded as confidential (encrypted, gated on live onchain role check; Viewer role sufficient to decrypt)."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Credential Hygiene",
+      "content": "Credentials and their storage:\n- Owner wallet: everything on the Lab; stored in user's wallet client, never on disk in workspace\n- Consumer credential (mol_usr-…): API reads and seed mutations; ~/.config/argus-labs/credentials.env (mode 600)\n- Agent wallet key: signs pipeline agent's own token; ~/.config/argus-labs/agent_argus_pipeline.key (mode 600)\n- Agent service token (JWT): acts as agent wallet, permissions from onchain role; ~/.config/argus-labs/agent_service_token.jwt (mode 600)\n- Assistant OAuth token: acts as interactive assistant agent; ~/.pi/agent/mcp-auth.json (mode 600)\nRules: one credential per agent instance; Owner key never in scripts/prompts; token lifetime matches role grant expiry; tokens/keys never in repository, data room, or prompts; rotate on new agent, contributor departure, lost laptop, or unexplained write."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Audit Trail",
+      "content": "Each write to the data room produces a platform record: file path, version, content hash, wallet, timestamp — attributable to wallet, not person. Audit trail is public via onChainActivity and file history API (consumer credential sufficient). On the analysis side, each run writes run.json, run.log, and outputs to argus-output/<date>-<task>/ (append-only). Monthly review of last 30 entries."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Revocation Drill",
+      "content": "5-step revocation procedure designed for single-person execution at any hour: (1) Revoke grant via Members UI; (2) Confirm via RoleRevoked event in onChainActivity; (3) Delete agent's local credential (agent_service_token.jwt and wallet key if compromised); (4) Read last 24h of onChainActivity and diff against previous export; (5) Record incident in STATE.md. Policy requires a practice drill before the pilot."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Known Limits and Constraints",
+      "content": "Acknowledged limitations of the access control system:\n- No per-directory permissions; folder discipline is human-enforced only\n- Any write-capable role is write-capable across the entire data room\n- Members list in app and onchain event log can disagree for minutes; event log is authoritative\n- Agent connected via assistant connector flow receives permanent grant by default (re-issued with expiry when noticed)\n- Maximum 20 agents per Lab; each requires its own wallet and revocation story"
+    }
+  ],
+  "key_findings": [
+    "This is an access control policy document, not a scientific results document — it contains no experimental data, assay results, or TRL-relevant technical findings.",
+    "The document references an active pre-registered research protocol: ARGUS_Protocol_Hayflick_Limit_Immortalized_Fibroblasts.md, indicating the underlying project studies the Hayflick Limit in immortalized fibroblasts.",
+    "Referenced files EVIDENCE.md, THEORY.md, and PARAMETERS.md suggest a structured, pre-registered experimental framework is in place for the ARGUS-OS1 project.",
+    "The lab uses a blockchain-based (Base network) onchain access control system (AccessResolver contract at 0x89a14Be8f7824d4775053Edad0f2fA2d6767b72B) for data room governance.",
+    "Two external readers (Aubrey de Grey and David Meyer) have Viewer access expiring 9 Feb 2027, suggesting external scientific advisory or review relationships.",
+    "An automated pipeline agent (argus-pipeline) holds Viewer access for automated reading, tracking, and analysis — indicating active computational analysis workflows.",
+    "The policy explicitly protects pre-registration integrity by forbidding agent edits to the protocol file, which is consistent with a project at an early experimental stage where pre-registration is meaningful.",
+    "No quantitative experimental results, efficacy data, or clinical/preclinical outcomes are present in this document."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Policy v1.0 Published",
+      "description": "Initial version of the Agent Access Policy for ARGUS-OS1 Lab was published.",
+      "date": "2026-11-11",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Supersedes: v1.0 of 11 November 2026.",
+      "page": 1
+    },
+    {
+      "title": "Policy v1.1 Published",
+      "description": "Revised Agent Access Policy v1.1 published, correcting the write boundary description from a platform control to a process control.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Version: 1.1 Date: 12 November 2026",
+      "page": 1
+    },
+    {
+      "title": "Viewer Grant Expiry — Aubrey de Grey",
+      "description": "Viewer access for external reader Aubrey de Grey expires on 9 February 2027.",
+      "date": "2027-02-09",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Aubrey de Grey 0xf3f4e0…a352550 Viewer 9 Feb 2027 external reader",
+      "page": 1
+    },
+    {
+      "title": "Viewer Grant Expiry — David Meyer",
+      "description": "Viewer access for external reader David Meyer expires on 9 February 2027.",
+      "date": "2027-02-09",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "David Meyer 0x619b75…3a75dc Viewer 9 Feb 2027 external reader",
+      "page": 1
+    },
+    {
+      "title": "Viewer Grant Expiry — argus-pipeline agent",
+      "description": "Viewer (isAgent) access for the argus-pipeline automated agent expires on 9 February 2027.",
+      "date": "2027-02-09",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "argus-pipeline agent 0xbe3b3e…93a645 Viewer, isAgent 9 Feb 2027 automated reading, tracking, analysis",
+      "page": 1
+    },
+    {
+      "title": "Grant Indexing Discrepancy Observed",
+      "description": "The members list in the app and the onchain event log disagreed by approximately twenty minutes on 12 November 2026 while a grant was being indexed.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "the two disagreed by roughly twenty minutes on 12 November while a grant was being indexed.",
+      "page": 1
+    }
+  ]
+}

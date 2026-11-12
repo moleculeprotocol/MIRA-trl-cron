@@ -1,0 +1,166 @@
+{
+  "file_path": "/ninety-day-plan-with-dated-deliverables",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "This is a 90-day execution plan for a biotech/research project (ARGUS) currently scored at TRL 2.75, outlining concrete deliverables, artifact requirements, and dates needed to achieve a higher TRL score in a MIRA re-assessment. The document maps MIRA criticisms to specific actions and artifacts, and defines a pre-registered primary endpoint around centriole age predicting cell division timing. The project is at an early stage (biology TRL 1, platform TRL ~3-4) with planned milestones running through March 2027.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Governing Rule",
+      "content": "Title: 'Ninety-day execution plan — what turns 2.75 into a new score.' The document's governing rule: every line is either a deliverable with a date and an artifact, or a mapping from a criticism to the action that answers it. Nothing is a promise without a file behind it. The current TRL score is 2.75 and the goal is to raise it via a MIRA re-assessment by 1 March 2027."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 1: Deliverables Table",
+      "content": "Six deliverables with due dates, required artifacts, workstream assignments, and expected TRL effects:\n\n1. Fiducial autofocus prototype mounted on the OpenFlexure fork | Due: 15 Jan 2027 | Artifact: Photo log, CAD revision, wiring note in hardware/ | Workstream: W2 | TRL effect: 3→4\n\n2. 72h focus-hold test, drift plotted | Due: 20 Jan 2027 | Artifact: CSV of focus error vs time, plot, summary in docs/ | Workstream: W2 | TRL effect: closes P0 gap against Axio Observer\n\n3. Protocol pre-registration deposited (OSF or Zenodo) | Due: before first imaging run | Artifact: DOI, timestamp, immutable version | Workstream: W1 | TRL effect: removes 'analysis can drift' objection\n\n4. Unattended end-to-end run on fixed samples producing a tracked-division log | Due: 31 Jan 2027 | Artifact: machine-readable log, run config, error report | Workstream: W3 | TRL effect: 4→5\n\n5. Second contributor onboarded (advisory or paid) | Due: 28 Feb 2027 | Artifact: name, role, signed scope, first commit or first review | Workstream: team | TRL effect: removes single-programmer objection\n\n6. Re-assessment request with 1–4 attached | Due: 1 Mar 2027 | Artifact: request text + attachments | Workstream: all | TRL effect: new score\n\nNote: 'If 1, 2 and 4 slip, the project-level TRL 1 stands and I do not contest it.'"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 2: Primary Endpoint Definition (Pre-Registration)",
+      "content": "The primary endpoint must be numeric and locked before the first imaging run:\n\n- Primary: Inherited centriole age rank predicts the interdivision interval in the same cell, tested by a pre-specified rank correlation with a stated effect-size floor; failure threshold fixed in advance.\n- Secondary: Division-interval variance explained by centriole age after controlling for cell volume and birth time.\n- Futility rule: If the first cohort shows no association above the floor, the hypothesis is reported as not supported in that system and the paper says so.\n\nKey instruction: 'Do not tune the floor after seeing the data. That single sentence is what separates a pre-registration from a press release.'"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 3: Criticism → Action → Expected Movement (Page 1)",
+      "content": "MIRA criticisms mapped to actions and document locations:\n\n1. Criticism: 'Entirely prospective, TRL 1 for everything' | Action: Per-workstream table plus artifacts 1, 2, 4 | Where: §2 of the supplement, items 1–4\n\n2. Criticism: 'Therapeutic relevance indirect' | Action: A validated division-timing readout, not a target claim; endpoint locked in item 3 | Where: §7 table, item 3"
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Section 3: Criticism → Action → Expected Movement (Page 2)",
+      "content": "Continued MIRA criticisms mapped to actions:\n\n3. Criticism: 'Optionality aspirational' | Action: One intervention class producing a dose-ordered shift in division timing, second cell system post-pilot, next review | Where: post-pilot, next review\n\n4. Criticism: 'IP 2/5, open licences' | Action: Method claims named, filing gate dated, cost line-itemed | Where: §4, gate at 60 days after positive pilot\n\n5. Criticism: 'Small team, one programmer' | Action: Item 5, plus verified test count (29 — 12 pytest, 17 Rust, stated in the TRL evidence pack), frozen spec, written procedures, public upstream patch | Where: §5, team field answer\n\n6. Criticism: 'No funding' | Action: OSC and Foresight pending, STF rejection declared with reason | Where: §5\n\n7. Criticism: 'Low confidence' | Action: Artifact index; the missing input was files, not plan | Where: §3, attachments 1–4"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 4: What Not To Do",
+      "content": "Strategic constraints explicitly stated:\n- Do not ask MIRA to raise TRL for the biology. It is 1, and arguing otherwise destroys credibility.\n- Do not claim the Caltech correspondence as a collaboration. It is correspondence.\n- Do not resubmit to Sovereign Tech Fund before Q4 2027; the prevalence criterion needs adopters, not a better draft.\n- Do not file a provisional on the readout method before the pilot threshold. A weak filing is worse than a defensive publication plus a dated gate.\n- Do not add dimensions to the score by inflating team size. A second contributor with a signed scope beats five names."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 5: Paper Trail / Funding Status",
+      "content": "Paper trail location: ~/Desktop/Services/grants/GLA/VitaDAO_ARGUS/MIRA_ARGUS_2026-11/\nFunding status: OSC and Foresight applications pending; Sovereign Tech Fund (STF) application rejected (reason declared). IP status: IP score 2/5, open licences; method claims named but not yet filed; filing gate set at 60 days after positive pilot. Test suite: 29 tests total — 12 pytest, 17 Rust (stated in TRL evidence pack). Caltech correspondence exists but is not a collaboration."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 6: Calendar Summary",
+      "content": "Consolidated calendar:\n- 15 Jan 2027: Items 1 (fiducial autofocus prototype) and 2 (72h focus-hold test)\n- Before first imaging run: Item 3 (protocol pre-registration)\n- 31 Jan 2027: Item 4 (unattended end-to-end run)\n- 28 Feb 2027: Item 5 (second contributor onboarded)\n- 1 Mar 2027: Item 6 (re-assessment request sent)"
+    }
+  ],
+  "key_findings": [
+    "Current TRL score is 2.75; biology sub-component is explicitly TRL 1 and not contested.",
+    "Primary scientific hypothesis: inherited centriole age rank predicts interdivision interval in the same cell, to be tested by pre-specified rank correlation with a stated effect-size floor.",
+    "Platform hardware workstream (W2) targets TRL 3→4 with fiducial autofocus prototype on OpenFlexure fork by 15 Jan 2027.",
+    "Unattended end-to-end run on fixed samples (W3) targets TRL 4→5 by 31 Jan 2027.",
+    "Protocol pre-registration (OSF or Zenodo) required before first imaging run to remove 'analysis can drift' objection.",
+    "Test suite has 29 tests (12 pytest, 17 Rust) documented in TRL evidence pack — evidence of software maturity.",
+    "Funding: OSC and Foresight applications pending; Sovereign Tech Fund rejected (reason declared); no current funding secured.",
+    "IP score rated 2/5; method claims named but not filed; IP filing gate set at 60 days after positive pilot result.",
+    "Team is currently a single programmer; second contributor onboarding planned by 28 Feb 2027.",
+    "Caltech correspondence exists but is explicitly not a collaboration.",
+    "STF resubmission deferred to Q4 2027 minimum.",
+    "Futility rule pre-specified: if first cohort shows no association above the effect-size floor, hypothesis reported as not supported.",
+    "Secondary endpoint: division-interval variance explained by centriole age after controlling for cell volume and birth time.",
+    "MIRA re-assessment request planned for 1 Mar 2027 with all artifacts attached."
+  ],
+  "document_date": "2026-11",
+  "milestones": [
+    {
+      "title": "Fiducial Autofocus Prototype on OpenFlexure Fork",
+      "description": "Build and mount fiducial autofocus prototype on the OpenFlexure fork; produce photo log, CAD revision, and wiring note in hardware/ directory. Expected TRL effect: 3→4 for workstream W2.",
+      "date": "2027-01-15",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Fiducial autofocus prototype mounted on the OpenFlexure fork | 15 Jan 2027 | Photo log, CAD revision, wiring note in hardware/ | W2 | 3 → 4",
+      "page": 1
+    },
+    {
+      "title": "72-Hour Focus-Hold Test with Drift Plot",
+      "description": "Run a 72-hour focus-hold test and plot drift; produce CSV of focus error vs time, plot, and summary in docs/. Closes P0 gap against Axio Observer for workstream W2.",
+      "date": "2027-01-20",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "72 h focus-hold test, drift plotted | 20 Jan 2027 | CSV of focus error vs time, plot, summary in docs/ | W2 | closes P0 gap against Axio Observer",
+      "page": 1
+    },
+    {
+      "title": "Protocol Pre-Registration Deposited (OSF or Zenodo)",
+      "description": "Deposit protocol pre-registration on OSF or Zenodo before the first imaging run; obtain DOI, timestamp, and immutable version. Removes 'analysis can drift' objection for workstream W1.",
+      "date": "before first imaging run",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Protocol pre-registration deposited (OSF or Zenodo) | before first imaging run | DOI, timestamp, immutable version | W1 | removes \"analysis can drift\" objection",
+      "page": 1
+    },
+    {
+      "title": "Unattended End-to-End Run Producing Tracked-Division Log",
+      "description": "Complete an unattended end-to-end imaging run on fixed samples producing a machine-readable tracked-division log, run config, and error report. Expected TRL effect: 4→5 for workstream W3.",
+      "date": "2027-01-31",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Unattended end-to-end run on fixed samples producing a tracked-division log | 31 Jan 2027 | machine-readable log, run config, error report | W3 | 4 → 5",
+      "page": 1
+    },
+    {
+      "title": "Second Contributor Onboarded",
+      "description": "Onboard a second contributor (advisory or paid) with name, role, signed scope, and first commit or first review documented. Removes single-programmer objection.",
+      "date": "2027-02-28",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Second contributor onboarded (advisory or paid) | 28 Feb 2027 | name, role, signed scope, first commit or first review | team | removes single-programmer objection",
+      "page": 1
+    },
+    {
+      "title": "MIRA Re-Assessment Request Submitted",
+      "description": "Submit re-assessment request to MIRA with deliverables 1–4 attached as artifacts. Expected outcome: new (higher) TRL score.",
+      "date": "2027-03-01",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Re-assessment request with 1–4 attached | 1 Mar 2027 | request text + attachments | all | new score",
+      "page": 1
+    },
+    {
+      "title": "IP Filing Gate (60 Days After Positive Pilot)",
+      "description": "Method claims named; IP provisional filing gate set at 60 days after a positive pilot result. Filing deferred until pilot threshold is met.",
+      "date": "60 days after positive pilot",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Method claims named, filing gate dated, cost line-itemed | §4, gate at 60 days after positive pilot",
+      "page": 2
+    },
+    {
+      "title": "Sovereign Tech Fund Resubmission",
+      "description": "Do not resubmit to Sovereign Tech Fund before Q4 2027; prevalence criterion needs adopters, not a better draft.",
+      "date": "2027-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "Do not resubmit to Sovereign Tech Fund before Q4 2027; the prevalence criterion needs adopters, not a better draft.",
+      "page": 2
+    },
+    {
+      "title": "Sovereign Tech Fund Rejection",
+      "description": "STF (Sovereign Tech Fund) application was rejected; reason declared in the funding section of the MIRA submission.",
+      "date": "2026-11",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "OSC and Foresight pending, STF rejection declared with reason",
+      "page": 2
+    }
+  ]
+}

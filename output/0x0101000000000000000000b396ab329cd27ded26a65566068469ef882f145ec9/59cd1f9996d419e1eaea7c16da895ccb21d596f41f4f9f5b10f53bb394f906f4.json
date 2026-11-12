@@ -1,0 +1,228 @@
+{
+  "file_path": "/benchmark-against-zeiss-axio-observer-7-gaps-and-open-fixes",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is an engineering analysis authored by Jaba Tqemaladze for the ARGUS open microscopy project, benchmarking the Zeiss Axio Observer 7 commercial platform against the ARGUS OS1/OS2/OS3 open hardware microscope system. It identifies four key technical gaps in ARGUS (hardware autofocus/focus-hold, multi-channel LED illumination, environmental incubation control, and precision piezo Z) and proposes open/low-cost solutions for each, supported by verified scientific literature. The document serves as a design and roadmap guide for ARGUS development stages, with concrete next-step recommendations and a meta-analysis of requirements for multi-day live-cell centriole tracking.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "TL;DR — ARGUS vs. Axio Observer Benchmark Summary",
+      "content": "The Axio Observer 7 (Zeiss) is identified as the benchmark commercial inverted microscope for long-term live-cell imaging. The document defines a minimum capability set for multi-hour/multi-day cell and centriole tracking: (1) hardware autofocus/focus-hold (Definite Focus 3) — identified as ARGUS OS1's main gap; (2) multi-channel LED illumination (Colibri 7) for low phototoxicity and fast switching; (3) environmental control (CO₂/temperature/humidity) for multi-day experiments; (4) fully motorized stack (Z, XY, turret, condenser, filters); (5) sCMOS detector + unified acquisition software. Meta-analysis identifies four ARGUS gaps — focus-hold, incubation/environment, multi-channel LED, precision Z (piezo) — all described as closable with open/low-cost solutions, confirmed by recent literature (PMID 42274973, 42525498, 42373656). Axio Observer weak points noted: price ($100–200K+), closed platform, residual phototoxicity, no autonomous sample handling, and infrastructure requirements."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Axio Observer 7 HCS Configuration (A*STAR iCORE Example)",
+      "content": "Subsystem | Solution | Role\nAutofocus | Definite Focus 3 (NIR LED + photodetector) | Focus-drift compensation in multi-day time-lapse\nFluorescence illumination | Colibri 7 (7 excitation wavelengths) | Fast multispectral acquisition\nTransmitted light | VIS-LED (brightfield) | Phase contrast / DIC\nObjectives | 5×/0.16, 10×/0.45, 20×/0.8, 40× LD, 63× oil, 63× water/silicone/glycerine | Survey to detail\nDetectors | pco.edge 4.2 (sCMOS, mono) + Axiocam 208 color | Sensitivity + color\nStage | Scanning Stage 130×100 STEP | Multi-position, tiles\nSoftware | ZEN 3.3 pro (blue) | Unified control"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Axio Observer live (2026 live-cell bundle)",
+      "content": "Preconfigured system for stable environmental control featuring: Glass Lid CO₂/O₂ heated, Temperature Controller + Heated Plate K (3 inserts), Scanning stage 130×100, Z8 workstation with 128 GB RAM and nVidia Quadro RTX A4000 (16 GB) for local compute. ZEN Toolkits: Motorized Acquisition, 2D, Molecular Quantification, Deconvolution. Objectives: EC Plan-Neofluar 5×/0.16, Plan-Apochromat 10×/0.45, 20×/0.8, LD LCI Plan-Apochromat 40×. Example use case: HEK293, phase contrast, 3×3 tiles, 240 s interval. Document concludes that environmental stability (temperature + gas) is a precondition for stable imaging, arguing that an incubation module is a requirement (not an option) for ARGUS OS2."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Definite Focus (Hardware Autofocus) — Engineering Detail",
+      "content": "Principle: NIR LED (~835 nm) projects an infrared beam onto the bottom of the culture vessel; reflected pattern analyzed by detector to continuously measure objective↔sample distance. On Z-drift (thermal, mechanical), system returns focus in real time. Versions: Definite Focus (2011), Definite Focus.2, Definite Focus.3 (2022+). NIR chosen because 835 nm is invisible to most fluorophores and does not excite autofluorescence, so it does not affect fluorescence channels and works at any exposure. Identified as critical because the main failure mode of long time-lapse is thermal/mechanical Z-drift — without hardware focus-hold, multi-day acquisition is impossible or requires manual intervention. Competitor equivalents: Nikon Perfect Focus System (PFS, IR, hardware, real-time); Olympus TruFocus ZDC (IX3-ZDC2, one-shot + continuous, ultrasonic stage); Leica Adaptive Focus Control (AFC, LED beam, real-time). Open alternatives for ARGUS: fiducial marker autofocus (PMID 42274973), LED-based optical autofocus (PMID 42525498), real-time light-field autofocus <2 µm error, 0.1 s (PMID 42373656), OpenFlexure autofocus (arXiv:2109.06842)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Colibri LED Illumination Engineering Detail",
+      "content": "Colibri 7 provides 7 excitation wavelengths covering the visible range. Variants: Colibri 2 (4 channels), Colibri 5 (5), Colibri 7 (7). LED advantages over arc lamp/laser: (a) low phototoxicity (narrow spectrum, no excess UV); (b) instant on/switching (ms) — no shutter needed; (c) stable intensity without warm-up; (d) long lifetime (thousands of hours); (e) low heat output — does not warm the sample. Document argues this directly justifies replacing the single 405 nm laser (PhD microscope) and single LED (OS1) with a multi-channel LED engine in ARGUS."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Incubation / Environmental Control Engineering Detail",
+      "content": "Zeiss options include stage-top incubators, XL incubators (XLmulti S1, XL S1), heated plates, heated glass lids with gas control (CO₂/O₂), and temperature controllers. Axio Observer live integrates environmental control as a first-class component. Benchtop analogues (microscope-in-incubator concept): IncuCyte S3/SX5 (Sartorius) — imaging for days/weeks/months inside a standard tissue-culture incubator; Keyence BZ-X; Cytation (Agilent BioTek). For ARGUS OS2, a modular approach is proposed: stage-top + local gas controller, or placement inside an incubator."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Motorized Stack, Piezo Z, Apotome 3, Auto-Immersion, Detectors",
+      "content": "Motorized stack: motorized Z-drive (fine focus), XY scanning stage, motorized objective turret (nosepiece), motorized condenser (phase rings), motorized filter turret (6 positions). Piezo Z (Scanning Stage PIEZO): fast precise Z-series for 3D (nm step) — important for centriole Z-stacks (depth 1–2 µm, step 100–300 nm). Apotome 3: structured illumination (grid projection) in widefield → confocal-like optical sectioning without confocal/laser cost; improves contrast for 3D analysis of centrioles (~200–500 nm). Open alternative: SIM/structured illumination (PMID 42322141), HiLo microscopy. Auto-immersion module: automatic immersion-medium dispensing for water objectives (60×/1.2 WI, 63× WI). Detectors: pco.edge 4.2 sCMOS (>90% QE, low read noise, 16-bit) for weak centriole fluorescence. Software: ZEN unified pipeline (multi-dimensional acquisition T/Z/position/channel, tiles + stitching, autofocus integration, deconvolution, automation). Open alternative: Micro-Manager + Mastodon (PMID 42841415)."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Platform Comparison: Zeiss Axio Observer 7 vs. Competitors vs. ARGUS OS1/OS2",
+      "content": "Parameter | Zeiss Axio Observer 7 | Nikon Eclipse Ti2-E | Olympus IXplore IX83 | Leica DMi8 | ARGUS OS1/OS2 (open)\nHardware autofocus | Definite Focus 3 | Perfect Focus System | TruFocus ZDC | AFC | ⚠️ none (software/stepper)\nFOV | 23 mm | 25 mm | 22 mm | 22 mm | ~depends\nLED multi-channel | Colibri 7 (7 ch) | SOLA/Lumencor | pE-300/400 | LED8/LED5 | ⚠️ 1 channel\nIncubation | XL/stage-top/live bundle | Ti2 incubators | IX3 incubators | DMi8 incubators | ⚠️ none\nPiezo Z | optional | optional | optional | optional | ⚠️ none\nsCMOS | pco.edge | Prime/ORCA | ORCA | DFC | ⚠️ OS2 plan\nOptical sectioning | Apotome 3 | (confocal) | SpinSR | THUNDER | ⚠️ OS3 (light-sheet)\nAutonomous sample change | ❌ no | ❌ no | ❌ no | ❌ no | ✅ V9 hands\nPrice | $100–200K+ | $100K+ | $100K+ | $100K+ | $3–5K (OS1)\nOpenness | closed | closed | closed | closed | ✅ open"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Scientific Literature: Phototoxicity Evidence",
+      "content": "PMID 42393487 | Stadter et al. 2026 — Phototoxicity of brightfield live-cell imaging on murine ovarian follicles (Arch Gynecol Obstet) | Even transmitted light kills cells (granulosa) — phototoxicity ceiling mandatory, exposure minimisation in ALL channels\nPMID 28749075 | Icha et al. 2017 — Phototoxicity in live fluorescence microscopy (BioEssays) | Classic: light damages living cells; reduction strategies\nPMID 23931522 | Magidson & Khodjakov 2013 — Circumventing photodamage (Methods Cell Biol) | Practice: short exposures, exposure sensors, sensitive cameras\nPMID 19261845 | Frigault et al. 2009 — Live-cell microscopy: tips and tools (J Cell Sci) | Classic live-cell: contrast, stability, environment"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Scientific Literature: Autofocus / Drift Compensation",
+      "content": "PMID 42274973 | Djafer-Cherif & Waclaw 2026 — Affordable fiducial marker autofocus for long-term live microscopy (J Microsc) | Low-cost open path to hardware autofocus (fiducial markers) — candidate for OS1/OS2\nPMID 42525498 | Habte et al. 2026 — Quantitative evaluation of LED-based optical autofocus module (J Microsc) | Reproducible quantitative LED autofocus\nPMID 42373656 | Wang et al. 2026 — Real-time robust autofocus for sustained scanning light-field (Nat Commun) | Autofocus without hardware modification, <2 µm error, 0.1 s"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Scientific Literature: Lineage Tracking / Cell Following",
+      "content": "PMID 42841415 | Girstmair et al. 2026 — Mastodon: command center for lineage-tracing microscopy (Development) | Lineage-dataset command center — integrate into OS1/OS2\nPMID 42261409 | Tran et al. 2026 — Lineage-resolved cell identities in uncompressed C. elegans embryos (MicroPubl Biol) | Direct precedent: lineage-resolved cell identity in C. elegans\nPMID 42499344 | Chandra et al. 2026 — Open-source longitudinal single-cell tracking pipeline | Open tracking pipeline + cell cycle\nPMID 42506143 | Martí-Pérez et al. 2026 — Microscopy Cell Segmentation: review & benchmarking | Current segmentation choice (CellPose/StarDist)\nPMID 42562828 | Okafornta et al. 2026 — Cell size reduction scales spindle in C. elegans (Nat Commun) | C. elegans live imaging: mitotic apparatus scaling"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Scientific Literature: Open Hardware / Live-Cell Architecture Confirmation",
+      "content": "PMID 42583731 | Malcolm et al. 2026 — Removing barriers to advanced imaging + ML (J Cell Sci) | OpenFlexure + ML: confirmation of ARGUS architecture\nPMID 36756063 | McDermott et al. 2023 — OpenFlexure Voice Control + Blockly (R Soc Open Sci) | OpenFlexure scripting for autonomy\nPMID 41795377 | Moncada-Madrazo et al. 2026 — In-incubator chip-sized holographic microscope (Biosens Bioelectron) | Microscope-in-incubator concept for long runs\nPMID 42103520 | Knapper et al. 2026 — OpenFlexure in gynecological pathology (Int J Gynecol Cancer) | OpenFlexure real-world clinical use\nDOI 10.64898/2026.02.02.703252 | Malcolm et al. 2026 — Adapting OpenFlexure for Affordable Live-Cell Imaging | OpenFlexure live-cell adaptation"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Scientific Literature: Centriole Biology",
+      "content": "PMID 42602968 | Izumi et al. 2026 — Odf2 asymmetric inheritance (iScience) | Molecular machinery of asymmetric inheritance\nPMID 42708509 | Wang et al. 2026 — Centrosome migration in MDCK cysts (eLife) | Centrosome ↔ polarity\nPMID 41124206 | Jha et al. 2025 — C. elegans SAS-1 (PLoS Genet) | Centriole marker in C. elegans"
+    },
+    {
+      "page": 4,
+      "type": "table",
+      "title": "Priority Ranking of Engineering Solutions to Adopt for ARGUS",
+      "content": "# | Solution | Source | Impact | Open Implementation | ARGUS Version\n1 | Hardware focus-hold | Definite Focus 3 / PFS / TruFocus / AFC | ⭐⭐⭐ critical for multi-day | Fiducial autofocus (PMID 42274973); LED autofocus (42525498); OpenFlexure autofocus (arXiv 2109.06842) | OS1→OS2\n2 | Multi-channel LED engine (4–7 channels) | Colibri 7 / Lumencor Aura | ⭐⭐⭐ low phototoxicity + fast switching | LED arrays (UC2 style), DAPI/FITC/TRITC/Cy5 channels | OS1\n3 | Incubation module (environment) | Axio Observer live / IncuCyte | ⭐⭐⭐ multi-day imaging requires environment | Stage-top chamber + CO₂/temperature; or microscope in incubator (41795377) | OS2\n4 | Piezo Z (precision Z) | Scanning Stage PIEZO | ⭐⭐ centriole Z-stacks | Piezo Z stage (open drivers) | OS2\n5 | sCMOS detector | pco.edge 4.2 | ⭐⭐ sensitivity | ORCA/Prime class | OS2\n6 | Micro-Manager + Mastodon integration | ZEN / Mastodon (42841415) | ⭐⭐ unified lineage pipeline | μManager + Mastodon | OS1\n7 | Optical sectioning (SIM/Apotome class) | Apotome 3 | ⭐ 3D centriole contrast | SIM/HiLo (42322141) | OS2/OS3\n8 | Auto-immersion | Autoimmersion | ⭐ 60× WI stability | Immersion dispenser | OS2\n9 | Multi-position + tiles/stitching | Scanning stage 130×100 | ⭐⭐ N=100 scale | OpenFlexure XY + stitching | OS1→OS2\n10 | Dual detector (mono + color) | pco.edge + Axiocam 208 | ⭐ overview + quantitative | 2 cameras | OS2"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Axio Observer Weak Points and Lessons for ARGUS",
+      "content": "Price: $100–200K+ full config; ~$50K live bundle. Lesson: Open platform at $3–5K is the main advantage; do not lose it. Closure: ZEN proprietary; autofocus/interfaces closed; cannot be modified/repaired. Lesson: ARGUS open specifications, repairability (3D printing). Phototoxicity not eliminated: LED reduces but multi-day fluorescence still damages (PMID 42393487, 28749075). Lesson: Body Law — phototoxicity ceiling + exposure minimisation + sensitive cameras. No autonomous sample change: requires human for plate/medium changes. Lesson: V9 hands solve what the benchmark cannot. Infrastructure: anti-vibration table, stable power, air conditioning. Lesson: Document installation requirements. Service/support: closed service contracts, expensive repair. Lesson: Open documentation + local maintenance. Edge-AI integration: ZEN requires powerful host (RTX A4000), not edge. Lesson: ARGUS Jetson — edge-first; a differentiator."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Meta-Analysis: 6 Pillars of Successful Long-Term Lineage Microscopy",
+      "content": "Synthesis of Axio Observer + competitors + literature defines what ARGUS must have for multi-day centriole tracking: (1) Stable focus — Z-drift is the main mechanical failure mode → hardware focus-hold, NIR-independent channel. (2) Stable environment (temperature/CO₂/humidity) → incubation; otherwise sample physiology is distorted and multi-hour series lose meaning. (3) Minimal phototoxicity — illumination is the main biological confounder → LED multi-channel, exposure minimisation, sensitive cameras, Body-Law ceiling. (4) Motorization of all axes + precision Z (Z/XY/turret/condenser + piezo) → automatic multi-position series, centriole Z-stacks. (5) Sensitive detector + analysis pipeline (sCMOS + segmentation + lineage tracking) → sCMOS, CellPose/Mastodon, local AI. (6) Autonomy on long runs (no human between points) → V9 hands + LLM brain + scheduler; here ARGUS exceeds the commercial benchmark. Meta-analysis conclusion: Axio Observer confirms the ARGUS architecture and reveals 4 concrete technical gaps, each closable by open solutions. None of the 6 requirements demands closed Zeiss technology."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Recommendations: Concrete Next Steps (P0/P1/P2)",
+      "content": "P0 (OS1, ~$200–500): Build a fiducial-autofocus prototype (PMID 42274973) on OpenFlexure; evaluate accuracy against stepper Z. P0 (OS1, ~$150–400): Add a 4-channel LED engine (DAPI/FITC/TRITC/Cy5) with TTL drivers — basis for low phototoxicity. P1 (OS2): Design the incubation module (stage-top, CO₂/temperature/humidity) modelled on Axio Observer live; add to OS2 budget. P1 (OS2): Include piezo Z stage and sCMOS (pco.edge/ORCA class) in OS2 budget ($307K full — check HW coverage of ~$70K). P1 (OS1/OS2): Integrate Micro-Manager + Mastodon for the lineage pipeline. P2 (OS3): SIM/HiLo module as a low-cost Apotome alternative for centriole 3D. Documentation: EVIDENCE.md updated; status updated in STATE.md."
+    }
+  ],
+  "key_findings": [
+    "ARGUS OS1 has four identified technical gaps vs. commercial benchmark (Axio Observer 7): (1) no hardware autofocus/focus-hold, (2) no multi-channel LED illumination (only 1 channel), (3) no environmental incubation control, (4) no precision piezo Z stage.",
+    "All four ARGUS gaps are described as closable with open/low-cost solutions, confirmed by recent literature: fiducial marker autofocus (PMID 42274973), LED-based autofocus (PMID 42525498), light-field autofocus <2 µm error in 0.1 s (PMID 42373656).",
+    "ARGUS OS1 estimated cost is $3–5K vs. $100–200K+ for Zeiss Axio Observer 7 full configuration.",
+    "Phototoxicity is identified as the main biological confounder of long-term imaging: even transmitted brightfield light kills cells (PMID 42393487, Stadter et al. 2026 on murine ovarian follicles).",
+    "Hardware autofocus (Definite Focus 3, NIR ~835 nm) is identified as the critical engineering solution for multi-day time-lapse; without it, multi-day acquisition is impossible or requires manual intervention.",
+    "ARGUS uniquely exceeds the commercial benchmark in autonomous sample handling (V9 robotic hands) — no commercial platform (Zeiss, Nikon, Olympus, Leica) offers this capability.",
+    "Mastodon (PMID 42841415, Girstmair et al. 2026) identified as the command center for lineage-tracing datasets, recommended for integration into ARGUS OS1/OS2.",
+    "OpenFlexure + ML architecture confirmed by Malcolm et al. 2026 (PMID 42583731) as a viable open platform for advanced imaging.",
+    "Axio Observer live (2026 bundle) ships with Z8 workstation + RTX A4000 (16 GB) for local analysis, confirming ARGUS's local compute strategy; ARGUS uses Jetson Orin NX at ~5–15 W vs. ~200 W workstation.",
+    "Centriole Z-stacks require depth 1–2 µm with step 100–300 nm, necessitating piezo Z stage for ARGUS OS2.",
+    "Six pillars of successful long-term lineage microscopy defined: stable focus, stable environment, minimal phototoxicity, full motorization + precision Z, sensitive detector + analysis pipeline, and autonomy on long runs.",
+    "P0 recommendations for ARGUS OS1 include fiducial-autofocus prototype (~$200–500) and 4-channel LED engine (~$150–400); P1 for OS2 includes incubation module and piezo Z + sCMOS within ~$70K hardware budget."
+  ],
+  "document_date": "2026-10-19",
+  "milestones": [
+    {
+      "title": "Document Authored and PMIDs Verified",
+      "description": "Engineering analysis document authored by Jaba Tqemaladze; all PMID/DOI references verified via Europe PMC / NCBI E-utilities / official vendor pages.",
+      "date": "2026-10-19",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Date: 2026-10-19\nStatus: 📄 Analysis + meta-analysis. All PMID/DOI verified 2026-10-19 (Europe PMC / NCBI E-utilities / official vendor pages).",
+      "page": 1
+    },
+    {
+      "title": "Definite Focus 3 Release",
+      "description": "Zeiss released Definite Focus.3, the third generation of their NIR hardware autofocus system for the Axio Observer platform.",
+      "date": "2022",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Versions: Definite Focus (2011), Definite Focus.2, Definite Focus.3 (2022+).",
+      "page": 2
+    },
+    {
+      "title": "Definite Focus Original Release",
+      "description": "Zeiss released the original Definite Focus hardware autofocus system.",
+      "date": "2011",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Versions: Definite Focus (2011), Definite Focus.2, Definite Focus.3 (2022+).",
+      "page": 2
+    },
+    {
+      "title": "Axio Observer live Bundle Launch (2026)",
+      "description": "Zeiss launched the Axio Observer live preconfigured live-cell imaging bundle with integrated environmental control (CO₂/O₂, temperature, heated glass lid) and local compute (Z8 + RTX A4000).",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Axio Observer live (live-cell bundle, 2026)\nPreconfigured system specifically for stable environmental control",
+      "page": 1
+    },
+    {
+      "title": "P0: Fiducial-Autofocus Prototype Build (ARGUS OS1)",
+      "description": "Build a fiducial-autofocus prototype (based on PMID 42274973) on OpenFlexure and evaluate accuracy against stepper Z. Estimated cost ~$200–500.",
+      "date": "OS1",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "P0 (OS1, ~$200–500): build a fiducial-autofocus prototype (PMID 42274973) on OpenFlexure; evaluate accuracy against stepper Z.",
+      "page": 5
+    },
+    {
+      "title": "P0: 4-Channel LED Engine Addition (ARGUS OS1)",
+      "description": "Add a 4-channel LED engine (DAPI/FITC/TRITC/Cy5) with TTL drivers to ARGUS OS1 as the basis for low phototoxicity multi-channel imaging. Estimated cost ~$150–400.",
+      "date": "OS1",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "P0 (OS1, ~$150–400): add a 4-channel LED engine (DAPI/FITC/TRITC/Cy5) with TTL drivers — the basis for low phototoxicity.",
+      "page": 5
+    },
+    {
+      "title": "P1: Incubation Module Design (ARGUS OS2)",
+      "description": "Design the incubation module (stage-top, CO₂/temperature/humidity) for ARGUS OS2, modelled on Axio Observer live; add to OS2 budget.",
+      "date": "OS2",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "P1 (OS2): design the incubation module (stage-top, CO₂/temperature/humidity) — modelled on Axio Observer live; add to the OS2 budget.",
+      "page": 5
+    },
+    {
+      "title": "P1: Piezo Z Stage and sCMOS Detector (ARGUS OS2)",
+      "description": "Include a piezo Z stage and sCMOS detector (pco.edge/ORCA class) in the ARGUS OS2 budget ($307K full — check HW coverage of ~$70K).",
+      "date": "OS2",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "P1 (OS2): include a piezo Z stage and sCMOS (pco.edge/ORCA class) in the OS2 budget ($307K full — check HW coverage of ~$70K).",
+      "page": 5
+    },
+    {
+      "title": "P1: Micro-Manager + Mastodon Integration (ARGUS OS1/OS2)",
+      "description": "Integrate Micro-Manager and Mastodon software for a unified lineage tracking pipeline in ARGUS OS1/OS2.",
+      "date": "OS1/OS2",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "P1 (OS1/OS2): integrate Micro-Manager + Mastodon for the lineage pipeline.",
+      "page": 5
+    },
+    {
+      "title": "P2: SIM/HiLo Optical Sectioning Module (ARGUS OS3)",
+      "description": "Develop a SIM/HiLo module as a low-cost Apotome alternative for centriole 3D imaging in ARGUS OS3.",
+      "date": "OS3",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "P2 (OS3): SIM/HiLo module as a low-cost Apotome alternative for centriole 3D.",
+      "page": 5
+    }
+  ]
+}
