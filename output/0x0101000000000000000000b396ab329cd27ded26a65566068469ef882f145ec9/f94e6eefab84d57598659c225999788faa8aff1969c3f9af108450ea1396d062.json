@@ -1,0 +1,256 @@
+{
+  "file_path": "/pilot-protocol-inherited-centriole-age-vs-interdivision-interval",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This is a hypothesis-grade experimental protocol (v0.3) for the ARGUS platform, investigating whether immortalized fibroblasts (BJ-hTERT, MRC5-hTERT) exhibit a Hayflick-like division limit, and whether division rate depends on centriole age (OLD vs NEW). The protocol is pre-registered and prospective — no experimental data exist yet — with all parameters to be calibrated by pre-tests. Three amendments (2026-11-12) add operational definitions for senescence endpoints, sampling/power requirements, and feasibility analysis for the two-cell maintenance design.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Status",
+      "content": "Protocol v0.3 titled 'Is there a Hayflick limit in immortalized fibroblasts? Division-rate dynamics of cells with the oldest and newest centriole.' Author: Jaba Tqemaladze, Georgia Longevity Alliance. Dated 2026-10-21, amended 2026-11-12 (Amendment 2). Status: hypothesis-grade protocol for validation on the ARGUS platform. All parameters are calibrated by pre-tests (V1–V6, TRD §6). NOT a ready laboratory protocol before pre-test data. Platform: ARGUS (docs/ARGUS_TRD_v0.9b.md)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 — Goals and Hypotheses (Q1, Q2, Q3)",
+      "content": "Three distinct scientific claims are separated:\n- Q1 (background, established): Hayflick limit in normal fibroblasts (~50 divisions). ARGUS does not test this.\n- Q2 (primary ARGUS question): Is there an analogous limit in BJ-hTERT and MRC5-hTERT immortalized lines? H1 (working): a limit exists even with hTERT, simply much larger and masked at population level by rapid colony growth. H0 (null): no limit — true immortality.\n- Q3 (mechanism): Does division rate depend on the age of the inherited centriole (OLD vs NEW)?\nQ2 and Q3 are measured and reported separately. Q2 = 'no limit in the observation window' is one answer; Q3 = 'OLD slows relative to NEW' is a mechanism compatible with a hidden limit but not identical to Q2."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1.1a — Observation Horizon and Stopping Criterion",
+      "content": "Horizon of the first stage is a defined window (e.g., ≥ N generations or ≥ 6 months, whichever comes first), not 'until 800–1000 divisions.' Pre-registered stopping criterion: (a) OLD/NEW divergence in interdivision time is statistically significant; OR (b) lineages reach the senescence endpoint defined in §4a; OR (c) the window ends without (a)/(b) → 'not detected in the window', boundary of conclusion is recorded. Extending the window only if data justify it. Autonomy = the justified window (e.g., 6 months), not 'years.'"
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Table 1.2 — Expected Division Counts by Cell Type (Working Estimates)",
+      "content": "| Cell type | Expected number of divisions |\n|-----------|------------------------------|\n| Somatic | ≈ 50 |\n| Stem | ≈ 200 |\n| Immortalized fibroblasts | ≈ 800–1000 |\n| Cancer | several thousand |\nNote: Numbers are working estimates, not source-confirmed (except somatic ≈50). The horizon does not depend on them."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1.3 — Instrumental Task of ARGUS",
+      "content": "Observe how the division rate of a cell carrying the oldest centriole changes while a cell carrying the newest centriole sits beside it, over a long period (months), without opening the enclosure. Expected signal of limit onset (H1, mechanism): progressive slowing of the OLD lineage relative to the NEW one. Experimental-purity constraints: no chemical treatment of tracked cells; OLD/NEW class determined by location (FR-12, FR-13). Design: exactly 2 single cells studied — carrying the oldest (OLD) and newest (NEW) centriole, side by side. All other cells produced by mitosis are removed. The culture does not grow."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 1.4 — Cancer Cells (Future Direction)",
+      "content": "Future direction: same task for cancer cells (if time permits). Cancer cells carry supernumerary centrioles. Control required: does a young centriole arise in the same cell next to the oldest one? If so, this may postpone the onset of the Hayflick limit; if the appearance of extra young centrioles is faster than the expected limit onset, this masks the Hayflick limit and the cell appears 'immortal.' ARGUS requirement: extension slots, including multi-centriole tracking per cell (TRD §3.2)."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Table 1.5 — Established Facts vs Hypotheses",
+      "content": "| Statement | Status |\n|---|---|\n| Mother centriole carries distal appendages, marked by Cep164, templates primary cilium | ✅ established |\n| Centrin-1 marks all centrioles | ✅ established |\n| Asymmetric mother/daughter centriole inheritance in several stem systems (e.g., neural progenitors) | ✅ documented in some systems |\n| Hayflick limit in somatic cells (≈50 divisions) and stem cells (≈200) | ✅ established |\n| Hayflick limit in immortalized (hTERT) fibroblasts | ❓ hypothesis — to be tested (primary goal) |\n| Link between centriole age and fibroblast division rate | ❓ hypothesis (to be tested) |\n| Masking of the limit by rapid colony growth through centriole dispersion | ❓ hypothesis (to be tested) |\n| 'Immortality' of cancer cells; role of supernumerary centrioles in postponing the limit | ❓ hypothesis (future direction) |"
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Table 2 — Cell Lines and Markers",
+      "content": "| Item | Value |\n|------|-------|\n| Primary line | BJ-hTERT (skin fibroblasts, hTERT-only, p53/pRb functional) |\n| Cross-validation | MRC5-hTERT (embryonic lung fibroblasts, hTERT-only) |\n| Marker of all centrioles | Centrin1-GFP |\n| Marker of mother (mature) centriole | Cep164-RFP (distal appendages) |\n| Senescence markers (endpoint) | SA-β-gal; p21/p16; loss of Ki67 — full operational definition in §4a |\n| Biosafety | BSL-1; BSL-2 under adenoviral transduction of markers |\nMarkers are transduced (lentivirus/adenovirus) before the experiment. Polyclonal stable expression preferred; if necessary, sort for low expression level."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 3 — Platform and Culture Conditions",
+      "content": "Imaging: fluorescence (488/561 nm); objective and camera selected from pre-test V3 (SNR, minimum exposure), NOT fixed before that. Light regime: minimal light load (FR-7); image only when needed; interval per V2/V3; manipulations in complete darkness from 3D map of internal cameras (FR-8). Enclosure: sealed, 37 ± 0.3 °C, 5 ± 0.5% CO₂, 2 ± 0.3% O₂, RH ≥ 90%; local dehumidification at camera (TRD §12); sterile entry/exit ports (FR-9). Medium: phenol-red-free; antibiotics at laboratory's discretion. Vessel: fluorescence-compatible; coating per V1 (fibronectin/collagen/other); 12×12 mm sample stage + adapters. Cell removal: method per V4/V5 (TRD §4, companion comparison); swappable port."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 4 — Experimental Design Overview (Phases 0–4)",
+      "content": "Phase 0 — Preparation and baseline: Expand line, passage to P5–P25; seed at low density for clonal tracking; no cell-cycle synchronization; baseline recording (count, viability, control division rate in regular plate for V6).\nPhase 1 — Lineage tracking and centriole-age assignment: Timelapse at 5–15 min intervals; mitotic event detection ≥90% (FR-2); centriole-age assignment at each division using Cep164+ (mother) vs Cep164− (daughter); identity by location (FR-12); polarity registration in 3D (FR-13). Assignment method: first-division anchor using Cep164; per-mitosis assignment by continuous pedigree tracking + age/maturity markers (tubulin PTMs, Odf2/cenexin); optional label-free channel (daughter-size asymmetry, Thomas & Meraldi 2024, JCB, PMID 39012627) only if calibrated to ≥95% accuracy.\nPhase 2 — Maintaining exactly 2 studied cells: OLD and NEW maintained; all other progeny removed (1–2 removals/day); accuracy ≤2 µm; no damage to focal cells; 100% digital logging (FR-11).\nPhase 3 — Measuring division-rate dynamics: Record interdivision time for OLD and NEW over many generations (months); primary endpoint = trend of interdivision time OLD vs NEW; secondary endpoints = mitosis duration, divisions per lineage, fraction of quiescent cells, daughter-size symmetry, cohort growth-curve slope.\nPhase 4 — Statistics, controls and validation: ≥3 independent experiments × 2 lines."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Table 4 — Required Controls",
+      "content": "| Control | Purpose | Expectation |\n|---|---|---|\n| Unpurified mixed culture | Population division-rate reference | Matches the line's literature rate |\n| Marker control (Cep164-RFP without removal) | The marker itself does not change division | Interdivision time = unmarked control |\n| Sham procedure (method path without action) | The removal procedure creates no selection artefact | No systematic shift in survivors |\n| Technical replicates (≥3 positions/run) | Instrumental variability | CV ≤ specified (per pilot) |"
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 4 — Statistical Tests and Independent Confirmation",
+      "content": "Tests: interdivision-time distribution comparison (Mann–Whitney or log-rank on division events); OLD vs NEW trend analysis over time (mixed models / rank-based trend tests); medians with 95% CI, effect size; power analysis from pilot (80% power, α = 0.05).\nIndependent confirmation: (1) second marker/method for mother-centriole age (Odf2/CD133; tubulin PTMs) on lineage subset; (2) confocal/SIM microscopy of fixed samples at endpoint; (3) electron microscopy on subset (centriole morphology, appendages, dispersion); (4) correlation of assigned age with division rate and senescence markers (SA-β-gal, p21/p16) at limit onset."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 4a — Amendment 1: Operational Definition of Senescence Endpoint",
+      "content": "Amendment 1 (2026-11-12): Operationally defines the senescence endpoint before any data exist (prospective pre-registration). Source: SenNet consortium recommendations (PMID 38831121, DOI 10.1038/s41580-024-00738-8, Nat Rev Mol Cell Biol 2024).\nRule: A senescent call requires at least two independent dimensions:\n- D1 (durable proliferation arrest): interdivision interval of tracked lineage; arrest = no division over a pre-registered multiple of that lineage's own baseline interval. Label-free, from tracking log alone.\n- D2 (senescence-associated morphology): nuclear area, eccentricity, texture, cytoplasmic/nuclear ratio per frame; deep-learning nuclear-morphology score (precedent: PMID 37118134, DOI 10.1038/s43587-022-00263-3). Label-free, from same image stack.\n- D3 (molecular markers): SA-β-gal; p16INK4a/p21; loss of Ki67. Fixed-sample endpoint only.\nDecision rule: Lineage called senescent when D1 AND D2 cross thresholds; D3 is confirmatory only. D1 with D2 negative = 'arrest of undetermined cause' — counts towards Q2 as arrest, not as senescence, reported explicitly. D2 thresholds calibrated in pilot (Phase 0–1) and frozen before full run."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 4b — Amendment 2: Sampling Requirement, Power Calculation, Readout Acceptance Test",
+      "content": "Amendment 2 (2026-11-12): Based on synthetic benchmark run on 12 November 2026 (phantom/, script, seed, checksum deposited in data room under TRL evidence pack; DOI 10.5281/zenodo.24148459). No images, lineages or pilot data existed at time of writing.\n\n4b.1 Sampling requirement: ≤100 nm/px; binning above 2×2 not allowed.\n- Pairs 6–9 px apart (~80 nm/px): 0.38 px localisation RMSE, recall 0.78, precision 0.92\n- Pairs 2–3 px apart (~250 nm/px): 1.25 px RMSE, recall 0.46, precision 0.99\nFailure mode: above ~150 nm/px, two centrioles of a pair merge into one object — produces systematically wrong OLD/NEW assignment that passes downstream checks. With 40×/0.95 objective and 1.55 µm sensor pitch: ~39 nm/px (compliant); same objective with 4×4 binning (6.2 µm effective pitch): 155 nm/px (fails).\n\n4b.2 Power: Detecting a 2-hour difference in interdivision interval (α=0.05 two-sided, power=0.8, σ≈6h from literature): n ≈ 115 cells per group (≈230 tracked lineages total per line, before attrition). Recruitment target: 150 per group per line; 115 as analysis floor. Three independent experiments in §4 are replication, not sample size. If true effect is 1h, n ≈ 460 per group — outside platform capacity; 2h stated as smallest effect of interest.\n\n4b.3 Readout acceptance test (must pass before first imaging run):\n| Metric | Threshold |\n|---|---|\n| Localisation RMSE | ≤0.6 px |\n| Detection recall | ≥0.75 |\n| Detection precision | ≥0.90 |\n| Interdivision interval MAE | ≤1.0 h (not yet implemented/scored) |\nThe interval MAE metric is not yet measured — implementing it and running the production tracker on the same phantom is a prerequisite for the pilot; failing it is a stop condition."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 4c — Amendment 3: Feasibility of Maintaining Exactly Two Cells",
+      "content": "Amendment 3 (2026-11-12): Addresses feasibility of the two-cell maintenance design before the removal method is fixed.\n\n4c.2 Requirements in numbers:\n| Requirement | Value |\n|---|---|\n| Removals per pair | 1–2 per day |\n| Horizon | 6–12 months per experiment |\n| Planned pairs | 6 (3 experiments × 2 lines) |\n| Removal events per run-year (derived) | ≈2,200–4,400 |\n| Hit accuracy | ≤2 µm from target |\n| Survival of observed cell | ≥threshold set in V4 |\n| Logging | 100% of events, with coordinates, time, method |\n\n4c.3 Recoverability argument: At 99.9% per-event reliability over 4,000 events, probability of clean run = (1−0.001)^4000 ≈ 0.018. Design built around recovery, not perfection: (1) detection latency below one doubling time (tracker at 5–15 min vs ~24h interdivision time in BJ-hTERT); (2) re-anchoring at every division; (3) every event logged and auditable; (4) selection artefact controlled by sham procedure and unpurified reference.\n\n4c.4 Stop condition: If no level-1 removal method meets both V4 survival and NFR-2 accuracy, Phase 2 changes to periodic manual splitting with identity re-anchored by pedigree — reduces usable lineages per experiment, must be re-costed against 115-per-group floor.\n\n4c.5 Genuinely unproven: Removal-module survival on these lines (V4), necrosis and debris management (V5), month-scale mechanical reliability of stage and enclosure (V8). Answered only by pre-tests, not by argument or synthetic benchmark."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Table 5 — Success Criteria (ARGUS Acceptance, per TRD §8)",
+      "content": "| Function | Criterion |\n|----------|----------|\n| FR-2 mitosis detection | ≥90% divisions detected |\n| FR-3 centriole tracking | SNR ≥3× above background; Completeness ≥80% |\n| FR-4 OLD/NEW dynamics | Trend statistically detectable (pilot → power) |\n| FR-5 removal | Accuracy ≤2 µm; observed-cell survival ≥specified (V4) |\n| FR-7 light load | Within NFR-12 while meeting SNR (V3) |\n| FR-11 logging | 100% events registered |\n\nAnswer criteria:\n- H0 supported: OLD and NEW divide at same stable rate over whole observation window, no senescence → 'no limit detected in the observation window'\n- H1 supported: OLD slows relative to NEW, senescence/dispersion markers appear → fundamental fact established. 'Senescence appears' means D1+D2 (+D3 confirmatory), not a single marker."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 6 — Risks and Honest Assessment",
+      "content": "1. Segregation pattern of mother/daughter centrioles in BJ-hTERT/MRC5-hTERT may be symmetric/stochastic — then OLD/NEW classes do not form. Checked in Phase 1 before mass removal.\n2. Removal of intermediate cells may select stress-resistant cells → systematic shift. Control: sham procedure and unpurified reference.\n3. Small population after removal → risk of lineage extinction; keep buffer copies in parallel plate.\n4. Cep164-RFP SNR in live cells may be insufficient → V3 (camera/filters/exposure) or alternative mother-centriole marker.\n5. Observation horizon: ~800–1000-division limit may not arrive within realistic time → 'not detected in window' ≠ 'no limit'.\n6. Long run (months) → medium drift, fouling, condensation, contamination — standard enclosure mechanisms (TRD §12, FR-9).\n7. Phototoxicity in long observation → 'image on demand' mode (FR-7); control V6 (proliferation in chamber vs plate).\n8. Reliability of continuous removal (Phase 2): removal failure/error accumulates; safeguard — frame verification and alerts (FR-11)."
+    },
+    {
+      "page": 6,
+      "type": "table",
+      "title": "Table 7 — Schedule, Dependencies and Pre-Tests",
+      "content": "| Step | Dependency | Deadline |\n|------|------------|----------|\n| Pre-tests V1–V6 (V2 — migration/interval, V3 — marker SNR, V4 — survival at removal, V5 — necrosis, V6 — environment effect) | — | 03.11.2026 |\n| TRD v1.0 (fix optics/camera/filters, removal method) | pre-tests | 06.11.2026 |\n| Pilot protocol (Phases 0–1, 20–30 lineages) | TRD v1.0 | after 06.11 |\n| Power analysis → full run (Phases 1–3, months) | pilot | per plan |\n| Analysis and report | full run | per plan |"
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 8 — Result Registration",
+      "content": "Full digital event log (divisions, removals, media changes) from ARGUS (FR-11). Tables: lineage_id, class (OLD/NEW), interdivision time by generation, fate (alive/removed/extinct), light dose. Report output: OLD/NEW trends, medians (95% CI), distributions, effect size, senescence markers, conclusion on the fundamental fact (H0/H1)."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 9 — Future Directions",
+      "content": "1. Cancer cells (if time permits): same dynamics; control — whether a young centriole arises next to the oldest one in the same cell (supernumerary centrioles); role in postponing/masking the limit; clarifying cancer origin.\n2. Centriole transplantation: experiments transferring centrioles between cells require knowledge of cell polarity — top/bottom pole in addition to left/right. ARGUS registers polarity from first stage (FR-13).\n3. Stem-cell niches: counting the limit in a specific, not-yet-counted stem-cell niche.\n4. Cardiac eliminate-reprogram-rebuild: a separate protocol on the same platform."
+    }
+  ],
+  "key_findings": [
+    "This is a hypothesis-grade protocol (TRL 1–2): no experimental data exist yet; all parameters are to be calibrated by pre-tests (V1–V6). The document is prospective and pre-registered.",
+    "Primary scientific question (Q2): whether immortalized fibroblasts (BJ-hTERT, MRC5-hTERT) exhibit a Hayflick-like division limit — currently an untested hypothesis.",
+    "Secondary question (Q3): whether division rate depends on the age of the inherited centriole (OLD vs NEW) — also an untested hypothesis.",
+    "Cell lines: BJ-hTERT (primary) and MRC5-hTERT (cross-validation); markers: Centrin1-GFP (all centrioles), Cep164-RFP (mother/mature centriole); senescence markers: SA-β-gal, p21/p16, loss of Ki67.",
+    "Synthetic benchmark (12 November 2026, DOI 10.5281/zenodo.24148459) established sampling requirement: ≤100 nm/px; binning above 2×2 not allowed. At ~80 nm/px: RMSE 0.38 px, recall 0.78, precision 0.92. At ~250 nm/px: RMSE 1.25 px, recall 0.46, precision 0.99.",
+    "Power calculation: n ≈ 115 cells per group (≈230 tracked lineages per line) to detect a 2-hour difference in interdivision interval (α=0.05, power=0.8, σ≈6h). Recruitment target: 150 per group per line.",
+    "Readout acceptance test thresholds: localisation RMSE ≤0.6 px, detection recall ≥0.75, detection precision ≥0.90, interdivision interval MAE ≤1.0 h (last metric not yet implemented).",
+    "Senescence endpoint operationally defined (Amendment 1, SenNet PMID 38831121): requires D1 (durable proliferation arrest) AND D2 (senescence-associated morphology); D3 (molecular markers) is confirmatory only.",
+    "Design requires ~2,200–4,400 removal events per run-year across 6 pairs; at 99.9% per-event reliability over 4,000 events, probability of a clean run is only ~1.8% — design built around recoverability, not perfection.",
+    "Key unproven elements: removal-module survival on these lines (V4), necrosis/debris management (V5), month-scale mechanical reliability (V8), and whether centriole segregation in BJ-hTERT/MRC5-hTERT is asymmetric (required for OLD/NEW class formation).",
+    "Label-free assignment method (daughter-size asymmetry, Thomas & Meraldi 2024, JCB, PMID 39012627) is optional and only used if calibrated to ≥95% accuracy against marker ground truth on BJ-hTERT/MRC5-hTERT.",
+    "Pre-tests V1–V6 were scheduled for completion by 03.11.2026; TRD v1.0 by 06.11.2026. No results from these pre-tests are reported in this document."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Protocol v0.2 — Primary Goal Established",
+      "description": "Primary goal changed to the fundamental fact (Hayflick limit in immortalized fibroblasts) and the instrumental task (OLD/NEW dynamics). Companion documents: TRD v0.9b, Cell Removal Methods Comparison.",
+      "date": "2026-10-21",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "v0.2 — primary goal changed to the fundamental fact (Hayflick limit in immortalized fibroblasts) and the instrumental task (OLD/NEW dynamics).",
+      "page": 6
+    },
+    {
+      "title": "Protocol v0.3 Initial Draft",
+      "description": "Version 0.3 of the ARGUS protocol drafted, establishing hypotheses, experimental design, and platform requirements.",
+      "date": "2026-10-21",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Date: 2026-10-21 · v0.3: 2026-11-12 (Amendment 2: sampling requirement, power, readout acceptance test)",
+      "page": 1
+    },
+    {
+      "title": "Synthetic Benchmark Run (phantom/)",
+      "description": "Readout benchmarked against generated ground truth on the phantom dataset; script, seed and checksum deposited in data room under TRL evidence pack. Established sampling requirement and power calculation. DOI 10.5281/zenodo.24148459.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Both were open questions until the readout was benchmarked against generated ground truth on 12 November 2026 (phantom/, script, seed and a checksum of the results are in the data room under TRL evidence pack).",
+      "page": 4
+    },
+    {
+      "title": "Amendment 1 — Senescence Endpoint Operationally Defined",
+      "description": "Operational definition of the senescence endpoint pre-registered before any data were collected, based on SenNet consortium recommendations (PMID 38831121). Requires D1 (proliferation arrest) AND D2 (morphology); D3 (molecular markers) confirmatory only.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Amendment 1 (2026-11-12): the senescence endpoint of stopping criterion (b) is operationally defined in §4a (SenNet, PMID 38831121), before any data were collected.",
+      "page": 6
+    },
+    {
+      "title": "Amendment 2 — Sampling, Power and Acceptance Test Fixed",
+      "description": "Sampling requirement (≤100 nm/px), power calculation (n ≈ 115 per group) and readout acceptance test fixed in §4b, from the synthetic benchmark deposited as DOI 10.5281/zenodo.24148459.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Amendment 2 (2026-11-12): sampling requirement (≤ 100 nm/px), power calculation (n ≈ 115 per group) and the readout acceptance test fixed in §4b, from the synthetic benchmark deposited as DOI 10.5281/zenodo.24148459.",
+      "page": 6
+    },
+    {
+      "title": "Amendment 3 — Feasibility of Two-Cell Maintenance Stated",
+      "description": "Feasibility of maintaining exactly two cells, the recoverability argument and the stop condition for the removal module stated in §4c, before the removal method is fixed.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Amendment 3 (2026-11-12): feasibility of maintaining exactly two cells, the recoverability argument and the stop condition for the removal module stated in §4c.",
+      "page": 6
+    },
+    {
+      "title": "Pre-tests V1–V6 Completion Deadline",
+      "description": "Completion of pre-tests V1–V6 covering: V1 (vessel coating), V2 (migration/interval), V3 (marker SNR), V4 (survival at removal), V5 (necrosis/debris), V6 (environment effect on proliferation). Required before TRD v1.0 can be finalized.",
+      "date": "2026-11-03",
+      "date_precision": "day",
+      "status": "unknown",
+      "category": "research",
+      "source_quote": "Pre-tests V1–V6 (V2 — migration/interval, V3 — marker SNR, V4 — survival at removal, V5 — necrosis, V6 — environment effect) | — | 03.11.2026",
+      "page": 6
+    },
+    {
+      "title": "TRD v1.0 — Fix Optics, Camera, Filters, Removal Method",
+      "description": "Technical Requirements Document v1.0 to be finalized, fixing optics/camera/filters and the removal method, dependent on completion of pre-tests V1–V6.",
+      "date": "2026-11-06",
+      "date_precision": "day",
+      "status": "unknown",
+      "category": "research",
+      "source_quote": "TRD v1.0 (fix optics/camera/filters, removal method) | pre-tests | 06.11.2026",
+      "page": 6
+    },
+    {
+      "title": "Pilot Protocol (Phases 0–1, 20–30 lineages)",
+      "description": "Pilot run of Phases 0–1 with 20–30 lineages, dependent on TRD v1.0. Includes calibration of D2 morphology thresholds and Phase 0 baseline measurement to replace literature-based σ assumption in power calculation.",
+      "date": "after 2026-11-06",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Pilot protocol (Phases 0–1, 20–30 lineages) | TRD v1.0 | after 06.11",
+      "page": 6
+    },
+    {
+      "title": "Full Run (Phases 1–3, months)",
+      "description": "Full experimental run covering Phases 1–3 over months, with ≥3 independent experiments × 2 lines (BJ-hTERT, MRC5-hTERT), 150 cells per group per line recruited (115 analysis floor). Dependent on pilot power analysis.",
+      "date": "per plan",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Power analysis → full run (Phases 1–3, months) | pilot | per plan",
+      "page": 6
+    },
+    {
+      "title": "Analysis and Report",
+      "description": "Final analysis and report of OLD/NEW trends, medians with 95% CI, distributions, effect size, senescence markers, and conclusion on H0/H1 (Hayflick limit in immortalized fibroblasts).",
+      "date": "per plan",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Analysis and report | full run | per plan",
+      "page": 6
+    }
+  ]
+}

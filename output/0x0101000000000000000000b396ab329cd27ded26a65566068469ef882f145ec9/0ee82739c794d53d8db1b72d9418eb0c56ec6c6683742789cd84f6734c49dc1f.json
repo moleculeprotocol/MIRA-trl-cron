@@ -1,0 +1,120 @@
+{
+  "file_path": "/staged-gates-five-dated-buy-or-stop-decisions-one-page",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "This one-page document (ARGUS-OS1) describes a staged-gate funding structure for a pre-data basic-science project investigating whether inherited centriole age predicts cell division timing. It outlines five sequential go/no-go gates (G0–G5) with explicit dates, artifacts, and TRL-moving consequences, framing the first paid step as an engineering/optics challenge (fiducial autofocus prototype) rather than a biology experiment. The document is designed to address the \"too early-stage\" objection by making each gate independently auditable.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Overview and Framing",
+      "content": "ARGUS-OS1, dated 12 Nov 2026. The document addresses the objection 'too early-stage, insufficiently de-risked' by structuring the project as a series of dated buy-or-stop decisions. The expensive biology is not funded until the instrument (microscope with fiducial autofocus) proves it can meet the optical requirements. The scientific question is whether inherited centriole age predicts the interdivision interval. The falsification condition is explicit: if centriole age does not predict interdivision interval, the hypothesis fails and is published as failed."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Staged Gate Table (G0–G5)",
+      "content": "Five gates with dates, artifacts, continue/stop criteria, and TRL moves:\n\nG0 | Done 12 Nov 2026 | Pre-registrable protocol; TRD v0.9b frozen; synthetic benchmark DOI 10.5281/zenodo.24148459; engineering audit with P0 named | No continue/stop criteria | Baseline: biology TRL 1, platform TRL 4\n\nG1 | 15 Jan 2027 | CAD revision, photo log, wiring note; 72 h focus-error CSV and plot | Focus stays inside tolerance set by 100 nm/px sampling requirement for 72 h unattended | Stop: pilot not bought; P0 published as unsolved, optics changed | Moves W2: 3→4\n\nG2 | Before first imaging run | Public DOI on OSF or Zenodo (immutable); endpoint and power fixed in advance (n ≈ 115 per group, α = 0.05, power 0.8, 2 h effect floor) | Deposited before data exists | Stop: run does not start | Removes 'the analysis can drift' risk\n\nG3 | 31 Jan 2027 | Machine-readable tracked-division log on fixed samples, run config, error report | Log produced end-to-end without a human at the stage | Stop: W3 stays at 4, reported as such | Moves W3: 4→5\n\nG4 | After G1–G3 pass | Tracked-division dataset, n as pre-registered, pre-specified rank test | Primary endpoint met | Stop: null result published; hypothesis not supported in this system | Moves W1: 1→2–3\n\nG5 | 60 days after a positive G4 | Provisional filing on three named method claims, cost already budgeted | Positive endpoint | Stop: defensive publication instead; no filing | Moves IP: 2→3–4"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Engineering Entry Point and Instrument Cost",
+      "content": "The first paid step is a focus-hold problem on a microscope: a fiducial autofocus prototype with a 72-hour drift log. Instrument baseline cost is itemised and closed at $2,996 (BOM, 2026 prices, supplier level). Everything a reviewer must believe at G1 is checkable by opening a CSV. Nothing at G1 depends on the biology being correct. In simulation, defocus cuts detection recall to 0.30 before it touches localisation accuracy — this is cited as the justification for making optics the first gate."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Hypothesis and Falsification Condition",
+      "content": "The core biological question: does inherited centriole age predict the interdivision interval? The hypothesis is explicitly falsifiable — if it does not predict the interval, the hypothesis fails and is published as failed. The document acknowledges this is a basic-science question that cannot be engineered away; it can only be measured cheaply and reported honestly. Pre-registration (G2) is required before any imaging run begins, with n ≈ 115 per group, α = 0.05, power 0.8, and a 2-hour effect floor."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Gate Failure Policy",
+      "content": "If G1 or G3 slips, the artifact is published with its measured values and the next purchase is not made. Gates are designed so that failure is legible from outside — described as 'the only kind of de-risking a funder can audit.' This structure prevents sunk-cost escalation into biology before the platform is validated."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "TRL Baseline and Progression",
+      "content": "Baseline TRL at G0: Biology TRL 1, Platform TRL 4. Progression mapped per gate: G1 moves W2 (a platform sub-component) from TRL 3→4; G3 moves W3 from TRL 4→5; G4 moves W1 (biology/hypothesis) from TRL 1→2–3; G5 moves IP from TRL 2→3–4. The biology remains at TRL 1 until G4 is passed."
+    }
+  ],
+  "key_findings": [
+    "Project is at TRL 1 for biology and TRL 4 for platform at baseline (G0, 12 Nov 2026).",
+    "Scientific question: does inherited centriole age predict the interdivision interval? Explicitly falsifiable.",
+    "First paid step is an engineering/optics gate (G1): fiducial autofocus prototype with 72-hour drift log; instrument BOM closed at $2,996.",
+    "In simulation, defocus cuts detection recall to 0.30 before affecting localisation accuracy — justifying optics as the first gate.",
+    "Pre-registration required (G2) before any imaging run: n ≈ 115 per group, α = 0.05, power 0.8, 2-hour effect floor.",
+    "G3 requires fully automated tracked-division log on fixed samples (no human at the stage) by 31 Jan 2027.",
+    "G4 (biology gate): tracked-division dataset with pre-specified rank test; null result will be published if primary endpoint not met.",
+    "G5: provisional patent filing on three named method claims within 60 days of a positive G4; cost already budgeted.",
+    "Synthetic benchmark deposited at DOI 10.5281/zenodo.24148459 as part of G0 artifacts.",
+    "TRL progression: biology 1→2–3 at G4; IP 2→3–4 at G5; platform sub-components advance at G1 and G3."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "G0 Completed — Protocol Frozen and Benchmark Deposited",
+      "description": "Pre-registrable protocol completed; TRD v0.9b frozen; synthetic benchmark deposited at DOI 10.5281/zenodo.24148459; engineering audit with P0 named. Sets baseline TRL: biology 1, platform 4.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "G0 done 12 Nov 2026 pre-registrable protocol; TRD v0.9b frozen; synthetic benchmark, DOI 10.5281/zenodo.24148459; engineering audit with the P0 named by me",
+      "page": 1
+    },
+    {
+      "title": "G1 — Fiducial Autofocus 72-Hour Drift Validation",
+      "description": "Deliver CAD revision, photo log, wiring note, and 72-hour focus-error CSV and plot. Gate passes if focus stays inside the tolerance set by the 100 nm/px sampling requirement for 72 hours unattended. Moves W2 from TRL 3→4.",
+      "date": "2027-01-15",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "G1 15 Jan 2027 CAD revision, photo log, wiring note; 72 h focus-error CSV and plot focus stays inside the tolerance the 100 nm/px sampling requirement sets, for 72 h unattended",
+      "page": 1
+    },
+    {
+      "title": "G2 — Pre-Registration Deposited Before First Imaging Run",
+      "description": "Public immutable DOI on OSF or Zenodo deposited before any imaging data is collected. Endpoint and power fixed in advance: n ≈ 115 per group, α = 0.05, power 0.8, 2-hour effect floor. Removes analysis-drift risk.",
+      "date": "before first imaging run",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "G2 before first imaging run public DOI on OSF or Zenodo, immutable; endpoint and power fixed in advance (n ≈ 115 per group, α = 0.05, power 0.8, 2 h effect floor) deposited before data exists",
+      "page": 1
+    },
+    {
+      "title": "G3 — Automated Tracked-Division Log on Fixed Samples",
+      "description": "Machine-readable tracked-division log on fixed samples, run config, and error report produced end-to-end without a human at the stage. Moves W3 from TRL 4→5.",
+      "date": "2027-01-31",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "G3 31 Jan 2027 machine-readable tracked-division log on fixed samples, run config, error report log produced end-to-end without a human at the stage",
+      "page": 1
+    },
+    {
+      "title": "G4 — Biology Experiment: Tracked-Division Dataset and Primary Endpoint",
+      "description": "Tracked-division dataset collected at pre-registered n, analysed with pre-specified rank test. If primary endpoint met, biology moves from TRL 1→2–3. If null, result published as hypothesis not supported.",
+      "date": "after G1–G3 pass",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "G4 after G1–G3 pass tracked-division dataset, n as pre-registered, pre-specified rank test primary endpoint met null result published; hypothesis not supported in this system W1 1 → 2–3",
+      "page": 1
+    },
+    {
+      "title": "G5 — Provisional Patent Filing on Three Method Claims",
+      "description": "Provisional patent filing on three named method claims within 60 days of a positive G4 result. Cost already budgeted. Moves IP from TRL 2→3–4. If endpoint negative, defensive publication instead.",
+      "date": "60 days after a positive G4",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "G5 60 days after a positive G4 provisional filing on the three named method claims, cost already budgeted positive endpoint defensive publication instead; no filing IP 2 → 3–4",
+      "page": 1
+    }
+  ]
+}

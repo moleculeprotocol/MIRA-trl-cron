@@ -1,0 +1,126 @@
+{
+  "file_path": "/trl-evidence-pack-12-november-2026-benchmark-of-the-readout-and-one-correction",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This TRL evidence pack, dated 12 November 2026, documents new evidence for a centriole-tracking readout system used to study cell division dynamics. It presents results from a synthetic benchmark simulation (phantom_bench.py), quantifies detection performance under multiple degradation conditions, reports a software test count of 29 total tests, and outlines four planned milestones that would advance the platform from TRL 3 toward TRL 4 without requiring wet-lab biology results.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Purpose and Deposit",
+      "content": "The document is a TRL evidence pack dated 12 November 2026. The benchmark is published with DOI 10.5281/zenodo.24148459 (CC-BY-4.0), including the script, frozen seed, and checksum. Purpose: to list evidence as of 12 November 2026, state what each item does and does not prove, and give the software test count with two reproducible commands."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1: Synthetic Benchmark — Overview and Protocol",
+      "content": "A synthetic benchmark was run to measure the centriole-detection and lineage-tracking chain against ground truth for the first time. The protocol chain is: detect centrioles → keep identity across divisions → compute old-vs-new division-rate dynamics. Run on 12 November 2026 using script phantom/phantom_bench.py (seed 20261112), 96 frames at 30-minute cadence, 40 simulated cells, four degradation conditions plus a threshold-control pair. Metrics file checksum stored as out/metrics.json.sha256 for reproducibility."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Synthetic Benchmark Results by Degradation Condition",
+      "content": "Five conditions tested with position RMSE, detection recall, and detection precision:\n\n1. Resolvable sampling (pairs 6–9 px apart, ≈80 nm/px): RMSE=0.38 px, Recall=0.78, Precision=0.92\n2. Under-resolved (pairs 2–3 px apart, ≈250 nm/px): RMSE=1.25 px, Recall=0.46, Precision=0.99\n3. Low signal-to-noise (⅓ of nominal photons): RMSE=0.41 px, Recall=0.79, Precision=0.89\n4. Defocus (1.9 px blur instead of 1.1): RMSE=0.34 px, Recall=0.30, Precision=0.52\n5. High drift (4× drift rate, 8 px amplitude): RMSE=0.38 px, Recall=0.78, Precision=0.92"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Key Findings from Synthetic Benchmark",
+      "content": "Three results highlighted as most important:\n1. Hard sampling requirement quantified: ≤100 nm/px at the sample, no binning above 2×2. Below this, recall=0.78 with near-zero false positives. Above (250 nm/px), recall halves and centriole pairs merge — producing plausible but wrong lineage data. This is now a candidate functional requirement not previously in the requirements document.\n2. Defocus costs recall before accuracy (recall=0.30, precision=0.52 at 1.9 px blur) — measured justification for treating focus hold as the P0 engineering item, consistent with engineering audit of Zeiss Axio Observer 7.\n3. Power calculation: ~115 cells per group needed to detect a 2-hour difference in interdivision interval at α=0.05, power=0.8, given measured localisation error and 6-hour between-cell spread. A dozen cells cannot decide this question."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Limitations of Synthetic Benchmark",
+      "content": "Explicitly stated limitations: (1) It is a simulation, not real data. (2) Says nothing about whether inherited centriole age predicts division timing — untested biology outside this phase's claims. (3) Cell model is crude (Gaussian body, two Gaussian centrioles, rigid motion). (4) PSF is Gaussian rather than physical. (5) Tracker is a reference implementation with constant-velocity prediction, not the production lineage tracker. (6) Division timing is counted in the phantom but not yet scored as an endpoint."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "TRL Positioning Statement",
+      "content": "For the analysis chain, the synthetic benchmark constitutes the experimental proof of concept that TRL 3 requires: a specified function demonstrated in a controlled setting with quantitative error. For the biology, nothing moves — TRL for the biological hypothesis is unchanged."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2: Software Test Count",
+      "content": "Two reproducible commands produce the test count:\n- pytest tests in software/: 12 passed\n- #[test] functions in software/argus-agent: 17\n- Total in working tree: 29\nThis count is carried in supplement v1.1 and the ninety-day plan. The defensible form of any test claim is the verified count plus the command, commit, and CI run."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Section 3: Planned Evidence and What It Would Establish",
+      "content": "Four planned items that would advance readiness:\n1. Focus-hold prototype with 72h drift log → closes P0 hardware gap; supports instrument TRL 4 | Status: plan, due 15 Jan 2027\n2. Unattended run on fixed samples producing machine-readable tracked-division log → instrument and software validated in lab on real optics | Status: plan, due 31 Jan 2027\n3. Protocol pre-registered with sampling requirement and power calculation → removes 'analysis can drift' objection | Status: ready to deposit, after this note\n4. Division-timing error scored in the phantom → closes endpoint the benchmark deliberately left open | Status: next iteration\n\nNote: None of these four requires a wet-lab biology result. All are producible by one person with hardware in hand."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 4: Reproduce — Commands",
+      "content": "Exact commands to reproduce all results:\n- cd phantom && python3 phantom_bench.py  # ~6 minutes, one core\n- python3 make_report.py  # regenerates report from metrics.json\n- sha256sum out/metrics.json  # compare against out/metrics.json.sha256\n- cd ../.. && (cd software && python3 -m pytest -q tests)  # 12 passed\n- grep -rn \"#[test]\" software/argus-agent/src | wc -l  # 17"
+    }
+  ],
+  "key_findings": [
+    "Synthetic benchmark (phantom_bench.py, seed 20261112, 12 Nov 2026) is the first quantitative ground-truth measurement of the centriole-detection and lineage-tracking chain, deposited with DOI 10.5281/zenodo.24148459.",
+    "Hard sampling requirement quantified: ≤100 nm/px at sample, no binning above 2×2. At 250 nm/px (under-resolved), recall drops from 0.78 to 0.46 and centriole pairs merge, producing wrong lineage data.",
+    "Defocus is the dominant failure mode: at 1.9 px blur, recall=0.30 and precision=0.52, providing measured justification for focus hold as the P0 engineering priority (Zeiss Axio Observer 7 context).",
+    "Power calculation: ~115 cells per group required to detect a 2-hour difference in interdivision interval at α=0.05, power=0.8 — a requirement not previously in the protocol.",
+    "For the analysis chain, the benchmark constitutes TRL 3 proof of concept (specified function demonstrated in controlled setting with quantitative error). Biology TRL is unchanged.",
+    "Software test count: 29 total (12 pytest in software/, 17 #[test] in argus-agent), reproducible via two stated commands.",
+    "Four planned milestones (focus-hold prototype, unattended run on fixed samples, protocol pre-registration, division-timing scoring in phantom) would advance platform toward TRL 4 without wet-lab biology.",
+    "Limitations: simulation only, crude cell model (Gaussian), Gaussian PSF (not physical), reference tracker (not production), division timing not yet scored as endpoint."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Synthetic Benchmark Run (phantom_bench.py)",
+      "description": "First quantitative ground-truth measurement of the centriole-detection and lineage-tracking chain, run in simulation with 96 frames, 40 cells, four degradation conditions. Results deposited with DOI 10.5281/zenodo.24148459.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Run: 12 November 2026, script phantom/phantom_bench.py (deposited, DOI above), seed 20261112, 96 frames at 30-minute cadence, 40 simulated cells, four degradation conditions plus a threshold-control pair.",
+      "page": 1
+    },
+    {
+      "title": "Focus-Hold Prototype with 72h Drift Log",
+      "description": "Build and test a focus-hold prototype with a 72-hour drift log to close the P0 hardware gap and support instrument TRL 4.",
+      "date": "2027-01-15",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Focus-hold prototype with a 72 h drift log closes the P0 hardware gap; supports instrument TRL 4 plan, due 15 Jan 2027",
+      "page": 2
+    },
+    {
+      "title": "Unattended Run on Fixed Samples with Tracked-Division Log",
+      "description": "Perform an unattended run on fixed samples producing a machine-readable tracked-division log, validating instrument and software in the lab on real optics.",
+      "date": "2027-01-31",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Unattended run on fixed samples producing a machine-readable tracked-division log instrument and software validated in the lab on real optics plan, due 31 Jan 2027",
+      "page": 2
+    },
+    {
+      "title": "Protocol Pre-Registration with Sampling Requirement and Power Calculation",
+      "description": "Pre-register the protocol including the newly quantified sampling requirement (≤100 nm/px) and the power calculation (115 cells/group) to remove the 'analysis can drift' objection.",
+      "date": "after this note",
+      "date_precision": "relative",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Protocol pre-registered with the sampling requirement and the power calculation above removes \"the analysis can drift\" as an objection ready to deposit, after this note",
+      "page": 2
+    },
+    {
+      "title": "Division-Timing Error Scored in Phantom",
+      "description": "Score division-timing error as an endpoint in the phantom benchmark, closing the gap deliberately left open in the current benchmark iteration.",
+      "date": "next iteration",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Division-timing error scored in the phantom closes the endpoint the benchmark deliberately left open next iteration",
+      "page": 2
+    }
+  ]
+}

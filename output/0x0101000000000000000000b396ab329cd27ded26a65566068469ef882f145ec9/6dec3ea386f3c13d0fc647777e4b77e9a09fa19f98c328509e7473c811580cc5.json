@@ -1,0 +1,144 @@
+{
+  "file_path": "/pre-registration-deposited-argus-os1-protocol-v03-doi-105281zenodo24168505",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "This is a pre-registration document (protocol v0.3, deposited 12 November 2026) for ARGUS-OS1, a study investigating whether inherited centriole age (OLD vs NEW) determines interdivision timing in immortalized fibroblasts (BJ-hTERT, MRC5-hTERT). At the time of deposit, no biological data, images, or pilot runs exist — the document fixes the analysis plan, sample size, stopping rules, and endpoints in advance. It is a prospective registration at TRL 1–2, with a synthetic readout benchmark already completed but primary experiments not yet started.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Identity and Prospective Status",
+      "content": "Project ARGUS-OS1, authored by Jaba Tqemaladze, MD (Georgia Longevity Alliance; PhD applicant, UNED Madrid, Programa 9620), ORCID 0000-0001-8651-7243. Protocol v0.3, dated 12 November 2026, with three amendments (Amendment 1: senescence endpoint; Amendment 2: sampling requirement, power, readout acceptance test; Amendment 3: feasibility of maintaining two cells). Deposited 12 November 2026 under CC-BY-4.0. Explicitly states: 'At the time of this deposit there are no images, no tracked lineages, no pilot run and no biological data of any kind for this protocol.' This is a pure pre-registration with no experimental results yet. Relies on a synthetic readout benchmark (DOI 10.5281/zenodo.24148459, 12 November 2026)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Research Questions and Hypotheses",
+      "content": "Q1 (background, not tested): Normal fibroblasts have a division limit (Hayflick limit, ~50 divisions). Q2 (primary): Do immortalized lines BJ-hTERT and MRC5-hTERT show an analogous division limit? H1: A limit exists even with hTERT expression — much larger, masked at population level by rapid colony growth. H0: No limit; true 'immortality' in the observation window. Q3 (mechanism): Does division rate depend on the age of the inherited centriole (OLD vs NEW)? Q2 and Q3 are separate claims, measured and reported separately. 'No limit in the window' is a valid answer to Q2."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Endpoints",
+      "content": "Primary endpoint: Trend of interdivision interval, OLD versus NEW centriole carriers, over time — stable, converging, or diverging. Under H1, expected signal is progressive slowing of OLD relative to NEW. Secondary endpoints: mitosis duration; divisions per lineage; fraction of quiescent cells; daughter-size symmetry; cohort growth-curve slope. Cell lines: BJ-hTERT and MRC5-hTERT; ≥3 independent experiments × 2 lines. Controls (pre-registered): unpurified mixed culture as population rate reference; marker control (Cep164-RFP without removal); sham procedure; ≥3 technical positions per run. Statistical tests: Mann–Whitney or log-rank for interdivision-time distributions; mixed models or rank-based trend tests for OLD-vs-NEW trend over time; medians with 95% CI and effect size."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Stopping Criteria",
+      "content": "Three pre-registered stopping criteria: (1) OLD/NEW divergence in interdivision interval is statistically significant; OR (2) lineages reach the senescence endpoint; OR (3) the window ends without (1) or (2) → conclusion recorded as 'not detected in the window', with the boundary of the conclusion stated. Window extension only if data justify it. Horizon: ≥N generations or ≥6 months, whichever comes first (not 'until 800–1000 divisions')."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Operational Definition of Senescence Endpoint",
+      "content": "A lineage is called senescent when D1 AND D2 cross their thresholds. D3 is confirmatory only at fixed-sample endpoint.\n\n| Criterion | Definition | Measurable from |\n|---|---|---|\n| D1 — durable proliferation arrest | Interdivision interval of tracked lineage, censored at window end; arrest = no division over a pre-registered multiple of that lineage's own baseline interval | Tracking log alone |\n| D2 — dispersion / asymmetric lineage behaviour | Pre-registered threshold on lineage-level divergence (see protocol §4a) | Tracking log alone |\n| D3 — molecular markers | SA-β-gal; p16INK4a / p21; loss of Ki67 | Fixed-sample endpoint only |\n\nDecision rule: D1 with D2 negative = 'arrest of undetermined cause' — counts as arrest for Q2, does NOT count as senescence, difference reported explicitly."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Sampling Requirement (Mandatory Gate)",
+      "content": "Sampling must be 100 nm/px or finer; binning above 2×2 is not allowed. Basis: readout benchmark (DOI 10.5281/zenodo.24148459, 12 November 2026). Benchmark results: detection recall 0.78 at ~80 nm/px, falling to 0.46 at ~250 nm/px as centriole pairs merge, and 0.30 under 1.9 px defocus. At coarser sampling the pipeline returns plausible but wrong lineages. This is a gate condition, not a preference."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Sample Size and Power Calculation",
+      "content": "Target: detecting a 2-hour difference in interdivision interval between oldest-centriole and newest-centriole carriers. Parameters: α = 0.05 two-sided, power = 0.80, between-cell interval spread σ ≈ 6 h (from literature range), localisation error converted through frame cadence. Analysis floor: n ≈ 115 cells per group (~230 tracked lineages per line before attrition). Recruitment target: 150 per group per line (to account for lineages lost to removal procedure, tracking failure, and senescence censoring). The analysis floor is recalculated after Phase 0 replaces the literature σ with a measured value — before the primary endpoint is examined."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Readout Acceptance Test — Stop Condition",
+      "content": "The analysis chain (centriole detection, identity persistence, interval extraction) must clear on the phantom with the frozen seed at the configured sampling:\n\n| Metric | Threshold | Status at deposit |\n|---|---|---|\n| Localisation RMSE | ≤ 0.6 px | MET in benchmark (0.38 px at resolvable sampling) |\n| Detection recall | ≥ 0.75 | MET (0.78) |\n| Detection precision | ≥ 0.90 | MET (0.92) |\n| Interdivision interval MAE | ≤ 1.0 h | NOT YET MEASURED — must be implemented and run with production tracker on same phantom; failing it stops the pilot |\n\nThree of four metrics met in the synthetic benchmark. The interval MAE metric is not yet implemented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scope Limitations and Feasibility Fallback",
+      "content": "Explicit exclusions: (1) No biological claim — phantom is a simulation calibrating instrument and analysis only. (2) σ from literature, not yet measured in these lines; Phase 0 will replace it. (3) Interval MAE not yet implemented. (4) No therapeutic claim — pilot measures division timing in fibroblasts only; lifespan, immune function, and interventions are outside endpoints. (5) Feasibility fallback: if no level-1 removal method meets both survival and accuracy requirements, the pair is maintained by periodic manual splitting with identity re-anchored by pedigree at each split — documented design change with re-costed sample size."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "File Manifest and Integrity",
+      "content": "Files in deposit: ARGUS_Protocol_v0.3.md (sha256: 7486b95f258a96a110fb6073ab1ce6566f1b00f28ba21414929c1e2daa043d7a) and PREREGISTRATION_2026-11-12.md (sha256 in SHA256SUMS.txt). Amendments 1–3 are part of protocol v0.3. Companion documents: ARGUS_TRD_v0.9b, ARGUS_label_free_centriole_assignment, TRL evidence pack (12 November 2026). Prepared with AI assistance for search and formatting; every scientific claim verified against PMID/DOI."
+    }
+  ],
+  "key_findings": [
+    "At time of deposit (12 November 2026), NO biological data, images, tracked lineages, or pilot runs exist — this is a pure pre-registration at TRL 1.",
+    "Primary hypothesis: inherited centriole age (OLD vs NEW) determines interdivision timing in immortalized fibroblasts (BJ-hTERT, MRC5-hTERT).",
+    "Secondary hypothesis: immortalized lines may have a hidden division limit analogous to the Hayflick limit, masked at population level.",
+    "Synthetic readout benchmark (DOI 10.5281/zenodo.24148459) completed: localisation RMSE 0.38 px (threshold ≤0.6 px), detection recall 0.78 (threshold ≥0.75), detection precision 0.92 (threshold ≥0.90) — 3 of 4 acceptance metrics met.",
+    "Interdivision interval MAE metric (threshold ≤1.0 h) not yet implemented — this is a stop condition for the pilot.",
+    "Power calculation: n≈115 cells/group analysis floor, 150/group/line recruitment target, to detect 2-hour difference in interdivision interval (α=0.05, power=0.80, σ≈6h from literature).",
+    "Mandatory sampling gate: ≤100 nm/px, no binning above 2×2; detection recall drops from 0.78 at ~80 nm/px to 0.46 at ~250 nm/px.",
+    "Senescence endpoint operationally defined using D1 (proliferation arrest) + D2 (lineage divergence) as primary criteria; D3 (SA-β-gal, p16INK4a/p21, Ki67) confirmatory only.",
+    "Cell lines to be used: BJ-hTERT and MRC5-hTERT; ≥3 independent experiments per line.",
+    "Feasibility fallback documented: if centriole removal fails, manual splitting with pedigree-based identity re-anchoring will be used as a design change."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Synthetic Readout Benchmark Deposited",
+      "description": "Completion and deposition of the synthetic readout benchmark (DOI 10.5281/zenodo.24148459) that calibrates the centriole detection pipeline. Three of four acceptance metrics met: localisation RMSE 0.38 px, detection recall 0.78, detection precision 0.92.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Benchmark this registration relies on: DOI 10.5281/zenodo.24148459 (synthetic readout benchmark, 12 November 2026)",
+      "page": 1
+    },
+    {
+      "title": "Pre-registration Deposited (Protocol v0.3)",
+      "description": "Formal pre-registration of ARGUS-OS1 protocol v0.3, fixing analysis plan, sample size, stopping rules, and endpoints before any biological data are collected.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Protocol: v0.3, dated 12 November 2026 ... Deposited: 12 November 2026",
+      "page": 1
+    },
+    {
+      "title": "Interval MAE Metric Implementation",
+      "description": "Implementation and validation of the interdivision interval MAE metric (threshold ≤1.0 h) on the production tracker using the same phantom. Failing this metric stops the pilot.",
+      "date": "not yet measured",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "interdivision interval MAE | ≤ 1.0 h | not yet measured — the interval metric must be implemented and run with the production tracker on the same phantom; failing it stops the pilot",
+      "page": 1
+    },
+    {
+      "title": "Phase 0 — Measure Between-Cell Interval Spread (σ)",
+      "description": "Phase 0 experiment to replace the literature-derived σ ≈ 6 h with a measured value from BJ-hTERT and MRC5-hTERT lines, enabling recalculation of the analysis floor before the primary endpoint is examined.",
+      "date": "not yet started",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The analysis floor is recalculated after Phase 0 replaces the literature σ with a measured value — before the primary endpoint is examined.",
+      "page": 1
+    },
+    {
+      "title": "Primary Experiment — Centriole Age vs. Interdivision Timing",
+      "description": "Main live-cell tracking experiment in BJ-hTERT and MRC5-hTERT (≥3 independent experiments × 2 lines, 150 cells/group/line) to test whether OLD centriole carriers show progressive slowing of interdivision interval relative to NEW centriole carriers.",
+      "date": "not yet started",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "At the time of this deposit there are no images, no tracked lineages, no pilot run and no biological data of any kind for this protocol.",
+      "page": 1
+    },
+    {
+      "title": "Observation Window End (≥6 months or ≥N generations)",
+      "description": "Pre-registered horizon for the primary experiment: at least 6 months or ≥N generations (whichever comes first). If no significant OLD/NEW divergence or senescence is detected by this point, the conclusion is recorded as 'not detected in the window'.",
+      "date": "≥6 months from experiment start",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The horizon is a justified window (e.g. ≥ N generations or ≥ 6 months, whichever comes first), not 'until 800–1000 divisions'.",
+      "page": 1
+    }
+  ]
+}

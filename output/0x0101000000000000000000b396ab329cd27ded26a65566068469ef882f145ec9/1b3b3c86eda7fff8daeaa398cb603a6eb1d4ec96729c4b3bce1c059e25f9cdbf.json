@@ -1,0 +1,206 @@
+{
+  "file_path": "/technical-requirements-document-v09b-frozen",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "ARGUS is an autonomous robotic platform for long-term (6–12 months) live observation of dividing immortalized human fibroblasts (BJ-hTERT, MRC5-hTERT) to determine whether these cells have a Hayflick limit by tracking division-rate dynamics of oldest vs. newest centriole lineages. This Technical Requirements Document (TRD v0.9b) defines functional requirements, non-functional requirements, technical solution options, pre-test data needs, and a staged work plan, with finalization to v1.0 pending biological pre-test data (V1–V6) due 03.11.2026. The project is at an early conceptual/pre-prototype stage (approximately TRL 1–2), with no experimental results yet reported and key parameters still open pending biological pre-tests.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Version History",
+      "content": "ARGUS TRD v0.9b, dated 2026-10-21. Status: framework; finalization to v1.0 planned for 06.11.2026, pending biological pre-test data (V1–V6). Client/biological requirements: Jaba Tqemaladze (Georgia Longevity Alliance). Engineering lead: TBD (open collaboration). Key changes from v0.9: (1) Functional requirements separated from technical solutions; (2) Microbots removed from mandatory scope; (3) New FRs added (darkness operation, situational awareness, sterile entry/exit, extension slots, minimal perturbation, 3D polarity); (4) Primary experiment goal clarified as establishing whether immortalized fibroblasts have a Hayflick limit."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Purpose, Scope, and Primary Scientific Goal",
+      "content": "ARGUS is an autonomous robotic platform for long-term (6–12 months) live observation of dividing immortalized human fibroblasts (BJ-hTERT; cross-validation MRC5-hTERT). Primary scientific goal: establish whether immortalized human fibroblasts have a Hayflick limit (yes/no). Instrumental task: observe division-rate dynamics of the oldest-centriole (OLD) lineage vs. newest-centriole (NEW) lineage over months without opening the enclosure. Expected signal of limit onset: progressive slowing of OLD lineage relative to NEW. Context: somatic cells ≈50 divisions, stem cells ≈200, immortalized fibroblasts ≈800–1000, cancer cells several thousand. Cancer cells are a later goal only if time permits. The document covers functional/non-functional requirements, technical options, baseline + extension slots, acceptance criteria, responsibility split, and pre-test input data. Key principle: final construction rests on experimentally established requirements; parameters marked '⚠️ pre-test' are not fixed before Section 6 data."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Functional Requirements (FR) Table",
+      "content": "13 functional requirements defined:\n- FR-1: Long-term live observation 24/7 without opening sealed enclosure; criterion ≥30 days without recording failure, then months. Status: ✅ specified.\n- FR-2: Real-time mitosis detection; criterion ≥90% divisions auto-detected vs manual annotation. Status: ⚠️ pre-test (imaging rate, resolution).\n- FR-3: Centriole tracking — identify mother (Cep164+) and daughter (Cep164−), age from pedigree; criterion completeness ≥80%, SNR ≥3× above background. Status: ⚠️ pre-test (critical: V3).\n- FR-4: Division-rate dynamics OLD vs NEW, side by side, many generations; culture maintained as exactly 2 studied single cells; criterion statistically detectable trend. Status: ⚠️ pre-test.\n- FR-5: Continuous removal of all mitotic progeny except 2 studied cells and export of debris without harming observed cells; criterion accuracy ≤2 µm, survival per V4/V5. Status: ⚠️ pre-test; method = TS (not assigned).\n- FR-6: Culture maintenance (media change, reagents) without loss of containment; criterion proliferation not worse than control over 7 days. Status: ⚠️ pre-test (V6).\n- FR-7 (new): Operation in complete darkness with minimal phototoxicity; criterion minimum light dose meeting SNR, 'image only when needed' mode. Status: ✅ specified (range ⚠️ V3).\n- FR-8 (new): Situational awareness inside enclosure — 3D picture of activity and coordinates for safe manipulation in darkness; criterion accuracy sufficient for manipulation. Status: ✅ specified (numbers ⚠️).\n- FR-9 (new): Sterile material entry and sterile waste exit over years without opening enclosure; criterion 0 contamination per entry/exit cycle. Status: ✅ specified.\n- FR-10 (new): Degrees of freedom for future experiments — extension slots; criterion ≥listed slots attachable without opening mechanics. Status: ✅ specified.\n- FR-11: Full digital event log + remote monitoring; criterion 100% events logged, alerts delivered. Status: ✅ specified.\n- FR-12 (new): Minimal perturbation of tracked-cell position; criterion minimum compatible with imaging, 0 identity losses from perturbation. Status: ✅ specified (numbers ⚠️ V1).\n- FR-13 (new): 3D cell-polarity registration (top/bottom + left/right) for future centriole-transplantation experiments; criterion orientation registered and preserved per tracked lineage. Status: ✅ specified."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Minimally Sufficient Baseline (Section 3.1)",
+      "content": "Baseline for first experiment (immortalized fibroblasts; OLD/NEW division-rate dynamics):\n1. Sealed enclosure: 37 ± 0.3 °C; 5 ± 0.5% CO₂; 2 ± 0.3% O₂; RH ≥90% in culture volume.\n2. Fluorescence imaging: 488/561 nm excitation (Centrin1-GFP / Cep164-RFP), objective + camera (selection by V3/V10, not fixed).\n3. Long-term 24/7 timelapse, months of recording.\n4. Mitosis detection + lineage tracking (on-device AI).\n5. Centriole-age assignment by pedigree (Cep164 + lineage).\n6. OLD/NEW division-rate dynamics computation.\n7. Cell-removal function via swappable port (method = TS).\n8. Internal cameras (day/night vision) + IR illumination + 3D map of enclosure + 3D polarity registration.\n9. Sterile entry/exit transfer ports.\n10. Logging, monitoring, alerts.\n11. Power: UPS + LiFePO₄, ≥14 h."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Extension Slots for Future Experiments (Section 3.2)",
+      "content": "Future experiment extension slots:\n- Additional excitation channel 640 nm and others: for other fluorophores/markers (cancer, stem); standard light port, no mechanical rework.\n- Objective upgrade 40× dry → 60× water (V2): higher NA/resolution; standard holder/rail.\n- Additional manipulators / in-enclosure transporter: moving vessels and tools by 3D map; standard sealed ports + control bus.\n- Removal module (magnetic beads / microbots / circulation): removal method chosen after V4/V5; swappable removal port.\n- Culture format change (chamber between two thin glasses, plate, dish): different protocols; standard 12×12 mm sample stage + adapters.\n- Controlled fluid delivery/withdrawal: future assays; fluid port via entry transfer port.\n- External equipment docking (sorting, etc.): extended protocols; exit transfer port."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Technical Solutions / Options Table (Section 4)",
+      "content": "Technical solution options (engineer domain, not mandates):\n- FR-1/FR-3: Inverted microscope; compact optical module above sample; hybrid. Trade-off: layout, access, thermal regime. Status: open until V1–V3.\n- FR-3: Objective 40×/0.95 dry (V1) → 60×/1.2 water (V2); camera RasPi HQ → sCMOS. Trade-off: SNR vs phototoxicity (FR-7) — central trade-off. Status: open until V3/V10.\n- FR-5: Laser 405 nm + galvo scanner; 2 micromanipulators; fluid circulation; optical tweezers; magnetic microbeads; microbots. See companion Cell Removal Methods Comparison; joint decision after V4/V5. Status: open.\n- FR-7/FR-8: Internal day/night cameras; IR illumination; stereo/SLAM 3D reconstruction. Trade-off: 3D-map accuracy vs cost/placement. Status: open (V8).\n- FR-9: Sterile transfer boxes with UV cycle; sealed septum ports. Trade-off: cycle speed vs sterility assurance. Status: open.\n- FR-10: Open mechanics (OpenFlexure v7 or other); standard bus/interfaces. Trade-off: maturity vs flexibility. Status: open.\n- FR-11: Local LLM agent + edge AI (e.g., Hailo-8L); dashboard/Telegram. Trade-off: security/autonomy. Status: open."
+    },
+    {
+      "page": 4,
+      "type": "table",
+      "title": "Non-Functional Requirements (NFR) Table (Section 5)",
+      "content": "12 non-functional requirements:\n- NFR-1: Positioning accuracy — stage step <100 nm. ✅ specified.\n- NFR-2: Addressable-action accuracy (removal) — ≤2 µm from target. ⚠️ V4/V5.\n- NFR-3: Environment stability — 37 ± 0.3 °C; 5 ± 0.5% CO₂; 2 ± 0.3% O₂; RH ≥90%. ✅ specified.\n- NFR-4: Autonomy — ≥30 days without opening enclosure (extends to months). ✅ specified.\n- NFR-5: Power resilience — ≥14 h (UPS + LiFePO₄). ✅ specified.\n- NFR-6: Biosafety — BSL-1; BSL-2 under transduction — confirm with local committee. ✅.\n- NFR-7: Optical drift — thermostable enclosure, vibration isolation; drift within focus tolerance. ⚠️ V8.\n- NFR-8: Condensation — no condensate on optics/camera window over ≥14 days (37 °C, RH ≥90%); dry compartment RH <50%. ⚠️ stage 4.\n- NFR-9: Licensing — Software GPLv3; hardware CERN-OHL-S v2; documentation CC-BY-SA 4.0. ✅.\n- NFR-10: Budget — V1 PoC ≈$2,355 … V6 Full ≈$10,455. ✅ indicative.\n- NFR-11: Culture-volume humidity — RH ≥90% at 37 °C; local dehumidification only. ✅.\n- NFR-12 (new): Minimal light load — dose and number of excitations per cell per 24 h minimized while meeting SNR; 'image on demand' mode. ⚠️ V3."
+    },
+    {
+      "page": 4,
+      "type": "table",
+      "title": "Biological Pre-Test Input Data Requirements (Section 6)",
+      "content": "Six biological pre-tests (V1–V6) to be completed by bio-group by 03.11.2026:\n- V1: Fibroblast attachment reliability and movement over 24–72 h. Output: % attached at 2/6/24 h; displacement µm/h; coating. Closes: chamber material, stage speed, autofocus (FR-1/FR-3). Deadline: 03.11.\n- V2: Behaviour during division. Output: mitosis scenario (rounding/shift/attachment). Closes: tracking algorithm, imaging rate (FR-2/FR-4). Deadline: 03.11.\n- V3: Real distinguishability of centriole marker. Output: SNR vs background; minimum exposure. Closes: camera/objective/filters + light load (FR-3/FR-7). Deadline: 03.11. [Critical]\n- V4: Removal of a cell without harm to observed one. Output: % survival; hit accuracy. Closes: removal protocol and method (FR-5). Deadline: 03.11.\n- V5: Debris/necrosis removal. Output: method; preservation of neighbours. Closes: level-2 removal choice (FR-5). Deadline: 03.11.\n- V6: Effect of device environment on proliferation. Output: proliferation in chamber vs control. Closes: chamber design, lighting mode (FR-6). Deadline: 03.11.\nExpected output: table 'marker → wavelength → expected intensity → recommended filters/camera → fitness criterion' + update of Sections 2–5 to v1.0 (06.11)."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Engineering Verifications (Section 7)",
+      "content": "Four engineering verifications with defined purposes:\n- V8a: XY-stage metrology. Purpose: close U-E1. Expected output: repeatability (µm), step, hysteresis. Necessity: numbers for NFR-1 and acceptance. Deadline: from 28.10, in parallel.\n- V8b: Focus drift. Purpose: close U-E2. Expected output: Z drift over 24–72 h. Necessity: numbers for NFR-7. Deadline: in parallel.\n- V8c: Addressable-action accuracy on inert objects. Purpose: close U-E3/U-E4. Expected output: accuracy ≤2 µm; coordination of 2 manipulators. Necessity: numbers for NFR-2. Deadline: in parallel.\n- V8d: Internal cameras — 3D enclosure map. Purpose: partially close FR-8. Expected output: object-coordinate accuracy; behaviour in darkness. Necessity: safe manipulation in darkness (FR-7). Deadline: after test-stand assembly.\nNote: V8 removes engineering risk (repeatability, drift, accuracy) by its own objective criteria and does NOT confirm biological fitness. Fitness established only by V10/V11 on culture."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Acceptance Criteria and Verification Methods (Section 8)",
+      "content": "Acceptance criteria per function:\n- FR-1: Recording ≥30 days without failure; then months. Method: recording stress test. ✅.\n- FR-2: ≥90% divisions detected. Method: cross-check with manual annotation. ⚠️.\n- FR-3: SNR ≥3×; completeness ≥80%. Method: marker calibration on sample; spotiflow metrics. ⚠️ critical.\n- FR-4: OLD/NEW trend statistically detectable. Method: pilot → power analysis. ⚠️.\n- FR-5: Accuracy ≤2 µm; survival ≥specified. Method: inert (V8c) + culture. ⚠️.\n- FR-7: Light load within NFR-12 while meeting SNR. Method: dose measurements at V3. ⚠️.\n- FR-8: 3D-map accuracy sufficient for manipulation. Method: test-stand validation. ⚠️.\n- FR-9: 0 contamination per cycle. Method: control media at each cycle. ✅ specified.\n- FR-10: Slots attach without baseline rework. Method: per-slot check. ✅ specified.\n- FR-11: 100% events; alerts delivered. Method: test-event injection. ✅.\n- NFR-8: No condensate over ≥14 days; dry compartment RH <50%. Method: frame review (PSF), photo documentation. ⚠️ stage 4.\nAcceptance rule: any item marked '⚠️' is not admitted into final specification until bio-group/verification provides the value."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Responsibility Split (Section 9)",
+      "content": "Bio-group (J. Tqemaladze): biological hypothesis, pre-tests (§6), measurable requirements, success criteria, culture validation. Excludes: engineering decisions, component selection.\nEngineer: concept, alternative technical solutions, mechanics, electronics, software, calibration on inert objects, assembly. Excludes: biological conditions and predictions; final construction only per TRD data.\nJoint: TRD v1.0, final optics selection, removal method, acceptance, grant application."
+    },
+    {
+      "page": 5,
+      "type": "table",
+      "title": "Work Order / Staged Plan (Section 10)",
+      "content": "Staged work plan:\n- Stage 0: Biological pre-experiments (V1–V6). Responsible: Bio-group. Deadline: 27.10–03.11.2026.\n- Stage P (parallel): Metrology (V8), concept, software modules, calibration on inert objects. Responsible: Engineer. Deadline: from 28.10, not blocked.\n- Stage 1: TRD v1.0 (finalize Sections 2–5 from stage-0 data). Responsible: Joint. Deadline: 06.11.2026.\n- Stage 2: Optics/camera/filters and removal-method selection per TRD v1.0. Responsible: Engineer (per TRD). Deadline: after 06.11.\n- Stage 3: Mechanics construction, electronics, software integration. Responsible: Engineer. Deadline: per plan.\n- Stage 4: Culture validation against Section 8 criteria. Responsible: Joint. Deadline: when ready."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Risks and Open Questions (Section 11)",
+      "content": "Key risks identified:\n1. Marker SNR below threshold (V3) → more sensitive camera / longer exposure / alternative marker. Open until V3.\n2. SNR ↔ phototoxicity conflict (FR-7): more light = better tracking but higher risk over months. Central trade-off of stage 1; resolved by V3 + 'image on demand' mode.\n3. Cell drift beyond tracking capability (V1/V2) → autonomy limits. Open.\n4. Survival at removal below threshold (V4) → revise criterion/method. Open.\n5. 3D-map accuracy of internal cameras insufficient for manipulation in darkness → constrains FR-8. Verified by V8d.\n6. Transfer-port sterility (FR-9) — control media each cycle; risk revealed at validation.\n7. Condensation on sCMOS at RH ≥90% — hermetically sealed, desiccated sensor chamber mandatory (NFR-8, §12).\n8. BSL-2 under transduction — confirm with local committee.\n9. Grant application: functions as 'goals + validation plan + success criteria'."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Humidity Management in the Enclosure (Section 12)",
+      "content": "Problem: culture volume requires RH ≥90% at 37 °C (otherwise media evaporation and osmolarity drift). Humid air over months causes condensate on cooled sCMOS sensor (down to −20 °C), cold spots (Peltier, heatsinks), objective body, and mould. Dew point at 37 °C / RH 90% ≈35 °C — any surface colder will condense.\nProtection scheme:\n1. Hermetically sealed, desiccated sCMOS sensor chamber — mandatory.\n2. Camera-window heating (≈2–5 W, ~38 °C — above dew point).\n3. Dry instrument compartment (sealed partition between humid culture volume and dry instrument volume; 3Å molecular-sieve cartridge, target RH <40–50%).\n4. Local purge with dry filtered air (HEPA H14) into dry compartment; NOT N₂ (interferes with O₂ control).\n5. Thermal decoupling and objective heating (components in humid volume held ~37 °C).\n6. Monitoring and alerts (T/RH sensor in dry compartment; alert at RH >50%).\nAcceptance criterion (NFR-8): ≥14 days at 37 °C / RH ≥90% — no condensate/frost on camera window and optics; dry compartment RH <50%.\nOpen decision for engineer (before stage 3): combine items 2–4 within budget and layout. Item 1 is mandatory in any variant."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cell Lines and Scientific Context",
+      "content": "Cell lines: BJ-hTERT (primary), MRC5-hTERT (cross-validation). Both are immortalized human fibroblasts. Fluorescent markers: Centrin1-GFP (centriole marker) and Cep164-RFP (mother centriole marker, Cep164+). Centriole age assignment by pedigree: Cep164+ = mother (oldest), Cep164− = daughter (newest). Scientific context: Hayflick limit — somatic cells ≈50 divisions, stem cells ≈200, immortalized fibroblasts ≈800–1000, cancer cells several thousand. The experiment design maintains exactly 2 studied single cells (OLD and NEW centriole lineages) by continuously removing all other mitotic progeny. Biosafety: BSL-1 baseline; BSL-2 under transduction (lentiviral/retroviral for fluorescent marker introduction). Budget range: V1 PoC ≈$2,355 to V6 Full ≈$10,455. Open-source licensing: GPLv3 (software), CERN-OHL-S v2 (hardware), CC-BY-SA 4.0 (documentation)."
+    }
+  ],
+  "key_findings": [
+    "ARGUS is a pre-prototype autonomous robotic platform (TRL 1–2) with no experimental results yet; all key biological parameters are pending pre-test data (V1–V6) due 03.11.2026.",
+    "Primary scientific goal: establish whether immortalized human fibroblasts (BJ-hTERT, MRC5-hTERT) have a Hayflick limit by tracking division-rate dynamics of oldest (OLD) vs. newest (NEW) centriole lineages over 6–12 months.",
+    "Cell lines: BJ-hTERT (primary) and MRC5-hTERT (cross-validation); fluorescent markers Centrin1-GFP and Cep164-RFP for centriole identification.",
+    "Key functional requirements include: ≥90% mitosis detection (FR-2), centriole tracking completeness ≥80% with SNR ≥3× background (FR-3), cell removal accuracy ≤2 µm (FR-5), 0 contamination per sterile entry/exit cycle (FR-9), and ≥30 days continuous recording (FR-1).",
+    "Environment specifications: 37 ± 0.3 °C; 5 ± 0.5% CO₂; 2 ± 0.3% O₂; RH ≥90% in culture volume; stage positioning accuracy <100 nm (NFR-1).",
+    "Central technical trade-off: SNR vs. phototoxicity (FR-7/NFR-12) — more light improves centriole tracking but risks cell viability over months; resolved by V3 pre-test + 'image on demand' mode.",
+    "Biosafety: BSL-1 baseline; BSL-2 under transduction — local committee confirmation required.",
+    "Budget range: V1 PoC ≈$2,355 to V6 Full ≈$10,455; open-source licensing (GPLv3/CERN-OHL-S v2/CC-BY-SA 4.0).",
+    "Engineering lead is TBD; client is Georgia Longevity Alliance (J. Tqemaladze); grant application is planned using this TRD as goals + validation plan + success criteria.",
+    "Microbots demoted from mandatory scope to one option among several for cell removal; removal method to be decided jointly after V4/V5 pre-tests.",
+    "Condensation risk on sCMOS sensor (cooled to −20 °C) in high-humidity enclosure (RH ≥90%, 37 °C) identified as a critical engineering challenge; hermetically sealed desiccated sensor chamber is mandatory.",
+    "No experimental data reported in this document; all results are pending future pre-tests and engineering verifications."
+  ],
+  "document_date": "2026-10-21",
+  "milestones": [
+    {
+      "title": "TRD v0.9b Issued (Requirements-First Engineering Review)",
+      "description": "Technical Requirements Document restructured after requirements-first engineering review, separating functional requirements from technical solutions and adding new functional requirements.",
+      "date": "2026-10-21",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Version: 0.9b (restructured after requirements-first engineering review, 2026-10-21)\nDate: 2026-10-21",
+      "page": 1
+    },
+    {
+      "title": "Engineering Metrology Verifications Start (V8a–V8c)",
+      "description": "XY-stage metrology (V8a), focus drift measurement (V8b), and addressable-action accuracy on inert objects (V8c) begin in parallel with biological pre-tests.",
+      "date": "2026-10-28",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "V8a XY-stage metrology ... from 28.10, in parallel\nV8b Focus drift ... in parallel\nV8c Addressable-action accuracy on inert objects ... in parallel",
+      "page": 5
+    },
+    {
+      "title": "Biological Pre-Experiments Start (V1–V6)",
+      "description": "Bio-group begins biological pre-tests covering fibroblast attachment, division behaviour, centriole marker SNR, cell removal survival, debris removal, and chamber proliferation effect.",
+      "date": "2026-10-27",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Stage 0 Biological pre-experiments (V1–V6) Bio-group 27.10 — 03.11.2026",
+      "page": 5
+    },
+    {
+      "title": "Biological Pre-Test Data Deadline (V1–V6)",
+      "description": "Bio-group to complete all six biological pre-tests (V1–V6) and provide measurable numbers to finalize TRD parameters.",
+      "date": "2026-11-03",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "The bio-group fills by 03.11.2026 with measurable numbers (not qualitative statements).",
+      "page": 4
+    },
+    {
+      "title": "TRD v1.0 Finalization",
+      "description": "Joint finalization of TRD to version 1.0, incorporating biological pre-test data (V1–V6) to fix all open parameters in Sections 2–5.",
+      "date": "2026-11-06",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Status: ⏳ framework; finalization to v1.0 on 06.11.2026, pending biological pre-test data (V1–V6)",
+      "page": 1
+    },
+    {
+      "title": "Optics/Camera/Filters and Removal Method Selection (Stage 2)",
+      "description": "Engineer selects optics, camera, filters, and cell removal method based on finalized TRD v1.0.",
+      "date": "after 06.11.2026",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Stage 2 Optics/camera/filters and removal-method selection per TRD v1.0 Engineer (per TRD) after 06.11",
+      "page": 5
+    },
+    {
+      "title": "Mechanics Construction, Electronics, Software Integration (Stage 3)",
+      "description": "Engineer builds mechanics, electronics, and integrates software for the ARGUS platform.",
+      "date": "per plan",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "Stage 3 Mechanics construction, electronics, software integration Engineer per plan",
+      "page": 5
+    },
+    {
+      "title": "Culture Validation Against Acceptance Criteria (Stage 4)",
+      "description": "Joint culture validation of the assembled ARGUS platform against Section 8 acceptance criteria, including biological fitness testing (V10/V11 on culture).",
+      "date": "when ready",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Stage 4 Culture validation against Section 8 criteria Joint when ready",
+      "page": 5
+    },
+    {
+      "title": "3D Enclosure Map Verification (V8d)",
+      "description": "Internal cameras tested for 3D enclosure mapping accuracy and behaviour in darkness, after test-stand assembly.",
+      "date": "after test-stand assembly",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "V8d Internal cameras: 3D enclosure map ... after test-stand assembly",
+      "page": 5
+    }
+  ]
+}

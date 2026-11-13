@@ -1,0 +1,260 @@
+{
+  "file_path": "/vitadao-grant-proposal-argus-os1-inherited-centriole-age-vs-division-timing",
+  "extraction_version": 2,
+  "document_type": "pitch_deck",
+  "relevance": "high",
+  "summary": "ARGUS-OS1 is a VitaDAO funding proposal requesting $100,000 over 15 months to investigate whether inherited centriole age predicts cell-division timing in telomerase-immortalized human fibroblasts. The project combines open-hardware microscopy (OpenFlexure-derived), on-device AI (NVIDIA Jetson AGX Orin), and label-free lineage tracking to run autonomous multi-week single-cell experiments. The project is at TRL 2–3, with an open prototype (V6) and a public Zenodo deposit already in place, but the primary biological experiment has not yet been conducted.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Project Overview and TRL Statement",
+      "content": "ARGUS-OS1 is a VitaDAO proposal by Jaba Tqemaladze, MD (Georgia Longevity Alliance). Requested funding: $100,000 via IP-NFT. Duration: 15 months. Self-declared TRL: 2–3 (open prototype V6, public repo, published Zenodo deposit). Focus: longevity/aging biology. The core question: does the age of the centriole a cell inherits predict how fast it divides? The instrument is an open, on-device AI-driven microscope that runs multi-week single-cell experiments autonomously with full provenance. Outputs are open-sourced and tokenized as IP-NFT."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Scientific Rationale — Centriole Age and Cell Division",
+      "content": "The proposal argues that aging is fundamentally a failure of cell renewal and damage handling. Whether a dividing cell 'remembers' inherited organelles and whether that memory changes division rate over generations is a basic mechanism question not yet measurable continuously. A measurable, continuous division-rate phenotype tied to an inherited structure (centriole age) would provide a new readout for aging research and a screenable endpoint for interventions (senolytics, autophagy activators, senomorphics). Supporting literature cited: spindle-size asymmetry tied to centrosome age (Thomas & Meraldi 2024, PMID 39012627); asynchronous primary-cilium growth (Anderson & Stearns 2009, PMID 19682908); cell-fate decisions in stem-cell systems (Reina & Gonzalez 2014; Chen & Yamashita 2021); structural differences between mother and daughter centrioles (Gottardo et al. 2015); centriole duplication deregulation (Nigg & Holland 2018); theoretical proposal that old centrioles accumulate in stem cells (Tkemaladze 2023, PMID 36583780). No prior study has shown an effect of inherited centriole age on division timing across many generations."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Medical Significance Anchor — T/B Cell Senescence",
+      "content": "The proposal anchors medical relevance in immune cell biology: resting T and B lymphocytes carry little telomerase activity; antigen-receptor stimulation raises it sharply (Weng et al. 1996, PMID 8676067); highly differentiated CD8+CD28−CD27− cells lose it again (Plunkett et al. 2007, PMID 17548608); CMV-seropositive individuals have shorter telomeres in circulating T cells than seronegative donors (van de Berg et al. 2010, PMID 20176738). Why telomerase induction stops in cells that can still induce the enzyme, and why two lineages in one milieu diverge in division rate, is framed as a question about the division clock rather than telomere length. Aubrey de Grey (personal communication, 12 November 2026) is cited as supporting this framing. This section is explicitly noted as a revision added in v1.1."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Falsifiable Hypothesis",
+      "content": "Hypothesis: In telomerase-immortalized human fibroblasts, a lineage inheriting the grandmother (oldest) centriole at each division will show a different interdivision-time trajectory from a lineage inheriting the younger mother centriole. The null result — no difference within a pre-specified window — is explicitly stated as informative and will be reported as such. This is a clear, pre-registered falsifiable hypothesis with a defined null outcome."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Model Systems",
+      "content": "Primary cell lines: BJ-hTERT (ATCC CRL-3627) and MRC-5 hTERT (telomerase immortalization per Bodnar et al. 1998, PMID 9454332). Both are of male origin — stated as a limitation. A female line (IMR-90-hTERT) is planned for an expanded version if resources allow. Line identities, clones, passages, and karyotype are to be verified before the main run to separate natural crisis from any centriole-age effect. These are standard, commercially available immortalized human fibroblast lines; no novel cell engineering is described."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Centriole-Age Assignment Method",
+      "content": "OLD/NEW centriole assignment is defined by inheritance history, not by a marker alone. A lineage is OLD if it inherits the centrosome containing the grandmother (oldest) centriole; NEW if it inherits the younger mother centriole. The founder's first division anchors the assignment using mature Cep164+ vs new Cep164− markers. Age is propagated by continuous lineage tracking. Maturation markers (Odf2/cenexin — Lange et al. 1995 — and tubulin PTMs) cross-check the assignment. A target indeterminate rate of ≤10% is pre-specified; below-threshold events are flagged indeterminate, never auto-decided. Classification error is measured against an independently scored subset."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Instrument Description — Open Hardware Microscope",
+      "content": "The instrument is an OpenFlexure-derived open microscope (CERN OHL fork) with: CO₂ incubator, motorized stage, two open-source FOSH micromanipulators. On-device AI brain runs on NVIDIA Jetson AGX Orin (275 TOPS). Software stack: Cellpose/StarDist for cell segmentation, Kalman filter for lineage reconstruction (label-free, per Waliman et al. 2024, PMID 39139100), division and damage event detection, closed-loop focus/illumination/stage control, lineage knowledge base with provenance to raw images. Operates fully offline; raw data never leave the lab. This is described as prototype V6 with a public repository and Zenodo deposit already existing."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Phototoxicity Controls",
+      "content": "Phototoxicity budget is enforced as a measured constraint: label-free transmitted-light channel; measured light budget (SNR ≥3 at minimum exposure); no-imaging controls requiring imaged cultures to retain ≥95% of control division rate and ≥90% viability over 14 days (one-sided 95% CI); division-rate-trend monitoring over the whole run. Supporting literature: Icha et al. 2017 (PMID 28749075), Stadter et al. 2026 (PMID 42393487), Gorti et al. 2025 (PMID 39816147), PhotoFiTT 2025, Kasprzycka et al. 2024 (PMID 38514402)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Statistical Design and Primary Endpoint",
+      "content": "Primary endpoint: difference in interdivision time between OLD and NEW lineages. Statistical model: hierarchical mixed effect with random intercepts per lineage nested in independent cultures and cell lines, plus a sibling-pair random effect. Parameters: alpha 0.05, power 80%, intra-culture correlation estimated from pilot, minimal detectable effect fixed before full run, lower bound of six independent cultures per line, multiplicity-controlled. Right-censored interdivision times handled by survival-type likelihood; tracking loss and cell death modelled as separate event classes. Independent biological unit: the independent culture, not the cell count. Sensitivity analysis: reclassification of OLD/NEW at extremes of indeterminate threshold; independent re-scoring of a subset; independent statistical audit. Pre-registration planned on OSF."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Deliverables",
+      "content": "Four open deliverables, each tokenized in the IP-NFT: (1) The method — validated centriole-age inheritance protocol (OSF preregistration, protocols.io); (2) The dataset — lineage tables + representative raw images + provenance to raw data (Zenodo DOI); (3) The platform — open on-device agent ('brain'), models, and hardware BOM/assembly (GitHub Apache-2.0 / CERN-OHL-S); (4) The result — biological answer in a preprint and journal submission. Target dataset: 1,000 cells, five generations, provenance-tracked lineage tables. Target adoption: at least two independent laboratories running the brain on their own optics by year 2, and one external re-derivation of a published lineage result."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Team Composition",
+      "content": "PI: Jaba Tqemaladze, MD — experimental design, biology, Bayesian modelling, project lead. Volunteer (no salary). AI programmer: Akaki Tkemaladze (PI's brother) — segmentation, tracking, on-device agent. Hardware engineer: Aziza Aubakirova — microscope mechanics, incubation, micromanipulator mounts. Advisor: David Meyer, PhD (University of Cologne) — cell biology. Independent technical review at month 6 for code review and open development. Single-programmer dependency risk is acknowledged and mitigated procedurally (documented interfaces, handover protocol, code review, open development). Listed reference: Aubrey de Grey (LEV Foundation)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Budget Breakdown — $100,000",
+      "content": "| Category | USD |\n|---|---|\n| AI hardware (2× Jetson AGX Orin 64GB; on-site GPU server 6× RTX 4090/384GB/8TB; Hailo-8L ×2; NAS 6×16TB+8TB NVMe+backup; UPS+cooling+10GbE) | 38,409 |\n| Instrument & biology (OpenFlexure kit+optics; CMOS camera; filters/dichroics; motorized XY; 2× micromanipulators; media/waste fluidics kit; CO₂ incubator; BJ-hTERT+MRC-5 hTERT; media/reagents; lentiviral constructs; consumables; shipping; cold-chain) | 17,900 |\n| Team (AI programmer $13,000; PI coordination $7,000; hardware engineer $4,000; statistical consultant $1,200) | 25,200 |\n| Ops (derived metadata/backup only) | 400 |\n| Customs/import VAT/contingency | 9,000 |\n| Direct costs | 90,909 |\n| Overhead (10%) | 9,091 |\n| TOTAL | 100,000 |\nNote: Largest single cost is AI/compute hardware (38.4%). Biology/instrument costs are 17.9%. Team costs are 25.2%."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "15-Month Timeline",
+      "content": "M1–3: Build instrument V6; run brain on Jetson in real time; fine-tune segmentation on markers; calibrate micromanipulators; baseline gates (SNR ≥3, precision/recall ≥0.85, identity preservation ≥95% over 10 generations). M2–4: Stable lines with markers; phototoxicity non-inferiority gate; centriole-age validation against independent ground-truth set. M5–9: 500-cell pilot; power estimate; autonomy metrics (uptime, recovery, lineage loss, contamination, emergency-stop). M10–13: Full run at pre-specified n; secondary exploratory damage arms with sham controls. M13–15: Analysis, independent review, release (dataset, models, brain, hardware), preprint + journal submission."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Risk Register",
+      "content": "| Risk | Mitigation |\n|---|---|\n| OLD/NEW misclassification | Inheritance-history definition, independent ground-truth, indeterminate ≤10% |\n| Phototoxicity over months | Label-free channel, light budget, no-imaging controls, trend monitoring |\n| Lineage identity loss | Identity-preservation gate ≥95% over 10 generations |\n| Long-term autonomy | Autonomy metrics + emergency-stop + defined human touchpoints |\n| Single-programmer dependency | Code reviews, open development, external technical review at M6 |\n| Import/customs delay | Contingency line, alternative suppliers |\n| Null biological result | Informative; platform/dataset/method still delivered |\n| Statistical sensitivity | Pre-specified sensitivity analysis; independent re-scoring; independent statistical audit |"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Funding Disclosure and Pending Grants",
+      "content": "No active grant funds ARGUS-OS1. Pending, non-overlapping applications: (1) Foresight Institute AI for Science & Safety Nodes RFP — $100,000, submitted 31 Oct 2026, for compute + stipends; (2) NLnet Open Call — €23,000, submitted 9 Oct 2026, for hardware + reagents; (3) Open Science Collective — $17,000. If multiple are awarded, scopes are adjusted and funders notified; all outputs remain open regardless."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP and Open Science Framework",
+      "content": "All outputs are open: Apache-2.0 (code), CERN-OHL-S (hardware), CC-BY (metadata and lineage tables), Zenodo DOI deposit, protocols.io, OSF preregistration. Raw images stay on local NAS and never leave the lab; a public raw sample is released live. After completion, the consented raw dataset, metadata, lineage tables, models and code are deposited with a DOI. Imaging data in OME-TIFF; lineage tables in CSV/Parquet with documented schema. Dataset retained for at least five years. IP-NFT tokenizes: (1) the validated centriole-age inheritance protocol; (2) lineage tables and representative raw data with provenance; (3) the open on-device agent, models and hardware designs. Scientific publications remain open and unencumbered."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Existing Prototype Evidence (TRL Anchor)",
+      "content": "The proposal explicitly states TRL 2–3 with: open prototype V6 already built, public GitHub repository, and a published Zenodo deposit. The instrument is described as 'V6,' implying at least six iterations of hardware development. No quantitative experimental results from the prototype are reported in this document — the primary biological experiment (centriole-age vs. division timing) has not yet been conducted. The Zenodo deposit appears to contain platform/method materials rather than biological results."
+    }
+  ],
+  "key_findings": [
+    "Self-declared TRL 2–3: open prototype V6 exists with public repo and Zenodo deposit, but primary biological experiment has not been conducted.",
+    "Core hypothesis is falsifiable and pre-specified: OLD (grandmother centriole) vs NEW (mother centriole) lineages in telomerase-immortalized fibroblasts (BJ-hTERT, MRC-5 hTERT) will be compared for interdivision time differences.",
+    "No prior study has demonstrated an effect of inherited centriole age on division timing across many generations — this is a novel, unvalidated biological question.",
+    "Instrument is OpenFlexure-derived open hardware with on-device AI (NVIDIA Jetson AGX Orin, 275 TOPS) running Cellpose/StarDist segmentation and Kalman-filter lineage tracking; label-free transmitted-light imaging to minimize phototoxicity.",
+    "Phototoxicity controls are pre-specified: ≥95% control division rate and ≥90% viability over 14 days (one-sided 95% CI) required for no-imaging controls.",
+    "Statistical design is rigorous: hierarchical mixed-effects model, alpha 0.05, power 80%, ≥6 independent cultures per line, survival-type likelihood for right-censored data, pre-registration on OSF.",
+    "Centriole-age assignment uses inheritance history (Cep164+/− at founder division) propagated by continuous lineage tracking, with ≤10% indeterminate rate target and independent re-scoring.",
+    "Team is small (4 people including PI as volunteer) and geographically based in Georgia; single-programmer dependency risk acknowledged.",
+    "Budget is $100,000 with largest allocation to AI/compute hardware ($38,409, ~38%), followed by team ($25,200, ~25%) and instrument/biology ($17,900, ~18%).",
+    "No active funding; three pending non-overlapping grant applications totaling up to ~$140,000 equivalent.",
+    "Medical relevance anchored in T/B cell senescence and CMV-driven immune aging, but the pilot experiment is in fibroblasts — the translational bridge is conceptual, not experimental.",
+    "Platform is designed to generalize to organoids and organs-on-chip; commercial replacement value cited as $15,000–$50,000 for closed systems vs. <$10,000 for this open instrument.",
+    "Null result is explicitly pre-committed to be reported as informative, not as failure — platform, dataset, and method are delivered regardless of biological outcome.",
+    "AI disclosure: generative AI used in drafting the proposal; the instrument uses established CV models (Cellpose, StarDist), not generative AI."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Prototype V6 Built and Zenodo Deposit Published",
+      "description": "Open microscope prototype V6 constructed, public GitHub repository established, and Zenodo deposit published — constituting the TRL 2–3 evidence base cited in the proposal.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "TRL: 2–3 (open prototype V6, public repo, published Zenodo deposit)",
+      "page": 1
+    },
+    {
+      "title": "NLnet Open Call Submission",
+      "description": "Application submitted to NLnet Open Call for €23,000 to cover hardware and reagents for ARGUS-OS1.",
+      "date": "2026-10-09",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "NLnet Open Call (€23,000, submitted 9 Oct 2026 — hardware + reagents)",
+      "page": 1
+    },
+    {
+      "title": "Foresight Institute RFP Submission",
+      "description": "Application submitted to Foresight Institute AI for Science & Safety Nodes RFP for $100,000 to cover compute and stipends.",
+      "date": "2026-10-31",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "funding",
+      "source_quote": "Foresight Institute AI for Science & Safety Nodes RFP ($100,000, submitted 31 Oct 2026 — compute + stipends)",
+      "page": 1
+    },
+    {
+      "title": "Proposal v1.0 Prepared",
+      "description": "Initial version of the ARGUS-OS1 VitaDAO proposal prepared.",
+      "date": "2026-10-31",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Prepared: 2026-10-31 (v1.0)",
+      "page": 1
+    },
+    {
+      "title": "Proposal v1.1 Revised",
+      "description": "Proposal revised to add medical-significance anchor (T/B cell senescence section) and one quoted personal communication from Aubrey de Grey; section 2 only.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Revised: 2026-11-12 (v1.1 — medical-significance anchor and one quoted personal communication; section 2 only)",
+      "page": 1
+    },
+    {
+      "title": "Aubrey de Grey Personal Communication",
+      "description": "Personal communication from Aubrey de Grey (LEV Foundation) cited regarding clinical relevance of CMV-driven T/B cell division clock slowing.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "partnership",
+      "source_quote": "Aubrey de Grey (personal communication, 12 November 2026) states the clinical version of the same point",
+      "page": 1
+    },
+    {
+      "title": "M1–3: Instrument Build and Brain Deployment",
+      "description": "Build instrument V6; run the brain on the Jetson in real time; fine-tune segmentation on markers; calibrate micromanipulators; achieve baseline gates (SNR ≥3, precision/recall ≥0.85, identity preservation ≥95% over 10 generations).",
+      "date": "M1–3",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "manufacturing",
+      "source_quote": "M1–3: build instrument V6; run the brain on the Jetson in real time; fine-tune segmentation on our markers; calibrate micromanipulators; baseline gates (SNR ≥3, precision/recall ≥0.85, identity preservation ≥95% over 10 generations).",
+      "page": 1
+    },
+    {
+      "title": "M2–4: Stable Lines, Phototoxicity Gate, Centriole-Age Validation",
+      "description": "Establish stable cell lines with markers; pass phototoxicity non-inferiority gate; validate centriole-age assignment against an independent ground-truth set.",
+      "date": "M2–4",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "M2–4: stable lines with markers; phototoxicity non-inferiority gate; centriole-age validation against an independent ground-truth set.",
+      "page": 1
+    },
+    {
+      "title": "M5–9: 500-Cell Pilot and Power Estimation",
+      "description": "Run 500-cell pilot experiment; estimate statistical power; measure autonomy metrics (uptime, recovery, lineage loss, contamination, emergency-stop).",
+      "date": "M5–9",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M5–9: 500-cell pilot; power estimate; autonomy metrics (uptime, recovery, lineage loss, contamination, emergency-stop).",
+      "page": 1
+    },
+    {
+      "title": "M6: Independent Technical Review",
+      "description": "External code review and open development audit at month 6 to mitigate single-programmer dependency risk.",
+      "date": "M6",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Independent technical review at month 6 — code review + open development.",
+      "page": 1
+    },
+    {
+      "title": "M10–13: Full Biological Run",
+      "description": "Full experiment at pre-specified sample size (n); secondary exploratory damage arms with sham controls.",
+      "date": "M10–13",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M10–13: full run at the pre-specified n; secondary exploratory damage arms with sham controls.",
+      "page": 1
+    },
+    {
+      "title": "M13–15: Analysis, Open Release, and Preprint Submission",
+      "description": "Complete analysis, independent review, release of dataset/models/brain/hardware, and submission of preprint and journal paper.",
+      "date": "M13–15",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "M13–15: analysis, independent review, release (dataset, models, brain, hardware), preprint + journal submission.",
+      "page": 1
+    },
+    {
+      "title": "Year 2: External Lab Adoption Target",
+      "description": "Target adoption metric: at least two independent laboratories (outside the team) running the brain on their own optics, and one external re-derivation of a published lineage result from the open release alone.",
+      "date": "Year 2",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "Target adoption metrics by year 2: at least two independent laboratories (outside our team) running the brain on their own optics, and one external re-derivation of a published lineage result from the open release alone.",
+      "page": 1
+    }
+  ]
+}

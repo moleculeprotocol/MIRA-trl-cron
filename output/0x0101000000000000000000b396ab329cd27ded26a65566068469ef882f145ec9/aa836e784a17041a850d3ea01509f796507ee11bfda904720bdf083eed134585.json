@@ -1,0 +1,214 @@
+{
+  "file_path": "/supplement-to-the-mira-trl-assessment-11-nov-2026",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This document is a formal element-wise TRL readiness and artifact index for the ARGUS-OS1 project, submitted by Jaba Tqemaladze (Georgia Longevity Alliance / UNED Madrid PhD candidate) on 11 November 2026. It describes four workstreams at different TRL levels: a centriole-age inheritance hypothesis (TRL 1), an open imaging instrument (TRL 3–4), an autonomy/data software layer (TRL 4), and a division-rate screening assay concept (TRL 2). The document explicitly states that no biological data has been generated yet, and provides a detailed artifact index, IP status, funding state, and 90-day milestone plan.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Summary",
+      "content": "Title: Element-wise readiness and artifact index, ARGUS-OS1. Submitted by Jaba Tqemaladze, MD — Georgia Longevity Alliance; PhD applicant, UNED Madrid (Programa 9620). Date: 11 Nov 2026.\n\nSummary: Four workstreams at four TRL levels — hypothesis (TRL 1), open imaging instrument (TRL 3–4), autonomy software layer (TRL 4), assay concept (TRL 2). TRL applied per element, not per organisation. Composite reading: biology TRL 1, platform TRL 4. Biological workstream has produced no data. No target, no molecule, no intervention. IP: three method claims identified but unfiled by choice. Open licences (Apache-2.0, CERN-OHL-S, CC-BY) cover hardware, firmware fork, and documentation."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 — Scope of the Claim",
+      "content": "Explicit scope statement: no assays, no imaging runs, no biological datasets in the biological workstream. The instrument has not yet produced a division-timing dataset. The step from centriole age to a therapeutic mechanism is a hypothesis with a written falsification condition. All numbers in the document are to be read within these boundaries."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 2 — Four Workstreams, Four Readiness Levels",
+      "content": "TRL defined per technology element/subsystem (NASA NPR 7123.1; Horizon Europe TRL annex).\n\n| Workstream | TRL | What exists | What moves it |\n|---|---|---|---|\n| W1 — Centriole-age inheritance hypothesis | 1 | Hypothesis, falsification condition, statistical plan, pre-registrable protocol | First 20 tracked divisions in immortalized fibroblasts |\n| W2 — Open imaging instrument | 3–4 | OpenFlexure fork (community base at TRL 9); BOM closed; subsystems validated one by one; hardware focus hold over multi-day runs unvalidated, flagged as P0 | Fiducial autofocus prototype, 72 h drift test |\n| W3 — Autonomy and data software | 4 | TRD v0.9b frozen; grammar core with 29 passing unit tests (12 pytest, 17 Rust) — corrected 12 Nov 2026 from earlier unsupported figure of 91; motor-release patch tested 5/5 against a live microscope server and sent upstream | Unattended end-to-end run producing a tracked-division log |\n| W4 — Division-rate screening endpoint | 2 | Assay logic, statistics, readout method specified | Reproducibility across two cell lines |\n\nKey note: Platform (W2, W3) is not an idea; biology (W1) is not evidence. One composite number erases the difference."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 3 — Artifact Index (What Can Be Opened Today)",
+      "content": "Two of four workstreams ship inspectable artifacts. Full list:\n- docs/ARGUS_TRD_v0.9b.md — technical requirements document, frozen\n- hardware/ARGUS-OS1_BOM.csv — bill of materials, closed\n- hardware/ARGUS-OS1_TESTING.md, hardware/CLEANING_OPTICS.md — test and handling procedures\n- software/microscope/motor_release_sangaboard.patch — 5/5 tests passing, endpoint confirmed in Thing Description, submitted upstream 12 Aug 2026; accompanied by written correspondence with OpenFlexure maintainers\n- software/argus_mhs, software/argus-agent, software/tests — autonomy layer, unit-tested\n- docs/ARGUS_Protocol_Hayflick_Limit_Immortalized_Fibroblasts.md — planned experiment, written for pre-registration\n- docs/ARGUS_label_free_centriole_assignment.md — readout method\n- docs/AXIO_OBSERVER_ENGINEERING_ANALYSIS_2026-10-19.md — benchmark against Zeiss Axio Observer 7 plus Nikon PFS, Olympus TruFocus, Leica AFC, IncuCyte, with capability gaps and open fixes\n- docs/ARGUS_Literature_Analysis_EN.md, EVIDENCE.md, THEORY.md, PARAMETERS.md — literature base with verified identifiers, evidence table, theory, parameters\n\nNone of it is biological validation. All artifacts are publicly inspectable in the repository."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 4 — Intellectual Property: Three Corrections, One Gate",
+      "content": "Open licences (Apache-2.0, CERN-OHL-S, CC-BY) cover hardware design, firmware fork, and documentation. They do NOT cover method claims.\n\nThree unfiled method claim candidates (unfiled by choice):\n(a) Centriole-age-resolved division timing as a screening readout\n(b) Label-free centriole assignment pipeline\n(c) Fiducial-based focus hold for multi-day live imaging on an open stage\n\nRationale for not filing: filing before the pilot would be a spend with no evidence behind it.\n\nDecision gate: If the pilot reaches the primary endpoint fixed in the protocol before data collection, a provisional application on candidate (a) is filed within 60 days of that result. Filing cost is already line-itemed in the budget.\n\nIP-NFT: described as a governance and data-rights instrument giving holders claims on data and downstream licensing decisions. Investor value is untested; not offered as a patent substitute.\n\nPartner licensing value: what a pharma partner licenses is a validated protocol, a reference dataset, and reproducible instrumentation — not a patent on the instrument. Open licences lower partner's cost of reproducing the assay, raising the value of the reference dataset."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 5 — Team, Funding and Backing",
+      "content": "State of record: small team, single-programmer dependency on the software layer, no institutional backing beyond a small Georgian nonprofit (Georgia Longevity Alliance), no active funding at time of writing.\n\nSoftware evidence: 29 unit tests (12 pytest, 17 Rust), two rerunnable commands, frozen TRD v0.9b (14 Oct 2026), one upstream patch with maintainer correspondence. Count and commands in TRL evidence pack of 12 November 2026.\n\nGrant applications submitted and pending:\n- Open Source Collective: USD 17,000, submitted 1 Aug 2026\n- Foresight: USD 50,050, submitted 31 Jul 2026\n\nGrant outcomes:\n- Open Source Collective (USD 17,000) — pending\n- Foresight (USD 50,050) — pending\n- Sovereign Tech Fund — declined 10 Nov 2026 on prevalence criterion (funds components other projects already depend on); resubmission not planned before Q4 2027\n\nPartnerships: Correspondence with a centriole-biology group in the United States about tracking and TIAM1. No signed agreement; not presented as institutional backing."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Section 6 — Therapeutic Pathway, Step by Step",
+      "content": "| Step | Claim | Status |\n|---|---|---|\n| 1 | Centriole age at birth predicts the interdivision interval | Hypothesis, falsifiable, untested |\n| 2 | Asymmetric inheritance biases which daughter keeps the renewal-competent state | Literature-grounded, untested in this system |\n| 3 | Division-timing drift is a measurable senescence-adjacent phenotype | Assay designed, no data |\n| 4 | That phenotype screens senolytics, senomorphics, autophagy activators | Concept, TRL 2 |\n| 5 | A validated endpoint becomes a licensed assay for aging-focused discovery | Downstream of this phase; not offered here |\n\nSteps 1–4 are the project. Step 5 is downstream and not part of this phase — listed only to make the boundary of the claim visible, not as proximity credit for therapy."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 7 — Ninety Days, Dated and Checkable",
+      "content": "Planned milestones with hard dates:\n1. Fiducial autofocus prototype on the OpenFlexure fork; 72 h focus-hold test with drift logged — 15 Jan 2027\n2. Protocol pre-registration deposited publicly before the first imaging run — before data collection (no fixed date, conditional)\n3. Unattended end-to-end run producing a machine-readable tracked-division log on fixed samples — 31 Jan 2027\n4. Second contributor on the software layer, advisory or paid — 28 Feb 2027\n5. Re-assessment request with items 1–3 attached — 1 Mar 2027\n\nConditional clause: If items 1–3 slip past those dates, the corresponding workstream stays where it is, the artifact is published with its measured values, and the next purchase is not made."
+    }
+  ],
+  "key_findings": [
+    "Four workstreams at distinct TRL levels: W1 (centriole-age hypothesis) = TRL 1, W2 (open imaging instrument) = TRL 3–4, W3 (autonomy/data software) = TRL 4, W4 (division-rate screening endpoint) = TRL 2.",
+    "No biological data has been generated; the instrument has not yet produced a division-timing dataset. The biological workstream is purely at the hypothesis stage.",
+    "W3 software layer has 29 passing unit tests (12 pytest, 17 Rust); motor-release patch tested 5/5 against a live microscope server and submitted upstream to OpenFlexure on 12 Aug 2026.",
+    "W2 imaging instrument is based on an OpenFlexure fork (community base TRL 9); BOM closed; subsystems validated individually; hardware focus hold over multi-day runs is unvalidated and flagged as P0 priority issue.",
+    "Three method claims identified but deliberately unfiled: (a) centriole-age-resolved division timing as screening readout, (b) label-free centriole assignment pipeline, (c) fiducial-based focus hold for multi-day live imaging. Filing gated on pilot reaching primary endpoint.",
+    "Provisional patent application on candidate (a) to be filed within 60 days of pilot reaching primary endpoint; filing cost already budgeted.",
+    "No active funding; two grants pending: Open Source Collective (USD 17,000, submitted 1 Aug 2026) and Foresight (USD 50,050, submitted 31 Jul 2026). Sovereign Tech Fund declined 10 Nov 2026.",
+    "Single-programmer dependency on software layer; no institutional backing beyond Georgia Longevity Alliance nonprofit.",
+    "Therapeutic pathway is 5 steps; steps 1–4 are the project scope; step 5 (licensed assay) is explicitly downstream and not claimed in this phase.",
+    "TRD v0.9b frozen 14 Oct 2026; earlier unit test count of 91 was corrected to 29 on 12 Nov 2026.",
+    "Benchmark analysis conducted against Zeiss Axio Observer 7, Nikon PFS, Olympus TruFocus, Leica AFC, and IncuCyte, with capability gaps and open fixes documented.",
+    "Correspondence with a US centriole-biology group about tracking and TIAM1; no signed agreement."
+  ],
+  "document_date": "2026-11-11",
+  "milestones": [
+    {
+      "title": "TRD v0.9b Frozen",
+      "description": "Technical Requirements Document version 0.9b frozen, establishing the software requirements baseline for the ARGUS-OS1 autonomy layer.",
+      "date": "2026-10-14",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "a frozen requirements document (TRD v0.9b, 14 Oct 2026)",
+      "page": 3
+    },
+    {
+      "title": "Axio Observer Engineering Analysis",
+      "description": "Benchmark analysis of ARGUS-OS1 against Zeiss Axio Observer 7, Nikon PFS, Olympus TruFocus, Leica AFC, and IncuCyte, with capability gaps and open fixes documented.",
+      "date": "2026-10-19",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "docs/AXIO_OBSERVER_ENGINEERING_ANALYSIS_2026-10-19.md — benchmark against Zeiss Axio Observer 7 plus Nikon PFS, Olympus TruFocus, Leica AFC, IncuCyte, with capability gaps and open fixes",
+      "page": 2
+    },
+    {
+      "title": "Foresight Grant Application Submitted",
+      "description": "Grant application submitted to Foresight for USD 50,050; outcome pending.",
+      "date": "2026-07-31",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Foresight (USD 50,050, 31 Jul 2026) are pending",
+      "page": 3
+    },
+    {
+      "title": "Open Source Collective Grant Application Submitted",
+      "description": "Grant application submitted to Open Source Collective for USD 17,000; outcome pending.",
+      "date": "2026-08-01",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "funding",
+      "source_quote": "Open Source Collective (USD 17,000, 1 Aug 2026) and Foresight (USD 50,050, 31 Jul 2026) are pending",
+      "page": 3
+    },
+    {
+      "title": "Motor-Release Patch Submitted Upstream",
+      "description": "Motor-release patch for Sangaboard tested 5/5 against a live microscope server, endpoint confirmed in Thing Description, and submitted upstream to OpenFlexure maintainers with written correspondence.",
+      "date": "2026-08-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "software/microscope/motor_release_sangaboard.patch — 5/5 tests passing, endpoint confirmed in the Thing Description, submitted upstream 12 Aug 2026; accompanied by written correspondence with the OpenFlexure maintainers",
+      "page": 2
+    },
+    {
+      "title": "Sovereign Tech Fund Application Declined",
+      "description": "Sovereign Tech Fund declined the application on 10 Nov 2026 on its prevalence criterion (funds components other projects already depend on). Resubmission not planned before Q4 2027.",
+      "date": "2026-11-10",
+      "date_precision": "day",
+      "status": "cancelled",
+      "category": "funding",
+      "source_quote": "the Sovereign Tech Fund declined on 10 Nov 2026 on its prevalence criterion — it funds components other projects already depend on — and resubmission is not planned before Q4 2027, after an adoption phase.",
+      "page": 3
+    },
+    {
+      "title": "Unit Test Count Correction Published",
+      "description": "Earlier unsupported figure of 91 unit tests corrected to 29 (12 pytest, 17 Rust) in the TRL evidence pack.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "grammar core with 29 passing unit tests (12 pytest, 17 Rust) — corrected 12 Nov 2026 from an earlier, unsupported figure of 91",
+      "page": 1
+    },
+    {
+      "title": "Fiducial Autofocus Prototype and 72h Drift Test",
+      "description": "Fiducial autofocus prototype on the OpenFlexure fork to be completed and a 72-hour focus-hold test with drift logged, advancing W2 imaging instrument from TRL 3–4.",
+      "date": "2027-01-15",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Fiducial autofocus prototype on the OpenFlexure fork; 72 h focus-hold test with drift logged — 15 Jan 2027",
+      "page": 3
+    },
+    {
+      "title": "Protocol Pre-Registration Deposited",
+      "description": "Planned experiment protocol (Hayflick Limit / Immortalized Fibroblasts) to be deposited publicly before the first imaging run, prior to any data collection.",
+      "date": "before data collection",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Protocol pre-registration deposited publicly before the first imaging run — before data collection",
+      "page": 3
+    },
+    {
+      "title": "Unattended End-to-End Run with Tracked-Division Log",
+      "description": "Unattended end-to-end run on fixed samples producing a machine-readable tracked-division log, advancing W3 autonomy software layer.",
+      "date": "2027-01-31",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Unattended end-to-end run producing a machine-readable tracked-division log on fixed samples — 31 Jan 2027",
+      "page": 3
+    },
+    {
+      "title": "Second Software Contributor Onboarded",
+      "description": "A second contributor (advisory or paid) to be added to the software layer to reduce single-programmer dependency risk.",
+      "date": "2027-02-28",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Second contributor on the software layer, advisory or paid — 28 Feb 2027",
+      "page": 3
+    },
+    {
+      "title": "Re-Assessment Request Submitted",
+      "description": "Formal re-assessment request to be submitted with the first three 90-day milestone artifacts attached.",
+      "date": "2027-03-01",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Re-assessment request with items 1–3 attached — 1 Mar 2027",
+      "page": 3
+    },
+    {
+      "title": "Provisional Patent Application on Screening Readout",
+      "description": "Provisional patent application on candidate (a) — centriole-age-resolved division timing as a screening readout — to be filed within 60 days of the pilot reaching its primary endpoint.",
+      "date": "within 60 days of pilot primary endpoint",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "If the pilot reaches the primary endpoint fixed in the protocol before data collection, a provisional application on candidate (a) is filed within 60 days of that result.",
+      "page": 2
+    },
+    {
+      "title": "Sovereign Tech Fund Resubmission",
+      "description": "Resubmission to Sovereign Tech Fund planned after an adoption phase, not before Q4 2027.",
+      "date": "2027-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "resubmission is not planned before Q4 2027, after an adoption phase.",
+      "page": 3
+    }
+  ]
+}

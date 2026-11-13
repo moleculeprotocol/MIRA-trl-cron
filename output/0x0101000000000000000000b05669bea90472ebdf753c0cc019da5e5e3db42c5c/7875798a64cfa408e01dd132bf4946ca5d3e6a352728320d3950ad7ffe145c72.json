@@ -1,0 +1,44 @@
+{
+  "file_path": "/sub-01-brain-mri-report",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a de-identified diagnostic radiology report (Brain MRI with and without contrast) from St. Luke's University Health Network, finalized on December 17, 2025. The study was performed for a clinical indication of possible CSF leak and abnormal blood chemistry findings. It contains no biotech, drug development, or TRL-relevant scientific content.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Brain MRI Report – Impression & Findings",
+      "content": "Exam: MRI Brain W & W/O Contrast. Study Date: Dec 15, 2025. Contrast: 7 mL Gadobutrol (Single-Dose). Finalized: Dec 17, 2025. Indication: R79.89 (Other specified abnormal findings of blood chemistry); possible CSF leak. No prior comparison study available.\n\nIMPRESSION:\n1. No acute intracranial abnormality.\n2. Mild nonspecific white matter signal changes, most likely sequela of microangiopathic ischemia.\n3. Left cerebellar developmental venous anomaly (DVA).\n\nKEY FINDINGS:\n- Brain parenchyma: No mass, mass effect, midline shift, or intracranial hemorrhage. Normal posterior fossa. Unremarkable diffusion imaging.\n- White matter: Mild ill-defined confluent T2/FLAIR signal hyperintensity in periventricular and subcortical white matter bilaterally; attributed to chronic microvascular ischemia.\n- Venous anatomy: Left cerebellar DVA identified. No pachymeningeal enhancement (relevant to CSF leak workup).\n- Auditory canals/petrous: No CPA/IAC mass. Bilateral thinning of the roof of the superior semicircular canal.\n- Ventricles & sella: Normal for age. Normal pituitary.\n- Vasculature & sinuses: Appropriate flow voids. Unremarkable paranasal sinuses.\n- Calvarium & soft tissues: Normal.\n\nReading Physician: Sarah Meng, DO. Authorizing Provider: Jeffrey Liu, MD."
+    }
+  ],
+  "key_findings": [
+    "This is a clinical diagnostic radiology report with no biotech, therapeutic, or drug development content.",
+    "No experimental data, model systems, efficacy measures, IP, regulatory submissions, or funding information are present.",
+    "The document is entirely a patient-level MRI interpretation and is not relevant to TRL assessment.",
+    "Key clinical findings include no acute intracranial abnormality, mild white matter changes consistent with microangiopathic ischemia, a left cerebellar DVA, and bilateral superior semicircular canal roof thinning — none of which pertain to a biotech project."
+  ],
+  "document_date": "2025-12-17",
+  "milestones": [
+    {
+      "title": "Brain MRI Study Performed",
+      "description": "MRI Brain with and without contrast performed at St. Luke's University Health Network for clinical indication of possible CSF leak and abnormal blood chemistry.",
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Exam Type: MRI Brain W & W/O Contrast Study Date: Dec 15, 2025 (08:40 AM)",
+      "page": 1
+    },
+    {
+      "title": "Radiology Report Finalized",
+      "description": "Final diagnostic radiology report issued by reading physician Sarah Meng, DO.",
+      "date": "2025-12-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Result Status: Final (Dec 17, 2025)",
+      "page": 1
+    }
+  ]
+}

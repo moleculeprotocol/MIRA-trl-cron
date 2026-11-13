@@ -1,0 +1,89 @@
+{
+  "file_path": "/medical-significance-the-in-vivo-anchor-with-one-quoted-personal-communication",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This document is a framing/significance text prepared for a VitaDAO proposal's \"Therapeutic relevance\" section, dated 12 November 2026. It establishes the medical rationale for a centriole-age assay pilot run in fibroblasts, anchoring the biological question in the well-documented telomerase regulation of adaptive immune cells (T and B lymphocytes). The document contains no experimental data from the pilot itself; it is a narrative justification with curated literature references and a released personal communication from Aubrey de Grey.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header & Attribution Status",
+      "content": "Document dated 12 Nov 2026. Status: framing text for the 'Therapeutic relevance' field and the proposal's significance section. References verified (PMID resolved) on 12 Nov 2026. Attribution status: PERMISSION GRANTED — 12 Nov 2026, 07:46 (+04). Aubrey de Grey granted permission to quote one personal communication sentence, once, with the date. He did NOT agree to contact VitaDAO directly; that request is unanswered and must not be assumed."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 — Why this section exists",
+      "content": "The relevance argument leads with the biology the assay is meant to inform, not with the assay itself. It states where the mechanism is already observable in humans and what remains unexplained. The section explicitly avoids inflating any claim."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 2 — The in vivo anchor: telomerase-positive non-cancerous cells",
+      "content": "The pilot is run in fibroblasts because centrioles can be watched for months there. The medically relevant cell class is different: telomerase-positive, non-cancerous cells in vivo. The adaptive immune system is the best-documented case. The unresolved part is the timing, not the telomere: a cell that can still induce telomerase stops doing so, and lineages in the same milieu diverge in division rate for reasons telomere length alone does not explain. Centriole age is proposed as a candidate heritable timing mechanism for that divergence, testable where divisions can be counted for months. No pilot data exist yet."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Literature sequence: telomerase regulation in adaptive immune cells",
+      "content": "Step | What happens | Source\nResting lymphocyte | Low telomerase activity | Weng NP et al., J Exp Med 1996;183:2471 — PMID 8676067, DOI 10.1084/jem.183.6.2471\nAntigen-receptor stimulation | Telomerase rises sharply; clone can expand without immediate replicative loss | Same (Weng 1996)\nChronic activation → terminal differentiation | Activity is lost again in CD8+CD28−CD27− T cells | Plunkett FJ et al., J Immunol 2007;178:7710 — PMID 17548608, DOI 10.4049/jimmunol.178.12.7710\nPersistent herpesvirus (CMV) driving that differentiation | Shorter telomeres in circulating T cell pool than in matched seronegative donors | van de Berg PJ et al., J Immunol 2010;184:3414 — PMID 20176738, DOI 10.4049/jimmunol.0903442\nB cells and general lymphocyte picture | Telomerase regulation across lymphocyte subsets | Weng NP, Springer Semin Immunopathol 2002 — DOI 10.1007/s00281-001-0093-4"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 3 — Paste-in paragraph (no attribution): biological scope of the readout",
+      "content": "Paste-ready paragraph for the proposal: The pilot runs in fibroblasts because that is where centrioles can be watched for months. The medically relevant cell class is telomerase-positive, non-cancerous cells in vivo; the clearest example is the adaptive immune system. Resting T and B lymphocytes carry little telomerase activity; antigen-receptor signalling raises it sharply (Weng et al., J Exp Med 1996, PMID 8676067). In highly differentiated CD8+CD28−CD27− T cells the activity is lost again (Plunkett et al., J Immunol 2007, PMID 17548608). CMV-seropositive donors have shorter telomeres in the circulating T cell pool than matched seronegative donors (van de Berg et al., J Immunol 2010, PMID 20176738). The open question is the timing of telomerase shutdown and division-rate divergence — not telomere length — which remains unresolved in current T cell senescence reviews (Mun et al., Immune Netw 2026, PMID 42405213). Inherited centriole age is a candidate mechanism for heritable timing asymmetry. Scope: the pilot measures division timing in fibroblasts; lifespan, immune function, and any intervention are outside its endpoints."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 4 — Variant with attribution (Aubrey de Grey personal communication, RELEASED)",
+      "content": "Released quote (use once, with date, in medical-significance section only): Aubrey de Grey (personal communication, 12 Nov 2026): 'rapidly dividing T and B cells during activation by persistent viruses such as CMV eventually stop reactivating telomerase, and there may be more going on that slows them down.' Permission covers: one verbatim or CMV-clause-trimmed quotation in the VitaDAO proposal, data-room documents, and review thread. Not covered: any claim of endorsement, his views on feasibility or bench risk, a second quotation, or his contacting VitaDAO on the project's behalf."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Permission scope table: what the Aubrey de Grey attribution covers and does not cover",
+      "content": "Covered | Not covered\nThe sentence credited as personal communication, dated 12 Nov 2026 | Any claim that he endorses the project, platform, or pilot\nUse in VitaDAO proposal, data-room documents, and review thread | His view on feasibility, bench risk, or the assessment (he cannot speak to bench work)\nOne quotation, verbatim or trimmed to the CMV clause | A second, paraphrased or embellished quotation elsewhere\n— | His contacting VitaDAO on the project's behalf (asked, unanswered)"
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 5 — What this section does not do",
+      "content": "Explicit scope limitations: (1) Does not raise relevance by argument — moves only if a reviewer concludes the question is worth a staged buy; ceiling for a project whose assay has no data yet. (2) Does not claim a target, a molecule, or an intervention. (3) Does not claim the pilot will show anything about T cells — the immune system is where the phenomenon is documented; fibroblasts are where the measurement is possible."
+    }
+  ],
+  "key_findings": [
+    "This is a pre-data project: the centriole-age assay pilot has no experimental results yet ('a project whose assay has no data yet').",
+    "The pilot model system is fibroblasts, chosen because centrioles can be tracked for months; the medically relevant target cell class is telomerase-positive non-cancerous cells in vivo (adaptive immune lymphocytes).",
+    "The proposed mechanism is inherited centriole age as a heritable timing signal governing when a cell stops inducing telomerase and diverges in division rate — distinct from telomere-length explanations.",
+    "The biological anchor is well-supported by published literature: telomerase induction upon antigen-receptor stimulation (Weng 1996, PMID 8676067), loss in terminally differentiated CD8+CD28−CD27− T cells (Plunkett 2007, PMID 17548608), and shorter telomeres in CMV-seropositive donors (van de Berg 2010, PMID 20176738).",
+    "The open scientific question — why cells that can still induce telomerase stop doing so, and why lineages diverge in division rate — is confirmed unresolved in a 2026 review (Mun et al., Immune Netw 2026, PMID 42405213).",
+    "Aubrey de Grey granted a single-use personal communication quotation (12 Nov 2026) supporting the CMV/telomerase framing; he is not a collaborator, adviser, or applicant.",
+    "No target, molecule, intervention, or quantitative experimental data are claimed in this document; TRL is effectively TRL 1 (concept/hypothesis stage)."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Aubrey de Grey personal communication permission granted",
+      "description": "Aubrey de Grey granted permission to quote his personal communication once, with the date, in the medical-significance section of the VitaDAO proposal and associated data-room documents.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Attribution status: PERMISSION GRANTED — 12 Nov 2026, 07:46 (+04). Exact words: «Thanks; you are welcome to quote me pers comm.»",
+      "page": 1
+    },
+    {
+      "title": "References verified (PMID resolved)",
+      "description": "All literature references cited in the document were verified with PMIDs resolved as of 12 November 2026.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "References verified (PMID resolved) on 12 Nov 2026.",
+      "page": 1
+    }
+  ]
+}

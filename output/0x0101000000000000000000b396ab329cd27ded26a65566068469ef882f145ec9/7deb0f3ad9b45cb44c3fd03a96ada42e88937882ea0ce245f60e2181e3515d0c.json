@@ -1,0 +1,93 @@
+{
+  "file_path": "/publication-boundary-what-is-public-in-this-room-and-why",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This document is a data room publication boundary policy for the ARGUS-OS1 project, hosted on the Molecule.xyz platform. It defines which files are public vs. confidential, what must not be uploaded, and the rationale for transparency decisions. It contains no experimental data, results, or scientific content directly relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Publication Boundary Policy — ARGUS-OS1 Data Room",
+      "content": "Dated 12 November 2026. This document defines the scope of what is published in the ARGUS-OS1 data room on the Molecule.xyz platform, what is deliberately excluded, and the distinction between 'public' and 'confidential' file designations. It is a governance/policy document, not a scientific or experimental report."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1: What 'Public' Means on This Platform",
+      "content": "Public files on Molecule.xyz are accessible via a URL (https://molecule.xyz/labs/<shortname>/files/<id>) with no account, wallet, or role required. The author verified this on 12 November 2026 from a clean browser profile, confirming the full text of the pilot protocol (16 KB) was rendered. Files cannot be unpublished — deletion or replacement does not remove already-downloaded copies. A public upload is treated as a formal publication."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 2: Files That Stay Public and Rationale",
+      "content": "Table listing publicly available files in the ARGUS-OS1 data room:\n1. VitaDAO grant proposal — submitted to a public funding round; applicant's business contact details already public.\n2. Assignment agreement — standard Molecule onchain instrument; contains wallet addresses, Lab identifier, IP-scope DID; no personal data.\n3. Agent access policy — written for reviewer inspection; hiding it would defeat its purpose.\n4. Protocol, method, technical requirements, engineering analysis, bill of materials, patch, ninety-day plan — the scientific claim and test methodology; needed by reviewers and collaborators without permission barriers.\n\nNote: The existence of a 'ninety-day plan,' 'pilot protocol,' 'engineering analysis,' and 'bill of materials' implies active early-stage experimental/engineering work, but no content from these documents is reproduced here."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 3: What Must Not Be Uploaded",
+      "content": "Prohibited uploads include:\n- Raw pilot images and tracked-division logs before pre-registration is frozen and IP position is decided.\n- Third-party personal data (patient material, collaborator identities, review reports, correspondence).\n- Manuscripts under journal consideration that forbid prior public disclosure.\n- Credentials of any kind, including agent tokens.\n- Confidential commercial terms from partners.\n\nTRL-relevant inference: The mention of 'raw pilot images' and 'tracked-division logs' suggests the project involves cell division tracking experiments (possibly microscopy-based), but no data is present in this document."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 4: Confidential vs. Private",
+      "content": "Confidential files are encrypted and gated by onchain role check (Viewer role). Current Viewers include two external readers and two agents (one a language model). Confidential status excludes anonymous visitors only — it is not equivalent to private. For truly restricted material, a separate Lab with its own member list is required."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 5: Room Governance Rule",
+      "content": "The Lab is described as 'a shop window, not a vault.' Any material that would be embarrassing, premature, or unfair if read by a competitor, reviewer, or journalist must not be placed in public or confidential files in this room. Closed/sensitive projects should use a separate Lab with a separate member list."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 6: Change Log",
+      "content": "12 Nov 2026 — First version. Written after discovering that all twelve files in the room, including the funding proposal and the assignment agreement, are readable by anyone holding a link. The decision recorded is to keep them public deliberately rather than by accident."
+    }
+  ],
+  "key_findings": [
+    "This is a governance/policy document with no experimental data or scientific results; TRL relevance is low.",
+    "The data room contains files including a pilot protocol, engineering analysis, bill of materials, ninety-day plan, and tracked-division logs — suggesting an early-stage experimental project (consistent with TRL 1–3), but none of these files' contents are reproduced here.",
+    "The mention of 'raw pilot images' and 'tracked-division logs' implies cell division tracking experiments are underway or planned, but no data is available in this document.",
+    "A VitaDAO grant proposal exists and was submitted to a public funding round, indicating early-stage funding has been sought.",
+    "An IP assignment agreement (Molecule onchain instrument) is in place, with an IP-scope DID, indicating some IP framework exists.",
+    "Pre-registration of the pilot study has not yet been frozen as of the document date (12 November 2026), and the IP position has not yet been decided.",
+    "The project is hosted on Molecule.xyz under the shortname ARGUS-OS1."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Publication Boundary Policy — First Version",
+      "description": "First version of the data room publication boundary policy written after discovering all twelve files in the room are publicly readable by anyone with a link. Decision made to keep them public deliberately.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "12 Nov 2026 — first version. Written after discovering that all twelve files in the room, including the funding proposal and the assignment agreement, are readable by anyone holding a link.",
+      "page": 2
+    },
+    {
+      "title": "Platform Public Access Verification",
+      "description": "Author verified from a clean browser profile that public files on Molecule.xyz are accessible without account, wallet, or role — specifically confirming the full pilot protocol (16 KB) was rendered.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "I checked this on 12 November 2026 from a clean browser profile with no cookies: the page rendered the full text of the pilot protocol, 16 KB of it.",
+      "page": 1
+    },
+    {
+      "title": "Pre-registration Freeze and IP Position Decision (Pending)",
+      "description": "Raw pilot images and tracked-division logs are withheld until the pre-registration is frozen and the IP position is decided — indicating these are upcoming milestones not yet completed.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "ip",
+      "source_quote": "Raw pilot images and tracked-division logs before the pre-registration is frozen and the IP position is decided.",
+      "page": 1
+    }
+  ]
+}

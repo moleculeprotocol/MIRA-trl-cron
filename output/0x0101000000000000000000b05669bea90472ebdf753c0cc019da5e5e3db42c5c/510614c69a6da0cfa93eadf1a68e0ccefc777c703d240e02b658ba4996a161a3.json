@@ -1,0 +1,80 @@
+{
+  "file_path": "/sub-01-mrv-extracranial-venous-obstruction-report",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is an independent second-opinion radiology report from ALPINE Diagnostics (Swiss subspecialty radiology practice), dated 08 November 2026. It reviews MRV imaging of the head, neck, and thorax for an anonymized patient with suspected benign intracranial hypertension, jugular vein compression, and Sjögren's Disease. The report describes bilateral internal jugular vein compression at two anatomical levels and concludes with a jugular venous outflow obstruction pattern, with no lymphovenous malformation or central thoracic venous pathology identified.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Reason for Review – Clinical Context",
+      "content": "Patient diagnoses and clinical suspicions include: benign intracranial hypertension (ICD-10: G93.2), aortosternal compression of the left brachiocephalic vein (BCV), elevated venous pressure and marked venous obstruction at the bilateral lymphovenous junctions (LVJ), primary seropositive Sjögren's Disease, and possible lymphatic drainage abnormality. Primary health complaints: debilitating fluid accumulation above the clavicles involving the neck and upper back; intermittent congestive episodes (particularly early morning) requiring prolonged suction to restore flow; constant drainage of fluid into the oral cavity; pressure/fullness in the ears and facial veins."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Examination Details",
+      "content": "Modality: MRV (Magnetic Resonance Venography). Body regions: Head, Neck, Thorax. Date of examination: 28 October 2026. Comparison study: MRV dated 27 October 2026."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "MRV Findings – Head/Neck/Thorax",
+      "content": "Key findings from MRV review:\n1. Dural venous sinuses: symmetric and patent, no stenosis or occlusion.\n2. Left internal jugular vein (IJV): severe pancake-like flattening at skull base, with posterior condylar and upper deep cervical vein filling; consistent with extrinsic compression by the styloid process and posterior belly of the digastric muscle.\n3. Right IJV: mild narrowing at skull base, with mild posterior condylar and upper deep cervical vein filling.\n4. Both IJVs: severe, near-symmetric, short-segment compression in the inferior cervical region just above the thyroid gland (J2 segment), without an external compressing mass lesion.\n5. Deep cervical, vertebral, and facial veins: dilated (collateral filling).\n6. Brachiocephalic veins: patent; normal degree of narrowing of left BCV between sternum and aorta, without meaningful stenosis or occlusion.\n7. External jugular, subclavian, and axillary veins: patent, no stenosis.\n8. Superior vena cava and azygos veins: normal.\n9. No thoracic collateral circulation to suggest underlying lymphovenous abnormality.\n10. Aorta, supra-aortic branches, vertebral arteries: patent, no haemodynamically significant change.\n11. Heart: normal size, no pericardial effusion.\n12. Abdominal aorta, inferior vena cava, pelvic vessels: patent.\n13. Neck soft tissue: unremarkable within MRV limitations; submandibular, parotid glands, and thyroid normal.\n14. Mild mucosal thickening in both maxillary sinuses. Lungs clear. No bony lesion."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Impression / Conclusion",
+      "content": "1. Bilateral IJV compression at two levels:\n   a. Skull base: severe pancake-like flattening of left IJV (styloid/digastric extrinsic compression); milder right skull-base narrowing; both with posterior condylar/deep cervical venous collateral filling.\n   b. Lower neck (J2 segment, just above thyroid): severe, near-symmetric short-segment compression of both IJVs, without a mass lesion.\n2. Dilatation of deep cervical, vertebral, and facial venous collaterals as a result.\n3. Overall pattern: jugular venous outflow obstruction.\n4. Patent dural venous sinuses (no sinus stenosis, occlusion, or thrombosis).\n5. Patent central thoracic, abdominal, and pelvic veins; no thoracic collaterals to suggest lymphovenous malformation; normal arterial study.\n6. Recommendation: clinical correlation with symptoms; further assessment (positional or conventional venogram) or treatment to be advised by specialist team."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Reporting Radiologists",
+      "content": "Dr. Sara Mohebbi — Consultant Neuroradiologist (report date: 08.11.2026). Oxana Smagulova — Consultant Radiologist (report date: 08.11.2026). Issued by Alpine Diagnostics KIG, private medical practice (Privatpraxis) under Swiss law, registered in the Canton of Zurich (CHE-290.638.465)."
+    }
+  ],
+  "key_findings": [
+    "This is a clinical radiology report (MRV second opinion) for an individual patient — it is not a biotech/science project document and has no direct TRL relevance.",
+    "Bilateral internal jugular vein compression identified at two anatomical levels: skull base (left severe, right mild) and lower neck J2 segment (bilateral, severe, near-symmetric), without a mass lesion.",
+    "Jugular venous outflow obstruction pattern with compensatory dilatation of deep cervical, vertebral, and facial venous collaterals.",
+    "No lymphovenous malformation, no dural sinus stenosis/thrombosis, no central thoracic venous pathology, and no aortosternal BCV compression of clinical significance.",
+    "Clinical diagnoses under investigation include benign intracranial hypertension (ICD-10: G93.2), primary seropositive Sjögren's Disease, and possible lymphatic drainage abnormality.",
+    "Recommendation for further positional or conventional venogram and clinical correlation with treating specialist team."
+  ],
+  "document_date": "2026-11-08",
+  "milestones": [
+    {
+      "title": "MRV Examination (Comparison Study)",
+      "description": "Initial MRV of head/neck/thorax used as comparison for the second opinion review.",
+      "date": "2026-10-27",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Comparison: MRV 27.10.2026",
+      "page": 1
+    },
+    {
+      "title": "MRV Examination (Primary Study)",
+      "description": "MRV of head, neck, and thorax reviewed for this independent second opinion report.",
+      "date": "2026-10-28",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Date of examination: 28.10.2026",
+      "page": 1
+    },
+    {
+      "title": "Independent Second Opinion Report Issued",
+      "description": "ALPINE Diagnostics issued the independent Swiss subspecialty radiology second opinion report, signed by Dr. Sara Mohebbi and Oxana Smagulova.",
+      "date": "2026-11-08",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Date of report: 08.11.2026",
+      "page": 1
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "file_path": "/label-free-centriole-assignment-method",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "high",
+  "summary": "This document is a deep technical analysis by the Georgia Longevity Alliance (ARGUS project) addressing how to determine, using label-free light microscopy only, which daughter cell receives the older vs. newer centriole after mitosis. It reviews published literature, identifies key knowledge gaps (especially for immortalized fibroblasts), and proposes a multi-option methodological framework — culminating in a recommended empirical calibration strategy (Option E) that uses fluorescent markers to train a label-free morphological classifier. The document is a planning/analysis artifact supporting a single-cell longevity experiment protocol (ARGUS Protocol v0.2).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Context",
+      "content": "Title: ARGUS — How to Determine, by Morphology Visible in Light Microscopy (No Staining), Which Daughter Will Receive the Older and Which the Newer Centriole after Mitosis. Author: Jaba Tqemaladze (Georgia Longevity Alliance). Date: 2026-10-21. Status: deep analysis of the question; single cell; first fibroblasts, then immortalized fibroblasts. Every claim carries a source (PMID/DOI). Companion documents: ARGUS_Protocol_v0.2, ARGUS_TRD_v0.9b, ARGUS_Literature_Analysis_EN.md. This is a planning/analysis document, not a report of completed experiments."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 — Biological Framing: Centriole Inheritance at Mitosis",
+      "content": "In G2, a cell has 4 centrioles: two 'mature' (M — oldest, inherited from mother cell; D — formed last cycle, now mature, age 1) and two new procentrioles (age 0). Two centrosomes: {M + new procentriole} and {D + new procentriole}. At mitosis, each daughter receives one centrosome = one mature (mother) centriole + one new procentriole. Key consequence: both daughters receive a newest (just-formed) centriole. The real asymmetry is in the mature centriole: one daughter gets the oldest M (founder lineage), the other the younger mature D (age 1). The experimental task is therefore to determine which daughter receives the older mature (M) vs. the younger mature (D)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 2 — What Light Microscopy Can and Cannot See Without Staining",
+      "content": "Feature | Visible in LM without staining | Comment\nCentriole as object (~200–250 nm) | NO | at/beyond diffraction limit (~250 nm at NA≈1.2); invisible without contrast\nMother-centriole appendages | NO | ~100 nm, EM only\nPTM differences (age) | NO | molecular; invisible without staining\nPericentriolar-material differences | NO | beyond resolution without contrast\nDaughter cell size/volume | YES (phase/DIC) | direct measurable feature\nSpindle geometry, metaphase-plate position, asters | YES (DIC/phase/polarized) | spindle of ordered microtubules gives contrast; asters visible in polarization\nDry mass of the cell | YES (QPI — quantitative phase) | label-free, measurable\nDynamics (anaphase timing, aster movement) | YES (time-lapse DIC/phase) | kinetic feature"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 3 — Literature Review: Published Light-Microscopy Correlates of Centriole Age",
+      "content": "The only published light-microscopy correlate of centriole age in division is a mild spindle/daughter-size asymmetry. Key reference: Thomas & Meraldi 2024 (J Cell Biol; PMID 39012627, DOI 10.1083/jcb.202311153) — in human epithelial and fibroblastic lines, centriole age 'breaks spindle symmetry even in symmetric divisions' → unequal daughter sizes. Mechanism: the old centriole carries more Odf2/cenexin-bound Plk1 → higher microtubule nucleation (pericentrin, γ-tubulin, TPX2, ch-TOG) → the half-spindle on the old-centriole side is longer. Direct morphological consequence: without staining, by daughter size (and/or spindle asymmetry), one can probabilistically indicate where the older centriole is — but the effect is weak (not deterministic). What does NOT exist in the literature: (1) No method that unambiguously assigns the older centriole to one of two daughters in fibroblasts by geometry/size in light microscopy. (2) No data for immortalized fibroblasts (BJ-hTERT/MRC5-hTERT) on centriole-age asymmetry at all — identified as a gap. (3) No documented geometric rule ('older always to adhesion / to the right') for cultured fibroblasts (unlike Drosophila niche, where position is rigid; Yamashita 2007, PMID 17255513)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 4 — Method Options for Label-Free Centriole Age Assignment",
+      "content": "Five options are described:\n\nOption A — Daughter size/volume (phase/DIC) [published]: Measure daughter areas/volumes at cytokinesis. Larger daughter is more likely to carry the older centriole. Pros: simple, cheap, live, no excitation light. Cons: weak effect (Thomas & Meraldi 2024) → in a single cell this is only P ≈ 0.5+δ, δ small; insufficient for rigorous assignment. Fibroblasts: included in Thomas & Meraldi (weak effect present). Immortalized — no data.\n\nOption B — Spindle/aster geometry (DIC/phase, polarized light) [mechanism published]: Half-spindle on old-centriole side is longer; aster on old side is larger/brighter in polarization. Metrics: metaphase-plate offset from center; half-spindle length difference; aster intensity in polarized light; astral-MT asymmetry. Pros: directly reflects the mechanism (nucleation), label-free. Cons: requires polarization/quality optics and kinetic imaging; the 'side → daughter' + 'side → older' link remains probabilistic.\n\nOption C — Quantitative phase / dry mass (QPI) [label-free, mature technique]: Phase/holographic microscopy gives dry mass of daughters; mass asymmetry is more quantitative than area. Pros: label-free, more accurate than A; suitable for long runs (not phototoxic, FR-7). Cons: separate optics; link to centriole age remains weak (via size, as in A).\n\nOption D — Division kinetics (time-lapse DIC/phase) [not proven for age]: Differences in anaphase-onset time, separation speed, cytokinesis symmetry between sides. Possibly correlates with nucleation asymmetry (B), but no direct data for centriole age — experimental hypothesis.\n\nOption E — Empirical calibration of a morphological predictor (recommended) [plan, not literature]: Run a calibration phase on the same lines/conditions WITH fluorescent markers (Cep164 + age marker, pedigree) to obtain ground truth (which daughter got the older centriole). In parallel record a battery of label-free features: daughter size/volume, spindle asymmetry, plate offset, aster asymmetry in polarization, dry mass (QPI), kinetics. Train a classifier 'older goes to daughter A or B' on ground truth; report accuracy (e.g., % correct assignments per division). If accuracy ≥ 95%: assign OLD/NEW by morphology in working run (removes almost all fluorescent light, serving minimal phototoxicity). If below threshold: markers remain mandatory. Pros: the only honest path to 'label-free' in ARGUS; turns a weak effect into a verified metric. Cons: requires a marker calibration phase; accuracy depends on lines and effect size.\n\nOption F — Pedigree bootstrap [NOT NEEDED in this experiment]: In the founder cell, without any anchor, 'which of two centrioles is older' cannot be determined by morphology alone. Not required here because the anchor exists — the founder's first division, where mother (mature, Cep164+) and newly formed (Cep164−) are distinguishable."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 5 — Cell Line Specifics: Fibroblasts and Immortalized Fibroblasts",
+      "content": "Normal fibroblasts: the only known effect is the mild spindle/daughter-size asymmetry (Thomas & Meraldi 2024, included fibroblastic lines). No geometric inheritance rule documented. Immortalized fibroblasts (BJ-hTERT/MRC5-hTERT): NO data at all — neither on centriole-age asymmetry nor on a morphological correlate. This gap is to be closed by pre-test V2/V3 (division behaviour, morphology) in the calibration phase with markers (Option E). This represents a critical knowledge gap for the ARGUS project."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 6 — Assignment Scope and Fallbacks (Working Protocol)",
+      "content": "1. Scope of assignment in the working run: marker-anchored. Morphology alone, without staining, is not a primary assignment channel in this version of the method: the only published correlate (size/spindle, Thomas & Meraldi 2024) is weak and probabilistic, and there are no data for immortalized fibroblasts. The working run assigns OLD/NEW by Cep164 + age marker + continuous pedigree, which needs no bootstrap, and treats label-free morphology as a calibrated secondary channel below a stated accuracy threshold.\n2. The practical path compatible with 'no staining in the working run' is empirical calibration (Option E): a short marker phase gives ground truth; a label-free morphological classifier (daughter size + spindle + QPI + polarization + kinetics) is trained on it; if accuracy is high — work without fluorescent light (minimal phototoxicity). If label-free does not work (accuracy below threshold) — the same marker-anchored method (Cep164 + age marker + continuous pedigree) is applied at every division.\n3. Logical boundary resolved: the first assignment in the founder cell does not require bootstrap — the first division anchors OLD/NEW (Cep164+ vs Cep164−). Thereafter label-free, calibrated morphology can be used if Option E succeeds.\n4. For rigorous Q2/Q3 (protocol v0.2) the OLD/NEW assignment is marker-anchored (Cep164 + age marker + pedigree); label-free morphology serves as a calibrated secondary channel — and as a way to reduce the light load if calibration allows."
+    }
+  ],
+  "key_findings": [
+    "The only published light-microscopy (label-free) correlate of centriole age in division is a mild spindle/daughter-size asymmetry (Thomas & Meraldi 2024, PMID 39012627): the half-spindle on the old-centriole side is longer due to higher MT nucleation (Odf2/cenexin-bound Plk1 → pericentrin, γ-tubulin, TPX2, ch-TOG).",
+    "The published size/spindle asymmetry effect is weak and probabilistic (P ≈ 0.5+δ, δ small) — insufficient for rigorous single-cell assignment of centriole age without staining.",
+    "No data exist for immortalized fibroblasts (BJ-hTERT/MRC5-hTERT) on centriole-age asymmetry or any morphological correlate — identified as a critical gap.",
+    "No geometric inheritance rule ('older always to adhesion / to the right') has been documented for cultured fibroblasts (unlike Drosophila niche; Yamashita 2007, PMID 17255513).",
+    "The recommended approach (Option E) is empirical calibration: use fluorescent markers (Cep164 + age marker) to generate ground truth, train a label-free morphological classifier (daughter size + spindle + QPI + polarization + kinetics), and deploy label-free assignment only if accuracy ≥ 95%.",
+    "The working protocol assigns OLD/NEW centriole by Cep164 + age marker + continuous pedigree (marker-anchored); label-free morphology is a calibrated secondary channel.",
+    "The first division of the founder cell anchors OLD/NEW assignment: Cep164+ daughter = OLD branch; Cep164− daughter = NEW branch. No bootstrap is required.",
+    "This document is a planning/analysis artifact (TRL 1–2 level): no experiments have been completed; the method is proposed and literature-grounded but not yet validated.",
+    "Cell lines targeted: normal fibroblasts (first), then immortalized fibroblasts (BJ-hTERT/MRC5-hTERT).",
+    "Key label-free modalities proposed: phase contrast/DIC (daughter size), polarized light (aster asymmetry), quantitative phase imaging/QPI (dry mass), time-lapse kinetics (anaphase timing)."
+  ],
+  "document_date": "2026-10-21",
+  "milestones": [
+    {
+      "title": "ARGUS Deep Analysis Document Authored",
+      "description": "Completion of the deep technical analysis document on label-free centriole age assignment by light microscopy, authored by Jaba Tqemaladze (Georgia Longevity Alliance), as part of the ARGUS project.",
+      "date": "2026-10-21",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Date: 2026-10-21\nAuthor: Jaba Tqemaladze (Georgia Longevity Alliance)\nStatus: deep analysis of the question; single cell; first fibroblasts, then immortalized fibroblasts.",
+      "page": 1
+    },
+    {
+      "title": "Pre-test V2/V3 — Calibration Phase with Markers for Immortalized Fibroblasts",
+      "description": "Planned pre-test (V2/V3) to characterize division behaviour and morphology of immortalized fibroblasts (BJ-hTERT/MRC5-hTERT) using fluorescent markers (Cep164 + age marker, pedigree) to generate ground truth for centriole-age assignment and close the identified knowledge gap.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Gap to be closed by pre-test V2/V3 (division behaviour, morphology) in the calibration phase with markers (Option E).",
+      "page": 1
+    },
+    {
+      "title": "ARGUS Protocol v0.2 — Q2/Q3 Working Run",
+      "description": "Planned rigorous working run under ARGUS Protocol v0.2 (Q2/Q3), using marker-anchored OLD/NEW centriole assignment (Cep164 + age marker + pedigree) with label-free morphology as a calibrated secondary channel.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Consequently, for rigorous Q2/Q3 (protocol v0.2) the OLD/NEW assignment is marker-anchored (Cep164 + age marker + pedigree); label-free morphology serves as a calibrated secondary channel — and as a way to reduce the light load if calibration allows.",
+      "page": 1
+    }
+  ]
+}

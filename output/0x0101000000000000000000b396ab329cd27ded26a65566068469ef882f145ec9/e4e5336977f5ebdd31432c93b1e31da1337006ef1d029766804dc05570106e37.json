@@ -1,0 +1,105 @@
+{
+  "file_path": "/sop-focus-hold-prototype-and-the-72-hour-drift-log",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "This is a Standard Operating Procedure (SOP) for the ARGUS-OS1 platform's focus-hold prototype validation, specifically designed to close engineering gap P0 identified during an audit against the Zeiss Axio Observer 7. It prescribes a 72-hour uninterrupted drift logging run using a fixed fiducial slide to validate lateral and focus stability of the imaging platform. The document defines acceptance thresholds, hardware requirements, procedure steps, and artifact archiving requirements, with results feeding into the MIRA re-assessment pack due 1 March 2027.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Header and Rationale",
+      "content": "Document: ARGUS-OS1, procedure for closing engineering gap P0. Version: 1.0, dated 12 November 2026. Deliverable: prototype + drift_log.csv, summary.json, drift.png from one uninterrupted 72-hour run. Rationale: An engineering audit against the Zeiss Axio Observer 7 identified hardware focus hold across multi-day runs as the one unvalidated element of the platform. A benchmark readout run on 12 November quantified the impact: at 1.9 px of blur, detection recall falls from 0.78 to 0.30. This establishes focus drift as a critical failure mode ('the experiment failing quietly'), not a nuisance."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 – What is Being Validated",
+      "content": "Two separate claims are validated by the 72-hour log: (1) Lateral stability — the field does not walk, measured as cumulative translation from the first frame by phase correlation. (2) Focus stability — the sample stays in the depth of field, measured as two normalised focus metrics that do not mistake photobleaching for a focus change. A fixed slide with a fiducial pattern (no cells, no fluorophore) is used as the specimen to isolate mechanical/optical drift from biological variability."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 2 – Hardware and Setup Requirements",
+      "content": "Item | Requirement\nSpecimen | Fixed slide with a printed or etched fiducial grid, no fluorophore required for the drift test\nCamera | The V1 camera, at the final resolution and binning that the pilot will use\nObjective | The V1 objective (40×/0.95) — the drift of the mechanical stack changes with the load\nIllumination | Constant, warmed up for 30 minutes before the run starts\nEnclosure | Closed and at operating temperature; the thermal transient of the first hour is recorded, not skipped\nHost | Any machine that can run focus_drift_log.py; it does not need to be the Jetson\nSampling: µm-per-pixel = 0.0388 µm/px (39 nm/px), passed as --um-per-px so the log carries physical units."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 3 – Procedure",
+      "content": "Procedure steps: (1) Mount the fiducial slide, focus by hand, then lock everything. (2) Start the logger with 72-hour settings: python3 scripts/focus_drift_log.py --camera /dev/video0 --width 3280 --height 2464 --duration-h 72 --interval-s 60 --um-per-px 0.0388 --out ~/Desktop/MIRA_ARGUS_2026-11/drift/YYYY-MM-DD_focus_hold. (3) Touch nothing for 72 hours — no re-focusing, no opening the enclosure, no restarting the host. (4) At the end, keep all three artefacts: drift_log.csv, summary.json, drift.png. (5) Compute the checksum of the CSV and record it in the evidence note. If the run dies, restart with --resume; the CSV is append-only, so a 60-hour + 12-hour run still constitutes a valid 72-hour record labelled as two segments."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Section 4 – Acceptance Thresholds",
+      "content": "Metric | Threshold | Rationale\nCoverage | ≥ 95% of scheduled frames logged, zero camera reopens | A run with holes proves nothing about unattended operation\nLateral drift, first hour | Recorded, not scored | Thermal settling; hiding it would be dishonest, scoring it would be unfair\nLateral drift, hours 1–72 | ≤ 2 px/h with fiducial correction active; uncorrected value reported as measured | At 39 nm/px, 2 px/h is 78 nm/h — far below a cell diameter\nFocus, peak-to-peak over 72 h | ≤ 15% of the starting metric value | Keeps the PSF variation small enough that detection recall stays above the 0.75 acceptance floor\nFocus, monotonic decline | ≤ 2%/h sustained over any 6-hour window | Distinguishes a slow thermal walk from noise\nSaturation | < 1% of pixels | A saturated frame has no focus information\n\nPassing: drift log shows the platform can hold a field for three days without human intervention — moves instrument from 'subsystems validated individually' to 'validated in the lab'. Failing: the log measures the size of the problem; e.g., a curve drifting 40 px/h tells the engineer exactly how much correction authority the autofocus loop needs."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 5 – Limitations / What This Does Not Prove",
+      "content": "Explicit scope limitations: (1) Does not test a biological sample and says nothing about the scientific hypothesis. (2) Does not exercise the autofocus loop itself unless the loop is running and its corrections are logged separately — a passive log measures the platform, not the controller. (3) Three days is not three months — a passing 72-hour run justifies the pilot but does not certify a multi-month run; a longer observation is scheduled separately in the ninety-day plan."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 6 – Artifact Archiving",
+      "content": "Artefacts (drift_log.csv, summary.json, drift.png) are to be filed in the data room as a new Science file titled 'Focus-hold prototype: 72-hour drift log', with the checksum in the description and the plot as a separate figure. The same artefacts are required in the MIRA re-assessment pack of 1 March 2027."
+    }
+  ],
+  "key_findings": [
+    "Engineering audit against Zeiss Axio Observer 7 identified hardware focus hold across multi-day runs as the single unvalidated element of the ARGUS-OS1 platform.",
+    "Quantified impact of focus drift: at 1.9 px of blur, detection recall drops from 0.78 to 0.30 — a critical performance degradation established by a benchmark run on 12 November 2026.",
+    "The 72-hour drift log is designed to validate two claims: lateral stability (≤ 2 px/h, hours 1–72) and focus stability (peak-to-peak ≤ 15% of starting metric value over 72 h).",
+    "Platform uses V1 camera (3280×2464 resolution), 40×/0.95 objective, and 0.0388 µm/px scale (39 nm/px), with 60-second sampling interval.",
+    "Acceptance floor for detection recall is 0.75; focus stability threshold is set to keep PSF variation within this bound.",
+    "A passing run moves the instrument from 'subsystems validated individually' to 'validated in the lab' — a key TRL progression step.",
+    "The test uses a fixed fiducial slide (no biological sample), isolating mechanical/optical drift from biological variability.",
+    "Results are required in the MIRA re-assessment pack by 1 March 2027.",
+    "The SOP explicitly acknowledges that 72 hours does not certify multi-month operation; a longer observation is planned separately."
+  ],
+  "document_date": "2026-11-12",
+  "milestones": [
+    {
+      "title": "Focus Drift Benchmark Run",
+      "description": "A benchmark readout of the focus-hold system was run, quantifying that at 1.9 px of blur, detection recall falls from 0.78 to 0.30. This converted an inspection judgement into a measured number.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "A benchmark of the readout, run on 12 November, turned that from an inspection judgement into a number: at 1.9 px of blur, detection recall falls from 0.78 to 0.30.",
+      "page": 1
+    },
+    {
+      "title": "SOP ARGUS-OS1 v1.0 Published",
+      "description": "Version 1.0 of the SOP for closing engineering gap P0 (focus-hold prototype and 72-hour drift log) was issued.",
+      "date": "2026-11-12",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Document: ARGUS-OS1, procedure for closing engineering gap P0 Version: 1.0 · 12 November 2026",
+      "page": 1
+    },
+    {
+      "title": "72-Hour Focus-Hold Drift Log Run",
+      "description": "Planned uninterrupted 72-hour run of the focus_drift_log.py script on the ARGUS-OS1 platform using a fixed fiducial slide to validate lateral and focus stability. Produces drift_log.csv, summary.json, and drift.png artefacts.",
+      "date": "2026-11",
+      "date_precision": "month",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Deliverable it produces: prototype + drift_log.csv, summary.json, drift.png from one uninterrupted 72-hour run",
+      "page": 1
+    },
+    {
+      "title": "MIRA Re-Assessment Pack Submission",
+      "description": "The 72-hour drift log artefacts (drift_log.csv, summary.json, drift.png, checksum) are required to be included in the MIRA re-assessment pack.",
+      "date": "2027-03-01",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "The same artefacts belong in the MIRA re-assessment pack of 1 March 2027.",
+      "page": 2
+    }
+  ]
+}

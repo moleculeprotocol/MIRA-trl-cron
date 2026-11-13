@@ -1,0 +1,20 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a test file labeled \"Elgora bounty 7 test file\" and explicitly states it is public and contains no research data. There is no scientifically relevant content to extract for TRL assessment purposes.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Test File Notice",
+      "content": "Elgora bounty 7 test file. Public. No research data. This document contains no scientific, experimental, or development-related content relevant to TRL assessment."
+    }
+  ],
+  "key_findings": [
+    "Document is explicitly a test file with no research data present.",
+    "No experimental evidence, milestones, team information, IP status, or regulatory content is available."
+  ],
+  "milestones": []
+}
