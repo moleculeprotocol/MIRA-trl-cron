@@ -1,0 +1,19 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a public test file associated with Elgora bounty #7. It contains only a short placeholder text explicitly stating there is no research data, personal data, or confidential information. There is no scientifically relevant content to support a TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Test File Notice",
+      "content": "Elgora bounty #7 — public test file. Short test text only; no research data, no personal data, nothing confidential."
+    }
+  ],
+  "key_findings": [
+    "Document is a public test file with no scientific, experimental, or project-relevant content. No TRL-relevant information is present."
+  ],
+  "milestones": []
+}

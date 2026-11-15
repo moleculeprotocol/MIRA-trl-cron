@@ -1,0 +1,22 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "low",
+  "summary": "This is a short public test note for the Elgora bounty 7 run, associated with Lab 213 on Molecule Production (Base). The document explicitly states it contains no real research data and is intended only as a test entry, making it of minimal value for TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Test Note – Lab 213 Molecule Production (Base)",
+      "content": "Public test note for the Elgora bounty 7 run. Lab 213 on Molecule production (Base). The document explicitly states it is a short test text only with no real research data. No experimental evidence, results, model systems, or development progress information is present."
+    }
+  ],
+  "key_findings": [
+    "Document is a placeholder/test note with no real research data.",
+    "Associated with Lab 213 and a focus area described as 'Molecule Production (Base)'.",
+    "Linked to 'Elgora bounty 7 run' — context of a bounty/challenge program, but no scientific content provided.",
+    "No experimental evidence, quantitative results, model systems, regulatory information, or IP status can be extracted."
+  ],
+  "milestones": []
+}

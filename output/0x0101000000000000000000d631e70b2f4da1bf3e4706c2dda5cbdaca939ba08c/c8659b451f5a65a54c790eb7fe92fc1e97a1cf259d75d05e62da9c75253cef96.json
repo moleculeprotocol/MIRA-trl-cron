@@ -1,0 +1,31 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a public test note associated with Elgora bounty #7 for Lab #214, minted and registered on Base on 15 November 2026. It explicitly states it contains no real research data, no personal data, and nothing confidential — making it entirely irrelevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Test Note Disclaimer",
+      "content": "This file is a public test note only. It explicitly contains no real research data, no personal data, and nothing confidential. No scientifically relevant content is present for TRL assessment purposes."
+    }
+  ],
+  "key_findings": [
+    "Document is a placeholder/test note with no scientific, experimental, or development content relevant to TRL assessment."
+  ],
+  "document_date": "2026-11-15",
+  "milestones": [
+    {
+      "title": "Document Minted and Registered on Base",
+      "description": "The test note was minted and registered on the Base blockchain network.",
+      "date": "2026-11-15",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Minted and registered on Base, 15 Nov 2026.",
+      "page": 1
+    }
+  ]
+}
