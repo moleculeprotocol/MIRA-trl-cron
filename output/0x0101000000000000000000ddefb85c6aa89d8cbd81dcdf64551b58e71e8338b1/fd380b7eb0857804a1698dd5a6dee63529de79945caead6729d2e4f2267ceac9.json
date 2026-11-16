@@ -1,0 +1,20 @@
+{
+  "file_path": "/agent-codex.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document contains only a single line of metadata identifying it as written by a codex agent (identified by a blockchain-style address: 0x058fb92aaf9477e078a44456a0bf17d6a3a8bbac). There is no scientific, experimental, clinical, regulatory, or project-related content present to support a TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Content",
+      "content": "The entire document consists of a single attribution line: 'written by codex agent 0x058fb92aaf9477e078a44456a0bf17d6a3a8bbac'. No scientific, experimental, or development content is present."
+    }
+  ],
+  "key_findings": [
+    "Document contains no scientifically relevant content — only an agent attribution identifier.",
+    "No experimental data, therapeutic targets, model systems, results, regulatory information, or milestones are present."
+  ],
+  "milestones": []
+}

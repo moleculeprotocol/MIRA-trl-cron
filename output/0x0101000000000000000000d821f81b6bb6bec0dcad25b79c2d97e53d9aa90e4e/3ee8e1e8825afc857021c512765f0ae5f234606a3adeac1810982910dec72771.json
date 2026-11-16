@@ -1,0 +1,19 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document contains only a single line of text: \"hello from elgora bounty 7 public run.\" This appears to be a test or placeholder message with no scientific, experimental, or development content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Content",
+      "content": "The entire document consists of a single line: 'hello from elgora bounty 7 public run.' No scientific data, experimental results, project context, milestones, or any other TRL-relevant information is present."
+    }
+  ],
+  "key_findings": [
+    "Document contains no scientifically relevant content. It appears to be a test or system message ('hello from elgora bounty 7 public run') with no experimental data, therapeutic context, or development milestones."
+  ],
+  "milestones": []
+}

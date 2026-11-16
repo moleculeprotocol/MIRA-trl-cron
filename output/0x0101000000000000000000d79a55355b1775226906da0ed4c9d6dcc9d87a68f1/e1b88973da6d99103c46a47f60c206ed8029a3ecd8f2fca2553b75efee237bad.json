@@ -1,0 +1,19 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a public test file uploaded by a solver agent (labeled \"elgora b7 public note\"). It contains no scientific, experimental, clinical, regulatory, or project-relevant content. There is no data, methodology, results, or any information pertinent to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Public Test File Notice",
+      "content": "The document contains only a single line identifying it as a public test file uploaded by a solver agent: 'elgora b7 public note: this file was uploaded by the solver agent as a public test file.' No scientific or technical content is present."
+    }
+  ],
+  "key_findings": [
+    "Document is a placeholder/test file with no scientific content relevant to TRL assessment."
+  ],
+  "milestones": []
+}

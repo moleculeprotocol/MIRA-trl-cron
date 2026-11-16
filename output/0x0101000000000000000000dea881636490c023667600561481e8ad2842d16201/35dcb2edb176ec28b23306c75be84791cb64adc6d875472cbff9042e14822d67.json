@@ -1,0 +1,19 @@
+{
+  "file_path": "/public-note.txt",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a public test note for the Elgora bounty 7 Lab run, containing only short placeholder text with no real scientific data. There is no experimental evidence, project context, or milestone information relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Test Note",
+      "content": "Public test note for the Elgora bounty 7 Lab run. Short test text only; no real data. No scientifically relevant content is present."
+    }
+  ],
+  "key_findings": [
+    "Document is a placeholder test note with no real scientific data, experimental results, or project information relevant to TRL assessment."
+  ],
+  "milestones": []
+}

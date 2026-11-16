@@ -1,0 +1,19 @@
+{
+  "file_path": "/agent-claude.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document contains only a single line of metadata indicating it was written by a Claude AI agent, identified by a hash address. There is no scientific, experimental, clinical, regulatory, or project-related content present to support any TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Content",
+      "content": "The document consists solely of the line: 'written by claude agent 0xc0fe24c076a397b58499c8c2847a92566133164c'. No substantive content is present."
+    }
+  ],
+  "key_findings": [
+    "Document contains no scientifically relevant content. It is a single-line attribution statement referencing a Claude AI agent identifier."
+  ],
+  "milestones": []
+}

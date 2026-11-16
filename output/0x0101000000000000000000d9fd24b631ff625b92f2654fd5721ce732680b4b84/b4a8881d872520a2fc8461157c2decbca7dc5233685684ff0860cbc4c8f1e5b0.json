@@ -1,0 +1,19 @@
+{
+  "file_path": "/agent-claude.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is an agent run log metadata entry, containing only a single line identifying the author (an Ethereum address) and the tool used (claude-code MCP). There is no scientific, experimental, or development content present to support TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Agent Run Log Header",
+      "content": "Agent run log written by 0xcc7163db84204091471d04ccdb8d494953deacef via claude-code MCP. This is a single-line metadata/provenance record with no scientific or technical content."
+    }
+  ],
+  "key_findings": [
+    "Document contains only a single metadata line identifying an agent run log author and tool. No experimental data, therapeutic targets, model systems, results, regulatory information, IP, funding, or team information is present."
+  ],
+  "milestones": []
+}
