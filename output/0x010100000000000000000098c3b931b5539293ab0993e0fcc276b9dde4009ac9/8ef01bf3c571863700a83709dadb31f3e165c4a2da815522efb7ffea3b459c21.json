@@ -1,0 +1,60 @@
+{
+  "file_path": "/screenshot-2026-11-17-at-13-00-1777",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a lab notebook entry (\"Run 15, plate B notes\") from the Molecule platform, recording observations from a plate reader experiment read at day 14. It includes well-level observations, a coating batch notation added by an AI assistant (MIRA), and planned next steps including re-seeding and coating batch verification.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Run 15, Plate B – Experimental Observations (Day 14)",
+      "content": "Plate reader data was collected at day 14. Key observations: Wells B1 and D7 lifted at the edge; all other wells kept their shape. An AI-suggested note (MIRA added, marked in yellow) states: 'The plate used the new coating batch, lot 24-11.' This annotation is pending user review (Keep or Remove)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Next Steps / Planned Actions",
+      "content": "Planned next steps listed under '## Next': (1) Re-seed B1 and D7 on Jun 16. (2) Check the coating batch before plating."
+    }
+  ],
+  "key_findings": [
+    "Plate reader readout performed at day 14 for Run 15, Plate B.",
+    "Wells B1 and D7 showed edge lifting; remaining wells maintained morphology — suggests a localized adhesion or coating issue.",
+    "New coating batch (lot 24-11) was used for this plate, flagged as a potential variable by AI assistant MIRA.",
+    "Planned re-seeding of affected wells (B1, D7) on June 16.",
+    "Coating batch verification recommended before next plating step — indicates awareness of CMC/process variable impact on experimental reproducibility."
+  ],
+  "milestones": [
+    {
+      "title": "Plate Reader Readout – Run 15 Plate B",
+      "description": "Plate reader data collected at day 14 for Run 15, Plate B, with observations on well morphology.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Read at day 14 on the plate reader.",
+      "page": 1
+    },
+    {
+      "title": "Re-seed Wells B1 and D7",
+      "description": "Planned re-seeding of wells B1 and D7 that lifted at the edge during Run 15, Plate B.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Re-seed B1 and D7 on Jun 16.",
+      "page": 1
+    },
+    {
+      "title": "Coating Batch Verification Before Next Plating",
+      "description": "Planned check of the coating batch (lot 24-11) before the next plating step to address potential adhesion issues.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Check the coating batch before plating.",
+      "page": 1
+    }
+  ]
+}

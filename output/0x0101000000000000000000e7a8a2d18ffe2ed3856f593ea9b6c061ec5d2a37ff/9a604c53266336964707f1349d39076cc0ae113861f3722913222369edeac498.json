@@ -1,0 +1,19 @@
+{
+  "file_path": "/agent-claude.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document contains only a single line identifying an Ethereum wallet address (0x33bd8311af6bba0e339955039b53ac9ee6897210) as the author. There is no scientific, experimental, clinical, regulatory, or project-related content present to support a TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Content",
+      "content": "The entire document consists of a single metadata line: 'written by 0x33bd8311af6bba0e339955039b53ac9ee6897210'. This appears to be a blockchain wallet address used as an author identifier. No substantive content is present."
+    }
+  ],
+  "key_findings": [
+    "Document contains only an Ethereum wallet address as author attribution. No scientific, experimental, clinical, or project-related content is present."
+  ],
+  "milestones": []
+}

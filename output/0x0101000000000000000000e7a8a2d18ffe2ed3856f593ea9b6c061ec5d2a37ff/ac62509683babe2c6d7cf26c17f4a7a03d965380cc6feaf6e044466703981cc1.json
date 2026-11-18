@@ -1,0 +1,19 @@
+{
+  "file_path": "/agent-codex.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document contains only a single line identifying an Ethereum wallet address (0xc4981119e3669746e6f0b24baec8ad094d9f79fa) as the author. There is no scientific, experimental, clinical, regulatory, or development content present that would be relevant to a TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Content",
+      "content": "The entire document consists of a single metadata line: 'written by 0xc4981119e3669746e6f0b24baec8ad094d9f79fa'. This appears to be an Ethereum blockchain wallet address attributed as the author. No substantive content is present."
+    }
+  ],
+  "key_findings": [
+    "Document contains only an Ethereum wallet address as author attribution. No scientific, experimental, clinical, or development content is present. No TRL-relevant information can be extracted."
+  ],
+  "milestones": []
+}

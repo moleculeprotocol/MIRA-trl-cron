@@ -1,0 +1,55 @@
+{
+  "file_path": "/screenshot-2026-11-17-at-13-00-17",
+  "extraction_version": 2,
+  "document_type": "experiment_report",
+  "relevance": "medium",
+  "summary": "This document is a lab notebook entry (\"Run 15, plate B notes\") from a biotech platform called Molecule, capturing observations from a plate reader experiment read at day 14. It records well-level morphological observations, a coating batch detail flagged by an AI assistant (MIRA), and planned next steps including re-seeding and coating batch verification.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Run 15, Plate B – Experimental Observations (Day 14)",
+      "content": "Lab notebook entry titled 'Run 15, plate B notes'. Key observations recorded:\n- Read at day 14 on the plate reader.\n- Wells B1 and D7 lifted at the edge (quality/morphology issue).\n- The other wells kept their shape (positive morphological indicator for remaining wells).\n- MIRA (AI assistant) flagged an addition on line 8: 'The plate used the new coating batch, lot 24-11.' This is marked as an unsaved AI-suggested change with options to Keep or Remove.\n\nNext steps section:\n- Re-seed B1 and D7 on Jun 16.\n- Check the coating batch before plating.\n\nContext: This appears to be a cell culture plate experiment, likely involving coated plates (possibly for organoids, primary cells, or adherent cell lines). The coating batch (lot 24-11) is flagged as a potentially relevant variable for the observed well lifting."
+    }
+  ],
+  "key_findings": [
+    "Plate reader readout performed at day 14 for Run 15, Plate B — indicates a multi-day cell culture experiment.",
+    "Wells B1 and D7 showed edge lifting, a quality/morphology failure indicator; remaining wells maintained shape.",
+    "A new coating batch (lot 24-11) was used for this plate — flagged by AI (MIRA) as a potentially relevant experimental variable.",
+    "Planned re-seeding of failed wells (B1 and D7) on June 16.",
+    "Planned quality check of coating batch prior to next plating step.",
+    "Document is at an early experimental stage (TRL 2–3 range): iterative plate-level troubleshooting with no efficacy or quantitative outcome data visible."
+  ],
+  "milestones": [
+    {
+      "title": "Day 14 Plate Reader Readout – Run 15 Plate B",
+      "description": "Plate reader measurement taken at day 14 for Run 15, Plate B, with well-level morphological observations recorded.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Read at day 14 on the plate reader.",
+      "page": 1
+    },
+    {
+      "title": "Re-seed Wells B1 and D7",
+      "description": "Planned re-seeding of wells B1 and D7 (which lifted at the edge) on June 16.",
+      "date": "Jun 16",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "- Re-seed B1 and D7 on Jun 16.",
+      "page": 1
+    },
+    {
+      "title": "Coating Batch Quality Check",
+      "description": "Planned verification of the coating batch (lot 24-11) before the next plating step, to investigate potential cause of well lifting.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "- Check the coating batch before plating.",
+      "page": 1
+    }
+  ]
+}

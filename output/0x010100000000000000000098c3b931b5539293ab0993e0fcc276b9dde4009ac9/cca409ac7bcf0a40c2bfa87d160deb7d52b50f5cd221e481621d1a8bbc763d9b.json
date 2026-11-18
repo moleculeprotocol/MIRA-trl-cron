@@ -1,0 +1,19 @@
+{
+  "file_path": "/screenshot-2026-11-17-at-13-00-1788",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The image shows a UI dialog/modal for a web or software application, specifically a date picker and access permission settings interface. It contains no scientific, experimental, or biotech-related content. The visible elements are a calendar set to November 2026 with a selected date of November 18th, 2026, along with access permission role options (Contributor/Viewer) and navigation buttons (Go back / Review).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "mixed",
+      "title": "Access Permission & Date Picker UI Modal",
+      "content": "A software UI modal dialog is displayed with the following elements:\n1. An error message in red: 'Enter a valid wallet address or email'\n2. An 'Access permission' section with two role tabs: 'Contributor' and 'Viewer' (Viewer described as 'view-only access for confidential files'). Partially visible text mentions permissions to '& remove Contributors' and 'sfer Lab to a new owner'.\n3. A calendar date picker showing November 2026, with November 18th, 2026 selected (shown in the input field at the bottom of the calendar).\n4. Navigation buttons: 'Go back' and 'Review'.\n5. A 'Read more on team roles' link in the top right.\nThis is entirely a software/platform UI element with no scientific or TRL-relevant content."
+    }
+  ],
+  "key_findings": [
+    "This document contains no scientifically relevant content. It is a screenshot of a web application UI modal for managing access permissions and selecting a date (November 18th, 2026). No experimental data, therapeutic targets, assay results, or development milestones are present."
+  ],
+  "milestones": []
+}

@@ -1,0 +1,112 @@
+{
+  "file_path": "/zen-briarmd",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a session log / handoff note for an AI agent (\"Zen Briar\") operating on the AIBTC (AI-to-Bitcoin) agent registry. It describes smart contract security audits, Bitcoin/Stacks wallet key derivation, cryptographic signing pipelines, and bounty submission workflows. There is no biotech, pharmaceutical, or life-science content whatsoever — no experiments, no therapeutic targets, no biological model systems, and no clinical or preclinical data.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Agent Identity & Registry",
+      "content": "Zen Briar is an AI agent registered on the AIBTC (AI-to-Bitcoin) agent registry (Level 2 Genesis). It specializes in Clarity/Stacks smart contract security audits, Bitcoin L1/L2 interaction bugs, agent infrastructure (x402 paid endpoints, Cloudflare Workers), and cross-contract interaction analysis. No biotech or life-science relevance."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "AIBTC Bounty Submission Pipeline",
+      "content": "Describes a reusable pipeline for submitting to AIBTC bounties: keystore decryption (scrypt + AES-256-GCM), BIP-39/BIP-32/BIP-84 key derivation, BIP-137 message signing (P2WPKH), address verification, and API submission. Entirely a software/cryptography engineering artifact with no scientific or biomedical content."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "CityCoins CCIP-028 / CCD015 / CCD016 Smart Contract Audit",
+      "content": "Documents a smart contract security audit submission for a blockchain bounty. Findings include: H-01 (HIGH) hardcoded 50% slippage in native fallback; H-02 (HIGH) uncapped treasury sBTC withdrawal; M-01/M-02/M-03 (MEDIUM) various smart contract logic issues; L-01 (LOW) theoretical integer overflow. 5 of 6 findings were duplicates of prior submissions. No biomedical relevance."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Open Work & Handoff Notes",
+      "content": "Describes pending bounty judging deadlines, a stuck genesis airdrop, a potential wallet password exposure, and plans for autonomous bounty detection. All content is software/blockchain infrastructure. No TRL-relevant scientific content."
+    }
+  ],
+  "key_findings": [
+    "This document has no relevance to biotech or life-science TRL assessment.",
+    "The document is an AI agent session log for a blockchain/smart-contract security auditing agent.",
+    "No experiments, therapeutic targets, biological model systems, clinical data, or regulatory interactions are present.",
+    "All milestones and activities relate to cryptocurrency bounty submissions and blockchain software development."
+  ],
+  "document_date": "2026-11-17",
+  "milestones": [
+    {
+      "title": "Cloudflare Agent Deploy Bounty Judging",
+      "description": "Judging of the Cloudflare agent deploy bounty (mwc3szq53cae05deebce, 3,000 sats) begins after this deadline.",
+      "date": "2026-11-18",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Cloudflare bounty: judging after Nov 18 17:00 UTC",
+      "page": null
+    },
+    {
+      "title": "CityCoins Bounty Judging",
+      "description": "Judging of the CityCoins CCIP-028/CCD015/CCD016 audit bounty (mw4761qx68024266725f, 8,000 sats) begins after this deadline.",
+      "date": "2026-11-19",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "CityCoins bounty: judging after Nov 19 23:59 UTC",
+      "page": null
+    },
+    {
+      "title": "Zest/Jing Audit Bounty Judging",
+      "description": "Judging of the Zest/Jing audit bounty (mwaypr0sa4d1d6ca1f6a, 6,000 sats) begins after this deadline.",
+      "date": "2026-11-24",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "Zest/Jing bounty: judging after Nov 24 23:59 UTC",
+      "page": null
+    },
+    {
+      "title": "Zen Briar First Active in Lab",
+      "description": "Agent Zen Briar became first active in the AIBTC lab.",
+      "date": "2026-11-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "First active in this lab: 2026-11-17",
+      "page": null
+    },
+    {
+      "title": "AIBTC Bounty Submission Pipeline Built",
+      "description": "Complete reusable pipeline for submitting to AIBTC bounties built on the host machine — first end-to-end submission flow by any agent in this lab.",
+      "date": "2026-11-17",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "2026-11-16 → 2026-11-17: AIBTC Bounty Submission Pipeline",
+      "page": null
+    },
+    {
+      "title": "Cloudflare Bounty Submitted",
+      "description": "Submission to Cloudflare agent deploy bounty; 100 sats received as acknowledgment from Quasar Garuda.",
+      "date": "2026-11-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Submitted Nov 16; 100 sats received from Quasar Garuda as acknowledgment; judging after Nov 18 17:00 UTC",
+      "page": null
+    },
+    {
+      "title": "Zest/Jing Audit Bounty Submitted",
+      "description": "Submission to Zest/Jing audit bounty; no in-scope findings; 59 submissions total.",
+      "date": "2026-11-16",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Submitted Nov 16 (mwinf8kdeba31cdc2d9f); no in-scope findings; 59 submissions total; judging after Nov 24",
+      "page": null
+    }
+  ]
+}
