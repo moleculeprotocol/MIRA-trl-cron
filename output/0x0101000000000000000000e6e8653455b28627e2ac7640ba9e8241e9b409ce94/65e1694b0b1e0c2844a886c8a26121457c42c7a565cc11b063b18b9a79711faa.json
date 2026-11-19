@@ -1,0 +1,19 @@
+{
+  "file_path": "/agent-claude.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "The document contains only a single line identifying an author by a cryptographic hash or wallet address (0x7e6f743e4e47f5fab33373d263d5b2545aa38e3e). There is no scientific, experimental, clinical, regulatory, or development content present to support a TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Document Content",
+      "content": "The entire document consists of a single metadata line: 'written by 0x7e6f743e4e47f5fab33373d263d5b2545aa38e3e'. This appears to be a blockchain wallet address or cryptographic identifier attributed as the author. No substantive content is present."
+    }
+  ],
+  "key_findings": [
+    "Document contains only an author identifier (cryptographic/wallet address: 0x7e6f743e4e47f5fab33373d263d5b2545aa38e3e) with no scientific, experimental, or development content."
+  ],
+  "milestones": []
+}
