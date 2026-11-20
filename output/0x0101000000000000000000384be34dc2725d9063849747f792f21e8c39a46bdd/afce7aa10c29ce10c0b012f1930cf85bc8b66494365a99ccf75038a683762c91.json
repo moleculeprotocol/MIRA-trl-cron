@@ -1,0 +1,206 @@
+{
+  "file_path": "/vitastem-presentation-updated-nov2025-ar.pdf",
+  "extraction_version": 2,
+  "document_type": "presentation",
+  "relevance": "high",
+  "summary": "This VitaDAO presentation by Dr. Ashish Rajput (PhD) describes the VitaSTEM project, which uses single-cell RNA sequencing (scRNA-seq) to study hematopoietic stem cell (HSC) aging and identify rejuvenation targets. The project analyzed 850,000+ single-cell transcriptomes from 201 human donors (ages 23–91) across three public datasets, identifying key gene targets and pathways altered with aging. Next steps include in-vitro validation, intervention studies, and a small molecule drug discovery program, with the VitaSTEM IP-Token already launched on the BIO protocol platform.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover / Title Slide",
+      "content": "Title: 'Unlocking Longevity Through Stem Cell Rejuvenation — Leveraging Single-Cell RNA Sequencing for Regenerative Medicine.' Presenter: Dr. Ashish Rajput, PhD. Organization: VitaDAO. Date: 07-Nov-2025."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Agenda",
+      "content": "Seven agenda items: (1) Background, (2) Introduction of stem cells, (3) scRNAseq methodology, (4) Results, (5) Next steps, (6) VitaSTEM launch, (7) Future directions and Drug discovery for targets."
+    },
+    {
+      "page": 3,
+      "type": "figure",
+      "title": "Stem Cell Functions and Types",
+      "content": "Educational slide defining stem cells as cells capable of becoming many different types of cells in the body. Describes four stem cell types: (1) Embryonic stem cells — from early-stage embryos, can become any cell type; (2) Adult stem cells — found in tissues like bone marrow, limited to related cell types; (3) Cord blood stem cells — taken after birth, low rejection risk; (4) iPS cells — reprogrammed body cells, similar to embryonic, used for research. Diagram shows self-renewal and differentiation pathways from stem cells to somatic cells. Stem cell uses listed across stomach, brain, liver, lungs, neuron, spleen, heart, intestine, kidney."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Problem Statement — Aging and Stem Cell Dysfunction",
+      "content": "Aging disrupts stem cell function via two mechanisms: (1) Intrinsic changes: accumulation of DNA damage, epigenetic alterations, mitochondrial dysfunction. (2) Extrinsic changes: dysfunctional stem cell niches, altered systemic signaling (inflammatory cytokines, reduced growth factors). Reference: Cell hallmarks of aging paper (doi: S0092-8674(22)01377-0). Key claim: targeting these pathways can restore stem cell activity and promote tissue regeneration. Diagram shows 12 hallmarks of aging (primary, integrative, antagonistic categories) including genomic instability, telomere attrition, epigenetic alterations, loss of proteostasis, disabled macroautophagy, deregulated nutrient-sensing, mitochondrial dysfunction, cellular senescence, stem cell exhaustion, altered intercellular communication, chronic inflammation, dysbiosis."
+    },
+    {
+      "page": 5,
+      "type": "figure",
+      "title": "Background — Adult Stem Cell Niches",
+      "content": "Central research question: 'Can we rejuvenate stem cells (and their niche) in our body, inside the tissues — where they live?' Diagram shows adult stem cell locations across the body: Brain (NSCs, oligodendrocyte progenitor cells), Oesophagus (oesophagus stem cells), Liver (liver stem cells/oval cells), Intestine (intestinal stem cells), Bladder (bladder stem cells), Fat (adipose stem cells), Lungs (airway basal stem cells, bronchioalveolar stem cells), Stomach (gastric stem cells), Skin (hair follicle stem cells, epidermal stem cells), Bone and bone marrow (HSCs, skeletal stem cells — starred), Muscle (MuSCs, fibroadipogenic progenitors — starred). Niche diagrams shown for NSC niche (SVZ), HSC niche, and MuSC niche. Focus of study is on bone marrow HSCs and muscle stem cells (starred)."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Solution — scRNA-seq Methodology",
+      "content": "Approach to study molecular mechanisms of stem cell aging, identify novel targets, and develop therapies to enhance regenerative capacity. Three methodologies employed: (1) Single-cell RNA sequencing (scRNA-seq), (2) Spatial transcriptomics, (3) Multi-omics data integration. Diagram illustrates the 10x Genomics droplet-based scRNA-seq workflow: cells → barcoded beads → droplets → cell lysis → barcoded cDNA → sequencing → downstream analyses (clustering, biomarker identification, trajectory analysis, functional network). Reference: doi.org/10.3390/ijms22115988."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Data Resources",
+      "content": "Three public data resources used: (1) Single Cell Portal (Broad Institute), (2) Gene Expression Omnibus (GEO), (3) PubMed. Diagram shows the Human Cell Atlas as a central resource enabling: reference for spatial and molecular cell characteristics, disease mechanisms, diagnostics, regenerative medicine, drug development, and foundation for future consortia. Relationship to Human Genome Project noted. Reference: Cell Trends in Genetics (doi: S0168-9525(21)00076-7)."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Hematopoietic Stem Cell Data Analysis — Overview",
+      "content": "Three scRNA-seq datasets on bone marrow analyzed. Total: 201 healthy people (male and female), 838,188 single cells transcriptome analyzed, ages 23 to 91 years. Diagram shows hematopoietic differentiation hierarchy from HSCs (long-term, short-term, multipotent progenitor) through common lymphoid progenitor (→ T cells, B cells, NK cells) and common myeloid progenitor (→ granulocyte-macrophage progenitor → myeloblasts → eosinophils, neutrophils, basophils, monocytes, macrophages, dendritic cells; megakaryocyte-erythroid progenitor → megakaryocytes → platelets; erythrocytes). Reference: doi.org/10.1186/s13287-019-1422-7."
+    },
+    {
+      "page": 9,
+      "type": "figure",
+      "title": "Dataset 1 — Blood Circulating HSCs (Tanay Lab)",
+      "content": "Dataset: 'Natural and age-related variation in circulating human hematopoietic stem cells' (Tanay lab). Reference: doi.org/10.1101/2023.11.30.569167. UMAP plot shows hematopoietic stem precursor cells (HSPCs) colored by age bin (30s, 40s, 50s, 60s, 70s, 80s) using UMAP harmony integration. Heatmap shows differentially expressed genes in HSPCs comparing 30s vs 80s donors, with expression scale from -2 (blue) to +2 (red). Multiple ENSEMBL gene IDs shown with distinct expression patterns between young (30s) and old (80s) donors."
+    },
+    {
+      "page": 11,
+      "type": "table",
+      "title": "Shortlisted Targets — Blood Circulating HSCs",
+      "content": "Four shortlisted gene targets from blood circulating HSC analysis (generated with AUBRAI AI agent):\n\nTarget table:\n- TPSB2/TPSAB1: Overexpressed (↑↑↑), Intervention=INHIBITION, Mechanism=Block mast cell degranulation, Clinical Approach=Cromolyn sodium (FDA approved), Stage=Repurpose existing drug, Benefit=Reduce inflammation\n- CD38: Overexpressed (↑↑), Intervention=INHIBITION, Mechanism=Inhibit CD38 NADase activity, Clinical Approach=CD38 inhibitors (in development), Stage=Preclinical/Phase I, Benefit=Preserve NAD+ levels\n- CCR9: Downregulated (↓↓↓), Intervention=ACTIVATION, Mechanism=Enhance immune cell migration, Clinical Approach=CCR9 agonists, Stage=Research stage, Benefit=Restore immune function\n- KCNK17: Downregulated (↓↓), Intervention=ACTIVATION, Mechanism=Restore K+ channel function, Clinical Approach=K+ channel modulators, Stage=Research stage, Benefit=Improve cellular homeostasis\n\nPriority table:\n- IMMEDIATE: TPSB2/TPSAB1, Fold Change +2.1/+1.4, FDA approved drug available, Time to clinic 0-1 years, Low investment (repurposing), Success probability 80%\n- HIGH: CD38, Fold Change 1.1, In development, 2-3 years to clinic, Medium investment, 60% success probability\n- HIGH: CCR9, Fold Change -2, Research needed, 5-7 years, High investment, 50% success probability\n- MODERATE: KCNK17, Fold Change -1.3, Research needed, 5-7 years, High investment, 30% success probability"
+    },
+    {
+      "page": 12,
+      "type": "figure",
+      "title": "Dataset 2 — Bone Marrow HSC Data (eLife 2022)",
+      "content": "Dataset: 'Uncovering perturbations in human hematopoiesis associated with healthy aging and myeloid malignancies at single-cell resolution.' Reference: doi.org/10.7554/eLife.79363. UMAP plot shows HSCs and niche cells from 8 donors (elderly1, elderly2, elderly3, young1, young2, young3, young4, young5) using harmony integration. Heatmap shows differentially expressed genes in HSCs comparing young vs elderly donors, with expression scale -2 to +2. Key genes visible include XIST, HIST1H4C, PPP1R14B, C1QTNF4, PSMA2, HNRNPA1P48, UHRF1, LGAL91, HPGDS, PCNA, CENPU, TRBC2, PET100, NUSAP1, UBE2C, FEN1, MZB1, CLSPN, PCLAF, ARRDC3, RPL36A, ID1, NRA4A2, JUNB, MTRNR2L1, NR4A2, AC011139.1, ID2, FOSB, FOS, ZFP36, ARL4A, MCL1, PCDH9, CHMP1B, CLU, DUSP1, TSC22D3, FOSB1A, CD69, HBB, JUN."
+    },
+    {
+      "page": 13,
+      "type": "figure",
+      "title": "Dataset 2 — Bone Marrow HSC Pathway Enrichment",
+      "content": "Pathway enrichment analysis for bone marrow HSCs (Dataset 2), comparing young (upregulated) vs elderly (upregulated) pathways.\n\nPathways upregulated in YOUNG HSCs (left panel, fold enrichment up to ~50):\n- DNA replication (highest, ~50 fold, red dot, ~16 -log10 FDR)\n- Mismatch repair\n- Nucleotide excision repair\n- Oxidative phosphorylation\n- Pyrimidine metabolism\n- Cell cycle\n- Drug metabolism-other enzymes\n- Non-alcoholic fatty liver disease\n- Nucleotide metabolism\n- Diabetic cardiomyopathy\n- Cardiac muscle contraction\n- Thermogenesis\n- Parkinson disease\n- Chemical carcinogenesis-reactive oxygen species\n- Prion disease\n- Huntington disease\n- Alzheimer disease\n- Amyotrophic lateral sclerosis\n- Pathways of neurodegeneration-multiple diseases\n- Metabolic pathways\n\nPathways upregulated in ELDERLY HSCs (right panel, fold enrichment up to ~20):\n- Ferroptosis (highest)\n- Amphetamine addiction\n- IL-17 signaling pathway\n- Osteoclast differentiation\n- Leishmaniasis\n- B cell receptor signaling pathway\n- TNF signaling pathway\n- Colorectal cancer\n- PD-L1 expression and PD-1 checkpoint pathway in cancer\n- Th1 and Th2 cell differentiation\n- Rheumatoid arthritis\n- Apoptosis\n- Yersinia infection\n- Toll-like receptor signaling pathway\n- Hippo signaling pathway\n- MicroRNAs in cancer\n- Transcriptional misregulation in cancer\n- Kaposi sarcoma-associated herpesvirus infection\n- MAPK signaling pathway\n- Pathogenic Escherichia coli infection"
+    },
+    {
+      "page": 14,
+      "type": "figure",
+      "title": "Dataset 3 — Bone Marrow Human Hematopoiesis Atlas",
+      "content": "Dataset: 'Single-cell Transcriptional Atlas of Human Hematopoiesis Reveals Genetic and Hierarchy-Based Determinants of Aberrant AML Differentiation.' Reference: doi.org/10.1158/2643-3230.BCD-24-0342. UMAP plot shows comprehensive hematopoietic cell atlas including: Stromal, Polychromatic Erythroblast, Basophilic Erythroblast, Orthochromatic Erythroblast, Pro-Erythroblast, CFU-E, BFU-E, MEP, Early GMP, GMP-Cyc, GMP-Mono, GMP-Neut, MPP-MkEry, MPP-MyLy, HSC, LMPP, Cycling Progenitor, Large Pre-B Cycling, Pre-ProB, Pre-B VDJ, Small Pre-B, Pro-B VDJ, Pre-pDC, Pre-pDC Cycling, pDC, cDC1, DC2, ASDC, Late ProMono, Early ProMono, CD14 Mono, CD16 Mono, Immature B, Mature B, Plasma Cell, CD8 Naive, CD4 Naive, CD4 Central Memory, CD4 Regulatory, CD8 Central Memory, CD4 Effector Memory, CD8 Effector Memory 1, CD8 Effector Memory 2, T Proliferating, CD8 Tissue Resident Memory, NK, NK CD56high, NK Proliferating. Heatmap shows DEGs in HSCs comparing young (18-39) vs elderly (60-85) donors. Key genes visible include UGCR11-1, PTPRCAP, NDUFB8-1, TMSB4-1, RPSAP58, PSMA2-1, HIST1H2BK, MATR5, XIST, DONGSON, ATP5B, GFX1, ATPJ2, C1skrB0, HTFX, ATPED, CXCL8, ATPSG3, ATPSC1, ATPSG1, ATPF1, RTPDC1, FAMG9F, ATPG2, C1QTNF4, ILF3-AS1, WADH1, CXCL8, MTRNR2L8, NRA4A2, NRAA1, MTRNR2L1, NR4A2, AC011139.1, REX1BD, ATXN0B5, MTRNR2L12, NAGA2, CAVN2, ILF3-DT, AC011139.1, MTRNR2L2, FDER1A, TIPN, AREG, GUCY1A1, JAML, AL121984.1, RPS6Y1, ITRAF, ATPG0, ATPGD, SELENOP."
+    },
+    {
+      "page": 15,
+      "type": "figure",
+      "title": "Dataset 3 — Differential Signalling Interactions (CellChat)",
+      "content": "Cell-cell communication analysis using CellChat database (manually curated from KEGG and primary literature; ~2,021 ligand-receptor pairs; 60% secreted signaling, 21% ECM-receptor, 19% cell-cell contact; 52% heterodimers, 48% others). Bar charts show relative information flow and absolute information flow for signaling pathways comparing Young vs Old HSC bone marrow samples. Young donors show higher relative information flow in pathways at the top of the chart (e.g., CD99, FGF, NEGR, NCAM, PROS, EPYH, VWF, Cholesterol, EPHB, CX3C). Old donors show higher relative information flow in pathways at the bottom (e.g., CD86, GPI, DHEA, TENASCIN, LCK, MHC-I, GAS, THY, PTPRM, NOTCH, BTL4, CD45, CDH, GP1BA, MSP, GF, VISFATIN, CD48). Absolute information flow chart shows similar patterns with quantitative values up to ~300."
+    },
+    {
+      "page": 16,
+      "type": "figure",
+      "title": "Shortlisted Targets — Bone Marrow HSCs (Volcano Plot)",
+      "content": "Volcano plot titled 'Critical Aging Intervention Targets — HSCs Young vs Old (Key therapeutic targets highlighted).' X-axis: Log2 Fold Change (Young vs Old), Y-axis: -Log10 Adjusted P-value (up to ~300). Key targets highlighted: Upregulated in Old (red): DHFR, MPO, HIST1H4C, TYMS, UHRF1. Upregulated in Young (blue, i.e., downregulated in old): ID1 (far left, ~-7 log2FC), NR4A1, NR4A2, JUNB, FOS, FOSB. XIST shown far right (~+13 log2FC, very high significance). Generated with AUBRAI AI agent."
+    },
+    {
+      "page": 17,
+      "type": "table",
+      "title": "Shortlisted Targets — Bone Marrow HSCs (Gene Table)",
+      "content": "12 shortlisted gene targets from bone marrow HSC analysis (generated with AUBRAI AI agent):\n\n- NR4A1: Nuclear receptor, Log2FC = -4.9, Rationale = Stress response\n- NR4A2: Nuclear receptor, Log2FC = -3.1, Rationale = Metabolic regulation\n- JUNB: Transcription factor, Log2FC = -3.56, Rationale = Stress/inflammation\n- FOS: Transcription factor, Log2FC = -2.34, Rationale = Stress response\n- FOSB: Transcription factor, Log2FC = -2.73, Rationale = Stress response\n- ID1: Transcription factor, Log2FC = -7.05, Rationale = Cell cycle control\n- ID2: Transcription factor, Log2FC = -2.8, Rationale = Cell differentiation\n- XIST: X-inactivation, Log2FC = +13.41, Rationale = Gender-specific aging\n- HIST1H4C: Histone, Log2FC = +2.28, Rationale = Chromatin remodeling\n- PSMA2: Proteasome, Log2FC = +2.03, Rationale = Protein degradation\n- MPO: Myeloperoxidase, Log2FC = +2.57, Rationale = Oxidative stress\n- UHRF1: DNA methylation, Log2FC = +2.01, Rationale = Epigenetic regulation\n\nNegative Log2FC values indicate downregulation in old vs young; positive values indicate upregulation in old."
+    },
+    {
+      "page": 18,
+      "type": "text",
+      "title": "VitaLabs Project Report — Executive Summary and Methodology",
+      "content": "Formal project report embedded in slide. Title: 'Unlocking Longevity Through Hematopoietic Stem Cell Rejuvenation via Single-Cell RNA Sequencing.' Project Lead: Dr. Ashish Rajput, PhD. Organization: VitaDAO. Date: October 31, 2025.\n\nExecutive Summary: Project investigates molecular mechanisms underlying HSC aging through integrated analysis of multi-cohort scRNA-seq datasets. Analysis encompassed 850,000+ single-cell transcriptomics from 201 human donors (male and female) aged 23–91 years. Gene targets refined with AUBRAI (scientific AI agent of Dr. Aubrey de Grey, developed by VitaDAO and Bio protocol team). Findings support development of therapeutic strategies targeting inflammation and metabolic decline. Translational roadmap leverages VitaDAO's IP-NFT framework.\n\nProject Background: HSCs sustain blood and immune system renewal but regenerative potential declines with age due to intrinsic factors (mitochondrial dysfunction, DNA damage, epigenetic drift) and extrinsic factors (inflammatory niche signaling, reduced systemic growth factors). These compromise hematopoietic function, predisposing to immunosenescence and age-associated diseases.\n\nResearch Methodology: Three public scRNA-seq datasets used:\n1. Tanay Lab dataset (2023) — Circulating HSCs, 148 healthy donors (79 males, 69 females), ages 23–91 years\n2. eLife dataset (2022) — Bone marrow HSC aging, 8 healthy donors (3 elderly, 5 young)\n3. Human hematopoiesis atlas (2024) — 45 healthy donors across different ages\n\nData preprocessing: CellRanger (10X Genomics) for alignment and count matrix generation. Seurat v5 for normalization and clustering. Harmony integration for batch correction. DGE assessed using Wilcoxon tests (adjusted p < 0.05 and |log2FC| > 1). Pathway enrichment via Reactome, MSigDB, ShinyGO. Cell-cell communication via CellChat. Custom Python and R scripts for visualization and DEG ranking."
+    },
+    {
+      "page": 19,
+      "type": "text",
+      "title": "Next Steps",
+      "content": "Three planned next steps: (1) In-vitro validation of shortlisted gene targets; (2) Intervention studies on primary young and old HSC cells; (3) Drug discovery project on selected targets. Market context: $620B+ market for regenerative medicine by 2030. Diagram shows full drug development pipeline: Drug discovery with AI (data → neural networks → lead identification) → Validation (lead optimization → in vitro → in vivo → preclinical studies) → Clinical Trials (Phase 1 → Phase 2 → Phase 3 → FDA review → Phase 4)."
+    },
+    {
+      "page": 20,
+      "type": "text",
+      "title": "VitaSTEM Launch — BIO Protocol IP-Token",
+      "content": "VitaSTEM by Aubrai is listed as LIVE on the BIO protocol platform with an IP-Token ($VITASTEM) on BASE blockchain. Description: 'VitaSTEM — The first AI-enabled longevity project and inaugural IP-Token launched by Aubrai, VitaDAO's decentralized scientific agent. After six months of deep research on public and proprietary single-cell RNA-seq and multi-omics datasets, our scientific research team analyzed more than 850,000 human hematopoietic stem cell transcriptomes from donors aged 23–91 (both male and female). This effort uncovered 100+ high-potential rejuvenation target genes and revealed critical drivers of decline such as RhoA hyperactivation, CD38 upregulation, and CCR9 downregulation. Rather than treating HSC aging as a single defect, Aubrai recognized it as convergent damage across interconnected systems, generating a comprehensive multi-modal, five-phase rejuvenation protocol targeting transcriptional stress, metabolic dysfunction, and epigenetic drift in parallel. The agent shortlisted target genes using insights from thousands of peer-reviewed publications and private data and also optimized experimental protocols to guide in vitro and upcoming pre-clinical testing. For the first time, human researchers and AI Agents collaborate as co-scientists in the creation of pioneering scientific IP.' Community sentiment: 95% positive (876 upvotes, 49 downvotes)."
+    },
+    {
+      "page": 21,
+      "type": "figure",
+      "title": "VitaSTEM Outcome Roadmap",
+      "content": "Four planned milestones for VitaSTEM project:\n1. Q1 2026: In-vitro validation of shortlisted gene targets in primary HSC cells\n2. Q2-Q3 2026: Gene activation/inhibition intervention by mRNA/siRNA electroporation on primary young and old HSC cells\n3. Q1-Q3 2026: Small molecule drug discovery project using computational biology tools\n4. Q4 2026: Final data analysis and reports preparations"
+    }
+  ],
+  "key_findings": [
+    "Analyzed 850,000+ single-cell transcriptomes (838,188 per slide 8; 850,000+ per report) from 201 healthy human donors (male and female) aged 23–91 years across 3 public scRNA-seq datasets on hematopoietic stem cells.",
+    "Three datasets used: (1) Tanay Lab 2023 — circulating HSCs, 148 donors ages 23–91; (2) eLife 2022 — bone marrow HSC aging, 8 donors (3 elderly, 5 young); (3) Human hematopoiesis atlas 2024 — 45 donors.",
+    "Methodology: CellRanger for alignment, Seurat v5 for normalization/clustering, Harmony for batch correction, Wilcoxon DGE (adj. p<0.05, |log2FC|>1), Reactome/MSigDB/ShinyGO pathway enrichment, CellChat for cell-cell communication.",
+    "Key aging-associated gene targets identified in bone marrow HSCs: ID1 (Log2FC -7.05, cell cycle control), XIST (Log2FC +13.41, gender-specific aging), NR4A1 (Log2FC -4.9, stress response), JUNB (Log2FC -3.56, stress/inflammation), MPO (Log2FC +2.57, oxidative stress), UHRF1 (Log2FC +2.01, epigenetic regulation), HIST1H4C (Log2FC +2.28, chromatin remodeling), PSMA2 (Log2FC +2.03, protein degradation).",
+    "Key aging-associated targets in circulating HSCs: TPSB2/TPSAB1 (overexpressed, fold change +2.1/+1.4, FDA-approved drug Cromolyn sodium available for repurposing, 80% success probability, 0-1 year time to clinic), CD38 (overexpressed, fold change 1.1, inhibitors in development, 60% success probability), CCR9 (downregulated, fold change -2, research stage), KCNK17 (downregulated, fold change -1.3, research stage).",
+    "Pathway enrichment in bone marrow HSCs: Young HSCs upregulate DNA replication, mismatch repair, oxidative phosphorylation, cell cycle pathways. Elderly HSCs upregulate ferroptosis, IL-17 signaling, TNF signaling, apoptosis, MAPK signaling, inflammatory pathways.",
+    "VitaSTEM IP-Token ($VITASTEM) launched LIVE on BIO protocol platform on BASE blockchain; 95% positive community sentiment (876 upvotes, 49 downvotes).",
+    "AUBRAI (AI agent of Dr. Aubrey de Grey, developed by VitaDAO and Bio protocol team) used to refine gene targets and shortlist candidates from thousands of peer-reviewed publications and private data.",
+    "100+ high-potential rejuvenation target genes identified; critical drivers include RhoA hyperactivation, CD38 upregulation, CCR9 downregulation.",
+    "Five-phase multi-modal rejuvenation protocol generated by AUBRAI targeting transcriptional stress, metabolic dysfunction, and epigenetic drift.",
+    "Current TRL assessment: TRL 2-3 — bioinformatics/computational analysis of public datasets completed; no in-vitro or in-vivo experimental validation yet performed (planned for 2026).",
+    "Regenerative medicine market projected at $620B+ by 2030."
+  ],
+  "document_date": "2025-11-07",
+  "milestones": [
+    {
+      "title": "VitaLabs Project Report Completed",
+      "description": "Formal project report summarizing scRNA-seq analysis of HSC aging completed and dated October 31, 2025.",
+      "date": "2025-10-31",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Date: October 31, 2025",
+      "page": 18
+    },
+    {
+      "title": "VitaSTEM IP-Token Launch (LIVE)",
+      "description": "VitaSTEM by Aubrai launched as the first AI-enabled longevity IP-Token on the BIO protocol platform on BASE blockchain, with $VITASTEM token live.",
+      "date": "2025-11-07",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "VitaSTEM by Aubrai — LIVE — IPT — $VITASTEM — BASE",
+      "page": 20
+    },
+    {
+      "title": "In-vitro Validation of Gene Targets in Primary HSC Cells",
+      "description": "In-vitro validation of shortlisted gene targets in primary hematopoietic stem cells.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Q1 2026 — In-vitro validation of shortlisted gene targets in primary HSC cells",
+      "page": 21
+    },
+    {
+      "title": "Gene Activation/Inhibition Intervention Studies (mRNA/siRNA)",
+      "description": "Gene activation/inhibition intervention by mRNA/siRNA electroporation on primary young and old HSC cells.",
+      "date": "2026-Q2",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "Q2-Q3 2026 — Gene activation/inhibition Intervention by mRNA / siRNA electroporation on primary young and old HSC cells",
+      "page": 21
+    },
+    {
+      "title": "Small Molecule Drug Discovery Project",
+      "description": "Small molecule drug discovery project using computational biology tools, running in parallel with in-vitro and intervention studies.",
+      "date": "2026-Q1",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Q1-Q3 2026 — Small molecule drug discovery project using computational biology tools",
+      "page": 21
+    },
+    {
+      "title": "Final Data Analysis and Report Preparation",
+      "description": "Final data analysis and reports preparations for VitaSTEM project outcomes.",
+      "date": "2026-Q4",
+      "date_precision": "quarter",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Q4 2026 — Final data analysis and reports preparations",
+      "page": 21
+    }
+  ]
+}

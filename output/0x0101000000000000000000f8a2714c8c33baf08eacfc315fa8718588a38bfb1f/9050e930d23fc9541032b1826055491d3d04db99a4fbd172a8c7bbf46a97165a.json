@@ -1,0 +1,21 @@
+{
+  "file_path": "/briefs/payout-evidence-brief.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document is a commercial service brief for \"Bounty Radar,\" a blockchain/crypto verification service that checks USDC escrow transactions on the Base network. It describes a methodology for verifying on-chain payment evidence (ERC-20 Transfer events, gas costs, block pinning, escrow liquidity). There is no biotech, scientific, or therapeutic content whatsoever.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Bounty Radar – Payout Evidence Brief (Commercial Service)",
+      "content": "This document describes a paid service for verifying cryptocurrency (USDC on Base blockchain) escrow transactions. It outlines a methodology for checking ERC-20 Transfer events, gas costs, block pinning, and escrow withdrawal paths. Pricing is listed at $0.50–$1.00 per report, settled in USDC on Base. There is no scientific, biotech, or therapeutic content. This document is entirely irrelevant to TRL assessment."
+    }
+  ],
+  "key_findings": [
+    "Document is a blockchain/crypto payment verification service brief with no scientific, biotech, or therapeutic content.",
+    "No experiments, model systems, results, regulatory interactions, IP, or team information relevant to TRL assessment are present.",
+    "The document describes on-chain USDC escrow verification methodology on the Base network — entirely outside the biotech/science domain."
+  ],
+  "milestones": []
+}

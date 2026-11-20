@@ -1,0 +1,21 @@
+{
+  "file_path": "/briefs/escrow-liquidity-check.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This document describes a blockchain/smart contract escrow liquidity verification methodology, outlining four on-chain reads used to confirm that committed funds in an escrow contract can actually be paid out. It includes a counter-example demonstrating a failure mode and a reporting standard. This is entirely unrelated to biotech, life sciences, or any technology relevant to TRL assessment of a therapeutic or scientific project.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Escrow Liquidity Check Methodology",
+      "content": "The document describes a blockchain escrow verification process using four on-chain reads (eth_call at commitment block, eth_call at current head, locked liquidity read, and eth_getTransactionReceipt). It includes a counter-example where a balance check passed but funds could not be moved due to an unfunded withdrawal path. It also defines a reporting standard for on-chain vs. inferred values, gas reporting, payer identification, and handling of unavailable reads. Commercial pricing terms and a USDC settlement address are listed. No scientific, biomedical, or therapeutic content is present."
+    }
+  ],
+  "key_findings": [
+    "Document is entirely focused on blockchain/smart contract escrow liquidity verification and has no relevance to biotech, therapeutics, TRL assessment, or any scientific research domain.",
+    "No experimental data, model systems, therapeutic targets, regulatory interactions, or development milestones are present.",
+    "Commercial terms reference payments in USDC on Base blockchain, further confirming this is a crypto/fintech document."
+  ],
+  "milestones": []
+}
