@@ -1,0 +1,112 @@
+{
+  "file_path": "/hair-biology/hair-biology-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "PeptAI's programme overview describes an early-stage research programme targeting secreted Wnt pathway modulators involved in hair follicle cycling and pattern hair loss. The modality is designed peptides and protein binders intended for topical or intradermal delivery. The programme is explicitly described as early-stage, with target validation and computational design as the current activities, and no experimental results reported yet.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Target at a Glance",
+      "content": "Summary table of programme parameters:\n- Area: Hair follicle cycling and pattern hair loss\n- Pathway family: Wnt signalling and its secreted modulators\n- Why extracellular: Secreted signals can be reached by a binder without entering the cell\n- Evidence base: Developmental genetics, cell culture and human tissue studies\n- Modality: Designed peptide and protein binders\n- Delivery routes of interest: Topical and intradermal"
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Pathway/Cycle Summary Diagram",
+      "content": "A linear flow diagram showing the proposed signalling cascade: Dermal papilla signals → Secreted Wnt modulators → Follicle stem cells → Growth, regression or rest. This is a conceptual schematic only; no experimental data is embedded."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology Section",
+      "content": "The hair follicle cycles through growth (anagen), regression (catagen), and rest (telogen). Cycle control involves signals between the dermal papilla and follicle stem cells. Wnt signalling is required for follicle development initiation (Andl et al. 2002, Dev Cell). Cycle timing is tightly regulated (Stenn and Paus 2001, Physiol Rev). Wnt activity is tuned by secreted modulators. Pattern hair loss involves shortened growth phase and progressive follicle miniaturisation, with altered dermal-epithelial signalling implicated. Evidence base cited is published literature (developmental genetics, cell culture, human tissue studies) — no proprietary experimental data presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Validation Section",
+      "content": "The Wnt pathway is described as well established in development and follicle biology. Evidence level differs between individual modulators. The programme treats each modulator as a hypothesis to be tested in follicle models before any claim is made. No proprietary validation data is reported. Pattern hair loss is noted as common, with biology implicating extracellularly accessible signalling."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Landscape and Gap Section",
+      "content": "Approved options for pattern hair loss are limited and act on hormones or blood flow rather than the signalling layer. Antibodies can reach extracellular targets but are too large for topical use. Small molecules rarely discriminate between related secreted proteins. Short designed peptides and compact de novo binders are positioned as well-suited to secreted targets, with small size advantageous for local skin delivery. This is a competitive landscape rationale, not experimental evidence."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Key identified risks:\n1. Delivery: reaching the dermal papilla through skin is the main practical challenge.\n2. Pathway safety: Wnt signalling is central to tissue renewal; modulation must be local and well controlled.\n3. Translation: follicle models are informative but do not fully predict human outcomes.\n4. Specificity: related secreted proteins share structural features; selectivity must be measured."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Advancement Criteria (How We Will Know)",
+      "content": "Explicit go/no-go criteria stated: a candidate advances only on measured evidence comprising (1) confirmed binding to its target, (2) a functional effect on pathway activity in cells, and (3) a readable effect in a follicle or tissue model. Computational predictions alone do not advance a candidate. This defines the experimental gatekeeping framework but no results are yet reported."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "The programme is explicitly described as early. Current activities: target validation and computational design. Next steps: measurement of binding and pathway activity. No binding data, cell assay data, or model data has been generated or reported yet."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "How PeptAI Works (Platform Description)",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is the only gate that makes a candidate real. Measured sequence and activity pairs are retained to improve models. This describes the platform methodology, not programme-specific results."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "References",
+      "content": "1. Andl T, et al. WNT signals are required for the initiation of hair follicle development. Dev Cell 2002. doi:10.1016/s1534-5807(02)00167-3\n2. Stenn KS, Paus R. Controls of hair follicle cycling. Physiol Rev 2001. doi:10.1152/physrev.2001.81.1.449\nBoth are published third-party literature supporting the biological rationale; no proprietary data references."
+    }
+  ],
+  "key_findings": [
+    "Programme is explicitly early-stage (TRL 1–2): target validation and computational design are the current activities; no binding, cell assay, or model data has been generated.",
+    "Modality: designed peptides and compact de novo protein binders targeting secreted Wnt pathway modulators involved in hair follicle cycling.",
+    "Therapeutic area: pattern hair loss (androgenetic alopecia); delivery routes of interest are topical and intradermal.",
+    "Advancement criteria are clearly defined: candidates require confirmed binding, functional pathway effect in cells, AND a readable effect in a follicle/tissue model before progressing — computational predictions alone are insufficient.",
+    "Evidence base for the target is entirely third-party published literature (Andl et al. 2002; Stenn & Paus 2001); no proprietary experimental data is presented.",
+    "Key risks identified: skin penetration to dermal papilla, Wnt pathway safety (tissue renewal role), translation from follicle models to humans, and selectivity among structurally related secreted proteins.",
+    "Competitive gap: existing approved therapies act on hormones/blood flow, not the signalling layer; antibodies are too large for topical use; small molecules lack selectivity among related secreted proteins.",
+    "Document is a public programme overview describing biology and rationale only; explicitly states it makes no claim about safety or efficacy of any candidate."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": [
+    {
+      "title": "Programme Overview Document Published",
+      "description": "Public release of the PeptAI Hair Follicle Signalling programme overview document, version dated 20 November 2026.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Public document. Version of 20 November 2026.",
+      "page": 2
+    },
+    {
+      "title": "Target Validation and Computational Design",
+      "description": "Current programme activity: performing target validation and computational design of peptide/protein binders against secreted Wnt modulators.",
+      "date": "in progress (no specific date given)",
+      "date_precision": "unknown",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "The programme is early. Target validation and computational design come first, followed by measurement of binding and pathway activity.",
+      "page": 2
+    },
+    {
+      "title": "Binding and Pathway Activity Measurement",
+      "description": "Next planned step: laboratory measurement of binding to target and functional effect on Wnt pathway activity in cells, as required for candidate advancement.",
+      "date": "in progress (no specific date given)",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Target validation and computational design come first, followed by measurement of binding and pathway activity.",
+      "page": 2
+    }
+  ]
+}

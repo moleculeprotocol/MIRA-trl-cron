@@ -1,0 +1,83 @@
+{
+  "file_path": "/enzyme-engineering/enzyme-engineering-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "presentation",
+  "relevance": "medium",
+  "summary": "This is a PeptAI programme overview document describing their Enzyme Engineering programme, which applies a computational design-and-measure loop to engineer more active, stable, or newly functional enzymes. The programme is at the method development stage, combining generative backbone design, inverse folding sequence design, and rapid experimental feedback. No proprietary experimental results are reported; the document primarily describes the approach, its scientific rationale, and known risks.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target at a Glance – Programme Summary Table",
+      "content": "Scope: Enzyme design and optimisation. Methods: Generative backbone design, sequence design and structure-based filtering. Experimental step: Expression and activity assays of every design. Precedent: Directed evolution, and recent computational design of new enzymes. Applications: Industrial, therapeutic and agricultural processes. Modality: Designed and engineered enzymes."
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Design-and-Measure Loop (Pathway/Cycle Summary)",
+      "content": "A linear cycle is depicted: Design → Sequence → Expression and assay → Measured activity → Next design round. This represents PeptAI's iterative computational-experimental feedback loop for enzyme engineering. No quantitative data is shown in the diagram."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology – Scientific Background",
+      "content": "Enzymes catalyse reactions with high selectivity under mild conditions via a precisely arranged active site. Traditional engineering uses directed evolution (Arnold 2019). Deep learning now enables: (1) generative models for new protein backbones (Watson et al. 2023, RFdiffusion); (2) inverse folding models for sequence design (Dauparas et al. 2022, ProteinMPNN); (3) designed enzymes with new active sites, including serine hydrolases (Lauko et al. 2025). These are cited as external precedents, not PeptAI's own results."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Validation – State of the Field",
+      "content": "Both directed evolution (industrial scale) and computational design (working enzymes from scratch) are described as proven. The document states: 'The open question is speed and reliability, not feasibility.' This validation is based on published literature, not PeptAI's own experimental data."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Landscape and Gap – Competitive Positioning",
+      "content": "Directed evolution requires large screening effort per target. Computational design reduces screening but success rates for new activity remain modest. PeptAI's differentiation is the closed-loop system: computational design + rapid measurement + feeding measured sequence-activity pairs back into models. Each round is intended to improve the next."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Four key risks identified: (1) Activity prediction – stability and folding are predicted well, but catalytic activity prediction is much less reliable. (2) Expression – computationally promising designs may not express or fold in the production host. (3) Assay design – the assay must measure the activity relevant to the application. (4) Transfer – improvements under one condition may not hold under process conditions."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "How We Will Know – Success Criteria",
+      "content": "Advancement criteria for a design: measured expression, catalytic activity against the intended substrate, and stability under conditions of use. The programme also tracks how well computational scores predict measured activity round-to-round. All advancement is gated on measured (experimental) activity, not computational prediction alone."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "Current stage: Method development. Approach: Each target is scoped by its assay — where an assay is fast and meaningful, the loop can run quickly. PeptAI starts with targets that have fast, meaningful assays. No specific targets, timelines, or experimental results are disclosed."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "How PeptAI Works – Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is described as the only gate that makes a candidate real. Measured sequence-activity pairs are retained and used to improve models. This is a platform-level description with no specific experimental results reported."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "References",
+      "content": "1. Arnold FH. Directed evolution: bringing new chemistry to life. Angew Chem Int Ed 2019. doi:10.1002/anie.201708408. 2. Dauparas J, et al. Robust deep learning-based protein sequence design using ProteinMPNN. Science 2022. doi:10.1126/science.add2187. 3. Watson JL, et al. De novo design of protein structure and function with RFdiffusion. Nature 2023. doi:10.1038/s41586-023-06415-8. 4. Lauko A, et al. Computational design of serine hydrolases. Science 2025. doi:10.1126/science.adu2454."
+    }
+  ],
+  "key_findings": [
+    "Programme is at method development stage — no proprietary experimental results are reported in this document.",
+    "PeptAI's core approach is a closed-loop system: generative backbone design → sequence design → expression and activity assay → measured activity fed back into models.",
+    "Validation is based entirely on published external literature (Arnold 2019, Watson 2023, Dauparas 2022, Lauko 2025), not PeptAI's own data.",
+    "Key technical risk: catalytic activity is much harder to predict computationally than stability or folding.",
+    "Additional risks: expression failure in production host, assay design fidelity, and condition transfer.",
+    "Advancement criteria are experimentally gated: expression, catalytic activity against intended substrate, and stability under use conditions must all be measured.",
+    "Target applications span industrial, therapeutic, and agricultural processes — no specific indication or target disclosed.",
+    "Programme starts with targets that have fast, meaningful assays to enable rapid iteration.",
+    "No IP, funding, regulatory, or clinical information is disclosed in this document.",
+    "Computational design of serine hydrolases (Lauko et al. 2025) cited as field precedent for de novo enzyme design."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": []
+}

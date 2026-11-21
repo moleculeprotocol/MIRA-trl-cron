@@ -1,0 +1,101 @@
+{
+  "file_path": "/ox2r/ox2r-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "PeptAI's programme overview for its Orexin Receptor 2 (OX2R) peptide agonist programme targeting narcolepsy type 1. The document describes the biological rationale, target validation, competitive landscape, design challenges, and current stage. Computational design of a first peptide panel is complete; laboratory functional assays are the immediate next step, placing the programme at approximately TRL 1–2.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target at a Glance",
+      "content": "Target: Orexin receptor 2 (OX2R, HCRTR2). Class: Class A G protein-coupled receptor. UniProt: O43614. Structure: Experimental structures with bound ligands are public (e.g., PDB 4S0V). Expression: Hypothalamus and arousal circuits of the brain. Human genetics: Loss of orexin neurons causes narcolepsy type 1. Modality: Designed peptide agonist."
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Pathway Summary",
+      "content": "Linear pathway diagram: Orexin neurons → Orexin A and B → OX2R in arousal circuits → Stable wakefulness. Illustrates the biological mechanism the programme aims to restore."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology",
+      "content": "Orexin A and B are neuropeptides from hypothalamic neurons acting on OX1R and OX2R (Sakurai et al. 1998). OX2R carries most of the wakefulness effect. OX2R is a class A GPCR with ligand binding inside the transmembrane bundle (no soluble extracellular domain), which constrains assay design to functional cell-based assays."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Validation",
+      "content": "Genetic validation: Orexin knockout mice develop narcolepsy (Chemelli et al. 1999); naturally occurring OX2R mutation causes narcolepsy in dogs (Lin et al. 1999); human narcolepsy type 1 involves loss of orexin neurons. Clinical validation: Selective OX2R agonists (small molecules) have shown strong efficacy in Phase 2 and Phase 3 trials in narcolepsy type 1 (J Clin Med 2025). Mechanism is therefore clinically proven."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Landscape and Gap",
+      "content": "Current narcolepsy treatments manage symptoms (sleepiness, cataplexy) without restoring the missing orexin signal. New small-molecule OX2R agonists restore the signal but are oral small molecules. PeptAI's designed peptide thesis: tunable selectivity between OX1R and OX2R, and potential for alternative delivery routes. Differentiation must be demonstrated by measurement."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "1. Selectivity: OX1R and OX2R are closely related; off-target OX1R agonism could alter safety/efficacy. 2. Blood-brain barrier (BBB) penetration: peptides cross the BBB poorly; route of administration is a central design question. 3. Safety profiling: class-level safety signals must be assessed for any candidate. 4. Assay format: transmembrane receptor with internal binding pocket requires functional cell assays, not simple binding assays."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Advancement Criteria (How We Will Know)",
+      "content": "A candidate advances only on measured activity: (1) functional potency at OX2R in cells, (2) selectivity over OX1R, and (3) stability. Predicted binding alone is not sufficient to advance a candidate."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "Current stage: Computational design of a first panel of peptide candidates is complete. Next gate: Laboratory measurement — specifically, whether designed peptides activate OX2R in cells and how selective they are. No in vitro or in vivo experimental data reported yet."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "PeptAI Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is the only gate that makes a candidate real. Measured sequence-activity pairs are retained to improve models iteratively."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "References",
+      "content": "1. Sakurai et al. Cell 1998 (orexins and orexin receptors). 2. Chemelli et al. Cell 1999 (narcolepsy in orexin knockout mice). 3. Lin et al. Cell 1999 (canine narcolepsy and OX2R mutation). 4. J Clin Med 2025 doi:10.3390/jcm14238444 (review of narcolepsy type 1 treatments). 5. Yin J et al. PDB 4S0V (crystal structure of human OX2R bound to suvorexant)."
+    }
+  ],
+  "key_findings": [
+    "Programme is at computational design stage only; no experimental (in vitro or in vivo) data have been generated yet — TRL ~1-2.",
+    "Computational design of a first peptide panel targeting OX2R is complete; laboratory functional cell assays are the immediate next milestone.",
+    "Target (OX2R) is strongly validated: genetic models (mouse knockout, dog OX2R mutation) and recent Phase 2/3 clinical trials with small-molecule OX2R agonists confirm the mechanism.",
+    "Advancement criteria are defined: functional potency at OX2R in cells, selectivity over OX1R, and peptide stability — predicted binding alone is insufficient.",
+    "Key design risks: OX1R/OX2R selectivity, blood-brain barrier penetration for peptides, class-level safety signals, and need for functional (not binding) cell assays.",
+    "Competitive landscape includes approved/late-stage small-molecule OX2R agonists; peptide differentiation thesis rests on tunable receptor selectivity and alternative delivery routes.",
+    "No IP, funding, regulatory, or manufacturing information disclosed in this document."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": [
+    {
+      "title": "Computational Design of First Peptide Panel Completed",
+      "description": "PeptAI completed computational design of a first panel of OX2R peptide agonist candidates, passing through staged filters for structure, binding geometry, and developability.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Computational design of a first panel is complete, and laboratory measurement is now the gate.",
+      "page": 2
+    },
+    {
+      "title": "Laboratory Functional Assay Phase (Next Step)",
+      "description": "The next phase involves laboratory measurement to determine whether designed peptides activate OX2R in cells and how selective they are over OX1R.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The next phase answers whether designed peptides activate OX2R in cells and how selective they are.",
+      "page": 2
+    }
+  ]
+}

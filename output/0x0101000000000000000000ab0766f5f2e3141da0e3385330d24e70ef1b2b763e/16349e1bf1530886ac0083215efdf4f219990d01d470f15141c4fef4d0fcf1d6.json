@@ -1,0 +1,81 @@
+{
+  "file_path": "/de-novo-myostatin-inhibitors/myostatin-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "PeptAI's programme overview describes a de novo protein inhibitor programme targeting myostatin (GDF-8) for muscle wasting conditions. The programme is at an early, pre-experimental stage: computational design and epitope selection have not yet begun, and no binding or functional data exist. The document outlines the biological rationale, competitive landscape, design challenges, and advancement criteria.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Programme Overview & Target Summary",
+      "content": "PeptAI is designing de novo protein inhibitors of myostatin (GDF-8), the main negative regulator of skeletal muscle mass. Target: Myostatin (GDF-8) and its receptor interaction. Family: TGF-beta superfamily. Receptor: Activin receptor type IIB (ActRIIB), signalling through SMAD2/3. Expression: Mainly skeletal muscle; circulates in blood. Genetics: Loss of myostatin increases muscle mass in mice and several other species. Modality: De novo designed protein inhibitors. Indication: Muscle wasting and related conditions."
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Pathway Summary Diagram",
+      "content": "Linear pathway diagram showing: Myostatin → Activin receptor type IIB → SMAD signalling → Restrained muscle growth. Illustrates the mechanism of action: myostatin binding to ActRIIB activates SMAD signalling that limits muscle growth. Inhibiting this pathway is the therapeutic rationale."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology Section",
+      "content": "Myostatin is a secreted growth factor of the TGF-beta family, made mainly in skeletal muscle. It binds ActRIIB on muscle cells and activates SMAD signalling that limits muscle growth. Genetic knockout in mice produces markedly enlarged muscles (McPherron et al. 1997). Myostatin is made as an inactive precursor that is cleaved and held in a latent complex. Inhibitor strategies can target: the active ligand, the latent complex, or the receptor. No proprietary experimental data presented; relies on published literature."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Validation Section",
+      "content": "Genetic evidence is strong and conserved across species. Pharmacological inhibition increases muscle mass in animal models. Clinical results are mixed: trials of myostatin inhibitors in muscle disease did not produce substantial gains in function. Cited reasons include specificity issues, species differences, and the need for neural input (Wetzlich et al. 2024). Assessment: target is biologically validated but has an open translational question. No proprietary clinical or preclinical data presented."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Competitive Landscape and Gap",
+      "content": "Existing inhibitor modalities include antibodies, ligand traps, and propeptides. Several existing inhibitors act on more than one TGF-beta family member, raising selectivity concerns. De novo designed inhibitors are described as small, stable, and targetable to a chosen epitope — enabling selectivity within the TGF-beta family and the ability to test different routes (ligand vs. receptor). This is the stated differentiation rationale, not supported by proprietary data."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Key risks identified: (1) Selectivity within the TGF-beta family — surfaces of related ligands are similar. (2) Route choice — blocking the ligand, latent activation step, or receptor each has different consequences. (3) Translational gap — earlier clinical experience shows muscle mass gains do not automatically translate to functional benefit. (4) Delivery and half-life — small proteins clear quickly and exposure must be engineered."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Advancement Criteria (How We Will Know)",
+      "content": "A candidate advances only on measured evidence: (1) confirmed binding to myostatin, (2) blockade of signalling in a cell-based reporter assay, and (3) selectivity against related TGF-beta family members. These are the defined go/no-go criteria. No data against these criteria have been generated yet."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "The programme is described as 'early.' Next steps in order: (1) epitope selection, (2) computational design, (3) binding measurements, (4) pathway blockade measurements. No experimental work has been completed. This places the programme at approximately TRL 1–2 (concept/early design phase)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "PeptAI Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is the only gate that makes a candidate real: until binding and function have been measured, a design is a hypothesis. Measured sequence and activity pairs are kept and used to improve the models. This describes the general platform workflow, not programme-specific results."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "References",
+      "content": "1. McPherron AC, Lawler AM, Lee SJ. Regulation of skeletal muscle mass in mice by a new TGF-beta superfamily member. Nature 1997. doi:10.1038/387083a0. 2. Wetzlich B, et al. Therapeutic applications and challenges in myostatin inhibition for enhanced skeletal muscle mass and functions. Mol Cell Biochem 2024. doi:10.1007/s11010-024-05120-y. 3. Watson JL, et al. De novo design of protein structure and function with RFdiffusion. Nature 2023. doi:10.1038/s41586-023-06415-8. All references are external published literature; no proprietary data cited."
+    }
+  ],
+  "key_findings": [
+    "Programme is at an early/concept stage — no experimental data have been generated; epitope selection and computational design have not yet started.",
+    "Target is myostatin (GDF-8), a TGF-beta family member; mechanism is blockade of ActRIIB binding and downstream SMAD2/3 signalling.",
+    "Modality is de novo designed protein inhibitors, differentiated from existing antibodies/ligand traps by potential for epitope-targeted selectivity within the TGF-beta family.",
+    "Biological validation is strong (genetic knockout data in mice and other species; pharmacological inhibition increases muscle mass in animal models), but clinical translation has been problematic for prior inhibitors.",
+    "Key risks: TGF-beta family selectivity, route-of-inhibition choice, translational gap (muscle mass ≠ functional benefit), and short half-life of small proteins.",
+    "Advancement criteria defined but not yet met: confirmed myostatin binding, cell-based signalling blockade, and selectivity panel against related family members.",
+    "No IP, funding, regulatory, or manufacturing information disclosed.",
+    "Document is a public programme overview (version dated 20 November 2026); explicitly states it describes biology and rationale only, with no safety or efficacy claims."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": []
+}

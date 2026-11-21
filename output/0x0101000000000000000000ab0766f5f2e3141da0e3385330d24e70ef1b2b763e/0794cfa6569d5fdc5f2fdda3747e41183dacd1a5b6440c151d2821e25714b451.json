@@ -1,0 +1,113 @@
+{
+  "file_path": "/kiss1r/kiss1r-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "PeptAI's programme overview describes their computational design of peptide agonists targeting the kisspeptin receptor (KISS1R/GPR54) for fertility and reproductive endocrine disorders. The programme is at an early computational design stage, with the first panel of designs complete and laboratory measurement (binding and cell-based functional assays) identified as the immediate next step. No experimental results are yet reported.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target at a Glance – KISS1R",
+      "content": "Target: KISS1R (also called GPR54). Class: Class A G protein coupled receptor. UniProt: Q969F8. Structure: Cryo-EM peptide-receptor complex in the public PDB (8XGO, released 2024). Expression: Hypothalamic GnRH neurons; also placenta. Human genetics: Loss-of-function variants cause hypogonadotropic hypogonadism. Modality: Designed peptide agonist. This table summarises the key molecular and genetic properties of the target."
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Signalling Pathway Diagram",
+      "content": "A linear pathway diagram showing: Kisspeptin neuron → KISS1R on GnRH neuron → GnRH pulses → LH and FSH → Sex steroids and gametes. This illustrates KISS1R's position at the top of the reproductive hormone cascade, upstream of GnRH, LH, FSH, and ultimately sex steroid and gamete production."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology – Mechanism of Action",
+      "content": "Kisspeptins are secreted by hypothalamic neurons and bind KISS1R on GnRH neurons, driving pulsatile GnRH release. GnRH stimulates the pituitary to release LH and FSH, which control sex steroid production and gamete maturation. KISS1R sits at the top of the hormone cascade governing puberty and fertility. The receptor is a class A GPCR; its peptide ligand binds in a pocket formed by the transmembrane helices, defining both the design opportunity and difficulty."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Validation – Genetics and Human Pharmacology",
+      "content": "Human genetic evidence: Inactivating KISS1R variants cause hypogonadotropic hypogonadism (failure to start puberty) (Seminara et al. 2003). KISS1R variants account for ~2–5% of normosmic cases of this disorder (Nalbantoglu et al. 2019). Human pharmacology: Kisspeptin-54 given by subcutaneous injection acutely increased gonadotropin secretion in women with hypothalamic amenorrhea (Jayasena et al. 2009). However, chronic administration led to tachyphylaxis (loss of response), highlighting the importance of dosing pattern. Target is validated in both genetics and human physiology."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Landscape and Gap",
+      "content": "Current treatments for hypogonadotropic hypogonadism and many fertility indications act downstream of KISS1R, using gonadotropins or pulsatile GnRH. These bypass the control point where the defect often lies. Native kisspeptins are cleared quickly, limiting their therapeutic use. Small-molecule agonists are difficult to develop for peptide-binding receptors; antibodies are not suited to activating transmembrane pockets. A designed, stabilised peptide agonist is identified as the natural fit for this receptor class."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Four key design challenges are identified: (1) Receptor desensitisation – chronic kisspeptin administration causes tachyphylaxis in humans, so dosing pattern matters as much as potency. (2) Selectivity – KISS1R belongs to a family of peptide-binding receptors with related ligands; designs must be checked against close relatives. (3) Peptide stability and delivery – candidates must resist degradation and reach the target at a useful dose. (4) Assay format – a transmembrane receptor requires cell-based or membrane-based assays, which are more complex than soluble-protein binding assays."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Success Criteria (How We Will Know)",
+      "content": "Success criteria are pre-defined. A candidate advances only on measured receptor activity: (1) confirmed binding, (2) functional potency in a cell-based signalling assay, and (3) selectivity against related receptors. A computational score alone is never sufficient to advance a candidate. This establishes a clear experimental gate before progression."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "Current stage: Computational design of a first panel of peptide candidates is complete. Next step: Laboratory measurement is the immediate gate. The next phase will answer two questions: (1) whether designs engage (bind) the receptor, and (2) whether they activate it in cells. No experimental data has yet been generated; the programme is at the transition from computational design to experimental validation."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "PeptAI Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is the only gate that makes a candidate real. Until binding and function have been measured, a design is a hypothesis. Measured sequence-activity pairs are retained and used to improve the models (active learning loop)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "References",
+      "content": "1. Kotani M, et al. J Biol Chem 2001 – KiSS-1 encodes kisspeptins, natural ligands of GPR54. 2. Seminara SB, et al. N Engl J Med 2003 – GPR54 as a regulator of puberty. 3. Jayasena CN, et al. J Clin Endocrinol Metab 2009 – Kisspeptin-54 subcutaneous injection acutely stimulates gonadotropin secretion but causes tachyphylaxis with chronic use. 4. Nalbantoglu O, et al. J Clin Res Pediatr Endocrinol 2019 – Novel KISS1R/GPR54 loss-of-function mutation in siblings with IHH. 5. RCSB PDB entry 8XGO – peptide-receptor complex, cryo-EM."
+    }
+  ],
+  "key_findings": [
+    "Programme is at TRL 1–2: computational design of a first peptide panel is complete, but no experimental data has yet been generated.",
+    "Target is KISS1R (GPR54), a Class A GPCR; cryo-EM structure of peptide-receptor complex is publicly available (PDB 8XGO, 2024), enabling structure-based design.",
+    "Strong human genetic validation: inactivating KISS1R variants cause hypogonadotropic hypogonadism (Seminara et al. 2003); KISS1R variants account for ~2–5% of normosmic cases.",
+    "Human pharmacology validation: kisspeptin-54 injection acutely increased gonadotropin secretion in women with hypothalamic amenorrhea, but chronic use causes tachyphylaxis — a key risk for the programme.",
+    "Modality rationale: native kisspeptins are rapidly cleared; small molecules are hard to develop for transmembrane peptide-binding pockets; designed stabilised peptide agonist is the chosen approach.",
+    "Key risks identified: receptor desensitisation/tachyphylaxis, selectivity against related receptors, peptide stability/delivery, and complexity of cell-based assay formats.",
+    "Pre-defined success criteria require confirmed binding, functional potency in cell-based signalling assay, and selectivity — computational scores alone are insufficient for advancement.",
+    "Immediate next steps are laboratory binding and cell-based functional assays to validate the first computational design panel.",
+    "No IP, funding, regulatory, or manufacturing information is disclosed in this document."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": [
+    {
+      "title": "Cryo-EM Structure of KISS1R Released",
+      "description": "A cryo-EM peptide-receptor complex structure for KISS1R was deposited and made publicly available in the Protein Data Bank (entry 8XGO), enabling structure-based peptide design.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Structure Cryo-EM peptide-receptor complex in the public PDB (8XGO, released 2024)",
+      "page": 1
+    },
+    {
+      "title": "Computational Design of First Peptide Panel Complete",
+      "description": "PeptAI completed computational design of a first panel of KISS1R peptide agonist candidates, passing them through staged filters for structure, binding geometry, and developability.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Computational design of a first panel is complete, and laboratory measurement is now the gate.",
+      "page": 2
+    },
+    {
+      "title": "Laboratory Binding and Functional Assays – First Panel",
+      "description": "Next phase of the programme: experimental measurement of receptor binding and cell-based functional activation (signalling assay) for the first computationally designed peptide panel.",
+      "date": "next phase",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The next phase answers two questions: whether designs engage the receptor, and whether they activate it in cells.",
+      "page": 2
+    }
+  ]
+}

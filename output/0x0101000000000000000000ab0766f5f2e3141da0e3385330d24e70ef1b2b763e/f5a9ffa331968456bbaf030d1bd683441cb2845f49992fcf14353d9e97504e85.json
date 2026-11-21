@@ -1,0 +1,69 @@
+{
+  "file_path": "/glp1r/glp1r-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "This is a programme overview document from PeptAI describing their GLP-1 receptor (GLP1R) programme. It outlines two parallel workstreams: a calibration workstream using the GLP1R extracellular domain to benchmark binding prediction methods, and an agonist workstream focused on designing functional receptor activators. The document is primarily a scientific rationale and stage description, with no quantitative experimental results reported.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Target at a Glance",
+      "content": "Target: GLP-1 receptor (GLP1R)\nClass: Class B G protein coupled receptor, with a large extracellular domain\nLigand: GLP-1\nStructure: Cryo-EM structures of the activated receptor are public\nExpression: Pancreatic beta cells, brain, gut\nIndications: Type 2 diabetes, obesity and related metabolic disease\nModality: Designed peptides and binders"
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Pathway/Cycle Summary",
+      "content": "Linear pathway diagram: GLP-1 → GLP1R on beta cells → cAMP signalling → Glucose-dependent insulin release. Illustrates the mechanism of action for the GLP1R agonist programme."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology",
+      "content": "GLP-1 is an incretin hormone released by the gut after a meal. It acts on GLP1R on pancreatic beta cells to raise insulin secretion in a glucose-dependent way. It also slows gastric emptying and reduces appetite through central pathways (Drucker 2018). GLP1R is a class B receptor; its large extracellular domain captures the peptide ligand, and the transmembrane core activates G protein signalling. Cryo-EM structures of the activated receptor with a G protein are publicly available (Zhang et al. 2017). No novel experimental data is presented; this is background biology."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Validation",
+      "content": "GLP1R agonists are described as among the most successful drug classes in recent years, with proven effects on glycaemic control and body weight. The document states the target needs no further validation as a mechanism. This is based on the established clinical success of the drug class (e.g., semaglutide, liraglutide), not on PeptAI's own experimental data."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Binding vs. Agonism — Two Workstreams",
+      "content": "PeptAI separates two workstreams:\n1. Calibration workstream: Uses the soluble extracellular domain of GLP1R to calibrate how well computational design and scoring methods predict binding. Success metric: computational scores track measured binding.\n2. Agonist workstream: Designs functional agonists; readout is receptor activation in cells. Binding alone is not accepted as a success measure. Success metric: measured receptor activation and potency in a cell-based signalling assay.\nThis distinction is scientifically important for TRL assessment — the programme has not yet reported functional agonist data."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Key risks identified:\n1. Agonism: Activation depends on how a molecule engages the transmembrane core, which is harder to design than binding.\n2. Competition: The GLP1R agonist class is crowded and established; a new agonist needs a clear differentiator (stability, selectivity, or delivery).\n3. Bias and signalling profile: Different agonists activate different pathways to different extents, affecting both efficacy and tolerability.\n4. Developability: Peptide agonists need long exposure, requiring stability engineering."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "Both workstreams are described as active. Calibration results inform how binding scores are used. Agonist designs are judged only by functional measurements. No specific experimental results, candidate data, or quantitative outcomes are reported. The programme appears to be at an early computational/design stage with laboratory measurement as the gating criterion for advancing candidates."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "How PeptAI Works — Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is described as the only gate that makes a candidate real: until binding and function have been measured, a design is a hypothesis. Measured sequence and activity pairs are kept and used to improve the models. This describes a computational-first, ML-guided design platform with iterative experimental feedback."
+    }
+  ],
+  "key_findings": [
+    "PeptAI is running two parallel GLP1R workstreams: (1) a calibration workstream using the extracellular domain to benchmark computational binding predictions, and (2) an agonist workstream requiring cell-based functional activation as the success criterion.",
+    "No quantitative experimental results (e.g., binding affinities, EC50 values, cell assay data) are reported in this document; the programme is described as active but at an early computational/design stage.",
+    "The platform uses staged computational filters (structure, binding geometry, developability) followed by laboratory measurement as the gating criterion for candidate advancement.",
+    "Target validation relies entirely on the established clinical success of the GLP1R agonist drug class (e.g., semaglutide), not on PeptAI's own in-house data.",
+    "Key design risks include the difficulty of engineering agonism (vs. binding), competitive landscape, biased signalling profiles, and peptide stability/developability.",
+    "Cryo-EM structures of the activated GLP1R with G protein are publicly available (Zhang et al. 2017), providing structural basis for computational design.",
+    "Modality is designed peptides and binders; indications are type 2 diabetes, obesity, and related metabolic disease.",
+    "The document is a public programme overview (version 20 November 2026) and explicitly states it makes no claim about safety or efficacy of any candidate."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": []
+}

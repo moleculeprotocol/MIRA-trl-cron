@@ -1,0 +1,310 @@
+{
+  "file_path": "/the-aqua-matrix-universe-a-unified-field-synthesis-from-the-water-molecule-to-th",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "low",
+  "summary": "This is a 71-page speculative theoretical paper by Garrick Ramsey Holmes (RIFOR Affiliated Researcher) proposing the \"Aqua-Matrix Universe\" framework, which claims space-time is a physical lattice of water molecules. The paper attempts to unify general relativity, quantum mechanics, cosmology, and biology under the premise that water is the medium of space-time. It is not a biotech or pharmaceutical document and has no relevance to TRL assessment for a technology or therapeutic product. The paper is self-published via Eliva Press and references a companion book \"The One Variable.\"",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract and Core Thesis",
+      "content": "The paper proposes that space-time is a continuous 3D lattice of water molecules held by asymmetric hydrogen bonds. Core claims: (1) The Schwarzschild metric emerges from the refractive index of this lattice under radial strain; (2) Laboratory water shows gravitational coupling that is frequency-dependent, structure-dependent, and sign-reversible (citing Hu et al., 2013); (3) Bent ice generates electric charge comparable to sensor ceramics (citing Wen et al., 2025); (4) The universe is bounded by a near-perfect black body shell (a gravastar) whose equilibrium temperature is calculated as 2.7244 K vs. measured CMB of 2.72548 K; (5) Helium is the working gas of a cosmic refrigeration cycle; (6) Cold Genesis theory predicted the 17 MeV boson nine years before first report. The paper is entirely theoretical/speculative with no original experimental data."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Three Postulates of the Water-Matrix Framework",
+      "content": "Postulate 1: Space-time is identical to a 3D lattice of water molecules connected by asymmetric hydrogen bonds (the water-matrix). Postulate 2: All gravitational, relativistic, and quantum phenomena arise from the geometry, density gradients, and frequency dynamics of this lattice. Postulate 3: The lattice is gravity itself. The relationship is stated as: Frequency + H2O + Gravity = Space-Time. The author claims there is no true vacuum, as no water-free volume has ever been produced on Earth."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Schwarzschild Metric Derivation from Lattice Refractive Index",
+      "content": "The author derives the Schwarzschild metric by identifying the refractive index of the strained water lattice n(r) = (1 - 2GM/c²r)^(-1/2) with gravitational time dilation. The resulting line element ds² = -(1 - 2GM/c²r)c²dt² + (1 - 2GM/c²r)^(-1)dr² + r²dΩ² is claimed to emerge without the Ricci tensor. All classical GR tests (time dilation, redshift, light deflection, perihelion precession, Shapiro delay, gravitational waves) are claimed to be recovered. This is a theoretical reinterpretation, not an experimental result."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "Laboratory Water Gravity Experiments (Section 6)",
+      "content": "The paper cites Hu, Yang, Zi, Chan and Ho (2013) as the central experimental result: a water channel 8mm deep with Helmholtz resonators showed negative effective gravitational acceleration for wave frequencies 4.1–4.85 Hz, with a transmission dip at 4.4 Hz. The effective gravity formula is given. A control with rigid cylinders showed no dip. The author interprets this as evidence that gravitational coupling in water is frequency-dependent and sign-reversible. Also cites Weinfurtner et al. (2011) for stimulated Hawking emission in water, and Torres et al. (2017) for rotational superradiance in a water tank vortex. These are cited third-party experiments, not original work."
+    },
+    {
+      "page": 43,
+      "type": "text",
+      "title": "CMB Temperature Calculation (Section 17)",
+      "content": "The author calculates the equilibrium temperature of a perfect absorbing shell around the observable universe using σT⁴ = NL/(4πR²), with N = 2×10²² stars, L = 3.8×10²⁶ W (solar luminosity), R = 4.40×10²⁶ m. Result: T = 2.7244 K vs. measured CMB of 2.72548 ± 0.00057 K (Fixsen, 2009). Difference: 0.0011 K (0.04%). The author presents this numerical agreement as support for the bounded universe hypothesis. Multiple star counts and radii are tabulated, yielding boundary temperatures between 1.65 and 7.24 K across all scenarios."
+    },
+    {
+      "page": 44,
+      "type": "table",
+      "title": "Boundary Temperature vs. Star Count and Radius (Section 17.4)",
+      "content": "Table showing boundary temperature calculations for different star counts at R = 4.40×10²⁶ m: 1×10²² stars → 2.29 K; 2×10²² stars → 2.72 K; 7×10²² stars → 3.73 K; 1×10²³ stars → 4.07 K; 2×10²³ stars → 4.84 K; 3×10²³ stars → 5.36 K; 1×10²⁴ stars → 7.24 K. Also shows radius needed to hold 2.72548 K and mean luminosity in solar units. Weighed census (stellar mass density approach) gives 4.2×10²¹ to 8.9×10²¹ stars, holding boundary at 1.85–2.22 K."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Water Coherence in Every State - Measurement Record (Section 3.7)",
+      "content": "Extensive table of third-party measurements showing water acting as a connected structure across states: liquid between protein samples (coherent signal 40mm apart, bioRxiv 2026); liquid in 2-20nm gaps (THz refractive index departure, Science Advances 2024); electrolyte solutions (orientation over tens of hydration shells, Dedic et al. 2019); bulk liquid (collective order 5-15nm, Chen et al. 2016); bulk liquid (orientation correlated to ~2 micrometers, Shelton 2014/2015); liquid at 294K (collective excitation at 3200-3300 m/s, Sette et al. 1995); ice up to 97 GPa (proton tunneling mode, Meier et al. 2018); and many more. All are cited third-party measurements."
+    },
+    {
+      "page": 30,
+      "type": "table",
+      "title": "Vacuum Residual Gas Composition (Section 12.3)",
+      "content": "Table from Stanford Research Systems application note: H₂ (mass 2): 7.1×10⁻⁸ Torr; H₂O (mass 18): 1.4×10⁻⁵ Torr; N₂ (mass 28): 4.6×10⁻¹⁰ Torr; O₂ (mass 32): 3.4×10⁻¹¹ Torr; CO₂ (mass 44): 1.6×10⁻¹² Torr. Water stands more than two orders of magnitude above every other species. The author uses this to argue water is the uncontrolled variable in all quantum experiments."
+    },
+    {
+      "page": 60,
+      "type": "table",
+      "title": "Falsifiable Predictions (Section 25)",
+      "content": "29 falsifiable predictions listed with test methods and failure criteria. Key predictions include: (1) Matter-wave interferometer fringes change when residual water is replaced by dry gas; (2) Controlled strain across double-slit changes fringe spacing; (3) D₂O moves through spore cortex pores slower than H₂O beyond mass difference; (9) Amorphous ice bilayer builds ~0.29 nC/cm² charge during phase conversion; (12) Ice shelves produce voltage at 12.42-hour tidal period; (15) Void galaxy rotation curves fall off more steeply than field galaxies; (17) O-D stretch frequency shifts by Δν/ν ≈ 10⁻³ within 0.1 parsecs of Sgr A*; (19) Sgr A* flares show asymmetric QU-loops; (25) Magnetar flares show spectral features at 17 MeV; (26) y-type CMB spectral distortion at 10⁻⁸ to 10⁻⁷."
+    },
+    {
+      "page": 57,
+      "type": "table",
+      "title": "X17/17 MeV Boson Experimental Record (Section 23.2)",
+      "content": "Table of experimental results for the 17 MeV boson: 2016 ATOMKI Hungary - ⁸Be nuclear transition - 6.8σ excess at ~17 MeV (Krasznahorkay et al. 2016); 2021 ATOMKI - ⁴He nuclear transition - same anomaly; 2022 ATOMKI - ¹²C nuclear transition - third nucleus, same mass; 2023 JINR Dubna Russia - γγ invariant mass - structure near 17 MeV; 2024 ATOMKI - giant dipole resonance of ⁸Be - same anomaly; 2024 Hanoi Vietnam - two-arm e⁺e⁻ spectrometer - anomaly confirmed in ⁸Be; 2025 PADME Frascati Italy - e⁺e⁻ annihilation scan - ~2σ excess near 16.9 MeV; 2025 MEG II PSI Switzerland - ⁷Li(p,e⁺e⁻)⁸Be - no significant signal."
+    },
+    {
+      "page": 18,
+      "type": "text",
+      "title": "Ice Flexoelectricity (Section 9)",
+      "content": "Cites Wen et al. (2025): ice produces electric charge when bent, flexoelectric coefficient ~1.14 nC/m, comparable to TiO₂ and SrTiO₃ ceramics. Formula: P = μ × G (polarization = coefficient × strain gradient). The author proposes this as the mechanism for thundercloud charging and lightning. Arithmetic calculation: ice crystal (50 μm radius) striking graupel (1 mm radius) at 3 m/s gives ~0.16–1.5 femtocoulombs per collision; at 10¹⁴ collisions/second over 15–18 minutes, accumulates ~20 coulombs for a lightning flash. This is a theoretical application of a cited measurement, not original experimental work."
+    },
+    {
+      "page": 17,
+      "type": "text",
+      "title": "Tidal Dissipation Anomalies (Section 8)",
+      "content": "Earth: total tidal dissipation ~3.7 TW; oceans account for ~3.5 TW (95%) despite being only 0.023% of Earth's mass. Per-kilogram ratio: ocean water does ~75,000× more tidal work than solid Earth. Ganymede: magnetic field requires liquid iron dynamo but no plausible tidal heating scenario found (Bland et al. 2008). Enceladus: south polar region radiates ~15.8 GW (Howett et al. 2011) vs. equilibrium ceiling of ~1.1 GW (Meyer and Wisdom 2007). The author interprets these anomalies as evidence for preferential gravitational coupling through the water-matrix lattice. All data are from cited third-party sources."
+    },
+    {
+      "page": 46,
+      "type": "text",
+      "title": "Gravastar Boundary and Israel Junction Conditions (Section 18)",
+      "content": "The author proposes the observable universe is bounded by a gravastar shell obeying Israel junction conditions. The modified Friedmann equation is: (Ṙ² + 1)/R² = (8πG/3)ρ + (4πGσ)²/9. The shell equation of state wₛ = pₛ/σ near -1 mimics a cosmological constant. The Schwarzschild radius of the Hubble volume equals the Hubble radius at critical density, claimed as the condition the gravastar shell requires. The ultra-stiff equation of state p = ε of the shell is attributed to hydrogen bonds at maximum compression."
+    },
+    {
+      "page": 49,
+      "type": "text",
+      "title": "1,000-Year Day Temporal Synchronization (Section 19)",
+      "content": "The ratio of 1 day to 1,000 years = 1/365,250 = 2.738×10⁻⁶. Setting dτ/dt = √(1 - Rₛ/R) = 2.738×10⁻⁶ gives Rₛ/R = 0.9999999999925, placing the shell at ~10⁻¹² Schwarzschild radii above the would-be horizon. Temporal Synchronization Constant γ ≈ 3.65×10⁵. The 350 nm lattice resonance (8.566×10¹⁴ Hz) redshifted by γ arrives at 2.345 GHz (12.8 cm, S-band). Sgr A* flare period of 76 minutes corresponds to 12.5 ms interior event (76×60/365,250). The author notes this ratio appears in Psalm 90:4 and 2 Peter 3:8."
+    },
+    {
+      "page": 50,
+      "type": "text",
+      "title": "Helium as Working Gas (Section 20)",
+      "content": "Helium properties cited: boiling point 4.2 K; lambda transition at 2.1768 K (superfluid onset); Joule-Thomson inversion temperature ~40-45 K; latent heat of vaporization ~20.8 J/g. The measured CMB temperature (2.72548 K) sits 0.55 K above the helium lambda transition floor (2.1768 K). Total helium inventory: ~3.6×10⁵² kg (~5.4×10⁷⁸ He-4 atoms). Latent heat of whole inventory: ~7.5×10⁵⁶ J (~3 years of all stellar output). Flat rotation curves attributed to buoyancy in helium gradient rather than dark matter. LZ Collaboration (2025) found no dark matter signal in 417 live days."
+    },
+    {
+      "page": 64,
+      "type": "text",
+      "title": "Measured vs. Proposed Summary (Section 26)",
+      "content": "The paper explicitly separates what was measured by others from what the author proposes. Measured by others includes: water molecule geometry, hydrogen bond charge transfer (~1/50 electron per bond), strong-weak anti-correlation rule (Kühne & Khaliullin 2013/2014; Gunkel et al. 2024), negative effective gravity in water (Hu et al. 2013), ice flexoelectricity (Wen et al. 2025), tidal dissipation data, CMB temperature (Fixsen 2009), helium lambda transition, and all astrophysical water detections. Proposed by author: water-matrix as space-time, Schwarzschild metric as refractive index, graviton as antiphase hydrogen bond mode, bounded universe with gravastar shell, helium torus, 350 nm holographic frequency, Sgr A* as nested gravastar, z⁰ preon as lattice vibrational mode."
+    },
+    {
+      "page": 66,
+      "type": "text",
+      "title": "Theological Interpretation (Section 27)",
+      "content": "Section explicitly kept apart from physics. The author interprets the 1,000-year day temporal synchronization constant as a physical basis for theological concepts: information preservation at gravitational boundaries, the gravastar interior as a 'sanctuary,' the hourglass entropy/order flow as physical analogs of forgiveness and love, and the 350 nm resonance as 'the light of reconciliation.' The ratio 1 day:1,000 years is noted to appear in Psalm 90:4 and 2 Peter 3:8. The author states: 'The framework does not require belief in these interpretations.'"
+    },
+    {
+      "page": 71,
+      "type": "text",
+      "title": "Book Advertisement and Publication Certificate",
+      "content": "The document ends with an advertisement for the author's book 'The One Variable: The Overlooked Presence in Every Vacuum and Its Logical Solution to the Double-Slit Experiment' published by Eliva Press, ISBN 978-66-850-0271-3, priced at $60. A publication certificate from Eliva Press is shown. This is promotional material with no scientific content."
+    }
+  ],
+  "key_findings": [
+    "This is a speculative theoretical paper proposing that space-time is a physical lattice of water molecules — the 'Aqua-Matrix Universe' framework. It has no relevance to biotech TRL assessment.",
+    "The paper contains NO original experimental data. All cited experiments are third-party published works reinterpreted within the author's framework.",
+    "The central numerical claim is that a blackbody shell equilibrium calculation yields T = 2.7244 K vs. measured CMB of 2.72548 K (0.04% difference), presented as evidence for a bounded universe.",
+    "The paper proposes 29 falsifiable predictions (Section 25) ranging from bench-scale interferometry experiments to astrophysical observations, none of which have been tested by the author.",
+    "The author identifies as a 'RIFOR Affiliated Researcher' with ORCID 0009-0008-9319-1518. The paper is self-published/preprint dated November 19, 2026.",
+    "The paper includes a theological interpretation section (Section 27) connecting the physics framework to biblical passages (Psalm 90:4, 2 Peter 3:8), explicitly kept separate from the physics.",
+    "Cold Genesis theory (Arghirescu) is cited as having predicted the 17 MeV X17 boson in 2006, nine years before the ATOMKI report in 2015/2016. The experimental status of X17 remains contested (MEG II 2025 found no signal; PADME 2025 found ~2σ excess).",
+    "The document is not a biotech, pharmaceutical, or medical device document. TRL assessment is not applicable. The work is at best TRL 1 (basic principles observed and reported) for the theoretical framework, with no experimental validation by the author."
+  ],
+  "document_date": "2026-11-19",
+  "milestones": [
+    {
+      "title": "Strong-weak bond anti-correlation rule derived from first principles",
+      "description": "Kühne and Khaliullin derived the asymmetric hydrogen bond anti-correlation rule from first principles, a decade before it was measured.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The rule was derived from first principles a decade before it was measured (Kühne and Khaliullin, 2013, 2014).",
+      "page": 5
+    },
+    {
+      "title": "Strong-weak bond anti-correlation directly measured",
+      "description": "Gunkel et al. measured the strong-weak anti-correlation of hydrogen bonds in water by ultrafast two-dimensional infrared spectroscopy, finding randomization in under 500 femtoseconds.",
+      "date": "2024-12",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "It was measured directly by ultrafast two-dimensional infrared spectroscopy in December 2024: the two hydrogen bonds formed by one water molecule are markedly anti-correlated, and the anti-correlations are modulated by thermal motion and randomize in under 500 femtoseconds (Gunkel et al., 2024).",
+      "page": 5
+    },
+    {
+      "title": "Cold Genesis z⁰ preon (~17 MeV) derived by Arghirescu",
+      "description": "Arghirescu derived the z⁰ preon of about 34 electron masses (~17 MeV/c²) within Cold Genesis theory.",
+      "date": "2006",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Arghirescu derived the z⁰ preon in 2006 (Arghirescu, 2006; Arghirescu, 2022).",
+      "page": 57
+    },
+    {
+      "title": "ATOMKI first report of X17 boson anomaly in ⁸Be",
+      "description": "Krasznahorkay et al. posted a preprint reporting a 6.8σ anomaly in the beryllium-8 nuclear transition pointing to a light neutral boson near 17 MeV/c².",
+      "date": "2015",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2015 the ATOMKI group in Debrecen posted a preprint reporting an anomaly in the beryllium-8 nuclear transition pointing to a light neutral boson near 17 MeV/c² (Krasznahorkay et al., 2016; preprint 2015, published 26 January 2016).",
+      "page": 57
+    },
+    {
+      "title": "ATOMKI X17 anomaly published in Physical Review Letters",
+      "description": "Krasznahorkay et al. published the 6.8σ excess at ~17 MeV in ⁸Be nuclear transition.",
+      "date": "2016-01-26",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "preprint 2015, published 26 January 2016",
+      "page": 57
+    },
+    {
+      "title": "ATOMKI X17 anomaly confirmed in ⁴He nuclear transition",
+      "description": "ATOMKI reported the same anomaly in helium-4 nuclear transition, second nucleus showing the effect.",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2021 ATOMKI, Hungary - ⁴He nuclear transition - Second nucleus, same anomaly (Krasznahorkay et al., 2021)",
+      "page": 58
+    },
+    {
+      "title": "ATOMKI X17 anomaly confirmed in ¹²C nuclear transition",
+      "description": "ATOMKI reported the same anomaly in carbon-12 nuclear transition, third nucleus showing the effect.",
+      "date": "2022",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2022 ATOMKI, Hungary - ¹²C nuclear transition - Third nucleus, same mass (Krasznahorkay et al., 2022)",
+      "page": 58
+    },
+    {
+      "title": "JINR Dubna structure near 17 MeV in γγ invariant mass",
+      "description": "JINR Dubna reported structure near 17 MeV in γγ invariant mass measurements.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2023 JINR Dubna, Russia - γγ invariant mass - Structure near 17 MeV (Abraamyan et al., 2023)",
+      "page": 58
+    },
+    {
+      "title": "Hanoi X17 anomaly confirmation in ⁸Be",
+      "description": "Vietnamese group with ATOMKI participation confirmed the anomaly in ⁸Be using a two-arm e⁺e⁻ spectrometer.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2024 Hanoi, Vietnam - Two-arm e⁺e⁻ spectrometer, built with ATOMKI participation - Anomaly confirmed in ⁸Be (Tran The Anh et al., 2024)",
+      "page": 58
+    },
+    {
+      "title": "MEG II finds no significant X17 signal",
+      "description": "MEG II experiment at PSI Switzerland found no significant signal in ⁷Li(p,e⁺e⁻)⁸Be reaction.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2025 MEG II, PSI, Switzerland - ⁷Li(p, e⁺e⁻)⁸Be - No significant signal (MEG II Collaboration, 2025)",
+      "page": 57
+    },
+    {
+      "title": "PADME finds ~2σ excess near 16.9 MeV",
+      "description": "PADME experiment at Frascati found an excess of about 2σ near 16.9 MeV in e⁺e⁻ annihilation scan.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "2025 PADME, Frascati, Italy - e⁺e⁻ annihilation scan - Excess of about 2σ near 16.9 MeV (PADME Collaboration, 2025)",
+      "page": 58
+    },
+    {
+      "title": "Ice flexoelectricity measured by Wen et al.",
+      "description": "Wen et al. measured that ordinary ice produces electric charge when bent, with a flexoelectric coefficient of about 1.14 nC/m, comparable to benchmark ceramics.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Wen and colleagues measured that ordinary ice produces electric charge when it is bent, with a flexoelectric coefficient of about 1.14 nanocoulombs per meter, comparable to the benchmark ceramics titanium dioxide and strontium titanate (Wen et al., 2025).",
+      "page": 18
+    },
+    {
+      "title": "Liquid-liquid critical point of water observed",
+      "description": "Femtosecond X-ray laser probing of supercooled water observed the liquid-liquid transition vanish and a critical state emerge at 210 ± 8 K and about 1,000 bar.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In 2026 femtosecond X-ray laser probing of supercooled water observed the liquid-liquid transition vanish and a critical state emerge at 210 ± 8 K and about 1,000 bar (You et al., 2026).",
+      "page": 6
+    },
+    {
+      "title": "SPHEREx launched",
+      "description": "SPHEREx space telescope launched in March 2025, surveying the entire sky across 102 near-infrared spectral bands, targeting ~9 million point sources expected to show ice absorption.",
+      "date": "2025-03",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "SPHEREx, launched in March 2025, is surveying the entire sky across 102 near-infrared spectral bands, with a target list of about nine million point sources expected to show ice absorption (Bock et al., 2025).",
+      "page": 42
+    },
+    {
+      "title": "LZ dark matter search finds no signal",
+      "description": "The LZ detector collected 417 live days of data from March 2023 to April 2025 and found no sign of dark matter particles.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "The largest dataset yet collected by a direct dark matter search, 417 live days of the LZ detector from March 2023 to April 2025, found no sign of the particles it was built to detect (LZ Collaboration, 2025).",
+      "page": 59
+    },
+    {
+      "title": "GRAVITY+ upgrade planned for Sgr A* polarimetry",
+      "description": "GRAVITY+ upgrade with ~7× better sensitivity planned to make every gravastar configuration detectable with decisive Bayes factors, testing predictions about Sgr A*.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The GRAVITY+ upgrade, with about sevenfold better sensitivity, makes every gravastar configuration studied detectable with decisive Bayes factors.",
+      "page": 57
+    },
+    {
+      "title": "PIXIE CMB spectral distortion measurement",
+      "description": "PIXIE mission planned to measure y-type spectral distortion of the microwave sky, predicted by the author to be at 10⁻⁸ to 10⁻⁷.",
+      "date": "2030",
+      "date_precision": "year",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "A y-type spectral distortion of the microwave sky at 10⁻⁸ to 10⁻⁷, above the Silk damping floor near 10⁻⁹ — PIXIE, 2030 to 2032",
+      "page": 63
+    },
+    {
+      "title": "Author's book 'The One Variable' published by Eliva Press",
+      "description": "Garrick Holmes published 'The One Variable: The Overlooked Presence in Every Vacuum and Its Logical Solution to the Double-Slit Experiment' through Eliva Press, ISBN 978-66-850-0271-3.",
+      "date": "unknown",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "The One Variable: The Overlooked Presence in Every Vacuum and Its Logical Solution to the Double-Slit Experiment — Authored by: Garrick Holmes — ISBN 978-66-850-0271-3",
+      "page": 72
+    }
+  ]
+}

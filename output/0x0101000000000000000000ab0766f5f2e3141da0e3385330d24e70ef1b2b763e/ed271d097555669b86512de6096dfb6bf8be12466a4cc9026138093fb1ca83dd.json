@@ -1,0 +1,99 @@
+{
+  "file_path": "/taste-receptors/taste-receptors-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "PeptAI's programme overview describes a computational peptide/protein design effort targeting taste receptors (TAS1R2/TAS1R3 for sweet, TAS2R family for bitter) for food, beverage, and nutrition applications. The programme is explicitly described as early-stage, with receptor modelling and design as the current activity, prior to any laboratory measurement. No experimental results are reported; candidates remain hypotheses until cell-based assay data are generated.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Programme Overview – Target at a Glance",
+      "content": "Targets: TAS1R2/TAS1R3 (sweet receptor heterodimer, class C GPCR) and TAS2R family (~25 receptors, class A GPCR, bitter). Modality: designed peptide and protein modulators. Expression: taste cells of tongue and palate, plus extra-oral tissues. Applications: food, beverage and nutrition. Pathway: taste compound → TAS1R or TAS2R receptor → G protein signalling → taste cell response → perceived taste."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology",
+      "content": "Sweet taste detected by TAS1R2/TAS1R3 heterodimer (Nelson et al. 2001, Cell). Bitter taste detected by TAS2R family (Chandrashekar et al. 2000, Cell) with overlapping specificities across ~25 receptors (Meyerhof et al. 2009, Chem Senses). Both receptor types signal through G proteins in taste cells. Ligands bind at multiple sites including large extracellular domains on the sweet receptor, providing multiple design entry points."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Validation",
+      "content": "Receptors and their roles in taste are well established; receptor-based assays are widely used in flavour research. Sweet receptor has a long record as a screening target for sweeteners and enhancers. Open question: whether designed peptides and proteins can modulate these receptors with the selectivity and stability required for a food ingredient. No proprietary experimental validation data are reported."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Landscape and Gap",
+      "content": "Sugar reduction and bitter masking are central problems in food/beverage development. Current solutions (small molecules, extracts, blends) have limitations: aftertaste, stability, regulatory burden. Designed peptides and proteins offer tunable receptor engagement and potentially cleaner taste profiles; protein ingredients have a clear route into food applications."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "1. Receptor assembly: sweet receptor heterodimer is harder to model and assay than a single chain. 2. Bitter breadth: each bitter receptor recognises many compounds, making selectivity difficult to define. 3. Sensory translation: cell assays only partly predict perception; sensory panels are the final test. 4. Regulatory path: new food ingredients require safety evaluation, shaping the choice of design format."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Decision Criteria (How We Will Know)",
+      "content": "A candidate advances only on measured receptor activity in a cell-based assay, followed by sensory evaluation. Predicted binding alone does not advance a candidate. This confirms no candidates have yet passed the experimental gate."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "The programme is explicitly described as early. Current activity: receptor modelling and design. Next step: receptor-activity assays. No experimental data have been generated yet; all designs are currently hypotheses."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "PeptAI Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry and developability. Laboratory measurement is the only gate that makes a candidate real. Measured sequence-activity pairs are retained to improve models. This describes a computational-first, iterative design-test cycle."
+    }
+  ],
+  "key_findings": [
+    "Programme is explicitly early-stage (TRL 1–2): receptor modelling and computational design are underway, but no laboratory measurements have been reported.",
+    "Targets are TAS1R2/TAS1R3 (sweet, class C GPCR heterodimer) and TAS2R family (~25 receptors, class A GPCR, bitter); both are well-validated in the literature but not yet validated by PeptAI's own experiments.",
+    "Modality is designed peptides and proteins; application domain is food, beverage and nutrition (not pharmaceutical).",
+    "Advancement gate requires measured receptor activity in a cell-based assay followed by sensory evaluation — predicted binding alone is insufficient; no candidates have yet cleared this gate.",
+    "Key risks: heterodimer complexity for sweet receptor modelling/assay, selectivity challenges across 25 bitter receptors, imperfect translation from cell assays to sensory perception, and food ingredient regulatory requirements.",
+    "Platform uses staged computational filters (structure, binding geometry, developability) with iterative learning from measured sequence-activity pairs.",
+    "No quantitative experimental data (IC50, EC50, % modulation, etc.) are reported anywhere in the document."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": [
+    {
+      "title": "Receptor Modelling and Design (Current Activity)",
+      "description": "Computational receptor modelling and peptide/protein design against TAS1R2/TAS1R3 and TAS2R targets is the current programme activity, preceding any laboratory work.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "The programme is early. Receptor modelling and design come first, followed by receptor-activity assays.",
+      "page": 2
+    },
+    {
+      "title": "Receptor-Activity Assays (Next Step)",
+      "description": "Cell-based receptor-activity assays are the planned next step after computational design; candidates advance only on measured receptor activity.",
+      "date": "The programme is early. Receptor modelling and design come first, followed by receptor-activity assays.",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "The programme is early. Receptor modelling and design come first, followed by receptor-activity assays.",
+      "page": 2
+    },
+    {
+      "title": "Sensory Evaluation (Future Gate)",
+      "description": "Sensory panel evaluation is a required advancement gate following successful cell-based receptor activity measurement.",
+      "date": "A candidate advances only on measured receptor activity in a cell-based assay, followed by sensory evaluation.",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "A candidate advances only on measured receptor activity in a cell-based assay, followed by sensory evaluation.",
+      "page": 2
+    }
+  ]
+}

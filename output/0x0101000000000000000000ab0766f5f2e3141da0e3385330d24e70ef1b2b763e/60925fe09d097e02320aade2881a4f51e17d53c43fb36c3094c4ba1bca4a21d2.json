@@ -1,0 +1,96 @@
+{
+  "file_path": "/vegfr2/vegfr2-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "presentation",
+  "relevance": "medium",
+  "summary": "This is a programme overview document from PeptAI describing their VEGFR2 calibration programme. VEGFR2 (a receptor tyrosine kinase central to angiogenesis) is being used as a benchmark target to validate PeptAI's computational peptide/protein design and scoring methods before applying them to novel targets. The programme is currently in the calibration round stage, with no experimental results yet reported.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Programme Overview – VEGFR2 Calibration Programme",
+      "content": "PeptAI uses VEGFR2 as a calibration programme. The receptor has abundant prior knowledge, so it tests whether PeptAI's design and scoring methods rank binders correctly before they are trusted on novel targets. Target: VEGFR2 (KDR, FLK1); Class: Receptor tyrosine kinase; Ligand: VEGF-A; Expression: Vascular endothelial cells; Role: Main transducer of VEGF signalling in angiogenesis; Programme role: Calibration of design and scoring methods; Modality: Designed binders."
+    },
+    {
+      "page": 1,
+      "type": "diagram",
+      "title": "Pathway Summary",
+      "content": "Linear pathway diagram: VEGF-A → VEGFR2 on endothelium → Kinase signalling → Vessel growth and permeability. Illustrates the biological cascade being targeted."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology Section",
+      "content": "VEGF-A binds VEGFR2 on endothelial cells. Binding drives receptor dimerisation and kinase signalling, controlling endothelial survival, proliferation, migration and vessel permeability. VEGFR2 is the main signalling receptor of this pathway (Ferrara et al. 2003; Shibuya 2011). The extracellular region has several immunoglobulin-like domains; ligand binding depends on the first few, giving the target a large, accessible, well-studied surface."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Target Validation",
+      "content": "Angiogenesis through VEGF and VEGFR2 underlies tumour growth, several eye diseases and tissue repair. The pathway has a long clinical record, with drugs against both the ligand and the receptor in routine use. The target biology is among the best established in medicine. This is cited as justification for using VEGFR2 as a calibration benchmark — not as a therapeutic claim for PeptAI's own candidates."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Why a Calibration Programme",
+      "content": "Because the target is so well studied, experimental measurements exist for many binders, making VEGFR2 a good benchmark. The programme asks: (1) whether designed binders reach the intended epitope, (2) whether computational scores track measured binding, and (3) where the filters over- or under-select. The answers set the confidence PeptAI places in scores on targets with no prior data. No experimental results are reported yet."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Key risks identified: (1) Epitope control — designs must bind the intended surface, not an incidental one. (2) Score validity — a scoring method that works on one target class may not transfer to another. (3) Selectivity — related VEGF receptors share features, and designs must be checked against them. (4) Interpretation — a calibration result calibrates the methods and says nothing about clinical value."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Success Criteria (How We Will Know)",
+      "content": "Criteria are fixed before the experiment: (1) agreement between computational ranking and measured binding, and (2) recovery of known behaviour on reference binders. Those results decide how scores are weighted on future targets. This is a pre-specified, prospective benchmark design."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "Current stage: Calibration round. The measurements feed directly into how PeptAI weights its scores in other programmes. No experimental data has been generated or reported yet — the programme is in the design/pre-measurement phase."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "How PeptAI Works (Platform Description)",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry and developability. Laboratory measurement is the only gate that makes a candidate real: until binding and function have been measured, a design is a hypothesis. Measured sequence and activity pairs are kept and used to improve the models. This describes a computational-first, iterative design-test-learn platform."
+    }
+  ],
+  "key_findings": [
+    "VEGFR2 is being used purely as a calibration/benchmark target, not as a therapeutic programme — no clinical or efficacy claims are made.",
+    "The programme is currently in the calibration round stage; no experimental binding data or results have been reported yet.",
+    "PeptAI's platform is computational-first: designs pass through staged filters (structure, binding geometry, developability) before laboratory measurement.",
+    "Success criteria are pre-specified: agreement between computational ranking and measured binding, and recovery of known behaviour on reference binders.",
+    "Key risks include epitope control, score transferability across target classes, selectivity against related VEGF receptors, and correct interpretation of calibration results.",
+    "Laboratory measurement is described as the only gate that makes a candidate 'real' — indicating no wet-lab results exist yet for this programme.",
+    "The platform uses measured sequence-activity pairs to iteratively improve its models, suggesting a machine learning-driven design cycle.",
+    "The document is a public programme overview only and explicitly makes no claims about safety or efficacy of any candidate."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": [
+    {
+      "title": "Document Version / Programme Overview Published",
+      "description": "Public programme overview document for the VEGFR2 calibration programme versioned and released.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "Public document. Version of 20 November 2026.",
+      "page": 2
+    },
+    {
+      "title": "VEGFR2 Calibration Round",
+      "description": "Active calibration round using VEGFR2 as a benchmark to validate PeptAI's computational design and scoring methods. Measurements will feed into score weighting for other programmes.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "Calibration round. The measurements feed directly into how PeptAI weights its scores in other programmes.",
+      "page": 2
+    }
+  ]
+}

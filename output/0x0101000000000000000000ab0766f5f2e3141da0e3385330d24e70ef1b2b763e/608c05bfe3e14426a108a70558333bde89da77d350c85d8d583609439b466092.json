@@ -1,0 +1,92 @@
+{
+  "file_path": "/biopesticides/biopesticides-programme-overview.pdf",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "medium",
+  "summary": "PeptAI's programme overview describes a biopesticide platform using computationally designed peptides and protein binders targeting insect-specific ion channels and receptors. The programme is at an early stage (target selection and design strategy), with no proprietary experimental data reported yet. The document primarily establishes scientific rationale and landscape context, citing published literature to validate the approach.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Programme Overview – Target at a Glance",
+      "content": "PeptAI is designing peptides and protein binders for pest control targeting insect ion channels and receptors (voltage-gated sodium/calcium channels, nicotinic acetylcholine receptors) that differ from vertebrate counterparts. Natural precedent: spider venom knottin peptides (e.g., Hv1a). Commercial precedent: an Hv1a-based venom peptide product sold as a foliar spray for glasshouse pests. Scaffold of interest: disulfide-rich, cystine-knot peptides and compact designed binders. Production: microbial expression (e.g., yeast). Modality: designed peptides and binders. Mechanism: designed peptide/binder → pest-specific channel or receptor → disrupted signalling → pest control effect."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Biology – Scientific Rationale",
+      "content": "Insects rely on ion channels and receptors that differ sufficiently from vertebrate counterparts to allow selective action. Spider and other venomous animal peptides exploit these differences (King 2019). Knottin peptides are small, disulfide-rich proteins stable under heat, protease attack, and extreme pH, making them suitable for agricultural use (Herzig et al. 2015). No proprietary experimental data are presented; rationale is based on published literature."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Validation – External Evidence for Concept",
+      "content": "Validation is entirely based on published third-party studies: (1) A spider venom peptide product is commercially sold as a contact spray against aphids, thrips, mites, and whiteflies (Sukiran et al. 2022). (2) Studies on honeybees found no adverse effects for a venom peptide biopesticide (Nakasu et al. 2014). (3) Species selectivity of a sodium channel toxin was explained at the molecular level (Herzig et al. 2016). No PeptAI-generated experimental data are reported."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Landscape and Gap – Opportunity Framing",
+      "content": "The field is moving toward biodegradable biological crop-protection products. Key limitations identified: (1) Oral activity – fusing venom peptide to plant lectin carrier increased oral efficacy against aphids (Fitches et al. 2012); (2) Light stability; (3) Cost of production. PeptAI claims computational design can address all three. De novo binder design from target structure alone is cited as enabling technology (Cao et al. 2022; Watson et al. 2023; Pacesa et al. 2025). Applying this to pest targets is described as having few published precedents."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Design Challenges and Risks",
+      "content": "Key risks identified: (1) Pollinator safety – selectivity against bees and beneficial insects is a hard requirement, to be tested directly; (2) Oral uptake and field stability – designs must survive sunlight, rain, and insect gut; (3) Target structure uncertainty – many insect targets lack experimental structures, increasing model uncertainty; (4) Cost of goods – production must be cheap enough for agriculture, favouring small, well-folded microbially expressed designs; (5) Regulation – biologicals follow region-specific approval paths."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Stage and Next Steps",
+      "content": "The programme is described as active. Current work is target selection and design strategy. Next steps are activity and selectivity testing. No experimental results from PeptAI are reported. Advancement criteria: measured activity on pest target or pest itself, selectivity against beneficial insects, stability under field-like conditions, and production yield meeting cost targets."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "How PeptAI Works – Platform Description",
+      "content": "PeptAI designs peptides and proteins against defined molecular targets. Each design passes through staged computational filters for structure, binding geometry, and developability. Laboratory measurement is the gate for candidate advancement – until binding and function are measured, a design is a hypothesis. Measured sequence-activity pairs are retained to improve models. This describes a computational-first, iterative design-test cycle."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "References",
+      "content": "Key references cited: King 2019 (knottin bioinsecticides); Sukiran et al. 2022 (lectin-fusion oral/topical efficacy); Fitches et al. 2012 (snowdrop lectin fusion oral activity); Nakasu et al. 2014 (honeybee safety of spider venom biopesticide); Herzig et al. 2015 (cystine knot stability); Herzig et al. 2016 (species selectivity of sodium channel toxin); Nascimento et al. 2026 (insecticidal peptides review); Cao et al. 2022 (de novo protein-binding protein design); Watson et al. 2023 (RFdiffusion); Pacesa et al. 2025 (BindCraft one-shot binder design)."
+    }
+  ],
+  "key_findings": [
+    "Programme is at TRL 1–2: currently in target selection and design strategy phase, with no proprietary experimental data reported.",
+    "Scientific concept is validated by third-party literature: a commercial Hv1a-based spider venom peptide biopesticide already exists for glasshouse pests.",
+    "Honeybee safety of venom peptide biopesticides demonstrated in published studies (Nakasu et al. 2014), supporting pollinator-sparing claims.",
+    "Key technical gaps identified: oral activity, field stability (UV/rain), and cost of goods – all proposed to be addressed by computational design.",
+    "De novo binder design from target structure alone (Cao 2022, Watson 2023, Pacesa 2025) is the core enabling technology; application to pest targets has few published precedents.",
+    "Production platform: microbial expression (e.g., yeast) for small, well-folded cystine-knot peptides.",
+    "No proprietary binding data, selectivity data, or in vivo efficacy data from PeptAI are presented in this document.",
+    "Advancement criteria defined: measured pest-target activity, beneficial insect selectivity, field-condition stability, and cost-supporting production yield.",
+    "Many insect target structures lack experimental data, increasing uncertainty in computational design models.",
+    "Regulatory pathway noted as region-specific for biologicals, but no regulatory interactions reported."
+  ],
+  "document_date": "2026-11-20",
+  "milestones": [
+    {
+      "title": "Programme Active – Target Selection and Design Strategy",
+      "description": "PeptAI's biopesticide programme is currently active, with work focused on target selection and design strategy for peptide/binder candidates.",
+      "date": "2026-11-20",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "The programme is active. Current work is target selection and design strategy, followed by activity and selectivity testing.",
+      "page": 2
+    },
+    {
+      "title": "Activity and Selectivity Testing",
+      "description": "Planned next step after target selection and design strategy: testing candidate designs for activity on pest targets and selectivity against beneficial insects.",
+      "date": "followed by activity and selectivity testing",
+      "date_precision": "unknown",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "Current work is target selection and design strategy, followed by activity and selectivity testing.",
+      "page": 2
+    }
+  ]
+}
