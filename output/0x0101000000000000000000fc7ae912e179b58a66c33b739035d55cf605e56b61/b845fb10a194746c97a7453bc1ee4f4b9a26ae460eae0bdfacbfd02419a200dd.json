@@ -1,0 +1,78 @@
+{
+  "file_path": "/hgw-strategic-goals-en",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "none",
+  "summary": "This is a high-level strategic vision document from HGW (Humanity Global Welfare), outlining broad organizational goals across 12 thematic areas including economics, energy, agriculture, commerce, digital security, finance, governance, and human values. The document contains no experimental data, scientific results, therapeutic targets, or any evidence relevant to TRL assessment. It is a conceptual mission/vision statement with no quantitative findings, model systems, or development milestones.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "01 / General Vision",
+      "content": "HGW aims to build an integrated economic, social and technological ecosystem transitioning from scarcity to sustainable abundance. No experimental data or scientific evidence is present. This is a high-level mission statement only."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "02 / Economic and Productive Objectives",
+      "content": "Goals include establishing a circular economy, reducing intermediaries, achieving self-sufficiency, minimizing marginal costs, and creating passive-income opportunities. All aspirational; no data or experiments cited."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "03 / Energy and Environmental Sustainability",
+      "content": "Goals include generating clean renewable energy, developing intelligent energy storage, recycling waste, and integrating energy/water/food/material cycles. All aspirational; no experimental evidence."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "04 / Agriculture and Food Security",
+      "content": "Plans to establish smart vertical farms using clay soil, develop livestock and fish farms, integrate crop/livestock/aquaculture systems, and use AI/robotics/digital twins. No experimental results or data provided."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "05 / Commerce, Services and Well-being",
+      "content": "Plans for automated shopping centres, direct producer-consumer connections, integrated service centres, healthcare/education/cultural services, and smart logistics. No scientific data."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "06 / Scientific Research and Technology",
+      "content": "Plans to establish R&D and innovation centres, develop simulation/digital twin systems, use AI/robotics/automation, and develop 3D printing technologies. No experimental results or TRL-relevant evidence."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "07 / Communications and Digital Security",
+      "content": "Plans for hybrid communications (wireless/terrestrial/satellite), quantum cryptography, decentralized digital infrastructure, and resilience against attacks. No experimental data."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "08 / Financial System and Ownership",
+      "content": "Plans to develop a digital currency linked to real productive assets, use smart contracts, promote shared ownership, and reduce financial speculation. No scientific or experimental evidence."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "09 / Governance and Management",
+      "content": "Plans for a liquid democratic governance model, direct voting, institutional transparency, automated administrative processes, and collective participation. No scientific data."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "10-12 / Human Values, Win-Win Philosophy, and Ultimate Goal",
+      "content": "Articulates core values (freedom, dignity, privacy, justice, sustainability), a win-win philosophy for all stakeholders, and an ultimate goal of a self-sufficient, resource-recycling society. Explicitly notes 'Returns are objectives, not guarantees.' No experimental or scientific evidence."
+    }
+  ],
+  "key_findings": [
+    "Document is a strategic vision/mission statement only — no experimental data, scientific results, therapeutic targets, or TRL-relevant evidence of any kind.",
+    "All 12 sections describe aspirational goals and planned activities, not completed experiments or validated technologies.",
+    "No quantitative data (IC50, efficacy, dose-response, p-values, etc.) is present anywhere in the document.",
+    "No model systems, assays, animal studies, clinical data, regulatory interactions, IP filings, or funding events are mentioned.",
+    "No dates or milestones are specified anywhere in the document.",
+    "The document explicitly disclaims guaranteed returns: 'Returns are objectives, not guarantees.'"
+  ],
+  "milestones": []
+}

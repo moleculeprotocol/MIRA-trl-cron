@@ -1,0 +1,254 @@
+{
+  "file_path": "/hgw-green-financing-framework-v2",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a Green Financing Framework (إطار التمويل الأخضر الموحّد) document authored by Same Elrefaey (Enmansfirma), version 1.0 dated 21 November 2026, covering three infrastructure projects in Sweden: a Research & Digital Simulation Lab, a Solar Power Station, and a Smart Building. The framework defines eligibility criteria, use of proceeds, governance, reporting, and EU Taxonomy alignment for green financing instruments up to €1 billion. This document has no biotech/science experimental content relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Cover Page & Document Metadata",
+      "content": "Title: HGW Green Financing Framework — Comprehensive Integrated Edition (إطار التمويل الأخضر الموحّد). Author/Issuer: Same Elrefaey (Elrefaey Same) — Enmansfirma (sole proprietorship). Version: 1.0, dated 21 November 2026. Status: Draft for pre-issuance review. Projects covered: Research & Data Lab, Digital Simulation & Digital Convergence; Power Station; Smart Building. Document is in Arabic with English section headers."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1 — Purpose, Scope, and Environmental Objective",
+      "content": "The framework defines how to select environmental expenditures within the HGW program, allocate net proceeds from green financing instruments, and report impact. The framework aims to finance and refinance three asset categories that substantially contribute to climate change mitigation (EU Taxonomy Regulation 2020/852). Sweden is the primary scenario country. The framework can be used for green bonds, green sukuk, or green loans (e.g., Almi gröna lån). Total program budget ceiling: €1,000 million. Breakdown: Research Lab (€75M), Power Station (€400M), Smart Building (€500M), Total Projects (€975M), Unallocated (€25M)."
+    },
+    {
+      "page": 1,
+      "type": "table",
+      "title": "Section 1.1 — Program Budget Baseline Table",
+      "content": "| Project | Budget (M EUR) | Green Financing Scope |\n|---|---|---|\n| Research & Data Lab / Digital Simulation | 75 | Research & measurement bundles with verifiable environmental impact |\n| Power Station | 400 | Multi-generation, storage, and grid-tied components meeting performance thresholds |\n| Smart Building | 500 | Energy and water components meeting performance criteria |\n| Total Projects | 975 | Qualification value determined by evidence review |\n| Unallocated | 25 | Excluded until assigned to a qualified bond |\n| Program Total (Ceiling) | 1,000 | — |"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 1.2 — Integrated Sweden Scenario Strategy",
+      "content": "The program targets climate change mitigation by combining three complementary assets in Sweden: (1) Research Lab (~€70M): low-carbon research asset, designed as a carbon-minimizing hub for testing smart city solutions; (2) Solar Power Station (~€400M): generates clean renewable electricity; (3) Smart Building (~€100M): high-efficiency commercial building with smart management systems. Rationale for integration: the three assets form a prototype urban green ecosystem when operated together. The lab provides data and simulation; the power station feeds clean energy; the smart building aggregates production and water data. Sweden scenario total: ~€570M (vs. €975M framework ceiling). The remaining €25M unallocated is excluded from the current baseline."
+    },
+    {
+      "page": 2,
+      "type": "table",
+      "title": "Section 1.2 — Asset Budget Comparison Table",
+      "content": "| Asset | Framework Budget (M EUR) | Sweden Scenario Estimate (M EUR) |\n|---|---|---|\n| Lab | 75 | ~70 |\n| Power Station | 400 | ~400 |\n| Smart Building | 500 | ~100 |\n| Total Assets | 975 | ~570 |"
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 1.3 — Alignment with International Standards",
+      "content": "The framework aligns with ICMA Green Bond Principles (GBP 2021/2025) covering: use of proceeds, project evaluation and selection, management of proceeds, and reporting. EU Taxonomy Regulation 2020/852 and Delegated Regulation 2021/2139 are used to determine eligible economic activities and assess alignment. DNSH (Do No Significant Harm) criteria apply. EuGB Regulation 2023/2631 is used as a voluntary reference for naming and labeling. References: ICMA GBP principles, ICMA-IsDB-LSEG Green Sukuk Guide, EU Taxonomy, EuGB Regulation."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2 — Use of Proceeds and Eligibility Criteria",
+      "content": "Net proceeds will be allocated exclusively to finance or refinance the following eligible projects meeting specified criteria. Three eligible project categories with acceptance conditions and evidence requirements are defined."
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Section 2 — Eligible Expenditures and Acceptance Conditions Table",
+      "content": "| Project | Eligible Expenditures | Acceptance Conditions |\n|---|---|---|\n| Research Lab | Digital production/storage or building efficiency systems, field measurement devices, dedicated software | Link each bundle to a specific green asset and operational decision; submit work plan, baseline, distribution method, shared resource costs by use or measurement; accounting for environmental benefits vs. expected benefits |\n| Power Station | Solar panels, wind, thermal energy components, land for production/storage/grid, qualified construction costs (building, grid connection, monitoring systems) | Study of source and site, impact assessment by site, lifecycle emissions documentation, storage documentation. Allocate mixed storage portion if quantifiable by charge/discharge measurements |\n| Smart Building | Insulation, high-efficiency cooling, smart meters, solar energy management, water consumption reduction systems | Define measurement boundaries including owner and tenants; submit independent design model compared to reference building; test on-site operation and use; after commissioning, HGW threshold: at least 20% reduction in annual energy use within defined limits, with baseline established and technical verification before allocation |"
+    },
+    {
+      "page": 3,
+      "type": "table",
+      "title": "Section 2.1 — EU Taxonomy Eligibility Table (Sweden Scenario)",
+      "content": "| Eligible Economic Activity | Verification Criteria and Eligibility Standard |\n|---|---|\n| 4.1 — Solar Photovoltaic Power Generation (NACE: D35.11 / F42.22) | Electricity generation using PV technology meets 'substantial contribution' to climate change mitigation. DNSH criteria applied. Biological and economic diversity risks reviewed. Storage and grid operations reviewed per relevant activity standards. |\n| 7.1 — Construction of New Buildings (CCM 7.1) | Primary operational energy consumption (PED) must be at least 10% below the NZEB threshold defined in Swedish legislation (exceeding minimum legal requirement). Energy performance certificate required for buildings >5,000 m². Research lab treated under this standard if new construction. |\n| 7.2 — Renovation of Existing Buildings (CCM 7.2) | Renovation meets 'major renovation' requirements per EU Taxonomy, or achieves a measurable improvement in primary energy consumption (PED) of at least 30% compared to pre-renovation. Applies to smart building or lab if converting an existing building. |\n| 7.5 — Smart Energy Systems and Control (CCM 7.5) | Smart systems are not standalone luxury tools but eligible as they enable measurement and improvement of building environmental performance. Documented with smart meter installation, BEMS, smart lighting and HVAC control systems per applicable activity description and technical standards. |"
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 2 — General and Decisive Exclusions",
+      "content": "Fossil fuel heating: any building relying on fossil fuel heating in direct combustion must be excluded entirely, or the heating source must be replaced by the solar power station or another renewable source. Station systems and vehicles: no financing for systems or vehicles operating on fossil fuels, or any activity linked to fossil fuel extraction or transport. Other excluded items: general public and unaccounted expenditures, traditional investment equipment, non-dedicated general financial expenditures, activities that fully consume another financing source, activities violating minimum social standards (e.g., ILO core labor standards). Mixed asset mechanism: if an asset is partially green (e.g., mixed invoice or non-green purchase order), only the eligible portion is allocated; separation must be documented and the separation method must align with EuGB 'allocation' principle."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 2.2 — Egypt Scenario: Regulatory Differences",
+      "content": "In the Egyptian scenario, component eligibility is reviewed per applicable local regulations instead of European technical standards, and compliance gaps between standards are documented. The Egyptian Financial Regulatory Authority (FRA) listing requirements and Egyptian Stock Exchange listing rules are reviewed when studying issuance. A local energy reference and application date replaces the Swedish reference."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 3 — Governance and Decision-Making Structure",
+      "content": "A Green Finance Committee takes final decisions on eligibility and allocation. Minimum 5 members: sustainability officer (Chair), financial representative, technical/engineering representative, legal consultant, and one independent external member. Quorum: 3 members. Decisions by majority vote. Conflicts of interest: any member with a direct or indirect interest in an issuance item is prohibited from voting on that item. Committee meets quarterly and upon any material change in assets or regulations. Minutes and decisions recorded annually for at least 10 years, available to external reviewers and regulatory bodies. Transitional governance (Enmansfirma phase): owner makes sole decisions documented by minutes, supported by external technical/financial reviewers (engineer or EU taxonomy consultant) as needed. Authorities transfer automatically to the Green Finance Committee upon its formation."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 3.1 — Independent Grievance and Complaints Mechanism",
+      "content": "An independent channel is established to receive complaints from workers, local communities, and affected parties, with the option of anonymous submission. Each complaint must be acknowledged within 5 working days and its outcome and justification communicated. Complaints are recorded in the annual impact report with aggregate figures."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 4 — Project Evaluation and Selection",
+      "content": "Project owner submits eligibility application including: site, scope, invoices or estimates, eligible costs, benefits, methodology, and data. Technical and sustainability team verifies: activity code and EU taxonomy classification (4.1, 7.1, 7.2, or 7.5), substantial contribution to climate change mitigation, quantitative assessment of land and social risks including biodiversity, battery lifecycle, electronic waste, water, and building waste. Legal and financial team: matches financial sources and invoices, verifies no double-counting, determines financing share and refinancing, reviews legal and Sharia documents. Green Finance Committee (or owner in Enmansfirma phase): approves or rejects the bond item with documented justification. DNSH documentation file: a separate file for each project specifying the environmental objective, evidence, corrective action, responsible party, and closure date. DNSH file covers: 'do no significant harm' to biodiversity, circular economy, pollution prevention, water, climate adaptation, and sustainable use of resources. Social safeguards file documents compliance with Swedish and EU labor laws, anti-corruption, OECD Article 18 of the taxonomy."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 5 — Management of Proceeds",
+      "content": "Net proceeds tracked in a dedicated bank account or sub-ledger matching bank accounts and the issuer's books. Enmansfirma phase: no separate legal entity, so a dedicated sub-account (eller ett separat konto) is opened under the company name; every incoming amount is documented exclusively for the three eligible assets per financing agreement. After transition to AB or SPV: separation becomes legally and contractually formalized, with separation mechanism explicitly defined in operational documents. Each disbursement record identifies: project, amount, currency, invoice date, disbursement date, exchange rate, credit status, and approval source. Matching can use digital ledger for documentation and evidence references. Operational targets: allocation within 24 months of issuance; review of reallocation to eligible expenditures within 24 months, with disclosure of actual ratio and operational documents. Temporary balance: if proceeds not fully disbursed immediately, held per issuer treasury policy in low-risk liquid instruments (money market accounts or short-term bonds) not linked to excluded activities; Sharia compliance rules apply for sukuk. Loss of eligibility or lapse: returns the unallocated balance to the reserve; identifies any delay or gap in allocation to the responsible party and investors per issuance documents. Issuance size: compares the eligible tranche size with the program ceiling of €1 billion; the power station and research lab are detailed with electricity sale terms and financing source. Sukuk Sharia compliance: upon using sukuk, the underlying assets and yield-generating source are reviewed from an independent Sharia-compliant source, and Sharia compliance rules and purification are applied per the Sharia board's rulings."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 6 — Reporting and Impact Measurement",
+      "content": "An Allocation Report is issued annually at the end of each financial year and upon any material change in allocation, and an Impact Report annually (or every two years in early stages). Allocation report content: aggregate net proceeds, amounts allocated per project (Power Station / Lab / Smart Building), temporarily unallocated balance, and any new financing or reallocation or exclusion. Impact report content: measurement year and boundaries, data sources, baseline, and expected vs. actual values with clear distinction and comparison. Impact indicators table: Lab — energy savings (MWh/year), dedicated simulation consumption (MWh/year); Power Station — installed capacity (MW), net annual production (MWh/year), storage capacity (MWh), avoided emissions (tCO2e/year); Smart Building — energy intensity (kWh/m²/year), primary energy consumption (MWh/year), water savings (m³/year). Measurement methodology: compare asset operation before and after applying the framework or against baseline. Present simulation results with comparison scenarios. Note the lab's contribution when verified. Total impact for the asset is presented when the power station or lab benefits the smart building. Reporting timeline: reports published on official website within 120 days of year-end (or 60 days for any material change in eligibility or allocation), retained for 10 years, available to investors on request. Methodology or allocation changes disclosed within 60 days of committee decision."
+    },
+    {
+      "page": 6,
+      "type": "table",
+      "title": "Section 6 — Impact Indicators Table",
+      "content": "| Project | Impact Indicators | Measurement Method |\n|---|---|---|\n| Lab | Realized operational savings (MWh/year), dedicated simulation consumption (MWh/year) | Compare asset operation before/after applying framework or against baseline; present simulation results with comparison scenarios; note lab contribution when verified |\n| Power Station | Installed capacity (MW), net annual production (MWh/year), storage capacity (MWh), avoided emissions (tCO2e/year) | Production, delivery, and discharge records; estimate emissions from baseline vs. project; document grid emission factor in Sweden; document storage measurement year |\n| Smart Building | Energy intensity (kWh/m²/year), primary energy consumption (MWh/year), water savings (m³/year) | Smart meter readings and boundaries compared to NZEB baseline or pre-renovation; with disclosure of heating and cooling improvements, energy savings, and water efficiency measures |"
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 6.1 — SDG Alignment and Communication Plan",
+      "content": "Reports published on official website within 120 days of year-end; retained for 10 years; available to investors on request. Methodology or allocation changes disclosed within 60 days of committee decision. SDG alignment: Power Station — SDG 7 (clean energy at affordable prices), supporting SDG 13 (climate action), SDG 9; Lab — SDG 9 (industry, innovation, infrastructure), supporting SDG 13, SDG 11; Smart Building — SDG 11 (sustainable cities and communities), supporting SDG 12, SDG 6 (clean water), SDG 12."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Section 6 — SDG Alignment Table",
+      "content": "| Project | Primary SDG | Supporting SDGs |\n|---|---|---|\n| Power Station | SDG 7 — Clean energy at affordable prices | SDG 13 (Climate Action), SDG 9 |\n| Lab | SDG 9 — Industry, innovation, and infrastructure | SDG 13, SDG 11 |\n| Smart Building | SDG 11 — Sustainable cities and communities | SDG 12, SDG 6 (Clean Water), SDG 12 |"
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Section 7 — Activation Timeline and Required Documents",
+      "content": "The lab begins first by preparing simulation models and data records and baselines. The power station is the first green candidate for issuance and its evidence bundles are studied once complete. The smart building and lab bundles are studied after their criteria are met. Before determining issuance amount, all bundles are collected in one coordination table with columns: bond identifier, asset/category, cost/currency, eligible portion and prior financing, baseline and indicator, documents and references, decision and date."
+    },
+    {
+      "page": 7,
+      "type": "table",
+      "title": "Section 7.1 — Activation Timeline Table",
+      "content": "| Phase | Output | Responsible | Proposed Timing |\n|---|---|---|---|\n| A | Framework approval and DNSH scorecard | Owner / Committee | Month 1–2 |\n| B | Completion of power station eligibility files and electricity sale pathway | Technical and financial team | Month 3–5 |\n| C | External review of framework and SPO | External reviewer | Month 5–7 |\n| D | Issuance decision and size determination | Finance and Committee | Month 7–9 |\n| E | Initial offering and allocation | Issuing entity | Month 9–12 |"
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Section 8 — Transition to Issuing Entity and External Review",
+      "content": "This document is a strategic starting point to begin discussing financing with Swedish banks (gröna lån) and agencies like Almi that support small businesses in the green transition. It is eligible for any green loan or grant. However, it does not replace the legal transition to an issuing entity if the goal is to issue bonds or sukuk in capital markets. Steps required: (1) Establish a limited liability company (AB): minimum share capital 25,000 SEK per Verksamt, providing separate legal personality and responsibility for issuance. (2) Obtain Legal Entity Identifier (LEI): required for issuing securities in capital markets (the sole proprietorship is currently exempt from LEI but AB needs it). (3) Establish a special purpose vehicle (SPV) (optional): to separate issuance risks and distribute them by asset ownership. (4) Mandatory external review (SPO) and EuGB requirements: in the current phase (sole proprietorship), external review is not mandatory for green loans but recommended from a body such as Sustainalytics or CICERO. For bond or sukuk issuance in organized markets or EuGB, an SPO and pre-issuance review are required, and post-issuance review within 10–12 months per EuGB Articles 10–12."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Section 9 — Declaration and Signature",
+      "content": "The framework is reviewed annually and upon any material change in assets or regulations. Assets compliance and issuance decision remain under review. Disclaimer: this framework is an internal organizational document and does not constitute a commitment or obligation to issue any financial instrument, nor a guarantee of achieving specific results. All figures and estimates are subject to update upon availability of engineering data and licenses, and are not relied upon by any external party except per approved operational documents. Issuing party: Same Elrefaey (Elrefaey Same). Internal reference number (redacted from public version): 8709059136. Signature and approval date fields are blank (pre-issuance draft)."
+    },
+    {
+      "page": 8,
+      "type": "table",
+      "title": "Annex A — Detailed DNSH Scorecard",
+      "content": "DNSH scorecard for each bond item specifying environmental objective, evidence, corrective action, responsible party, and closure date. Columns: Environmental Objective (EU Taxonomy 2020/852), PV (4.1), Building (7.1/7.2/7.5), Storage and Grid, Required Evidence. Rows include: Climate Mitigation, Climate Adaptation, Water and Marine Resources, Circular Economy, Pollution, Biodiversity. Key entries: Climate Mitigation — substantial contribution for all three asset types; Climate Adaptation — site physical risk assessment required; Water — no material expected impact (water report required); Circular Economy — end-of-life plan for panels/batteries/demolition waste; Pollution — low GWP refrigerants, battery leakage management; Biodiversity — site survey and distance from protected areas."
+    },
+    {
+      "page": 9,
+      "type": "table",
+      "title": "Annex A — DNSH Scorecard (continued, page 9)",
+      "content": "Additional DNSH rows: Pollution — low GWP refrigerants, battery leakage management (materials register, battery leakage management); Biodiversity — site survey and distance from protected areas (survey report, grid route map). Checklist for framework compliance includes: DNSH scorecard for each bond item, framework and owner/committee minutes approval, minimum social guarantees file, external review and SPO report, legal and structural confirmations (for sukuk), treasury and temporary balance policy, impact measurement methodology and baselines, entity documents (AB/SPV) and LEI, information sheet (EuGB pathway), disclosure and communication plan."
+    }
+  ],
+  "key_findings": [
+    "This is a Green Financing Framework document, NOT a biotech or science experimental document. It has no TRL-relevant experimental data, assays, model systems, or therapeutic content.",
+    "The document covers three infrastructure projects: a Research & Digital Simulation Lab (€75M), a Solar Power Station (€400M), and a Smart Building (€500M) in Sweden, with a total program ceiling of €1 billion.",
+    "The 'Research Lab' referenced is a data/simulation/AI lab for smart city applications, not a biomedical or pharmaceutical research facility.",
+    "The framework aligns with EU Taxonomy Regulation 2020/852 (Climate Change Mitigation), ICMA Green Bond Principles 2021/2025, and EuGB Regulation 2023/2631.",
+    "EU Taxonomy eligible activities covered: 4.1 (Solar PV), 7.1 (New Building Construction), 7.2 (Building Renovation), 7.5 (Smart Energy Systems).",
+    "DNSH (Do No Significant Harm) criteria are applied across all six EU Taxonomy environmental objectives for each asset.",
+    "Governance structure: Green Finance Committee (minimum 5 members) with majority voting; transitional governance via sole proprietorship (Enmansfirma) owner.",
+    "Reporting: Annual Allocation Report and Impact Report; key impact metrics include MWh/year energy savings, MW installed capacity, tCO2e/year avoided emissions, kWh/m²/year energy intensity.",
+    "Activation timeline spans approximately 12 months from framework approval to initial offering and allocation.",
+    "Document is a pre-issuance draft (Version 1.0, dated 21 November 2026), not yet signed or approved."
+  ],
+  "document_date": "2026-11-21",
+  "milestones": [
+    {
+      "title": "Framework Approval and DNSH Scorecard",
+      "description": "Approval of the Green Financing Framework and completion of DNSH scorecard by owner/committee.",
+      "date": "Month 1–2",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "اعتماد الإطار ومصفوفة DNSH — المالك / اللجنة — الشهر ١–٢",
+      "page": 7
+    },
+    {
+      "title": "Power Station Eligibility Files and Electricity Sale Pathway",
+      "description": "Completion of power station eligibility documentation and electricity sale pathway by technical and financial team.",
+      "date": "Month 3–5",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "اكتمال ملفات تأهل المحطة ومسار بيع الكهرباء — الفريق الفني والمالية — الشهر ٣–٥",
+      "page": 7
+    },
+    {
+      "title": "External Review of Framework and SPO",
+      "description": "External review of the Green Financing Framework and Second Party Opinion (SPO) by an external reviewer.",
+      "date": "Month 5–7",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "المراجعة الخارجية للإطار و SPO — مراجع خارجي — الشهر ٥–٧",
+      "page": 7
+    },
+    {
+      "title": "Issuance Decision and Size Determination",
+      "description": "Final decision on issuance and determination of issuance size by finance team and committee.",
+      "date": "Month 7–9",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "funding",
+      "source_quote": "قرار الإصدار وتحديد الحجم — المالية واللجنة — الشهر ٧–٩",
+      "page": 7
+    },
+    {
+      "title": "Initial Offering and Allocation",
+      "description": "Initial public offering and allocation of green financing instruments by the issuing entity.",
+      "date": "Month 9–12",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "commercial",
+      "source_quote": "الطرح والتخصيص الأولي — كيان الإصدار — الشهر ٩–١٢",
+      "page": 7
+    },
+    {
+      "title": "Proceeds Allocation Target",
+      "description": "Target to allocate proceeds to eligible expenditures within 24 months of issuance.",
+      "date": "within 24 months of issuance",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "أهداف تشغيلية مقترحة: تخصيص الحصيلة خلال 24 شهرًا من تاريخ الإصدار، يقتصر النظر في إعادة التمويل على النفقات المؤهلة خلال 24 شهرًا قبله، مع الإفصاح عن النسبة والنافذة الفعلية في وثائق العملية.",
+      "page": 5
+    },
+    {
+      "title": "Annual Allocation Report Publication",
+      "description": "Annual Allocation Report published on official website within 120 days of year-end.",
+      "date": "annually, within 120 days of year-end",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "تُنشر تقارير التخصيص والأثر على الموقع الرسمي للبرنامج خلال ١٢٠ يومًا من نهاية السنة المالية",
+      "page": 6
+    },
+    {
+      "title": "Post-Issuance External Review (EuGB)",
+      "description": "Post-issuance review required within 10–12 months of issuance per EuGB Articles 10–12.",
+      "date": "within 10–12 months of issuance",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "regulatory",
+      "source_quote": "مراجعة التخصيص بعد الإصدار (post‑issuance review) وفق المواد 10–12 من لائحة EuGB. لائحة EuGB، المواد 10–12",
+      "page": 8
+    }
+  ]
+}
