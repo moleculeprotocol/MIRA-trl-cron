@@ -1326,24 +1326,42 @@ function formatClosedTodosSection(closedTodos: ClosedTodo[]): string {
 
 ## Already Closed Todos
 
-The team has already closed these todos. Do NOT suggest them again, and do NOT suggest near-duplicates that ask for the same evidence or work. If the related criterion still scores < 5, suggest a different, complementary next step instead.
+The team has already closed these todos. Do NOT suggest them again, and do NOT suggest near-duplicates that ask for the same evidence or work.
+
+Closed todos do NOT free up slots to fill. Do not replace them just to keep the list the same length. Only suggest a new todo for the same criterion if it independently passes the quality bar.
 
 <closed_todos>
 ${JSON.stringify(items, null, 2)}
 </closed_todos>`
 }
 
+/** Hard upper bound per todo type. It is a ceiling, not a target. */
+const MAX_TODOS_PER_TYPE = 10
+
 const TODO_GENERATION_PROMPT = `You are a biotech project advisor. Generate actionable todo items to help improve a project's TRL scores.
 
 ## Scoring System
 - Scores range from 1 (worst) to 5 (best)
 - A score of 5 means perfect - no improvement needed
-- Scores of 1, 2, 3, or 4 mean there's room for improvement - generate todos for these
+- Scores of 1, 2, 3, or 4 mean there's room for improvement - todos may help here, if a good one exists
 
 ## Your Goal
 
-Generate two sets of todos — **public** and **private** — each containing 1 to 10 items, for a combined total of 2 to 20 todos.
-Focus on the BEST effort-to-impact ratio. Quick wins first.
+Suggest only the todos that are genuinely worth doing. Each todo costs the team attention, so **fewer, better todos beat a longer list**.
+
+- There is NO minimum. Zero todos of a type is a valid answer.
+- There is a maximum of ${MAX_TODOS_PER_TYPE} **public** and ${MAX_TODOS_PER_TYPE} **private** todos. This is a ceiling, not a target — most projects need far fewer.
+- Focus on the BEST effort-to-impact ratio. Quick wins first.
+
+### Quality Bar
+
+Include a todo ONLY if ALL of these are true:
+1. **It would plausibly raise the criterion's score** — not just add more paperwork.
+2. **It is concrete** — the team knows exactly what to do or upload when they read it.
+3. **It is not already covered** — by the data room, by another todo in your list, or by an already closed todo.
+4. **It is in scope** — it fits the project's current phase (see below).
+
+If you are unsure whether a todo passes this bar, leave it out. Do NOT pad the list with generic, vague, or overlapping items to reach a number.
 
 ## CRITICAL: Respect Project Scope, Roadmap & Milestones
 
@@ -1446,7 +1464,7 @@ Consider impact based on the criterion's weight:
 
 You may generate todos for ANY criterion where score < 5. There is NO limit per criterion.
 
-For EACH type (public and private), pick the 1-10 best todos by effort/impact ratio:
+For EACH type (public and private), pick only the todos that pass the quality bar (at most ${MAX_TODOS_PER_TYPE}), ranked by effort/impact ratio:
 - **Best value**: low effort + high impact (these should be first)
 - **Good value**: low effort + medium impact, OR medium effort + high impact
 - **Moderate value**: medium effort + medium impact, OR low effort + low impact
@@ -1482,12 +1500,12 @@ This ordering ensures teams see quick wins at the top and can make immediate pro
 
 ## Rules
 
-1. Generate 1-10 PUBLIC todos AND 1-10 PRIVATE todos (at least one of each if any score < 5)
+1. Generate 0-${MAX_TODOS_PER_TYPE} PUBLIC todos AND 0-${MAX_TODOS_PER_TYPE} PRIVATE todos — only those that pass the quality bar
 2. criterion_key MUST exactly match a key from the scores JSON
 3. Be specific - reference actual files from the data room when mentioning referenced items
 4. Order each group by effort/impact ratio (best value first)
 5. Every todo MUST have a "type" field set to either "public" or "private"
-6. Aim for a reasonable mix — most projects will have both public-facing gaps and private data gaps`
+6. Never split, rephrase, or invent todos to fill a type — if one type has no good todos, return none for it`
 
 /**
  * Generates actionable todo items based on the project's data room contents,
@@ -1599,7 +1617,7 @@ ${dataRoomContent}
    - Do NOT suggest todos for future stages the project hasn't reached yet
    - Match todos to the current TRL level
 
-5. SELECT the best 1-10 PUBLIC todos and 1-10 PRIVATE todos by effort/impact ratio:
+5. SELECT only todos that pass the quality bar (at most ${MAX_TODOS_PER_TYPE} PUBLIC and ${MAX_TODOS_PER_TYPE} PRIVATE), by effort/impact ratio:
    - Prioritize: low effort + high impact (high-weight criteria)
    - Then: low effort + medium impact, medium effort + high impact
    - Include high effort items only if critical AND within scope
@@ -1612,7 +1630,7 @@ ${dataRoomContent}
 
 Use the EXACT criterion keys from the scores JSON (e.g., "therapeutic_relevance", "intellectual_property", "utility_of_candidates").
 
-You MUST generate at least 1 public AND at least 1 private todo if ANY criterion has a score < 5.`
+Quality over quantity: a short list of genuinely useful todos is the best answer. Returning few or no todos is fine.`
 
   const { output } = await generateText({
     model: anthropic(REASONING_MODEL),
@@ -1621,11 +1639,16 @@ You MUST generate at least 1 public AND at least 1 private todo if ANY criterion
     output: Output.object({ schema: todoListSchema }),
   })
 
-  console.log(
-    `Todo generation complete: ${output.todos.length} todos generated`,
+  // Enforce the ceiling in code too; the lists are ordered best-first.
+  const todos = (["public", "private"] as const).flatMap((type) =>
+    output.todos.filter((t) => t.type === type).slice(0, MAX_TODOS_PER_TYPE),
   )
 
-  return output.todos
+  console.log(
+    `Todo generation complete: ${todos.length} todos generated${todos.length < output.todos.length ? ` (capped from ${output.todos.length})` : ""}`,
+  )
+
+  return todos
 }
 
 // =============================================================================

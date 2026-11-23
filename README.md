@@ -117,7 +117,7 @@ Each criterion is scored 1-5 (5 = strongest), multiplied by its weight, and summ
 
 ### Step 5: Todo Generation
 
-For any criterion that scored below 5, the pipeline generates actionable improvement items. The model receives the full scoring context plus the raw dataroom content and produces 2-20 todos.
+For any criterion that scored below 5, the pipeline generates actionable improvement items. The model receives the full scoring context plus the raw dataroom content and produces only todos that pass a quality bar (they must raise the score, be concrete, be new, and be in scope). There is no minimum; the maximum is 10 public and 10 private todos, enforced in code.
 
 Each todo contains:
 
@@ -142,7 +142,7 @@ Key generation rules:
 To close a todo, set its `status` to `closed` in Sanity Studio. When the pipeline runs again, it replaces only the open todos:
 
 - Closed todos stay in the list unchanged, after the new open todos.
-- The model sees the closed todos and does not suggest them, or near-duplicates, again.
+- The model sees the closed todos and does not suggest them, or near-duplicates, again. It is told not to replace closed todos just to keep the list the same length.
 - The pipeline reads closed todos from the draft if one exists, otherwise from the published document.
 
 ## MIRA chat report
