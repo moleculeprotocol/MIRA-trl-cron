@@ -17,6 +17,7 @@ import {
 } from "../lib/molecule.js"
 import {
   dataroomHashChanged,
+  getClosedTodos,
   updateTrlAndScoringAsDraft,
 } from "../lib/sanity.js"
 
@@ -136,10 +137,18 @@ async function processProject(project: Project): Promise<void> {
   // Step 3: Generate todos based on scoring results and data room content
   let todos = null
   if (scoringResult) {
+    const closedTodos = await getClosedTodos(oclId)
+    if (closedTodos.length > 0) {
+      console.log(
+        `Found ${closedTodos.length} closed todo(s) - excluding them from generation`,
+      )
+    }
+
     todos = await generateTodos(
       trlAnalysis.trl_classification,
       scoringResult,
       formattedContent,
+      closedTodos,
     )
 
     if (todos && todos.length > 0) {

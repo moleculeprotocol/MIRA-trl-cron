@@ -137,6 +137,14 @@ Key generation rules:
 - **Scope-aware**: Todos respect the project's stated roadmap and current development phase. A TRL 1 project won't get todos about GMP manufacturing.
 - **Ordered by actionability**: Immediately uploadable items first, complex new work last.
 
+#### Closing todos
+
+To close a todo, set its `status` to `closed` in Sanity Studio. When the pipeline runs again, it replaces only the open todos:
+
+- Closed todos stay in the list unchanged, after the new open todos.
+- The model sees the closed todos and does not suggest them, or near-duplicates, again.
+- The pipeline reads closed todos from the draft if one exists, otherwise from the published document.
+
 ## MIRA chat report
 
 A second, independent tool lives in `src/mira-report/`. It has nothing to do with TRL assessment: it summarises how the MIRA chat assistant performed over a time window. It reads traces, scores, and costs from [Langfuse](https://langfuse.com/), aggregates them, asks an LLM to group the user messages into themes, and prints the result or posts it to Slack.
@@ -174,6 +182,7 @@ lib/llm.ts            All AI logic: extraction, questionnaire, classification, s
 lib/molecule.ts       Molecule GraphQL API client (fetches projects and dataroom files)
 lib/sanity.ts         Sanity CMS integration (storage and change detection)
 output/               Cached extraction results, organized by project ID
+erc8004/              ERC-8004 agent registration on Base (guide, registration file, script)
 ```
 
 ## Tech stack

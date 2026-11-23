@@ -2,6 +2,7 @@ import { createClient } from "@sanity/client"
 import { SANITY_DATASETS, SANITY_PROJECT_ID } from "./config.js"
 import type { ScoringResult, TodoItem, TrlAnalysis } from "./llm.js"
 import { notifySlack } from "./slack.js"
+import { closedTodosOf, mergeTodos, type StoredTodo } from "./todos.js"
 
 type Environment = "staging" | "production"
 
@@ -81,18 +82,16 @@ function transformScoringForSanity(scoringResult: ScoringResult) {
   }
 }
 
-function transformTodosForSanity(todos: TodoItem[]) {
-  return todos.map((todo, index) => ({
-    _type: "todoItem" as const,
-    _key: `${todo.criterion_key}-${index}`,
-    criterionKey: todo.criterion_key,
-    title: todo.title,
-    description: todo.description,
-    effort: todo.effort,
-    specificity: todo.specificity,
-    type: todo.type,
-    status: "open",
-  }))
+/**
+ * Returns the todos the team has closed for a project. Reads the draft first
+ * (the latest editorial state), falling back to the published document.
+ */
+export async function getClosedTodos(oclId: string): Promise<StoredTodo[]> {
+  const [draft, published] = await Promise.all([
+    client.getDocument(`drafts.${oclId}`),
+    client.getDocument(oclId),
+  ])
+  return closedTodosOf(draft ?? published)
 }
 
 export async function updateTrlAndScoringAsDraft(
@@ -123,13 +122,11 @@ export async function updateTrlAndScoringAsDraft(
     trlData.projectScoring = transformScoringForSanity(scoringResult)
   }
 
-  if (todos && todos.length > 0) {
-    trlData.todos = transformTodosForSanity(todos)
-  }
-
   // The onChainLab document must already exist. We only add TRL/scoring data.
-  const existingDraft = await client.getDocument(draftId)
-  const published = await client.getDocument(oclId)
+  const [existingDraft, published] = await Promise.all([
+    client.getDocument(draftId),
+    client.getDocument(oclId),
+  ])
 
   if (!published) {
     throw new Error(`onChainLab ${oclId} not found`)
@@ -139,6 +136,13 @@ export async function updateTrlAndScoringAsDraft(
     throw new Error(
       `Document ${oclId} is of type "${published._type}", expected "${ONCHAIN_LAB_TYPE}"`,
     )
+  }
+
+  // Replace the open todos, but keep the ones the team closed. Re-read them
+  // here (not earlier) so todos closed during this run are not lost.
+  const closedTodos = closedTodosOf(existingDraft ?? published)
+  if (todos && todos.length > 0) {
+    trlData.todos = mergeTodos(todos, closedTodos)
   }
 
   if (publishImmediately) {
@@ -160,9 +164,13 @@ export async function updateTrlAndScoringAsDraft(
   }
 
   const todoCount = todos?.length ?? 0
+  const todoSummary =
+    todoCount > 0
+      ? ` and ${todoCount} todo(s)${closedTodos.length > 0 ? ` (kept ${closedTodos.length} closed)` : ""}`
+      : ""
   const action = publishImmediately ? "Published" : "Draft created/updated"
   console.log(
-    `${action} for ${oclId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoCount > 0 ? ` and ${todoCount} todo(s)` : ""}`,
+    `${action} for ${oclId} with trlValue: ${trlAnalysis.trl_classification}${scoringResult ? ` and scoring (final: ${scoringResult.scoring.final_weighted_score.toFixed(2)})` : ""}${todoSummary}`,
   )
 
   if (commitHash) {

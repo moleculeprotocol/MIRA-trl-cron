@@ -1306,6 +1306,33 @@ const todoListSchema = z.object({
 
 export type TodoItem = z.infer<typeof todoItemSchema>
 
+/** A todo the team already closed (as stored in Sanity). */
+export interface ClosedTodo {
+  criterionKey?: string
+  title?: string
+  description?: string
+}
+
+function formatClosedTodosSection(closedTodos: ClosedTodo[]): string {
+  if (closedTodos.length === 0) return ""
+
+  const items = closedTodos.map(({ criterionKey, title, description }) => ({
+    criterion_key: criterionKey,
+    title,
+    description,
+  }))
+
+  return `
+
+## Already Closed Todos
+
+The team has already closed these todos. Do NOT suggest them again, and do NOT suggest near-duplicates that ask for the same evidence or work. If the related criterion still scores < 5, suggest a different, complementary next step instead.
+
+<closed_todos>
+${JSON.stringify(items, null, 2)}
+</closed_todos>`
+}
+
 const TODO_GENERATION_PROMPT = `You are a biotech project advisor. Generate actionable todo items to help improve a project's TRL scores.
 
 ## Scoring System
@@ -1469,12 +1496,14 @@ This ordering ensures teams see quick wins at the top and can make immediate pro
  * @param trlLevel - The TRL classification of the project
  * @param scoringResult - The scoring result from calculateWeightedScore
  * @param dataRoomContent - The formatted extracted documents text
+ * @param closedTodos - Todos the team already closed; these are not suggested again
  * @returns Array of todo items, or null if TRL level is not supported
  */
 export async function generateTodos(
   trlLevel: TrlAnalysis["trl_classification"],
   scoringResult: ScoringResult,
   dataRoomContent: string,
+  closedTodos: ClosedTodo[] = [],
 ): Promise<TodoItem[] | null> {
   if (!isScoringTrlLevel(trlLevel)) {
     console.log(`Todo generation not supported for ${trlLevel}, skipping...`)
@@ -1546,7 +1575,7 @@ READ CAREFULLY - look for items that are MENTIONED or REFERENCED but where the a
 
 <data_room>
 ${dataRoomContent}
-</data_room>
+</data_room>${formatClosedTodosSection(closedTodos)}
 
 ## Your Task
 
