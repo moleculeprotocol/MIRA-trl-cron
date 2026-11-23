@@ -1,0 +1,75 @@
+{
+  "file_path": "/dixit-prior-art-statement-2026-11-22",
+  "extraction_version": 2,
+  "document_type": "regulatory",
+  "relevance": "low",
+  "summary": "This is a public lab document from SpineDAO Foundation explaining the intellectual property strategy for the Dixit project. It states that no patent has been filed or is intended for the Archive-to-Royalties method, and instead relies on dated publication, on-chain timestamping, contracts, and trademark protection. The document is primarily an IP/legal strategy note with no experimental data or scientific results.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "No Patent Sought — IP Strategy Overview",
+      "content": "SpineDAO Foundation has not filed and does not intend to file a patent over the Archive-to-Royalties method or any part of the Dixit architecture. The rationale is threefold: (1) the retrieval technique is not the scarce asset and any grantable claim would be narrow enough to design around; (2) the true scarce asset — lawful, consented, attributable access to archives — is built from contracts and trust and cannot be patented or invented around; (3) filing a patent would disclose the method on an 18-month delay at cost, without the advantages of self-publication."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Basis of Protection — Four Pillars",
+      "content": "The position is protected by: (1) Dated publication — two published articles (Archive-to-Royalties and a sequel on measured ignorance and countable expert opinion) establish priority and fix the method's date; (2) On-chain registration — blockchain timestamping of documents and title records in a form that cannot be backdated; (3) Contract — per-speaker consent, archive licences, and a passage-level rights register constitute the lawfully usable corpus, which a competitor would have to rebuild one institution at a time; (4) Accumulation — each signing institution makes the next easier via a proven contract and rights framework."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Publication as Defensive Prior Art",
+      "content": "Publishing the Archive-to-Royalties method is framed as a defensive act: it places the method in the prior art, preventing third parties from claiming the same ground and asserting it against the Foundation or its partner societies. Additionally, the public, permanently timestamped commitment that Dixit retrieves but does not train on entrusted material is described as a harder-to-retract form of the core contractual obligation underpinning every archive agreement."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Trade Marks",
+      "content": "The Dixit mark and its visual identity are held by SpineDAO Foundation. Trademark registration is treated separately from the method; nothing in this note waives trademark rights."
+    }
+  ],
+  "key_findings": [
+    "No patent has been filed or is planned for the Archive-to-Royalties method or Dixit architecture — a deliberate strategic choice, not an oversight.",
+    "The core scarce asset is described as lawful, consented, attributable access to archives via contracts and trust — not the underlying retrieval technology.",
+    "Two published articles (Archive-to-Royalties; sequel on measured ignorance and countable expert opinion) serve as dated prior art to establish method priority.",
+    "On-chain (blockchain) timestamping is used to create tamper-proof records of documents and title records.",
+    "A passage-level rights register and per-speaker consent framework constitute the legally usable corpus — the primary competitive moat.",
+    "The document contains no experimental data, clinical results, or quantitative scientific findings relevant to TRL assessment.",
+    "Dixit is described as a retrieval system that does not train on entrusted material — a key architectural and contractual commitment."
+  ],
+  "document_date": "2026-11-22",
+  "milestones": [
+    {
+      "title": "Prior Art Publication — Archive-to-Royalties",
+      "description": "Publication of the Archive-to-Royalties article to establish dated prior art over the method and fix its date in the public record.",
+      "date": "2026-11-22",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Two published articles establish priority over the method and fix its date — Archive-to-Royalties, and the sequel on measured ignorance and countable expert opinion. Both are filed as public documents in this lab.",
+      "page": 1
+    },
+    {
+      "title": "Prior Art Publication — Measured Ignorance Sequel",
+      "description": "Publication of the sequel article on measured ignorance and countable expert opinion, also filed as a public lab document to establish prior art.",
+      "date": "2026-11-22",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "Two published articles establish priority over the method and fix its date — Archive-to-Royalties, and the sequel on measured ignorance and countable expert opinion. Both are filed as public documents in this lab.",
+      "page": 1
+    },
+    {
+      "title": "On-Chain Registration of Lab Documents",
+      "description": "Blockchain timestamping of the prior art documents and title records in a form that cannot be backdated.",
+      "date": "2026-11-22",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "This lab timestamps the documents above and the title records that follow them, in a form that cannot be backdated.",
+      "page": 1
+    }
+  ]
+}

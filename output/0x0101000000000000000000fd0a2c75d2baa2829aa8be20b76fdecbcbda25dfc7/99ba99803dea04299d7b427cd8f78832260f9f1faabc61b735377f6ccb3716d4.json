@@ -1,0 +1,93 @@
+{
+  "file_path": "/dixit-ip-note-2026-11-22",
+  "extraction_version": 2,
+  "document_type": "regulatory",
+  "relevance": "low",
+  "summary": "This is an Intellectual Property Note published by SpineDAO Foundation on 22 November 2026, describing the IP assets of the Dixit system — a natural-language query tool for recorded conference archives. The document defines what IP is owned, what is excluded, the ownership structure (Swiss association), licensing arrangements, and the deliberate choice not to seek patents. It contains no experimental data, clinical results, or scientific evidence relevant to TRL assessment.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "What Dixit Is (Section 1)",
+      "content": "Dixit converts recorded conference archives into a queryable corpus. Users can ask questions in natural language; every answer cites the source passage and the timestamp, resolving to playback of the original recording. If the archive does not contain an answer, the system reports that rather than fabricating a response."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP Assets (Section 2)",
+      "content": "The IP held by SpineDAO Foundation consists of: (1) The Dixit mark and visual identity; (2) The Archive-to-Royalties method — attribution of generated answers to specific source passages and allocation of a defined revenue share to authors on a published formula; (3) The three-state answer model — answered with citation, retrieval miss, and refusal; (4) The consented-corpus framework — per-speaker consent, contributor compensation options (credit/rent/ownership), revocability with complete index removal, and a passage-level rights register; (5) The published body of work describing the above."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "IP Exclusions (Section 3)",
+      "content": "Excluded from the IP: source code and running infrastructure (owned by the operating company); the archives themselves (owned by the contributing societies, with Dixit holding only a terminable licence); identifiable patient material (governed by consent and data-protection annexes); model weights (Dixit retrieves only, does not train or fine-tune, so no derived model exists)."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Ownership Structure (Section 4)",
+      "content": "IP is held by SpineDAO Foundation, a Swiss association (CHE-148.763.611) registered in Zug. A Swiss association has no share capital and no shareholders; it cannot be acquired and its assets cannot change hands through a sale. This structure is chosen deliberately to protect institutions entrusting long-term teaching archives."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Licensing Arrangement (Section 5)",
+      "content": "The Foundation does not trade directly. It licenses IP to an operating company. The existing precedent is a licence granted to VECTOR SAS at a flat 4% of revenue. Any licence requires a dated board resolution with conflicted officers declaring their interest and abstaining from the vote."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Status at Publication (Section 6)",
+      "content": "At the date of this note (22 November 2026), the IP described in Section 2 is held by SpineDAO Foundation. The operating company is in formation. The licence granted to it, and the assignment of code and infrastructure to it, will be filed in the lab on execution."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "IP Protection Strategy (Section 7)",
+      "content": "No patent is sought over the method. Protection relies on dated publication, consented corpora, and contract. This is described as a deliberate choice, with rationale set out in an accompanying statement on prior art published alongside this note."
+    }
+  ],
+  "key_findings": [
+    "Dixit is a natural-language query system over recorded conference archives, with citation-to-timestamp resolution and a three-state answer model (answered, retrieval miss, refusal).",
+    "Core IP assets include the Archive-to-Royalties attribution method, the three-state answer model, and the consented-corpus framework — all held by SpineDAO Foundation (Swiss association, CHE-148.763.611).",
+    "No patent protection is sought; protection strategy relies on dated publication, consented corpora, and contract.",
+    "The operating company is in formation as of 22 November 2026; licence and code assignment will be filed on execution.",
+    "Existing licence precedent: Foundation licensed IP to VECTOR SAS at 4% of revenue.",
+    "Dixit does not train or fine-tune on archived material; no model weights are derived or owned.",
+    "Document contains no experimental data, clinical results, or scientific validation evidence — TRL relevance is low."
+  ],
+  "document_date": "2026-11-22",
+  "milestones": [
+    {
+      "title": "IP Note Publication",
+      "description": "SpineDAO Foundation publicly published the Dixit Intellectual Property Note, establishing dated prior art and formally stating IP ownership.",
+      "date": "2026-11-22",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "SpineDAO Foundation · public lab document · 22 November 2026",
+      "page": 1
+    },
+    {
+      "title": "Operating Company in Formation",
+      "description": "The operating company that will receive the IP licence and code/infrastructure assignment is currently being formed; documents will be filed in the lab on execution.",
+      "date": "2026-11-22",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "other",
+      "source_quote": "The operating company is in formation. The licence granted to it, and the assignment of code and infrastructure to it, will be filed in this lab on execution.",
+      "page": 2
+    },
+    {
+      "title": "Licence to VECTOR SAS",
+      "description": "Foundation granted a licence to VECTOR SAS at a flat 4% of revenue; cited as an existing precedent for future operating company licences.",
+      "date": "2026-11-22",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "ip",
+      "source_quote": "The precedent is the existing licence granted by the Foundation to VECTOR SAS at a flat four per cent of revenue.",
+      "page": 1
+    }
+  ]
+}

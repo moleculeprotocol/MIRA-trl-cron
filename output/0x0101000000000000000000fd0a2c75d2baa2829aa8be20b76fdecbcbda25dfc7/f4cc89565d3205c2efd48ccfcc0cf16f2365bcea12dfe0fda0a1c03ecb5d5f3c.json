@@ -1,0 +1,129 @@
+{
+  "file_path": "/what-the-archive-does-not-know",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a SpineDAO blog post titled \"What the Archive Does Not Know,\" authored by Vincent Challier (spine surgeon) and Nassim Dehouche (computer scientist), published August 18, 2026. It argues that when a queryable medical knowledge archive refuses to answer a clinician's question, that refusal is a valuable measurement of knowledge gaps in a specialty. The piece describes three ideas at different stages: a built refusal-behavior system, refusal logging being implemented, and two proposals (commissioned knowledge and countable expert opinion).",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title and Authors",
+      "content": "Blog post: 'What the Archive Does Not Know' by Vincent Challier (Spine surgeon, M.D.) and Nassim Dehouche (Computer scientist, Ph.D.), published on SpineDAO blog, August 18, 2026. Part of 'The Archive Series,' described as a sequel to 'Archive-to-Royalties.'"
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "TL;DR and Core Thesis",
+      "content": "A refusal is not a failure, it is a measurement. Every time a queryable archive cannot answer a clinician's question, it has located a gap between what a specialty asks and what it teaches. Three ideas follow: (1) refusal behaviour exists and works [built]; (2) refusal logging is being implemented; (3) commissioned knowledge and countable expert opinion are proposals. The piece explicitly distinguishes each stage of development."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Clinical Motivating Example",
+      "content": "A surgeon queries an archive about a 62-year-old patient with L4-L5 degenerative spondylolisthesis, grade I slip, stable on dynamic films, MRI showing moderate lateral recess stenosis at L4-L5 with preserved disc height. The question: decompress alone vs. fuse, at 3 and 5 years, for slip progression and reoperation. The archive cannot answer. This illustrates the concept of 'measured ignorance.'"
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Why Refusal Is Hard — Built System",
+      "content": "The system must distinguish three states: (1) corpus contains an answer and found it; (2) corpus contains an answer but failed to find it; (3) corpus does not contain an answer at all. Only state 3 is a true refusal and valuable as a measurement. A production system may confuse state 2 for state 3 (retrieval miss vs. knowledge gap). Over enough queries, noise averages and signal persists — a cluster of refusals around the same topic from independent users across a year is 'structure.' The refusal behavior system is described as BUILT and working."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Measured Ignorance — Refusal Logging (Being Implemented)",
+      "content": "Aggregating refusals across a year produces a demand-side map of a specialty's blind spots. Proposed use case: congress programme committees could use the top 11 unanswered questions to set next year's sessions, replacing argument and seniority with demonstrated member need. Refusal logging to enable this is described as 'being implemented now.' Limitation noted: the refusal map measures 'felt ignorance,' not actual ignorance — practitioners trained not to expect answers in an area will not ask."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Commissioned Knowledge — Proposal",
+      "content": "Once a gap can be measured, it can be priced. A society could post a premium against an unanswered question: the talk that closes the gap earns at a higher rate. This would make compensation forward-looking (shaping what gets taught) rather than purely retrospective. Authors state: 'We are proposing it. We have not built it.' Key governance requirement: gap measurement and reward-setting must not be controlled by the same party to prevent gaming."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Counting Expert Opinion — Proposal",
+      "content": "Expert opinion sits at the bottom of evidence hierarchies partly because it has never been countable. With per-passage attribution over a consented corpus, claims could be quantified: how many times drawn upon, how many independent contributors asserted it, whether any passage in the corpus contradicts it, over what period. This is most relevant where RCT evidence does not exist: rare complications, intraoperative judgement, salvage after failure. Authors state: 'This is a proposal. We have not built an evidence-grading system.'"
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "The Objection and Structural Independence",
+      "content": "Retrieval frequency measures salience, not correctness. Correlated sources (e.g., 11 surgeons from the same training unit) are one observation with eleven voices. Proposed mitigation: use Ronald Burt's structural holes framework (Burt 1992, 2004) — convergence across a structural hole (between groups that do not share training, faculty, or professional networks) is evidence; convergence within a cluster is an echo. Independence is computable from affiliation data. Limitation: structural independence does not protect against field-wide inherited errors."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "What It Would Take — Dependencies and Timeline",
+      "content": "Measured ignorance requires: (1) consented corpus large enough that refusal clusters reflect real gaps; (2) a year of accumulated refusal data distinguishing true refusals from retrieval misses; (3) reliable three-state separation in practice; (4) consent and data-governance infrastructure. Commissioned knowledge requires: governance structures where gap measurement and reward-setting sit with different parties, with a published, contestable, and changeable reward formula. Counting expert opinion requires: affiliation metadata at point of consent, per-passage attribution at chunk granularity, and a methodological framework surviving peer review by GRADE methodologists. 'The honest timeline is years, not months.'"
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Current Status Summary",
+      "content": "What exists: a retrieval system that refuses when it should, and records that it did. What is being implemented: refusal logging at sufficient resolution to aggregate. What is proposed: commissioned knowledge and countable expert opinion."
+    },
+    {
+      "page": 11,
+      "type": "text",
+      "title": "Sources Cited",
+      "content": "Burt, R.S. (1992). Structural Holes: The Social Structure of Competition. Harvard University Press. Burt, R.S. (2004). 'Structural Holes and Good Ideas.' American Journal of Sociology, 110(2), 349–399. Evidence hierarchies: Oxford Centre for Evidence-Based Medicine levels and the GRADE framework."
+    }
+  ],
+  "key_findings": [
+    "This is a conceptual/opinion blog post, not an experimental or clinical study — TRL relevance is low.",
+    "SpineDAO has built a queryable medical knowledge archive with functional refusal behavior (the system can say 'I do not know' when a question falls outside the corpus).",
+    "Refusal logging is currently being implemented — not yet complete.",
+    "Two further ideas (commissioned knowledge via gap-priced rewards, and countable expert opinion via per-passage attribution) are explicitly described as proposals not yet built.",
+    "The honest timeline for the full vision is described as 'years, not months.'",
+    "The system is applied to spine surgery knowledge (e.g., L4-L5 spondylolisthesis decompress vs. fuse decisions).",
+    "Authors propose using Ronald Burt's structural holes framework to weight expert opinion by structural independence of contributors.",
+    "No experimental data, clinical trial results, or quantitative efficacy measures are presented — this is a conceptual framework piece.",
+    "Authors are Vincent Challier (spine surgeon, M.D.) and Nassim Dehouche (computer scientist, Ph.D.)."
+  ],
+  "document_date": "2026-08-18",
+  "milestones": [
+    {
+      "title": "Refusal Behavior System Built",
+      "description": "A retrieval system that refuses to answer when a question falls outside the corpus, and records that it did, has been built and is operational.",
+      "date": "2026-08-18",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "What exists: a retrieval system that refuses when it should, and records that it did.",
+      "page": 10
+    },
+    {
+      "title": "Refusal Logging Implementation",
+      "description": "Refusal logging at sufficient resolution to aggregate refusal data and identify knowledge gap clusters is currently being implemented.",
+      "date": "2026-08-18",
+      "date_precision": "day",
+      "status": "in_progress",
+      "category": "research",
+      "source_quote": "refusal logging to enable it is being implemented now.",
+      "page": 6
+    },
+    {
+      "title": "Commissioned Knowledge System",
+      "description": "A proposed system where identified knowledge gaps are priced and posted as premiums, incentivizing contributors to fill gaps with higher compensation rates. Not yet built.",
+      "date": "years, not months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "other",
+      "source_quote": "We are proposing it. We have not built it.",
+      "page": 7
+    },
+    {
+      "title": "Countable Expert Opinion Framework",
+      "description": "A proposed evidence-grading system using per-passage attribution and structural independence metrics to make expert opinion quantifiable rather than merely categorical. Not yet built.",
+      "date": "years, not months",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "This is a proposal. We have not built an evidence-grading system.",
+      "page": 8
+    }
+  ]
+}

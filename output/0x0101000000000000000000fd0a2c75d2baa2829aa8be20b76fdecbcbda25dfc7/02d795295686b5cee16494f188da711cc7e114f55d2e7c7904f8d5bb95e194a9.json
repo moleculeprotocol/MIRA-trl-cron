@@ -1,0 +1,191 @@
+{
+  "file_path": "/archive-to-royalties",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "low",
+  "summary": "This is a SpineDAO blog post published August 1, 2026, proposing an \"archive-to-royalties\" framework for compensating medical conference speakers whose recorded talks become machine-queryable via AI retrieval systems. The post outlines a conceptual and partially-built system using provenance tracking, x402 micropayments, on-chain settlement, and Shapley-based attribution to meter and pay contributors. It is not a biotech/therapeutic development document and has minimal direct TRL relevance for a drug or device program.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Title and Publication Date",
+      "content": "Blog post titled 'Archive-to-Royalties: Paying the People Who Filled the Archive' published by SpineDAO on August 1, 2026. URL: https://spinedao.com/blog/archive-to-royalties. Captured on 22/11/2026."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "TL;DR and Core Concept",
+      "content": "Conference archives are becoming machine-queryable, so use becomes unbounded while contributor compensation stays at zero. The proposed fix is 'archive-to-royalties': metering each use of a contributor's material, attributing it, and paying on published terms. Three paths are offered — credit (attribution only), rent (per-use royalty), and ownership (stake in the archive) — and the contributor elects, not the platform. Attribution is acknowledged as an unsolved problem. The published formula is argued to matter more than the optimal one."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "The Arrangement — Historical Context of Flat-Fee Archive Licensing",
+      "content": "Describes the traditional model: learned societies record conference talks, sell archive access via annual subscription (e.g., €450/year), and compensate speakers only with travel, hotel, and CV credit. This model was defensible when archive use required human attention (finite, human-scale views). It breaks down when archives become machine-queryable, making use unbounded while compensation stays fixed at zero. The shift is framed as a new kind of demand the old model was never designed to measure."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Archive-to-Royalties — Definition and Four Requirements",
+      "content": "Archive-to-royalties is defined as the conversion of a static recorded archive into a metered one, where each use of a contributor's material is measured, attributed, and compensated on published terms. Four requirements: (1) Provenance at ingestion — every retrievable unit carries a resolvable record of who made it and under which permission; no rights record, no ingestion. (2) Attribution at query time — the system records which material contributed to which answer at a resolution fine enough to divide money by. (3) Compensation on a published formula — the split is stated in advance, applies equally to all, and changes only through governance. (4) An auditable record — the contributor can verify what happened without asking the platform to confirm its own arithmetic."
+    },
+    {
+      "page": 6,
+      "type": "diagram",
+      "title": "Archive-to-Royalties: System Architecture Diagram",
+      "content": "Diagram showing the flow: Recorded Archive (legacy + new recordings, lectures, sessions, annotations) → Provenance Gate (no rights record, no ingestion) → Metered Index (attribution recorded per query, published contestable formula). Orphan Material (attribution-only, royalty to escrow, never converts to platform revenue) feeds into the Provenance Gate via dashed line. Queries (x402 pays per use) feed into the Metered Index. On-chain Record (rights and usage, auditable by all) is produced from the Provenance Gate and Metered Index. Contributors elect per submission among: Credit (attribution only), Rent (per-use royalty), Ownership (stake in the archive). Color coding: Grey = inputs, Purple = pipeline, Amber = settlement, Teal = contributor paths."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "What Changed — Four Enabling Technologies",
+      "content": "Four technologies now exist in production that enable archive-to-royalties: (1) Retrieval-augmented generation (RAG) systems that can identify which source passages produced an answer — attribution layer is improving fast. (2) x402 payment protocol: Coinbase released x402 in May 2025, reviving HTTP 402 status code; by April 2026 contributed to a neutral foundation; Cloudflare and AWS shipped edge-level support; Visa and Stripe connected it to conventional card rails. (3) On-chain settlement providing a tamper-proof ledger of which query accessed whose material, when, and at what price. (4) Collapse of inference cost — as computation approaches free, royalties become the dominant cost component, making archive-to-royalties more viable over time."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "The Retrospective Problem — Legacy Archive Material",
+      "content": "The harder challenge is material already recorded under releases that predate machine use. Consent obtained for one purpose does not extend to another. The honest route is to renegotiate, but operational cost (e.g., 1,500 recorded talks over two decades) makes this impractical. Proposed solution: a default election of 'credit' with opt-up to rent or ownership, taking effect on ingestion and revisable by the contributor at any time. For orphan material (untraceable or deceased rights-holders), the position is: ingestible under attribution-only, with royalty share accruing to escrow indefinitely against a public claim register, never converting to platform revenue. Attribution survives regardless of payment status."
+    },
+    {
+      "page": 9,
+      "type": "text",
+      "title": "Three Paths — Credit, Rent, Ownership",
+      "content": "Path 1 — Credit: No money changes hands. Contributor grants use in exchange for verifiable, machine-readable attribution. Suits senior academic medicine where institutional rules or tax compliance make micropayments impractical. Failure mode: free labour with a receipt if platform earns revenue and contributor does not. Mitigation: credit must be contributor's election, never platform's default.\n\nPath 2 — Rent: Per-use royalty. Each query carries a price split between infrastructure, convening body, and contributors whose material was used, on a published formula. Analogous to performing-rights organisations (GEMA, PRS, ASCAP, BMI). Suits contributors whose material is durably useful. Three failure modes: (a) Concentration — few topics absorb most queries; (b) Variance — most contributors earn trivially small amounts (as with musicians under streaming); (c) Contestability — whoever controls the formula controls the outcome; formula must be published and changeable only through governance.\n\nPath 3 — Ownership: Contributor takes a stake in the archive as a whole rather than per-retrieval payment. Suits early contributors who bootstrap the corpus. Solves the rent model's incentive problem (under rent, contributors are indifferent to others contributing; under ownership, all contributors want the archive to grow). Failure modes: reward decouples from usefulness; valuation is opaque; regulatory weight in most jurisdictions; asks contributors to accept risk in place of cash. Analogue: producer cooperatives and mutual societies."
+    },
+    {
+      "page": 12,
+      "type": "text",
+      "title": "The Point — Incumbent Model and Structural Argument",
+      "content": "The three paths are not competitors but elections; a serious platform offers all three. The failure mode of existing systems is that the platform picked one path on everyone's behalf, usually the cheapest for the platform. The fourth (incumbent) option is the lump-sum buyout: archive licensed wholesale for a fixed fee, individuals receive nothing and learn nothing. Lump-sum licensing sets the price of past use retrospectively through negotiation under threat or litigation. A metered model prices use prospectively and by agreement."
+    },
+    {
+      "page": 13,
+      "type": "text",
+      "title": "The Hard Part — Attribution Resolution",
+      "content": "Attribution resolution is the binding constraint. Four approaches in current literature, none fully correct: (1) Uniform across retrieved sources — trivial but wrong; rewards retrieval not usefulness. (2) Retrieval-similarity weighted — cheap and defensible but similarity to question ≠ contribution to answer. (3) Citation-grounded — closest to intuition, hardest to compute reliably. (4) Cooperative game-theoretic (Shapley-style) — principled and fair but exact computation is exponential in number of documents.\n\nKey research cited: Nematov et al. (arXiv:2507.04480, July 2025) compare six approximation methods in RAG setting; find Kernel SHAP and ContextCite achieve >0.95 Pearson correlation with exact Shapley using ~100 samples, capturing redundancy, complementarity, and synergy between documents. MaxShapley (arXiv:2512.05958, December 2025) exploits decomposable max-sum utility function to compute attribution in linear time, achieving quality comparable to exact Shapley with up to 8x reduction in tokens; explicitly motivated by incentive-compatible compensation for content providers in generative search.\n\nPractical position: production system today uses retrieval-similarity weighting as base with citation grounding as correction. Acknowledged as first iteration open to challenge. Redundancy problem (two contributors teaching same technique may both receive near-zero marginal credit) is unresolved."
+    },
+    {
+      "page": 14,
+      "type": "text",
+      "title": "Prior Art — Media, Publishing, and Payments",
+      "content": "Components of archive-to-royalties exist in media and publishing; the unbuilt part is application to scientific live events. Key prior art: Microsoft Publisher Content Marketplace (announced 3 Feb 2026) co-designed with AP, Condé Nast, Hearst, Business Insider, Vox Media, USA TODAY, People Inc.; payment tied to delivered value; Yahoo first demand partner. Amazon reported (TechCrunch, Feb 2026) to be developing comparable marketplace; no product launched. Industry recognises four models: lump sum, pay-per-crawl, pay-per-query, pay-per-value. Really Simple Licensing 1.0 (finalised Dec 2025) lets publishers declare pay-per-inference terms in machine-readable form; backers include Reddit, Yahoo, Medium, O'Reilly, Ziff Davis; no major model developer publicly committed to honouring it as of early 2026. x402 adoption counter-evidence: independent analysis (Chainalysis, x402stats.io, March–July 2026) found daily settled volume modest, substantially composed of testing rather than commerce; transaction weight skewing toward larger payments over true micropayments. Cloudflare data (June 2026): 52% of crawler requests for AI training, up from ~22% spring 2025."
+    },
+    {
+      "page": 16,
+      "type": "text",
+      "title": "What SpineDAO Is Building — Current Development Status",
+      "content": "SpineDAO is in active discussion with a major spine education organisation about applying this framework to their archive. No deal signed as of publication.\n\nWhat is built: (1) A retrieval system that indexes conference transcripts at chunk granularity, attaches provenance metadata to each chunk, and can report which sources contributed to a given answer. (2) A payment integration handling the x402 402 request-pay-retry handshake. (3) A settlement record that logs each transaction immutably.\n\nWhat is not built: (1) A production attribution formula — currently uses retrieval-similarity weighting as base with citation grounding as correction; acknowledged as first iteration. (2) A governance process for changing the formula — designed but not instantiated. (3) Per-token pricing (more honest than per-request) — model being built toward but not yet default.\n\nBatching threshold: individual per-query settlements are aggregated into a single on-chain transaction when below a gas-cost threshold; system holds a verifiable commitment to pay below threshold, settles above it."
+    },
+    {
+      "page": 18,
+      "type": "text",
+      "title": "Sources / References",
+      "content": "1. Nematov et al., 'Source Attribution in Retrieval-Augmented Generation', arXiv:2507.04480, July 2025. Compares exact Shapley with six approximation methods for document-level RAG attribution; Kernel SHAP and ContextCite achieve >0.95 Pearson correlation with ~100 samples.\n2. MaxShapley: arXiv:2512.05958, December 2025. Linear-time attribution via decomposable max-sum utility; motivated by incentive-compatible compensation for content providers.\n3. Microsoft Publisher Content Marketplace: Announced 3 February 2026.\n4. Amazon marketplace: Reported TechCrunch, February 2026. No product launched.\n5. Raptive/pay-per-value: Paul Bannister (Raptive CSO) via Digiday; compared to ASCAP/BMI royalties.\n6. Really Simple Licensing 1.0: Finalised December 2025.\n7. x402: Released Coinbase May 2025; contributed to foundation April 2026; Cloudflare/AWS edge support; AWS Bedrock AgentCore; Visa Trusted Agent Protocol; Stripe agent-commerce integrations.\n8. Cloudflare AI traffic data: 'Agentic Internet' bot report, June 2026. 52% of AI crawler requests for training, up from ~22% spring 2025.\n9. x402 adoption counter-evidence: Chainalysis, x402stats.io, March–July 2026.\n10. Researcher citation preference: Open-science and data-sharing survey literature."
+    }
+  ],
+  "key_findings": [
+    "This is a conceptual/early-build blog post from SpineDAO (Aug 2026) proposing an 'archive-to-royalties' framework for medical conference archives — not a therapeutic or device development document.",
+    "SpineDAO has built: a RAG-based retrieval system indexing conference transcripts at chunk granularity with provenance metadata; an x402 payment integration; and an immutable on-chain settlement record.",
+    "What is NOT yet built: a production attribution formula, an instantiated governance process for formula changes, and per-token pricing (only per-request currently).",
+    "SpineDAO is in active discussion (no signed deal) with a major spine education organisation to apply this framework to their archive.",
+    "Attribution resolution is acknowledged as the binding unsolved constraint — current system uses retrieval-similarity weighting + citation grounding as a first iteration.",
+    "Key referenced research: Nematov et al. (arXiv:2507.04480, July 2025) and MaxShapley (arXiv:2512.05958, Dec 2025) provide Shapley-based approximation methods for RAG attribution achieving >0.95 Pearson correlation with exact Shapley.",
+    "x402 micropayment protocol (Coinbase, May 2025; foundation April 2026) is the payment rail; Cloudflare and AWS have edge-level support; Visa and Stripe connected to card rails.",
+    "Counter-evidence acknowledged: x402 daily settled volume as of March–July 2026 is modest and largely composed of testing, not commerce; true micropayment demand not yet proven.",
+    "No biotech/therapeutic experimental data, no clinical or preclinical results, no drug/device TRL-relevant content — document is about a data/IP/payment infrastructure concept for medical education archives."
+  ],
+  "document_date": "2026-08-01",
+  "milestones": [
+    {
+      "title": "x402 Protocol Released by Coinbase",
+      "description": "Coinbase released x402, an open protocol reviving the HTTP 402 status code for machine-to-machine micropayments, enabling per-query payment without accounts or invoices.",
+      "date": "2025-05",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "In May 2025, Coinbase released x402, an open protocol that revives it: a server responds to a request with 402 and a payment specification; the client signs a stablecoin payment and retries the request with proof attached.",
+      "page": 7
+    },
+    {
+      "title": "Nematov et al. RAG Attribution Paper Published",
+      "description": "Publication of 'Source Attribution in Retrieval-Augmented Generation' (arXiv:2507.04480) comparing six Shapley approximation methods for RAG attribution; Kernel SHAP and ContextCite achieve >0.95 Pearson correlation with exact Shapley using ~100 samples.",
+      "date": "2025-07",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Nematov et al. (\"Source Attribution in Retrieval-Augmented Generation\", arXiv:2507.04480, July 2025) systematically compare six approximation methods in the RAG setting and find that Kernel SHAP and ContextCite achieve above 0.95 Pearson correlation with exact Shapley using approximately 100 samples.",
+      "page": 13
+    },
+    {
+      "title": "MaxShapley Paper Published",
+      "description": "Publication of MaxShapley (arXiv:2512.05958) providing linear-time Shapley attribution via decomposable max-sum utility, explicitly motivated by incentive-compatible compensation for content providers in generative search.",
+      "date": "2025-12",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "MaxShapley (arXiv:2512.05958, December 2025) takes a different approach: by exploiting a decomposable max-sum utility function, it computes attribution in linear time rather than exponential, reaching quality comparable to exact Shapley with up to an eightfold reduction in tokens over prior methods.",
+      "page": 14
+    },
+    {
+      "title": "Really Simple Licensing 1.0 Specification Finalised",
+      "description": "RSL 1.0 specification finalised, allowing publishers to declare pay-per-inference terms in machine-readable form. Early backers: Reddit, Yahoo, Medium, O'Reilly, Ziff Davis. No major model developer publicly committed to honouring it as of early 2026.",
+      "date": "2025-12",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Really Simple Licensing, whose 1.0 specification was finalised in December 2025, lets a publisher declare terms including pay-per-inference in machine-readable form.",
+      "page": 15
+    },
+    {
+      "title": "Microsoft Publisher Content Marketplace Announced",
+      "description": "Microsoft announced its Publisher Content Marketplace co-designed with AP, Condé Nast, Hearst, Business Insider, Vox Media, USA TODAY, and People Inc. Payment tied to delivered value; Yahoo was first demand partner.",
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "status": "completed",
+      "category": "commercial",
+      "source_quote": "Microsoft's Publisher Content Marketplace, announced 3 February 2026, was co-designed with publishers including the Associated Press, Condé Nast, Hearst, Business Insider, Vox Media, USA TODAY, and People Inc.",
+      "page": 14
+    },
+    {
+      "title": "Amazon Comparable Marketplace Reported in Development",
+      "description": "TechCrunch reported Amazon is developing a comparable content marketplace for AI licensing. No product launched as of publication.",
+      "date": "2026-02",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "commercial",
+      "source_quote": "Amazon has been reported to be developing a comparable marketplace, alongside separate direct licensing agreements; no product has launched.",
+      "page": 15
+    },
+    {
+      "title": "x402 Protocol Contributed to Neutral Foundation",
+      "description": "The x402 protocol was contributed to a neutral foundation, with Cloudflare and AWS shipping edge-level support, and Visa and Stripe connecting it to conventional card rails.",
+      "date": "2026-04",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "other",
+      "source_quote": "By April 2026, the protocol had been contributed to a neutral foundation. Cloudflare and AWS both shipped edge-level support. Visa and Stripe connected it to conventional card rails through their respective agent-commerce protocols.",
+      "page": 7
+    },
+    {
+      "title": "Cloudflare AI Traffic Report Published",
+      "description": "Cloudflare 'Agentic Internet' bot report found 52% of crawler requests were for AI training as of June 2026, roughly doubled from ~22% in spring 2025.",
+      "date": "2026-06",
+      "date_precision": "month",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Cloudflare's own reporting found that by June 2026, fifty-two per cent of crawler requests were for AI training, roughly doubled from spring 2025.",
+      "page": 15
+    },
+    {
+      "title": "SpineDAO Partnership Discussion with Spine Education Organisation",
+      "description": "SpineDAO is in active discussion with a major spine education organisation about applying the archive-to-royalties framework to their archive. No deal signed as of publication date (August 2026).",
+      "date": "2026-08",
+      "date_precision": "month",
+      "status": "in_progress",
+      "category": "partnership",
+      "source_quote": "We are in active discussion with a major spine education organisation about applying this framework to their archive. We have not signed a deal.",
+      "page": 16
+    }
+  ]
+}
