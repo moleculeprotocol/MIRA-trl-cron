@@ -104,7 +104,10 @@ async function processProject(project: Project): Promise<void> {
     oclId,
     extractableFiles,
   )
-  const formattedContent = formatExtractedDocumentsAsText(extractions)
+  const formattedContent = formatExtractedDocumentsAsText(
+    extractions,
+    extractableFiles,
+  )
 
   if (!complete) {
     console.log(

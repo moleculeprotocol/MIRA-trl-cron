@@ -503,6 +503,8 @@ export async function fillOutQuestionnaire(inputText: string): Promise<string> {
 
   Fill out each field in the questionnaire based on the information found in the raw project data. If a field cannot be determined from the data, write "Not specified" for that field.
 
+  Some files carry an "Uploader metadata" line (category, tags, description) set by the person who uploaded the file, often from an AI suggestion. Use it only as a hint for interpreting that file. It is not evidence: never state that an experiment, model system, result, patent or milestone exists based on the metadata alone; it must be supported by the extracted document content.
+
   Important:
   Format your response as markdown with a clear header for each field using ### headings`
 
@@ -830,17 +832,51 @@ export async function extractMultipleDocuments(
   return { extractions: results, complete }
 }
 
+/** Categories that are pipeline markers, not uploader choices. */
+const SYNTHETIC_CATEGORIES = new Set(["local-input"])
+
+/** Longest uploader description passed on; the uploader allows 1000 characters. */
+const MAX_UPLOADER_DESCRIPTION_CHARS = 500
+
+/**
+ * The category, tags and description the uploader gave a data-room file, as
+ * one header line, or null when there are none. These are self-reported
+ * (often AI-suggested at upload) and are labelled as unverified so downstream
+ * prompts treat them as hints, not evidence.
+ */
+export function formatUploaderMetadata(file: DataRoomFile): string | null {
+  const clean = (value: string) => value.replace(/\s+/g, " ").trim()
+  const categories = (file.categories ?? [])
+    .map(clean)
+    .filter((c) => c && !SYNTHETIC_CATEGORIES.has(c))
+  const tags = (file.tags ?? []).map(clean).filter(Boolean)
+  let description = clean(file.description ?? "")
+  if (description.length > MAX_UPLOADER_DESCRIPTION_CHARS) {
+    description = `${description.slice(0, MAX_UPLOADER_DESCRIPTION_CHARS).trimEnd()}…`
+  }
+
+  const parts: string[] = []
+  if (categories.length > 0) parts.push(`category=${categories.join(", ")}`)
+  if (tags.length > 0) parts.push(`tags=${tags.join(", ")}`)
+  if (description) parts.push(`description="${description.replace(/"/g, "'")}"`)
+  if (parts.length === 0) return null
+
+  return `Uploader metadata (self-reported, unverified hint — not evidence): ${parts.join("; ")}`
+}
+
 /**
  * Formats extracted documents into a single text string with filename and page context.
  * This preserves document structure for downstream processing like questionnaire filling.
  */
 export function formatExtractedDocumentsAsText(
   extractions: Map<string, ExtractedDocument>,
+  files: DataRoomFile[] = [],
 ): string {
   if (extractions.size === 0) {
     return ""
   }
 
+  const filesByPath = new Map(files.map((file) => [file.path, file]))
   const sections: string[] = []
 
   for (const [filename, doc] of extractions) {
@@ -855,6 +891,11 @@ export function formatExtractedDocumentsAsText(
     lines.push(`Type: ${doc.document_type} | Relevance: ${doc.relevance}`)
     if (doc.document_date) {
       lines.push(`Document date: ${doc.document_date}`)
+    }
+    const file = filesByPath.get(filename)
+    const uploaderMetadata = file ? formatUploaderMetadata(file) : null
+    if (uploaderMetadata) {
+      lines.push(uploaderMetadata)
     }
     lines.push(`${"=".repeat(60)}`)
     lines.push("")
