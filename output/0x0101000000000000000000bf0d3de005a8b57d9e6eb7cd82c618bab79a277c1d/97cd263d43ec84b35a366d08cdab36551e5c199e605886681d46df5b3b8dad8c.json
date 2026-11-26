@@ -1,0 +1,296 @@
+{
+  "file_path": "/shadow-fields-and-the-sleeping-eye",
+  "extraction_version": 2,
+  "document_type": "publication",
+  "relevance": "medium",
+  "summary": "This is a 14-page speculative research paper by Garrick Ramsey Holmes (RIFOR Affiliated Researcher) proposing that the sleeping eye reads structured shadow fields and that this input contributes to dream formation. Part I assembles published empirical evidence (eyelid transmittance, melatonin suppression through closed lids, corneal opsin, tear composition, blink physiology, cross-species sleep comparisons, and dream studies in the blind). Part II presents the author's own unvalidated proposals, and Part III contains supporting calculations. The paper is primarily a theoretical synthesis at TRL 1, with no original experiments reported.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Abstract",
+      "content": "The paper proposes that the sleeping eye reads structured shadow fields analogously to how plants use phytochrome to read canopy shade, and that this input contributes to dream construction. Part I assembles measured evidence; Part II presents the author's speculative proposals. The abstract explicitly states: 'Nothing in Part II is presented as established.'"
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Section 1: The Shadow as a Structured Field; Plant Phytochrome Analogy",
+      "content": "Shadows have 3D structure (umbra, penumbra, antumbra). Eclipse shadow bands recorded near 4.5 Hz (sustained) and up to 30 Hz (chaotic, ground only) during 2017 total eclipse (Madhani et al., 2020); a 2024 follow-up did not detect shadow bands above the planetary boundary layer (Deskevich et al., 2026). Plants distinguish biological from non-biological shadows via phytochrome (Pr/Pfr switch at 660/730 nm red:far-red ratio) and cryptochrome (blue-light loss). The shade avoidance syndrome includes elongation, raised leaves, earlier flowering, and inherited priming. This biological shadow-reading is used as an analogy for the paper's central hypothesis."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 2: The Closed Eye as a Light Channel",
+      "content": "Eyelid transmittance (Bierman, Figueiro & Rea, 2011; n=27): ~9% at 630 nm, 0.5% at 550 nm, 0.4% at 490 nm — red passes ~22x better than blue-green. Sakai (2022) measured up to 10x higher transmittance under everyday lighting. LGN and primary visual cortex respond to visual stimuli with eyes closed nearly as strongly as with eyes open (Cicero et al., 2024). Melatonin suppression through closed lids: green light (527 nm) suppressed melatonin 36–56% across the night in one study, 25–45% with circadian phase delay in a second (Figueiro & Rea, 2012). Blue pulses (480 nm) through closed lids during sleep also suppressed melatonin and delayed circadian phase (Figueiro, Bierman & Rea, 2013). The retina projects directly to the ventrolateral preoptic area (sleep switch; Gooley et al., 2003)."
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "title": "Section 3: The Closed Eye as a Blackbody Cavity",
+      "content": "Above ~3 µm, the human eye behaves as a blackbody radiator. With lids closed, the eye forms a cavity at ~37°C (310 K), peak emission ~18 THz (9.3 µm). Three sources of signal in total darkness: (1) Body heat — blackbody peak at 18 THz. (2) Retinal dark light — rhodopsin spontaneous isomerization at ~0.01 events/sec/rod; across 90–120 million rods, ~1 million photon-like events/sec at rhodopsin peak (~498 nm, ~600 THz). (3) Biophotons — retinal ultraweak emission ~2,700 photons/sec/cm² at 300–600 nm in isolated frog/fish retinas (Govardovskii et al., 2019); this emission is at least 100x too weak to account for rod dark noise (refuting Salari et al., 2016 hypothesis). Conclusion: the dark behind the lid is a uniform field against which any external structured pattern stands."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 4: Direct Light Sensing at the Eye's Surface (OPN5/Neuropsin)",
+      "content": "Mammalian retinal and corneal circadian clocks are set by light locally, independent of the SCN and without rods, cones, or melanopsin; the sensor is neuropsin (OPN5), responding to UV-A and violet light (Buhr et al., 2015). Corneal OPN5 is functional: wounding induces OPN5 in mice and primates; violet light accelerates corneal wound healing in mice and macaque corneas in culture (Díaz et al., 2025). Skin opsins: OPN1-SW, OPN2, OPN3, OPN5 expressed in human epidermal melanocytes and keratinocytes (Haltaufderhyde et al., 2015) — not specifically studied in eyelid skin."
+    },
+    {
+      "page": 3,
+      "type": "text",
+      "title": "Section 5: Tear Film and Corneal Lattice Changes During Sleep",
+      "content": "Tear film: ~3 µm thick, ~3 µL volume. Three tear types: basal, reflex, and closed-eye (sleep) tears. Overnight closure shifts film to stagnant layer rich in secretory IgA; CO2 builds up, lowering pH; hundreds of thousands of neutrophils collected from eye surface on waking vs. few in daytime (Tan et al., 1993). Night vs. daytime closure: 2 hours of daytime closure produced significantly fewer neutrophils than 2 hours of nighttime closure (Jin et al., 2024) — lid was closed both times, only external environment differed. Melatonin found in human tears with diurnal concentration variation (Carracedo et al., 2016); melatonin receptors in lacrimal gland, corneal epithelium, conjunctiva. Corneal lattice: clarity depends on collagen fibril arrangement (Maurice, 1957; Meek & Knupp, 2015); interfibrillar spacing 34 nm (dry) to 76 nm (high hydration; Meek et al., 1991); cornea ~78% water. Corneal thickness rises mean 5.5% during sleep (range 1.9–12.6%; Harper et al., 1996). Closed lid supplies oxygen to cornea at ~1/3 atmospheric level. REM eye movements proposed to help oxygenate cornea (Maurice, 1998); small sleep study found no significant correlation between REM% and corneal thickness (Gelir et al., 2014)."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 6: The Blink and the Lid's Shadow as a Visual Processing Stage",
+      "content": "Spontaneous blink rate distinguishes vegetative state from minimally conscious state after brain injury (Magliacano et al., 2021). During lid closure, light entering the eye drops ~100-fold (Riggs et al., 1981). Sensitivity to luminance change drops up to 5-fold around a blink, beginning before lid movement (Volkmann et al., 1980); suppression is neural, tuned by spatial frequency, carried mostly by the magnocellular pathway; retinal neurons distinguish self-generated blink darkening from external darkening of equal luminance. Yang et al. (2024, PNAS): blink luminance transient enhances contrast sensitivity at low spatial frequencies whether blink is real or simulated; effect is carried by the light field itself, not the motor signal; intracranial recordings show biphasic response to blinks in every human visual area."
+    },
+    {
+      "page": 4,
+      "type": "text",
+      "title": "Section 7: Cross-Species Sleep and Eye Covering",
+      "content": "Full REM and slow-wave sleep established in mammals, birds, reptiles. Anomalies: Zebrafish (no eyelids) — two sleep states sharing features of SWS and REM but not called REM due to differences (Leung et al., 2019, Nature). Draughtsboard sharks — sleep with lower metabolic rate and flat posture; ~38% kept eyes open at night while apparently asleep; eye closure follows light more than sleep (Kelly et al., 2022). Jumping spiders (no eyelids) — periodic retinal movements with limb twitching during nocturnal rest (Rößler et al., 2022); sleep not yet proven. Octopuses — close eyes to sleep; distinct active sleep stage resembling vertebrate REM (Pophale et al., 2023, Nature); quiet sleep with closed pupils, active sleep with rapid eye movements (Medeiros et al., 2021). Snakes — eyelids fused into clear spectacle (always closed, always clear); only one snake sleep EEG study (1969, one African rock python) showed no active sleep. Summary taxonomy: movable lid (mammals, birds, lizards) → fullest REM; eye closes another way (octopus) → REM-like; lid fused clear (snakes) → no active sleep found; no cover (fish, spiders) → REM-like states differ."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 8: Visual Dreams in the Blind",
+      "content": "Meaidi et al. (2014): 4-week dream diary study. Congenitally blind — none reported visual impressions; all sighted controls did; congenitally blind reported more sound, touch, taste, smell. Late blind — longer blindness correlated with shorter, less clear, less colored visual dream impressions. Whether congenitally blind have any visual dream imagery remains disputed. Some blind eyes still carry light to the brain's clock: Czeisler et al. (1995) tested 11 blind patients with no conscious light perception; in 3, bright light suppressed melatonin by average 69%, comparable to sighted subjects."
+    },
+    {
+      "page": 5,
+      "type": "text",
+      "title": "Section 9: Frequency and Geometry",
+      "content": "Matter carries intrinsic frequency (f = mc²/h; electron ~1.2×10²⁰ Hz). Geometric confinement fixes allowed frequencies. Earth-ionosphere cavity (Schumann resonances): ~7.83 Hz with harmonics at ~14.1, 20.3, 26.3, 32.5 Hz. Water with periodic resonator array blocks wave propagation ~4.1–4.85 Hz, dip at 4.4 Hz (Hu et al., 2013). The 4–5 Hz neighborhood recurs: Parkinsonian rest tremor 4–6 Hz; cerebellar granular layer resonance 5–7 Hz (Gandolfi et al., 2013); theta rhythm 4–8 Hz; photic driving entrains cortex above 4 Hz; brain tissue water exists in two populations (free-like and confined; Natali et al., 2019)."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 10: Existing Dream Theories",
+      "content": "The function of dreaming is unsolved (Hoel, 2021). Five main theories reviewed: (1) Random activation — byproduct of neural activity. (2) Memory consolidation — sleep/dreaming reorganize memory. (3) Threat simulation (Revonsuo, 2000) — dreams rehearse danger responses. (4) Reverse learning (Crick & Mitchison, 1983) — we dream to forget. (5) Overfitted brain hypothesis (Hoel, 2021) — nightly out-of-distribution hallucination keeps perception general. Author notes: none of these theories ties dreaming to the light and shadow field reaching the sleeping eye."
+    },
+    {
+      "page": 6,
+      "type": "text",
+      "title": "Section 11: Prior Studies of Light During Sleep and Dream Content",
+      "content": "Light flashes (Dement & Wolpert, 1958): tones or light flashes during REM sleep incorporated into only 9% of dream reports. Images with eyes taped open (Rechtschaffen & Foulkes, 1965): no direct correspondence between presented images and dream reports. Lucid dreaming induction (LaBerge et al., 1987): bright red LEDs in goggles during REM sleep; 61% of subjects had ≥1 lucid dream. Two-way communication (Konkoly et al., 2021): Morse-coded math problems via flashing lights through closed eyelids to lucid dreamers; lights appeared inside dreams; one dreamer reported dream water flashing like a fish tank light. Closing dream-eyes (Konkoly, Paller et al., 2026): dreamers who closed eyes inside a dream lost visual content only ~50% of the time. Eyelid movements (Conduit et al., 2004): more visual imagery reports after spontaneous eyelid movements during stage 2 sleep. KEY GAP: No study has delivered a structured shadow (spatial pattern of light/dark, moving penumbra) to closed sleeping lids and scored dream imagery; no study compares dream content under natural shadow vs. darkness."
+    },
+    {
+      "page": 7,
+      "type": "text",
+      "title": "Part II: Author's Proposals (Explicitly Unestablished)",
+      "content": "The author's speculative proposals (all explicitly stated as not established): (1) Shadow field on sleeping face/lid is read as structured information contributing to dream imagery and sleep physiology — 'Dreams are shadows cast in the mind.' (2) Shadow acts on the body with standing equal to light; eyelid closing and Earth's rotation into shadow are the same event at two scales. (3) Direct mechanism at the eye itself (not only melatonin): OPN5 and corneal water lattice changes with light field. (4) Eye's water lattice works through electrons in a quantum physics manner, with lid skin geometrically bound to the water lattice. (5) Eye covering (not eyelid per se) is the variable: animals that can shut out and re-open light show fullest REM-type sleep. (6) 4–5 Hz band is a signature of centimeter-to-meter fluid-coupled resonant structures; coupled modes of eye, orbit, and skull may fall near theta. (7) Lid's shadow is a processing unit of vision; blink is its cadence, tied to neural activity level."
+    },
+    {
+      "page": 8,
+      "type": "text",
+      "title": "Part III: Calculations",
+      "content": "Body heat: Eye at 310 K → blackbody peak at 18 THz (9.3 µm). Retinal dark light: 0.01 events/sec/rod × 90–120M rods = ~920,000–1,200,000 events/sec at ~600 THz (498 nm). Biophoton band: 300–600 nm = 500–1,000 THz. Lid transmittance: 9% at 630 nm vs. 0.4% at 490 nm → red passes ~22.5x better than blue-green; effective center ~476 THz. Canopy/lid comparison: both remove short wavelengths and pass long ones (blue-depleted, red-enriched). Time scales: blink rate 0.1–0.5 Hz; theta 4–8 Hz; eclipse signal ~4.5 Hz; blink is 10–50x slower than theta (slow reset in hierarchy). Nested closings: lid closes in ~0.1 sec; Earth closes hemisphere in ~12 hours; both ratios (lid/theta and Earth/theta) fall between 10⁵ and 10⁶. Moonlit shadow: moonlight 0.1–0.3 lux vs. starlight ~0.001 lux → ~100x change across moving penumbra. Eye as fluid sphere: lowest mode f ≈ v/2d = 1500/0.048 ≈ 31,250 Hz; coupled globe/orbit/skull modes not published. Skull modal analysis: dominant measured frequencies 488.8 and 874.1 Hz (Zanganeh et al., 2025); these are 60–120x above theta; a theta-range mode would require soft tissue coupling not captured by bone measurements."
+    },
+    {
+      "page": 10,
+      "type": "text",
+      "title": "Part IV: Further Work / Research Gaps",
+      "content": "Five identified research gaps: (1) Whether dream content differs between sleep in natural shadow vs. darkness — no study found. (2) Light and shadow through closed lids vs. tear composition and corneal OPN5 — no study found. (3) Coupled resonant modes of eye, orbit, and skull — not measured. (4) Lunar cycle effects on sleep and dreams. (5) Snake sleep EEG beyond the single 1969 python study."
+    }
+  ],
+  "key_findings": [
+    "The eyelid is not opaque: mean transmittance ~9% at 630 nm, 0.5% at 550 nm, 0.4% at 490 nm (Bierman et al., 2011), creating a red-enriched, blue-depleted field analogous to canopy shade.",
+    "Light through closed lids suppresses melatonin by 36–56% (green, 527 nm) and 25–45% (blue pulses, 480 nm) during sleep (Figueiro & Rea, 2012; Figueiro et al., 2013).",
+    "With eyes closed, the lateral geniculate nucleus and primary visual cortex respond to visual stimuli nearly as strongly as with eyes open (Cicero et al., 2024).",
+    "The cornea's neuropsin (OPN5) senses UV-A/violet light independently of rods, cones, and melanopsin; violet light accelerates corneal wound healing in mice and macaque corneas (Díaz et al., 2025).",
+    "Corneal thickness rises by a mean of 5.5% during sleep (range 1.9–12.6%; Harper et al., 1996), and the corneal water lattice changes nightly.",
+    "Night-time eye closure produces significantly more tear neutrophils than daytime closure of equal duration, suggesting an external (light/shadow) signal beyond lid position alone (Jin et al., 2024).",
+    "Congenitally blind individuals report no visual dream imagery; late-blind individuals show progressive loss of visual dream content correlated with duration of blindness (Meaidi et al., 2014).",
+    "Lucid dreamers received Morse-coded light signals through closed eyelids during REM sleep, which appeared inside dreams (Konkoly et al., 2021).",
+    "Blink luminance transient enhances contrast sensitivity at low spatial frequencies; intracranial recordings show biphasic response to blinks in every human visual area (Yang et al., 2024, PNAS).",
+    "The closed eye at 37°C (310 K) behaves as a blackbody cavity with peak emission at ~18 THz (9.3 µm); rhodopsin dark noise generates ~1 million photon-like events/second across the retina.",
+    "No published study has delivered a structured shadow (spatial pattern of light and dark, moving penumbra) to closed sleeping lids and scored dream imagery — identified as a key gap.",
+    "Author's proposals (Part II) are explicitly stated as not established: shadow field as dream-building input, quantum electron mechanism in corneal water lattice, eye-covering as determinant of REM-type sleep depth, 4–5 Hz band as signature of fluid-coupled resonant structures."
+  ],
+  "document_date": "2026",
+  "milestones": [
+    {
+      "title": "2017 Total Eclipse Shadow Band Observation",
+      "description": "Photodiodes on a high-altitude balloon and on the ground recorded a sustained signal near 4.5 Hz and chaotic signals up to at least 30 Hz during the 2017 total solar eclipse.",
+      "date": "2017",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "During the 2017 total eclipse, photodiodes on a high-altitude balloon and on the ground recorded a sustained signal near 4.5 hertz, with chaotic signals up to at least 30 hertz on the ground only (Madhani and colleagues, 2020).",
+      "page": 1
+    },
+    {
+      "title": "Madhani et al. Eclipse Shadow Band Publication",
+      "description": "Publication of eclipse shadow band observations from the 2017 total eclipse using high-altitude balloon and ground-based photodiode arrays.",
+      "date": "2020",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Madhani and colleagues, 2020",
+      "page": 1
+    },
+    {
+      "title": "Bierman, Figueiro & Rea Eyelid Transmittance Study",
+      "description": "Measurement of eyelid spectral transmittance in 27 subjects: ~9% at 630 nm, 0.5% at 550 nm, 0.4% at 490 nm.",
+      "date": "2011",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Bierman, Figueiro and Rea (2011) measured 27 subjects and found mean transmittance of about 9 percent at 630 nanometers, 0.5 percent at 550 and 0.4 percent at 490.",
+      "page": 2
+    },
+    {
+      "title": "Figueiro & Rea Melatonin Suppression Through Closed Lids Study",
+      "description": "Green light (527 nm) delivered through closed lids suppressed melatonin by 36–56% across the night in one study and 25–45% with circadian phase delay in a second.",
+      "date": "2012",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Figueiro and Rea (2012) used a mask to deliver green light (527 nanometers) through closed lids; melatonin was suppressed by 36 to 56 percent across the night in one study, and by 25 and 45 percent with a delay in circadian phase in a second.",
+      "page": 2
+    },
+    {
+      "title": "Figueiro, Bierman & Rea Blue Pulse Melatonin Study",
+      "description": "Trains of blue pulses (480 nm) through closed eyelids during sleep suppressed melatonin and delayed circadian phase.",
+      "date": "2013",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Trains of blue pulses at 480 nanometers through closed lids during sleep also suppressed melatonin and delayed circadian phase (Figueiro, Bierman and Rea, 2013).",
+      "page": 2
+    },
+    {
+      "title": "Cicero et al. Visual Cortex Response with Eyes Closed",
+      "description": "LGN and primary visual cortex respond to visual stimuli with eyes closed nearly as strongly as with eyes open.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "with the eyes closed, the lateral geniculate nucleus and primary visual cortex respond to visual stimuli about as strongly as with the eyes open (Cicero and colleagues, 2024).",
+      "page": 2
+    },
+    {
+      "title": "Buhr et al. OPN5 Photoentrainment Study",
+      "description": "Demonstrated that mammalian retinal and corneal circadian clocks are set by light locally via neuropsin (OPN5), independent of SCN, rods, cones, and melanopsin.",
+      "date": "2015",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Buhr and colleagues (2015) showed that the circadian clocks in the mammalian retina are set by light locally, independent of the suprachiasmatic nuclei, and without rods, cones or melanopsin cells.",
+      "page": 3
+    },
+    {
+      "title": "Díaz et al. OPN5 Corneal Wound Healing Study",
+      "description": "Violet light accelerates corneal wound healing in mice and macaque corneas in culture, mediated by OPN5.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "violet light speeds corneal wound healing in mice and in macaque corneas kept in culture (Díaz and colleagues, 2025).",
+      "page": 3
+    },
+    {
+      "title": "Jin et al. Tear Neutrophil Rhythmic Recruitment Study",
+      "description": "Two hours of daytime eye closure produced significantly fewer tear neutrophils than two hours of nighttime closure, suggesting an external signal beyond lid position.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "In a 2024 study (Jin and colleagues), two hours of eye closure during the day gave significantly fewer neutrophils than two hours of closure at night.",
+      "page": 3
+    },
+    {
+      "title": "Harper et al. Corneal Thickness Diurnal Variation Study",
+      "description": "Corneal thickness rises during sleep by a mean of 5.5% (range 1.9–12.6%).",
+      "date": "1996",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Corneal thickness rises during sleep, by a mean of 5.5 percent in one study (range 1.9 to 12.6 percent; Harper and colleagues, 1996).",
+      "page": 4
+    },
+    {
+      "title": "Yang et al. Eye Blinks as Visual Processing Stage (PNAS)",
+      "description": "Blink luminance transient enhances contrast sensitivity at low spatial frequencies; effect carried by light field, not motor signal; biphasic response to blinks in every human visual area.",
+      "date": "2024",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Yang and colleagues (2024, PNAS) found that the luminance transient of a blink enhances contrast sensitivity at low spatial frequencies, whether the blink is real or simulated.",
+      "page": 4
+    },
+    {
+      "title": "Leung et al. Zebrafish Sleep States Study (Nature)",
+      "description": "Two sleep states in zebrafish sharing features of slow-wave and REM sleep identified; not called REM due to differences.",
+      "date": "2019",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Leung and colleagues (2019, Nature) found two sleep states that share features of slow wave and REM sleep; the researchers did not call them REM because of the differences.",
+      "page": 4
+    },
+    {
+      "title": "Pophale et al. Octopus Active Sleep Study (Nature)",
+      "description": "Distinct active sleep stage resembling vertebrate REM sleep found in octopuses.",
+      "date": "2023",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Pophale and colleagues (2023, Nature) found a distinct active sleep stage resembling vertebrate REM sleep.",
+      "page": 5
+    },
+    {
+      "title": "Meaidi et al. Dream Study in Blind Individuals",
+      "description": "Four-week dream diary study: congenitally blind reported no visual impressions; late blind showed progressive loss of visual dream content with duration of blindness.",
+      "date": "2014",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Meaidi and colleagues (2014) collected four weeks of dream reports. None of the participants totally blind from birth reported a visual impression; all sighted controls did.",
+      "page": 5
+    },
+    {
+      "title": "Konkoly et al. Real-Time Lucid Dream Communication Study",
+      "description": "Morse-coded math problems sent via flashing lights through closed eyelids to lucid dreamers during REM sleep; lights appeared inside dreams.",
+      "date": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Konkoly and colleagues (2021) sent Morse-coded math problems to lucid dreamers with flashing lights through closed eyelids, and the lights appeared inside the dreams.",
+      "page": 6
+    },
+    {
+      "title": "Konkoly, Paller et al. Dream Eye-Closing Study",
+      "description": "Dreamers who closed their eyes inside a dream lost visual content only about half the time.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Konkoly, Paller and colleagues (2026) report that dreamers who closed their eyes inside a dream lost visual content only about half the time.",
+      "page": 7
+    },
+    {
+      "title": "Deskevich et al. 2024 Eclipse Shadow Band Balloon Study",
+      "description": "Follow-up eclipse ballooning study of the April 2024 total eclipse did not detect shadow bands above the planetary boundary layer.",
+      "date": "2026",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "A 2024 follow-up did not detect shadow bands above the planetary boundary layer (Deskevich and colleagues, 2026).",
+      "page": 1
+    },
+    {
+      "title": "Zanganeh et al. Skull Modal Analysis",
+      "description": "Experimental modal analysis of a human cranium identified 15 natural frequencies; dominant modes at 488.8 and 874.1 Hz.",
+      "date": "2025",
+      "date_precision": "year",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "Experimental modal analysis of a human cranium identified 15 natural frequencies; the two dominant were 488.8 and 874.1 hertz (Zanganeh and colleagues, 2025).",
+      "page": 10
+    }
+  ]
+}
