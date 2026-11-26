@@ -70,7 +70,8 @@ async function processProject(project: Project): Promise<void> {
   // alongside the files fetched from the Molecule API.
   const localInputFiles = await getLocalInputFiles(oclId)
 
-  const currentHash = await getDataRoomHash(oclId, localInputFiles)
+  const { shortname, files } = await getProjectDataRoom(oclId)
+  const currentHash = await getDataRoomHash(files, localInputFiles)
   const hashChanged = await dataroomHashChanged(oclId, currentHash)
   const forceProcess = process.env.FORCE_PROCESS === "true"
 
@@ -81,7 +82,6 @@ async function processProject(project: Project): Promise<void> {
     return
   }
 
-  const { shortname, files } = await getProjectDataRoom(oclId)
   const extractableFiles = [
     ...getPublicExtractableFiles(files),
     ...localInputFiles,

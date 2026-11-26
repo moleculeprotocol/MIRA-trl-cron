@@ -267,10 +267,9 @@ export function getPublicExtractableFiles(
 }
 
 export async function getDataRoomHash(
-  oclId: string,
+  files: DataRoomFile[],
   extraFiles: DataRoomFile[] = [],
 ): Promise<string> {
-  const { files } = await getProjectDataRoom(oclId)
   const publicFiles = [...filterPublicFiles(files), ...extraFiles]
 
   const fileHashes = await Promise.all(
