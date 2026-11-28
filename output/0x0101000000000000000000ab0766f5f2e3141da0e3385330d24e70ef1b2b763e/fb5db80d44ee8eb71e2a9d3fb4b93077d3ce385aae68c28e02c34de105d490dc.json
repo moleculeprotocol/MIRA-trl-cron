@@ -1,0 +1,100 @@
+{
+  "file_path": "/experimental-results.md",
+  "extraction_version": 2,
+  "document_type": "other",
+  "relevance": "high",
+  "summary": "An internal announcement from PeptAI reporting preliminary experimental results for two peptide research programs targeting KISS1R and OX2R receptors. KISS1R peptides showed positive functional activation, while OX2R peptides failed to show agonism (with possible assay issues noted). Next steps include selectivity assays, stability/half-life testing, and eventual animal studies for KISS1R, plus a de novo design effort for OX2R.",
+  "content_blocks": [
+    {
+      "page": 1,
+      "type": "text",
+      "title": "KISS1R Program – Preliminary Functional Assay Results",
+      "content": "Both KISS1R peptides (C1-01 and C1-02) showed positive functional activation of the KISS1R receptor. Both peptides cleared the pre-defined efficacy bar set before the experiment. They are described as less potent than the natural ligand (KP-10) but achieved 98% and 90% efficacy relative to KP-10, respectively. This constitutes early in vitro functional evidence of agonism at the target receptor."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "OX2R Program – Preliminary Functional Assay Results",
+      "content": "Neither OX2R peptide (OX2R-004 or OX2R-004-S1) demonstrated functional agonism at the OX2R receptor. The natural ligand control (orexin-B) showed 160x less potency than reported in literature, raising the possibility of an assay failure or technical issue. A de novo peptide design campaign targeting OX2R is planned following learnings from this experiment."
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "title": "Next Steps and Development Roadmap",
+      "content": "1. KISS1R selectivity assay scheduled for December 3rd to assess off-target activity. 2. If selectivity results are positive, next step is stability and half-life testing of KISS1R peptides. 3. Positive stability/half-life data would provide sufficient evidence to proceed to an animal study. 4. A de novo design of OX2R-targeting peptides is planned, informed by learnings from the current experiment. Final results (including interpretation) will be uploaded to individual labs."
+    }
+  ],
+  "key_findings": [
+    "KISS1R peptide C1-01 achieved 98% efficacy relative to natural ligand KP-10 in a functional receptor activation assay.",
+    "KISS1R peptide C1-02 achieved 90% efficacy relative to natural ligand KP-10 in a functional receptor activation assay.",
+    "Both KISS1R peptides (C1-01 and C1-02) cleared the pre-defined efficacy bar, confirming positive agonism at KISS1R.",
+    "KISS1R peptides are less potent than KP-10 but meet efficacy thresholds, indicating early lead-level activity.",
+    "OX2R peptides (OX2R-004 and OX2R-004-S1) showed no functional agonism at OX2R receptor.",
+    "Orexin-B (natural ligand control for OX2R) showed 160x less potency than literature values, suggesting a possible assay failure.",
+    "Project is at an early in vitro stage (TRL 2–3): functional cell-based assays completed, selectivity and stability assays pending, animal studies not yet initiated.",
+    "Planned progression path: selectivity assay → stability/half-life testing → animal study for KISS1R program.",
+    "De novo peptide design for OX2R is planned as a reset following inconclusive results."
+  ],
+  "milestones": [
+    {
+      "title": "KISS1R Preliminary Functional Assay Results Received",
+      "description": "PeptAI received preliminary results from a functional receptor activation assay for KISS1R peptides C1-01 and C1-02, both showing positive agonism at 98% and 90% efficacy relative to KP-10.",
+      "date": "recently",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "PeptAI received preliminary results! 1.- KISS1R shows positive signal. Both peptides (C1-01 and C1-02) switch the receptor on and cleared the bar we set before the experiment, they are less potent but reach 98% and 90% efficacy of the natural ligand (KP-10).",
+      "page": 1
+    },
+    {
+      "title": "OX2R Preliminary Functional Assay Results Received",
+      "description": "Preliminary results for OX2R peptides (OX2R-004 and OX2R-004-S1) showed no functional agonism; natural ligand control (orexin-B) ran at 160x less potency than literature, suggesting possible assay issue.",
+      "date": "recently",
+      "date_precision": "unknown",
+      "status": "completed",
+      "category": "research",
+      "source_quote": "OX2R did not show functional activiation of the receptor. Neither peptide (OX2R-004 or OX2R-004-S1) showed agonism. The assay showed the natural ligand (orexin-B) at 160x less potency as reported in literature, so this opens a possibility as maybe something went wrong in the assay.",
+      "page": 1
+    },
+    {
+      "title": "KISS1R Selectivity Assay Readout",
+      "description": "Selectivity assay results for KISS1R peptides expected on December 3rd, to determine off-target receptor activity.",
+      "date": "2024-12-03",
+      "date_precision": "day",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "On Dec 3rd, we get selectivity assay on KISS1R which would show us if we get off-target selectivity.",
+      "page": 1
+    },
+    {
+      "title": "KISS1R Peptide Stability and Half-Life Testing",
+      "description": "Following positive selectivity results, KISS1R peptides will be tested for stability and half-life improvement, a prerequisite for advancing to animal studies.",
+      "date": "after selectivity assay results",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "After this, the next step would be to test KISS1R peptides for stability and half-life increase.",
+      "page": 1
+    },
+    {
+      "title": "KISS1R Animal Study",
+      "description": "If stability and half-life data are positive, sufficient data will exist to proceed to an in vivo animal study for the KISS1R program.",
+      "date": "after stability/half-life results",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "preclinical",
+      "source_quote": "If these come positive too, we have enough data for an animal study.",
+      "page": 1
+    },
+    {
+      "title": "OX2R De Novo Peptide Design Campaign",
+      "description": "A de novo design of peptides targeting OX2R is planned, informed by learnings from the current inconclusive experiment.",
+      "date": "after current experiment learnings",
+      "date_precision": "relative",
+      "status": "planned",
+      "category": "research",
+      "source_quote": "We plan to start a denovo design of peptides targeting OX2R after our learning from this experiment.",
+      "page": 1
+    }
+  ]
+}
